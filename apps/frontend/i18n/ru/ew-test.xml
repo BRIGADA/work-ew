@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-test" product-name="ew-test">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>examplephrase</source>
+        <target>Example - Do not translate</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

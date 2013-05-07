@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-messsage" product-name="ew-messsage">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>body.20130201trooprebalance</source>
+        <target>Commander,
+
+Improvements in armor and weaponry have resulted in improvements in troop performance as well as reduced research time to train superior soldiers.
+
+To see new updates check your tech lab to see rebalanced research times as well as your Barracks, Factory and Fleet Academy to see improved stats for existing units. </target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>subject.20130201trooprebalance</source>
+        <target>Improved Troop Stats</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

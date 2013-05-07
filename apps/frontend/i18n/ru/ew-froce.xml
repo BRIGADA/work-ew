@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-froce" product-name="ew-froce">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>leaderboard.ends-in</source>
+        <target>&#x414;&#x43E; &#x43A;&#x43E;&#x43D;&#x446;&#x430; &#x442;&#x443;&#x440;&#x43D;&#x438;&#x440;&#x430;</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

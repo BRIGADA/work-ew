@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-orbitalstrikecannon" product-name="ew-orbitalstrikecannon">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>unlock</source>
+        <target>&#x41D;&#x443;&#x436;&#x435;&#x43D; &#x43F;&#x440;&#x435;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432; 16 &#x443;&#x440;.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

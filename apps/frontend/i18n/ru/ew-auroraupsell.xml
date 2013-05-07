@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-auroraupsell" product-name="ew-auroraupsell">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>title</source>
+        <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x410;&#x432;&#x440;&#x43E;&#x440;&#x443;-1</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>description</source>
+        <target>&#x417;&#x434;&#x435;&#x441;&#x44C; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43A;&#x443;&#x43F;&#x438;&#x442;&#x44C; &#x441;&#x445;&#x435;&#x43C;&#x44B; &#x410;&#x432;&#x440;&#x43E;&#x440;&#x44B;-1!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

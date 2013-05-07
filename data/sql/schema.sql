@@ -1,0 +1,4 @@
+CREATE TABLE equipment (id BIGINT AUTO_INCREMENT, type text NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
+CREATE TABLE equipment_level (equipment_id BIGINT, level BIGINT, tier BIGINT, time BIGINT, upgrade_chance BIGINT, require_g BIGINT, require_e BIGINT, require_u BIGINT, require_c BIGINT, require_s BIGINT, stat_hp BIGINT, stat_range BIGINT, stat_rate BIGINT, stat_damage BIGINT, stat_targets BIGINT, stat_splash BIGINT, stat_concussion TINYINT(1), stat_defense FLOAT(18, 2), tags text, PRIMARY KEY(equipment_id, level)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
+CREATE TABLE translation (id VARCHAR(255), lang VARCHAR(2), content text, PRIMARY KEY(id, lang)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
+ALTER TABLE equipment_level ADD CONSTRAINT equipment_level_equipment_id_equipment_id FOREIGN KEY (equipment_id) REFERENCES equipment(id);

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-seasonalspin" product-name="ew-seasonalspin">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>header.description</source>
+        <target>&#x412;&#x440;&#x430;&#x449;&#x430;&#x439;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x43F;&#x440;&#x438;&#x437;&#x44B;! &#x421;&#x43E;&#x431;&#x435;&#x440;&#x438; 5 &#x436;&#x435;&#x442;&#x43E;&#x43D;&#x43E;&#x432; &#x417;&#x443;&#x442;&#x430;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x433;&#x43B;&#x430;&#x432;&#x43D;&#x44B;&#x439; &#x43F;&#x440;&#x438;&#x437;.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>header.youwin</source>
+        <target>&#x412;&#x44B; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x43B;&#x438;!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

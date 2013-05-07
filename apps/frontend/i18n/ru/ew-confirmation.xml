@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-confirmation" product-name="ew-confirmation">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>retreat.title</source>
+        <target>&#x422;&#x44B; &#x443;&#x432;&#x435;&#x440;&#x435;&#x43D;, &#x447;&#x442;&#x43E; &#x445;&#x43E;&#x447;&#x435;&#x448;&#x44C; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x447;&#x438;&#x442;&#x44C; &#x431;&#x438;&#x442;&#x432;&#x443;?</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

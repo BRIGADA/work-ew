@@ -1,0 +1,62 @@
+Translation:
+  columns:
+    id:
+      type: string(255)
+      primary: true
+      notnull: true
+    lang:
+      type: string(2)
+      primary: true
+      notnull: true
+    content:
+      type: text
+      
+Equipment:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    type:
+      type: text
+      notnull: true
+
+EquipmentLevel:
+  columns:
+    equipment_id:
+      type: integer
+      primary: true
+      notnull: true
+    level:
+      type: integer
+      primary: true
+      notnull: true
+    
+    tier: integer
+    time: integer
+    upgrade_chance: integer
+    
+    require_g: integer
+    require_e: integer
+    require_u: integer
+    require_c: integer
+    require_s: integer
+    
+    stat_hp: integer
+    stat_range: integer
+    stat_rate: integer
+    stat_damage: integer
+    stat_targets: integer
+    stat_splash: integer
+    stat_concussion: boolean
+    stat_defense: float
+    
+    tags: text
+  relations:
+    rel_equipment:
+      class: Equipment
+      local: equipment_id
+      foreign: id
+      alias: equipment
+      foreignAlias: levels
+ 

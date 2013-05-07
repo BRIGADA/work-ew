@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-itmes" product-name="ew-itmes">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>xpsim30.name</source>
+        <target>&#x41E;&#x41E; &#x437;&#x430; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x443; x30</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>simdef50.name</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B; +50</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>simdef20.name</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B; +20</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>xpsim15.name</source>
+        <target>&#x41E;&#x41E; &#x437;&#x430; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x443; x15</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>xpsim2.name</source>
+        <target>&#x41E;&#x41E; &#x437;&#x430; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x443; x2</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>simdef25.name</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x441;&#x438;&#x43C;. &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B; +25</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>simdef2x.name</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B; x2</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

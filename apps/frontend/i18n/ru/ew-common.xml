@@ -1,0 +1,1205 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-common" product-name="ew-common">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>use</source>
+        <target>&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>armor-boosts</source>
+        <target>&#x423;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x431;&#x440;&#x43E;&#x43D;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>reboot</source>
+        <target>&#x41F;&#x415;&#x420;&#x415;&#x417;&#x410;&#x413;&#x420;&#x423;&#x417;&#x41A;&#x410;</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>new</source>
+        <target>&#x41D;&#x43E;&#x432;&#x44B;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>busy</source>
+        <target>&#x417;&#x430;&#x43D;&#x44F;&#x442;&#x44B;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>upgrade</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>current-xp</source>
+        <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x435; &#x41E;&#x41E;</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>instant-finish.name</source>
+        <target>&#x41C;&#x433;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>upgrading</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>first</source>
+        <target>&#x43F;&#x435;&#x440;&#x432;&#x44B;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>used</source>
+        <target>&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x43E;!</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>reduces-time-by</source>
+        <target>&#x421;&#x43E;&#x43A;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43D;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>maxed</source>
+        <target>&#x41C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>collecting</source>
+        <target>&#x421;&#x43E;&#x431;&#x440;&#x430;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>music.on</source>
+        <target>&#x412;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x43C;&#x443;&#x437;&#x44B;&#x43A;&#x443;</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>abbreviations.level</source>
+        <target>&#x423;&#x440;.</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>general</source>
+        <target>&#x41E;&#x431;&#x449;&#x435;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>replaymission</source>
+        <target>&#x41F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x438;&#x442;&#x44C; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x44E;</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>stop.upgrading</source>
+        <target>&#x41E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>status</source>
+        <target>&#x421;&#x442;&#x430;&#x442;&#x443;&#x441;</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>continue</source>
+        <target>&#x41F;&#x440;&#x43E;&#x434;&#x43E;&#x43B;&#x436;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>gas</source>
+        <target>&#x413;&#x430;&#x437;</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>train-mechs</source>
+        <target>&#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x43C;&#x435;&#x445;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>view-missions</source>
+        <target>&#x41F;&#x440;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x442;&#x44C; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>crystal</source>
+        <target>&#x41A;&#x440;&#x438;&#x441;&#x442;&#x430;&#x43B;&#x43B;</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>convert</source>
+        <target>&#x41F;&#x440;&#x435;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>label.separator</source>
+        <target>:</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>mech</source>
+        <target>&#x41C;&#x435;&#x445;</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>combat</source>
+        <target>&#x421;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>console-offline</source>
+        <target>&#x41A;&#x43E;&#x43D;&#x441;&#x43E;&#x43B;&#x44C; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>research</source>
+        <target>&#x418;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>delay</source>
+        <target>&#x41E;&#x442;&#x43B;&#x43E;&#x436;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>messages</source>
+        <target>&#x421;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>battles</source>
+        <target>&#x421;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>view</source>
+        <target>&#x41E;&#x431;&#x437;&#x43E;&#x440;</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>free</source>
+        <target>&#x411;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>hudtooltip.store</source>
+        <target>&#x41A;&#x443;&#x43F;&#x438; &#x438; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>date</source>
+        <target>&#x414;&#x430;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>resources</source>
+        <target>&#x420;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>unavailable</source>
+        <target>&#x41D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x44B;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>experience</source>
+        <target>&#x41E;&#x43F;&#x44B;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>from</source>
+        <target>&#x41E;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>players</source>
+        <target>&#x418;&#x433;&#x440;&#x43E;&#x43A;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>crates</source>
+        <target>&#x421;&#x443;&#x43D;&#x434;&#x443;&#x43A;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>online</source>
+        <target>&#x412; &#x441;&#x435;&#x442;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>toggle.zoom</source>
+        <target>&#x418;&#x437;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x43D;&#x443;</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>toggle-fullscreen</source>
+        <target>&#x41F;&#x435;&#x440;&#x435;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x430; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>total-capacity</source>
+        <target>&#x412;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>training</source>
+        <target>&#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>play</source>
+        <target>&#x418;&#x433;&#x440;&#x430;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>gained-a-level</source>
+        <target>&#x41D;&#x43E;&#x432;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;!</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>low-quality</source>
+        <target>&#x41D;&#x438;&#x437;&#x43A;&#x43E;&#x435; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>no-troops</source>
+        <target>&#x41D;&#x435;&#x442; &#x432;&#x43E;&#x439;&#x441;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>space-per-unit</source>
+        <target>&#x41C;&#x435;&#x441;&#x442;&#x430; &#x437;&#x430; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x443;</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>research-lab.level</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>subject</source>
+        <target>&#x422;&#x435;&#x43C;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>waiting</source>
+        <target>&#x41E;&#x436;&#x438;&#x434;&#x430;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>clicktoclose</source>
+        <target>&#x43D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>defense-simulator</source>
+        <target>&#x421;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>toohigh</source>
+        <target>	&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x441;&#x43B;&#x438;&#x448;&#x43A;&#x43E;&#x43C; &#x432;&#x44B;&#x441;&#x43E;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>defense-base</source>
+        <target>&#x41E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x430; &#x431;&#x430;&#x437;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>attacked-you</source>
+        <target>&#x43D;&#x430;&#x43F;&#x430;&#x43B; &#x43D;&#x430; &#x442;&#x435;&#x431;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>sound-on</source>
+        <target>&#x412;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x437;&#x432;&#x443;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>resources-boosts</source>
+        <target>&#x423;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x434;&#x43E;&#x431;&#x44B;&#x447;&#x438; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>space-used</source>
+        <target>&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x43E; &#x43C;&#x435;&#x441;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>missions.claimed.label</source>
+        <target>&#x422;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x438;:</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>battle-report</source>
+        <target>&#x411;&#x43E;&#x435;&#x432;&#x430;&#x44F; &#x441;&#x432;&#x43E;&#x434;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>you-gained-x-xp</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>level-defense-research</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>no-ammunition-boosts</source>
+        <target>&#x41D;&#x435;&#x442; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x445; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x431;&#x43E;&#x435;&#x43F;&#x440;&#x438;&#x43F;&#x430;&#x441;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>collect-all</source>
+        <target>&#x421;&#x43E;&#x431;&#x440;&#x430;&#x442;&#x44C; &#x432;&#x441;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>buildings-destroyed</source>
+        <target>&#x417;&#x434;&#x430;&#x43D;&#x438;&#x435; &#x443;&#x43D;&#x438;&#x447;&#x442;&#x43E;&#x436;&#x435;&#x43D;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>openengineeringlab</source>
+        <target>&#x41E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44C; &#x41D;&#x418;&#x418;</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>missions.new</source>
+        <target>&#x41D;&#x43E;&#x432;&#x430;&#x44F; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>spin-again</source>
+        <target>&#x41A;&#x440;&#x443;&#x442;&#x438; &#x435;&#x449;&#x435; &#x440;&#x430;&#x437;</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>maplist.messageplayer</source>
+        <target>	&#x41E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>advanced-ammunition</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x431;&#x43E;&#x435;&#x43F;&#x440;&#x438;&#x43F;&#x430;&#x441;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>research-defense-requirements</source>
+        <target>&#x422;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>buildings</source>
+        <target>&#x417;&#x434;&#x430;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>details</source>
+        <target>&#x414;&#x435;&#x442;&#x430;&#x43B;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>research-time</source>
+        <target>&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>boosted-level</source>
+        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>charging</source>
+        <target>&#x417;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>units</source>
+        <target>&#x415;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>experience-gained</source>
+        <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>staging-full</source>
+        <target>&#x41F;&#x43B;&#x430;&#x446;&#x434;&#x430;&#x440;&#x43C; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442; &#x43D;&#x430; &#x43F;&#x43E;&#x43B;&#x43D;&#x443;&#x44E; &#x43C;&#x43E;&#x449;&#x43D;&#x43E;&#x441;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>add</source>
+        <target>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>unit-bonus</source>
+        <target>&#x411;&#x43E;&#x43D;&#x443;&#x441; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>send-resources</source>
+        <target>&#x41E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>scout</source>
+        <target>&#x420;&#x430;&#x437;&#x432;&#x435;&#x434;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>no-damage-protection</source>
+        <target>&#x41D;&#x435;&#x442; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x445; &#x449;&#x438;&#x442;&#x43E;&#x432;.</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>stop-upgrading</source>
+        <target>&#x41E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>inventory</source>
+        <target>&#x41C;&#x43E;&#x438; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>ammunition-boosts</source>
+        <target>&#x423;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x431;&#x43E;&#x435;&#x43F;&#x440;&#x438;&#x43F;&#x430;&#x441;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>rewards</source>
+        <target>&#x41D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>activatableskill.uses</source>
+        <target>&#x427;&#x438;&#x441;&#x43B;&#x43E; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>hudtooltip.messages</source>
+        <target>&#x41F;&#x440;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x442;&#x44C; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>speed-ups</source>
+        <target>&#x423;&#x441;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x435;&#x43B;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>recycle</source>
+        <target>&#x41F;&#x435;&#x440;&#x435;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>abbreviations.seconds</source>
+        <target>&#x441;</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>hourly-production-rate</source>
+        <target>&#x427;&#x430;&#x441;&#x43E;&#x432;&#x430;&#x44F; &#x434;&#x43E;&#x431;&#x44B;&#x447;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>all</source>
+        <target>&#x412;&#x441;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>repairing</source>
+        <target>&#x420;&#x435;&#x43C;&#x43E;&#x43D;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>missions.completed.label</source>
+        <target>&#x41C;&#x438;&#x441;&#x441;&#x438;&#x44F; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x430;:</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>trained</source>
+        <target>&#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>you-attacked</source>
+        <target>&#x412;&#x44B; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43B;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>enemy-level</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x432;&#x440;&#x430;&#x433;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>campaign</source>
+        <target>&#x41A;&#x430;&#x43C;&#x43F;&#x430;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>no-production-buffs</source>
+        <target>&#x423; &#x442;&#x435;&#x431;&#x44F; &#x43D;&#x435;&#x442; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x445; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439;.</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>platinum.tooltip</source>
+        <target>&#x41F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x430; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x433;&#x430;&#x43B;&#x430;&#x43A;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x432;&#x430;&#x43B;&#x44E;&#x442;&#x43E;&#x439; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x43A;&#x443;&#x43F;&#x43A;&#x438; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x43E;&#x432; &#x432; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x435;&lt;br&gt;&lt;span class="linkYellow"&gt;&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x43F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x443;&lt;/span&gt;</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>platinum</source>
+        <target>&#x41F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>pve</source>
+        <target>PvE</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>damage-protection</source>
+        <target>&#x417;&#x430;&#x449;&#x438;&#x442;&#x430; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x43D;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>share</source>
+        <target>&#x41F;&#x43E;&#x434;&#x435;&#x43B;&#x438;&#x442;&#x44C;&#x441;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>pvp</source>
+        <target>PvP</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>store.click-to-use</source>
+        <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>days-left</source>
+        <target>&#x41E;&#x441;&#x442;&#x430;&#x43B;&#x43E;&#x441;&#x44C; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>toggle-zoom</source>
+        <target>&#x418;&#x437;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x43D;&#x443;</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>reply</source>
+        <target>&#x41E;&#x442;&#x432;&#x435;&#x442;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>build</source>
+        <target>&#x421;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>toggle-sound</source>
+        <target>&#x41F;&#x435;&#x440;&#x435;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x432;&#x443;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>activatableskill.duration</source>
+        <target>&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>build-time</source>
+        <target>&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>confirm</source>
+        <target>&#x41F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x434;&#x438;&#x442;&#x44C;
+</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>maxedout</source>
+        <target>&#x412;&#x44B;&#x434;&#x43E;&#x445;&#x441;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>effect</source>
+        <target>&#x42D;&#x444;&#x444;&#x435;&#x43A;&#x442;
+</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>troops-lost</source>
+        <target>&#x412;&#x43E;&#x439;&#x441;&#x43A; &#x43F;&#x43E;&#x442;&#x435;&#x440;&#x44F;&#x43D;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>idle</source>
+        <target>&#x421;&#x432;&#x43E;&#x431;&#x43E;&#x434;&#x43D;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>mission-accomplished</source>
+        <target>&#x41C;&#x418;&#x421;&#x421;&#x418;&#x42F; &#x412;&#x42B;&#x41F;&#x41E;&#x41B;&#x41D;&#x415;&#x41D;&#x410;!</target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>congratulations</source>
+        <target>&#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;</target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>units-and-towers</source>
+        <target>&#x415;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B; &#x438; &#x431;&#x430;&#x448;&#x43D;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>stop</source>
+        <target>&#x41E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>normal</source>
+        <target>&#x41D;&#x43E;&#x440;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>instant-finish</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>message</source>
+        <target>&#x421;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>concussion-magnitude</source>
+        <target>&#x421;&#x43E;&#x442;&#x440;&#x44F;&#x441;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>toggle-settings</source>
+        <target>&#x41E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44C;/&#x417;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x44C; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x438;&#x433;&#x440;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>click-to-continue</source>
+        <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x440;&#x43E;&#x434;&#x43E;&#x43B;&#x436;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>train-chimeras</source>
+        <target>&#x41E;&#x447;&#x435;&#x440;&#x435;&#x434;&#x44C; &#x430;&#x43A;&#x430;&#x434;&#x435;&#x43C;&#x438;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>buy</source>
+        <target>&#x41A;&#x443;&#x43F;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>capacity</source>
+        <target>&#x412;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>move</source>
+        <target>&#x41F;&#x435;&#x440;&#x435;&#x434;&#x432;&#x438;&#x43D;&#x443;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>upgrade-to-unlock</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x438; &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x437;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>hourly-rate</source>
+        <target>&#x427;&#x430;&#x441;&#x43E;&#x432;&#x430;&#x44F; &#x434;&#x43E;&#x431;&#x44B;&#x447;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>instantrepair</source>
+        <target>&#x411;&#x410;&#x417;&#x41E;&#x412;&#x42B;&#x419; &#x420;&#x415;&#x41C;&#x41E;&#x41D;&#x422;</target>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>click-to-research</source>
+        <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>warp-capacity</source>
+        <target>&#x412;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x432;&#x440;&#x430;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>high-quality</source>
+        <target>&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x435; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>attacked-by</source>
+        <target>&#x410;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>troops-deployed</source>
+        <target>&#x420;&#x430;&#x437;&#x432;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44B;&#x435; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>combat-boosts</source>
+        <target>&#x411;&#x43E;&#x435;&#x432;&#x43E;&#x439; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>advanced-armor</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x431;&#x440;&#x43E;&#x43D;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>unlock</source>
+        <target>&#x420;&#x430;&#x437;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>click-units-to-deploy</source>
+        <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B; &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x437;&#x432;&#x435;&#x440;&#x442;&#x44B;&#x432;&#x430;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>damage</source>
+        <target>&#x423;&#x440;&#x43E;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>attacked</source>
+        <target>&#x410;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43B;</target>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>fight</source>
+        <target>&#x411;&#x43E;&#x440;&#x44C;&#x431;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>full</source>
+        <target>&#x417;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>abbreviations.minutes</source>
+        <target>&#x43C;</target>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>time-left</source>
+        <target>&#x434;&#x43D;&#x435;&#x439; &#x43E;&#x441;&#x442;&#x430;&#x43B;&#x43E;&#x441;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>health</source>
+        <target>&#x417;&#x434;&#x43E;&#x440;&#x43E;&#x432;&#x44C;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>zoom-in</source>
+        <target>&#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>uranium</source>
+        <target>&#x423;&#x440;&#x430;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>next</source>
+        <target>&#x414;&#x430;&#x43B;&#x435;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>range</source>
+        <target>&#x414;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>speed-up</source>
+        <target>&#x423;&#x441;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>upgrade-requirements</source>
+        <target>&#x422;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>level</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>mail</source>
+        <target>&#x41F;&#x43E;&#x447;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>factions</source>
+        <target>&#x424;&#x440;&#x430;&#x43A;&#x446;&#x438;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>levelrequired</source>
+        <target>Level #LEVEL_NUMBER# Required</target>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>esc-to-cancel</source>
+        <target>&#x41D;&#x430;&#x436;&#x43C;&#x438; &#x43A;&#x43B;&#x430;&#x432;&#x438;&#x448;&#x443; Esc, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43E;&#x442;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>train-chimera</source>
+        <target>&#x41E;&#x447;&#x435;&#x440;&#x435;&#x434;&#x44C; &#x430;&#x43A;&#x430;&#x434;&#x435;&#x43C;&#x438;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>upgrade-time</source>
+        <target>&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>no-resources-buffs</source>
+        <target>&#x423; &#x442;&#x435;&#x431;&#x44F; &#x43D;&#x435;&#x442; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x445; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x434;&#x43E;&#x431;&#x44B;&#x447;&#x438; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;.</target>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>toggle.quality</source>
+        <target>&#x41F;&#x435;&#x440;&#x435;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>recommended</source>
+        <target>&#x420;&#x435;&#x43A;&#x43E;&#x43C;&#x435;&#x43D;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="178">
+        <source>research-defense</source>
+        <target>&#x41E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x43D;&#x44B;&#x435; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="179">
+        <source>under-attack</source>
+        <target>&#x412; &#x43D;&#x430;&#x441;&#x442;&#x443;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="180">
+        <source>claim</source>
+        <target>&#x41F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="181">
+        <source>sound-off</source>
+        <target>&#x412;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x437;&#x432;&#x443;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="182">
+        <source>risk</source>
+        <target>&#x420;&#x438;&#x441;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="183">
+        <source>collect</source>
+        <target>&#x412;&#x437;&#x44F;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="184">
+        <source>activatableskill.cooldown</source>
+        <target>&#x41F;&#x435;&#x440;&#x435;&#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="185">
+        <source>defended</source>
+        <target>&#x417;&#x430;&#x449;&#x438;&#x442;&#x438;&#x43B;&#x441;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="186">
+        <source>power</source>
+        <target>&#x41C;&#x43E;&#x449;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="187">
+        <source>trophy</source>
+        <target>&#x41C;&#x43E;&#x43D;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x44B;
+</target>
+      </trans-unit>
+      <trans-unit id="188">
+        <source>unit.size.staging.area</source>
+        <target>&#x41C;&#x435;&#x441;&#x442;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x435;&#x43C;&#x43E;&#x435; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x446;&#x434;&#x430;&#x440;&#x43C;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="189">
+        <source>featured</source>
+        <target>&#x420;&#x435;&#x43A;&#x43E;&#x43C;&#x435;&#x43D;&#x434;&#x443;&#x435;&#x43C;&#x44B;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="190">
+        <source>enter-message</source>
+        <target>&#x412;&#x432;&#x435;&#x434;&#x438; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="191">
+        <source>building-requirements</source>
+        <target>&#x422;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x442;&#x432;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="192">
+        <source>my-items</source>
+        <target>&#x41C;&#x43E;&#x438; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="193">
+        <source>objective</source>
+        <target>&#x426;&#x435;&#x43B;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="194">
+        <source>protection-time-remaining</source>
+        <target>&#x417;&#x430;&#x449;&#x438;&#x442;&#x430; &#x431;&#x443;&#x434;&#x435;&#x442; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x430; &#x435;&#x449;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="195">
+        <source>toggle.sound</source>
+        <target>&#x412;&#x43A;&#x43B;/&#x432;&#x44B;&#x43A;&#x43B; &#x437;&#x432;&#x443;&#x43A;&#x438; &#x438; &#x43C;&#x443;&#x437;&#x44B;&#x43A;&#x443; &#x432; &#x438;&#x433;&#x440;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="196">
+        <source>also.in.store</source>
+        <target>&#x42D;&#x442;&#x43E;&#x442; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x432; &#x43B;&#x44E;&#x431;&#x43E;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43A;&#x443;&#x43F;&#x438;&#x442;&#x44C; &#x432; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x435;.</target>
+      </trans-unit>
+      <trans-unit id="197">
+        <source>number-of-targets</source>
+        <target>&#x41A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x446;&#x435;&#x43B;&#x435;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="198">
+        <source>production</source>
+        <target>&#x41F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x441;&#x442;&#x432;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="199">
+        <source>bomba-defense</source>
+        <target>&#x417;&#x430;&#x449;&#x438;&#x442;&#x430; &#x43E;&#x442; &#x411;&#x43E;&#x43C;&#x431;</target>
+      </trans-unit>
+      <trans-unit id="200">
+        <source>building</source>
+        <target>&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="201">
+        <source>not-enough-resources</source>
+        <target>&#x41D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="202">
+        <source>permanent-on</source>
+        <target>&#x412;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="203">
+        <source>splash</source>
+        <target>&#x420;&#x430;&#x434;&#x438;&#x443;&#x441;</target>
+      </trans-unit>
+      <trans-unit id="204">
+        <source>stealth</source>
+        <target>&#x41D;&#x435;&#x432;&#x438;&#x434;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="205">
+        <source>check-all</source>
+        <target>&#x41E;&#x442;&#x43C;&#x435;&#x442;&#x438;&#x442;&#x44C; &#x432;&#x441;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="206">
+        <source>skillpoints</source>
+        <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x435; &#x41E;&#x423;</target>
+      </trans-unit>
+      <trans-unit id="207">
+        <source>page</source>
+        <target>&#x421;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="208">
+        <source>player</source>
+        <target>&#x418;&#x433;&#x440;&#x43E;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="209">
+        <source>xp-for-next-level</source>
+        <target>&#x41E;&#x41E; &#x434;&#x43E; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x435;&#x433;&#x43E; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="210">
+        <source>level-too-high</source>
+        <target>	&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x441;&#x43B;&#x438;&#x448;&#x43A;&#x43E;&#x43C; &#x432;&#x44B;&#x441;&#x43E;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="211">
+        <source>splash-radius</source>
+        <target>&#x420;&#x430;&#x434;&#x438;&#x443;&#x441; &#x432;&#x441;&#x43F;&#x43B;&#x435;&#x441;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="212">
+        <source>error</source>
+        <target>&#x41E;&#x448;&#x438;&#x431;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="213">
+        <source>info</source>
+        <target>&#x418;&#x43D;&#x444;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="214">
+        <source>capacity-of-stagingarea</source>
+        <target>&#x412;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x432;&#x441;&#x435;&#x445; &#x43F;&#x43B;&#x430;&#x446;&#x434;&#x430;&#x440;&#x43C;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="215">
+        <source>command-center.level</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="216">
+        <source>warning</source>
+        <target>&#x41F;&#x440;&#x435;&#x434;&#x443;&#x43F;&#x440;&#x435;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="217">
+        <source>rate-of-fire</source>
+        <target>&#x421;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x441;&#x442;&#x440;&#x435;&#x43B;&#x44C;&#x431;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="218">
+        <source>owned</source>
+        <target>&#x418;&#x43C;&#x435;&#x435;&#x442;&#x441;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="219">
+        <source>reset</source>
+        <target>&#x421;&#x431;&#x440;&#x43E;&#x441; &#x43E;&#x447;&#x43A;&#x43E;&#x432;
+</target>
+      </trans-unit>
+      <trans-unit id="220">
+        <source>seconds</source>
+        <target>Seconds</target>
+      </trans-unit>
+      <trans-unit id="221">
+        <source>reply-all</source>
+        <target>&#x41E;&#x442;&#x432;&#x435;&#x442;&#x438;&#x442;&#x44C; &#x432;&#x441;&#x435;&#x43C;</target>
+      </trans-unit>
+      <trans-unit id="222">
+        <source>defense</source>
+        <target>&#x41E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="223">
+        <source>abbreviations.hours</source>
+        <target>&#x447;</target>
+      </trans-unit>
+      <trans-unit id="224">
+        <source>levels</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x43D;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="225">
+        <source>defense-research</source>
+        <target>&#x41E;&#x411;&#x41E;&#x420;&#x41E;&#x41D;&#x41D;&#x42B;&#x415; &#x418;&#x421;&#x421;&#x41B;&#x415;&#x414;&#x41E;&#x412;&#x410;&#x41D;&#x418;&#x42F;</target>
+      </trans-unit>
+      <trans-unit id="226">
+        <source>defense-lab</source>
+        <target>&#x41E;&#x411;&#x41E;&#x420;&#x41E;&#x41D;&#x41D;&#x42B;&#x415; &#x418;&#x421;&#x421;&#x41B;&#x415;&#x414;&#x41E;&#x412;&#x410;&#x41D;&#x418;&#x42F;</target>
+      </trans-unit>
+      <trans-unit id="227">
+        <source>delete</source>
+        <target>&#x423;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="228">
+        <source>resources-gained</source>
+        <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="229">
+        <source>attack-speed</source>
+        <target>&#x421;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x441;&#x442;&#x440;&#x435;&#x43B;&#x44C;&#x431;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="230">
+        <source>collected</source>
+        <target>#RESOURCE_TYPE# &#x441;&#x43E;&#x431;&#x440;&#x430;&#x43D;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="231">
+        <source>no-combat-buffs</source>
+        <target>&#x423; &#x442;&#x435;&#x431;&#x44F; &#x43D;&#x435;&#x442; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x445; &#x431;&#x43E;&#x435;&#x432;&#x44B;&#x445; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439;.</target>
+      </trans-unit>
+      <trans-unit id="232">
+        <source>timestamp.utc</source>
+        <target>	UTC</target>
+      </trans-unit>
+      <trans-unit id="233">
+        <source>music.off</source>
+        <target>&#x412;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x43C;&#x443;&#x437;&#x44B;&#x43A;&#x443;</target>
+      </trans-unit>
+      <trans-unit id="234">
+        <source>exclusively-on-kcom</source>
+        <target>	&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43D;&#x430; Kabam.com</target>
+      </trans-unit>
+      <trans-unit id="235">
+        <source>ok</source>
+        <target>&#x41E;&#x41A;</target>
+      </trans-unit>
+      <trans-unit id="236">
+        <source>you-have</source>
+        <target>&#x423; &#x432;&#x430;&#x441;</target>
+      </trans-unit>
+      <trans-unit id="237">
+        <source>train-troops</source>
+        <target>&#x41F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x43A;&#x430; &#x432;&#x43E;&#x439;&#x441;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="238">
+        <source>research-defense-lab.level</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="239">
+        <source>available</source>
+        <target>&#x41C;&#x430;&#x43A;&#x441;. &#x41E;&#x423;</target>
+      </trans-unit>
+      <trans-unit id="240">
+        <source>damagereduction</source>
+        <target>&#x423;&#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="241">
+        <source>defense.unavailable</source>
+        <target>&#x41D;&#x435; &#x432; &#x441;&#x435;&#x442;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="242">
+        <source>feuds</source>
+        <target>&#x421;&#x441;&#x43E;&#x440;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="243">
+        <source>complete-mission-to-claim</source>
+        <target>&#x417;&#x430;&#x432;&#x435;&#x440;&#x448;&#x438; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x44E;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x442;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="244">
+        <source>none</source>
+        <target>&#x41D;&#x438; &#x43E;&#x434;&#x438;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="245">
+        <source>targets</source>
+        <target>&#x426;&#x435;&#x43B;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="246">
+        <source>toggle-music</source>
+        <target>&#x41F;&#x435;&#x440;&#x435;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x430; &#x43C;&#x443;&#x437;&#x44B;&#x43A;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="247">
+        <source>platinum.description</source>
+        <target>&#x41F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x430; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x433;&#x430;&#x43B;&#x430;&#x43A;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x432;&#x430;&#x43B;&#x44E;&#x442;&#x43E;&#x439; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x43A;&#x443;&#x43F;&#x43A;&#x438; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x43E;&#x432; &#x432; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="248">
+        <source>store</source>
+        <target>&#x41C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="249">
+        <source>mystery-box</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="250">
+        <source>shop</source>
+        <target>&#x41C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="251">
+        <source>timereduction</source>
+        <target>&#x421;&#x43E;&#x43A;&#x440;&#x430;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="252">
+        <source>xp</source>
+        <target>&#x41E;&#x43F;&#x44B;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="253">
+        <source>warp-gate-capacity</source>
+        <target>&#x412;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x432;&#x440;&#x430;&#x442; &#x438;&#x441;&#x43A;&#x440;&#x438;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="254">
+        <source>map</source>
+        <target>&#x41A;&#x430;&#x440;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="255">
+        <source>health-and-damage</source>
+        <target>&#x417;&#x434;&#x43E;&#x440;&#x43E;&#x432;&#x44C;&#x435; &#x438; &#x443;&#x440;&#x43E;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="256">
+        <source>unit.size</source>
+        <target>&#x420;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="257">
+        <source>no-armor-boosts</source>
+        <target>&#x41D;&#x435;&#x442; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x445; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x431;&#x440;&#x43E;&#x43D;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="258">
+        <source>end-battle</source>
+        <target>&#x41A;&#x43E;&#x43D;&#x435;&#x446; &#x431;&#x438;&#x442;&#x432;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="259">
+        <source>bomba-defense-abbreviated</source>
+        <target>&#x417;&#x430;&#x449;. &#x43E;&#x442; &#x411;&#x43E;&#x43C;&#x431;</target>
+      </trans-unit>
+      <trans-unit id="260">
+        <source>level-research</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="261">
+        <source>missions</source>
+        <target>&#x41C;&#x438;&#x441;&#x441;&#x438;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="262">
+        <source>research-requirements</source>
+        <target>&#x422;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="263">
+        <source>spin</source>
+        <target>&#x41A;&#x440;&#x443;&#x442;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="264">
+        <source>charged</source>
+        <target>&#x417;&#x430;&#x440;&#x44F;&#x436;&#x435;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="265">
+        <source>cancel</source>
+        <target>&#x41E;&#x442;&#x43C;&#x435;&#x43D;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="266">
+        <source>zoom-out</source>
+        <target>&#x423;&#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="267">
+        <source>research-defense-time</source>
+        <target>&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="268">
+        <source>required</source>
+        <target>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="269">
+        <source>skillpointscurrent</source>
+        <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x435; &#x41E;&#x423;</target>
+      </trans-unit>
+      <trans-unit id="270">
+        <source>energy</source>
+        <target>&#x42D;&#x43D;&#x435;&#x440;&#x433;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="271">
+        <source>claim-rewards</source>
+        <target>&#x41F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x443; &#x437;&#x430; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x44D;&#x442;&#x43E;&#x439; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="272">
+        <source>speed</source>
+        <target>&#x421;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="273">
+        <source>you-are-under-protection</source>
+        <target>&#x422;&#x44B; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x448;&#x44C;&#x441;&#x44F; &#x43F;&#x43E;&#x434; &#x437;&#x430;&#x449;&#x438;&#x442;&#x43E;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="274">
+        <source>weapon-damage</source>
+        <target>&#x423;&#x440;&#x43E;&#x43D; &#x43E;&#x442; &#x43E;&#x440;&#x443;&#x436;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="275">
+        <source>boosts</source>
+        <target>&#x423;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="276">
+        <source>abbreviations.days</source>
+        <target>&#x434;</target>
+      </trans-unit>
+      <trans-unit id="277">
+        <source>alliance</source>
+        <target>&#x410;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
+      </trans-unit>
+      <trans-unit id="278">
+        <source>activatableskill.power</source>
+        <target>&#x421;&#x438;&#x43B;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="279">
+        <source>clicktoexpand</source>
+        <target>&#x43D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x440;&#x430;&#x437;&#x432;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="280">
+        <source>tournament.expired</source>
+        <target>&#x42D;&#x442;&#x43E;&#x442; &#x442;&#x443;&#x440;&#x43D;&#x438;&#x440; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x447;&#x438;&#x43B;&#x441;&#x44F;.  &#x41F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44C;&#x442;&#x435; &#x43E;&#x441;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435;!</target>
+      </trans-unit>
+      <trans-unit id="281">
+        <source>instant-finish.description</source>
+        <target>&#x41C;&#x433;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x43D;&#x43E; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x430;&#x435;&#x442; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x443;</target>
+      </trans-unit>
+      <trans-unit id="282">
+        <source>toggle-quality</source>
+        <target>&#x41F;&#x435;&#x440;&#x435;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="283">
+        <source>train</source>
+        <target>&#x422;&#x440;&#x435;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="284">
+        <source>time-remaining</source>
+        <target>&#x41E;&#x441;&#x442;&#x430;&#x432;&#x448;&#x435;&#x435;&#x441;&#x44F; &#x432;&#x440;&#x435;&#x43C;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="285">
+        <source>offline</source>
+        <target>&#x41D;&#x435; &#x432; &#x441;&#x435;&#x442;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="286">
+        <source>defense-reduction</source>
+        <target>&#x423;&#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430;:</target>
+      </trans-unit>
+      <trans-unit id="287">
+        <source>attack</source>
+        <target>&#x41D;&#x430;&#x43F;&#x430;&#x434;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="288">
+        <source>production-boosts</source>
+        <target>&#x410;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x435; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="289">
+        <source>autocomplete</source>
+        <target>&#x430;&#x432;&#x442;&#x43E;&#x437;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="290">
+        <source>chests</source>
+        <target>&#x42F;&#x449;&#x438;&#x43A;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="291">
+        <source>done</source>
+        <target>&#x412;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="292">
+        <source>warps-available</source>
+        <target>&#x418;&#x441;&#x43A;&#x440;&#x438;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x439; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="293">
+        <source>purchased</source>
+        <target>&#x41A;&#x443;&#x43F;&#x43B;&#x435;&#x43D;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="294">
+        <source>name</source>
+        <target>&#x418;&#x43C;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="295">
+        <source>resources-looted</source>
+        <target>&#x41D;&#x430;&#x433;&#x440;&#x430;&#x431;&#x43B;&#x435;&#x43D;&#x43E; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="296">
+        <source>numbers.comma</source>
+        <target>,</target>
+      </trans-unit>
+      <trans-unit id="297">
+        <source>stop-building</source>
+        <target>&#x41E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x442;&#x432;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="298">
+        <source>missions.locked</source>
+        <target>&#x41E;&#x442;&#x43A;&#x440;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x430; 10 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

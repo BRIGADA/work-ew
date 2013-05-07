@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-simulator" product-name="ew-simulator">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>no-items-found</source>
+        <target>&#x425;&#x440;&#x430;&#x43D;&#x438;&#x43B;&#x438;&#x449;&#x430; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x43E;&#x433;&#x43E; &#x41D;&#x418;&#x418; &#x437;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x44B;. &#x414;&#x435;&#x442;&#x430;&#x43B;&#x44C; &#x43D;&#x435; &#x431;&#x44B;&#x43B;&#x430; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x430;.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

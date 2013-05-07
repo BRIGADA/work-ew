@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-body" product-name="ew-body">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>mesage.februarylevel10.body</source>
+        <target>&#x412;&#x44B; &#x441;&#x442;&#x430;&#x43B;&#x438; &#x43F;&#x43E;&#x431;&#x435;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x43C; &#x43A;&#x43E;&#x43D;&#x43A;&#x443;&#x440;&#x441;&#x430; &#x43D;&#x430; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; 10 &#x438;&#x43B;&#x438; 11 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;! &#x417;&#x430; &#x44D;&#x442;&#x43E; &#x432;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x435;&#x442;&#x435; 500 &#x435;&#x434;. &#x43F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x44B; &#x43D;&#x430; &#x441;&#x432;&#x43E;&#x439; &#x441;&#x447;&#x435;&#x442;.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

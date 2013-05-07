@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-dailytitle" product-name="ew-dailytitle">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>aprilgmo</source>
+        <target>&#x41F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x430; &#x438; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x43A;&#x438;!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

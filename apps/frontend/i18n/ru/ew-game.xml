@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-game" product-name="ew-game">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>error.connection.lost</source>
+        <target>&#x421;&#x432;&#x44F;&#x437;&#x44C; &#x441; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x43E;&#x43C; &#x443;&#x442;&#x440;&#x430;&#x447;&#x435;&#x43D;&#x430;. &#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x443;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x440;&#x43E;&#x434;&#x43E;&#x43B;&#x436;&#x438;&#x442;&#x44C;.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

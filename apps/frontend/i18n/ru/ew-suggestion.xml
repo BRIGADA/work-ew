@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-suggestion" product-name="ew-suggestion">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>same-alliance</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x442;&#x435; &#x44D;&#x442;&#x43E;&#x442; &#x430;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442; &#x43D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x435;.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>train-troops</source>
+        <target>&#x417;&#x430;&#x43A;&#x430;&#x436;&#x438; &#x43E;&#x442;&#x440;&#x44F;&#x434;&#x44B; &#x43D;&#x430; &#x437;&#x430;&#x432;&#x43E;&#x434;&#x435; &#x438; &#x432; &#x43A;&#x430;&#x437;&#x430;&#x440;&#x43C;&#x430;&#x445;.</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>alliance-member</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>level-up</source>
+        <target>	&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x435; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;&#x439; &#x438; &#x43F;&#x43E;&#x43F;&#x440;&#x43E;&#x431;&#x443;&#x439;&#x442;&#x435; &#x435;&#x449;&#x435; &#x440;&#x430;&#x437;</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>attack-level-too-low</source>
+        <target>	&#x412;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x447;&#x44C; #LEVEL#</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>same-player</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x442;&#x435; &#x44D;&#x442;&#x43E;&#x442; &#x430;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442; &#x43D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x435;.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-lf" product-name="ew-lf">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>tile.jackpot</source>
+        <target>&#x414;&#x436;&#x435;&#x43A;-&#x43F;&#x43E;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>results.description.claim</source>
+        <target>&#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C; &#x412;&#x430;&#x441; &#x441; &#x44D;&#x442;&#x438;&#x43C; &#x443;&#x434;&#x438;&#x432;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x43C; &#x43F;&#x440;&#x438;&#x437;&#x43E;&#x43C;!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>tooltip.bonusplay</source>
+        <target>&#x41F;&#x43E;&#x43F;&#x430;&#x434;&#x438;&#x442;&#x435; &#x43D;&#x430; &#x44D;&#x442;&#x43E;&#x442; &#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x41F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x43E;&#x432;&#x44B;&#x439; &#x440;&#x430;&#x443;&#x43D;&#x434;!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>tooltip.bonusround</source>
+        <target>&#x41F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x43E;&#x432;&#x44B;&#x439; &#x440;&#x430;&#x443;&#x43D;&#x434;!</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>gametitle</source>
+        <target>&#x414;&#x436;&#x435;&#x43A;-&#x43F;&#x43E;&#x442; &#x417;&#x443;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>tooltip.jackpot</source>
+        <target>&#x41F;&#x43E;&#x43F;&#x430;&#x434;&#x438;&#x442;&#x435; &#x43D;&#x430; &#x44D;&#x442;&#x43E;&#x442; &#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x434;&#x436;&#x435;&#x43A;-&#x43F;&#x43E;&#x442; &#x417;&#x443;&#x442;&#x430;!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>results.lose.title</source>
+        <target>&#x41F;&#x41E;&#x420;&#x410;&#x416;&#x415;&#x41D;&#x418;&#x415;</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>dialog.help</source>
+        <target>&#x41F;&#x41E;&#x41C;&#x41E;&#x429;&#x42C;</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>results.title.claim</source>
+        <target>&#x41F;&#x41E;&#x422;&#x420;&#x415;&#x411;&#x41E;&#x412;&#x410;&#x41D;&#x41E;</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>results.lose.description</source>
+        <target>&#x41D;&#x430; &#x44D;&#x442;&#x43E;&#x442; &#x440;&#x430;&#x437; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x44B;&#x448; &#x432;&#x430;&#x43C; &#x43D;&#x435; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x43B;&#x441;&#x44F;. &#x412;&#x43E;&#x442; &#x432;&#x430;&#x43C; &#x443;&#x442;&#x435;&#x448;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43F;&#x440;&#x438;&#x437;! &#x41F;&#x43E;&#x43F;&#x44B;&#x442;&#x430;&#x439;&#x442;&#x435;&#x441;&#x44C; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x434;&#x436;&#x435;&#x43A;-&#x43F;&#x43E;&#x442; &#x417;&#x443;&#x442;&#x430; &#x435;&#x449;&#x435; &#x440;&#x430;&#x437;!</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>results.title.win</source>
+        <target>&#x41F;&#x41E;&#x411;&#x415;&#x414;&#x410;</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>tooltip.fail</source>
+        <target>&#x41D;&#x435; &#x43F;&#x43E;&#x43F;&#x430;&#x434;&#x430;&#x439;&#x442;&#x435; &#x43D;&#x430; &#x44D;&#x442;&#x43E;&#x442; &#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A;, &#x438;&#x43D;&#x430;&#x447;&#x435; &#x438;&#x433;&#x440;&#x435; &#x43A;&#x43E;&#x43D;&#x435;&#x446;!</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>results.title.bonuswon</source>
+        <target>&#x41F;&#x41E;&#x411;&#x415;&#x414;&#x418;&#x422;&#x415;&#x41B;&#x42C;!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-gsatsurvey" product-name="ew-gsatsurvey">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>20110630.name</source>
+        <target>Edgeworld</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>20110630.subject</source>
+        <target>&#x41F;&#x443;&#x441;&#x442;&#x44C; Edgeworld &#x443;&#x437;&#x43D;&#x430;&#x435;&#x442;, &#x447;&#x442;&#x43E; &#x442;&#x44B; &#x434;&#x443;&#x43C;&#x430;&#x435;&#x448;&#x44C;!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>20110630.body</source>
+        <target>Dear Commander:
+
+We&#x2019;d like to get your feedback on how Edgeworld can serve you better.  Your comments and suggestions are very important to us, so we&#x2019;d love to hear from you!  We will take your input very seriously, so please take a few minutes to fill out our customer feedback survey.
+
+&lt;a href="http://kabam.custhelp.com/ci/documents/detail/5/18" target="_blank"&gt;Click here to take the survey now!&lt;/a&gt;
+
+Thank you!
+The Edgeworld Team</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

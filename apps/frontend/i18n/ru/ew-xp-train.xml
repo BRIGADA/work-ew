@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-xp-train" product-name="ew-xp-train">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>tooltip</source>
+        <target>&#x41D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x430; &#x41E;&#x41E;</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>label</source>
+        <target>#AMOUNT# &#x41E;&#x41E;</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>reward</source>
+        <target>&#x41D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x430;</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

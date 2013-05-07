@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-example-message" product-name="ew-example-message">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>name</source>
+        <target>&#x418;&#x441;&#x43A;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43C;&#x438;&#x440; </target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>alert.subject</source>
+        <target>Lorem Ipsum</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>alert.body</source>
+        <target>Mauris sapien est, tincidunt vel faucibus non, aliquam nec dolor. Duis euismod posuere eros, ut pulvinar ante accumsan ac. Ut sed leo est. Ut gravida libero sit amet nunc egestas eleifend ac non sem. Duis tristique mollis leo, nec consequat dui vestibulum eget. Nam tempor dignissim elementum. Nullam dapibus, ante et tincidunt viverra, ipsum metus rutrum metus, id tristique purus mauris eget urna. Proin pretium velit at ligula sollicitudin pulvinar. Pellentesque fermentum congue elit ullamcorper gravida. Sed placerat tristique tortor, ut tristique justo pretium eget. </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

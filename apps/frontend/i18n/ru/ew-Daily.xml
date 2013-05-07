@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-Daily" product-name="ew-Daily">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>text.20130426buildtimes</source>
+        <target>Unit and Turret Control research times reduced by 75%!</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>title.20130503resourceconverter</source>
+        <target>Resource Converter Build Times 80% OFF!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>title.04302013generals</source>
+        <target>Generals Have Become Even Stronger!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>title.20130426buildtimes</source>
+        <target>Research Times 75% OFF!</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>text.20130503resourceconverter</source>
+        <target>Resource Converter build times all reduced by 80%!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
