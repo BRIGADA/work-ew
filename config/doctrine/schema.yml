@@ -267,7 +267,7 @@ Alliance:
       primary: true
       notnull: true
     name: text
-    desc: text
+    description: text
     active: boolean
 Player:
   columns:

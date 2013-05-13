@@ -1,4 +1,4 @@
-CREATE TABLE alliance (id BIGINT, name text, desc text, active TINYINT(1), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
+CREATE TABLE alliance (id BIGINT, name text, description text, active TINYINT(1), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE buildings (id BIGINT AUTO_INCREMENT, type text, width BIGINT, height BIGINT, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE building_levels (building_id BIGINT, level BIGINT, time BIGINT, requirements text, stats text, PRIMARY KEY(building_id, level)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE chat (id BIGINT AUTO_INCREMENT, room text, message text, sender_id BIGINT, sender text, alliance_id BIGINT, alliance text, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;

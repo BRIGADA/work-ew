@@ -65,43 +65,65 @@ EOF;
     {
     	$this->logSection('type', $itype);
     	$this->logSection('data', json_encode($idata));
-    	
+    	 
     	$this->SEND('chat_join', array('player_id'=>$player_id, 'room'=>sprintf('global::%d', $sector)));
-	$this->SEND('chat_join', array('player_id'=>$player_id, 'room'=>sprintf('alliance::%d::%d', $alliance_id, $sector)));
-	$this->SEND('chat_join', array('player_id'=>$player_id, 'player_name'=>$player_name, 'room'=>sprintf('locale::%d::en', $sector)));
+    	sleep(1);
+    	$this->SEND('chat_join', array('player_id'=>$player_id, 'room'=>sprintf('alliance::%d::%d', $alliance_id, $sector)));
+    	sleep(1);
+    	$this->SEND('chat_join', array('player_id'=>$player_id, 'player_name'=>$player_name, 'room'=>sprintf('locale::%d::en', $sector)));
+    	sleep(1);
     	while($this->RECV($itype, $idata))
     	{
-	    $record = new Proxy();
-            $record->type = $itype;
-	    $record->params = serialize($idata);
-	    $record->save();
+    		switch($itype)
+    		{
+    			case 'chat_join':
+    				break;
+    			
+    			case 'chat_message':
+    				$chat = new Chat();
+    				$chat->room = $idata->room;
+    				$chat->message = $idata->message;
+    				$chat->sender_id = $idata->user_card->id;
+    				$chat->sender = $idata->user_card->name;
+    				
+    				$player = Doctrine::getTable('Player')->findOneBy('id', $idata->user_card->id);
+    				
+    				if(!$player) {
+    					$player->id = $idata->user_card->id;
+    					$player->name = $idata->user_card->name;
+    				}
+    				
+    				$player->save();
+    				
+    				if($idata->user_card->alliance) {
+    					$char->alliance_id = $idata->user_card->alliance->id;
+    					$char->alliance = $idata->user_card->alliance->name;
+    				}
+    				$chat->save();
 
-	    switch($itype)
-	    {
-		case 'chat_message':
-		    
-		    if($idata->user_card->alliance)
-		    {
-			$this->logSection($idata->room, sprintf('%s [%s]: %s', $idata->user_card->name, $idata->user_card->alliance->name, $idata->message));
-		    }
-		    else
-		    {
-			$this->logSection($idata->room, sprintf('%s: %s', $idata->user_card->name, $idata->message));
-		    }
-		    break;
-	    }
-    		
+   					$this->logSection($idata->room, sprintf('%s [%s]: %s', $idata->user_card->name, $idata->user_card->alliance ? $idata->user_card->alliance->name : '-', $idata->message));
+    				break;
+    				
+    			default:
+    				$record = new Proxy();
+    				$record->type = $itype;
+    				$record->params = serialize($idata);
+    				$record->save();
+    				
+    		}
+
     	}
     }
-    
+
     socket_close($this->sock);
   }
-  
+
   protected function RECV(&$itype, &$idata)
   {
   	while(true)
   	{
   		$r = array($this->sock);
+  		$w = array($this->sock);
   		 
   		switch(socket_select($r, $w, $e, NULL))
   		{
@@ -112,6 +134,8 @@ EOF;
   				$this->logSection('select', 'timeout');
   				return false;
   			default:
+  				var_dump($r, $w);
+  				
   				$buf = socket_read($this->sock, 100000);
   				if(strlen($buf)) {
   					$this->logSection('<<<', trim($buf));

@@ -1,4 +1,3 @@
-<?php var_dump($results->getRawValue())?>
 <h1>Chats :)</h1>
 <ul>
 <?php foreach ($results as $room) : ?>
