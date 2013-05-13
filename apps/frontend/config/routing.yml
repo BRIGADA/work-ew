@@ -13,6 +13,9 @@ equipment-info:
 # generic rules
 # please, remove them by adding more specific rules
 
+chat-read:
+  url: /chat-read/:room
+  param: { module: chat, action: read }
 
 default_index:
   url:   /:module

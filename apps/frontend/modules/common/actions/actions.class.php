@@ -59,6 +59,59 @@ class commonActions extends sfActions
   	return $this->renderText($result);  	
   }
   
+  public function executePlayer(sfWebRequest $request)
+  {
+  	$r = $this->getUser()->RGET('/api/player');
+  	
+  	if(!$r)
+  	{
+  		$this->getUser()->setFlash('error', 'failed get data /api/player');
+  		$this->forward('common', 'index');
+  	}
+		
+		$data = json_decode($r);
+		
+		$this->getUser()->setAttribute('resources', $data->response->base->resources);
+		
+
+		$bases = array();
+		$bases[] = array('id'=>$data->response->base->id,'name'=>$data->response->base->name);
+		
+		foreach ($data->response->colonies as $colony)
+		{
+			$bases[] = array('id'=>$colony->id,'name'=>$colony->name);
+		}
+		
+		$this->getUser()->setAttribute('bases', $bases, 'player');
+		
+		$this->getUser()->setAttribute('platinum', $data->response->platinum);
+		$this->getUser()->setAttribute('sp', $data->response->sp);
+		$this->getUser()->setAttribute('xp', $data->response->sp);
+		$this->getUser()->setAttribute('level', $data->response->level);
+		
+//		$this->redirect('common/index');
+		
+  }
+  
+  public function executeSetClient(sfWebRequest $request)
+  {
+  	$client = $request->getParameter('client');
+  	$this->forward404Unless($client);
+  	
+  	foreach ($client as $field => $value)
+  	{
+  		$this->getUser()->setAttribute($field, $value, 'client');
+  	}
+  	
+  	$this->redirect('common/index');
+  }
+  
+  public function executeResetTestCount()
+  {
+  	$this->getUser()->setAttribute('testCount', 1, 'client');
+  	$this->redirect('common/index');
+  }
+  
   public function executeRPOST(sfWebRequest $request)
   {
   	$path = $request->getParameter('path');

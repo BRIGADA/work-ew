@@ -11,28 +11,26 @@
 <div class="alert alert-error"><?php echo $sf_user->getFlash('error') ?></div>
 <?php endif ?>
 
-<table class="table table-striped table-bordered table-hover">
-	<thead>
-		<tr>
-			<th style="width: 100px">Параметр</th>
-			<th>Значение</th>
-		</tr>
-	</thead>
-	<tbody>
-		<?php foreach(array('host', 'meltdown', 'reactor', 'user_id', '_session_id', 'testCount') as $param) : ?>
-		<tr>
-			<th><?php echo $param ?></th>
-			<td>
-				<?php if($sf_user->hasAttribute($param, 'client')) :?>
-				<?php echo $sf_user->getAttribute($param, null, 'client')?>
-				<?php else : ?>
-				<span class="muted"><em>null</em></span>
-				<?php endif ?>
-			</td>
-		</tr>
+<form action="<?php echo url_for('common/setClient')?>" class="form-horizontal">
+	<fieldset>
+		<legend>Client</legend>
+		<?php foreach(array('host', 'meltdown', 'reactor', 'user_id', '_session_id', 'testCount') as $param) : ?>		
+		<div class="control-group">
+			<label class="control-label"><?php echo $param?></label>
+			<div class="controls">
+				<input type="text" value="<?php echo $sf_user->getAttribute($param, '', 'client') ?>" name="client[<?php echo $param ?>]" placeholder="null">
+			</div>
+		</div>
 		<?php endforeach ?>
-	</tbody>
-</table>
+		<div class="control-group">
+			<div class="controls">
+				<button class="btn btn-primary">Задать</button>
+			</div>
+		</div>
+	</fieldset>
+</form>
+
+<a href="<?php echo url_for('common/player')?>" class="btn">Player</a>
 
 <script type="text/javascript">
 $(function(){

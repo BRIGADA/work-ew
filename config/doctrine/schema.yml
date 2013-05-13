@@ -59,4 +59,250 @@ EquipmentLevel:
       foreign: id
       alias: equipment
       foreignAlias: levels
- 
+      
+Building:
+  tableName: buildings
+  columns:
+    id:
+      type: integer
+      autoincrement: true
+      primary: true
+    type: text
+    width: integer
+    height: integer
+
+BuildingLevels:
+  tableName: building_levels
+  columns:
+    building_id:
+      type: integer
+      primary: true
+      notnull: true
+    level:
+      type: integer
+      primary: true
+      notnull: true
+      
+    time: integer
+    
+    requirements: text
+    
+    stats: text
+      
+  relations:
+    rel_building:
+      class: Building
+      local: building_id
+      foreign: id
+      alias: building
+      foreignAlias: levels
+      onUpdate: CASCADE
+      onDelete: CASCADE
+       
+GarrisonBoost:
+  tableName: garrison_boosts
+  columns:
+    id:
+      type: integer
+      autoincrement: true
+      primary: true
+    type: text
+    value: float
+
+General:
+  tableName: generals
+  columns:
+    id:
+      type: integer
+      autoincrement: true
+      primary: true
+    type: text
+
+GeneralLevel:
+  tableName: general_levels
+  columns:
+    general_id:
+      type: integer
+      primary: true
+      notnull: true
+    level:
+      type: integer
+      primary: true
+      notnull: true
+    requirements: text
+    stats: text
+  relations:
+    rel_general:
+      class: General
+      local: general_id
+      foreign: id
+      alias: general
+      foreignAlias: levels
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+MapRevard:
+  tableName: map_rewards
+  columns:
+    id:
+      type: integer
+      autoincrement: true
+      primary: true
+    value: integer
+    rewards: text
+
+Unit:
+  tableName: units
+  columns:
+    id:
+      type: integer
+      autoincrement: true
+      primary: true
+    type: text
+
+UnitLevels:
+  tableName: unit_levels
+  columns:
+    unit_id:
+      type: integer
+      primary: true
+      notnull: true
+    level:
+      type: integer
+      primary: true
+      notnull: true
+    requirements: text
+    stats: text
+    
+  relations:
+    rel_unit:
+      class: Unit
+      local: unit_id
+      foreign: id
+      alias: unit
+      foreignAlias: levels
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+Defense:
+  tableName: defenses
+  columns:
+    id:
+      type: integer
+      autoincrement: true
+      primary: true
+    type: text
+
+DefenseLevel:
+  tableName: defense_levels
+  columns:
+    defense_id:
+      type: integer
+      primary: true
+      notnull: true
+    level:
+      type: integer
+      primary: true
+      notnull: true
+    time: integer
+    requirements: text
+    stats: text
+  relations:
+    rel_defense:
+      class: Defense
+      local: defense_id
+      foreign: id
+      alias: defense
+      foreignAlias: levels
+      onUpdate: CASCADE
+      onDelete: CASCADE
+    
+Skill:
+  tableName: skills
+  columns:
+    id:
+      type: integer
+      autoincrement: true
+      primary: true
+    type: text
+
+SkillLevel:
+  tableName: skill_levels
+  columns:
+    skill_id:
+      type: integer
+      primary: true
+      notnull: true
+    level:
+      type: integer
+      primary: true
+      notnull: true
+    requirements: text
+    stats: text
+  relations:
+    rel_skill:
+      class: Skill
+      local: skill_id
+      foreign: id
+      alias: skill
+      foreignAlias: levels
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+Proxy:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    type: text
+    params: text
+
+Alliance:
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    name: text
+    desc: text
+    active: boolean
+Player:
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    name: text
+    
+    
+PlayerHistory:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    player_id:
+      type: integer
+      notnull: true
+    
+
+Chat:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    room: text
+    message: text
+    sender_id: integer
+    sender: text
+    alliance_id: integer
+    alliance: text
+    
