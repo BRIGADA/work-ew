@@ -43,7 +43,7 @@
 					<ul class="nav">
 						<li class="<?php sfContext::getInstance()->getModuleName() == 'common' && print 'active'?>"><a href="<?php echo url_for('common/index') ?>">Настройки</a></li>
 						<li class="<?php sfContext::getInstance()->getModuleName() == 'equipment' && print 'active'?>"><a href="<?php echo url_for('equipment/index')?>">Снаряжение</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li class="<?php sfContext::getInstance()->getModuleName() == 'map' && print 'active'?>"><a href="<?php echo url_for('@maps')?>">Карты</a></li>
 					</ul>
 				</div>
 				<!--/.nav-collapse -->
