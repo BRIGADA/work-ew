@@ -12,4 +12,55 @@
  */
 class General extends BaseGeneral
 {
+	protected $_cached_stats = null;
+	protected $_cached_skills = null;
+	
+	public function getSkills()
+	{
+		if(is_null($this->_cached_skills))
+		{
+			$this->_cached_skills = array();
+			foreach($this->levels as $level)
+			{
+				foreach($level->skills as $skill)
+				{
+					if(!in_array($skill, $this->_cached_skills))
+					{
+						$this->_cached_skills [] = $skill;
+					}
+				}
+			}
+		}
+		return $this->_cached_skills;
+	}
+	
+	public function getStats()
+	{
+		if(is_null($this->_cached_stats))
+		{
+			$this->_cached_stats = array ();
+			foreach ( $this->levels as $level )
+			{
+				foreach ($level->stats as $stat => $value )
+				{
+					if ($value && ! in_array ( $stat, $this->_cached_stats ))
+					{
+						$this->_cached_stats [] = $stat;
+					}
+				}
+			}
+		}
+		return $this->_cached_stats;
+	}
+	
+	public function getStatData($stat)
+	{
+		$result = array ();
+		foreach ( $this->levels as $level )
+		{
+			$result[] = $level->stats[$stat];
+		}
+		return $result;
+	}
+	
 }

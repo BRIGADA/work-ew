@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-recipes" product-name="ew-recipes">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>ceruleaninflammableshield.description</source>
+        <target>&#x420;&#x435;&#x446;&#x435;&#x43F;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43E;&#x434;&#x43D;&#x43E;&#x439; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x438; &#x446;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x43E;&#x433;&#x43D;&#x435;&#x443;&#x43F;&#x43E;&#x440;&#x43D;&#x43E;&#x433;&#x43E; &#x449;&#x438;&#x442;&#x430; &#x434;&#x43B;&#x44F; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x43E;&#x433;&#x43E; &#x41D;&#x418;&#x418;!</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>ceruleandamagesensor.name</source>
+        <target>&#x426;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x438;&#x439; &#x434;&#x430;&#x442;&#x447;&#x438;&#x43A; &#x43F;&#x43E;&#x432;&#x440;&#x435;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>rarebox3a.description</source>
+        <target>&#x421;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442; &#x433;&#x430;&#x440;&#x430;&#x43D;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x443;&#x44E; &#x440;&#x435;&#x434;&#x43A;&#x443;&#x44E; (3 &#x431;&#x43E;&#x43D;&#x443;&#x441;&#x430;) &#x434;&#x435;&#x442;&#x430;&#x43B;&#x44C; &#x434;&#x43B;&#x44F; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x43E;&#x433;&#x43E; &#x41D;&#x418;&#x418;!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>rarebox3a.name</source>
+        <target>&#x42F;&#x449;&#x438;&#x43A; &#x441; &#x440;&#x435;&#x434;&#x43A;&#x43E;&#x439; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x44C;&#x44E; 3 &#x443;&#x440;.</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>rarebox2a.description</source>
+        <target>&#x428;&#x430;&#x43D;&#x441; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x440;&#x435;&#x434;&#x43A;&#x443;&#x44E; (3 &#x431;&#x43E;&#x43D;&#x443;&#x441;&#x430;) &#x447;&#x430;&#x441;&#x442;&#x44C; &#x443;&#x43C;&#x43D;&#x43E;&#x439; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; &#x438;&#x43B;&#x438; &#x41F;&#x42F;&#x422;&#x42C; &#x436;&#x435;&#x442;&#x43E;&#x43D;&#x43E;&#x432; &#x417;&#x443;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>ceruleanblastshield.description</source>
+        <target>&#x420;&#x435;&#x446;&#x435;&#x43F;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43E;&#x434;&#x43D;&#x43E;&#x439; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x438; &#x446;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x43E;&#x439; &#x432;&#x437;&#x440;&#x44B;&#x432;&#x43E;&#x437;&#x430;&#x449;&#x438;&#x442;&#x44B; &#x434;&#x43B;&#x44F; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x43E;&#x433;&#x43E; &#x41D;&#x418;&#x418;!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>ceruleanblastshield.name</source>
+        <target>&#x426;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x430;&#x44F; &#x432;&#x437;&#x440;&#x44B;&#x432;&#x43E;&#x437;&#x430;&#x449;&#x438;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>rarebox2a.name</source>
+        <target>&#x42F;&#x449;&#x438;&#x43A; &#x441; &#x440;&#x435;&#x434;&#x43A;&#x43E;&#x439; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x44C;&#x44E; 2 &#x443;&#x440;.</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>rarebox3b.description</source>
+        <target>&#x421;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442; &#x433;&#x430;&#x440;&#x430;&#x43D;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x443;&#x44E; &#x440;&#x435;&#x434;&#x43A;&#x443;&#x44E; (3 &#x431;&#x43E;&#x43D;&#x443;&#x441;&#x430;) &#x434;&#x435;&#x442;&#x430;&#x43B;&#x44C; &#x434;&#x43B;&#x44F; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x43E;&#x433;&#x43E; &#x41D;&#x418;&#x418;!</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>rarebox1a.name</source>
+        <target>&#x42F;&#x449;&#x438;&#x43A; &#x441; &#x440;&#x435;&#x434;&#x43A;&#x43E;&#x439; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x44C;&#x44E; 1 &#x443;&#x440;.</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>ceruleanarmor.description</source>
+        <target>&#x420;&#x435;&#x446;&#x435;&#x43F;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43E;&#x434;&#x43D;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x443;&#x43C;&#x43D;&#x43E;&#x439; &#x446;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x43E;&#x439; &#x431;&#x440;&#x43E;&#x43D;&#x438;!</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>ceruleandamagesensor.description</source>
+        <target>&#x420;&#x435;&#x446;&#x435;&#x43F;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43E;&#x434;&#x43D;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x443;&#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x446;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x434;&#x430;&#x442;&#x447;&#x438;&#x43A;&#x430; &#x43F;&#x43E;&#x432;&#x440;&#x435;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x439;!</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>ceruleanarmor.name</source>
+        <target>&#x426;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x430;&#x44F; &#x431;&#x440;&#x43E;&#x43D;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>rarebox1a.description</source>
+        <target>&#x428;&#x430;&#x43D;&#x441; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x440;&#x435;&#x434;&#x43A;&#x443;&#x44E; (3 &#x431;&#x43E;&#x43D;&#x443;&#x441;&#x430;) &#x447;&#x430;&#x441;&#x442;&#x44C; &#x443;&#x43C;&#x43D;&#x43E;&#x439; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; &#x438;&#x43B;&#x438; &#x436;&#x435;&#x442;&#x43E;&#x43D; &#x417;&#x443;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>rarebox3b.name</source>
+        <target>&#x42F;&#x449;&#x438;&#x43A; &#x441; &#x440;&#x435;&#x434;&#x43A;&#x43E;&#x439; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x44C;&#x44E; 3 &#x443;&#x440;.</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>rarebox2b.description</source>
+        <target>&#x428;&#x430;&#x43D;&#x441; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x440;&#x435;&#x434;&#x43A;&#x443;&#x44E; (3 &#x431;&#x43E;&#x43D;&#x443;&#x441;&#x430;) &#x447;&#x430;&#x441;&#x442;&#x44C; &#x443;&#x43C;&#x43D;&#x43E;&#x439; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; &#x438;&#x43B;&#x438; &#x41F;&#x42F;&#x422;&#x42C; &#x436;&#x435;&#x442;&#x43E;&#x43D;&#x43E;&#x432; &#x417;&#x443;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>rarebox2b.name</source>
+        <target>&#x42F;&#x449;&#x438;&#x43A; &#x441; &#x440;&#x435;&#x434;&#x43A;&#x43E;&#x439; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x44C;&#x44E; 2 &#x443;&#x440;.</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>ceruleanammodelivery.name</source>
+        <target>&#x426;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x430;&#x44F; &#x43F;&#x43E;&#x434;&#x430;&#x447;&#x430; &#x431;&#x43E;&#x435;&#x43F;&#x440;&#x438;&#x43F;&#x430;&#x441;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>ceruleaninflammableshield.name</source>
+        <target>&#x426;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x438;&#x439; &#x43E;&#x433;&#x43D;&#x435;&#x443;&#x43F;&#x43E;&#x440;&#x43D;&#x44B;&#x439; &#x449;&#x438;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>rarebox1b.name</source>
+        <target>&#x42F;&#x449;&#x438;&#x43A; &#x441; &#x440;&#x435;&#x434;&#x43A;&#x43E;&#x439; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x44C;&#x44E; 1 &#x443;&#x440;.</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>rarebox1b.description</source>
+        <target>&#x428;&#x430;&#x43D;&#x441; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x440;&#x435;&#x434;&#x43A;&#x443;&#x44E; (3 &#x431;&#x43E;&#x43D;&#x443;&#x441;&#x430;) &#x447;&#x430;&#x441;&#x442;&#x44C; &#x443;&#x43C;&#x43D;&#x43E;&#x439; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; &#x438;&#x43B;&#x438; &#x436;&#x435;&#x442;&#x43E;&#x43D; &#x417;&#x443;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>ceruleanammodelivery.description</source>
+        <target>&#x420;&#x435;&#x446;&#x435;&#x43F;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43E;&#x434;&#x43D;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x443;&#x43C;&#x43D;&#x43E;&#x439; &#x446;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; &#x43F;&#x43E;&#x434;&#x430;&#x447;&#x438; &#x431;&#x43E;&#x435;&#x43F;&#x440;&#x438;&#x43F;&#x430;&#x441;&#x43E;&#x432;!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

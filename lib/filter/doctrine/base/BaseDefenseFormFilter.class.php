@@ -13,7 +13,7 @@ abstract class BaseDefenseFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'type' => new sfWidgetFormFilterInput(),
+      'type' => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(

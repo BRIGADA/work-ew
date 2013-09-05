@@ -96,8 +96,8 @@ EOF;
     				$player->save();
     				
     				if($idata->user_card->alliance) {
-    					$char->alliance_id = $idata->user_card->alliance->id;
-    					$char->alliance = $idata->user_card->alliance->name;
+    					$chat->alliance_id = $idata->user_card->alliance->id;
+    					$chat->alliance = $idata->user_card->alliance->name;
     				}
     				$chat->save();
 

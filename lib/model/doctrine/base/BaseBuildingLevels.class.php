@@ -8,15 +8,15 @@
  * @property integer $building_id
  * @property integer $level
  * @property integer $time
- * @property text $requirements
- * @property text $stats
+ * @property array $requirements
+ * @property array $stats
  * @property Building $building
  * 
  * @method integer        getBuildingId()   Returns the current record's "building_id" value
  * @method integer        getLevel()        Returns the current record's "level" value
  * @method integer        getTime()         Returns the current record's "time" value
- * @method text           getRequirements() Returns the current record's "requirements" value
- * @method text           getStats()        Returns the current record's "stats" value
+ * @method array          getRequirements() Returns the current record's "requirements" value
+ * @method array          getStats()        Returns the current record's "stats" value
  * @method Building       getBuilding()     Returns the current record's "building" value
  * @method BuildingLevels setBuildingId()   Sets the current record's "building_id" value
  * @method BuildingLevels setLevel()        Sets the current record's "level" value
@@ -46,11 +46,11 @@ abstract class BaseBuildingLevels extends sfDoctrineRecord
         $this->hasColumn('time', 'integer', null, array(
              'type' => 'integer',
              ));
-        $this->hasColumn('requirements', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('requirements', 'array', null, array(
+             'type' => 'array',
              ));
-        $this->hasColumn('stats', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('stats', 'array', null, array(
+             'type' => 'array',
              ));
     }
 

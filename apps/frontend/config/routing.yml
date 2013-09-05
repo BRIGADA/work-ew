@@ -10,8 +10,97 @@ equipment-info:
   url: /equipment-info/:type
   param: { module: equipment, action: info }
 
-# generic rules
-# please, remove them by adding more specific rules
+manifest-equipments:
+  url: /manifest/equipments
+  param: { module: manifest, action: equipments }
+
+manifest-equipment-update:
+  url: /manifest/equipment/update
+  param: { module: manifest, action: equipmentUpdate }
+
+manifest-equipment:
+  url: /manifest/equipment/:type
+  param: { module: manifest, action: equipment }
+  
+manifest-items:
+  url: /manifest/items
+  param: { module: manifest, action: items }
+
+manifest-item-update:
+  url: /manifest/item-update
+  param: { module: manifest, action: itemUpdate }
+
+manifest-item-by-id:
+  url: /manifest/item-id/:id
+  param: { module: manifest, action: item, mode: byID }
+
+manifest-item:
+  url: /manifest/item/:type
+  param: { module: manifest, action: item, mode: byType }
+
+manifest-units:
+  url: /manifest/units
+  param: { module: manifest, action: units }
+
+manifest-units-compare:
+  url: /manifest/units/compare
+  param: { module: manifest, action unitsCompare }
+
+manifest-units-update:
+  url: /manifest/units/update
+  param: { module: manifest, action unitsUpdate }
+
+manifest-unit:
+  url: /manifest/unit/:type
+  param: { module: manifest, action: unit }
+
+manifest-generals:
+  url: /manifest/generals
+  param: { module: manifest, action: generals }
+
+manifest-generals-compare:
+  url: /manifest/generals/compare
+  param: { module: manifest, action: generalsCompare }
+
+manifest-generals-update:
+  url: /manifest/generals/update
+  param: { module: manifest, action: generalsUpdate }
+
+manifest-general:
+  url: /manifest/general/:type
+  param: { module: manifest, action: general }
+
+manifest-skills:
+  url: /manifest/skills
+  param: { module: manifest, action: skills }
+
+manifest-skill:
+  url: /manifest/skill/:type
+  param: { module: manifest, action: skill }
+
+manifest-researches:
+  url: /manifest/researches
+  param: { module: manifest, action: researches }
+  
+manifest-research:
+  url: /manifest/research/:type
+  param: { module: manifest, action: research }
+  
+manifest-defenses:
+  url: /manifest/defenses
+  param: { module: manifest, action: defenses }  
+  
+manifest-defense:
+  url: /manifest/defense/:type
+  param: { module: manifest, action: defense }  
+  
+manifest-campaigns:
+  url: /manifest/campaigns
+  param: { module: manifest, action: campaigns }
+
+manifest-campaign:
+  url: /manifest/campaign/:id
+  param: { module: manifest, action: campaign }
 
 maps:
   url: /maps
@@ -24,6 +113,9 @@ map-show:
 chat-read:
   url: /chat-read/:room
   param: { module: chat, action: read }
+
+# generic rules
+# please, remove them by adding more specific rules
 
 default_index:
   url:   /:module

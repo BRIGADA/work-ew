@@ -25,14 +25,15 @@ abstract class BaseDefense extends sfDoctrineRecord
 {
     public function setTableDefinition()
     {
-        $this->setTableName('defenses');
+        $this->setTableName('defense');
         $this->hasColumn('id', 'integer', null, array(
              'type' => 'integer',
-             'autoincrement' => true,
              'primary' => true,
+             'autoincrement' => true,
              ));
         $this->hasColumn('type', 'text', null, array(
              'type' => 'text',
+             'notnull' => true,
              ));
     }
 
@@ -41,6 +42,7 @@ abstract class BaseDefense extends sfDoctrineRecord
         parent::setUp();
         $this->hasMany('DefenseLevel as levels', array(
              'local' => 'id',
-             'foreign' => 'defense_id'));
+             'foreign' => 'defense_id',
+             'orderBy' => 'level'));
     }
 }

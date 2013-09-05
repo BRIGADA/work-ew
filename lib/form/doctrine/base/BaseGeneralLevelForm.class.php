@@ -19,6 +19,7 @@ abstract class BaseGeneralLevelForm extends BaseFormDoctrine
       'level'        => new sfWidgetFormInputHidden(),
       'requirements' => new sfWidgetFormInputText(),
       'stats'        => new sfWidgetFormInputText(),
+      'skills'       => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
@@ -26,6 +27,7 @@ abstract class BaseGeneralLevelForm extends BaseFormDoctrine
       'level'        => new sfValidatorChoice(array('choices' => array($this->getObject()->get('level')), 'empty_value' => $this->getObject()->get('level'), 'required' => false)),
       'requirements' => new sfValidatorPass(array('required' => false)),
       'stats'        => new sfValidatorPass(array('required' => false)),
+      'skills'       => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('general_level[%s]');

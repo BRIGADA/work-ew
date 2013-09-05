@@ -13,15 +13,11 @@ abstract class BaseAllianceFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'name'        => new sfWidgetFormFilterInput(),
-      'description' => new sfWidgetFormFilterInput(),
-      'active'      => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
+      'name' => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
-      'name'        => new sfValidatorPass(array('required' => false)),
-      'description' => new sfValidatorPass(array('required' => false)),
-      'active'      => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
+      'name' => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('alliance_filters[%s]');
@@ -41,10 +37,8 @@ abstract class BaseAllianceFormFilter extends BaseFormFilterDoctrine
   public function getFields()
   {
     return array(
-      'id'          => 'Number',
-      'name'        => 'Text',
-      'description' => 'Text',
-      'active'      => 'Boolean',
+      'id'   => 'Number',
+      'name' => 'Text',
     );
   }
 }

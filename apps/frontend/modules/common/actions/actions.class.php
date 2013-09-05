@@ -17,7 +17,12 @@ class commonActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    //$this->forward('default', 'module');
+  	$this->history = Doctrine::getTable('ClientHistory')
+  		->createQuery()
+  		->orderBy('created_at DESC')
+  		->limit(20)
+  		->execute();
+  	
   }
   
   public function executeSet(sfWebRequest $request)
@@ -28,13 +33,19 @@ class commonActions extends sfActions
   	$result = parse_url($url);
   	
   	if($result) {
+  		$client_history = new ClientHistory();
+  		$client_history->host = $result['host'];
+  		
   		$this->getUser()->setAttribute('host', $result['host'], 'client');
   		parse_str($result['query'], $query);
-  		foreach (array('meltdown', 'reactor', 'user_id', '_session_id', 'testCount') as $param) {
+  		foreach (array('meltdown', 'reactor', 'user_id', '_session_id') as $param) {
   			if(isset($query[$param])) {
   				$this->getUser()->setAttribute($param, $query[$param], 'client');
+  				$client_history->$param = $query[$param];
   			}
   		}
+  		$this->getUser()->setAttribute('testCount', 1, 'client');
+  		$client_history->save();
   		$this->getUser()->setFlash('success', 'Параметры заданы');
   	}
   	else {
@@ -49,12 +60,34 @@ class commonActions extends sfActions
   	$path = $request->getParameter('path');
   	$this->forward404Unless($path);
   	
-  	$decode = $request->getParameter('decode') == true;
-  	
   	$query = $request->getParameter('query', array());
   	
   	$result = $this->getUser()->RGET($path, $query);
+  	$this->forward404Unless($result, 'FETCH FAILED');
   	
+    switch ($request->getParameter('decode'))
+  	{
+  		case 'base64':
+  			$result = base64_decode($result);
+  			break;
+  		case 'amf':
+  			$this->getContext()->getConfiguration()->registerZend();
+  			$amf_stream = new Zend_Amf_Parse_InputStream($result);
+  			$amf_parser = new Zend_Amf_Parse_Amf3_Deserializer($amf_stream);
+  			$result = json_encode($amf_parser->readTypeMarker());
+  			break;  			
+  		default:
+  			break;
+  	}
+  	
+  	if(!is_null($request->getParameter('element'))){
+  		$result = json_decode($result, true);
+  		foreach (explode('/', $request->getParameter('element')) as $element) {
+  			$result = $result[$element];
+  		}
+  		$result = json_encode($result);
+  	}
+  	 
   	$this->getResponse()->setContentType('application/json');
   	return $this->renderText($result);  	
   }
@@ -118,4 +151,58 @@ class commonActions extends sfActions
   	$this->forward404Unless($path);
   	  	 
   }
+  
+  public function executeManifest(sfWebRequest $request)
+  {
+  	
+  }
+  
+  public function executeUpdateEquipment(sfWebRequest $request)
+  {
+  	$data = $request->getParameter('data');
+  	$this->forward404Unless($data);
+  	
+  	$equipment = Doctrine::getTable('Equipment')->findOneBy('type', $data['type']);
+  	if(!$equipment) {
+  		$equipment = new Equipment();
+  		$equipment->type = $data['type'];
+  		$equipment->save();
+  	}
+  	 
+  	$levels = Doctrine::getTable('EquipmentLevel')
+	  	->createQuery('INDEXBY level')
+	  	->where('equipment_id = ?', $equipment->id)
+	  	->orderBy('level')
+	  	->execute();
+  	 
+  	foreach ($data['levels'] as $l)
+  	{
+  		$level = $levels[$l['level']];
+  		$level->level = $l['level'];
+  		$level->equipment_id = $equipment->id;
+  		$level->tier = $l['tier'];
+  		$level->time = $l['time'];
+  		$level->upgrade_chance = $l['upgrade_chance'];
+  		$level->require_g = $l['requirements']['resources']['gas'];
+  		$level->require_e = $l['requirements']['resources']['energy'];
+  		$level->require_u = $l['requirements']['resources']['uranium'];
+  		$level->require_c = $l['requirements']['resources']['crystal'];
+  		$level->require_s = $l['requirements']['sp'];
+  		$level->stat_hp = $l['stats']['hp'];
+  		$level->stat_range = $l['stats']['range'];
+  		$level->stat_rate = $l['stats']['attack_rate'];
+  		$level->stat_damage = $l['stats']['damage'];
+  		$level->stat_targets = $l['stats']['simultaneous_targets'];
+  		$level->stat_splash = $l['stats']['splash_radius'];
+  		$level->stat_concussion = $l['stats']['concussion_effect'];
+  		$level->stat_defense = $l['stats']['defense_exploder'];
+  		$level->tags = (isset($l['tags']) && count($l['tags'])) ? $l['tags'][0] : NULL;
+  	}
+  	 
+  	$levels->save();
+  	
+  	$this->getResponse()->setContentType('application/json');
+  	return $this->renderText(json_encode(true));  	
+  }
+
 }

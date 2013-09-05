@@ -7,11 +7,11 @@
  * 
  * @property integer $id
  * @property integer $value
- * @property text $rewards
+ * @property array $rewards
  * 
  * @method integer   getId()      Returns the current record's "id" value
  * @method integer   getValue()   Returns the current record's "value" value
- * @method text      getRewards() Returns the current record's "rewards" value
+ * @method array     getRewards() Returns the current record's "rewards" value
  * @method MapRevard setId()      Sets the current record's "id" value
  * @method MapRevard setValue()   Sets the current record's "value" value
  * @method MapRevard setRewards() Sets the current record's "rewards" value
@@ -34,8 +34,8 @@ abstract class BaseMapRevard extends sfDoctrineRecord
         $this->hasColumn('value', 'integer', null, array(
              'type' => 'integer',
              ));
-        $this->hasColumn('rewards', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('rewards', 'array', null, array(
+             'type' => 'array',
              ));
     }
 

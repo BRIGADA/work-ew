@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="ew-auras" product-name="ew-auras">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>slowtroops.name</source>
+        <target>Slow Troops Aura</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>misc.effectduration</source>
+        <target>Duration</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>slowtroops.strengthname</source>
+        <target>Speed Reduction</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>misc.range</source>
+        <target>Range</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

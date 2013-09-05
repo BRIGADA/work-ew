@@ -21,7 +21,7 @@ abstract class BaseDefenseForm extends BaseFormDoctrine
 
     $this->setValidators(array(
       'id'   => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'type' => new sfValidatorPass(array('required' => false)),
+      'type' => new sfValidatorPass(),
     ));
 
     $this->widgetSchema->setNameFormat('defense[%s]');

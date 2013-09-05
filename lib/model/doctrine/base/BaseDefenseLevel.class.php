@@ -8,15 +8,15 @@
  * @property integer $defense_id
  * @property integer $level
  * @property integer $time
- * @property text $requirements
- * @property text $stats
+ * @property array $requirements
+ * @property array $stats
  * @property Defense $defense
  * 
  * @method integer      getDefenseId()    Returns the current record's "defense_id" value
  * @method integer      getLevel()        Returns the current record's "level" value
  * @method integer      getTime()         Returns the current record's "time" value
- * @method text         getRequirements() Returns the current record's "requirements" value
- * @method text         getStats()        Returns the current record's "stats" value
+ * @method array        getRequirements() Returns the current record's "requirements" value
+ * @method array        getStats()        Returns the current record's "stats" value
  * @method Defense      getDefense()      Returns the current record's "defense" value
  * @method DefenseLevel setDefenseId()    Sets the current record's "defense_id" value
  * @method DefenseLevel setLevel()        Sets the current record's "level" value
@@ -46,11 +46,11 @@ abstract class BaseDefenseLevel extends sfDoctrineRecord
         $this->hasColumn('time', 'integer', null, array(
              'type' => 'integer',
              ));
-        $this->hasColumn('requirements', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('requirements', 'array', null, array(
+             'type' => 'array',
              ));
-        $this->hasColumn('stats', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('stats', 'array', null, array(
+             'type' => 'array',
              ));
     }
 
@@ -61,6 +61,7 @@ abstract class BaseDefenseLevel extends sfDoctrineRecord
              'local' => 'defense_id',
              'foreign' => 'id',
              'onDelete' => 'CASCADE',
-             'onUpdate' => 'CASCADE'));
+             'onUpdate' => 'CASCADE',
+             'owningSide' => true));
     }
 }

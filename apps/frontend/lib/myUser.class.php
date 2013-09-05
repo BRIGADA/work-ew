@@ -21,6 +21,8 @@ class myUser extends sfBasicSecurityUser
 		 
 		//  	$f = fopen(sfConfig::get('sf_log_dir').'/headers.txt', 'w+');
 		$ch = curl_init($url);
+		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0');
 		//  	curl_setopt($ch, CURLOPT_WRITEHEADER, $f);
@@ -37,11 +39,11 @@ class myUser extends sfBasicSecurityUser
 		{
 			$result = NULL;
 		}
-		else
-		{
-			$fn = sfConfig::get('sf_upload_dir').'/'.date('Y-m-d\TH:i:s').' GET '.str_replace('/', '-', $path);
-			file_put_contents($fn, $result);
-		}
+// 		else
+// 		{
+// 			$fn = sfConfig::get('sf_upload_dir').'/'.date('Y-m-d\TH:i:s').' GET '.str_replace('/', '-', $path);
+// 			file_put_contents($fn, $result);
+// 		}
 		
 		curl_close($ch);
 		
@@ -61,6 +63,8 @@ class myUser extends sfBasicSecurityUser
 		$ch = curl_init($url);
 		
 		//  	$f = fopen(sfConfig::get('sf_log_dir').'/headers.txt', 'w+');
+		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_POST, true);
 		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0');
@@ -81,12 +85,12 @@ class myUser extends sfBasicSecurityUser
 		{
 			$result = NULL;
 		}
-		else
-		{
-			$fn = sfConfig::get('sf_upload_dir').'/'.date('Y-m-d\TH:i:s').' '.str_replace('/', '-', $path);
-			file_put_contents($fn, $result);
-			$this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'client') + 1, 'client');
-		}
+ 		else
+ 		{
+// 			$fn = sfConfig::get('sf_upload_dir').'/'.date('Y-m-d\TH:i:s').' POST '.str_replace('/', '-', $path);
+// 			file_put_contents($fn, $result);
+ 			$this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'client') + 1, 'client');
+ 		}
 		
 		curl_close($ch);
 		return $result;

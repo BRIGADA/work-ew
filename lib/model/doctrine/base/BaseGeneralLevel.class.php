@@ -7,19 +7,22 @@
  * 
  * @property integer $general_id
  * @property integer $level
- * @property text $requirements
- * @property text $stats
+ * @property array $requirements
+ * @property array $stats
+ * @property array $skills
  * @property General $general
  * 
  * @method integer      getGeneralId()    Returns the current record's "general_id" value
  * @method integer      getLevel()        Returns the current record's "level" value
- * @method text         getRequirements() Returns the current record's "requirements" value
- * @method text         getStats()        Returns the current record's "stats" value
+ * @method array        getRequirements() Returns the current record's "requirements" value
+ * @method array        getStats()        Returns the current record's "stats" value
+ * @method array        getSkills()       Returns the current record's "skills" value
  * @method General      getGeneral()      Returns the current record's "general" value
  * @method GeneralLevel setGeneralId()    Sets the current record's "general_id" value
  * @method GeneralLevel setLevel()        Sets the current record's "level" value
  * @method GeneralLevel setRequirements() Sets the current record's "requirements" value
  * @method GeneralLevel setStats()        Sets the current record's "stats" value
+ * @method GeneralLevel setSkills()       Sets the current record's "skills" value
  * @method GeneralLevel setGeneral()      Sets the current record's "general" value
  * 
  * @package    edgeworld
@@ -40,11 +43,14 @@ abstract class BaseGeneralLevel extends sfDoctrineRecord
              'type' => 'integer',
              'primary' => true,
              ));
-        $this->hasColumn('requirements', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('requirements', 'array', null, array(
+             'type' => 'array',
              ));
-        $this->hasColumn('stats', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('stats', 'array', null, array(
+             'type' => 'array',
+             ));
+        $this->hasColumn('skills', 'array', null, array(
+             'type' => 'array',
              ));
     }
 

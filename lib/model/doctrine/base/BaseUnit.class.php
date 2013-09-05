@@ -39,7 +39,7 @@ abstract class BaseUnit extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('UnitLevels as levels', array(
+        $this->hasMany('UnitLevel as levels', array(
              'local' => 'id',
              'foreign' => 'unit_id'));
     }

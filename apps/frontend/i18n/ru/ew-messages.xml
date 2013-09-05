@@ -25,6 +25,47 @@ Thank you for your patience.</target>
         <target>&#x417;&#x430;&#x43F;&#x43B;&#x430;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E;&#x435; &#x442;&#x435;&#x445;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x435; &#x43E;&#x431;&#x441;&#x43B;&#x443;&#x436;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x432;&#x441;&#x435;&#x445; &#x441;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x43E;&#x432;</target>
       </trans-unit>
       <trans-unit id="5">
+        <source>eu20130513forum.body</source>
+        <target>Greetings Commanders,
+
+The Edgeworld Community Team would like to remind all our fellow players that we have been working on the forum features: new content have been posted recently and there&#x2019;s a lot more to come.
+
+Our intention is to treat the player community with the deserved care and attention, in order to get your involvement not only as gamers, but also as community participants. We will be giving answers to your troubles when needed, adding more useful information and posting new funny events to make the whole experience of playing Edgeworld something even more awesome!
+
+We sincerely hope to see you participating in these events and contests, there will be rewards and achievements for those who will join the forum activities. Commanders, this is the beginning of a new era in Edgeworld&#x2019;s Forum!
+
+
+
+These are the links of the dedicated forums for each language:
+
+ENGLISH
+
+For more information click &lt;a href=" http://community.kabam.com/forums/forumdisplay.php?127-Edgeworld " target="_blank"&gt;here&lt;/a&gt;
+
+GERMAN
+
+F&#xFC;r mehr informationen klicken sie &lt;a href=" http://community.kabam.com/forums/forumdisplay.php?389-Deutsch " target="_blank"&gt;hier&lt;/a&gt;
+
+SPANISH
+
+Para m&#xE1;s informaci&#xF3;n click &lt;a href=" http://community.kabam.com/forums/forumdisplay.php?425-Espa%C3%B1ol " target="_blank"&gt;aqu&#xED;&lt;/a&gt;
+
+ITALIAN
+
+Per saperne di pi&#xF9; clicca &lt;a href=" http://community.kabam.com/forums/forumdisplay.php?413-Italiano " target="_blank"&gt;qui&lt;/a&gt;
+
+FRENCH
+
+Pour plus d'informations clique &lt;a href=" http://community.kabam.com/forums/forumdisplay.php?401-Francais " target="_blank"&gt; ici&lt;/a&gt;
+
+
+
+Regards,
+
+
+Edgeworld Community Team</target>
+      </trans-unit>
+      <trans-unit id="6">
         <source>outage20120209.body</source>
         <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;!
 
@@ -32,23 +73,27 @@ Thank you for your patience.</target>
 
 Edgeworld</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="7">
         <source>bongbong.subject</source>
         <target>Bongbong</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="8">
+        <source>eu20130513forum.subject</source>
+        <target>Forum Reminder</target>
+      </trans-unit>
+      <trans-unit id="9">
         <source>7dayspeedupsale.subject</source>
         <target/>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="10">
         <source>bongbong.from</source>
         <target>Mister X</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="11">
         <source>bongbong.body</source>
         <target>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;: Zivio!</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="12">
         <source>mass-assignment.subject</source>
         <target>Maps Mostly Restored</target>
       </trans-unit>

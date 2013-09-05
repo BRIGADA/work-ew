@@ -7,14 +7,14 @@
  * 
  * @property integer $skill_id
  * @property integer $level
- * @property text $requirements
- * @property text $stats
+ * @property array $requirements
+ * @property array $stats
  * @property Skill $skill
  * 
  * @method integer    getSkillId()      Returns the current record's "skill_id" value
  * @method integer    getLevel()        Returns the current record's "level" value
- * @method text       getRequirements() Returns the current record's "requirements" value
- * @method text       getStats()        Returns the current record's "stats" value
+ * @method array      getRequirements() Returns the current record's "requirements" value
+ * @method array      getStats()        Returns the current record's "stats" value
  * @method Skill      getSkill()        Returns the current record's "skill" value
  * @method SkillLevel setSkillId()      Sets the current record's "skill_id" value
  * @method SkillLevel setLevel()        Sets the current record's "level" value
@@ -40,11 +40,11 @@ abstract class BaseSkillLevel extends sfDoctrineRecord
              'type' => 'integer',
              'primary' => true,
              ));
-        $this->hasColumn('requirements', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('requirements', 'array', null, array(
+             'type' => 'array',
              ));
-        $this->hasColumn('stats', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('stats', 'array', null, array(
+             'type' => 'array',
              ));
     }
 
@@ -55,6 +55,7 @@ abstract class BaseSkillLevel extends sfDoctrineRecord
              'local' => 'skill_id',
              'foreign' => 'id',
              'onDelete' => 'CASCADE',
-             'onUpdate' => 'CASCADE'));
+             'onUpdate' => 'CASCADE',
+             'orderBy' => 'level'));
     }
 }

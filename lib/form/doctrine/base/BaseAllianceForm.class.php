@@ -15,17 +15,13 @@ abstract class BaseAllianceForm extends BaseFormDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'id'          => new sfWidgetFormInputHidden(),
-      'name'        => new sfWidgetFormInputText(),
-      'description' => new sfWidgetFormInputText(),
-      'active'      => new sfWidgetFormInputCheckbox(),
+      'id'   => new sfWidgetFormInputHidden(),
+      'name' => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
-      'id'          => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'name'        => new sfValidatorPass(array('required' => false)),
-      'description' => new sfValidatorPass(array('required' => false)),
-      'active'      => new sfValidatorBoolean(array('required' => false)),
+      'id'   => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
+      'name' => new sfValidatorPass(),
     ));
 
     $this->widgetSchema->setNameFormat('alliance[%s]');

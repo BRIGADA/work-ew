@@ -1,16 +1,3 @@
-Translation:
-  columns:
-    id:
-      type: string(255)
-      primary: true
-      notnull: true
-    lang:
-      type: string(2)
-      primary: true
-      notnull: true
-    content:
-      type: text
-      
 Equipment:
   columns:
     id:
@@ -36,22 +23,10 @@ EquipmentLevel:
     time: integer
     upgrade_chance: integer
     
-    require_g: integer
-    require_e: integer
-    require_u: integer
-    require_c: integer
-    require_s: integer
-    
-    stat_hp: integer
-    stat_range: integer
-    stat_rate: integer
-    stat_damage: integer
-    stat_targets: integer
-    stat_splash: integer
-    stat_concussion: boolean
-    stat_defense: float
-    
-    tags: text
+    requirements: array
+    stats: array
+    tags: array
+
   relations:
     rel_equipment:
       class: Equipment
@@ -59,6 +34,8 @@ EquipmentLevel:
       foreign: id
       alias: equipment
       foreignAlias: levels
+      onDelete: CASCADE
+      onUpdate: CASCADE
       
 Building:
   tableName: buildings
@@ -67,9 +44,15 @@ Building:
       type: integer
       autoincrement: true
       primary: true
-    type: text
-    width: integer
-    height: integer
+    type:
+      type: text
+      notnull: true
+    size_x:
+      type: integer
+      notnull: true
+    size_y:
+      type: integer
+      notnull: true
 
 BuildingLevels:
   tableName: building_levels
@@ -82,13 +65,9 @@ BuildingLevels:
       type: integer
       primary: true
       notnull: true
-      
     time: integer
-    
-    requirements: text
-    
-    stats: text
-      
+    requirements: array
+    stats: array
   relations:
     rel_building:
       class: Building
@@ -98,16 +77,6 @@ BuildingLevels:
       foreignAlias: levels
       onUpdate: CASCADE
       onDelete: CASCADE
-       
-GarrisonBoost:
-  tableName: garrison_boosts
-  columns:
-    id:
-      type: integer
-      autoincrement: true
-      primary: true
-    type: text
-    value: float
 
 General:
   tableName: generals
@@ -129,8 +98,10 @@ GeneralLevel:
       type: integer
       primary: true
       notnull: true
-    requirements: text
-    stats: text
+    requirements: array
+    stats: array
+    skills: array
+    
   relations:
     rel_general:
       class: General
@@ -149,7 +120,7 @@ MapRevard:
       autoincrement: true
       primary: true
     value: integer
-    rewards: text
+    rewards: array
 
 Unit:
   tableName: units
@@ -160,7 +131,7 @@ Unit:
       primary: true
     type: text
 
-UnitLevels:
+UnitLevel:
   tableName: unit_levels
   columns:
     unit_id:
@@ -171,9 +142,11 @@ UnitLevels:
       type: integer
       primary: true
       notnull: true
-    requirements: text
-    stats: text
-    
+    time: integer
+    requirements: array
+    stats: array
+  options:
+    order_by: unit_id, level
   relations:
     rel_unit:
       class: Unit
@@ -184,39 +157,6 @@ UnitLevels:
       onUpdate: CASCADE
       onDelete: CASCADE
 
-Defense:
-  tableName: defenses
-  columns:
-    id:
-      type: integer
-      autoincrement: true
-      primary: true
-    type: text
-
-DefenseLevel:
-  tableName: defense_levels
-  columns:
-    defense_id:
-      type: integer
-      primary: true
-      notnull: true
-    level:
-      type: integer
-      primary: true
-      notnull: true
-    time: integer
-    requirements: text
-    stats: text
-  relations:
-    rel_defense:
-      class: Defense
-      local: defense_id
-      foreign: id
-      alias: defense
-      foreignAlias: levels
-      onUpdate: CASCADE
-      onDelete: CASCADE
-    
 Skill:
   tableName: skills
   columns:
@@ -237,8 +177,8 @@ SkillLevel:
       type: integer
       primary: true
       notnull: true
-    requirements: text
-    stats: text
+    requirements: array
+    stats: array
   relations:
     rel_skill:
       class: Skill
@@ -246,6 +186,7 @@ SkillLevel:
       foreign: id
       alias: skill
       foreignAlias: levels
+      orderBy: level
       onUpdate: CASCADE
       onDelete: CASCADE
 
@@ -305,4 +246,320 @@ Chat:
     sender: text
     alliance_id: integer
     alliance: text
+    
+Map:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    sector: integer
+    width: integer
+    height: integer
+    chunk_size: integer
+    outpost_levels: array
+    upgrade_costs: object
+    max_territory_limit: integer
+    type: text
+    active: boolean
+    maximum_node_level: integer
+    
+MapNode:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    map_id:
+      type: integer
+      notnull: true
+    x:
+      type: integer
+      notnull: true
+    y: 
+      type: integer
+      notnull: true
+    owner:
+      type: text
+    owner_id:
+      type: integer
+    collection:
+      type: text
+      default: null
+    collection_id:
+      type: integer
+      default: null
+  relations:
+    rel_map:
+      class: Map
+      local: map_id
+      foreign: id
+      alias: map
+      foreignAlias: nodes
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      
+Alliance:
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    name:
+      type: text
+      notnull: true
+
+Player:
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    name: text
+    level: integer
+    mainbase_id: integer
+    colonies: array
+    alliance_id: integer
+    created_at: datetime
+    login_at: datetime
+    xp: integer
+    sp: integer
+
+Home:
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    name: text
+    damage_protection: datetime
+    
+ClientHistory:
+  actAs:
+    Timestampable:
+      updated:
+        disabled: true
+  columns:
+    host: text
+    meltdown: text
+    reactor: text
+    user_id: integer
+    _session_id: text
+
+Item:
+  tableName: items
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    type:
+      type: text
+      notnull: true      
+    permanent:
+      type: boolean
+      default: false
+      notnull: true
+    
+    boost_amount: integer
+    boost_percentage: integer
+    boost_type: text
+    
+    resource_amount: integer
+    resource_type: text
+    
+    contents: array
+    tags: array
+
+Campaign:
+  tableName: campaigns
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    name: text
+    unlock_level: integer
+  relations:
+    rel_stages:
+      class: CampaignStage
+      local: id
+      foreign: campaign_id
+      alias: stages
+      type: many
+      foreignType: one
+      foreignAlias: campaign
+      owningSide: false
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      orderBy: id
+    
+CampaignStage:
+  tableName: campaigns_stages
+  columns:
+    id:
+      type: integer
+      notnull: true
+      primary: true
+    campaign_id:
+      type: integer
+      notnull: true
+    name: text
+    attacker_level: integer
+    attacker_boost: float
+    unit_level: integer
+    baseline_xp: integer
+    player_unlock_level: integer
+  relations:
+    rel_stage:
+      class: CampaignStageUnit
+      local: id
+      foreign: stage_id
+      alias: units
+      type: many
+      foreignType: one
+      foreignAlias: stage
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      owningSide: false
+      orderBy: time, id
+
+CampaignStageUnit:
+  tableName: campaigns_stages_units
+  columns:
+    stage_id:
+      type: integer
+      notnull: true
+    type: text
+    quantity: integer
+    x: integer
+    y: integer
+    time: integer
+
+Defense:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    type:
+      type: text
+      notnull: true
+  relations:
+    rel_levels:
+      class: DefenseLevel
+      local: id
+      foreign: defense_id
+      alias: levels
+      type: many
+      orderBy: level
+      owningSide: false
+
+DefenseLevel:
+  tableName: defense_levels
+  columns:
+    defense_id:
+      type: integer
+      primary: true
+      notnull: true
+    level:
+      type: integer
+      primary: true
+      notnull: true
+    time: integer
+    requirements: array
+    stats: array
+  relations:
+    rel_defense:
+      class: Defense
+      local: defense_id
+      foreign: id
+      alias: defense
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      owningSide: true
+
+Research:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    type:
+      type: text
+      notnull: true
+
+ResearchLevel:
+  tableName: research_levels
+  columns:
+    research_id:
+      type: integer
+      primary: true
+      notnull: true
+    level:
+      type: integer
+      primary: true
+      notnull: true
+    time: integer
+    requirements: array
+  relations:
+    rel_reseach:
+      class: Research
+      local: research_id
+      foreign: id
+      type: one
+      foreignType: many
+      alias: research
+      foreignAlias: levels
+      onDelete: CASCADE
+      onUpdate: CASCADE
+        
+#Requirement:
+#  tableName: requirements
+#  columns:
+#    id:
+#      type: integer
+#      primary: true
+#      autoincrement: true
+#    sp: integer
+
+ForceTournament:
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    dates: text
+    sector: integer    
+    type: text
+    end_at: integer
+    daily_prizing: array
+    bout_prizing: array
+    challenge_prizing: array
+    active_calculations: array
+    value_adjusments: array
+
+ForceLeaderboard:
+  columns:
+    tournament_id:
+      type: integer
+      primary: true
+    timestamp:
+      type: integer
+      primary: true
+    rank:
+      type: integer
+      primary: true
+    user_id: integer
+    user_name: text
+    power: integer
+  relations:
+    rel_tournament:
+      class: ForceTournament
+      local: tournament_id
+      foreign: id
     

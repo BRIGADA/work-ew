@@ -7,11 +7,35 @@
  * 
  * @property integer $id
  * @property text $name
+ * @property integer $level
+ * @property integer $mainbase_id
+ * @property array $colonies
+ * @property integer $alliance_id
+ * @property datetime $created_at
+ * @property datetime $login_at
+ * @property integer $xp
+ * @property integer $sp
  * 
- * @method integer getId()   Returns the current record's "id" value
- * @method text    getName() Returns the current record's "name" value
- * @method Player  setId()   Sets the current record's "id" value
- * @method Player  setName() Sets the current record's "name" value
+ * @method integer  getId()          Returns the current record's "id" value
+ * @method text     getName()        Returns the current record's "name" value
+ * @method integer  getLevel()       Returns the current record's "level" value
+ * @method integer  getMainbaseId()  Returns the current record's "mainbase_id" value
+ * @method array    getColonies()    Returns the current record's "colonies" value
+ * @method integer  getAllianceId()  Returns the current record's "alliance_id" value
+ * @method datetime getCreatedAt()   Returns the current record's "created_at" value
+ * @method datetime getLoginAt()     Returns the current record's "login_at" value
+ * @method integer  getXp()          Returns the current record's "xp" value
+ * @method integer  getSp()          Returns the current record's "sp" value
+ * @method Player   setId()          Sets the current record's "id" value
+ * @method Player   setName()        Sets the current record's "name" value
+ * @method Player   setLevel()       Sets the current record's "level" value
+ * @method Player   setMainbaseId()  Sets the current record's "mainbase_id" value
+ * @method Player   setColonies()    Sets the current record's "colonies" value
+ * @method Player   setAllianceId()  Sets the current record's "alliance_id" value
+ * @method Player   setCreatedAt()   Sets the current record's "created_at" value
+ * @method Player   setLoginAt()     Sets the current record's "login_at" value
+ * @method Player   setXp()          Sets the current record's "xp" value
+ * @method Player   setSp()          Sets the current record's "sp" value
  * 
  * @package    edgeworld
  * @subpackage model
@@ -29,6 +53,30 @@ abstract class BasePlayer extends sfDoctrineRecord
              ));
         $this->hasColumn('name', 'text', null, array(
              'type' => 'text',
+             ));
+        $this->hasColumn('level', 'integer', null, array(
+             'type' => 'integer',
+             ));
+        $this->hasColumn('mainbase_id', 'integer', null, array(
+             'type' => 'integer',
+             ));
+        $this->hasColumn('colonies', 'array', null, array(
+             'type' => 'array',
+             ));
+        $this->hasColumn('alliance_id', 'integer', null, array(
+             'type' => 'integer',
+             ));
+        $this->hasColumn('created_at', 'datetime', null, array(
+             'type' => 'datetime',
+             ));
+        $this->hasColumn('login_at', 'datetime', null, array(
+             'type' => 'datetime',
+             ));
+        $this->hasColumn('xp', 'integer', null, array(
+             'type' => 'integer',
+             ));
+        $this->hasColumn('sp', 'integer', null, array(
+             'type' => 'integer',
              ));
     }
 

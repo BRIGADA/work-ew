@@ -17,15 +17,15 @@ abstract class BaseBuildingForm extends BaseFormDoctrine
     $this->setWidgets(array(
       'id'     => new sfWidgetFormInputHidden(),
       'type'   => new sfWidgetFormInputText(),
-      'width'  => new sfWidgetFormInputText(),
-      'height' => new sfWidgetFormInputText(),
+      'size_x' => new sfWidgetFormInputText(),
+      'size_y' => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
       'id'     => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'type'   => new sfValidatorPass(array('required' => false)),
-      'width'  => new sfValidatorInteger(array('required' => false)),
-      'height' => new sfValidatorInteger(array('required' => false)),
+      'type'   => new sfValidatorPass(),
+      'size_x' => new sfValidatorInteger(),
+      'size_y' => new sfValidatorInteger(),
     ));
 
     $this->widgetSchema->setNameFormat('building[%s]');

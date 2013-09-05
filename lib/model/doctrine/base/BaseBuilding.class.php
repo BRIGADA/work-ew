@@ -7,19 +7,19 @@
  * 
  * @property integer $id
  * @property text $type
- * @property integer $width
- * @property integer $height
+ * @property integer $size_x
+ * @property integer $size_y
  * @property Doctrine_Collection $levels
  * 
  * @method integer             getId()     Returns the current record's "id" value
  * @method text                getType()   Returns the current record's "type" value
- * @method integer             getWidth()  Returns the current record's "width" value
- * @method integer             getHeight() Returns the current record's "height" value
+ * @method integer             getSizeX()  Returns the current record's "size_x" value
+ * @method integer             getSizeY()  Returns the current record's "size_y" value
  * @method Doctrine_Collection getLevels() Returns the current record's "levels" collection
  * @method Building            setId()     Sets the current record's "id" value
  * @method Building            setType()   Sets the current record's "type" value
- * @method Building            setWidth()  Sets the current record's "width" value
- * @method Building            setHeight() Sets the current record's "height" value
+ * @method Building            setSizeX()  Sets the current record's "size_x" value
+ * @method Building            setSizeY()  Sets the current record's "size_y" value
  * @method Building            setLevels() Sets the current record's "levels" collection
  * 
  * @package    edgeworld
@@ -39,12 +39,15 @@ abstract class BaseBuilding extends sfDoctrineRecord
              ));
         $this->hasColumn('type', 'text', null, array(
              'type' => 'text',
+             'notnull' => true,
              ));
-        $this->hasColumn('width', 'integer', null, array(
+        $this->hasColumn('size_x', 'integer', null, array(
              'type' => 'integer',
+             'notnull' => true,
              ));
-        $this->hasColumn('height', 'integer', null, array(
+        $this->hasColumn('size_y', 'integer', null, array(
              'type' => 'integer',
+             'notnull' => true,
              ));
     }
 

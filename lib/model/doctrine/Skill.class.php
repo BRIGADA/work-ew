@@ -12,4 +12,39 @@
  */
 class Skill extends BaseSkill
 {
+	public function requirementsSP()
+	{
+		$result = array();
+		foreach($this->levels as $level)
+		{
+			$result[] = $level->requirements['sp'];
+		}
+		return $result;
+	}
+	
+	public function stats()
+	{
+		$result = array();
+		foreach ($this->levels as $level)
+		{
+			foreach($level->stats as $stat => $value)
+			{
+				if($value && !in_array($stat, $result))
+				{
+					$result[] = $stat;
+				}
+			}
+		}
+		return $result;
+	}
+	
+	public function stat($type)
+	{
+		$result = array();
+		foreach ($this->levels as $level)
+		{
+			$result [] = $level->stats[$type];
+		}
+		return $result;
+	}
 }

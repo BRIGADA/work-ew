@@ -1,5 +1,7 @@
 .*
 !.htaccess
 !.gitignore
+/web/uploads
 /cache/*
 /log/*
+/nbproject/private/

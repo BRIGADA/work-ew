@@ -1,6 +1,9 @@
 <form action="<?php echo url_for('common/set') ?>" method="post" class="form-inline">
-	<input type="text" name="url" placeholder="Клиентский URL" class="input-xxlarge">
-	<button class="btn btn-primary"><i class="icon-ok icon-white"></i> Задать</button>
+	<fieldset>
+		<legend>URL</legend>
+		<input type="text" name="url" placeholder="Клиентский URL" class="input-xxlarge">
+		<button class="btn btn-primary"><i class="icon-ok icon-white"></i> Задать</button>
+	</fieldset>
 </form>
 
 <?php if($sf_user->hasFlash('success')) : ?>
@@ -24,13 +27,33 @@
 		<?php endforeach ?>
 		<div class="control-group">
 			<div class="controls">
-				<button class="btn btn-primary">Задать</button>
+				<button type="submit" class="btn btn-primary">Задать</button>
 			</div>
 		</div>
 	</fieldset>
 </form>
 
-<a href="<?php echo url_for('common/player')?>" class="btn">Player</a>
+<ul>
+	<li><a href="<?php echo url_for('common/manifest')?>">Обновление справочников</a></li>
+	<li><a href="<?php echo url_for('common/player')?>">Сведения об игроке</a>
+	</li>
+</ul>
+
+<table class="table">
+	<tr>
+		<th>meltdown</th>
+		<th>reactor</th>
+		<th>_session_id</th>
+	</tr>
+	<?php foreach($history as $row) : ?>
+	<tr>
+		<td><?php echo $row->meltdown?></td>
+		<td><?php echo $row->reactor?></td>
+		<td><?php echo $row->_session_id?></td>
+	</tr>
+	<?php endforeach ?>
+</table>
+
 
 <script type="text/javascript">
 $(function(){

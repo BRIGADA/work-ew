@@ -15,11 +15,13 @@ abstract class BaseGeneralLevelFormFilter extends BaseFormFilterDoctrine
     $this->setWidgets(array(
       'requirements' => new sfWidgetFormFilterInput(),
       'stats'        => new sfWidgetFormFilterInput(),
+      'skills'       => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
       'requirements' => new sfValidatorPass(array('required' => false)),
       'stats'        => new sfValidatorPass(array('required' => false)),
+      'skills'       => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('general_level_filters[%s]');
@@ -43,6 +45,7 @@ abstract class BaseGeneralLevelFormFilter extends BaseFormFilterDoctrine
       'level'        => 'Number',
       'requirements' => 'Text',
       'stats'        => 'Text',
+      'skills'       => 'Text',
     );
   }
 }
