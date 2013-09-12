@@ -541,7 +541,7 @@ ForceTournament:
     bout_prizing: array
     challenge_prizing: array
     active_calculations: array
-    value_adjusments: array
+    value_adjustments: array
 
 ForceLeaderboard:
   columns:

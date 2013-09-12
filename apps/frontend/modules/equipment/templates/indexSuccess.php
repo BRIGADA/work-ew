@@ -7,12 +7,15 @@
 	<h1><?php echo __('Equipment')?></h1>
 </div>
 
+<audio src="<?php echo url_for('/buzz.ogg') ?>" preload="auto" id="sound-error"></audio>
+
 <div class="row">
 	<div class="span12">
 		<div>
 			<button id="action-upgrade-all" class="btn"><i class="icon-arrow-up"></i> <?php echo __('Upgrade all')?></button>
 			<button id="action-delete-all" class="btn"><i class="icon-trash"></i> <?php echo __('Delete all')?></button>
 			<button id="action-cheat" class="btn">:)</button>
+			<button id="action-craft">Craft</button>
 		</div>
 	</div>
 	<div class="span12">
@@ -227,6 +230,7 @@ $(function(){
 					return;
 				}
 			}
+			$('#sound-error').get(0).play();
 			bootbox.alert('UPGRADE FINISHED');
 		}
 
@@ -301,6 +305,7 @@ $(function(){
 					if(callback) callback();
 				}
 				else {
+					$('#sound-error').get(0).play();
 					bootbox.alert("Ошибка AJAX");
 				}
 			},
@@ -334,6 +339,16 @@ $(function(){
 
 });
 
+/*
+$('#action-craft').click(function(){
+	var items1a = [];
+	var items1b = [];
+	$('#equipment-list > tbody > tr:visible').each(function(){
+		if($(this).data();
+	});
+});
+	*/
+
 function LOG(message, decoration) {
 	console.log(message);
 	var record = $('<li>').html(message);
@@ -341,3 +356,4 @@ function LOG(message, decoration) {
 	$('#equipment-log').prepend(record);
 }
 </script>
+

@@ -156,6 +156,15 @@ class equipmentActions extends sfActions
 		return $this->renderJSON($result, false);
 	}
 	
+	// /api/player/craft
+	// _session_id=cf221a0bea87e72192a7694ccdcb6e1e
+	// input=[{"type":"equipment","id":12321596},{"type":"equipment","id":12321118},{"type":"equipment","id":12321668},{"type":"equipment","id":12321710},{"type":"equipment","id":12321730}]
+	// meltdown=308073d8bcd84726b10cfc104e2cd44c1e6934bc
+	// name=rarebox1b
+	// reactor=8694f154769b1fe1a6c174209b7df65c6418e31c
+	// testCount=4
+	// user_id=608208
+	
   
   protected function renderJSON($data, $encode = true)
   {

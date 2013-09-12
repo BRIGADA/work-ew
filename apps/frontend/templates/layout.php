@@ -54,6 +54,7 @@
 							</ul>
 						</li>
 						<li class="<?php sfContext::getInstance()->getModuleName() == 'equipment' && print 'active'?>"><a href="<?php echo url_for('equipment/index')?>">Снаряжение</a></li>
+						<li class="<?php sfContext::getInstance()->getModuleName() == 'force' && print 'active'?>"><a href="<?php echo url_for('force/index')?>">Турниры</a></li>
 						<li class="<?php sfContext::getInstance()->getModuleName() == 'map' && print 'active'?>"><a href="<?php echo url_for('@maps')?>">Карты</a></li>
 					</ul>
 					<p class="navbar-text pull-right">You logged as...</p>
