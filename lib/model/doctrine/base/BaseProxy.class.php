@@ -7,11 +7,11 @@
  * 
  * @property integer $id
  * @property text $type
- * @property text $params
+ * @property array $params
  * 
  * @method integer getId()     Returns the current record's "id" value
  * @method text    getType()   Returns the current record's "type" value
- * @method text    getParams() Returns the current record's "params" value
+ * @method array   getParams() Returns the current record's "params" value
  * @method Proxy   setId()     Sets the current record's "id" value
  * @method Proxy   setType()   Sets the current record's "type" value
  * @method Proxy   setParams() Sets the current record's "params" value
@@ -34,15 +34,20 @@ abstract class BaseProxy extends sfDoctrineRecord
         $this->hasColumn('type', 'text', null, array(
              'type' => 'text',
              ));
-        $this->hasColumn('params', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('params', 'array', null, array(
+             'type' => 'array',
              ));
     }
 
     public function setUp()
     {
         parent::setUp();
-        $timestampable0 = new Doctrine_Template_Timestampable();
+        $timestampable0 = new Doctrine_Template_Timestampable(array(
+             'updated' => 
+             array(
+              'disabled' => true,
+             ),
+             ));
         $this->actAs($timestampable0);
     }
 }

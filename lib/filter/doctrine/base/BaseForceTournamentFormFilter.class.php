@@ -21,7 +21,7 @@ abstract class BaseForceTournamentFormFilter extends BaseFormFilterDoctrine
       'bout_prizing'        => new sfWidgetFormFilterInput(),
       'challenge_prizing'   => new sfWidgetFormFilterInput(),
       'active_calculations' => new sfWidgetFormFilterInput(),
-      'value_adjusments'    => new sfWidgetFormFilterInput(),
+      'value_adjustments'   => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
@@ -33,7 +33,7 @@ abstract class BaseForceTournamentFormFilter extends BaseFormFilterDoctrine
       'bout_prizing'        => new sfValidatorPass(array('required' => false)),
       'challenge_prizing'   => new sfValidatorPass(array('required' => false)),
       'active_calculations' => new sfValidatorPass(array('required' => false)),
-      'value_adjusments'    => new sfValidatorPass(array('required' => false)),
+      'value_adjustments'   => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('force_tournament_filters[%s]');
@@ -62,7 +62,7 @@ abstract class BaseForceTournamentFormFilter extends BaseFormFilterDoctrine
       'bout_prizing'        => 'Text',
       'challenge_prizing'   => 'Text',
       'active_calculations' => 'Text',
-      'value_adjusments'    => 'Text',
+      'value_adjustments'   => 'Text',
     );
   }
 }

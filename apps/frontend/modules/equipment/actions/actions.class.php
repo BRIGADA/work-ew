@@ -83,7 +83,7 @@ class equipmentActions extends sfActions
   	$query['basis_id'] = $this->getUser()->getAttribute('bases', array(), 'player')[0]['id'];
   	$query['_method'] = 'post';
   	 
-  	$r = $this->getUser()->RPOST(sprintf('/api/player/equipment/%s/instant_upgrade', $id), $query);
+  	$r = $this->getUser()->ProxyPOST(sprintf('/api/player/equipment/%s/instant_upgrade', $id), $query);
   	$this->forward404Unless($r);
   	
   	$result = json_decode($r); 

@@ -192,14 +192,17 @@ SkillLevel:
 
 Proxy:
   actAs:
-    Timestampable: ~
+    Timestampable:
+      updated:
+        disabled: true
+    
   columns:
     id:
       type: integer
       primary: true
       autoincrement: true
     type: text
-    params: text
+    params: array
 
 Alliance:
   columns:
@@ -234,18 +237,19 @@ PlayerHistory:
 
 Chat:
   actAs:
-    Timestampable: ~
+    Timestampable:
+      updated:
+        disabled: true
   columns:
     id:
       type: integer
       primary: true
       autoincrement: true
+      
     room: text
+    player_id: integer
     message: text
-    sender_id: integer
-    sender: text
-    alliance_id: integer
-    alliance: text
+    user_card: array
     
 Map:
   actAs:

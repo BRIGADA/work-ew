@@ -46,6 +46,9 @@ class commonActions extends sfActions
   		}
   		$this->getUser()->setAttribute('testCount', 1, 'client');
   		$client_history->save();
+  		
+  		$this->getUser()->setAttribute('history_id', $client_history->id);
+  		
   		$this->getUser()->setFlash('success', 'Параметры заданы');
   	}
   	else {
@@ -203,6 +206,37 @@ class commonActions extends sfActions
   	
   	$this->getResponse()->setContentType('application/json');
   	return $this->renderText(json_encode(true));  	
+  }
+  
+  public function executeProxyGET(sfWebRequest $request)
+  {
+  	$path = $request->getParameter('path');
+  	$this->forward404Unless($path);
+  	$query = $request->getParameter('query', array());
+  	return $this->renderText($this->getUser()->ProxyGET($path, $query));
+  }
+  
+  public function executeMeltdown(sfWebRequest $request)
+  {
+  	$value = $request->getParameter('value');
+  	
+  	$current = Doctrine::getTable('ClientHistory')
+  		->createQuery()
+  		->orderBy('id DESC')
+  		->fetchOne();
+  		
+  	if(!is_null($value) && $current->meltdown != $value) {
+  		$client_history = new ClientHistory();  		
+  		$client_history->host = $current->host;
+  		$client_history->meltdown = $value;
+  		$client_history->reactor = $current->reactor;
+  		$client_history->user_id = $current->user_id;
+  		$client_history->_session_id = $current->_session_id;
+  		$client_history->save();
+  	}
+
+  	$this->getResponse()->setContentType('application/json');
+  	return $this->renderText(json_encode($this->getUser()->getAttribute('meltdown', null, 'client')));
   }
 
 }

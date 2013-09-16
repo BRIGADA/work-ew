@@ -14,7 +14,7 @@
  * @property array $bout_prizing
  * @property array $challenge_prizing
  * @property array $active_calculations
- * @property array $value_adjusments
+ * @property array $value_adjustments
  * @property Doctrine_Collection $ForceLeaderboard
  * 
  * @method integer             getId()                  Returns the current record's "id" value
@@ -26,7 +26,7 @@
  * @method array               getBoutPrizing()         Returns the current record's "bout_prizing" value
  * @method array               getChallengePrizing()    Returns the current record's "challenge_prizing" value
  * @method array               getActiveCalculations()  Returns the current record's "active_calculations" value
- * @method array               getValueAdjusments()     Returns the current record's "value_adjusments" value
+ * @method array               getValueAdjustments()    Returns the current record's "value_adjustments" value
  * @method Doctrine_Collection getForceLeaderboard()    Returns the current record's "ForceLeaderboard" collection
  * @method ForceTournament     setId()                  Sets the current record's "id" value
  * @method ForceTournament     setDates()               Sets the current record's "dates" value
@@ -37,7 +37,7 @@
  * @method ForceTournament     setBoutPrizing()         Sets the current record's "bout_prizing" value
  * @method ForceTournament     setChallengePrizing()    Sets the current record's "challenge_prizing" value
  * @method ForceTournament     setActiveCalculations()  Sets the current record's "active_calculations" value
- * @method ForceTournament     setValueAdjusments()     Sets the current record's "value_adjusments" value
+ * @method ForceTournament     setValueAdjustments()    Sets the current record's "value_adjustments" value
  * @method ForceTournament     setForceLeaderboard()    Sets the current record's "ForceLeaderboard" collection
  * 
  * @package    edgeworld
@@ -78,7 +78,7 @@ abstract class BaseForceTournament extends sfDoctrineRecord
         $this->hasColumn('active_calculations', 'array', null, array(
              'type' => 'array',
              ));
-        $this->hasColumn('value_adjusments', 'array', null, array(
+        $this->hasColumn('value_adjustments', 'array', null, array(
              'type' => 'array',
              ));
     }

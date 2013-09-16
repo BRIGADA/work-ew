@@ -47,7 +47,7 @@ class forceActions extends sfActions
   		$record->end_at = $tournament['end_at'];
   		$record->type = $tournament['type'];
   		$record->sector = $tournament['sector'];
-  		$record->value_adjusments = $tournament['value_adjustments'];
+  		$record->value_adjustments = $tournament['value_adjustments'];
   		$record->daily_prizing = $tournament['daily_prizing'];
   		$record->active_calculations = $tournament['active_calculations'];
 

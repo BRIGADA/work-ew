@@ -7,26 +7,20 @@
  * 
  * @property integer $id
  * @property text $room
+ * @property integer $player_id
  * @property text $message
- * @property integer $sender_id
- * @property text $sender
- * @property integer $alliance_id
- * @property text $alliance
+ * @property array $user_card
  * 
- * @method integer getId()          Returns the current record's "id" value
- * @method text    getRoom()        Returns the current record's "room" value
- * @method text    getMessage()     Returns the current record's "message" value
- * @method integer getSenderId()    Returns the current record's "sender_id" value
- * @method text    getSender()      Returns the current record's "sender" value
- * @method integer getAllianceId()  Returns the current record's "alliance_id" value
- * @method text    getAlliance()    Returns the current record's "alliance" value
- * @method Chat    setId()          Sets the current record's "id" value
- * @method Chat    setRoom()        Sets the current record's "room" value
- * @method Chat    setMessage()     Sets the current record's "message" value
- * @method Chat    setSenderId()    Sets the current record's "sender_id" value
- * @method Chat    setSender()      Sets the current record's "sender" value
- * @method Chat    setAllianceId()  Sets the current record's "alliance_id" value
- * @method Chat    setAlliance()    Sets the current record's "alliance" value
+ * @method integer getId()        Returns the current record's "id" value
+ * @method text    getRoom()      Returns the current record's "room" value
+ * @method integer getPlayerId()  Returns the current record's "player_id" value
+ * @method text    getMessage()   Returns the current record's "message" value
+ * @method array   getUserCard()  Returns the current record's "user_card" value
+ * @method Chat    setId()        Sets the current record's "id" value
+ * @method Chat    setRoom()      Sets the current record's "room" value
+ * @method Chat    setPlayerId()  Sets the current record's "player_id" value
+ * @method Chat    setMessage()   Sets the current record's "message" value
+ * @method Chat    setUserCard()  Sets the current record's "user_card" value
  * 
  * @package    edgeworld
  * @subpackage model
@@ -46,27 +40,26 @@ abstract class BaseChat extends sfDoctrineRecord
         $this->hasColumn('room', 'text', null, array(
              'type' => 'text',
              ));
+        $this->hasColumn('player_id', 'integer', null, array(
+             'type' => 'integer',
+             ));
         $this->hasColumn('message', 'text', null, array(
              'type' => 'text',
              ));
-        $this->hasColumn('sender_id', 'integer', null, array(
-             'type' => 'integer',
-             ));
-        $this->hasColumn('sender', 'text', null, array(
-             'type' => 'text',
-             ));
-        $this->hasColumn('alliance_id', 'integer', null, array(
-             'type' => 'integer',
-             ));
-        $this->hasColumn('alliance', 'text', null, array(
-             'type' => 'text',
+        $this->hasColumn('user_card', 'array', null, array(
+             'type' => 'array',
              ));
     }
 
     public function setUp()
     {
         parent::setUp();
-        $timestampable0 = new Doctrine_Template_Timestampable();
+        $timestampable0 = new Doctrine_Template_Timestampable(array(
+             'updated' => 
+             array(
+              'disabled' => true,
+             ),
+             ));
         $this->actAs($timestampable0);
     }
 }

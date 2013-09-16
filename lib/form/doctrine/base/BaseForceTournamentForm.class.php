@@ -24,7 +24,7 @@ abstract class BaseForceTournamentForm extends BaseFormDoctrine
       'bout_prizing'        => new sfWidgetFormInputText(),
       'challenge_prizing'   => new sfWidgetFormInputText(),
       'active_calculations' => new sfWidgetFormInputText(),
-      'value_adjusments'    => new sfWidgetFormInputText(),
+      'value_adjustments'   => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
@@ -37,7 +37,7 @@ abstract class BaseForceTournamentForm extends BaseFormDoctrine
       'bout_prizing'        => new sfValidatorPass(array('required' => false)),
       'challenge_prizing'   => new sfValidatorPass(array('required' => false)),
       'active_calculations' => new sfValidatorPass(array('required' => false)),
-      'value_adjusments'    => new sfValidatorPass(array('required' => false)),
+      'value_adjustments'   => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('force_tournament[%s]');

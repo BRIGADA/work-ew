@@ -4,6 +4,7 @@
 
 <p>
 	<button id="current" class="btn btn-primary">Обновить</button>
+	<button id="testbtn" class="btn btn-primary">TEST</button>
 </p>
 <table class="table table-striped table-bordered" id="leaderboard">
 	<thead>
@@ -84,6 +85,28 @@
 		
 		});
 	}); 
+
+$('#testbtn').click(function(){
+	$.ajax({
+		url: 'http://google.ru',
+		type: 'POST',
+		beforeSend: function(request){
+			request.setRequestHeader('x-s3-cachebreak', 'aaaaaaaa');
+		},		
+		data: '_session_id=adasdasdasdasd&meltdown=12312312312312312&user_id=333333',
+		processData: false,
+		success: function(result){
+			console.log(result);
+		},
+		error: function(qXHR, textStatus, errorThrown){
+			console.log('ajax.error');
+			console.log(qXHR);
+			console.log(textStatus);
+			console.log(errorThrown);
+		}
+	});
+	return false;
+});
 </script>
 
 <?php //var_dump($data->toArray()->getRawValue())?>

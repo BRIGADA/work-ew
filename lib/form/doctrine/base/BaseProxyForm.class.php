@@ -19,7 +19,6 @@ abstract class BaseProxyForm extends BaseFormDoctrine
       'type'       => new sfWidgetFormInputText(),
       'params'     => new sfWidgetFormInputText(),
       'created_at' => new sfWidgetFormDateTime(),
-      'updated_at' => new sfWidgetFormDateTime(),
     ));
 
     $this->setValidators(array(
@@ -27,7 +26,6 @@ abstract class BaseProxyForm extends BaseFormDoctrine
       'type'       => new sfValidatorPass(array('required' => false)),
       'params'     => new sfValidatorPass(array('required' => false)),
       'created_at' => new sfValidatorDateTime(),
-      'updated_at' => new sfValidatorDateTime(),
     ));
 
     $this->widgetSchema->setNameFormat('proxy[%s]');

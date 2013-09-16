@@ -3,7 +3,10 @@
 class gameProxyTask extends sfBaseTask
 {
   protected $sock = NULL;
-  protected $buffer = '';
+  protected $in = '';
+  protected $out = array();
+  protected $remote_addr = 'sector181.c1.galactic.wonderhill.com';
+  protected $remote_port = 8000;
 
   protected function configure()
   {
@@ -36,86 +39,111 @@ EOF;
     $databaseManager = new sfDatabaseManager($this->configuration);
     $connection = $databaseManager->getDatabase($options['connection'])->getConnection();
     
-//    $remote_addr = "192.168.1.2";
-//    $remote_port = 8001;
-    $remote_addr = "c1.galactic.wonderhill.com";
-    $remote_port = 8000;
-    $player_id = strval(1979406);
-    $player_name = "stones";
-    $alliance_id = 433853;
+    //{\"type\":\"subscribe\",\"data\":{\"player_id\":\"1974957\"}}\x0d\x0a
+		//{\"type\":\"chat_join\",\"data\":{\"player_id\":\"1974957\",\"room\":\"global::181\"}}\x0d\x0a
+		//{\"type\":\"chat_join\",\"data\":{\"player_id\":\"1974957\",\"room\":\"alliance::444136::181\"}}\x0d\x0a
+		//{\"type\":\"chat_join\",\"data\":{\"player_id\":\"1974957\",\"room\":\"locale::181::en\",\"player_name\":\"BRIGADA\"}}\x0d\x0a
     
+    $this->sector = 181;
+    $this->player_id = 1974957;
+    $this->player_name = "BRIGADA";
+    $this->alliance_id = 444136;
+    
+//    $this->out[] = 
+    
+    
+    $this->connect();
+    
+    while(true) {
+    	$rsocks = array($this->sock);
+    	$wsocks = count($this->out) ? array($this->sock) : array();
+    	$esocks = null;
+    	
+    	if(socket_select($rsocks, $wsocks, $esocks, null) < 0)
+    	{
+    		die('socket_select');
+    	}
+    	
+    	if(in_array($this->sock, $rsocks)) {
+    		$r = socket_read($this->sock, 4096);
+    		if(strlen($r) == 0) {
+    			$this->logBlock('RECONECTING', 'ERROR');
+    			socket_shutdown($this->sock);
+			socket_close($this->sock);
+    			$this->connect();
+    		}
+    		else {
+	    		$messages = explode("\r\n", $this->in.$r);
+	    		while(count($messages) > 1) {
+	    			$cur = array_shift($messages);
+	    			
+	    			$c = json_decode($cur, true);
+	    			
+	    			$record = new Proxy();
+	    			$record->type = $c['type'];
+	    			$record->params = $c['data'];
+	    			$record->save();
+	    			
+	    			switch($c['type']) {
+	    				case 'subscribe':
+						    $this->out[] = array('type'=>'chat_join', 'data'=>array('player_id'=>strval($this->player_id), 'room'=>sprintf('global::%u', $this->sector)));
+						    $this->out[] = array('type'=>'chat_join', 'data'=>array('player_id'=>strval($this->player_id), 'room'=>sprintf('alliance::%u::%u', $this->alliance_id, $this->sector)));
+						    $this->out[] = array('type'=>'chat_join', 'data'=>array('player_id'=>strval($this->player_id), 'room'=>sprintf('locale::%u::en', $this->sector), 'player_name'=>$this->player_name));
+	    					break;
+	    					
+	    				case 'chat_message':
+	    					$chat = new Chat();
+	    					$chat->fromArray($c['data']);
+	    					$chat->save();	    					
+	    					break;
 
-    $sector = 181;
-    
+	    				case 'chat_join':
+	    					break;
+	    					
+	    				default:
+	    					$this->logSection('>>>>>', $cur);
+	    				case 'job_completed':
+	    				case 'xp_changed':
+	    				case 'level_changed':
+	    				case 'force_changed':
+	    				case 'player_boosts_changed':
+	    				case 'energies_available_changed':
+	    					
+//	    					$record->d 
+								break;
+	    			}    			
+	    		}
+	    		$this->in = implode("\r\n", $messages);
+    		}
+    	}
+    	
+    	if(in_array($this->sock, $wsocks)) {
+    		if(count($this->out)) {
+    			$cur = json_encode(array_shift($this->out));
+    			$this->logSection('<<<', $cur);
+    			socket_write($this->sock, $cur."\r\n");
+    		}
+    	}
+    }
+
+    socket_close($this->sock);
+  }
+  
+  protected function connect()
+  {
     $this->sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
     
     if(!$this->sock) {
     	$this->SOCKERROR('create');
     	return;
     }
-
-    if(!socket_connect($this->sock, $remote_addr, $remote_port)) {
-    	$this->SOCKERROR('connect');
-    	return;
-    }
-    
-    $this->SEND('subscribe', array('player_id'=>$player_id));
-    
-    if($this->RECV($itype, $idata))
-    {
-    	$this->logSection('type', $itype);
-    	$this->logSection('data', json_encode($idata));
-    	 
-    	$this->SEND('chat_join', array('player_id'=>$player_id, 'room'=>sprintf('global::%d', $sector)));
-    	sleep(1);
-    	$this->SEND('chat_join', array('player_id'=>$player_id, 'room'=>sprintf('alliance::%d::%d', $alliance_id, $sector)));
-    	sleep(1);
-    	$this->SEND('chat_join', array('player_id'=>$player_id, 'player_name'=>$player_name, 'room'=>sprintf('locale::%d::en', $sector)));
-    	sleep(1);
-    	while($this->RECV($itype, $idata))
-    	{
-    		switch($itype)
-    		{
-    			case 'chat_join':
-    				break;
-    			
-    			case 'chat_message':
-    				$chat = new Chat();
-    				$chat->room = $idata->room;
-    				$chat->message = $idata->message;
-    				$chat->sender_id = $idata->user_card->id;
-    				$chat->sender = $idata->user_card->name;
-    				
-    				$player = Doctrine::getTable('Player')->findOneBy('id', $idata->user_card->id);
-    				
-    				if(!$player) {
-    					$player->id = $idata->user_card->id;
-    					$player->name = $idata->user_card->name;
-    				}
-    				
-    				$player->save();
-    				
-    				if($idata->user_card->alliance) {
-    					$chat->alliance_id = $idata->user_card->alliance->id;
-    					$chat->alliance = $idata->user_card->alliance->name;
-    				}
-    				$chat->save();
-
-   					$this->logSection($idata->room, sprintf('%s [%s]: %s', $idata->user_card->name, $idata->user_card->alliance ? $idata->user_card->alliance->name : '-', $idata->message));
-    				break;
-    				
-    			default:
-    				$record = new Proxy();
-    				$record->type = $itype;
-    				$record->params = serialize($idata);
-    				$record->save();
-    				
-    		}
-
-    	}
-    }
-
-    socket_close($this->sock);
+  	if(!socket_connect($this->sock, $this->remote_addr, $this->remote_port)) {
+  		$this->SOCKERROR('connect');
+  		die('socket_connect');
+  	}
+  	
+    $this->out = array();
+  	$this->out[] = array('type'=>'subscribe', 'data'=>array('player_id'=>strval($this->player_id)));  	
   }
 
   protected function RECV(&$itype, &$idata)

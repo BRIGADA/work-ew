@@ -26,7 +26,7 @@
 				</td>
 				<td>
 					<ul>
-						<?php foreach ($tournament->value_adjusments as $key => $value) : ?>
+						<?php foreach ($tournament->value_adjustments as $key => $value) : ?>
 						<li><?php echo $key?> (<?php echo implode('-', $value->getRawValue())?>)</li>
 						<?php endforeach ?>
 					</ul>
