@@ -14,7 +14,7 @@
 	</form>
 </div>
 <div>
-	<table class="table">
+	<table class="table table-condensed">
 		<?php foreach ($messages as $row) : ?>
 		<?php $r = explode('::', $row->room)[0]; ?>
 		<?php if($r == 'global') : ?>
@@ -24,8 +24,7 @@
 		<?php else : ?>
 		<tr>
 		<?php endif ?>
-			<td><?php echo $row->room ?></td>
-			<th><?php echo $row->user_card['name'] ?></th>
+			<td style="text-align: right"><strong><?php echo $row->user_card['name'] ?></strong></td>
 			<td><?php echo $row->message ?></td>
 			<td><?php echo $row->created_at ?></td>
 		</tr>

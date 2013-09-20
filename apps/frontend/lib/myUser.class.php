@@ -2,58 +2,40 @@
 
 class myUser extends sfBasicSecurityUser
 {
-	public function clientParams()
-	{
-		
-		$result = array();
-		
-//		$id = $this->getAttribute('history_id');
-//		if($id == null) {
-			$history = Doctrine::getTable('ClientHistory')->createQuery()->orderBy('id DESC')->fetchOne();
-//			$this->setAttribute('client_id', $id);
-//		}
-//		else {
-//			$history = Doctrine::getTable('ClientHistory')->findOneBy('id', $id);
-//		}
-		
-		foreach(array('meltdown', 'reactor', 'user_id', '_session_id') as $param) {
-			$result[$param] = $history->$param;
-		}
-		
-		return $result;
-	}
 	
 	public function RGET($path, $query = array())
 	{		
-		$query_str = http_build_query(array_merge($this->clientParams(), $query));
+		$query['meltdown'] = MeltdownTable::getLast();
+		$query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
+		$query['user_id'] = $this->getAttribute('user_id', null, 'playerVO');
+		$query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');
 		
-		$url = sprintf('http://%s%s?%s', $this->getAttribute('host', null, 'client'), $path, $query_str);
-		 
-		//  	$f = fopen(sfConfig::get('sf_log_dir').'/headers.txt', 'w+');
+		sfContext::getInstance()->getLogger()->debug('RGET-query: '.var_export($query, true));
+		
+		$query_str = http_build_query($query);
+		
+		$url = sprintf('http://%s%s?%s', $this->getAttribute('host', null, 'playerVO'), $path, $query_str);
+		sfContext::getInstance()->getLogger()->debug('RGET-url: '.$url);
+		
 		$ch = curl_init($url);
 		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
 		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0');
-		//  	curl_setopt($ch, CURLOPT_WRITEHEADER, $f);
 		
 		$cookie_file = sfConfig::get('sf_upload_dir').'/cookie/'.$this->getAttribute('user_id', 'unknown', 'client').'.dat';
 		curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie_file);
 		curl_setopt($ch, CURLOPT_COOKIEJAR, $cookie_file);
 				
 		$result = curl_exec($ch);
+		sfContext::getInstance()->getLogger()->debug('RGET-result: '.var_export($result, true));
 		
-		sfContext::getInstance()->getLogger()->debug(var_export(curl_getinfo($ch), true));
+		sfContext::getInstance()->getLogger()->debug('RGET-info: '.var_export(curl_getinfo($ch), true));
 		
 		if(curl_getinfo($ch, CURLINFO_HTTP_CODE) != 200)
 		{
 			$result = NULL;
 		}
-// 		else
-// 		{
-// 			$fn = sfConfig::get('sf_upload_dir').'/'.date('Y-m-d\TH:i:s').' GET '.str_replace('/', '-', $path);
-// 			file_put_contents($fn, $result);
-// 		}
 		
 		curl_close($ch);
 		
@@ -62,17 +44,20 @@ class myUser extends sfBasicSecurityUser
 	
 	public function RPOST($path, $query = array())
 	{
-		$query = array_merge($this->clientParams(), $query);
+		$query['meltdown'] = MeltdownTable::getLast();
+		$query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
+		$query['user_id'] = $this->getAttribute('user_id', null, 'playerVO');
+		$query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');
 		$query['testCount'] = $this->getAttribute('testCount', 1, 'client');
+		
+		sfContext::getInstance()->getLogger()->debug('query: '.var_export($query, true));
 
 		$postdata = str_replace('_', '%5F', http_build_query($query));
 
-		$url = sprintf('http://%s%s', $this->getAttribute('host', null, 'client'), $path);
+		$url = sprintf('http://%s%s', $this->getAttribute('host', null, 'playerVO'), $path);
 		
-//		$ch = curl_init('http://edgeworld.local/frontend_dev.php');
 		$ch = curl_init($url);
 		
-		//  	$f = fopen(sfConfig::get('sf_log_dir').'/headers.txt', 'w+');
 		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
 		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -92,12 +77,9 @@ class myUser extends sfBasicSecurityUser
 
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array('x-s3-cachebreak: '.$x_s3_cachebreak));
 		
-		$f = fopen(sfConfig::get('sf_upload_dir').'/headers.txt', 'w+');
-		curl_setopt($ch, CURLOPT_WRITEHEADER, $f);
-		
 		$result = curl_exec($ch);
 		
-		sfContext::getInstance()->getLogger()->debug(var_export(curl_getinfo($ch), true));
+//		sfContext::getInstance()->getLogger()->debug(var_export(curl_getinfo($ch), true));
 
 		if(curl_getinfo($ch, CURLINFO_HTTP_CODE) != 200)
 		{
@@ -105,9 +87,7 @@ class myUser extends sfBasicSecurityUser
 		}
  		else
  		{
-// 			$fn = sfConfig::get('sf_upload_dir').'/'.date('Y-m-d\TH:i:s').' POST '.str_replace('/', '-', $path);
-// 			file_put_contents($fn, $result);
- 			$this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'client') + 1, 'client');
+ 			$this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'playerVO') + 1, 'playerVO');
  		}
 		
 		curl_close($ch);
@@ -116,49 +96,50 @@ class myUser extends sfBasicSecurityUser
 	
 	public function ProxyGET($path, $query = array())
 	{
-		$s = socket_create(AF_UNIX, SOCK_STREAM, 0);		
-		if(!socket_connect($s, '/tmp/edgeworld-http.sock')) {
-			die('socket_connect');
-		}
+		$host = $this->getAttribute('host', null, 'playerVO');
+		$user_id = $this->getAttribute('user_id', null, 'playerVO');
 		
-		$query = array_merge($this->clientParams(), $query);
-		$query['testCount'] = $this->getAttribute('testCount', 1, 'client');
+		$query['meltdown'] = MeltdownTable::getLast();
+		$query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
+		$query['user_id'] = $user_id;
+		$query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');
 		
-		$host = $this->getAttribute('host', null, 'client');
-		$user_id = $this->getAttribute('user_id', 'unknown', 'client');		
-		
-		$data = array('cmd'=>'get', 'host'=>$host, 'path' => $path, 'query'=>$query, 'user_id'=>$user_id);
-		$f = serialize($data);		
-		$w = socket_write($s, strlen($f)."\n".$f);
-		$r = socket_read($s, 10, PHP_NORMAL_READ);
-		$l = intval($r);
-		$response = unserialize(socket_read($s, $l));		
-		socket_close($s);
-		return $response;
+		return $this->proxy('get', array('host'=>$host, 'path' => $path, 'query'=>$query, 'user_id'=>$user_id));
 	}
-
+	
 	public function ProxyPOST($path, $query = array())
 	{
-		$s = socket_create(AF_UNIX, SOCK_STREAM, 0);		
+		$host = $this->getAttribute('host', null, 'playerVO');
+		$user_id = $this->getAttribute('user_id', null, 'playerVO');
+		
+		$query['meltdown'] = MeltdownTable::getLast();
+		$query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
+		$query['user_id'] = $this->getAttribute('user_id', null, 'playerVO');
+		$query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');
+		$query['testCount'] = $this->getAttribute('testCount', 1, 'playerVO');
+		
+		$response = $this->proxy('post', array('host'=>$host, 'path' => $path, 'query'=>$query, 'user_id'=>$user_id));
+		
+		if($response !== NULL) {
+			$this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'client') + 1, 'playerVO');
+		}
+		return $response;
+	}
+	
+	public function proxy($command, $data)
+	{
+		$data['cmd'] = $command;
+	
+		$s = socket_create(AF_UNIX, SOCK_STREAM, 0);
+		$f = serialize($data);
 		if(!socket_connect($s, '/tmp/edgeworld-http.sock')) {
 			die('socket_connect');
 		}
-		
-		$query = array_merge($this->clientParams(), $query);
-		$host = $this->getAttribute('host', null, 'client');
-		$user_id = $this->getAttribute('user_id', 'unknown', 'client');		
-		
-		$data = array('cmd'=>'post', 'host'=>$host, 'path' => $path, 'query'=>$query, 'user_id'=>$user_id);
-		$f = serialize($data);		
 		$w = socket_write($s, strlen($f)."\n".$f);
 		$r = socket_read($s, 10, PHP_NORMAL_READ);
 		$l = intval($r);
-		$response = unserialize(socket_read($s, $l));		
+		$r = unserialize(socket_read($s, $l));
 		socket_close($s);
-		
-		if($response === NULL) {
-			$this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'client') + 1, 'client');
-		}
-		return $response;
+		return $r;
 	}
 }

@@ -204,37 +204,18 @@ Proxy:
     type: text
     params: array
 
-Alliance:
-  columns:
-    id:
-      type: integer
-      primary: true
-      notnull: true
-    name: text
-    description: text
-    active: boolean
-Player:
-  columns:
-    id:
-      type: integer
-      primary: true
-      notnull: true
-    name: text
-    
-    
-PlayerHistory:
+Meltdown:
   actAs:
-    Timestampable: ~
+    Timestampable:
+      updated:
+        disabled: true
   columns:
     id:
       type: integer
       primary: true
       autoincrement: true
-    player_id:
-      type: integer
-      notnull: true
+    value: text
     
-
 Chat:
   actAs:
     Timestampable:
@@ -251,6 +232,16 @@ Chat:
     message: text
     user_card: array
     
+Alliance:
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+    name: text
+    description: text
+    active: boolean
+
 Map:
   actAs:
     Timestampable: ~
@@ -342,18 +333,6 @@ Home:
     name: text
     damage_protection: datetime
     
-ClientHistory:
-  actAs:
-    Timestampable:
-      updated:
-        disabled: true
-  columns:
-    host: text
-    meltdown: text
-    reactor: text
-    user_id: integer
-    _session_id: text
-
 Item:
   tableName: items
   columns:

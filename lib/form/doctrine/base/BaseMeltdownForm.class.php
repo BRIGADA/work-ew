@@ -1,34 +1,32 @@
 <?php
 
 /**
- * PlayerHistory form base class.
+ * Meltdown form base class.
  *
- * @method PlayerHistory getObject() Returns the current form's model object
+ * @method Meltdown getObject() Returns the current form's model object
  *
  * @package    edgeworld
  * @subpackage form
  * @author     BRIGADA
  * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 29553 2010-05-20 14:33:00Z Kris.Wallsmith $
  */
-abstract class BasePlayerHistoryForm extends BaseFormDoctrine
+abstract class BaseMeltdownForm extends BaseFormDoctrine
 {
   public function setup()
   {
     $this->setWidgets(array(
       'id'         => new sfWidgetFormInputHidden(),
-      'player_id'  => new sfWidgetFormInputText(),
+      'value'      => new sfWidgetFormInputText(),
       'created_at' => new sfWidgetFormDateTime(),
-      'updated_at' => new sfWidgetFormDateTime(),
     ));
 
     $this->setValidators(array(
       'id'         => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'player_id'  => new sfValidatorInteger(),
+      'value'      => new sfValidatorPass(array('required' => false)),
       'created_at' => new sfValidatorDateTime(),
-      'updated_at' => new sfValidatorDateTime(),
     ));
 
-    $this->widgetSchema->setNameFormat('player_history[%s]');
+    $this->widgetSchema->setNameFormat('meltdown[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
 
@@ -39,7 +37,7 @@ abstract class BasePlayerHistoryForm extends BaseFormDoctrine
 
   public function getModelName()
   {
-    return 'PlayerHistory';
+    return 'Meltdown';
   }
 
 }

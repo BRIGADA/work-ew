@@ -69,7 +69,8 @@ EOF;
     		if(strlen($r) == 0) {
     			$this->logBlock('RECONECTING', 'ERROR');
     			socket_shutdown($this->sock);
-			socket_close($this->sock);
+					socket_close($this->sock);
+					$this->out = array();
     			$this->connect();
     		}
     		else {
