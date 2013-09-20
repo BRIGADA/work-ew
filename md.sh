@@ -1,3 +1,4 @@
 #!/bin/sh
-sudo tcpdump -X \(dst host sector181.c1.galactic.wonderhill.com and tcp dst port 80 and tcp[tcpflags] \& tcp-push !=0\) | ./meltdown 
+
+tshark 'tcp port 80 and host c1.galactic.wonderhill.com' -l -R 'http.request.method == "GET"' -T fields -e http.request.uri | ./symfony game:meltdown
 
