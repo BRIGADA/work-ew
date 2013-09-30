@@ -121,7 +121,7 @@ class myUser extends sfBasicSecurityUser
 		$response = $this->proxy('post', array('host'=>$host, 'path' => $path, 'query'=>$query, 'user_id'=>$user_id));
 		
 		if($response !== NULL) {
-			$this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'client') + 1, 'playerVO');
+			$this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'playerVO') + 1, 'playerVO');
 		}
 		return $response;
 	}

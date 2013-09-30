@@ -13,6 +13,7 @@
 			<th style="width: 30px"></th>
 			<th>Force</th>
 			<th>Delta</th>
+			<th>UP</th>
 			<th>User</th>
 			<th>Prize</th>
 		</tr>
@@ -30,6 +31,7 @@
 			<td class="force-change"></td>
 			<td class="force-power"><?php if(isset($data[$rank])) echo $data[$rank]->power?></td>
 			<td class="force-delta"></td>
+			<td class="force-up"><?php if(isset($prev_force)) : ?><?php echo ($prev_force - $data[$rank]->power); ?><?php endif ?><?php $prev_force = $data[$rank]->power; ?></td>
 			<td class="force-user"><?php if(isset($data[$rank])) echo $data[$rank]->user_name?></td>		
 			<td><?php echo implode(', ', $prizes)?></td>
 		</tr>
@@ -46,6 +48,7 @@
 				id: <?php echo $tournament->id ?>
 			},
 			success: function(result){
+				var prev_force = null;
 				$('#leaderboard > tbody > tr').each(function(){
 					var rank = $(this).data('rank');
 					if(rank in result)
@@ -54,7 +57,7 @@
 						$(this).removeClass();
 						for(var key in current)
 						{
-							if(current[key].user_id == result[rank].user_id) {								
+							if(current[key].user_id == result[rank].user_id) {
 								var delta = result[rank].power-current[key].power;
 								$(this).children('.force-delta').text(delta ? delta : '');
 								if(rank != key) {
@@ -65,7 +68,7 @@
 									else {
 										$(this).children('.force-change').html('<span style="color: red;">'+(rank-key)+'&darr;</span>');
 										$(this).addClass('error');
-									}									
+									}
 								}
 								break;
 							}
@@ -74,6 +77,10 @@
 						
 						$(this).children('.force-power').text(result[rank].power);
 						$(this).children('.force-user').text(result[rank].user_name);
+						if(prev_force != null) {
+							$(this).children('.force-up').text(prev_force - result[rank].power);
+						}
+						prev_force = result[rank].power;
 					}
 				});
 				
