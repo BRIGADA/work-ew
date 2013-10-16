@@ -17,7 +17,7 @@ class MeltdownTable extends Doctrine_Table
         return Doctrine_Core::getTable('Meltdown');
     }
     
-    public static function getLast()
+    public static function getCurrent()
     {
     	$result = self::getInstance()
     		->createQuery()

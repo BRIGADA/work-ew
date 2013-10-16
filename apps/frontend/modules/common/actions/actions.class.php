@@ -22,6 +22,18 @@ class commonActions extends sfActions
   		->orderBy('id DESC')
   		->limit(10)
   		->execute();
+  	
+  	$this->proxy_status = $this->getUser()->PROXY2(array('cmd'=>'status', 'uid'=>$this->getUser()->getAttribute('uid', 0, 'PlayerVO')));
+  	if($this->proxy_status !== NULL) $this->proxy_status = json_decode($this->proxy_status, true);
+  	
+  	$this->clientForm = new ClientForm($this->getUser()->getAttribute('playerVO'));
+  }
+  
+  public function executeProxyStart()
+  {
+  	$result = shell_exec(sfConfig::get('sf_root_dir').'/md.sh &');
+  	return $this->renderText("<pre>".$result.'</pre>');
+  	$this->redirect('common/index');
   }
   
   public function executeSet(sfWebRequest $request)
@@ -120,16 +132,21 @@ class commonActions extends sfActions
   	$client = $request->getParameter('client');
   	$this->forward404Unless($client);
   	
-  	$this->getUser()->setAttribute('host', $client['host'], 'playerVO');
-  	$this->getUser()->setAttribute('_session_id', $client['_session_id'], 'playerVO');
-  	$this->getUser()->setAttribute('reactor', $client['reactor'], 'playerVO');
-  	$this->getUser()->setAttribute('user_id', $client['user_id'], 'playerVO');
-  	$this->getUser()->setAttribute('testCount', $client['testCount'], 'playerVO');
+  	$form = new ClientForm();
+  	$form->bind($request->getParameter($form->getName()));
+  	if($form->isValid()) {
+      	$this->getUser()->setAttribute('host', $form->getValue('host'), 'playerVO');
+      	$this->getUser()->setAttribute('reactor', $form->getValue('reactor'), 'playerVO');
+      	$this->getUser()->setAttribute('_session_id', $form->getValue('_session_id'), 'playerVO');
+      	$this->getUser()->setAttribute('user_id', $form->getValue('user_id'), 'playerVO');
+      	$this->getUser()->setFlash('success', 'Параметры успешно установлены');
+  	}
+  	else {
+  	    $this->getUser()->setFlash('error', 'Ошибка установки параметров');
+  	    return $this->renderText('<table>'.$form.'</table>');
+  	}
+  	
   	 
-  	$meltdown = new Meltdown();
-  	$meltdown->value = $client['meltdown'];
-  	$meltdown->save();  	 
-
   	$this->redirect('common/index');
   }
   
