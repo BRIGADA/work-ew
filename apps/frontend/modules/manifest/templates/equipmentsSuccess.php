@@ -2,16 +2,20 @@
 <div class="page-header">
 	<h1>Снаряжение</h1>
 	<p class="lead">Всего: <?php echo $equipments->count()?></p>
-	
+
 	<button id="equipment-update" class="btn btn-large btn-primary">Обновить</button>
 </div>
 
 <div class="row">
-	<?php foreach($equipments as $equipment) : ?>
-	<div class="span3" title="<?php echo $equipment->type ?>">
-		<a href="<?php echo url_for("@manifest-equipment?type={$equipment->type}")?>"><?php echo __(strtolower($equipment->type).'.name', array(), 'ew-items') ?></a>
+	<div class="span12">
+		<ul>
+            <?php foreach($equipments as $equipment) : ?>
+            <li title="<?php echo $equipment->type ?>">
+                <a href="<?php echo url_for("@manifest-equipment?type={$equipment->type}")?>"><?php echo __(strtolower($equipment->type).'.name', array(), 'ew-items') ?></a>
+			</li>
+            <?php endforeach ?>
+        </ul>
 	</div>
-	<?php endforeach ?>
 </div>
 
 <div class="modal hide fade" id="update-dialog">

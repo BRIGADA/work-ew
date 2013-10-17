@@ -276,7 +276,10 @@ class manifestActions extends sfActions
 
   public function executeEquipments()
   {
-  	$this->equipments = EquipmentTable::getInstance()->findAll();
+  	$this->equipments = Doctrine::getTable('Equipment')
+  	 ->createQuery()
+  	 ->orderBy('type')
+  	 ->execute();
   }
   
   public function executeEquipmentUpdate(sfWebRequest $request)
