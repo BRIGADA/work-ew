@@ -125,7 +125,7 @@ class myUser extends sfBasicSecurityUser
         $host = $this->getAttribute('host', null, 'playerVO');
         $user_id = $this->getAttribute('user_id', null, 'playerVO');
         
-        $query['meltdown'] = MeltdownTable::getLast();
+        $query['meltdown'] = MeltdownTable::getCurrent();
         $query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
         $query['user_id'] = $user_id;
         $query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');
@@ -144,7 +144,7 @@ class myUser extends sfBasicSecurityUser
         $host = $this->getAttribute('host', null, 'playerVO');
         $user_id = $this->getAttribute('user_id', null, 'playerVO');
         
-        $query['meltdown'] = MeltdownTable::getLast();
+        $query['meltdown'] = MeltdownTable::getCurrent();
         $query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
         $query['user_id'] = $this->getAttribute('user_id', null, 'playerVO');
         $query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');

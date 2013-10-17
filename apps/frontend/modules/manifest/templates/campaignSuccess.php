@@ -6,6 +6,7 @@
 
 <table class="table table-striped">
 	<tr>
+	    <th>ID</th>
 		<th>Имя</th>
 		<th>Уровень открытия</th>
 		<th>Очки</th>
@@ -15,7 +16,8 @@
 	</tr>
 <?php foreach($campaign->stages as $stage ):?>
 	<tr>
-		<th><?php echo $stage->name ?></th>
+	    <th><?php echo $stage->id ?></th>
+		<td><?php echo $stage->name ?></td>
 		<td><?php echo $stage->player_unlock_level ?></td>
 		<td><?php echo $stage->baseline_xp ?></td>
 		<td><?php echo $stage->attacker_level ?> + <?php echo $stage->attacker_boost ?></td>

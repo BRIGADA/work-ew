@@ -11,23 +11,27 @@
 
 <div class="row">
 	<div class="span12">
-		<div>
+		<p>
 			<button id="action-upgrade-all" class="btn"><i class="icon-arrow-up"></i> <?php echo __('Upgrade all')?></button>
 			<button id="action-delete-all" class="btn"><i class="icon-trash"></i> <?php echo __('Delete all')?></button>
+			<button id="action-repair-all" class="btn"><i class="icon-retweet"></i> <?php echo __('Repair all')?></button>
+			<button id="action-craft" class="btn">Craft</button>
 			<button id="action-cheat" class="btn">:)</button>
-			<button id="action-craft">Craft</button>
-		</div>
+			
+		</p>
 	</div>
 	<div class="span12">
 		<table class="table table-bordered table-hover table-condensed" id="equipment-list">
 			<thead>
 				<tr>
 					<td>
+					   <!-- 
 						<select id="filter-type" multiple="multiple" style="width: 100%">
 							<?php foreach ($types as $type) : ?>
 							<option value="<?php echo $type ?>"><?php echo __(strtolower($type).'.name', array(), 'ew-items') ?></option>
 							<?php endforeach ?>
 						</select>
+						-->
 					</td>
 					<td style="width: 40px">
 						<select id="filter-level" multiple="multiple" style="width: 40px;">
@@ -140,10 +144,13 @@ $(function(){
 
 	$('#equipment-list > tbody').on('update-view', function(){		
 		$(this).children('tr').sortElements(function(a, b){
-			var c = $(a).data('level');
-			var d = $(b).data('level');
-			return (c == d) ? 0 : ( c > d ? 1 : -1 );
+			var l1 = parseInt($(a).children('.cell-level').text());
+			var l2 = parseInt($(b).children('.cell-level').text());
+
+			if(l1 == l2) return parseInt($(a).data('id')) > parseInt($(b).data('id')) ? 1 : -1;
+			return  l1 > l2 ? 1 : -1;
 		});
+		
 
 		$(this).children('tr').each(function(){
 			var v = true;
@@ -334,6 +341,30 @@ $(function(){
 
 	$('.action-upgrade').click(function(){
 		upgradeNode($(this).closest('tr'));
+		return false;
+	});
+
+	$('#action-repair-all').click(function(){
+		var set = $('#equipment-list > tbody > tr:visible');
+	
+		function repair(index){
+			if(index >= set.length) {
+				bootbox.alert('Починка завершена!');
+				return;
+			}
+			var r = set.eq(index);
+			if(r.data('repairing') || parseInt(r.children('.cell-durability').text()) == 1000) {
+				repair(index + 1);
+				return;
+			}
+			r.data('repairing', true);		
+			r.removeClass().addClass('success');	
+			$.post('<?php echo url_for('equipment/repair') ?>', { id: r.data('id')}, function(){				
+				repair(index + 1);
+			});
+		}
+
+		repair(0);
 		return false;
 	});
 

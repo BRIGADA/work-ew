@@ -35,7 +35,7 @@ EOF;
 
     // add your code here
     
-    $current = MeltdownTable::getLast();
+    $current = MeltdownTable::getCurrent();
     $this->logSection('current', $current ? $current : 'NONE');
     
     while ($content = trim(fgets(STDIN)))

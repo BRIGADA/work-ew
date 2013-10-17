@@ -26,7 +26,28 @@ class commonActions extends sfActions
   	$this->proxy_status = $this->getUser()->PROXY2(array('cmd'=>'status', 'uid'=>$this->getUser()->getAttribute('uid', 0, 'PlayerVO')));
   	if($this->proxy_status !== NULL) $this->proxy_status = json_decode($this->proxy_status, true);
   	
-  	$this->clientForm = new ClientForm($this->getUser()->getAttribute('playerVO'));
+  	$this->clientForm = new ClientForm();
+  }
+  
+  public function executeStats()
+  {
+      $result = $this->getUser()->RGET('/api/player');
+      
+      	
+      if($result) {
+          $data = json_decode($result, true);
+          $response = array();
+          $response['level'] = $data['response']['level'];
+          $response['platinum'] = $data['response']['platinum'];
+          $response['sp'] = $data['response']['sp'];
+          $response['xp'] = $data['response']['xp'];
+          $response['current_level_xp'] = $data['response']['current_level_xp'];
+          $response['next_level_xp'] = $data['response']['next_level_xp'];
+          
+          $this->getResponse()->setContentType('application/json');
+          return $this->renderText(json_encode($response));          
+      }
+      $this->forward404();
   }
   
   public function executeProxyStart()
@@ -53,7 +74,7 @@ class commonActions extends sfActions
   		$this->getUser()->setAttribute('user_id', $query['user_id'], 'playerVO');
   		$this->getUser()->setAttribute('testCount', 1, 'playerVO');
   		
-  		if(MeltdownTable::getLast() != $query['meltdown']) {
+  		if(MeltdownTable::getCurrent() != $query['meltdown']) {
 	  		$meltdown = new Meltdown();
 	  		$meltdown->value = $query['meltdown'];
 	  		$meltdown->save();
@@ -97,7 +118,7 @@ class commonActions extends sfActions
   	
   	$query = $request->getParameter('query', array());
   	
-  	$result = $request->getParameter('use_proxy', false) ? $this->getUser()->ProxyGET($path, $query) : $this->getUser()->RGET($path, $query);
+  	$result = $this->getUser()->RGET($path, $query);
   	$this->forward404Unless($result, 'FETCH FAILED');
   	
     switch ($request->getParameter('decode'))
@@ -168,7 +189,7 @@ class commonActions extends sfActions
   {
   	$value = $request->getParameter('value');
   	
-  	$current = MeltdownTable::getLast();
+  	$current = MeltdownTable::getCurrent();
   		
   	if(!is_null($value) && $current != $value) {
   		$actual = new Meltdown();

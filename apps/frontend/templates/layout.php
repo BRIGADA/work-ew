@@ -37,7 +37,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="brand" href="#">EdgeWorld</a>
-				<div class="nav-collapse collapse" title="Platinum">
+				<div class="nav-collapse collapse">
 					<ul class="nav">
 						<li class="<?php sfContext::getInstance()->getModuleName() == 'common' && print 'active'?>"><a href="<?php echo url_for('common/index') ?>">Настройки</a></li>
 						<li class="dropdown <?php sfContext::getInstance()->getModuleName() == 'manifest' && print 'active'?>">

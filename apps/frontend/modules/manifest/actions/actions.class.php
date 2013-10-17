@@ -178,6 +178,24 @@ class manifestActions extends sfActions
   	
   }
   
+  public function executeCampaignUpdate(sfWebRequest $request)
+  {
+      $id = $request->getParameter('id');
+      $campaign = Doctrine::getTable('Campaign')->find($id);
+      if(!$campaign) {
+          $campaign = new Campaign();
+          $campaign->id = $id;
+      }
+      
+      $campaign->name = $request->getParameter('name');
+      $campaign->unlock_level = $request->getParameter('unlock_level');
+      
+      $campaign->stages->fromArray(json_decode($request->getParameter('stages', '[]'),true));
+      
+      $campaign->save();
+      return sfView::HEADER_ONLY;      
+  }
+  
   public function executeSkills()
   {
   	$this->skills = Doctrine::getTable('Skill')->findAll();  
