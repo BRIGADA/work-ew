@@ -23,7 +23,7 @@
 	</div>
 </form>
 
-<form action="<?php echo url_for('common/set')?>" method="post" class="modal hide fade" id="parseurlform">
+<form action="<?php echo url_for('common/setURL')?>" method="post" class="modal hide fade" id="parseurlform">
   <div class="modal-header">
     <h3>Распарсить URL</h3>
   </div>
@@ -43,25 +43,25 @@
 	<tr>
 		<th>testCount</th>
 		<td>
-		  <?php echo $sf_user->getAttribute('testCount', 1, 'playerVO')?>
+		  <?php echo $sf_user->getAttribute('testCount', 1, 'player/data')?>
 		  <a href="#" class="btn btn-mini">Сброс</a>
 		</td>
 	</tr>
 	<tr>
 		<th>host</th>
-		<td><?php echo $sf_user->getAttribute('host', '', 'playerVO')?></td>
+		<td><?php echo $sf_user->getAttribute('host', '', 'player/data')?></td>
 	</tr>
 	<tr>
 		<th>reactor</th>
-		<td><?php echo $sf_user->getAttribute('reactor', '', 'playerVO')?></td>
+		<td><?php echo $sf_user->getAttribute('reactor', '', 'player/data')?></td>
 	</tr>
 	<tr>
 		<th>_session_id</th>
-		<td><?php echo $sf_user->getAttribute('_session_id', '', 'playerVO')?></td>
+		<td><?php echo $sf_user->getAttribute('_session_id', '', 'player/data')?></td>
 	</tr>
 	<tr>
 		<th>user_id</th>
-		<td><?php echo $sf_user->getAttribute('user_id', '', 'playerVO')?></td>
+		<td><?php echo $sf_user->getAttribute('user_id', '', 'player/data')?></td>
 	</tr>
 </table>
 

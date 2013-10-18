@@ -167,7 +167,7 @@ $(function(){
 			var b = $('#filter-stats').val();
 			if(b) {
 				for(var i in b) {
-					var e = (manifest[$(this).data('type')].levels[$(this).data('level')].stats[b[i]]);
+					var e = (manifest[$(this).data('type')].levels[parseInt($(this).children('.cell-level').text())].stats[b[i]]);
 					if(e) {
 						v = false;
 						break;
@@ -246,7 +246,7 @@ $(function(){
 			data: {
 				path: '/api/player/equipment/'+node.data('id')+'/instant_upgrade',
 				query: {
-					'basis_id': <?php echo $sf_user->getAttribute('bases', array(), 'player')[0]['id'] ?>,
+					'basis_id': <?php echo $sf_user->getBaseID() ?>,
 					'_method': 'post'
 				},
 				element: 'response/job'
@@ -377,31 +377,29 @@ $(function(){
 	});
 
 	$('#action-craft').click(function(){
-		var craft1 = [];
-		var craft2 = [];
-		$('#equipment-list > tbody > tr:visible').each(function(){
-			switch(parseInt($(this).children('.cell-tier').text()))
-			{
-			case 1:
-				craft1.push($(this).data('id'));
-				if(craft1.length == 5) {
-					console.log(window.JSON.stringify($.map(craft1, function(item){
-						return { type: 'equipment', id: item };
-					})));
-					craft1 = [];
+		var craft2 = $('#equipment-list > tbody > tr:visible .cell-tier:contains(2)').closest('tr');
+
+		function c2() {
+			if(craft2.length < 5) return;
+
+			var current = craft2.splice(0, 5);
+			var ids = $(current).map(function(){ return $(this).data('id');}).get();
+
+			$.ajax({
+				url: '<?php echo url_for('equipment/craft') ?>',
+				data: {
+					name: 'rarebox1b',
+					ids: ids
+				},
+				success: function(response) {
+					console.log(response);
+					$(current).remove();
+					c2();
 				}
-				break;
-			case 2:
-				craft2.push($(this).data('id'));
-				if(craft2.length == 10) {
-					console.log(craft2);
-					craft2 = [];
-				}
-				break;
-			default:
-				break;			
-			}
-		});
+			});
+		}
+		c2();
+
 	});
 
 	$('#action-repair-all').click(function(){

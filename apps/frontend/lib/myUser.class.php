@@ -31,13 +31,13 @@ class myUser extends sfBasicSecurityUser
     public function LGET($path, $query = array())
     {
         $query['meltdown'] = MeltdownTable::getCurrent();
-        $query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
-        $query['user_id'] = $this->getAttribute('user_id', null, 'playerVO');
-        $query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');
+        $query['reactor'] = $this->getAttribute('reactor', null, 'player/data');
+        $query['user_id'] = $this->getAttribute('user_id', null, 'player/data');
+        $query['_session_id'] = $this->getAttribute('_session_id', null, 'player/data');
         
         $query_str = http_build_query($query);
         
-        $url = sprintf('http://%s%s?%s', $this->getAttribute('host', null, 'playerVO'), $path, $query_str);
+        $url = sprintf('http://%s%s?%s', $this->getAttribute('host', null, 'player/data'), $path, $query_str);
         
         sfContext::getInstance()->getLogger()->debug('LGET-url: ' . $url);
         sfContext::getInstance()->getLogger()->debug('LGET-query: ' . var_export($query, true));
@@ -48,7 +48,7 @@ class myUser extends sfBasicSecurityUser
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
         
-        $cookie_file = sfConfig::get('sf_upload_dir') . '/cookie/' . $this->getAttribute('user_id', 'unknown', 'playerVO') . '.dat';
+        $cookie_file = sfConfig::get('sf_upload_dir') . '/cookie/' . $this->getAttribute('user_id', 'unknown', 'player/data') . '.dat';
         curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie_file);
         curl_setopt($ch, CURLOPT_COOKIEJAR, $cookie_file);
         
@@ -69,15 +69,15 @@ class myUser extends sfBasicSecurityUser
     public function LPOST($path, $query = array())
     {
         $query['meltdown'] = MeltdownTable::getCurrent();
-        $query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
-        $query['user_id'] = $this->getAttribute('user_id', null, 'playerVO');
-        $query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');
-        $query['testCount'] = $this->getAttribute('testCount', 1, 'playerVO');
+        $query['reactor'] = $this->getAttribute('reactor', null, 'player/data');
+        $query['user_id'] = $this->getAttribute('user_id', null, 'player/data');
+        $query['_session_id'] = $this->getAttribute('_session_id', null, 'player/data');
+        $query['testCount'] = $this->getAttribute('testCount', 1, 'player/data');
         
         
         $postdata = str_replace('_', '%5F', http_build_query($query));
         
-        $url = sprintf('http://%s%s', $this->getAttribute('host', null, 'playerVO'), $path);
+        $url = sprintf('http://%s%s', $this->getAttribute('host', null, 'player/data'), $path);
 
         sfContext::getInstance()->getLogger()->debug('LPOST-url: ' . $url);
         sfContext::getInstance()->getLogger()->debug('LPOST-query: ' . var_export($query, true));
@@ -91,7 +91,7 @@ class myUser extends sfBasicSecurityUser
         curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $postdata);
         
-        $cookie_file = sfConfig::get('sf_upload_dir') . '/cookie/' . $this->getAttribute('user_id', 'unknown', 'playerVO') . '.dat';
+        $cookie_file = sfConfig::get('sf_upload_dir') . '/cookie/' . $this->getAttribute('user_id', 'unknown', 'player/data') . '.dat';
         curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie_file);
         curl_setopt($ch, CURLOPT_COOKIEJAR, $cookie_file);
         
@@ -113,7 +113,7 @@ class myUser extends sfBasicSecurityUser
             file_put_contents(sfConfig::get('sf_upload_dir') . '/LPOST.dat', $result);
             $result = NULL;
         } else {
-            $this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'playerVO') + 1, 'playerVO');
+            $this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'player/data') + 1, 'player/data');
         }
         
         curl_close($ch);
@@ -122,13 +122,13 @@ class myUser extends sfBasicSecurityUser
 
     public function ProxyGET($path, $query = array())
     {
-        $host = $this->getAttribute('host', null, 'playerVO');
-        $user_id = $this->getAttribute('user_id', null, 'playerVO');
+        $host = $this->getAttribute('host', null, 'player/data');
+        $user_id = $this->getAttribute('user_id', null, 'player/data');
         
         $query['meltdown'] = MeltdownTable::getCurrent();
-        $query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
+        $query['reactor'] = $this->getAttribute('reactor', null, 'player/data');
         $query['user_id'] = $user_id;
-        $query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');
+        $query['_session_id'] = $this->getAttribute('_session_id', null, 'player/data');
         
         return $this->proxy('get', array(
             'host' => $host,
@@ -141,14 +141,14 @@ class myUser extends sfBasicSecurityUser
 
     public function ProxyPOST($path, $query = array())
     {
-        $host = $this->getAttribute('host', null, 'playerVO');
-        $user_id = $this->getAttribute('user_id', null, 'playerVO');
+        $host = $this->getAttribute('host', null, 'player/data');
+        $user_id = $this->getAttribute('user_id', null, 'player/data');
         
         $query['meltdown'] = MeltdownTable::getCurrent();
-        $query['reactor'] = $this->getAttribute('reactor', null, 'playerVO');
-        $query['user_id'] = $this->getAttribute('user_id', null, 'playerVO');
-        $query['_session_id'] = $this->getAttribute('_session_id', null, 'playerVO');
-        $query['testCount'] = $this->getAttribute('testCount', 1, 'playerVO');
+        $query['reactor'] = $this->getAttribute('reactor', null, 'player/data');
+        $query['user_id'] = $this->getAttribute('user_id', null, 'player/data');
+        $query['_session_id'] = $this->getAttribute('_session_id', null, 'player/data');
+        $query['testCount'] = $this->getAttribute('testCount', 1, 'player/data');
         
         $response = $this->proxy('post', array(
             'host' => $host,
@@ -159,7 +159,7 @@ class myUser extends sfBasicSecurityUser
         ));
         
         if ($response !== NULL) {
-            $this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'playerVO') + 1, 'playerVO');
+            $this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'player/data') + 1, 'player/data');
         }
         return $response;
     }
@@ -242,5 +242,32 @@ class myUser extends sfBasicSecurityUser
         socket_shutdown($socket);
         socket_close($socket);
         return $result;
+    }
+    
+    public function initPlayer($host, $reactor, $session_id, $user_id)
+    {
+        $this->setAttribute('host', $host, 'player/data');
+        $this->setAttribute('reactor', $reactor, 'player/data');
+        $this->setAttribute('_session_id', $session_id, 'player/data');
+        $this->setAttribute('user_id', $user_id, 'player/data');
+    
+        $r = $this->RGET('/api/player');
+    
+        if (!$r) return false;
+        $data = json_decode($r, true);
+    
+        $bases = array();
+        $bases['main'] = $data['response']['base']['id'];
+        foreach ($data['response']['colonies'] as $colony) {
+            $bases[$colony['name']] = $colony['id'];
+        }
+        $this->setAttribute('bases', $bases, 'player');
+        return true;
+    }
+    
+    public function getBaseID($name = 'main')
+    {
+        $bases = $this->getAttribute('bases', array(), 'player');
+        return isset($bases[$name]) ? $bases[$name] : NULL;
     }
 }

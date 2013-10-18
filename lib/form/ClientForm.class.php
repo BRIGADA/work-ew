@@ -21,7 +21,7 @@ class ClientForm extends BaseForm
         
         foreach (array('host', 'reactor', '_session_id', 'user_id') as $key )
         {
-            $this->widgetSchema[$key]->setDefault(sfContext::getInstance()->getUser()->getAttribute($key, '', 'playerVO'));
+            $this->widgetSchema[$key]->setDefault(sfContext::getInstance()->getUser()->getAttribute($key, '', 'player/data'));
         }
         
         $this->validatorSchema['host'] = new sfValidatorString();
