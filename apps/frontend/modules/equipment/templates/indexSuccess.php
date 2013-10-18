@@ -27,9 +27,9 @@
 					<td>
 					   <!-- 
 						<select id="filter-type" multiple="multiple" style="width: 100%">
-							<?php foreach ($types as $type) : ?>
-							<option value="<?php echo $type ?>"><?php echo __(strtolower($type).'.name', array(), 'ew-items') ?></option>
-							<?php endforeach ?>
+							<?php //foreach ($types as $type) : ?>
+							<option value="<?php //echo $type ?>"><?php //echo __(strtolower($type).'.name', array(), 'ew-items') ?></option>
+							<?php //endforeach ?>
 						</select>
 						-->
 					</td>
@@ -83,7 +83,7 @@
 			</thead>
 			<tbody>
 				<?php foreach ($results as $row ): ?>
-				<tr data-id="<?php echo $row->id ?>" data-type="<?php echo $row->type ?>" data-level="<?php echo $row->level ?>" data-durability="<?php echo $row->durability ?>" data-equipped="<?php echo $row->equipped ? 1 : 0 ?>" title="<?php echo $row->id ?>">
+				<tr data-id="<?php echo $row->id ?>" data-type="<?php echo $row->type ?>">
 					<td><?php echo __(strtolower($row->type).'.name', array(), 'ew-items') ?></td>
 					<td class="cell-level"><?php echo $row->level ?></td>
 					<td class="cell-durability"><?php echo $row->durability ?></td>
@@ -157,11 +157,11 @@ $(function(){
 			if($('#filter-type').val() && ($('#filter-type').val().indexOf($(this).data('type')) == -1)) { 
 				v = false;
 			}
-			if($('#filter-level').val() && ($('#filter-level').val().indexOf(String($(this).data('level'))) == -1)) {
+			if($('#filter-level').val() && ($('#filter-level').val().indexOf($(this).children('.cell-level').text()) == -1)) {
 				v = false;
 			}
 
-			if($('#filter-tier').val() && ($('#filter-tier').val().indexOf(String(manifest[$(this).data('type')].levels[$(this).data('level')].tier)) == -1)) {
+			if($('#filter-tier').val() && ($('#filter-tier').val().indexOf(String(manifest[$(this).data('type')].levels[parseInt($(this).children('.cell-level').text())].tier)) == -1)) {
 				v = false;
 			}
 			var b = $('#filter-stats').val();
@@ -177,19 +177,19 @@ $(function(){
 
 			switch($('#filter-durability').val()) {
 			case '0':
-				if($(this).data('durability') != 0) v = false;
+				if(parseInt($(this).children('.cell-durability').text()) != 0) v = false;
 				break;
 			case '1':
-				if($(this).data('durability') == 0) v = false;
+				if(parseInt($(this).children('.cell-durability').text()) == 0) v = false;
 				break;				
 			}
 
 			switch($('#filter-equipped').val()) {
 			case '0':
-				if($(this).data('equipped')) v = false;
+				if($(this).children('.cell-equipped').text() == '+') v = false;
 				break;
 			case '1':
-				if(!$(this).data('equipped')) v = false;
+				if($(this).children('.cell-equipped').text() == '-') v = false;
 				break;
 			}
 
@@ -222,28 +222,56 @@ $(function(){
 	});
 
 	$('#action-upgrade-all').click(function(){
-
-		function upgradeFirst()
-		{
+		function up() {
 			var set = $('#equipment-list > tbody > tr:visible');
-
-			for(var i = 0; i < set.length; i++)
-			{
-				if(set.eq(i).data('durability') != 0)
-				{
+			for(var i = 0; i < set.length; i++) {
+				if(parseInt(set.eq(i).children('.cell-durability').text()) != 0) {
 					upgradeNode(set.eq(i), function(){
-						setTimeout(upgradeFirst, 1000);
+						up();
 					});
 					return;
 				}
 			}
 			$('#sound-error').get(0).play();
-			bootbox.alert('UPGRADE FINISHED');
+			bootbox.alert('Обновление завершено.');
 		}
-
-		upgradeFirst(); 
+		up(); 
 		return false;
 	});
+
+	function nodeUP(node, complete) {
+		node.removeClass().addClass('info');		
+		$.ajax({
+			url: '<?php echo url_for('common/REMOTE')?>',
+			data: {
+				path: '/api/player/equipment/'+node.data('id')+'/instant_upgrade',
+				query: {
+					'basis_id': <?php echo $sf_user->getAttribute('bases', array(), 'player')[0]['id'] ?>,
+					'_method': 'post'
+				},
+				element: 'response/job'
+			},
+			type: 'post',
+			success: function(response) {
+				node.children('.cell-durability').text(response.equipment.durability);
+				node.children('.cell-level').text(response.equipment.level);
+				node.removeClass();
+				if(response.successful) {
+					node.addClass('success');
+				}
+				else {
+					node.addClass('error');
+				}
+			},
+			error: function(){
+//				node.children('.cell-durability').text('0');
+				node.removeClass().addClass('warning');				
+			},
+			complete: function(){
+				complete();
+			}
+		});
+	}
 
 	function upgradeNode(node, callback) {
 		node.removeClass().addClass('info');
@@ -265,6 +293,7 @@ $(function(){
 						type: r
 				};				
 				noty(notydata);*/
+				/*
 				if(response.equipment.level < 5) {
 					var chart = $('#charts > li').eq(node.data('level') - 1);					
 					var v = chart.data(r);
@@ -296,6 +325,7 @@ $(function(){
 						}]
 					});
 				}
+				*/
 				
 				node.data('level', response.equipment.level);
 				node.children('td.cell-level').text(response.equipment.level);
@@ -340,8 +370,38 @@ $(function(){
 	});
 
 	$('.action-upgrade').click(function(){
-		upgradeNode($(this).closest('tr'));
+		nodeUP($(this).closest('tr'), function(){
+		});
+//		upgradeNode($(this).closest('tr'));
 		return false;
+	});
+
+	$('#action-craft').click(function(){
+		var craft1 = [];
+		var craft2 = [];
+		$('#equipment-list > tbody > tr:visible').each(function(){
+			switch(parseInt($(this).children('.cell-tier').text()))
+			{
+			case 1:
+				craft1.push($(this).data('id'));
+				if(craft1.length == 5) {
+					console.log(window.JSON.stringify($.map(craft1, function(item){
+						return { type: 'equipment', id: item };
+					})));
+					craft1 = [];
+				}
+				break;
+			case 2:
+				craft2.push($(this).data('id'));
+				if(craft2.length == 10) {
+					console.log(craft2);
+					craft2 = [];
+				}
+				break;
+			default:
+				break;			
+			}
+		});
 	});
 
 	$('#action-repair-all').click(function(){
@@ -358,7 +418,7 @@ $(function(){
 				return;
 			}
 			r.data('repairing', true);		
-			r.removeClass().addClass('success');	
+			r.removeClass().addClass('muted');	
 			$.post('<?php echo url_for('equipment/repair') ?>', { id: r.data('id')}, function(){				
 				repair(index + 1);
 			});

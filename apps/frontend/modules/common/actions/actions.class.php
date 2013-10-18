@@ -111,14 +111,14 @@ class commonActions extends sfActions
   	$this->redirect('common/index');
   }
   
-  public function executeRGET(sfWebRequest $request)
+  public function executeREMOTE(sfWebRequest $request)
   {
   	$path = $request->getParameter('path');
   	$this->forward404Unless($path);  	
   	
   	$query = $request->getParameter('query', array());
   	
-  	$result = $this->getUser()->RGET($path, $query);
+  	$result = $request->getMethod() == sfWebRequest::POST ? $this->getUser()->RPOST($path, $query) : $this->getUser()->RGET($path, $query);
   	$this->forward404Unless($result, 'FETCH FAILED');
   	
     switch ($request->getParameter('decode'))
@@ -139,6 +139,7 @@ class commonActions extends sfActions
   	if(!is_null($request->getParameter('element'))){
   		$result = json_decode($result, true);
   		foreach (explode('/', $request->getParameter('element')) as $element) {
+	        $this->forward404Unless(isset($result[$element]), 'ELEMENT NOT FOUND');
   			$result = $result[$element];
   		}
   		$result = json_encode($result);

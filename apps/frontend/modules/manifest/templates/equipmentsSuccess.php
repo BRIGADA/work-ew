@@ -36,7 +36,7 @@ $('#equipment-update').click(function(){
 	$('#update-dialog').modal();
 	$('#update-description').text('Загрузка актуальных данных...');
 	$.ajax({
-		url: '<?php echo url_for('common/RGET')?>',
+		url: '<?php echo url_for('common/REMOTE')?>',
 		data: {
 			path: '/api/manifest/equipment',
 			element: 'response/equipment'

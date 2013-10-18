@@ -14,7 +14,7 @@
 	</div>
 </div>
 
-<div class="modal hide fade" role="dialog" id="update-dialog">
+<div class="modal hide fade" id="update-dialog">
     <div class="modal-header">
         <h3>Обновление...</h3>
     </div>
@@ -32,7 +32,7 @@ $('#campaigns-update').click(function(){
 	$('#update-dialog .bar').css('width', '0%');
 	$('#update-dialog').modal('show');
 	$.ajax({
-		url: '<?php echo url_for('common/RGET') ?>',
+		url: '<?php echo url_for('common/REMOTE') ?>',
 		data: {
 			path: '/api/manifest/campaigns.amf',
 			decode: 'amf',

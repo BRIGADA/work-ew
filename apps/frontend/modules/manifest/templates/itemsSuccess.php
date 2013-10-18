@@ -85,7 +85,7 @@ $('#items-update').click(function(){
 	$('#update-dialog').modal();
 
 	$.ajax({
-		url: '<?php echo url_for('common/RGET') ?>',
+		url: '<?php echo url_for('common/REMOTE') ?>',
 		data: {
 			path: '/api/manifest.amf',
 			decode: 'amf',
