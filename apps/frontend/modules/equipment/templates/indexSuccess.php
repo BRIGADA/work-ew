@@ -21,54 +21,46 @@
 		</p>
 	</div>
 	<div class="span12">
-		<table class="table table-bordered table-hover table-condensed" id="equipment-list">
+		<table class="table table-hover table-condensed" id="equipment-list">
 			<thead>
 				<tr>
 					<td>
-					   <!-- 
-						<select id="filter-type" multiple="multiple" style="width: 100%">
-							<?php //foreach ($types as $type) : ?>
-							<option value="<?php //echo $type ?>"><?php //echo __(strtolower($type).'.name', array(), 'ew-items') ?></option>
-							<?php //endforeach ?>
+						<select id="filter-stats" multiple="multiple" size="6" class="input-block-level">
+							<?php foreach ($stats as $stat) : ?>
+							<option value="<?php echo $stat ?>"><?php echo $stat ?></option>
+							<?php endforeach ?>
 						</select>
-						-->
 					</td>
 					<td style="width: 40px">
-						<select id="filter-level" multiple="multiple" style="width: 40px;">
+						<select id="filter-level" multiple="multiple" size="6" style="width: 40px;">
 							<?php foreach($levels as $level) : ?>
 								<option><?php echo $level ?></option>
 							<?php endforeach ?>
 						</select>
 					</td>
 					<td style="width: 80px;">
-						<select id="filter-durability" style="width: 80px;">
+						<select id="filter-durability" size="6" style="width: 80px;">
 							<option value="-1">&mdash;</option>
 							<option value="0">Сломан</option>
 							<option value="1">Целый</option>
 						</select>
 					</td>
 					<td style="width: 60px">
-						<select id="filter-equipped" style="width: 60px">
+						<select id="filter-equipped" size="6" style="width: 60px">
 							<option value="-1">&mdash;</option>
 							<option value="1">Да</option>
 							<option value="0">Нет</option>
 						</select>
 					</td>
 					<td style="width: 40px;">
-						<select id="filter-tier" multiple="multiple" style="width: 40px;">
+						<select id="filter-tier" size="6" multiple="multiple" style="width: 40px;">
 							<?php foreach($tiers as $tier) : ?>
 							<option><?php echo $tier ?></option>
 							<?php endforeach ?>
 						</select>
 					</td>
-					<td colspan="<?php echo count($stats) ?>">
-						<select id="filter-stats" multiple="multiple" style="width: 100%">
-							<?php foreach ($stats as $stat) : ?>
-							<option value="<?php echo $stat ?>"><?php echo $stat ?></option>
-							<?php endforeach ?>
-						</select>
+					<td style="width: 100px;">					    <button class="btn btn-mini" id="hide-unusial" title="Одним нажатием скрываются все элементы, которые содержат 'необычные' характеристики">Скрыть кошер</button>
 					</td>
-					<td rowspan="2" style="width: 100px;"></td>
 				</tr>
 				<tr>
 					<th>type</th>
@@ -76,22 +68,16 @@
 					<th>healh</th>
 					<th>used</th>
 					<th>tier</th>
-					<?php foreach($stats as $i => $stat ) : ?>
-					<th style="width: 16px"><abbr title="<?php echo $stat ?>"><?php echo $i ?></abbr></th>
-					<?php endforeach ?>
 				</tr>
 			</thead>
 			<tbody>
 				<?php foreach ($results as $row ): ?>
 				<tr data-id="<?php echo $row->id ?>" data-type="<?php echo $row->type ?>">
-					<td><?php echo __(strtolower($row->type).'.name', array(), 'ew-items') ?></td>
+					<td><span><?php echo __(strtolower($row->type).'.name', array(), 'ew-items') ?></span></td>
 					<td class="cell-level"><?php echo $row->level ?></td>
 					<td class="cell-durability"><?php echo $row->durability ?></td>
 					<td class="cell-equipped"><?php if($row->equipped) : ?>+<?php else : ?>-<?php endif ?></td>
 					<td class="cell-tier"><?php echo $manifest[$row->type]['levels'][$row->level]['tier'] ?></td>
-					<?php foreach ($stats as $stat) : ?>
-					<td class="cell-stat-<?php echo $stat ?>" style="text-align: center;"><?php if(isset($manifest[$row->type]['levels'][$row->level]['stats'][$stat]) && ($manifest[$row->type]['levels'][$row->level]['stats'][$stat] != 'false') && $manifest[$row->type]['levels'][$row->level]['stats'][$stat]) : ?>+<?php endif ?></td>
-					<?php endforeach ?>
 					<td>
 						<a href="#" class="btn btn-mini action-trash"><i class="icon-trash"></i></a>
 						<a href="#" class="btn btn-mini action-upgrade"><i class="icon-arrow-up"></i></a>
@@ -124,7 +110,48 @@ var stats = <?php echo json_encode($stats->getRawValue())?>;
 
 var fails = 0;
 
+/* this stats are ignoring on the deleting or crafting items */
+var stats_usial = ['hp', 'range', 'attack_rate', 'concussion_effect', 'damage', 'simultaneous_targets', 'splash_radius'];		
+
+function checkUnusial(e) {
+	var stats = manifest[$(e).data('type')].levels[parseInt($(e).children('.cell-level').text())].stats;
+	for(var i in stats) {
+		if(stats_usial.indexOf(i) == -1 && stats[i] !== 'false' && stats[i]) {
+			console.log(i);
+			return true;
+		}
+	}
+	return false;		
+}
+
 $(function(){
+	$('#hide-unusial').click(function(){
+		$('#filter-stats').val($('#filter-stats > option').map(function(){if(stats_usial.indexOf($(this).val()) == -1) return $(this).val();}).get());
+	});
+	/*
+    $('#equipment-list > tbody > tr .cell-tier').tooltip({
+    	placement: 'left',
+        title: function(){
+            var r = $(this).closest('tr');
+            var l = parseInt(r.find('.cell-level').text());
+            var e = manifest[r.data('type')].levels[l].stats;
+            var result = [];
+            for(var k in e) {
+                if(e[k] !== 'false' && e[k]) {
+                    result.push(k+": " + e[k]);
+                }
+            }
+            
+            console.log(this);
+            return result.join(', ');
+        },
+        trigger: 'hover',
+        delay: 500,
+        container: 'body'
+    });
+    */
+
+	
 	function updateCounter() {
 		$('#equipment-list > tfoot th').text($('#equipment-list > tbody > tr:visible').size() + ' / ' + $('#equipment-list > tbody > tr').size());
 	}
@@ -343,42 +370,65 @@ $(function(){
 	});
 
 	$('#action-craft').click(function(){
-		var set1 = $('#equipment-list > tbody > tr:visible .cell-tier:contains(1)').closest('tr');
-		var set2 = $('#equipment-list > tbody > tr:visible .cell-tier:contains(2)').closest('tr');
 
-		function craft(items, count, type, callback) {
-			console.log('enter craft()');
-			if(items.length < count) {
-				console.log('items.length < count');
-				callback();
-				return;
-			}
+		var need_confirm = false;
+		var set1 = $('#equipment-list > tbody > tr:visible .cell-tier:contains(1)').closest('tr').each(function(){
+			need_confirm = need_confirm | checkUnusial(this);
+		});
+		var set2 = $('#equipment-list > tbody > tr:visible .cell-tier:contains(2)').closest('tr').each(function(){
+			need_confirm = need_confirm | checkUnusial(this);		
+		});
 
-			var current = items.splice(0, count);
-
-			$(current).removeClass().addClass('info');
-
-			$.ajax({
-				url: '<?php echo url_for('equipment/craft') ?>',
-				data: {
-					name: type,
-					ids: $(current).map(function(){ return $(this).data('id'); }).get()
-				},
-				success: function(response) {
-					console.log(response);
-					$(current).remove();
-					updateCounter();
-					craft(items, count, type, callback);
-				},
-				error: function(){
-					console.log('error');
+		if(need_confirm) {
+			bootbox.confirm('Сейчас будет выполнена операция над редкими элементами. Уверены?', function(result){
+				if(result) {
+					doCraft();
 				}
-			});
+			});			
+		}
+		else {
+    		console.log('Редких компонентов нет');
+    		doCraft();
 		}
 
-		craft(set1, 10, 'rarebox1a', function(){
-			craft(set2, 5, 'rarebox1b', function(){});
-		});
+
+	    function doCraft() {
+    		craft(set1, 10, 'rarebox1a', function(){
+    			craft(set2, 5, 'rarebox1b', function(){
+        			bootbox.alert('Преробразование деталей завершено!');
+        		});
+    		});
+
+    		function craft(items, count, type, callback) {
+    			console.log('enter craft()');
+    			if(items.length < count) {
+    				console.log('items.length < count');
+    				callback();
+    				return;
+    			}
+    			var current = items.splice(0, count);
+    
+    			$(current).removeClass().addClass('info');
+
+    			$.ajax({
+    				url: '<?php echo url_for('equipment/craft') ?>',
+    				data: {
+    					name: type,
+    					ids: $(current).map(function(){ return $(this).data('id'); }).get()
+    				},
+    				success: function(response) {
+    					console.log(response);
+    					$(current).remove();
+    					updateCounter();
+    					craft(items, count, type, callback);
+    				},
+    				error: function(){
+    					console.log('error');
+    				}
+    			});
+    		}
+	    }
+		
 	});
 
 	$('#action-repair-all').click(function(){
@@ -407,21 +457,5 @@ $(function(){
 
 });
 
-/*
-$('#action-craft').click(function(){
-	var items1a = [];
-	var items1b = [];
-	$('#equipment-list > tbody > tr:visible').each(function(){
-		if($(this).data();
-	});
-});
-	*/
-
-function LOG(message, decoration) {
-	console.log(message);
-	var record = $('<li>').html(message);
-	if(decoration) record.addClass(decoration);	
-	$('#equipment-log').prepend(record);
-}
 </script>
 
