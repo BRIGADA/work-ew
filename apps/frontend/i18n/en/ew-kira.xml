@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-kira" product-name="ew-kira">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>completed-missions-title</source>
+        <target>Excellent work!</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>completed-missions</source>
+        <target>You have completed missions</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>click-to-view-missions</source>
+        <target>Click to view missions</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>no-completed-missions</source>
+        <target>You do not have any completed missions</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-units" product-name="ew-units">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>titan.pluralName</source>
+        <target>Titans</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>marine.pluralName</source>
+        <target>Marines</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>disruptor.name</source>
+        <target>Disruptor</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>pulsetank.pluralName</source>
+        <target>Pulse Tanks</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>hornet.plural</source>
+        <target>Hornets</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>thomas.name</source>
+        <target>General Mako</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>specter.plural</source>
+        <target>Specters</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>decimator.plural</source>
+        <target>Decimators</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>thomas.fighterclass</source>
+        <target>Engineer</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>thor.plural</source>
+        <target>	
+Devastators</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>rhino.plural</source>
+        <target>Rhinos</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>rhino.name</source>
+        <target>Rhino</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>brawler.name</source>
+        <target>Berserker</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>pyro.plural</source>
+        <target>Pyros</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>sentinel.description</source>
+        <target>Sentinel's are equipped with hyper-ablation armor that can withstand large amounts of damage and punishment.</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>specter.name</source>
+        <target>Specter</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>rhino.pluralName</source>
+        <target>Rhinos</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>rasczak.plural</source>
+        <target>General Strom</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>brawler.description</source>
+        <target>Heavy ballistic armor vulnerable to only Fire and Electricity make Berserkers tough to kill</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>rasczak.name</source>
+        <target>General Strom</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>exploder.pluralName</source>
+        <target>Bombas</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>christopher.name</source>
+        <target>General Vukice</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>disruptor.description</source>
+        <target>Heavily armored vehicles designed to take the heat...and a lot of space.</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>raider.name</source>
+        <target>Raider</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>hornet.description</source>
+        <target>Quick gunships, whose shots slow the rate of fire of a tower to 50%.</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>spacedragon.plural</source>
+        <target>Incineraptors</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>michael.fighterclass</source>
+        <target>Space Pirate</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>marine.description</source>
+        <target>Genetically modified human infantry unit equipped with assault rifles.</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>pulsetank.plural</source>
+        <target>Pulse Tanks</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>thor.pluralName</source>
+        <target>Devastators</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>battlecruiser.description</source>
+        <target>An advanced Battle Ship capable of dealing massive damage to multiple targets</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>brawler.plural</source>
+        <target>Berserkers</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>hornet.pluralName</source>
+        <target>Hornets</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>rasczak.description</source>
+        <target>An incredibly tough and adept leader in the field, despite his abrasive personality.</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>pyro.pluralName</source>
+        <target>Pyros</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>specter.description</source>
+        <target>Special ops alien unit capable of long range attacks.</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>chase.fighterclass</source>
+        <target>Mechromancer</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>decimator.description</source>
+        <target>Fire-breathing monstrosities that reduce even the strongest bases to cinders.</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>exploder.name</source>
+        <target>Bomba</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>rhino.description</source>
+        <target>Armored alien that uses its powerful horn as a battering ram.</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>raider.description</source>
+        <target>Fast alien infantry unit equipped with advanced suction packs capable of rapid resource extraction.</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>spider.description</source>
+        <target>Massive Cerulean wasp-like lifeforms. They do 10x damage against Tesla towers, and are immune to Incendiary burning.</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>raider.plural</source>
+        <target>Raiders</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>spider.pluralName</source>
+        <target>Lancers</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>battlecruiser.name</source>
+        <target>Battle Cruiser</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>marine.name</source>
+        <target>Marine</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>michael.name</source>
+        <target>General Thrax</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>michael.plural</source>
+        <target>General Thrax</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>shrike.name</source>
+        <target>Shrike</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>disruptor.plural</source>
+        <target>Disruptors</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>spider.plural</source>
+        <target>Lancers</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>battlecruiser.plural</source>
+        <target>Battle Cruisers</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>pyro.name</source>
+        <target>Pyro</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>michael.description</source>
+        <target>A bloodthirsty Privateer on the run from a mutual enemy.</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>spacedragon.name</source>
+        <target>Incineraptor</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>shrike.plural</source>
+        <target>Shrikes</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>chase.name</source>
+        <target>General Hale</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>spacedragon.description</source>
+        <target>Flying synthetic beasts that unleash an unrelenting torrent of fireballs upon their prey.</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>christopher.fighterclass</source>
+        <target>Medic</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>raider.pluralName</source>
+        <target>Raiders</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>chimera.description</source>
+        <target>Elite ranged artillery units that range devastation from afar</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>thor.name</source>
+        <target>Devastator</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>shrike.description</source>
+        <target>Light, fast vehicles driven by marines and equipped with laser cannons.</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>shrike.pluralName</source>
+        <target>Shrikes</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>exploder.description</source>
+        <target>From the frozen wastes of Cerulea, these trained beasts carry powerful, and highly unstable, pulse cannons on their backs!</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>thor.description</source>
+        <target>These elite artillery units outrange every other unit and almost all turrets. They also pack a fearsome punch. </target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>pulsetank.name</source>
+        <target>Pulse Tank</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>rasczak.fighterclass</source>
+        <target>Warfighter</target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>titan.description</source>
+        <target>Heavily armored combat walker designed for humanoids. </target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>exploder.plural</source>
+        <target>Bombas</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>sentinel.plural</source>
+        <target>Sentinels</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>sentinel.name</source>
+        <target>Sentinel</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>disruptor.pluralName</source>
+        <target>Disruptors</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>pyro.description</source>
+        <target>Armored assault trooper armed with dual arm-mounted flame throwers - they like to BBQ.</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>decimator.name</source>
+        <target>Decimator</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>titan.plural</source>
+        <target>Titans</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>chimera.name</source>
+        <target>Chimera</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>spider.name</source>
+        <target>Lancer</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>titan.name</source>
+        <target>Titan</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>hornet.name</source>
+        <target>Hornet</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>pulsetank.description</source>
+        <target>In Beast Mode, Pulse Tanks fire huge explosives. They go into Beast Mode for 12 seconds when a friendly unit dies.</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>chimera.plural</source>
+        <target>Chimeras</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>specter.pluralName</source>
+        <target>Specters</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>marine.plural</source>
+        <target>Marines</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

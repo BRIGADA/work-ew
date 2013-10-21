@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-deconstructor" product-name="ew-deconstructor">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>dialog.description</source>
+        <target>Deconstructing buildings will recover half of their build resources.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>dialog.title</source>
+        <target>NANO DECONSTRUCTOR</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>dialog.button</source>
+        <target>DESTROY</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

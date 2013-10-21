@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-Message" product-name="ew-Message">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>body.20130503resourceconverter</source>
+        <target>For a Limited Time Only, Resource Converter build times will be reduced by 80%!  There has never been a better time to get your Resource Converter to Level 16 to take advantage of the powerful new, one-of-a-kind Orbital Strike Cannon turret, so be sure to upgrade your Resource Converter building today! </target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>subject.20130424sectormergefaq</source>
+        <target>Sector Merges are Coming!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>subject.20130503resourceconverterreminder</source>
+        <target>Last Day for 80% Off Resource Converter Build Times!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>subject.04302013generals</source>
+        <target>Generals Have Become Even Stronger!</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>body.20130503resourceconverterreminder</source>
+        <target>Today is the last day to take advantage of the 80% reduction in Resource Converter build times! Don&#x2019;t miss this great opportunity to upgrade your Resource Converter to Level 16 and get access to the new Orbital Strike Cannon turret!</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>body.20130424sectormergefaq</source>
+        <target>Sector merges will be starting across Edgeworld very soon, so be sure to check the forum for a full FAQ on the process today!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>body.20130426buildtimesreminder</source>
+        <target>Last Day for 75% Off Research Times!</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>body.20130426buildtimes</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>body.04302013generals</source>
+        <target>All of the Generals are stronger than ever before!  
+
+From now on, each time that you apply a General&#x2019;s Orders to a General, the General will get an increase in health and damage along with an improvement in the effectiveness of its premium active ability!  Additionally, Generals that have at least 10 General&#x2019;s Orders applied to them can now be deployed into battle simultaneously!  Please check the forums for more information on this exciting new feature.
+
+The General&#x2019;s Orders mystery box is currently in the store, so be sure to get a few and try out these new features today!
+</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>subject.20130426buildtimes</source>
+        <target>Research Times 75% OFF!</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>subject.20130426buildtimesreminder</source>
+        <target>Today is the last day to take advantage of the 75% reduction in all research times! Don&#x2019;t miss this unique opportunity to bring your Unit and Turret researches up to Level 16!</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>subject.20130503resourceconverter</source>
+        <target>Resource Converter Build Times 80% OFF!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

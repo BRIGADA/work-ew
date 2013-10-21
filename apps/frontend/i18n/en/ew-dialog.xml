@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-dialog" product-name="ew-dialog">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>levelup.bonus</source>
+        <target>Resource collectors filled to maximum</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>mysterybox.winmessage</source>
+        <target>you received...</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>mysterybox.kiras-gift.try-again</source>
+        <target>TRY AGAIN?</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>instantrepair.description</source>
+        <target>Your base has taken heavy damage. You should repair the damage quickly to reestablish full control.</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>mysterybox.wintitle</source>
+        <target>CONGRATULATIONS!</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>levelup.title</source>
+        <target>You are now level</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>level.bonus.warps</source>
+        <target>Warp gates recharged</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>mysterybox.playagain</source>
+        <target>PLAY AGAIN!</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>speedup-suggest.description</source>
+        <target>You are already building a structure which needs to finish before you can start a new build.</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>instantrepair.bottomdescription</source>
+        <target>This item can also be bought from the store at any time</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>mysterybox.losemessage</source>
+        <target>Don't worry, you still received</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>speedup-suggest.hint</source>
+        <target>Would you like to speed up your current build?</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>skillpoints</source>
+        <target>Skill Points</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>mysterybox.kiras-gift.enjoy-your-gift</source>
+        <target>ENJOY YOUR GIFT!</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>instantrepair.subdescription</source>
+        <target>Instantly repair all of your base</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>mysterybox.losetitle</source>
+        <target>MAYBE NEXT TIME...</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>mysterybox.header</source>
+        <target>Salvage Box</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>instantrepair.title</source>
+        <target>Instant Repairs</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

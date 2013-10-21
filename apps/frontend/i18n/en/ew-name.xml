@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-name" product-name="ew-name">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>bad</source>
+        <target>That name is unavailable. Please try again.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>enter</source>
+        <target>Please enter your name, Commander...</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>entry</source>
+        <target>Name Entry</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>create-alliance</source>
+        <target>CREATE ALLIANCE</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

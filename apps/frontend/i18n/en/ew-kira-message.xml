@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-kira-message" product-name="ew-kira-message">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>contest.six-ten-eleven.subject</source>
+        <target>Zoot&#x2019;s Second Chance this weekend!</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>kira-name</source>
+        <target>KIRA</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>contest.five-twenty-eleven.subject</source>
+        <target>Fan Page Review Contest. Get Platinum!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>contest.six-twenty-three.subject</source>
+        <target>Design a Mission Contest</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>contest.six-ten-eleven.body</source>
+        <target>Commander, I&#x2019;ve received information that Zoot is holding a special event this weekend!&lt;br&gt;&lt;br&gt;Every Zoot&#x2019;s Token you purchase on Saturday and Sunday will automatically enter you into a contest to win up to 750 Platinum! The more Zoot&#x2019;s Tokens you buy, the more chances you have to win.&lt;br&gt;&lt;br&gt;We&#x2019;ll award prizes to five lucky players on Monday!&lt;br&gt;1st - 750 Platinum&lt;br&gt;2nd - 250 Platinum&lt;br&gt;3rd - 100 Platinum&lt;br&gt;4th - Combat Strategy item&lt;br&gt;5th - Nano Canister item&lt;br&gt;&lt;br&gt;And you&#x2019;ll still be winning great items from Zoot&#x2019;s Loot, too! Pick up some tokens and play now!&lt;br&gt;&lt;br&gt;*Exact event times: 12:01am Saturday to 11:59pm Sunday, Pacific Standard Time, June 11-12.</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>contest.six-seventeen.subject</source>
+        <target>Happy Commander&#x2019;s Day!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>contest.five-twenty-eleven.body</source>
+        <target>Commander, I have received a message about a special event this weekend. Message follows: &lt;br&gt; &lt;br&gt; Edgeworld needs your feedback!  One player who reviews Edgeworld this weekend will win 150 Platinum! &lt;br&gt; &lt;br&gt; Here&#x2019;s what you need to do: &lt;br&gt; &lt;br&gt; 1) Visit the Edgeworld Fan Page. Click &#x201C;Fan Page&#x201D; at the top of the Edgeworld window, or visit http://www.facebook.com/Edgeworld &lt;br&gt; &lt;br&gt; 2) Click &#x201C;Like&#x201D; at the top of the page. You&#x2019;ll now receive instant notifications about Edgeworld updates and features! &lt;br&gt; &lt;br&gt; 3) Click &#x201C;Reviews&#x201D; on the left side of the page. &lt;br&gt; &lt;br&gt; 4) Give us your review, and you&#x2019;re automatically entered to win 150 Platinum! &lt;br&gt; &lt;br&gt; We will award the Platinum prize to one player on Monday. We hope you&#x2019;ll give us a five-star review! Good luck! &lt;br&gt; &lt;br&gt; (If you&#x2019;ve already reviewed Edgeworld, you&#x2019;re already entered to win!)</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>contest.six-seventeen.body</source>
+        <target>Like a father, you have trained and taught your soldiers. Today, it&#x2019;s time to recognize the hard work and dedication of all our leaders. Happy Commander&#x2019;s Day!&lt;br&gt;&lt;br&gt;Three special events are happening this weekend:&lt;br&gt;&lt;br&gt;1) A special Edgeworld wallpaper has been prepared for you on the Fan Page! Visit our Fan Page and click &#x2018;Like&#x2019; to learn how to get the exclusive Edgeworld wallpaper and Father&#x2019;s Day card!&lt;br&gt;&lt;br&gt;2) You can now form Alliances! Great alliances start with great commanders. On Monday, the leaders of the largest three Alliances will each receive 10 Zoot Tokens.&lt;br&gt;&lt;br&gt;3) Visit the Forums this weekend to meet our first Featured Commander, and learn about how you can become a Featured Commander in the future!&lt;br&gt;&lt;br&gt;Links to the Fan Page and the Forums are above and below the game window. Start recruiting for your Alliances, and enjoy your Commander&#x2019;s Day!</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>contest.six-twenty-three.body</source>
+        <target>Commander, I am ready to offer new missions and rewards, but I have no extra missions in my database. I need your help!&lt;br&gt;&lt;br&gt;Visit the forums and give me your ideas for new missions! The best mission will be added to Edgeworld, and available for all players. Your name will go down in history!&lt;br&gt;&lt;br&gt;A link to the forums is beneath the game window. Go there to get all the rules and details!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

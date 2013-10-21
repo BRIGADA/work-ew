@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-ai" product-name="ew-ai">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>general.name</source>
+        <target>General Targeting</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>damagedunits.description</source>
+        <target>This Smart AI enables turrets to finish off the lowest health units</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>inflictmaxdamage.name</source>
+        <target>Max Damage Targeting</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>inflictmaxdamage.description</source>
+        <target>This Smart AI enables turrets to target units they can inflict the most damage against</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>commandthreat.name</source>
+        <target>Command Center Threat</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>damagedunits.name</source>
+        <target>Damaged Units</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>sniperthreat.description</source>
+        <target>This Smart AI enables turrets to target units that are attacking Sniper Towers</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>general.shortdescription</source>
+        <target>Targets Enemy Generals First</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>damagethreat.description</source>
+        <target>This Smart AI targetting system forces your Turret to target the highest damaging unit before they can wreck your base.</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>spreadeffect.name</source>
+        <target>Spread Effect</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>general.description</source>
+        <target>This Smart AI enables turrets to target Generals that are in range</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>sniperthreat.name</source>
+        <target>Sniper Targeting</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>damagethreat.name</source>
+        <target>Damage Threat</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>damagethreat.shortdescription</source>
+        <target>Targets highest damaging unit</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>commandthreat.shortdescription</source>
+        <target>Attack units targeting the Command Center</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>commandthreat.description</source>
+        <target>This Smart AI enables turrets to target any units which are damaging the Command Center</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>damagedunits.shortdescription</source>
+        <target>Attack most damaged units</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>spreadeffect.description</source>
+        <target>This Smart AI enables turrets to try to spread their inherent effect (ex. Concussion) to troops that don't have that effect (ex. Non-Concussed units)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

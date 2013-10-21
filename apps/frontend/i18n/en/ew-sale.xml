@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-sale" product-name="ew-sale">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>text.CoreIngotSale</source>
+        <target>Upgrade to level 10 and 11! Cerulean Cores and Scarbide Ingots are discounted for a limited time!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-skillpoint" product-name="ew-skillpoint">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>total</source>
+        <target>Total SP</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>disclaimer</source>
+        <target>WARNING: SP currently allocated to abilities will be confirmed if an SP item is used and exceeds the maximum SP cap.</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>pending</source>
+        <target>Currently allocated skill points</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

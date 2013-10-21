@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-mission" product-name="ew-mission">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>recover-the-scarbide-ingot.description</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>recover-the-cerulean-core.name</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>tenmu-gift.objectives</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>recover-the-scarbide-ingot.objectives</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>tenmu-gift.name</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>recover-the-cerulean-core.description</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

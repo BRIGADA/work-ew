@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-footprint" product-name="ew-footprint">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>height</source>
+        <target>Base Length</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>unlock</source>
+        <target>Unlock bigger base at Command Center L.#LEVEL#</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>size</source>
+        <target>Base Size</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>nextsize</source>
+        <target>Next Base Size</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>width</source>
+        <target>Base Width</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

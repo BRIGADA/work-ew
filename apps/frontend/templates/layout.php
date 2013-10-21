@@ -51,6 +51,7 @@
 								<li><a href="<?php echo url_for('@manifest-researches') ?>">Исследования</a></li>
 								<li><a href="<?php echo url_for('@manifest-defenses') ?>">Оборона</a></li>
 								<li><a href="<?php echo url_for('@manifest-equipments') ?>">Снаряжение</a></li>
+								<li><a href="<?php echo url_for('@manifest-recipes') ?>">Рецепты</a></li>
 							</ul>
 						</li>
 						<li class="<?php sfContext::getInstance()->getModuleName() == 'equipment' && print 'active'?>"><a href="<?php echo url_for('equipment/index')?>">Снаряжение</a></li>

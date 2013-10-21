@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-promo" product-name="ew-promo">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>ton.title</source>
+        <target>Kabam Presents: Thirst of Night</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>doa.playtooltip</source>
+        <target>Play Dragons of Atlantis now!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>ton.button</source>
+        <target>Play Now!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>doa.paragraph1</source>
+        <target>Build your empire in Dragons of Atlantis!</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>doa.paragraph2</source>
+        <target>Join the Dragons community and get rewards in BOTH games!</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>doa.moredetailstooltip</source>
+        <target>Find out more in our Forum!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>tgf.body</source>
+        <target>Become The Don. Join one of the Five Families!</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>tgf.title</source>
+        <target>Kabam Presents The Godfather: Five Families</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>doa.moredetails</source>
+        <target>More Details Here</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>tgf.button</source>
+        <target>Play Now!</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>doa.title</source>
+        <target>PLAY DRAGONS OF ATLANTIS</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>ton.body</source>
+        <target>Join bloodthirsty vampires in a fight for supremacy!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

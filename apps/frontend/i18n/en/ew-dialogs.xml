@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-dialogs" product-name="ew-dialogs">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>speedup.finishes-job</source>
+        <target>Finishes job</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>speedup.building-in-progress</source>
+        <target>Building in progress</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>speedup.upgrade-in-progress</source>
+        <target>Upgrade in progress</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>speedup.research-in-progress</source>
+        <target>Research in progress</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>converter.resource-capacity</source>
+        <target>Resource Capacity Reached</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>converter.max-capacity</source>
+        <target>Conversion Capacity Reached</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>speedup.subheader</source>
+        <target>Use the latest technology to finish your job sooner!</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>speedup.training-units</source>
+        <target>Training units</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>speedup.description</source>
+        <target>No time to wait...</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>converter.name</source>
+        <target>Converter</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>speedup.down-to</source>
+        <target>Down to:</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>pending-attack.tooltip.delay-btn</source>
+        <target>Delay the attack to build up your defenses</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>defend-base.time-left</source>
+        <target>Hurry commander, you only have</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>speedup.building-is-damaged</source>
+        <target>Building is damaged</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>converter.error-resources</source>
+        <target>Please Select Two Resources For Conversion</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>speedup.warpgate-offline</source>
+        <target>Warp Gate charging</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>pending-attack.tooltip.fight-btn</source>
+        <target>Fight immediately</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>defend-base.left</source>
+        <target>Left</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

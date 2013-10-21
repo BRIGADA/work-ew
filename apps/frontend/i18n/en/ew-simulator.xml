@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-simulator" product-name="ew-simulator">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>no-items-found</source>
+        <target>Your Engineering inventory is full. Part was not collected.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

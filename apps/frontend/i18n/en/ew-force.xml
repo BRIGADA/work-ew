@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-force" product-name="ew-force">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>leaderboard.title.boosts.xp</source>
+        <target>XP Boost</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>leaderboard.title.boosts.resource</source>
+        <target>Resource Boost</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>leaderboard.title.admiral</source>
+        <target>Admiral</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>leaderboard.buildings-force</source>
+        <target>Building</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>leaderboard.title.commodore</source>
+        <target>Commodore</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>leaderboard.title.lieutenant-junior-grade</source>
+        <target>Lieutenant Junior Grade</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>leaderboard.update-next</source>
+        <target>Next Update: </target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>leaderboard.title.boosts.building</source>
+        <target>Building Boost</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>leaderboard.title.crewman</source>
+        <target>Crewman</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>leaderboard.update-title</source>
+        <target>Leaderboard updates in:</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>leaderboard.recent-tournaments</source>
+        <target>Tournament Rank</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>leaderboard.skills-force</source>
+        <target>SP</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>leaderboard.player-force</source>
+        <target>Level</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>leaderboard.title.captain</source>
+        <target>Captain</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>leaderboard.all-time</source>
+        <target>Lifetime Rank</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>leaderboard.my-rank</source>
+        <target>MY RANK</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>leaderboard.title.chief-warrant-officer</source>
+        <target>Chief Warrant Officer</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>leaderboard.force-tournament</source>
+        <target>Force Tournament</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>leaderboard.research-level-force</source>
+        <target>Research</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>leaderboard.battle-force</source>
+        <target>PvP</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>leaderboard.daily-prize-des</source>
+        <target>The Top 3 Players in each Sector will receive the following items at 11:59pm PT during the Force Tournaments</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>leaderboard.title.boosts.research</source>
+        <target>Research Boost</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>leaderboard.title.chief-petty-officer</source>
+        <target>Chief Petty Officer</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>leaderboard.title.warrant-officer</source>
+        <target>Warrant Officer</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>leaderboard.suggestion</source>
+        <target>Check your mail for current Tournament Details</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>leaderboard.title.vice-admiral</source>
+        <target>Vice Admiral</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>leaderboard.title.lieutenant</source>
+        <target>Lieutenant</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>leaderboard.daily-prize-title</source>
+        <target>Daily Prizes for Top 3 Players</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>leaderboard.title.boosts.training</source>
+        <target>Training Boost</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>leaderboard.player-research-force</source>
+        <target>Research</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>leaderboard.title.lieutenant-commander</source>
+        <target>Lieutenant Commander</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>leaderboard.myrank</source>
+        <target>My Rank</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>leaderboard.content</source>
+        <target>Check your mail for current Tournament Details</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>leaderboard.title.ensign</source>
+        <target>Ensign</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>leaderboard.player-equipment-force</source>
+        <target>Equipment</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>leaderboard.ends-in</source>
+        <target>Tournament ends in: </target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>leaderboard.winner-info</source>
+        <target>Winner for this month</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>leaderboard.ended</source>
+        <target>Tournament ended:</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>leaderboard.title.recruit</source>
+        <target>Recruit</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>leaderboard.header</source>
+        <target>FORCE LEADERBOARD</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>leaderboard.units-force</source>
+        <target>Training</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>leaderboard.power-gained</source>
+        <target>Force Gained</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

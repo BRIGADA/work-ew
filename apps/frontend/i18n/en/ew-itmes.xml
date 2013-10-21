@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-itmes" product-name="ew-itmes">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>xpsim30.name</source>
+        <target>Defense XP x30</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>simdef50.name</source>
+        <target>Defense Level +50</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>simdef20.name</source>
+        <target>Defense Level +20</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>xpsim15.name</source>
+        <target>Defense XP x15</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>xpsim2.name</source>
+        <target>Defense XP x2</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>simdef25.name</source>
+        <target>Defense Sim Level +25</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>simdef2x.name</source>
+        <target>Defense Level x2</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

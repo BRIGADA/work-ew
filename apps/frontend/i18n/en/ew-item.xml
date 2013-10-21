@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-item" product-name="ew-item">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>sandyreliefcrate.description</source>
+        <target>Includes: &lt;br&gt;
+3x Decimator Rack
+3x 30% Training Accelerator
+5x Zoot Token</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>sandyreliefcrate.name</source>
+        <target>Fleet Relief Crate</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>sandyreliefcrate.tooltip</source>
+        <target>Includes: &lt;br&gt;
+3x Decimator Rack
+3x 30% Training Accelerator
+5x Zoot Token</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

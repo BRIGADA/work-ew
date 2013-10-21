@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-warning" product-name="ew-warning">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>25-years</source>
+        <target> &gt; 25 years</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>name.change</source>
+        <target>How should I address you, Commander?</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>consume-two-warp-gates-confirm</source>
+        <target>Do you wish to continue?</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>cancel.job</source>
+        <target>Are you sure you want to cancel this job? This cannot be undone. Hit continue and half of any resources spent will be returned. NO ITEMS SPENT WILL BE RETURNED. </target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>consume-two-warp-gates</source>
+        <target>This player is currently online. Attacking an online player will consume an extra Warp Gate.</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>bad.cancel</source>
+        <target>Sorry, that job has already completed. You can no longer cancel it.</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>under-the-same-alliance</source>
+        <target>This player is in your alliance so you can't attack them.</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>online-player-too-low</source>
+        <target>This player is currently online and you must be at least level 10 to attack an online player.</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>under-protection.title</source>
+        <target>You are currently under base protection.  If you attack a player your protection will be lost</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>turret.in-progress</source>
+        <target>You are building a turret! It will not fire until it's finished. You may want to speed it up to improve your defenses!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

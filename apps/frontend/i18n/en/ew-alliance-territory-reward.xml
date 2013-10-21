@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-alliance-territory-reward" product-name="ew-alliance-territory-reward">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>body</source>
+        <target>Based on the territory your alliance controls, you received the following items:
+
+#ITEM_LIST#
+
+Control more territory to earn even greater rewards.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>subject</source>
+        <target>Territorial Gains</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

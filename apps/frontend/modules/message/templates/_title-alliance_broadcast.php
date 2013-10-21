@@ -1,0 +1,1 @@
+<?php echo $message->subject ?> <br/><small class="muted"><?php echo $message->from ?></small>

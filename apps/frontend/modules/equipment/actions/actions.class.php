@@ -23,8 +23,6 @@ class equipmentActions extends sfActions
         $r = $this->getUser()->RGET('/api/player/equipment');
         $this->forwardUnless($r, 'common', 'index');
         
-        file_put_contents(sfConfig::get('sf_upload_dir') . '/updated-equipment.json', $r);
-        
         $data = json_decode($r);
         $this->forwardUnless($data, 'common', 'index');
         
@@ -37,6 +35,8 @@ class equipmentActions extends sfActions
                 $this->types[] = $equipment->type;
             }
         }
+        
+        sort($this->types);
         
         $this->manifest = Doctrine::getTable('Equipment')->createQuery('e INDEXBY e.type')
             ->leftJoin('e.levels l INDEXBY l.level')
@@ -80,10 +80,10 @@ class equipmentActions extends sfActions
         $r = $this->getUser()->RPOST(sprintf('/api/player/equipment/%s/instant_upgrade', $id), $query);
         $this->forward404Unless($r);
         
-        $result = json_decode($r);
-        $this->forward404Unless($result);
+        $result = json_decode($r, true);
         
-        return $this->renderJSON($result->response->job);
+        $this->forward404Unless(isset($result['response']['job']));
+        return $this->renderJSON($result['response']['job']);
     }
     
     // /api/player/equipment/multidestroy

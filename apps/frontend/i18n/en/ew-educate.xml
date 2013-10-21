@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-educate" product-name="ew-educate">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>20120312.subject</source>
+        <target>Get your FREE Bonus Kira's Gift!</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>20120312.body</source>
+        <target>Welcome to Edgeworld, Commander!&lt;br&gt;&lt;br&gt;
+A leader of your caliber will go far in the battle to dominate Cerulea IV!&lt;br&gt;&lt;br&gt; To aid you in these first days, we are pleased to offer a special bonus for new Commanders only; take advantage of the Edgeworld  &lt;a href="https://www.kabam.com/edgeworld/play?path=/platinum" target="_blank"&gt;beginner's sale&lt;/a&gt; and not only will you save 20% on our popular, 400 platinum package, you will also receive a &lt;b&gt;FREE&lt;/b&gt; bonus Kira's Gift.&lt;br&gt;&lt;br&gt;  Kira's Gift is our most popular mystery crate and is not available for purchase in the Edgeworld store.  Get your &lt;b&gt;FREE&lt;/b&gt; bonus gift before its too late.  This offer expires within 7 days of joining Edgeworld!&lt;br&gt;&lt;br&gt; &lt;a href="https://www.kabam.com/edgeworld/play?path=/platinum" target="_blank"&gt;Click Here&lt;/a&gt; to save 20% and claim your &lt;b&gt;FREE&lt;/b&gt; Kira's Gift with your first purchase!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

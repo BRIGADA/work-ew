@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-commander-message" product-name="ew-commander-message">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>welcome.body</source>
+        <target>This is a difficult missive for me to write, for I am all that remains of the Galactic Union. I&#x2019;ve kept my enemies close, and now they&#x2019;re closing in on me.&lt;br&gt;&lt;br&gt;To ensure your own survival, it&#x2019;s imperative that you gather resources to fuel your expansion, build an impenetrable defense grid to protect your base, and mobilize a formidable battalion to strike at your enemies.&lt;br&gt;&lt;br&gt;I&#x2019;ll help whenever and wherever possible, providing I make it out alive. For now, there&#x2019;s little I can do -- other than shield your base with a reality distortion field. This won&#x2019;t be permanent, but it should prevent enemies from finding you for the next 3 days.&lt;br&gt;&lt;br&gt;Good luck, Commander.&lt;br&gt;&lt;br&gt;Respectfully,&lt;br&gt;Admiral Tenmu</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>welcome.subject</source>
+        <target>Dark Days Ahead</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>commander-name</source>
+        <target>Admiral Tenmu</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

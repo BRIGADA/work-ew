@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-orbitalstrikecannon" product-name="ew-orbitalstrikecannon">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>unlock</source>
+        <target>Requires Level 16 Resource Converter</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

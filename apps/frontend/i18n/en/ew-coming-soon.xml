@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-coming-soon" product-name="ew-coming-soon">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>alliances</source>
+        <target>Alliances coming VERY VERY soon!!!!</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>armor</source>
+        <target>Armor Boosts Coming Soon!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>firepower</source>
+        <target>Ammunition Boosts Coming Soon!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>default</source>
+        <target>Coming soon</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

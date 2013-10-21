@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-cutscene" product-name="ew-cutscene">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>maps.text1</source>
+        <target>We're not the only ones: our enemies have also acquired the Xirrus Zone Map. Brace yourselves for a brutal siege.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>maps.text2</source>
+        <target>Reaching the Aurora-1 outpost, located in this frozen wasteland, will be difficult. Most of the ships we're sending won't make it back.</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>maps.text3</source>
+        <target>Get the perimeter secured and the base operational.  We're still investigating, but we've intercepted some Maar chatter about a...a shield generator.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

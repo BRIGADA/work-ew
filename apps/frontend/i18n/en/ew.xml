@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew" product-name="ew">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>maps</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>gsat</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>a-gift-from-tenmu</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>victory</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Product</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>maptournament</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Bundles</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>helio</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>marchbuildathon</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Spelstabilitetsproblem</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Mystery</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Other</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Building</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>ID</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Boosts</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>V&#xE4;rde</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>tenmu-gift</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>h</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>not-available-for-instant-build</source>
+        <target>This building is currently not eligible for instant build</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Cerulean</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Shields</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>game-name</source>
+        <target>Edgeworld</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>project-juggernaut</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

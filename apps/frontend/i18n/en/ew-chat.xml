@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-chat" product-name="ew-chat">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>welcome</source>
+        <target>Welcome to Edgeworld</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>connected.global</source>
+        <target>Connected to the Global Chat Room</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>enter-message</source>
+        <target>Enter message here...</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

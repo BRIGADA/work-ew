@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-zootsjackpot" product-name="ew-zootsjackpot">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>description</source>
+        <target>&lt;font color="FFD93F"&gt;How to Play Zoot's Jackpot:&lt;/font&gt;
+
+Click play to start the game.
+
+After each round, you have a chance of landing on four types of tiles.
+
+&lt;font color="FFD93F"&gt;Prize:&lt;/font&gt; you may choose to either CLAIM or RISK the prize to play the next row. Each row contains more valuable prizes and better Jackpot odds, but also has a higher chance of landing on a Skull.
+
+&lt;font color="FFD93F"&gt;Platinum:&lt;/font&gt; you enter the Platinum Round. In the Platinum Round, you may choose 10 tiles. You win the total of all the Platinum contained in these 10 tiles!
+
+&lt;font color="FFD93F"&gt;JACKPOT:&lt;/font&gt; you win the Progressive Platinum Jackpot! Every game play increases the Jackpot and each Jackpot win resets the counter.
+
+&lt;font color="FFD93F"&gt;Skull:&lt;/font&gt; you receive a consolation prize and the game ends.
+
+Each game costs 25 Platinum to play. Playing higher rows does not cost additional Platinum, but you run the risk of losing your prize. 
+
+The game ends after a prize is claimed, at the conclusion of a Platinum Round, after a Jackpot win or after landing on a Skull. </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

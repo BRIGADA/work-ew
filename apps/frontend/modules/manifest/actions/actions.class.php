@@ -346,4 +346,38 @@ class manifestActions extends sfActions
             }
         }
     }
+    
+    public function executeRecipes()
+    {
+        $this->recipes = Doctrine::getTable('CraftingRecipe')->createQuery()->orderBy('id')->execute();
+    }
+    
+    public function executeRecipeUpdate(sfWebRequest $request)
+    {
+        $name = $request->getParameter('name');
+        $this->forward404Unless($name);
+        
+        $recipe = Doctrine::getTable('CraftingRecipe')->findOneBy('name', $name);
+        if(!$recipe) {
+            $recipe = new CraftingRecipe();
+            $recipe->name = $name;
+        }
+        
+        $recipe->inputs = $request->getParameter('inputs');
+        $recipe->outputs = $request->getParameter('outputs');
+        
+        $recipe->save();
+        
+        return sfView::HEADER_ONLY;
+    }
+    
+    public function executeRecipe(sfWebRequest $request)
+    {
+        $name = $request->getParameter('name');
+        $this->forward404Unless($name);
+        
+        $this->recipe = Doctrine::getTable('CraftingRecipe')->findOneBy('name', $name);
+        $this->forward404Unless($this->recipe);
+        
+    }
 }

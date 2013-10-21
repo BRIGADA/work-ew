@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-body" product-name="ew-body">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>mesage.februarylevel10.body</source>
+        <target>Your level 10 or 11 upgrade has been selected as a contest winner! You've received 500 Platinum in your Edgeworld account!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

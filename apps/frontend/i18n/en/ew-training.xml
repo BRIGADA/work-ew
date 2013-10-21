@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-training" product-name="ew-training">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>mech</source>
+        <target>Mech Training</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>infantry</source>
+        <target>Infantry Training</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

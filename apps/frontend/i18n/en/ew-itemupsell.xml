@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-itemupsell" product-name="ew-itemupsell">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>key.description</source>
+        <target>Key needed to open #ITEM_NAME#</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>combatboosts.title</source>
+        <target>Combat Boosts!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>combatboosts.description</source>
+        <target>Hit back harder, earn more XP, command respect!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>resourceboosts.title</source>
+        <target>Increase Production!</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>key.title</source>
+        <target>Key Needed</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>shields.title</source>
+        <target>Defend Yourself!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>namechange.description</source>
+        <target>Want to change your name?</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>namechange.title</source>
+        <target>Identity Theft</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>shields.description</source>
+        <target>Protect your resources, protect yourself.</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>resourceboosts.description</source>
+        <target>Saving up? Generate resources faster!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

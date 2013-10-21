@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-activemodel" product-name="ew-activemodel">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>errors.models.jobs.create-units.queue-is-full</source>
+        <target>Training queue is full. Speed up your training to train more troops. </target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>errors.models.jobs.create-instant-units.not-available-for-instant-build</source>
+        <target>Must own the Core necessary to instant train this unit!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>errors.models.jobs.upgrade-instant-research.does-not-meet-requirements</source>
+        <target>Your Tech Lab must be upgraded before you can research this tech.</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>errors.models.jobs.upgrade-instant-building.does-not-meet-requirements</source>
+        <target>Your Command Center must be upgraded before you can upgrade this building.
+</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>errors.models.jobs.upgrade-instant-building.not-available-for-instant-build</source>
+        <target>This building is currently not eligible for instant build</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>errors.models.jobs.move-map-node.player-level-insufficient</source>
+        <target>Man up! You really need to gain more levels!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>errors.models.maps.capture.bordering-alliances-are-invalid</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>errors.models.jobs.move-map-node.node-under-attack</source>
+        <target>This is a popular spot! There are players fighting for this node right now. Come back later.</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>errors.models.jobs.move-map-node.cannot-be-claimed</source>
+        <target>You just can't...and you actually shouldn't see this message.</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>errors.models.jobs.upgrade-map-node.node-under-attack</source>
+        <target>Someone is trying to take this node away from you. A battle is going on this node. You can't upgrade now.</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>errors.models.jobs.claim-map-node.node-under-attack</source>
+        <target>This is a popular spot! There are players fighting for this node right now. Come back later.</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>errors.models.jobs.upgrade-instant-research.not-available-for-instant-build</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>errors.models.jobs.upgrade-equipment.does-not-meet-requirements</source>
+        <target>Not enough resources to upgrade this Part! Collect more or pick some up from the item store!</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>errors.models.jobs.upgrade-instant-defense.not-available-for-instant-build</source>
+        <target>Must own the Core necessary to instant research this unit!</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>errors.models.jobs.upgrade-instant-units.not-available-for-instant-build</source>
+        <target>Must own the Core necessary to instant train this unit!</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>errors.models.jobs.create-units.no-capacity-for-units</source>
+        <target>Sorry, Commander.  You can't create those units because you don't have enough capacity.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

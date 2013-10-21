@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-mainnav" product-name="ew-mainnav">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>tooltip.build-btn</source>
+        <target>Add new buildings</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>tooltip.attack-btn</source>
+        <target>Attack the base with custom troops</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>tooltip.home-btn</source>
+        <target>Return to your base</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>tooltip.retreat-btn</source>
+        <target>Pull back your remaining troops</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

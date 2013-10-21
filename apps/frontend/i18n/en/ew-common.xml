@@ -1,0 +1,1242 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-common" product-name="ew-common">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>use</source>
+        <target>Use</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>armor-boosts</source>
+        <target>Armor Boost</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>reboot</source>
+        <target>REBOOT</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>new</source>
+        <target>New</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>busy</source>
+        <target>Busy</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>upgrade</source>
+        <target>Upgrade</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>current-xp</source>
+        <target>Current XP</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>instant-finish.name</source>
+        <target>Instant Finish</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>upgrading</source>
+        <target>Upgrading</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>first</source>
+        <target>first</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>used</source>
+        <target>Used</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>reduces-time-by</source>
+        <target>Reduces time by</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>maxed</source>
+        <target>Maxed</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>collecting</source>
+        <target>Collecting</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>music.on</source>
+        <target>Turn music off</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>abbreviations.level</source>
+        <target>L.</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>general</source>
+        <target>General</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>replaymission</source>
+        <target>Replay Mission</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>stop.upgrading</source>
+        <target>Stop Upgrading</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>status</source>
+        <target>Status</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>continue</source>
+        <target>Continue</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>gas</source>
+        <target>Gas</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>train-mechs</source>
+        <target>Mech Training</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>view-missions</source>
+        <target>View Missions</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>crystal</source>
+        <target>Crystal</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>convert</source>
+        <target>Convert</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>label.separator</source>
+        <target>:</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>mech</source>
+        <target>Mech</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>combat</source>
+        <target>Combat</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>console-offline</source>
+        <target>Console Offline</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>research</source>
+        <target>Research</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>delay</source>
+        <target>Delay</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>messages</source>
+        <target>Messages</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>battles</source>
+        <target>Battles</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>view</source>
+        <target>View</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>free</source>
+        <target>Free</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>hudtooltip.store</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>date</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>resources</source>
+        <target>Resources</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>unavailable</source>
+        <target>Unavailable</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>experience</source>
+        <target>Experience</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>from</source>
+        <target>From</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>players</source>
+        <target>Players</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>crates</source>
+        <target>Chests</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>online</source>
+        <target>Online</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>toggle.zoom</source>
+        <target>Toggle zoom</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>toggle-fullscreen</source>
+        <target>Toggle fullscreen</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>total-capacity</source>
+        <target>Capacity</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>training</source>
+        <target>Training</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>play</source>
+        <target>Play</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>gained-a-level</source>
+        <target>You gained a level</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>low-quality</source>
+        <target>Low Quality</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>no-troops</source>
+        <target>No Troops</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>space-per-unit</source>
+        <target>Space per unit</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>research-lab.level</source>
+        <target>Level</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>subject</source>
+        <target>Subject</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>waiting</source>
+        <target>Waiting</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>clicktoclose</source>
+        <target>click to close</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>defense-simulator</source>
+        <target>Defense Simulator</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>toohigh</source>
+        <target>Level too high</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>defense-base</source>
+        <target>Base Defenses</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>attacked-you</source>
+        <target>attacked you</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>sound-on</source>
+        <target>Turn sound off</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>resources-boosts</source>
+        <target>Resources Boost</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>space-used</source>
+        <target>Space used</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>missions.claimed.label</source>
+        <target>Mission Claimed:</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>battle-report</source>
+        <target>Battle Report</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>you-gained-x-xp</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>level-defense-research</source>
+        <target>Defense Level</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>no-ammunition-boosts</source>
+        <target>No Ammunition Boost active</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>collect-all</source>
+        <target>Collect All</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>buildings-destroyed</source>
+        <target>Buildings destroyed</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>openengineeringlab</source>
+        <target>Open Lab</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>missions.new</source>
+        <target>New Mission</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>unequip</source>
+        <target>Unequip</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>spin-again</source>
+        <target>Spin Again</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>maplist.messageplayer</source>
+        <target>Send Message</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>advanced-ammunition</source>
+        <target>Advanced Ammunition</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>research-defense-requirements</source>
+        <target>Research Requirements</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>buildings</source>
+        <target>Buildings</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>details</source>
+        <target>Details</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>research-time</source>
+        <target>Research Time</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>boosted-level</source>
+        <target>Level Boost</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>charging</source>
+        <target>Charging</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>units</source>
+        <target>Units</target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>experience-gained</source>
+        <target>Experience Gained</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>staging-full</source>
+        <target>Your staging area is at full capacity</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>add</source>
+        <target>Add</target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>unit-bonus</source>
+        <target>Unit Bonus</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>send-resources</source>
+        <target>Send Resources</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>scout</source>
+        <target>Scout</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>spacedragon-defense-abbreviated</source>
+        <target>Incineraptor Def</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>no-damage-protection</source>
+        <target>No shields are active.</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>stop-upgrading</source>
+        <target>Stop Upgrading</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>inventory</source>
+        <target>My Items</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>ammunition-boosts</source>
+        <target>Ammunition Boost</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>rewards</source>
+        <target>Rewards</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>activatableskill.uses</source>
+        <target>Uses</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>hudtooltip.messages</source>
+        <target>View your messages</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>speed-ups</source>
+        <target>Speed Ups</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>recycle</source>
+        <target>Recycle</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>abbreviations.seconds</source>
+        <target>s</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>hourly-production-rate</source>
+        <target>Hourly Rate</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>all</source>
+        <target>All</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>repairing</source>
+        <target>Repairing</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>missions.completed.label</source>
+        <target>Mission Complete:</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>trained</source>
+        <target>Trained</target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>you-attacked</source>
+        <target>You Attacked</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>spacedragon-defense</source>
+        <target>Incineraptor Def</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>enemy-level</source>
+        <target>Enemy Level</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>campaign</source>
+        <target>Campaign</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>no-production-buffs</source>
+        <target>You have no active boosts.</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>platinum.tooltip</source>
+        <target>Platinum is the galactic currency for buying items in the store&lt;br&gt;&lt;span class="linkYellow"&gt;Click to add Platinum&lt;/span&gt;</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>platinum</source>
+        <target>Platinum</target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>pve</source>
+        <target>PvE</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>share</source>
+        <target>Share</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>damage-protection</source>
+        <target>Damage Protection</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>pvp</source>
+        <target>PvP</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>store.click-to-use</source>
+        <target>Click To Use</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>days-left</source>
+        <target>Days Left</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>toggle-zoom</source>
+        <target>Toggle zoom</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>reply</source>
+        <target>Reply</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>build</source>
+        <target>Build</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>toggle-sound</source>
+        <target>Toggle sound</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>activatableskill.duration</source>
+        <target>Duration</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>build-time</source>
+        <target>Build Time</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>confirm</source>
+        <target>Confirm</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>maxedout</source>
+        <target>Maxed Out</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>effect</source>
+        <target>Effect</target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>troops-lost</source>
+        <target>Troops lost</target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>idle</source>
+        <target>Idle</target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>mission-accomplished</source>
+        <target>MISSION ACCOMPLISHED!</target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>congratulations</source>
+        <target>Congratulations</target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>units-and-towers</source>
+        <target>Units and Towers</target>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>stop</source>
+        <target>Stop</target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>normal</source>
+        <target>Normal</target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>instant-finish</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>message</source>
+        <target>Message</target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>concussion-magnitude</source>
+        <target>Concussion</target>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>toggle-settings</source>
+        <target>Open/Close Game Settings</target>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>click-to-continue</source>
+        <target>Click to continue</target>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>train-chimeras</source>
+        <target>Academy Queue</target>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>buy</source>
+        <target>Buy</target>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>generals-defense-abbreviated</source>
+        <target>Generals Def</target>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>capacity</source>
+        <target>Capacity</target>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>move</source>
+        <target>Move</target>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>upgrade-to-unlock</source>
+        <target>Upgrade to Unlock</target>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>hourly-rate</source>
+        <target>Hourly Rate</target>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>instantrepair</source>
+        <target>BASE REPAIR</target>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>click-to-research</source>
+        <target>Click to Research</target>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>warp-capacity</source>
+        <target>Warp Capacity</target>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>high-quality</source>
+        <target>High Quality</target>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>attacked-by</source>
+        <target>Attacked By</target>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>troops-deployed</source>
+        <target>Troops deployed</target>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>combat-boosts</source>
+        <target>Combat Boost</target>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>advanced-armor</source>
+        <target>Advanced Armor</target>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>unlock</source>
+        <target>Unlock</target>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>click-units-to-deploy</source>
+        <target>Click Units to Deploy</target>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>damage</source>
+        <target>Damage</target>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>attacked</source>
+        <target>Attacked</target>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>fight</source>
+        <target>Fight</target>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>full</source>
+        <target>Full</target>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>abbreviations.minutes</source>
+        <target>m</target>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>time-left</source>
+        <target>Days Left</target>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>health</source>
+        <target>Health</target>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>zoom-in</source>
+        <target>Zoom in</target>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>uranium</source>
+        <target>Uranium</target>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>generals-defense</source>
+        <target>Generals Def</target>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>next</source>
+        <target>Next</target>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>range</source>
+        <target>Range</target>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>speed-up</source>
+        <target>Speed Up</target>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>upgrade-requirements</source>
+        <target>Upgrade Requirements</target>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>level</source>
+        <target>Level</target>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>mail</source>
+        <target>Mail</target>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>factions</source>
+        <target>Factions</target>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>levelrequired</source>
+        <target>Level #LEVEL_NUMBER# Required</target>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>esc-to-cancel</source>
+        <target>Press Esc to cancel</target>
+      </trans-unit>
+      <trans-unit id="178">
+        <source>train-chimera</source>
+        <target>Academy Queue</target>
+      </trans-unit>
+      <trans-unit id="179">
+        <source>upgrade-time</source>
+        <target>Upgrade Time</target>
+      </trans-unit>
+      <trans-unit id="180">
+        <source>no-resources-buffs</source>
+        <target>You have no resources boosts.</target>
+      </trans-unit>
+      <trans-unit id="181">
+        <source>toggle.quality</source>
+        <target>Toggle quality</target>
+      </trans-unit>
+      <trans-unit id="182">
+        <source>recommended</source>
+        <target>Recommended</target>
+      </trans-unit>
+      <trans-unit id="183">
+        <source>research-defense</source>
+        <target>Defense Research</target>
+      </trans-unit>
+      <trans-unit id="184">
+        <source>under-attack</source>
+        <target>Under Attack</target>
+      </trans-unit>
+      <trans-unit id="185">
+        <source>claim</source>
+        <target>Claim</target>
+      </trans-unit>
+      <trans-unit id="186">
+        <source>sound-off</source>
+        <target>Turn sound on</target>
+      </trans-unit>
+      <trans-unit id="187">
+        <source>risk</source>
+        <target>Risk</target>
+      </trans-unit>
+      <trans-unit id="188">
+        <source>collect</source>
+        <target>Collect</target>
+      </trans-unit>
+      <trans-unit id="189">
+        <source>activatableskill.cooldown</source>
+        <target>Cooldown</target>
+      </trans-unit>
+      <trans-unit id="190">
+        <source>defended</source>
+        <target>Defended</target>
+      </trans-unit>
+      <trans-unit id="191">
+        <source>power</source>
+        <target>Power</target>
+      </trans-unit>
+      <trans-unit id="192">
+        <source>trophy</source>
+        <target>Monuments</target>
+      </trans-unit>
+      <trans-unit id="193">
+        <source>unit.size.staging.area</source>
+        <target>Space used in the Staging Area</target>
+      </trans-unit>
+      <trans-unit id="194">
+        <source>featured</source>
+        <target>Featured</target>
+      </trans-unit>
+      <trans-unit id="195">
+        <source>enter-message</source>
+        <target>Enter message</target>
+      </trans-unit>
+      <trans-unit id="196">
+        <source>building-requirements</source>
+        <target>Building Requirements</target>
+      </trans-unit>
+      <trans-unit id="197">
+        <source>battlecruiser-defense</source>
+        <target>Battle Cruiser Def</target>
+      </trans-unit>
+      <trans-unit id="198">
+        <source>my-items</source>
+        <target>My Items</target>
+      </trans-unit>
+      <trans-unit id="199">
+        <source>decimator-defense</source>
+        <target>Decimator Def</target>
+      </trans-unit>
+      <trans-unit id="200">
+        <source>objective</source>
+        <target>Objective</target>
+      </trans-unit>
+      <trans-unit id="201">
+        <source>decimator-defense-abbreviated</source>
+        <target>Decimator Def</target>
+      </trans-unit>
+      <trans-unit id="202">
+        <source>protection-time-remaining</source>
+        <target>Protection time remaining</target>
+      </trans-unit>
+      <trans-unit id="203">
+        <source>toggle.sound</source>
+        <target>Toggle game sound and music</target>
+      </trans-unit>
+      <trans-unit id="204">
+        <source>also.in.store</source>
+        <target>This item can also be bought from the store at any time.</target>
+      </trans-unit>
+      <trans-unit id="205">
+        <source>number-of-targets</source>
+        <target>Number of Targets</target>
+      </trans-unit>
+      <trans-unit id="206">
+        <source>production</source>
+        <target>Production</target>
+      </trans-unit>
+      <trans-unit id="207">
+        <source>bomba-defense</source>
+        <target>Bomba Defense</target>
+      </trans-unit>
+      <trans-unit id="208">
+        <source>building</source>
+        <target>Building</target>
+      </trans-unit>
+      <trans-unit id="209">
+        <source>not-enough-resources</source>
+        <target>You don't have enough resources</target>
+      </trans-unit>
+      <trans-unit id="210">
+        <source>permanent-on</source>
+        <target>On</target>
+      </trans-unit>
+      <trans-unit id="211">
+        <source>splash</source>
+        <target>Radius</target>
+      </trans-unit>
+      <trans-unit id="212">
+        <source>stealth</source>
+        <target>Stealth</target>
+      </trans-unit>
+      <trans-unit id="213">
+        <source>check-all</source>
+        <target>Check All</target>
+      </trans-unit>
+      <trans-unit id="214">
+        <source>skillpoints</source>
+        <target>Skill Points</target>
+      </trans-unit>
+      <trans-unit id="215">
+        <source>page</source>
+        <target>Page</target>
+      </trans-unit>
+      <trans-unit id="216">
+        <source>player</source>
+        <target>Player</target>
+      </trans-unit>
+      <trans-unit id="217">
+        <source>equip</source>
+        <target>Equip</target>
+      </trans-unit>
+      <trans-unit id="218">
+        <source>xp-for-next-level</source>
+        <target>XP for next level</target>
+      </trans-unit>
+      <trans-unit id="219">
+        <source>level-too-high</source>
+        <target>Level too high</target>
+      </trans-unit>
+      <trans-unit id="220">
+        <source>splash-radius</source>
+        <target>Splash Radius</target>
+      </trans-unit>
+      <trans-unit id="221">
+        <source>error</source>
+        <target>Error</target>
+      </trans-unit>
+      <trans-unit id="222">
+        <source>info</source>
+        <target>Info</target>
+      </trans-unit>
+      <trans-unit id="223">
+        <source>capacity-of-stagingarea</source>
+        <target>Capacity of all staging areas</target>
+      </trans-unit>
+      <trans-unit id="224">
+        <source>command-center.level</source>
+        <target>Level</target>
+      </trans-unit>
+      <trans-unit id="225">
+        <source>warning</source>
+        <target>Warning</target>
+      </trans-unit>
+      <trans-unit id="226">
+        <source>rate-of-fire</source>
+        <target>Rate of Fire</target>
+      </trans-unit>
+      <trans-unit id="227">
+        <source>owned</source>
+        <target>Owned</target>
+      </trans-unit>
+      <trans-unit id="228">
+        <source>reset</source>
+        <target>Reset Points</target>
+      </trans-unit>
+      <trans-unit id="229">
+        <source>seconds</source>
+        <target>Seconds</target>
+      </trans-unit>
+      <trans-unit id="230">
+        <source>reply-all</source>
+        <target>Reply All</target>
+      </trans-unit>
+      <trans-unit id="231">
+        <source>defense</source>
+        <target>Defense</target>
+      </trans-unit>
+      <trans-unit id="232">
+        <source>abbreviations.hours</source>
+        <target>h</target>
+      </trans-unit>
+      <trans-unit id="233">
+        <source>levels</source>
+        <target>Levels</target>
+      </trans-unit>
+      <trans-unit id="234">
+        <source>defense-research</source>
+        <target>DEFENSE RESEARCH</target>
+      </trans-unit>
+      <trans-unit id="235">
+        <source>defense-lab</source>
+        <target>DEFENSE RESEARCH</target>
+      </trans-unit>
+      <trans-unit id="236">
+        <source>delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="237">
+        <source>resources-gained</source>
+        <target>Resources Gained</target>
+      </trans-unit>
+      <trans-unit id="238">
+        <source>attack-speed</source>
+        <target>Rate of fire</target>
+      </trans-unit>
+      <trans-unit id="239">
+        <source>collected</source>
+        <target>#RESOURCE_TYPE# collected</target>
+      </trans-unit>
+      <trans-unit id="240">
+        <source>no-combat-buffs</source>
+        <target>You have no combat boosts.</target>
+      </trans-unit>
+      <trans-unit id="241">
+        <source>timestamp.utc</source>
+        <target>UTC</target>
+      </trans-unit>
+      <trans-unit id="242">
+        <source>music.off</source>
+        <target>Turn music on</target>
+      </trans-unit>
+      <trans-unit id="243">
+        <source>exclusively-on-kcom</source>
+        <target>Exclusively on Kabam.com
+</target>
+      </trans-unit>
+      <trans-unit id="244">
+        <source>ok</source>
+        <target>Ok</target>
+      </trans-unit>
+      <trans-unit id="245">
+        <source>you-have</source>
+        <target>You have</target>
+      </trans-unit>
+      <trans-unit id="246">
+        <source>train-troops</source>
+        <target>Troop Training</target>
+      </trans-unit>
+      <trans-unit id="247">
+        <source>research-defense-lab.level</source>
+        <target>Level</target>
+      </trans-unit>
+      <trans-unit id="248">
+        <source>available</source>
+        <target>Max SP</target>
+      </trans-unit>
+      <trans-unit id="249">
+        <source>damagereduction</source>
+        <target>Damage Reduction</target>
+      </trans-unit>
+      <trans-unit id="250">
+        <source>defense.unavailable</source>
+        <target>Offline</target>
+      </trans-unit>
+      <trans-unit id="251">
+        <source>feuds</source>
+        <target>Feuds</target>
+      </trans-unit>
+      <trans-unit id="252">
+        <source>complete-mission-to-claim</source>
+        <target>Complete mission to claim</target>
+      </trans-unit>
+      <trans-unit id="253">
+        <source>none</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="254">
+        <source>targets</source>
+        <target>Targets</target>
+      </trans-unit>
+      <trans-unit id="255">
+        <source>toggle-music</source>
+        <target>Toggle music</target>
+      </trans-unit>
+      <trans-unit id="256">
+        <source>platinum.description</source>
+        <target>Platinum is the galactic currency for buying items in the store</target>
+      </trans-unit>
+      <trans-unit id="257">
+        <source>store</source>
+        <target>Store</target>
+      </trans-unit>
+      <trans-unit id="258">
+        <source>mystery-box</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="259">
+        <source>shop</source>
+        <target>Shop</target>
+      </trans-unit>
+      <trans-unit id="260">
+        <source>timereduction</source>
+        <target>Time Reduction</target>
+      </trans-unit>
+      <trans-unit id="261">
+        <source>xp</source>
+        <target>Experience</target>
+      </trans-unit>
+      <trans-unit id="262">
+        <source>warp-gate-capacity</source>
+        <target>Warp Gate Capacity</target>
+      </trans-unit>
+      <trans-unit id="263">
+        <source>map</source>
+        <target>Map</target>
+      </trans-unit>
+      <trans-unit id="264">
+        <source>health-and-damage</source>
+        <target>Health and Damage</target>
+      </trans-unit>
+      <trans-unit id="265">
+        <source>unit.size</source>
+        <target>Transport size</target>
+      </trans-unit>
+      <trans-unit id="266">
+        <source>no-armor-boosts</source>
+        <target>No Armor Boost active</target>
+      </trans-unit>
+      <trans-unit id="267">
+        <source>end-battle</source>
+        <target>End Battle</target>
+      </trans-unit>
+      <trans-unit id="268">
+        <source>bomba-defense-abbreviated</source>
+        <target>Bomba Def</target>
+      </trans-unit>
+      <trans-unit id="269">
+        <source>level-research</source>
+        <target>Research Level</target>
+      </trans-unit>
+      <trans-unit id="270">
+        <source>missions</source>
+        <target>Missions</target>
+      </trans-unit>
+      <trans-unit id="271">
+        <source>research-requirements</source>
+        <target>Research Requirements</target>
+      </trans-unit>
+      <trans-unit id="272">
+        <source>spin</source>
+        <target>Spin</target>
+      </trans-unit>
+      <trans-unit id="273">
+        <source>charged</source>
+        <target>Charged</target>
+      </trans-unit>
+      <trans-unit id="274">
+        <source>cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="275">
+        <source>zoom-out</source>
+        <target>Zoom out</target>
+      </trans-unit>
+      <trans-unit id="276">
+        <source>research-defense-time</source>
+        <target>Research Time</target>
+      </trans-unit>
+      <trans-unit id="277">
+        <source>required</source>
+        <target>Required</target>
+      </trans-unit>
+      <trans-unit id="278">
+        <source>skillpointscurrent</source>
+        <target>Current SP</target>
+      </trans-unit>
+      <trans-unit id="279">
+        <source>energy</source>
+        <target>Energy</target>
+      </trans-unit>
+      <trans-unit id="280">
+        <source>claim-rewards</source>
+        <target>Claim your reward for completing this mission</target>
+      </trans-unit>
+      <trans-unit id="281">
+        <source>speed</source>
+        <target>Speed</target>
+      </trans-unit>
+      <trans-unit id="282">
+        <source>you-are-under-protection</source>
+        <target>You are under protection</target>
+      </trans-unit>
+      <trans-unit id="283">
+        <source>weapon-damage</source>
+        <target>Weapon Damage</target>
+      </trans-unit>
+      <trans-unit id="284">
+        <source>boosts</source>
+        <target>Boosts</target>
+      </trans-unit>
+      <trans-unit id="285">
+        <source>abbreviations.days</source>
+        <target>d</target>
+      </trans-unit>
+      <trans-unit id="286">
+        <source>alliance</source>
+        <target>Alliance</target>
+      </trans-unit>
+      <trans-unit id="287">
+        <source>activatableskill.power</source>
+        <target>Power</target>
+      </trans-unit>
+      <trans-unit id="288">
+        <source>clicktoexpand</source>
+        <target>click to expand</target>
+      </trans-unit>
+      <trans-unit id="289">
+        <source>tournament.expired</source>
+        <target>This tournament is over.  Check back for more!</target>
+      </trans-unit>
+      <trans-unit id="290">
+        <source>instant-finish.description</source>
+        <target>Instantly finishes build time</target>
+      </trans-unit>
+      <trans-unit id="291">
+        <source>toggle-quality</source>
+        <target>Toggle quality</target>
+      </trans-unit>
+      <trans-unit id="292">
+        <source>train</source>
+        <target>Train</target>
+      </trans-unit>
+      <trans-unit id="293">
+        <source>time-remaining</source>
+        <target>Time remaining</target>
+      </trans-unit>
+      <trans-unit id="294">
+        <source>offline</source>
+        <target>Offline</target>
+      </trans-unit>
+      <trans-unit id="295">
+        <source>defense-reduction</source>
+        <target>Damage Reduction:</target>
+      </trans-unit>
+      <trans-unit id="296">
+        <source>battlecruiser-defense-abbreviated</source>
+        <target>Battle Cruiser Def</target>
+      </trans-unit>
+      <trans-unit id="297">
+        <source>attack</source>
+        <target>Attack</target>
+      </trans-unit>
+      <trans-unit id="298">
+        <source>production-boosts</source>
+        <target>Active Boosts</target>
+      </trans-unit>
+      <trans-unit id="299">
+        <source>autocomplete</source>
+        <target>autocomplete</target>
+      </trans-unit>
+      <trans-unit id="300">
+        <source>chests</source>
+        <target>Crates</target>
+      </trans-unit>
+      <trans-unit id="301">
+        <source>done</source>
+        <target>Done</target>
+      </trans-unit>
+      <trans-unit id="302">
+        <source>warps-available</source>
+        <target>Warps available</target>
+      </trans-unit>
+      <trans-unit id="303">
+        <source>purchased</source>
+        <target>Purchased</target>
+      </trans-unit>
+      <trans-unit id="304">
+        <source>name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="305">
+        <source>resources-looted</source>
+        <target>Resources Looted</target>
+      </trans-unit>
+      <trans-unit id="306">
+        <source>numbers.comma</source>
+        <target>,</target>
+      </trans-unit>
+      <trans-unit id="307">
+        <source>stop-building</source>
+        <target>Stop Building</target>
+      </trans-unit>
+      <trans-unit id="308">
+        <source>missions.locked</source>
+        <target>Unlocked at level 10</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

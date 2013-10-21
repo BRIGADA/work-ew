@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-suggestion" product-name="ew-suggestion">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>same-alliance</source>
+        <target>Upgrade this outpost from the map.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>train-troops</source>
+        <target>Train some troops in your Factory and Barracks.</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>alliance-member</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>level-up</source>
+        <target>Gain a few levels and try again</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>attack-level-too-low</source>
+        <target>You must be level #LEVEL# to attack this player.</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>same-player</source>
+        <target>Upgrade this outpost from the map.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

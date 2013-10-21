@@ -347,7 +347,6 @@ Limit One Prize Per Player, Per Sector.  Event ends at 11:59pm PDT on October 17
   <daily.text.blackmarketinshop>For only a few hours, the BMP is available in the shop!  Click here for more info!</daily.text.blackmarketinshop>
   <message.pvpassaultwinner2.body>Congratulations, Commander! As you approach the Cerulean obelisks, they acknowledge your strength, and open up to reveal powerful boosts inside.&lt;p&gt;
 You received a 60-Minute Warp Boost for being among the best win/loss ratios in this Sector.&lt;p&gt;</message.pvpassaultwinner2.body>
-  <<p>></<p>>
   <items.storecategory.warpboost></items.storecategory.warpboost>
   <daily.title.20130531decimatordefensecorerequirement>Decimator Defensive Research Event!</daily.title.20130531decimatordefensecorerequirement>
   <hero.skilltip.overdrive>Buff nearby troops</hero.skilltip.overdrive>
@@ -11408,7 +11407,6 @@ Learn about Colony Kits in the Shop now!</message.aurora1.body>
   <message.body.20130517hax24sale>For a limited time only, 24 Hour Accelerators will be only 50 Platinum!  This sale will only be available for the next 24 hours, so visit the featured tab now!</message.body.20130517hax24sale>
   <force.leaderboard.ends-in>Tournament ends in: </force.leaderboard.ends-in>
   <daily.title.20121022partsbox>New Parts Mystery Crates Available!</daily.title.20121022partsbox>
-  <#ITEM-LIST#></#ITEM-LIST#>
   <fte.kira.scout>This is the scout view for the enemy base, Commander. If we attack now our rookie troops can gain some much needed experience.
 
 Click attack to open the Warp Gate.</fte.kira.scout>

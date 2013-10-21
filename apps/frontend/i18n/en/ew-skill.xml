@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-skill" product-name="ew-skill">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>teleport.unlock</source>
+        <target>At level 10 click and hold to teleport General and surrounding troops</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>magneticshielding.unlock</source>
+        <target>At level 10, you can target where you want to activate this buff!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>aoeheal.unlock</source>
+        <target>At level 10 click and hold to provide massive heal to more troops</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>magneticshielding.powerlabel</source>
+        <target>Shielding</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>empgrenade.unlock</source>
+        <target>At level 10, click and hold to unleash a wider blast!</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>aoedamage.unlock</source>
+        <target>At level 10 click and hold to charge detonation and deal massive damage to a larger area</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>overdrive.unlock</source>
+        <target>At level 10, you can target where you want to activate this buff!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

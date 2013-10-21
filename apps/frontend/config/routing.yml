@@ -102,6 +102,19 @@ manifest-campaign:
   url: /manifest/campaign/:id
   param: { module: manifest, action: campaign }
 
+manifest-recipes:
+  url: /manifest/recipes
+  param: { module: manifest, action: recipes }
+  
+manifest-recipe-update:
+  url: /manifest/recipe-update
+  param: { module: manifest, action: recipeUpdate }
+
+manifest-recipe:
+  url: /manifest/recipe/:name
+  param: { module: manifest, action: recipe }
+  
+
 maps:
   url: /maps
   param: { module: map, action: index }

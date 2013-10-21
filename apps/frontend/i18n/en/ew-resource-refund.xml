@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-resource-refund" product-name="ew-resource-refund">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>xcheck.subjecty</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>xcheck.subject</source>
+        <target>We've detected a disruption on Cerulea IV</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>xcheck.from</source>
+        <target>ADMIRAL TENMU</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>xcheck.body</source>
+        <target>Commander,&lt;br&gt;&lt;br&gt;Our support team is examining a recent attack on your base. We have determined that this attack was using exploits that violate our terms of service in order to gain an unfair advantage.&lt;br&gt;&lt;br&gt;We have refunded the resources that were lost in this attack and will monitor this situation carefully.  Thank you for your continued support!&lt;br&gt;&lt;br&gt;Refunded Resources:&lt;br&gt;Crystal: #CRYSTAL_AMOUNT#&lt;br&gt;Gas: #GAS_AMOUNT#&lt;br&gt;Energy: #ENERGY_AMOUNT#&lt;br&gt;Uranium: #URANIUM_AMOUNT#</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

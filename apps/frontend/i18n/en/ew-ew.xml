@@ -1,0 +1,1948 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-ew" product-name="ew-ew">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>under-siege</source>
+        <target>Base Is Under Siege</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>request.to.join</source>
+        <target>Request to Join</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>common.training-cost</source>
+        <target>Training Cost</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>report.you.attacked.lbl</source>
+        <target>You attacked:</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>mission.filter.construction</source>
+        <target>Construction</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>max-level-benefits.title</source>
+        <target>Max Level Bonus</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>common.members</source>
+        <target>Members</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>alli.view.descr</source>
+        <target>View Description</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>alliance-log.attacked</source>
+        <target>attacked</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>common.terms</source>
+        <target>Terms</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>train.err.time-min</source>
+        <target>You must train at least 1 unit</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>edit.alliance</source>
+        <target>Edit Alliance</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>common.reject.all</source>
+        <target>Reject All</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>beginner-base.best-deal</source>
+        <target>Best Deal</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>crafting.craft-successful</source>
+        <target>Craft Successful</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>mapinfo.score-tooltip</source>
+        <target>Your alliance's score is all of your levels of map bases, added together.</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>event.level-nine.content1</source>
+        <target>The next level of Edgeworld warfare has arrived!</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>event.level-nine.content2</source>
+        <target>Upgrade your buildings to Level 9 and research Level 9 units in the Tech Lab.</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>crafting.input-basic</source>
+        <target>Common</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>event.level-nine.content3</source>
+        <target>Upgrade your Command Center</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>event.level-nine.content4</source>
+        <target>NOW!</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>campaign.brawler1.name</source>
+        <target>Eye of the Brawler</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>click.train</source>
+        <target>Click to train</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>simulation.boost-effect</source>
+        <target>EFFECT BOOSTS</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>common.to</source>
+        <target>To</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>bunker-garrison.current-level</source>
+        <target>Current Boost +</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>alliance.leave.appt</source>
+        <target>You must appoint a new leader before you can leave your alliance.</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>campaign.pulse3.name</source>
+        <target>Tanks, Tanks, Tanks (2k-10k)</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>common.day.fri</source>
+        <target>Fri</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>create.items.received</source>
+        <target>You received the following items!</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>battle-report.nothing</source>
+        <target>Nothing Looted</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>chat.ticker.on-sale</source>
+        <target>Featured Item: </target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>simulation.boost-xp</source>
+        <target>XP BOOSTS</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>mission.filter.production</source>
+        <target>Production</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>main-base.scouting-tooltip</source>
+        <target>Scout Main Base</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>common.actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>alliance.join.conf</source>
+        <target>Are you sure you want to join the alliance:</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>mobile.help.tip.content</source>
+        <target>Coming soon!</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>common.month.jul</source>
+        <target>Jul</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>common.month.jun</source>
+        <target>Jun</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>loot-drop.attack-faction</source>
+        <target>Only player battles provide looted items</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>error.no.errstring</source>
+        <target>Something wen't wrong and your request could not be completed.  Please try again or report this error.</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>alliance.leave.cooldown</source>
+        <target>Alliance regulations require a 72-hour cooldown period before you can rejoin &lt;span class="neonBlue"&gt;#ALLIANCE_NAME#&lt;/span&gt;&lt;br&gt;&lt;br&gt;Time remaining: &lt;span class="neonBlue"&gt;#COOLDOWN#&lt;/span&gt;</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>common.structure</source>
+        <target>Structure</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>mobile.current-login.title</source>
+        <target>KABAM.COM ID</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>go-to-kabam.link</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>alli.msg</source>
+        <target>Message Alliance</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>common.submit</source>
+        <target>Submit</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>common.search</source>
+        <target>Search</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>common.total</source>
+        <target>Total XP:</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>store.massopen.equipmentcapreached</source>
+        <target>Commander, your equipment cap has been reached.  Please delete some parts in the Engineering Lab to keep opening these boxes.</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>under-siege-by</source>
+        <target>Base Is Under Siege By: </target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>common.buildings.lost</source>
+        <target>Buildings Lost</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>common.chat.settings</source>
+        <target>Chat Settings</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>error.cannot-train-here</source>
+        <target>You cannot train this unit at this base</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>chat.global</source>
+        <target>Global Chat</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>mobile.blue-light-special.title</source>
+        <target>PLATINUM REWARD</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>common.xp.gained.lbl</source>
+        <target>XP Gained:</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>error.cannot-research-here</source>
+        <target>You cannot research this unit at this base</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>train.inf.bld</source>
+        <target>You can't train anymore infantry yet. Build more Barracks or speed up your existing jobs.</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>common.xp.boost.lbl</source>
+        <target>XP Boost:</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>report.you.attacked</source>
+        <target>You attacked</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>colony.aurora-one.scouting-tooltip</source>
+        <target>Scout Aurora One Colony</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>convert-resource.done</source>
+        <target>RESOURCES CONVERTED</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>common.recruit</source>
+        <target>Recruit</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>transfer-troops.transfer-done</source>
+        <target>TROOPS TRANSFERRED</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>common.sim-instruct</source>
+        <target>Select stage to begin Defense Simulation</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>announcement.context1</source>
+        <target>The next level of Edgeworld warfare has arrived.</target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>announcement.context2</source>
+        <target>Upgrade your Command Center 
+Now!</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>campaign.shrike3.name</source>
+        <target>All or Nothing (2k-10k)</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>beginner-base.deal3-price</source>
+        <target>3499</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>mobile.sector-selector.change-name</source>
+        <target>CHANGE NAME</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>common.eventended</source>
+        <target>This event has ended.</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>common.remove</source>
+        <target>Remove</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>train.owned.lbl</source>
+        <target>Owned:</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>alliance.not.in</source>
+        <target>You are not in any alliance!</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>protection.tooltip.in-activate</source>
+        <target>Inactive: Base can be attacked by other players
+Click to purchase</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>err.train.barracks</source>
+        <target>Need to build Barracks to train.</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>msg.leader</source>
+        <target>Message Leader</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>train.time.lbl</source>
+        <target>Train time:</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>map-list.shield-generator.active</source>
+        <target>Shield Generator active</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>group.inv.full</source>
+        <target>The group is full.</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>alli.edit.descr</source>
+        <target>Edit Description</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>common.select-simstage-tip</source>
+        <target>Select Campaign on left and click on the desired level to proceed with simulation. Unlock additional campaigns by upgrading Defense Simulator building. </target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>simulator.campaign.unlock-at</source>
+        <target>Unlock at level </target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>common.select-simboost-tip</source>
+        <target>Increase your total XP with XP Boosts. Raise your base&#x2019;s defense level with Defense Level Boosts. To deselect boosts, click Back. Click Fight to begin simulation.</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>event.training.complete</source>
+        <target>TRAINING COMPLETE</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>faction.spider.lose</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>common.transfer</source>
+        <target>Transfer</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>mission.filter.all</source>
+        <target>All missions</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>common.defense-level</source>
+        <target>Defense Level</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>mobile.create-kabam-account.create-account</source>
+        <target>CREATE ACCOUNT</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>common.sector</source>
+        <target>Sector</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>warn.keys.fs</source>
+        <target>Flash does not support keyboard entry in full screen mode.</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>beginner-base.deal2-des</source>
+        <target>Includes Level 5 Buildings such as the Command Center, Defense Lab, Tech Lab, Barracks, Warp Gate, Staging Area, Engineering Lab, 18 turrets and much more! Get 1,500+ levels of experience FREE!</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>bunker-garrison.exceed-limit</source>
+        <target>EXCEED DAMAGE BOOST CAP</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>campaign.new12.name</source>
+        <target>Under Siege (4k-100k)</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>colony.caldera-two</source>
+        <target>Caldera-2</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>common.fs.off</source>
+        <target>Full Screen Off</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>showdamagenumbers</source>
+        <target>Show Damage Points</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>abbr.message</source>
+        <target>Msg</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>common.play</source>
+        <target>Play</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>mobile.help.tip.knowledge-base</source>
+        <target>KNOWLEDGE BASE</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>alli.rank.update</source>
+        <target>Rank is calculated every 3 hours</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>loadering.fbase</source>
+        <target>Loading faction base...</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>train.err.days</source>
+        <target>days</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>common.month.dec</source>
+        <target>Dec</target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>common.battle-simulations</source>
+        <target>Battle Simulations</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>common.help</source>
+        <target>Help</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>error.sync</source>
+        <target>Edgeworld is out of sync with the server. Try refreshing the page and contact customer support if the issue continues.</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>common.outpost</source>
+        <target>Outpost</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>beginner-base.deal2-price</source>
+        <target>499</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>battle-report.level-too-low</source>
+        <target>Defender's level too low. No loot found.</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>campaign.xmas12.name</source>
+        <target>Red Sleigh Down</target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>common.lang</source>
+        <target>Language</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>common.requests</source>
+        <target>Requests</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>common.day.thurs</source>
+        <target>Thu</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>mobile.login-error.pw-too-short</source>
+        <target>Password has to be longer than 7 characters</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>common.report-defboost</source>
+        <target>XP Boost</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>common.resources.lost</source>
+        <target>Resources Lost</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>common.defeat</source>
+        <target>Defeat</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>mobile.current-login.manage-account</source>
+        <target>Manage your account at </target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>common.lbl.level</source>
+        <target>Level:</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>train.r.space</source>
+        <target>Not enough space</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>msg.to.alliance.members</source>
+        <target>To the members of:</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>common.forums</source>
+        <target>Forums</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>chat.settings.first</source>
+        <target>You must change your chat settings to do that.</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>mobile.login-option.title</source>
+        <target>CREATE YOUR FREE KABAM.COM
+ACCOUNT IN SECONDS!</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>campaign.dragon2.name</source>
+        <target>Explosions in the Sky (10k-300k)</target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>mobile.payment.free-platinum</source>
+        <target>FREE Platinum!!</target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>train.max.lbl</source>
+        <target>Maximum:</target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>chat.lvl.scout</source>
+        <target>Scout</target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>alliance.inv.lbl.conf</source>
+        <target>You are about to invite:</target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>protection.tooltip.activate</source>
+        <target>Active: Base cannot be attacked by other players</target>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>event.weekend-event.title</source>
+        <target>TERRITORIAL WARFARE</target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>suggest.kabamdotcom.play</source>
+        <target>Play on Kabam.com</target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>common.recharge-sims-tip</source>
+        <target>Click to recharge Simulator Energy</target>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>beginner-base.title</source>
+        <target>BASE SELECT</target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>common.privacy</source>
+        <target>Privacy</target>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>alliance-log.left</source>
+        <target>left</target>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>campaign.terraknor1.name</source>
+        <target>Ahh! Giant Wasps (25-10k)</target>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>common.deconstructing</source>
+        <target>Deconstructing...</target>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>train.r.res</source>
+        <target>Not enough resources</target>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>common.day.tues</source>
+        <target>Tue</target>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>research.at.tech</source>
+        <target>Research at the Tech Lab</target>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>load.alliance</source>
+        <target>Loading alliance...</target>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>alliance.leave.plr</source>
+        <target>Are you sure that you want to leave your alliance? This action cannot be undone.</target>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>common.attack-at-level</source>
+        <target>Attack at level </target>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>map.minimap.alpha-badge</source>
+        <target>Maps is currently Alpha.</target>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>common.list</source>
+        <target>List</target>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>holiday-event.context1</source>
+        <target>TODAY ONLY!</target>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>holiday-event.context2</source>
+        <target>Edgeworld is ringing in the New Year with added bonuses!  For the next 24 hours, every platinum purchase you make will get you 1-3 FREE Kira's gifts worth up to 300 Platinum.</target>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>holiday-event.context3</source>
+        <target>Offer ends at midnight PST, JAN 6, 2012</target>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>common.unblock</source>
+        <target>Unblock</target>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>beginner-base.deal1-price</source>
+        <target>Select</target>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>common.day.weds</source>
+        <target>Wed</target>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>alli.descr</source>
+        <target>Alliance Description</target>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>map.disable</source>
+        <target>Map is temporarily disabled due to solar interference.</target>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>crafting.picked</source>
+        <target>Picked:</target>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>mission.filter.combat</source>
+        <target>Combat</target>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>mobile.create-kabam-account.password</source>
+        <target>PASSWORD:</target>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>siege.store.err</source>
+        <target>You can't access the store while under siege, please wait a few moments for the siege to complete.</target>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>common.withdraw</source>
+        <target>Withdraw</target>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>common.leader</source>
+        <target>Leader</target>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>campaign.beginner1.name</source>
+        <target>Defense Training (1-50)</target>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>chat.lbl.allianceinv</source>
+        <target>Alliance Invite</target>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>alliance-log.promoted-lieutenant</source>
+        <target>has been promoted to Lieutenant</target>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>max-level-benefits.1</source>
+        <target>5x Damage to troops</target>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>block.confirm</source>
+        <target>Are you sure you want to block this player? You will no longer see their chat or be able to receive messages from them.</target>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>max-level-benefits.2</source>
+        <target>10x Damage to Generals</target>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>max-level-benefits.3</source>
+        <target>50% Reduced damage from Generals</target>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>simulator.report.three-star</source>
+        <target>All turrets survived</target>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>alliance-log.membership</source>
+        <target>Membership</target>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>common.alliances</source>
+        <target>Alliances</target>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>map-list.shield-generator.inactive</source>
+        <target>Shield Generator inactive</target>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>mobile.defenseresearchcomplete</source>
+        <target>Defense research is now complete. Research more and defend your base against armies!
+</target>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>mobile.beginner-sale.banner.detail</source>
+        <target>500 Platinum in bonus items with any purchase!</target>
+      </trans-unit>
+      <trans-unit id="178">
+        <source>common.empty</source>
+        <target>Empty</target>
+      </trans-unit>
+      <trans-unit id="179">
+        <source>defense-simulator.stage-locked</source>
+        <target>Level #LEVEL# 
+required</target>
+      </trans-unit>
+      <trans-unit id="180">
+        <source>pending-attack.spider.description</source>
+        <target>Commander, our scanners have been scrambled. I'm unsure of the cause, but I suggest preparing our defenses, just in case....</target>
+      </trans-unit>
+      <trans-unit id="181">
+        <source>factory.unlock</source>
+        <target>Build more Factories to unlock</target>
+      </trans-unit>
+      <trans-unit id="182">
+        <source>gps.title</source>
+        <target>GPS Search</target>
+      </trans-unit>
+      <trans-unit id="183">
+        <source>transfer-troops.destination-staging-space</source>
+        <target>DESTINATION STAGING SPACE</target>
+      </trans-unit>
+      <trans-unit id="184">
+        <source>common.month.mar</source>
+        <target>Mar</target>
+      </trans-unit>
+      <trans-unit id="185">
+        <source>event.level-nine.title</source>
+        <target>LEVEL 9 IS HERE!</target>
+      </trans-unit>
+      <trans-unit id="186">
+        <source>common.month.may</source>
+        <target>May</target>
+      </trans-unit>
+      <trans-unit id="187">
+        <source>simulator.report.star</source>
+        <target>star</target>
+      </trans-unit>
+      <trans-unit id="188">
+        <source>common.transfer-max</source>
+        <target>MAX</target>
+      </trans-unit>
+      <trans-unit id="189">
+        <source>common.eventendsat</source>
+        <target>Event ends in #TIME#</target>
+      </trans-unit>
+      <trans-unit id="190">
+        <source>train.err.time</source>
+        <target>Training time must not exceed #TIME# #TIME_UNIT#</target>
+      </trans-unit>
+      <trans-unit id="191">
+        <source>beginner-base.deal1-des</source>
+        <target>Includes Level 1 Buildings such as the Command Center, Crystal Mine, Gas Refinery, Warp Gate, Staging Area and Defense Simulator!</target>
+      </trans-unit>
+      <trans-unit id="192">
+        <source>chat.my.lang</source>
+        <target>My Language</target>
+      </trans-unit>
+      <trans-unit id="193">
+        <source>common.tip.lbl</source>
+        <target>Tip:</target>
+      </trans-unit>
+      <trans-unit id="194">
+        <source>mobile.sector-selector.change-sector</source>
+        <target>CHANGE SECTOR</target>
+      </trans-unit>
+      <trans-unit id="195">
+        <source>bunker-garrison.title</source>
+        <target>Bunker Garrison</target>
+      </trans-unit>
+      <trans-unit id="196">
+        <source>chat.lbl.msg</source>
+        <target>Message</target>
+      </trans-unit>
+      <trans-unit id="197">
+        <source>chat.lbl.mute</source>
+        <target>Temporary Mute</target>
+      </trans-unit>
+      <trans-unit id="198">
+        <source>common.report-effectboost</source>
+        <target>Star Boost</target>
+      </trans-unit>
+      <trans-unit id="199">
+        <source>mobile.help.support</source>
+        <target>SUPPORT</target>
+      </trans-unit>
+      <trans-unit id="200">
+        <source>bunker-garrison.troop-icon-tooltip</source>
+        <target>+#AMOUNT# Damage Boost per unit</target>
+      </trans-unit>
+      <trans-unit id="201">
+        <source>beginner-base.description</source>
+        <target>Select your starting base level</target>
+      </trans-unit>
+      <trans-unit id="202">
+        <source>alliance.rej.conf</source>
+        <target>Are you sure that you want to reject all applicants? This action can not be undone.</target>
+      </trans-unit>
+      <trans-unit id="203">
+        <source>common.rewards</source>
+        <target>Rewards</target>
+      </trans-unit>
+      <trans-unit id="204">
+        <source>mobile.login.title</source>
+        <target>LOGIN</target>
+      </trans-unit>
+      <trans-unit id="205">
+        <source>mobile.login-option.benefits</source>
+        <target>BENEFITS:
+- 75 Free platinum
+- Save Game progress
+- Receive exclusive offers</target>
+      </trans-unit>
+      <trans-unit id="206">
+        <source>campaign.specter1.name</source>
+        <target>Target Practice (1-100)</target>
+      </trans-unit>
+      <trans-unit id="207">
+        <source>common.fan.page</source>
+        <target>Fan Page</target>
+      </trans-unit>
+      <trans-unit id="208">
+        <source>mobile.login-option.create-a-kabam-id</source>
+        <target>CREATE A KABAM ID</target>
+      </trans-unit>
+      <trans-unit id="209">
+        <source>beginner-base.deal2-subtitle</source>
+        <target>Command Center Level 5</target>
+      </trans-unit>
+      <trans-unit id="210">
+        <source>chat.lbl.grpinv</source>
+        <target>Invite to Group</target>
+      </trans-unit>
+      <trans-unit id="211">
+        <source>train.mechs.bld</source>
+        <target>You can't train anymore mechs yet. Build more Factories or speed up your existing jobs.</target>
+      </trans-unit>
+      <trans-unit id="212">
+        <source>campaign.new13.name</source>
+        <target>Beginning of the End (5k-150k)</target>
+      </trans-unit>
+      <trans-unit id="213">
+        <source>ph.subject</source>
+        <target>Subject...</target>
+      </trans-unit>
+      <trans-unit id="214">
+        <source>mobile.blue-light-special.progress</source>
+        <target>Platinum to go for your reward</target>
+      </trans-unit>
+      <trans-unit id="215">
+        <source>event.building.complete</source>
+        <target>BUILDING COMPLETE</target>
+      </trans-unit>
+      <trans-unit id="216">
+        <source>store.massopen.openx</source>
+        <target>Use #QUANTITY#</target>
+      </trans-unit>
+      <trans-unit id="217">
+        <source>chat.warn.spam</source>
+        <target>Please do not spam the same message in chat multiple times.</target>
+      </trans-unit>
+      <trans-unit id="218">
+        <source>common.month.feb</source>
+        <target>Feb</target>
+      </trans-unit>
+      <trans-unit id="219">
+        <source>common.send</source>
+        <target>Send</target>
+      </trans-unit>
+      <trans-unit id="220">
+        <source>alliance.leave.cooldown-warning</source>
+        <target>If you leave &lt;span class="neonBlue"&gt;#ALLIANCE_NAME#&lt;/span&gt;, you will not be able to rejoin it for #COOLDOWN# hours.&lt;br&gt;&lt;br&gt;Are you sure you want to leave?</target>
+      </trans-unit>
+      <trans-unit id="221">
+        <source>common.foe</source>
+        <target>Foe</target>
+      </trans-unit>
+      <trans-unit id="222">
+        <source>common.change-sector</source>
+        <target>CHANGE SECTOR</target>
+      </trans-unit>
+      <trans-unit id="223">
+        <source>err.build.building1</source>
+        <target>#BUILDING_TYPE_0# level #LEVEL_0# required</target>
+      </trans-unit>
+      <trans-unit id="224">
+        <source>err.build.building2</source>
+        <target>#BUILDING_TYPE_0# level #LEVEL_0# and #BUILDING_TYPE_1# level #LEVEL_1# required</target>
+      </trans-unit>
+      <trans-unit id="225">
+        <source>err.build.building3</source>
+        <target>Need #BUILDING_TYPE_0# level #LEVEL_0#, #BUILDING_TYPE_1# level #LEVEL_1#, and #BUILDING_TYPE_2# level #LEVEL_2# to build more</target>
+      </trans-unit>
+      <trans-unit id="226">
+        <source>bunker-garrison.instructions</source>
+        <target>Increase your Bunker's Damage by Garrisoning Troops!  Upgrade your Bunker to increase your Damage Cap.</target>
+      </trans-unit>
+      <trans-unit id="227">
+        <source>common.activity-log</source>
+        <target>Activity Log</target>
+      </trans-unit>
+      <trans-unit id="228">
+        <source>comm</source>
+        <target>DO NOT USE</target>
+      </trans-unit>
+      <trans-unit id="229">
+        <source>siege.ended</source>
+        <target>The siege on your base has ended. There will be a battle report in your inbox with more details.</target>
+      </trans-unit>
+      <trans-unit id="230">
+        <source>not.in.any.alli</source>
+        <target>Not in any alliance</target>
+      </trans-unit>
+      <trans-unit id="231">
+        <source>alliance.name.descr.err</source>
+        <target>Name or description is invalid.</target>
+      </trans-unit>
+      <trans-unit id="232">
+        <source>common.block</source>
+        <target>Block</target>
+      </trans-unit>
+      <trans-unit id="233">
+        <source>alli.rank.expl</source>
+        <target>Sum of all levels</target>
+      </trans-unit>
+      <trans-unit id="234">
+        <source>transfer-troops.warp-gate-capacity</source>
+        <target>WARP GATE CAPACITY</target>
+      </trans-unit>
+      <trans-unit id="235">
+        <source>campaign.pulse1.name</source>
+        <target>Tank Maneuver (1-100)</target>
+      </trans-unit>
+      <trans-unit id="236">
+        <source>transfer-troop.destination-troop-count.tooltip</source>
+        <target>Destination troop count</target>
+      </trans-unit>
+      <trans-unit id="237">
+        <source>gps.cmd</source>
+        <target>Enter the player name you want to scout</target>
+      </trans-unit>
+      <trans-unit id="238">
+        <source>err.train.academy</source>
+        <target>Need to build a Fleet Academy to train.</target>
+      </trans-unit>
+      <trans-unit id="239">
+        <source>alliance-log.diplomacy</source>
+        <target>Diplomacy</target>
+      </trans-unit>
+      <trans-unit id="240">
+        <source>common.requirements</source>
+        <target>Requirements</target>
+      </trans-unit>
+      <trans-unit id="241">
+        <source>battle-report.items-looted</source>
+        <target>Items Looted</target>
+      </trans-unit>
+      <trans-unit id="242">
+        <source>loading.base</source>
+        <target>Loading base...</target>
+      </trans-unit>
+      <trans-unit id="243">
+        <source>err.build.academy</source>
+        <target>Need both Command Center and Barracks level 12</target>
+      </trans-unit>
+      <trans-unit id="244">
+        <source>campaign.dragon3.name</source>
+        <target>Raining Fire (20k-400k)</target>
+      </trans-unit>
+      <trans-unit id="245">
+        <source>err.train.factory</source>
+        <target>Need to build a Factory to train.</target>
+      </trans-unit>
+      <trans-unit id="246">
+        <source>mobile.login.forget-password</source>
+        <target>FORGET MY KABAM ID LOGIN DETAILS</target>
+      </trans-unit>
+      <trans-unit id="247">
+        <source>missions.daily-missions.complete</source>
+        <target>Mission Complete</target>
+      </trans-unit>
+      <trans-unit id="248">
+        <source>missions.daily-missions</source>
+        <target>Daily Missions</target>
+      </trans-unit>
+      <trans-unit id="249">
+        <source>common.rank</source>
+        <target>Rank</target>
+      </trans-unit>
+      <trans-unit id="250">
+        <source>holiday-event.title</source>
+        <target>FREE GIFT</target>
+      </trans-unit>
+      <trans-unit id="251">
+        <source>leave.your.alli</source>
+        <target>Leave your alliance</target>
+      </trans-unit>
+      <trans-unit id="252">
+        <source>common.change</source>
+        <target>Change</target>
+      </trans-unit>
+      <trans-unit id="253">
+        <source>common.confirm</source>
+        <target>Confirm</target>
+      </trans-unit>
+      <trans-unit id="254">
+        <source>mobile.researchcomplete</source>
+        <target>Research is now complete. Research more and strengthen your army!</target>
+      </trans-unit>
+      <trans-unit id="255">
+        <source>err.comm.del</source>
+        <target>Sorry, you can't delete your command center.</target>
+      </trans-unit>
+      <trans-unit id="256">
+        <source>store.boost.warn</source>
+        <target>Using this will extend your current XP Boost.</target>
+      </trans-unit>
+      <trans-unit id="257">
+        <source>mobile.payment.current-platinum</source>
+        <target>Current Platinum</target>
+      </trans-unit>
+      <trans-unit id="258">
+        <source>mobile.create-kabam-account.password-tip</source>
+        <target>Password must be at least 7 characters long</target>
+      </trans-unit>
+      <trans-unit id="259">
+        <source>event.weekend-event.content1</source>
+        <target>MAPS ARE HERE!</target>
+      </trans-unit>
+      <trans-unit id="260">
+        <source>event.weekend-event.content2</source>
+        <target>The latest Edgeworld feature is now available</target>
+      </trans-unit>
+      <trans-unit id="261">
+        <source>event.weekend-event.content3</source>
+        <target>Fight the war: Reap the rewards!</target>
+      </trans-unit>
+      <trans-unit id="262">
+        <source>event.weekend-event.content4</source>
+        <target>- Salvage Boxes</target>
+      </trans-unit>
+      <trans-unit id="263">
+        <source>event.weekend-event.content5</source>
+        <target>- Speed Ups</target>
+      </trans-unit>
+      <trans-unit id="264">
+        <source>event.weekend-event.content6</source>
+        <target>- XP Boosts</target>
+      </trans-unit>
+      <trans-unit id="265">
+        <source>event.weekend-event.content7</source>
+        <target>Currently, the map is only available on:</target>
+      </trans-unit>
+      <trans-unit id="266">
+        <source>event.weekend-event.content8</source>
+        <target>Flatland Sector</target>
+      </trans-unit>
+      <trans-unit id="267">
+        <source>event.weekend-event.content9</source>
+        <target>The latest Edgeworld feature is coming to this sector soon!</target>
+      </trans-unit>
+      <trans-unit id="268">
+        <source>common.reject</source>
+        <target>Reject</target>
+      </trans-unit>
+      <trans-unit id="269">
+        <source>common.month.nov</source>
+        <target>Nov</target>
+      </trans-unit>
+      <trans-unit id="270">
+        <source>common.population</source>
+        <target>Population</target>
+      </trans-unit>
+      <trans-unit id="271">
+        <source>alli.make.lieutenant</source>
+        <target>Make Lieutenant</target>
+      </trans-unit>
+      <trans-unit id="272">
+        <source>common.click-for-descriptions</source>
+        <target>Click for descriptions</target>
+      </trans-unit>
+      <trans-unit id="273">
+        <source>campaign.shrike1.name</source>
+        <target>Bullet Storm (1-100)</target>
+      </trans-unit>
+      <trans-unit id="274">
+        <source>scout.leader</source>
+        <target>Scout Leader</target>
+      </trans-unit>
+      <trans-unit id="275">
+        <source>mobile.login-error.invalid-email</source>
+        <target>Please enter a valid email address</target>
+      </trans-unit>
+      <trans-unit id="276">
+        <source>common.combat.exp</source>
+        <target>Combat Experience</target>
+      </trans-unit>
+      <trans-unit id="277">
+        <source>alliance-log.was-attacked-by</source>
+        <target>was attacked by</target>
+      </trans-unit>
+      <trans-unit id="278">
+        <source>mobile.trainingcomplete</source>
+        <target> Training is now complete. Your army grows stronger! Train more soldiers and conquer the universe!
+</target>
+      </trans-unit>
+      <trans-unit id="279">
+        <source>simulation.boost-defense</source>
+        <target>DEFENSE LEVEL BOOSTS</target>
+      </trans-unit>
+      <trans-unit id="280">
+        <source>invite</source>
+        <target>Invite</target>
+      </trans-unit>
+      <trans-unit id="281">
+        <source>common.recipient</source>
+        <target>Recipient:</target>
+      </trans-unit>
+      <trans-unit id="282">
+        <source>alli.make.recruit</source>
+        <target>Make Recruit</target>
+      </trans-unit>
+      <trans-unit id="283">
+        <source>chat.lbl.block</source>
+        <target>Block</target>
+      </trans-unit>
+      <trans-unit id="284">
+        <source>common.click.to.build</source>
+        <target>Click to build</target>
+      </trans-unit>
+      <trans-unit id="285">
+        <source>common.alliance</source>
+        <target>Alliance</target>
+      </trans-unit>
+      <trans-unit id="286">
+        <source>common.report-unlockboost</source>
+        <target>Unlock Bonus</target>
+      </trans-unit>
+      <trans-unit id="287">
+        <source>chat.lbl.unmute</source>
+        <target>Unmute</target>
+      </trans-unit>
+      <trans-unit id="288">
+        <source>alliance.descr.err</source>
+        <target>Description is invalid.</target>
+      </trans-unit>
+      <trans-unit id="289">
+        <source>mobile.create-kabam-account.password-confirm</source>
+        <target>PASSWORD CONFIRM:</target>
+      </trans-unit>
+      <trans-unit id="290">
+        <source>bunker-garrison.next-level</source>
+        <target>Next Boost +</target>
+      </trans-unit>
+      <trans-unit id="291">
+        <source>common.total.xp.lbl</source>
+        <target>Total XP:</target>
+      </trans-unit>
+      <trans-unit id="292">
+        <source>campaign.surround.name</source>
+        <target>We're Surrounded! (25-10k)</target>
+      </trans-unit>
+      <trans-unit id="293">
+        <source>mobile.blue-light-special.reward</source>
+        <target>Congratulations! You have unlocked the Blue Light Special prize! </target>
+      </trans-unit>
+      <trans-unit id="294">
+        <source>campaign.halloween.name</source>
+        <target>Rise of the Lancer!</target>
+      </trans-unit>
+      <trans-unit id="295">
+        <source>mobile.login-option.as-guest</source>
+        <target>CONTINUE AS GUEST</target>
+      </trans-unit>
+      <trans-unit id="296">
+        <source>bunker-garrison.boost-level</source>
+        <target>Damage Boost</target>
+      </trans-unit>
+      <trans-unit id="297">
+        <source>alliance-log.lost-lieutenant</source>
+        <target>has been demoted from Lieutenant
+</target>
+      </trans-unit>
+      <trans-unit id="298">
+        <source>mobile.buildingupgradecomplete</source>
+        <target>Building upgrade is now complete. Build more and conquer the universe!</target>
+      </trans-unit>
+      <trans-unit id="299">
+        <source>campaign.new10.name</source>
+        <target>Art of War (2k-50k)</target>
+      </trans-unit>
+      <trans-unit id="300">
+        <source>common.neutral</source>
+        <target>Neutral</target>
+      </trans-unit>
+      <trans-unit id="301">
+        <source>crafting.input-parts</source>
+        <target>Parts</target>
+      </trans-unit>
+      <trans-unit id="302">
+        <source>chat.release-notes-url</source>
+        <target>http://community.kabam.com/forums/forumdisplay.php?141</target>
+      </trans-unit>
+      <trans-unit id="303">
+        <source>mission.filter.research</source>
+        <target>Research</target>
+      </trans-unit>
+      <trans-unit id="304">
+        <source>common.leave</source>
+        <target>Leave</target>
+      </trans-unit>
+      <trans-unit id="305">
+        <source>event.warp.charged</source>
+        <target>WARP CHARGED</target>
+      </trans-unit>
+      <trans-unit id="306">
+        <source>common.sale-countdown</source>
+        <target>Sale - #TIME_REMAINING#</target>
+      </trans-unit>
+      <trans-unit id="307">
+        <source>chat.spy.alliance</source>
+        <target>Alliance Info</target>
+      </trans-unit>
+      <trans-unit id="308">
+        <source>beginner.sale.duration</source>
+        <target>6 days 24 hours 35 minutes</target>
+      </trans-unit>
+      <trans-unit id="309">
+        <source>common.month.oct</source>
+        <target>Oct</target>
+      </trans-unit>
+      <trans-unit id="310">
+        <source>lbl.lwr.level</source>
+        <target>level</target>
+      </trans-unit>
+      <trans-unit id="311">
+        <source>colony.caldera</source>
+        <target>Caldera-2</target>
+      </trans-unit>
+      <trans-unit id="312">
+        <source>mobile.blue-light-special.detail</source>
+        <target>Get a free crate when you reach the goal below</target>
+      </trans-unit>
+      <trans-unit id="313">
+        <source>common.my.alliance</source>
+        <target>My Alliance</target>
+      </trans-unit>
+      <trans-unit id="314">
+        <source>alli.kabam-forum-link-btn</source>
+        <target>Kabam.com Forums</target>
+      </trans-unit>
+      <trans-unit id="315">
+        <source>alliance-log.lost</source>
+        <target>resigned</target>
+      </trans-unit>
+      <trans-unit id="316">
+        <source>common.fs.on</source>
+        <target>Full Screen On</target>
+      </trans-unit>
+      <trans-unit id="317">
+        <source>err.build.more</source>
+        <target>You can't build any more</target>
+      </trans-unit>
+      <trans-unit id="318">
+        <source>alliance-log.event</source>
+        <target>Event</target>
+      </trans-unit>
+      <trans-unit id="319">
+        <source>alliance-log.is-neutral</source>
+        <target>is a neutral alliance</target>
+      </trans-unit>
+      <trans-unit id="320">
+        <source>alliance-log.promoted</source>
+        <target>gained</target>
+      </trans-unit>
+      <trans-unit id="321">
+        <source>alliance-log.is</source>
+        <target>is</target>
+      </trans-unit>
+      <trans-unit id="322">
+        <source>common.buy.now</source>
+        <target>Buy Now</target>
+      </trans-unit>
+      <trans-unit id="323">
+        <source>crate.contents</source>
+        <target>Crate Contents</target>
+      </trans-unit>
+      <trans-unit id="324">
+        <source>common.open-sim-button</source>
+        <target>Simulations</target>
+      </trans-unit>
+      <trans-unit id="325">
+        <source>alli.make.leader</source>
+        <target>Make Leader</target>
+      </trans-unit>
+      <trans-unit id="326">
+        <source>mobile.buildingcomplete</source>
+        <target> Building construction is now complete. Build more and conquer the universe!</target>
+      </trans-unit>
+      <trans-unit id="327">
+        <source>map.node-upgrade.level</source>
+        <target>Level Requirement</target>
+      </trans-unit>
+      <trans-unit id="328">
+        <source>common.day.sat</source>
+        <target>Sat</target>
+      </trans-unit>
+      <trans-unit id="329">
+        <source>group.inv.err</source>
+        <target>Unable to invite that player to the group.  They might be in a group already.</target>
+      </trans-unit>
+      <trans-unit id="330">
+        <source>create.contents</source>
+        <target>DO NOT USE</target>
+      </trans-unit>
+      <trans-unit id="331">
+        <source>campaign.specter2.name</source>
+        <target>Deadly Snipes (101-2k)</target>
+      </trans-unit>
+      <trans-unit id="332">
+        <source>groups.expl.share</source>
+        <target>Resources gained in battle are shared between group members.</target>
+      </trans-unit>
+      <trans-unit id="333">
+        <source>simulator.report.one-star</source>
+        <target>Mission Complete</target>
+      </trans-unit>
+      <trans-unit id="334">
+        <source>research.tech.unlock</source>
+        <target>Research in the Tech Lab to unlock.</target>
+      </trans-unit>
+      <trans-unit id="335">
+        <source>mission.filter.social</source>
+        <target>Social</target>
+      </trans-unit>
+      <trans-unit id="336">
+        <source>common.month.sept</source>
+        <target>Sep</target>
+      </trans-unit>
+      <trans-unit id="337">
+        <source>common.damage-boost</source>
+        <target>Damage Boost</target>
+      </trans-unit>
+      <trans-unit id="338">
+        <source>mission.filter.training</source>
+        <target>Training</target>
+      </trans-unit>
+      <trans-unit id="339">
+        <source>campaign.new14.name</source>
+        <target>Total Devastation (5k-200k)</target>
+      </trans-unit>
+      <trans-unit id="340">
+        <source>another-base.under-siege-by</source>
+        <target>Is Under Attack By:</target>
+      </trans-unit>
+      <trans-unit id="341">
+        <source>choose.sec</source>
+        <target>Choose Your Sector</target>
+      </trans-unit>
+      <trans-unit id="342">
+        <source>upgrade.cc.build.more</source>
+        <target>Upgrade Command Center to build more.</target>
+      </trans-unit>
+      <trans-unit id="343">
+        <source>crafting.craft</source>
+        <target>Craft</target>
+      </trans-unit>
+      <trans-unit id="344">
+        <source>alliance-log.is-enemy</source>
+        <target>is an enemy alliance</target>
+      </trans-unit>
+      <trans-unit id="345">
+        <source>alliance.leave.ldr</source>
+        <target>Are you sure that you want to leave your alliance? You are the leader and this action cannot be undone.</target>
+      </trans-unit>
+      <trans-unit id="346">
+        <source>missions.description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="347">
+        <source>common.get.plat</source>
+        <target>Get Platinum</target>
+      </trans-unit>
+      <trans-unit id="348">
+        <source>common.all.alliance</source>
+        <target>All Alliances</target>
+      </trans-unit>
+      <trans-unit id="349">
+        <source>common.pending</source>
+        <target>Pending</target>
+      </trans-unit>
+      <trans-unit id="350">
+        <source>allow.grps</source>
+        <target>Allow group invites</target>
+      </trans-unit>
+      <trans-unit id="351">
+        <source>common.queued</source>
+        <target>Queued</target>
+      </trans-unit>
+      <trans-unit id="352">
+        <source>common.button-max</source>
+        <target>MAX</target>
+      </trans-unit>
+      <trans-unit id="353">
+        <source>common.last.attacker</source>
+        <target>Last Attacker</target>
+      </trans-unit>
+      <trans-unit id="354">
+        <source>common.stage</source>
+        <target>Enemy Level </target>
+      </trans-unit>
+      <trans-unit id="355">
+        <source>simulator.report.two-star</source>
+        <target>More than 50% turrets survived</target>
+      </trans-unit>
+      <trans-unit id="356">
+        <source>sec.desc</source>
+        <target>Each sector in Edgeworld is a distinct game world. You can share only Platinum between sectors - buildings, research, resources, units and other game progress cannot be transferred or shared between Sectors. You may play on as many sectors as you wish!</target>
+      </trans-unit>
+      <trans-unit id="357">
+        <source>alliance.plr.lbl</source>
+        <target>Player:</target>
+      </trans-unit>
+      <trans-unit id="358">
+        <source>common.err.player.not.fnd</source>
+        <target>Player Not Found</target>
+      </trans-unit>
+      <trans-unit id="359">
+        <source>store.massopen.howmany</source>
+        <target>How many would you like to use?</target>
+      </trans-unit>
+      <trans-unit id="360">
+        <source>alliance-log.kicked</source>
+        <target>was kicked</target>
+      </trans-unit>
+      <trans-unit id="361">
+        <source>store.energizer.warn</source>
+        <target>The current Energizer Boost is more powerful</target>
+      </trans-unit>
+      <trans-unit id="362">
+        <source>campaign.pulse2.name</source>
+        <target>Tank Assault (101-2k)</target>
+      </trans-unit>
+      <trans-unit id="363">
+        <source>announcement.title</source>
+        <target>LEVEL 11 IS HERE!</target>
+      </trans-unit>
+      <trans-unit id="364">
+        <source>report.attacked.by.lbl</source>
+        <target>You were attacked by:</target>
+      </trans-unit>
+      <trans-unit id="365">
+        <source>chat.alliance</source>
+        <target>Alliance Chat</target>
+      </trans-unit>
+      <trans-unit id="366">
+        <source>loading.map</source>
+        <target>Loading map...</target>
+      </trans-unit>
+      <trans-unit id="367">
+        <source>common.attack-level</source>
+        <target>Attack Level</target>
+      </trans-unit>
+      <trans-unit id="368">
+        <source>alliance.ldr.conf</source>
+        <target>Are you sure you want to make this player the leader of your Alliance?</target>
+      </trans-unit>
+      <trans-unit id="369">
+        <source>common.last.online</source>
+        <target>Last Online</target>
+      </trans-unit>
+      <trans-unit id="370">
+        <source>common.day.sun</source>
+        <target>Sun</target>
+      </trans-unit>
+      <trans-unit id="371">
+        <source>err.build.landmine</source>
+        <target>Need #BUILDING_TYPE# level #LEVEL#</target>
+      </trans-unit>
+      <trans-unit id="372">
+        <source>common.sale-scarcity</source>
+        <target>Sale - Only #QUANTITY# left!</target>
+      </trans-unit>
+      <trans-unit id="373">
+        <source>crafting.input-rare</source>
+        <target>Rare</target>
+      </trans-unit>
+      <trans-unit id="374">
+        <source>common.units.killed</source>
+        <target>Units Killed</target>
+      </trans-unit>
+      <trans-unit id="375">
+        <source>gps.err</source>
+        <target>Player not found, item not used.</target>
+      </trans-unit>
+      <trans-unit id="376">
+        <source>chat.alliance.first</source>
+        <target>You need to join an alliance first.</target>
+      </trans-unit>
+      <trans-unit id="377">
+        <source>under-siege.notice</source>
+        <target>Your base is currently being attacked by another Commander. Base functionality will be online in a few minutes.</target>
+      </trans-unit>
+      <trans-unit id="378">
+        <source>pending-attack.spider.title</source>
+        <target>TRANSMISSION SCRAMBLED</target>
+      </trans-unit>
+      <trans-unit id="379">
+        <source>notice.base-under-attack</source>
+        <target>This base is under attack</target>
+      </trans-unit>
+      <trans-unit id="380">
+        <source>common.accept</source>
+        <target>Accept</target>
+      </trans-unit>
+      <trans-unit id="381">
+        <source>common.clickformore</source>
+        <target>Click for more information</target>
+      </trans-unit>
+      <trans-unit id="382">
+        <source>common.units.lost</source>
+        <target>Units Lost</target>
+      </trans-unit>
+      <trans-unit id="383">
+        <source>event.upgrade.complete</source>
+        <target>UPGRADE COMPLETE</target>
+      </trans-unit>
+      <trans-unit id="384">
+        <source>alliance-log.joined</source>
+        <target>joined</target>
+      </trans-unit>
+      <trans-unit id="385">
+        <source>mobile.create-kabam-account.email</source>
+        <target>EMAIL:</target>
+      </trans-unit>
+      <trans-unit id="386">
+        <source>mobile.help.forum</source>
+        <target>FORUM</target>
+      </trans-unit>
+      <trans-unit id="387">
+        <source>event.research.complete</source>
+        <target>RESEARCH COMPLETE</target>
+      </trans-unit>
+      <trans-unit id="388">
+        <source>mobile.help.tip.title</source>
+        <target>Known Issues</target>
+      </trans-unit>
+      <trans-unit id="389">
+        <source>transfer-resource.done</source>
+        <target>RESOURCES TRANSFERRED</target>
+      </trans-unit>
+      <trans-unit id="390">
+        <source>mobile.current-login.logged-in-as</source>
+        <target>Logged in as: </target>
+      </trans-unit>
+      <trans-unit id="391">
+        <source>client.break</source>
+        <target>Commander, we have just received notice that Edgeworld has been updated and is ready for use. Please refresh the page to continue playing.</target>
+      </trans-unit>
+      <trans-unit id="392">
+        <source>chat.toggle.h</source>
+        <target>Toggle chat window height</target>
+      </trans-unit>
+      <trans-unit id="393">
+        <source>common.inactive</source>
+        <target>Inactive</target>
+      </trans-unit>
+      <trans-unit id="394">
+        <source>mobile.help.tip.report-bugs</source>
+        <target>Report Bugs</target>
+      </trans-unit>
+      <trans-unit id="395">
+        <source>common.resources-sent</source>
+        <target>Resources Sent</target>
+      </trans-unit>
+      <trans-unit id="396">
+        <source>event.training.xp-earned</source>
+        <target>+ #AMOUNT#XP</target>
+      </trans-unit>
+      <trans-unit id="397">
+        <source>grp.leave</source>
+        <target>Leave Group</target>
+      </trans-unit>
+      <trans-unit id="398">
+        <source>campaign.bomba1.name</source>
+        <target>Bombas' Last Stand (25-10k)</target>
+      </trans-unit>
+      <trans-unit id="399">
+        <source>notice.no-longer-under-attack</source>
+        <target>is no longer under attack</target>
+      </trans-unit>
+      <trans-unit id="400">
+        <source>mobile.login-error.pw-not-match</source>
+        <target>Passwords don't match</target>
+      </trans-unit>
+      <trans-unit id="401">
+        <source>transfer-troops.no-colony</source>
+        <target>This feature allows you to transfer troops between bases.
+
+To use this feature you need a Colony with a Warp Gate and Staging Area</target>
+      </trans-unit>
+      <trans-unit id="402">
+        <source>showdamagenumbers.tooltip</source>
+        <target>Turning off damage will increase performance.</target>
+      </trans-unit>
+      <trans-unit id="403">
+        <source>event.group.invite</source>
+        <target>You've been invited to a group, would you like to continue?</target>
+      </trans-unit>
+      <trans-unit id="404">
+        <source>chat.group.first</source>
+        <target>You must change your chat settings to do that.</target>
+      </trans-unit>
+      <trans-unit id="405">
+        <source>common.month.apr</source>
+        <target>Apr</target>
+      </trans-unit>
+      <trans-unit id="406">
+        <source>colony.need-caldera-core</source>
+        <target>Commander, building a colony on Caldera-2 requires a Caldera Schematics</target>
+      </trans-unit>
+      <trans-unit id="407">
+        <source>chat.cmds</source>
+        <target>Commands: /a (alliance) /g (group) /w (world)</target>
+      </trans-unit>
+      <trans-unit id="408">
+        <source>campaign.shrike2.name</source>
+        <target>The Vanguard (101-2k)</target>
+      </trans-unit>
+      <trans-unit id="409">
+        <source>common.sim-loading</source>
+        <target>Preparing Simulator stages&#x2026;</target>
+      </trans-unit>
+      <trans-unit id="410">
+        <source>report.abuse</source>
+        <target>Report Abuse</target>
+      </trans-unit>
+      <trans-unit id="411">
+        <source>simulator.stage.units-info</source>
+        <target>units info</target>
+      </trans-unit>
+      <trans-unit id="412">
+        <source>your.player</source>
+        <target>Your Player</target>
+      </trans-unit>
+      <trans-unit id="413">
+        <source>loading.battle.report</source>
+        <target>Loading battle report...</target>
+      </trans-unit>
+      <trans-unit id="414">
+        <source>common.resources.looted</source>
+        <target>Resources Looted</target>
+      </trans-unit>
+      <trans-unit id="415">
+        <source>common.month.aug</source>
+        <target>Aug</target>
+      </trans-unit>
+      <trans-unit id="416">
+        <source>alliance-log.lost-leader</source>
+        <target>lost leadership</target>
+      </trans-unit>
+      <trans-unit id="417">
+        <source>suggest.kabamdotcom.fs</source>
+        <target>Flash does not support chat or keyboard entry in full screen mode.
+Enjoy full chat and keyboard functionality in widescreen HD on Kabam.com</target>
+      </trans-unit>
+      <trans-unit id="418">
+        <source>mute.warn</source>
+        <target>This player's message will be muted for the remainder of this play session.</target>
+      </trans-unit>
+      <trans-unit id="419">
+        <source>event.training.complete-sub</source>
+        <target>#LOCATION# Training Complete: #QUANTITY# #TROOP_TYPE#</target>
+      </trans-unit>
+      <trans-unit id="420">
+        <source>train.err.res</source>
+        <target>You don't have enough resources</target>
+      </trans-unit>
+      <trans-unit id="421">
+        <source>simulator.report.star-breakdown</source>
+        <target>some tips about star breakdown list</target>
+      </trans-unit>
+      <trans-unit id="422">
+        <source>bunker-garrison.garrison</source>
+        <target>Garrison</target>
+      </trans-unit>
+      <trans-unit id="423">
+        <source>error.label</source>
+        <target>Error:</target>
+      </trans-unit>
+      <trans-unit id="424">
+        <source>common.buildings.destroyed</source>
+        <target>Buildings Destroyed</target>
+      </trans-unit>
+      <trans-unit id="425">
+        <source>alliance.inv.conf</source>
+        <target>Would you like to invite this player to join your alliance?</target>
+      </trans-unit>
+      <trans-unit id="426">
+        <source>train.err.space</source>
+        <target>You don't have enough space</target>
+      </trans-unit>
+      <trans-unit id="427">
+        <source>colony.warning.caldera-defense-research</source>
+        <target>Caldera Defense Research currently under development
+</target>
+      </trans-unit>
+      <trans-unit id="428">
+        <source>common.deconstruct</source>
+        <target>Deconstruct</target>
+      </trans-unit>
+      <trans-unit id="429">
+        <source>common.loading</source>
+        <target>Loading</target>
+      </trans-unit>
+      <trans-unit id="430">
+        <source>common.lieutenant</source>
+        <target>Lieutenant</target>
+      </trans-unit>
+      <trans-unit id="431">
+        <source>gate.info</source>
+        <target>Gate Information</target>
+      </trans-unit>
+      <trans-unit id="432">
+        <source>chat.release-notes</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="433">
+        <source>campaign.thor1.name</source>
+        <target>Complete Devastation (51-10k)</target>
+      </trans-unit>
+      <trans-unit id="434">
+        <source>colony.aurora-one</source>
+        <target>Aurora-1</target>
+      </trans-unit>
+      <trans-unit id="435">
+        <source>zoot-loot.disable-close-btn</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="436">
+        <source>beginner-base.deal1-subtitle</source>
+        <target>Command Center Level 1</target>
+      </trans-unit>
+      <trans-unit id="437">
+        <source>campaign.new11.name</source>
+        <target>Strength in Numbers (3k-75k)</target>
+      </trans-unit>
+      <trans-unit id="438">
+        <source>alliance-log.member</source>
+        <target>member</target>
+      </trans-unit>
+      <trans-unit id="439">
+        <source>protection.tooltip.title</source>
+        <target>BASE PROTECTION</target>
+      </trans-unit>
+      <trans-unit id="440">
+        <source>common.x.of.y</source>
+        <target>of</target>
+      </trans-unit>
+      <trans-unit id="441">
+        <source>common.sale</source>
+        <target>SALE!</target>
+      </trans-unit>
+      <trans-unit id="442">
+        <source>common.transfer-button</source>
+        <target>Transfer Resources</target>
+      </trans-unit>
+      <trans-unit id="443">
+        <source>chat.filters</source>
+        <target>Chat Filters</target>
+      </trans-unit>
+      <trans-unit id="444">
+        <source>alli.beta</source>
+        <target>Alliances are in beta and more features are coming! Suggest ideas on the forums.</target>
+      </trans-unit>
+      <trans-unit id="445">
+        <source>common.active</source>
+        <target>Active</target>
+      </trans-unit>
+      <trans-unit id="446">
+        <source>common.recharge-sims-window</source>
+        <target>Recharge Simulator Energy</target>
+      </trans-unit>
+      <trans-unit id="447">
+        <source>alliance-log.is-friendly</source>
+        <target>is a friendly alliance</target>
+      </trans-unit>
+      <trans-unit id="448">
+        <source>alliance-log.time</source>
+        <target>Time</target>
+      </trans-unit>
+      <trans-unit id="449">
+        <source>common.awaiting.response</source>
+        <target>Awaiting Response</target>
+      </trans-unit>
+      <trans-unit id="450">
+        <source>beginner-base.deal3-des</source>
+        <target>Includes Level 8 Buildings such as the Command Center, Defense Lab, Tech Lab, Barracks, Warp Gate, Staging Area, Generals Quarters, 36 turrets and much more!  Get 3,500+ levels of experience FREE!</target>
+      </trans-unit>
+      <trans-unit id="451">
+        <source>beginner-base.deal1</source>
+        <target>Standard</target>
+      </trans-unit>
+      <trans-unit id="452">
+        <source>beginner-base.deal2</source>
+        <target>Advanced</target>
+      </trans-unit>
+      <trans-unit id="453">
+        <source>beginner-base.deal3</source>
+        <target>Elite</target>
+      </trans-unit>
+      <trans-unit id="454">
+        <source>tooltip.upgrade-simulator</source>
+        <target>Upgrade your simulator to unlock!</target>
+      </trans-unit>
+      <trans-unit id="455">
+        <source>common.friend</source>
+        <target>Friend</target>
+      </trans-unit>
+      <trans-unit id="456">
+        <source>barracks.unlock</source>
+        <target>Build more Barracks to unlock</target>
+      </trans-unit>
+      <trans-unit id="457">
+        <source>crafting.menu-subtitle</source>
+        <target>Craft unique and powerful items by combining various artifacts and parts!</target>
+      </trans-unit>
+      <trans-unit id="458">
+        <source>common.report-xpboost</source>
+        <target>Base XP</target>
+      </trans-unit>
+      <trans-unit id="459">
+        <source>faction.spider.win</source>
+        <target>Base Defense Successful!</target>
+      </trans-unit>
+      <trans-unit id="460">
+        <source>common.day.mon</source>
+        <target>Mon
+</target>
+      </trans-unit>
+      <trans-unit id="461">
+        <source>common.garrison</source>
+        <target>Garrison</target>
+      </trans-unit>
+      <trans-unit id="462">
+        <source>chat.show.ally.names</source>
+        <target>Show Alliance Names</target>
+      </trans-unit>
+      <trans-unit id="463">
+        <source>common.base.list</source>
+        <target>Combat</target>
+      </trans-unit>
+      <trans-unit id="464">
+        <source>mobile.baseattacked</source>
+        <target>Your base has been demolished. Return and take vengeance against your enemies!</target>
+      </trans-unit>
+      <trans-unit id="465">
+        <source>common.victory.bang</source>
+        <target>Victory!</target>
+      </trans-unit>
+      <trans-unit id="466">
+        <source>alliance-log.promoted-leader</source>
+        <target>gained leadership</target>
+      </trans-unit>
+      <trans-unit id="467">
+        <source>beginner-base.underline</source>
+        <target>Mouse over each package to see what else is included!</target>
+      </trans-unit>
+      <trans-unit id="468">
+        <source>common.send-all</source>
+        <target>Send All</target>
+      </trans-unit>
+      <trans-unit id="469">
+        <source>chat.rules</source>
+        <target>Rules: Please respect the other players. No profanity, personal attacks, hate speech, spam or links allowed.</target>
+      </trans-unit>
+      <trans-unit id="470">
+        <source>missions.main-missions</source>
+        <target>Main Missions</target>
+      </trans-unit>
+      <trans-unit id="471">
+        <source>common.no.alliance</source>
+        <target>No Alliance</target>
+      </trans-unit>
+      <trans-unit id="472">
+        <source>campaign.specter3.name</source>
+        <target>The Quiet Assassins (2k-10k)</target>
+      </trans-unit>
+      <trans-unit id="473">
+        <source>dialog.title.boost-selection</source>
+        <target>BOOST SELECTION</target>
+      </trans-unit>
+      <trans-unit id="474">
+        <source>alliance.msg.ldro</source>
+        <target>Only your alliance leader can message the entire alliance.</target>
+      </trans-unit>
+      <trans-unit id="475">
+        <source>beginner-base.deal3-subtitle</source>
+        <target>Command Center Level 8</target>
+      </trans-unit>
+      <trans-unit id="476">
+        <source>mobile.login-option.already-have-kabam-id</source>
+        <target>I ALREADY HAVE A KABAM ID</target>
+      </trans-unit>
+      <trans-unit id="477">
+        <source>common.month.jan</source>
+        <target>Jan</target>
+      </trans-unit>
+      <trans-unit id="478">
+        <source>common.convert-button</source>
+        <target>Convert Resources</target>
+      </trans-unit>
+      <trans-unit id="479">
+        <source>campaign.dragon1.name</source>
+        <target>Incineraptor Invasion</target>
+      </trans-unit>
+      <trans-unit id="480">
+        <source>group.sess.mute</source>
+        <target>Mute future invites from this player</target>
+      </trans-unit>
+      <trans-unit id="481">
+        <source>campaign.new15.name</source>
+        <target>Incineraptor Invasion (5k-270k)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

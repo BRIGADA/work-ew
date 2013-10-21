@@ -113,9 +113,7 @@ class commonActions extends sfActions
                 $result = base64_decode($result);
                 break;
             case 'amf':
-                $this->getContext()
-                    ->getConfiguration()
-                    ->registerZend();
+                $this->getContext()->getConfiguration()->registerZend();
                 $amf_stream = new Zend_Amf_Parse_InputStream($result);
                 $amf_parser = new Zend_Amf_Parse_Amf3_Deserializer($amf_stream);
                 $result = json_encode($amf_parser->readTypeMarker());

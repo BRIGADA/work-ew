@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-characters" product-name="ew-characters">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>names.executrix</source>
+        <target>Executrix Scylith</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>names.mallick</source>
+        <target>Governor Malick</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>names.grod</source>
+        <target>General Grod</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

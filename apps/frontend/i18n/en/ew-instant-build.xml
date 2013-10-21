@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-instant-build" product-name="ew-instant-build">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>upgrade.disable</source>
+        <target>Sorry, Commander. You do not meet the requirement for instant build!
+</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>update.time</source>
+        <target>You can only build or upgrade one building at a time.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

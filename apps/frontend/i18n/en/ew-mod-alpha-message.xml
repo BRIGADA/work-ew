@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-mod-alpha-message" product-name="ew-mod-alpha-message">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>mod-alpha-name</source>
+        <target>MOD Alpha</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>five-twenty-seven-eleven.body</source>
+        <target>Are you looking forward to the long weekend? Between your potlucks and parties, check in with Edgeworld! We're having a barbecue, and there's free stuff, too!&lt;br&gt; &lt;br&gt; Zoot's Bonus Loot!&lt;br&gt; This weekend, you can play Zoot's Loot for free every 12 hours, instead of 24! What a generous...alien...thing.&lt;br&gt; &lt;br&gt; Pyro Cookout!&lt;br&gt; The Pyros are coming to barbecue some bases! Pyros cost zero resources to train until Tuesday. Bring your marshmallows!&lt;br&gt; &lt;br&gt; Platinum Markdown!&lt;br&gt; Our $49 Platinum package is available for $39 this weekend! The same items and Platinum, at a lower price. Stock up and save!&lt;br&gt; &lt;br&gt; Relax and have fun!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>five-twenty-seven-eleven.subject</source>
+        <target>Weekend Barbecue</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

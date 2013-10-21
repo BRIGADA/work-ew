@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-unit" product-name="ew-unit">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>brawler.name</source>
+        <target>Berserker</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>battlecruiser.name</source>
+        <target>Battle Cruiser</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>spacedragon.name</source>
+        <target>Incineraptor</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>sentinel.name</source>
+        <target>Sentinel</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-game" product-name="ew-game">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>error.connection.lost</source>
+        <target>You've lost your connection to the server, you will need to refresh the page to continue.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

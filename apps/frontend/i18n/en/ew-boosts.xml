@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-boosts" product-name="ew-boosts">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>fusion-reactors.name</source>
+        <target>Uranium</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>crystal-mine.name</source>
+        <target>Crystal</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>units-boost.name</source>
+        <target>Energizer Boost</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>crystal-mines.name</source>
+        <target>Crystal</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>warp-capacity.name</source>
+        <target>Warp Capacity</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>gas-refineries.name</source>
+        <target>Gas</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>solar-plants.name</source>
+        <target>Energy</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>combat-xp.name</source>
+        <target>Combat XP</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

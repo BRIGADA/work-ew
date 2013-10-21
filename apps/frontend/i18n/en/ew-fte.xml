@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-fte" product-name="ew-fte">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>cutscene.third</source>
+        <target>Scouts were deployed, but they discovered no sign of the Ceruleans.  The alien cities had been abandoned.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>tip.placegunstate.mobile</source>
+        <target>Tap to place the building
+Tap and hold to move the view</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>panel.combat.content.a</source>
+        <target>You successfully attacked an enemy base!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>panel.combat.content.b</source>
+        <target>Your Warp Gate is recharging one of its three warps so you can launch two more attacks right now.</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>panel.play.army</source>
+        <target>Command an army of elite soldiers and epic war machines</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>kira.defense</source>
+        <target>Don't worry Commander. Our defense system is operational and will automatically target any invading forces.
+
+Let's show Governor Malick we aren't going anywhere.</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>kira.welcome</source>
+        <target>Commander, welcome to Cerulea IV. My name is K.I.R.A, the most advanced android ever constructed and I am here to get your base operational.
+
+First, I recommend we get our defense system online.</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>panel.play.title</source>
+        <target>Take Control</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>combat.attack.action</source>
+        <target>Click the Attack button</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>tip.placegunstate</source>
+        <target>Place the building on the green square by clicking on the base</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>faction.trash.talk</source>
+        <target>Pledge allegiance to the Confederacy this instant, or join the other renegades in the brig.</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>kira.gun.sufficient</source>
+        <target>Click the BUILD Button to start building your Gun Turret.</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>combat.maplist</source>
+        <target>Long range sensors were damaged in a recent battle. Let's use the short range scanners to track down those Confederates.</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>combat.add.all.marines</source>
+        <target>First we need to select the troop to take into battle. Click the Marine to select them.</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>kira.action.gun.building</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>combat.scout.action</source>
+        <target>Click the Scout button</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>kira.defense.online</source>
+        <target>Now we're cooking with antimatter! Defense network initializing...</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>kira.action.build</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>faction.incoming</source>
+        <target>I'm receiving a transmission from... one of the old factions! Processing...</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>kira.gun.speed</source>
+        <target>Let's just cut to the chase...</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>kira.yikes</source>
+        <target>Intel indicates the Maar Confederacy isn't the only threat. The Erazi Syndicate and Helio Legion are regrouping, too. These three factions united to fight the Ceruleans. Without a common enemy, they've traded in peace for a power grab.</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>kira.claim</source>
+        <target>The good news? War has its spoils. To get your rewards click the CLAIM Button.</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>kira.attack</source>
+        <target>There are other factions on this planet, all fighting for control. I suggest we teach Governor Malick a lesson and take the fight to him.
+
+Let's open the combat list to scout his base.</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>kira.gun-2</source>
+        <target>Welcome to Cerulea, Commander. I'm Kira, the brains of the operation. I suggest we build up our defenses.</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>kira.click</source>
+        <target>Click to continue</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>panel.faction.content</source>
+        <target>Can you stop them from destroying Cerulea?</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>tip.placegunstate.building</source>
+        <target>Buildings take time to finish constructing. If only we had an accelerator to speed up the process...</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>combat.deploy.unit</source>
+        <target>Find a place where your Marine can warp in.</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>panels.hail.content-2</source>
+        <target>GOVERNOR MALICK: Insolent rogue! You are occupying Maar territory. Prepare to be reduced to a pile of smoldering rubble.</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>mobile.combat.add.all.marines.max</source>
+        <target>Drag the slider and double tap on the base to send troops into battle</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>panels.platinum.title</source>
+        <target>Getting Started</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>panels.platinum.items.speedups</source>
+        <target>Speed Ups</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>faction.irritated</source>
+        <target>Hello? Is this thing on?</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>panel.welcome.title.welcome</source>
+        <target>Commander, welcome to</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>combat.deploy.units</source>
+        <target>Tap on the battlefield to deploy your troops. Once in battle, they will automatically attack their targets.</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>panel.factions.header</source>
+        <target>However, the struggle for Cerulea has just begun. Three major factions now fight for total domination of this world: Maar Confederacy, Erazi Syndicate, and the Helio Legion.</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>panel.action.play</source>
+        <target>Play!</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>combat.awaiting.content</source>
+        <target> Let's go to the Map.</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>faction.warn</source>
+        <target>Commander #NAME#, I presume. Perhaps you haven't heard, but Union negotiations have collapsed.</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>panel.combat.title</source>
+        <target>Attack Successful</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>kira.outro</source>
+        <target>Attacking enemies, training troops and expanding your base will all give you essential experience and help you on your path to dominating this sector!
+
+That's all for now, Commander. Good luck!</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>kira.speed.why</source>
+        <target>Accelerators will reduce the time of any task. </target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>panel.welcome.title.planet</source>
+        <target>Cerulea IV</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>beginner-sale-time</source>
+        <target>7 days</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>kira.defense.tab</source>
+        <target>Nothing says "back off" quite like an automated Gun Turret. Click the DEFENSE Tab to find the Gun Turret.</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>kira.construction</source>
+        <target>Don't expect fireworks until construction is complete.</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>panel.play.build</source>
+        <target>Build and defend your base from hostile forces</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>combat.units.explain</source>
+        <target>You can deploy multiple waves of troops. They automatically attack their targets.</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>faction.intro</source>
+        <target>I don't know who you are and quite frankly I don't care. You are invading on Maar territory and for that you must pay the consequences.</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>faction.fight</source>
+        <target>Surrender now, and you'll still wake up tomorrow... albeit in the brig.</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>kira.click.claim</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>panels.hail.content</source>
+        <target>This is Governor Malick of the Maar Confederacy. I demand to speak to whoever's squatting in that hovel of a base.</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>kira.gun</source>
+        <target>Just to be safe, let's build up your defenses by clicking the BUILD button.</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>kira.construction.speed</source>
+        <target>Let's just cut to the chase.</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>panels.platinum.items.resources</source>
+        <target>Resources</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>cutscene.fourth</source>
+        <target>After several years, the Union established bases to extract resources and research advanced alien technology.</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>faction.hail</source>
+        <target>Do you read?</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>kira.good.place</source>
+        <target>I guess that's as good a place as any.</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>faction.outro-2</source>
+        <target>Rest assured Commander, I won't soon forget this insolence.</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>kira.counter</source>
+        <target>For starters, I say we launch a counter-attack against those backstabbing goons of the Maar Confederacy!</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>combat.action.click.map</source>
+        <target>Click the COMBAT button</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>kira.missions</source>
+        <target>I've completed running risk assessment diagnostics and compiled a list of recommended mission objectives.</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>kira.mission.rewards</source>
+        <target>Each time you complete a mission you will be given rewards. Clicking the missions button will let you claim the rewards and show you what missions are available.</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>combat.add.all.marines.max</source>
+        <target>Drag the slider to send all Troops into battle
+</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>faction.provoke</source>
+        <target>Meaning, your base lies in Confederate territory.</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>kira.work</source>
+        <target>If we're going to survive, we have a lot of work to do, commander.</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>combat.maplist.action</source>
+        <target>Click the Factions tab</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>panel.welcome.header</source>
+        <target>KIRA here. I've been assigned to assist you in the occupation. </target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>kira.click.gun</source>
+        <target>Click on the Gun Turret.</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>kira.action.missions</source>
+        <target>Click me to view Missions</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>combat.action.click.map-2</source>
+        <target>Commander, the renegades have supplied us with newly trained troops. Let's take the battle to Malick's front door.</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>combat.click.map</source>
+        <target>Probes indicate a new Maar Confederate base has just powered up. To locate it:</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>panel.factions.title</source>
+        <target>You successfully defended your base!</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>panel.warp.content.a</source>
+        <target>Your Warp Gate Capacity appears directly below when you attack.&lt;br /&gt;&lt;br /&gt;The bar shows how many units you can warp to the battlefield and how much time remains before the gate closes at the end of the battle.</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>panel.warp.content.b</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>panel.play.header</source>
+        <target>Build weapons to defend your base and train troops to attack your enemies.</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>combat.scout</source>
+        <target>I've narrowed down the location. Let's do some recon!</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>kira.click.accelerator</source>
+        <target>Click on USE.</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>panel.action.continue</source>
+        <target>Continue</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>panels.platinum.items.label</source>
+        <target>Some of the items you can find in the store are:</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>faction.outro</source>
+        <target>Pathetic human, you didn't really think I would send a real army did you? Be warned, I will be back and next time I won't be as forgiving.</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>combat.awaiting.header</source>
+        <target>Commander, I've detected a dangerous faction base nearby.</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>kira.click.speed</source>
+        <target>Click on SPEED UP.</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>panel.play.explore</source>
+        <target>Explore the planet and attack other bases</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>kira.gun.range</source>
+        <target>Strategic placement is key. Click and drag to pan around. Click once to start building.</target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>combat.attack</source>
+        <target>Your marines can take them! Attacking a Faction base does not remove your Starter Protection.</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>kira.gun.building</source>
+        <target>To see your build options click the GUN TURRET Icon.</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>kira.scout</source>
+        <target>This is the scout view for the enemy base, Commander. If we attack now our rookie troops can gain some much needed experience.
+
+Click attack to open the Warp Gate.</target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>kira.gunplacesucess</source>
+        <target>Excellent work, Commander! That should keep our base safe from the enemy factions on the planet.
+
+Speaking of the enemy, I am receiving a transmission from one of them.</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>missions.btn</source>
+        <target>Missions button</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>cutscene.first</source>
+        <target>For decades, the Ceruleans waged relentless war against the allies in the Galactic Union.</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>kira.action.defense.tab</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>combat.add.more.marines</source>
+        <target>Keep Adding Marines Until You Reach Max Warp Capacity</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>kira.use.accelerator</source>
+        <target>...and SPEED UP construction.</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>kira.action.click.ground</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>panel.welcome.content</source>
+        <target>You'll be happy to know I'm the highest functioning AI this side of the Omega Nebula.</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>panels.platinum.header</source>
+        <target>Score! You have 10 Platinum in your bank. Platinum is the currency used to buy items from the store.</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>combat.awaiting.orders</source>
+        <target>Awaiting Orders</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>panel.warp.title</source>
+        <target>Warp Gate Capacity</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>kira.battle.success</source>
+        <target>Excellent work, Commander! As well as getting revenge on the Maar, we gained some valuable experience and even managed to recover some of the Maar resources!</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>faction.warn-nameless</source>
+        <target>Perhaps you haven't heard, but Union negotiations have collapsed.</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>cutscene.second</source>
+        <target>When the Cerulean home world was finally discovered, a coalition of Union forces prepared to unleash hell.</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>combat.click.marines</source>
+        <target>Click the Marine to warp him into battle.</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>faction.attack.tip</source>
+        <target>Tip: Click the ground and drag it to change the view of the base</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

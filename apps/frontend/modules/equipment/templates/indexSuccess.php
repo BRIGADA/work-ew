@@ -14,7 +14,7 @@
 		<p>
 			<button id="action-upgrade-all" class="btn"><i class="icon-arrow-up"></i> <?php echo __('Upgrade all')?></button>
 			<button id="action-delete-all" class="btn"><i class="icon-trash"></i> <?php echo __('Delete all')?></button>
-			<button id="action-repair-all" class="btn"><i class="icon-retweet"></i> <?php echo __('Repair all')?></button>
+			<button id="action-repair-all" class="btn"><i class="icon-refresh"></i> <?php echo __('Repair all')?></button>
 			<button id="action-craft" class="btn">Craft</button>
 			<button id="action-cheat" class="btn">:)</button>
 			
@@ -68,7 +68,7 @@
 							<?php endforeach ?>
 						</select>
 					</td>
-					<td rowspan="2"></td>
+					<td rowspan="2" style="width: 100px;"></td>
 				</tr>
 				<tr>
 					<th>type</th>
@@ -90,19 +90,19 @@
 					<td class="cell-equipped"><?php if($row->equipped) : ?>+<?php else : ?>-<?php endif ?></td>
 					<td class="cell-tier"><?php echo $manifest[$row->type]['levels'][$row->level]['tier'] ?></td>
 					<?php foreach ($stats as $stat) : ?>
-					<td class="cell-stat-<?php echo $stat ?>" style="text-align: center;"><?php if(isset($manifest[$row->type]['levels'][$row->level]['stats'][$stat]) && $manifest[$row->type]['levels'][$row->level]['stats'][$stat]) : ?>+<?php else : ?>-<?php endif ?></td>
+					<td class="cell-stat-<?php echo $stat ?>" style="text-align: center;"><?php if(isset($manifest[$row->type]['levels'][$row->level]['stats'][$stat]) && ($manifest[$row->type]['levels'][$row->level]['stats'][$stat] != 'false') && $manifest[$row->type]['levels'][$row->level]['stats'][$stat]) : ?>+<?php endif ?></td>
 					<?php endforeach ?>
 					<td>
 						<a href="#" class="btn btn-mini action-trash"><i class="icon-trash"></i></a>
 						<a href="#" class="btn btn-mini action-upgrade"><i class="icon-arrow-up"></i></a>
-						<a href="#" class="btn btn-mini action-repair"><i class="icon-retweet"></i></a>
+						<a href="#" class="btn btn-mini action-repair"><i class="icon-refresh"></i></a>
 					</td>
 				</tr>
 				<?php endforeach ?>
 			</tbody>
 			<tfoot>
 				<tr>
-					<th colspan="<?php echo 6+count($stats) ?>"><span id="count-displayed"><?php echo count($results)?></span> / <span><?php echo count($results)?></span></th>
+					<th colspan="<?php echo 6+count($stats) ?>"></th>
 				</tr>
 			</tfoot>
 		</table>
@@ -110,10 +110,12 @@
 </div>
 
 <ul class="thumbnails" id="charts">
-	<li class="span3" data-success="0" data-error="0"><div class="thumbnail" style="height: 200px;"></div></li>
-	<li class="span3" data-success="0" data-error="0"><div class="thumbnail" style="height: 200px;"></div></li>
-	<li class="span3" data-success="0" data-error="0"><div class="thumbnail" style="height: 200px;"></div></li>
-	<li class="span3" data-success="0" data-error="0"><div class="thumbnail" style="height: 200px;"></div></li>
+	<li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+	<li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+	<li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+	<li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+	<li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+	<li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
 </ul>
 
 <script type="text/javascript">
@@ -123,16 +125,21 @@ var stats = <?php echo json_encode($stats->getRawValue())?>;
 var fails = 0;
 
 $(function(){
+	function updateCounter() {
+		$('#equipment-list > tfoot th').text($('#equipment-list > tbody > tr:visible').size() + ' / ' + $('#equipment-list > tbody > tr').size());
+	}
+
+	updateCounter();
 
 	$('#action-cheat').click(function(){
 		var set = $('#equipment-list > tbody > tr:visible');
 		fails=0;
 
-		function up(index) {
-			upgradeNode(set.eq(index), function(){
+		function cheat(index) {
+			nodeUP(set.eq(index), function(){
 				index++;
 				if(index >= set.size() ) index = 0;
-				up(index);
+				cheat(index);
 			});
 		}
 		up(0);
@@ -143,6 +150,7 @@ $(function(){
 	});
 
 	$('#equipment-list > tbody').on('update-view', function(){		
+/*
 		$(this).children('tr').sortElements(function(a, b){
 			var l1 = parseInt($(a).children('.cell-level').text());
 			var l2 = parseInt($(b).children('.cell-level').text());
@@ -150,7 +158,7 @@ $(function(){
 			if(l1 == l2) return parseInt($(a).data('id')) > parseInt($(b).data('id')) ? 1 : -1;
 			return  l1 > l2 ? 1 : -1;
 		});
-		
+*/		
 
 		$(this).children('tr').each(function(){
 			var v = true;
@@ -196,7 +204,7 @@ $(function(){
 			$(this).toggle(v);
 		});
 
-		$('#count-displayed').text($('#equipment-list > tbody > tr:visible').size());
+		updateCounter();
 
 	}).trigger('update-view');
 
@@ -210,8 +218,8 @@ $(function(){
 				}).get()
 			},
 			success: function(answer){
-				console.log(answer);
 				set.remove();
+				updateCounter();
 				bootbox.alert('Успешно удалено');
 			},
 			error: function(){
@@ -222,184 +230,155 @@ $(function(){
 	});
 
 	$('#action-upgrade-all').click(function(){
-		function up() {
+		function upgrade() {
 			var set = $('#equipment-list > tbody > tr:visible');
 			for(var i = 0; i < set.length; i++) {
 				if(parseInt(set.eq(i).children('.cell-durability').text()) != 0) {
-					upgradeNode(set.eq(i), function(){
-						up();
+					nodeUpgrade(set.eq(i), function(){
+						upgrade();
 					});
 					return;
 				}
 			}
+			
 			$('#sound-error').get(0).play();
 			bootbox.alert('Обновление завершено.');
 		}
-		up(); 
+		upgrade(); 
 		return false;
 	});
 
-	function nodeUP(node, complete) {
+	function nodeUpgrade(node, callback) {
+		callback = callback || function(){};
+				
 		node.removeClass().addClass('info');		
-		$.ajax({
-			url: '<?php echo url_for('common/REMOTE')?>',
-			data: {
-				path: '/api/player/equipment/'+node.data('id')+'/instant_upgrade',
-				query: {
-					'basis_id': <?php echo $sf_user->getBaseID() ?>,
-					'_method': 'post'
-				},
-				element: 'response/job'
-			},
-			type: 'post',
-			success: function(response) {
-				node.children('.cell-durability').text(response.equipment.durability);
-				node.children('.cell-level').text(response.equipment.level);
-				node.removeClass();
-				if(response.successful) {
-					node.addClass('success');
-				}
-				else {
-					node.addClass('error');
-				}
-			},
-			error: function(){
-//				node.children('.cell-durability').text('0');
-				node.removeClass().addClass('warning');				
-			},
-			complete: function(){
-				complete();
-			}
-		});
-	}
-
-	function upgradeNode(node, callback) {
-		node.removeClass().addClass('info');
 		$.ajax({
 			url: '<?php echo url_for('equipment/upgrade')?>',
 			data: {
 				id: node.data('id')
 			},
-			dataType: "json",
-			success: function(response){
-				fails = 0;
-				var r = response.successful ? 'success' : 'error';
-				node.removeClass().addClass(r);
-				/*
-				var notydata = {
-						text: node.data('id'),
-						timeout: 2500,
-						layout: 'topLeft',
-						type: r
-				};				
-				noty(notydata);*/
-				/*
-				if(response.equipment.level < 5) {
-					var chart = $('#charts > li').eq(node.data('level') - 1);					
-					var v = chart.data(r);
-					v++;
-					chart.data(r, v).children('div').highcharts({
-						chart: {
-							animation: false,
-							plotBackgroundColor: null,
-							plotBorderWidth: null,
-							plotShadow: false
-						},
-						tooltip: {
-							pointFormat: '<b>{point.percentage:.1f}%</b> ({point.y})'
-						},
-						title: {
-							text: null
-						},
-						plotOptions: {
-							pie: {
-								animation: false,
-								dataLabels: {
-									enabled: false
-								}
-							}
-						},
-						series: [{
-							type: 'pie',
-							data: [chart.data('success'), chart.data('error')]
-						}]
-					});
-				}
-				*/
+			type: 'post',
+			success: function(response) {
+				var level = parseInt(node.children('.cell-level').text());
+				var chart = $('#charts li').eq(level > 6 ? 5 : (level - 1));
 				
-				node.data('level', response.equipment.level);
-				node.children('td.cell-level').text(response.equipment.level);
+				node.removeClass();
 				
-				node.data('durability', response.equipment.durability);
-				node.children('.cell-durability').text(response.equipment.durability);
-
-				$('#equipment-list > tbody').trigger('update-view');
-				
-			},
-			complete: function(){
-				node.removeClass('info');
-				if(fails<3) {
-					if(callback) callback();
+				if(response.successful) {
+					node.addClass('success');
+					chart.data('success', chart.data('success') + 1);
 				}
 				else {
-					$('#sound-error').get(0).play();
-					bootbox.alert("Ошибка AJAX");
+					node.addClass('error');
+					chart.data('error', chart.data('error') + 1);
 				}
+
+				chart.children('div').highcharts({
+					chart: {
+						animation: false,
+						plotBackgroundColor: null,
+						plotBorderWidth: null,
+						plotShadow: false
+					},
+					tooltip: {
+						pointFormat: '<b>{point.percentage:.1f}%</b> ({point.y})'
+					},
+					credits: {
+						enabled: false
+					},
+					title: {
+						text: null
+					},
+					plotOptions: {
+						pie: {
+							animation: false,
+							dataLabels: {
+								enabled: false
+							}
+						}
+					},
+					series: [{
+						type: 'pie',
+						data: [chart.data('success'), chart.data('error')]
+					}]
+				});
+				
+				node.children('.cell-durability').text(response.equipment.durability);
+				node.children('.cell-level').text(response.equipment.level);
 			},
 			error: function(){
-				fails++;
+				node.children('.cell-durability').text(0);
+				node.removeClass().addClass('warning');				
+			},
+			complete: function(){
+				callback();
 			}
 		});
 	}
 
-	$('.action-repair').click(function(){
-		$.ajax({
-			url: '<?php echo url_for('equipment/repair')?>',
-			data: {
-				id: $(this).closest('tr').data('id')
-			},
-			type: 'post',
-			success: function (answer) {
-				console.log(answer);
-			},
-			error: function(){
-				console.log('error repairing');
-			}
+	function nodeRepair(node, callback) {
+		callback = callback || function(){};
+
+		if(node.data('repairing')) {
+			callback();
+		}
+
+		node.removeClass().addClass('info');
+		$.post('<?php echo url_for('equipment/repair')?>', { id: node.data('id') }, function(response){
+			console.log(response);
+			node.data('repairing', true);
+			node.addClass('muted');
+			callback();
 		});
+	}
+
+	$('.action-repair').click(function(){
+		nodeRepair($(this).closest('tr'));
 		return false;
 	});
 
 	$('.action-upgrade').click(function(){
-		nodeUP($(this).closest('tr'), function(){
-		});
-//		upgradeNode($(this).closest('tr'));
+		nodeUpgrade($(this).closest('tr'));
 		return false;
 	});
 
 	$('#action-craft').click(function(){
-		var craft2 = $('#equipment-list > tbody > tr:visible .cell-tier:contains(2)').closest('tr');
+		var set1 = $('#equipment-list > tbody > tr:visible .cell-tier:contains(1)').closest('tr');
+		var set2 = $('#equipment-list > tbody > tr:visible .cell-tier:contains(2)').closest('tr');
 
-		function c2() {
-			if(craft2.length < 5) return;
+		function craft(items, count, type, callback) {
+			console.log('enter craft()');
+			if(items.length < count) {
+				console.log('items.length < count');
+				callback();
+				return;
+			}
 
-			var current = craft2.splice(0, 5);
-			var ids = $(current).map(function(){ return $(this).data('id');}).get();
+			var current = items.splice(0, count);
+
+			$(current).removeClass().addClass('info');
 
 			$.ajax({
 				url: '<?php echo url_for('equipment/craft') ?>',
 				data: {
-					name: 'rarebox1b',
-					ids: ids
+					name: type,
+					ids: $(current).map(function(){ return $(this).data('id'); }).get()
 				},
 				success: function(response) {
 					console.log(response);
 					$(current).remove();
-					c2();
+					updateCounter();
+					craft(items, count, type, callback);
+				},
+				error: function(){
+					console.log('error');
 				}
 			});
 		}
-		c2();
 
+		craft(set1, 10, 'rarebox1a', function(){
+			craft(set2, 5, 'rarebox1b', function(){});
+		});
 	});
 
 	$('#action-repair-all').click(function(){

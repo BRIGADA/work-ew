@@ -545,4 +545,11 @@ ForceLeaderboard:
       class: ForceTournament
       local: tournament_id
       foreign: id
-    
+
+CraftingRecipe:
+  columns:
+    name:
+      type: text
+      notnull: true
+    inputs: array
+    outputs: array

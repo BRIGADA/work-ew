@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-battlereport" product-name="ew-battlereport">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>attackedby.win</source>
+        <target>failed to destroy your base.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>attacked.lose</source>
+        <target>Your forces failed to destroy the enemy.</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>defense.xp</source>
+        <target>XP is not gained while defending your base.</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>withdraw</source>
+        <target>Your forces withdrew from combat.</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>attacked.win</source>
+        <target>Your forces destroyed the enemy.</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>attackedby.lose</source>
+        <target>destroyed your base.</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>defenseXP</source>
+        <target>XP is not gained while defending your base.</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>skillpoints</source>
+        <target>General Skill Points:</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>forcepoints</source>
+        <target>Force Gained:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
