@@ -108,6 +108,10 @@ class commonActions extends sfActions
         $result = $request->getMethod() == sfWebRequest::POST ? $this->getUser()->RPOST($path, $query) : $this->getUser()->RGET($path, $query);
         $this->forward404Unless($result, 'FETCH FAILED');
         
+        foreach($request->getParameter('replace', array()) as $replace) {
+            $result = preg_replace($replace['s'], $replace['d'], $result);
+        }
+        
         switch ($request->getParameter('decode')) {
             case 'base64':
                 $result = base64_decode($result);
@@ -131,7 +135,7 @@ class commonActions extends sfActions
             $result = json_encode($result);
         }
         
-        $this->getResponse()->setContentType('application/json');
+        $this->getResponse()->setContentType($request->getParameter('type', 'application/json'));
         return $this->renderText($result);
     }
 

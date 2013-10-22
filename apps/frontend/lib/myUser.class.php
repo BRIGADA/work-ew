@@ -12,7 +12,7 @@ class myUser extends sfBasicSecurityUser
      */
     public function RGET($path, $query = array())
     {
-        return $this->LGET($path);
+        return $this->LGET($path, $query);
     }
     
     /**

@@ -73,7 +73,7 @@
 			<tbody>
 				<?php foreach ($results as $row ): ?>
 				<tr data-id="<?php echo $row->id ?>" data-type="<?php echo $row->type ?>">
-					<td><span><?php echo __(strtolower($row->type).'.name', array(), 'ew-items') ?></span></td>
+					<td><a href="<?php echo url_for("@manifest-equipment?type={$row->type}")?>"><?php echo __(strtolower($row->type).'.name', array(), 'ew-items') ?></a></td>
 					<td class="cell-level"><?php echo $row->level ?></td>
 					<td class="cell-durability"><?php echo $row->durability ?></td>
 					<td class="cell-equipped"><?php if($row->equipped) : ?>+<?php else : ?>-<?php endif ?></td>
@@ -126,31 +126,8 @@ function checkUnusial(e) {
 
 $(function(){
 	$('#hide-unusial').click(function(){
-		$('#filter-stats').val($('#filter-stats > option').map(function(){if(stats_usial.indexOf($(this).val()) == -1) return $(this).val();}).get());
+		$('#filter-stats').val($('#filter-stats > option').map(function(){if(stats_usial.indexOf($(this).val()) == -1) return $(this).val();}).get()).change();
 	});
-	/*
-    $('#equipment-list > tbody > tr .cell-tier').tooltip({
-    	placement: 'left',
-        title: function(){
-            var r = $(this).closest('tr');
-            var l = parseInt(r.find('.cell-level').text());
-            var e = manifest[r.data('type')].levels[l].stats;
-            var result = [];
-            for(var k in e) {
-                if(e[k] !== 'false' && e[k]) {
-                    result.push(k+": " + e[k]);
-                }
-            }
-            
-            console.log(this);
-            return result.join(', ');
-        },
-        trigger: 'hover',
-        delay: 500,
-        container: 'body'
-    });
-    */
-
 	
 	function updateCounter() {
 		$('#equipment-list > tfoot th').text($('#equipment-list > tbody > tr:visible').size() + ' / ' + $('#equipment-list > tbody > tr').size());
@@ -393,9 +370,10 @@ $(function(){
 
 
 	    function doCraft() {
+		    var crafted = 0;
     		craft(set1, 10, 'rarebox1a', function(){
     			craft(set2, 5, 'rarebox1b', function(){
-        			bootbox.alert('Преробразование деталей завершено!');
+        			bootbox.alert('Преробразование деталей завершено! Сделано '+crafted);
         		});
     		});
 
@@ -407,6 +385,8 @@ $(function(){
     				return;
     			}
     			var current = items.splice(0, count);
+
+    			crafted++;
     
     			$(current).removeClass().addClass('info');
 
@@ -428,7 +408,6 @@ $(function(){
     			});
     		}
 	    }
-		
 	});
 
 	$('#action-repair-all').click(function(){
