@@ -21,6 +21,10 @@ class ClientData {
 		$this->socket = null;
 	}
 	
+	public function needWrite() {
+		return count($this->obuf);
+	}
+	
 	public function connect() {
 		if($this->socket != NULL) {
 			disconnect();
@@ -75,9 +79,23 @@ class PeerData {
 	}
 }
 
+class BufferedSocket {
+    public $ibuf = '';
+    public $obuf = '';
+    public $fd = null;
+}
+
 class gameProxyTask extends sfBaseTask {
+    
+	// @var resource Сокет, принимающий запросы на соединение от клиентов
+	protected $server = null;
+    
+	// @var BufferedSocket[] Команды от клиентов
+	protected $peer = array();
+	
+	// Прокси-сокеты, поддерживающие соединение до сервера игры
 	protected $client = array ();
-	protected $peer = array ();
+
 	protected function configure() {
 		// // add your own arguments here
 		// $this->addArguments(array(
@@ -98,29 +116,9 @@ EOF;
 	protected function execute($arguments = array(), $options = array()) {
 		// initialize the database connection
 		$databaseManager = new sfDatabaseManager ( $this->configuration );
-		$connection = $databaseManager->getDatabase ( $options ['connection'] )->getConnection ();
-		
-		$socket_file = '/tmp/edgeworld-proxy.sock';
-		
-		if (file_exists ( $socket_file )) {
-			if (! unlink ( $socket_file )) {
-				$this->syserr('unlink socket file failed', 'ERROR');
-			}
-		}
-		
-		$socket = socket_create ( AF_UNIX, SOCK_STREAM, 0 );
-		
-		if (! socket_bind ( $socket, $socket_file )) {
-			$this->syserror ( 'socket_bind' );
-		}
-		
-		chmod ( $socket_file, 0777 );
-		
-		if (! socket_listen ( $socket )) {
-			$this->syserror ( 'socket_listen' );
-		}
-		
-		$this->logBlock ( 'READY', 'INFO' );
+		$connection = $databaseManager->getDatabase ( $options ['connection'] )->getConnection ();		
+
+		$this->initCommandSocket('/tmp/edgeworld-proxy.sock');
 		
 		$timeout = null;
 		
@@ -129,24 +127,21 @@ EOF;
 			$w_sock = array ();
 			$e_sock = NULL;
 			
-			$r_sock [] = $socket;
-			
-			foreach ( $this->client as $client ) {
-				$r_sock [] = $client->socket;
-				if (count ( $client->obuf )) {
-					$w_sock [] = $client->socket;
-				}
-			}
+			$r_sock [] = $this->socket;
 			
 			foreach ( $this->peer as $peer ) {
 				$r_sock [] = $pear->socket;
-				if(strlen($peer->obuf)) {
-					$w_sock [] = $peer->socket;
-				}
+				if(strlen($peer->obuf)) $w_sock[] = $peer->socket;
 			}
 			
-			if(socket_select ( $r_sock, $w_sock, $e_sock, $timeout ) != 0) {
-				if (in_array ( $socket, $r_sock )) {
+			foreach ( $this->client as $client ) {
+				$r_sock [] = $client->socket;
+				if($client->needWrite()) $w_sock[] = $client->getSocket();
+			}
+			
+			if(socket_select ( $r_sock, $w_sock, $e_sock, $timeout ) != 0) {			    
+				if (in_array ( $this->socket, $r_sock )) {
+				    
 					// new peer connection;								
 					$peer_socket = socket_accept ( $socket );
 					if ($peer_socket) {
@@ -254,5 +249,26 @@ EOF;
 				break;
 		}
 		return 'NULL';
+	}
+	
+	protected function initCommandSocket($socket_file)
+	{
+	    if (file_exists ( $socket_file )) {
+	        if (! unlink ( $socket_file )) {
+	            throw new sfException("unlink");
+	        }
+	    }
+	    
+	    $this->socket = socket_create ( AF_UNIX, SOCK_STREAM, 0 );
+	    
+	    if (! socket_bind ( $this->socket, $socket_file )) {
+	        throw new sfException('socket_bind');
+	    }
+	    
+	    chmod ( $socket_file, 0777 );
+	    
+	    if (! socket_listen ( $this->socket )) {
+	        throw new sfException('socket_listen');
+	    }
 	}
 }
