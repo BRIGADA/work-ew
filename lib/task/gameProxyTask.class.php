@@ -1,49 +1,93 @@
 <?php
 
-class ClientData
+class GameClient
 {
-
-    public $player_id;
-
-    public $player_name;
-
-    public $user_id;
-
-    public $alliance_id;
-
-    public $session_id;
-
-    public $reactor;
-
-    public $sector;
-
-    public $server;
-
     public $useragent;
-
-    public $socket;
-
-    public $obuf = array();
-
+    
+    public $server;
+    
+    public $user_id;
+    
+    public $session_id;
+    
+    public $reactor;
+    
+    // номер сектора
+    public $sector;    
+    
+    public $socket = null;
+    public $obuf = array();    
     public $ibuf = '';
+    
+    // идентификатор игрока
+    public $player_id = NULL;
+    
+    // имя игрока
+    public $player_name;
+    
+    /**
+     * Идентификатор главной базы
+     * @var integer
+     */
+    public $base_id = NULL;
+    
+    /**
+     * Колонии
+     * @var array|null
+     */
+    public $colonies = NULL;    
+
+    /**
+     * Альянс
+     * @var array|null
+     */
+    public $alliance = null;
 
     protected $curl;
 
-    public function __construct()
+    public function __construct($user_id)
     {
         $this->curl = curl_init();
         $this->socket = null;
+        $this->user_id = $user_id;
     }
-
-    public function needWrite()
+    
+    public function init($server, $reactor, $session_id, $useragent)
     {
-        return count($this->obuf);
+        $this->useragent = $useragent;
+        $this->reactor = $reactor;
+        $this->session_id = $session_id;
+        
+        if($server != $this->server) {
+            if(preg_match('/^sector([0-9]+)\./', $server, $matches)) {
+                $this->sector = $matches[1];
+            }            
+            else return false;
+            
+            $this->server = $server;
+            
+            $r = $this->RGET('/api/player');
+            if(is_null($r)) return false;
+            
+            $r = json_decode($r, true);
+            
+            $this->player_id = $r['response']['id'];
+            $this->player_name = $r['response']['name'];
+            $this->alliance = $r['response']['alliance'];
+            $this->base_id = $r['response']['base']['id'];
+            $this->alliance = $r['response']['alliance'];
+            $this->colonies = $r['response']['colonies'];
+                        
+            return $this->connect();            
+        }
+        
+        return true;
     }
 
     public function connect()
     {
         if ($this->socket != NULL) {
-            disconnect();
+            $this->disconnect();
         }
         
         $this->socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
@@ -52,13 +96,10 @@ class ClientData
             return false;
         }
         
+        $this->ibuf = '';
         $this->obuf = array();
-        $this->obuf = array(
-            'type' => 'subscribe',
-            'data' => array(
-                'player_id' => strval($this->player_id)
-            )
-        );
+        $this->obuf[] = array('type' => 'subscribe', 'data' => array('player_id' => strval($this->player_id)));        
+        
         return true;
     }
 
@@ -158,10 +199,29 @@ EOF;
         $databaseManager = new sfDatabaseManager($this->configuration);
         $connection = $databaseManager->getDatabase($options['connection'])->getConnection();
         
-        $socket = initCommandSocket('/tmp/edgeworld-proxy.sock');
+        $socket_file = '/tmp/edgeworld-proxy.sock';
+        
+        if (file_exists($socket_file)) {
+            if (! unlink($socket_file)) {
+                throw new sfException("unlink");
+            }
+        }
+        
+        $socket = socket_create(AF_UNIX, SOCK_STREAM, 0);
+        
+        if (! socket_bind($socket, $socket_file)) {
+            throw new sfException('socket_bind');
+        }
+        
+        chmod($socket_file, 0777);
+        
+        if (! socket_listen($socket)) {
+            throw new sfException('socket_listen');
+        }
         
         $timeout = null;
         
+        // главный цикл
         while (true) {
             $r_sock = array();
             $w_sock = array();
@@ -204,19 +264,12 @@ EOF;
                     
                     if (in_array($peer->fd, $w_sock)) {
                         $l = socket_write($peer->fd, $peer->obuf);
-                        if ($l === FALSE) {
+                        if ($l === FALSE || $l == strlen($peer->obuf)) {
                             $peer->disconnect();
                             unset($this->peer[$i]);
                             continue;
                         }
-                        
                         $peer->obuf = substr($peer->obuf, $l);
-                        
-                        if (strlen($peer->obuf) == 0) {
-                            $peer->disconnect();
-                            unset($this->peer[$i]);
-                            continue;
-                        }
                     }
                 }
             } else {
@@ -237,36 +290,16 @@ EOF;
             case 'login':
                 $uid = $data['user_id'];
                 if(!isset($this->client[$uid])) {
-                    $this->client[$uid] = new ClientSocket();
-                }
-                
-                $this->client[$uid]->init($data['server'], $uid, $data['reactor'], $data['session']);
-                
-                
-				if (! isset($this->client[$uid])) {
-                    $this->client[$uid] = new ClientData();
-                }
-                
-                $uid = $data['player_id'];
-                
-                $this->client[$uid]->server = $data['server'];
-                $this->client[$uid]->sector = $data['sector'];
-                $this->client[$uid]->player_id = $data['player_id'];
-                $this->client[$uid]->player_name = $data['player_name'];
-                $this->client[$uid]->user_id = $data['user_id'];
-                $this->client[$uid]->session = $data['session'];
-                $this->client[$uid]->reactor = $data['reactor'];
-                $this->client[$uid]->alliance_id = $data['alliance_id'];
-                $this->client[$uid]->useragent = $data['useragent'];
-                
-                $this->client[$uid]->connect();
-                
-                return json_encode(true);
+                    $this->client[$uid] = new ClientSocket($uid);
+                }                
+                $result = $this->client[$uid]->init($data['server'], $data['reactor'], $data['session'], $data['useragent']);                
+                return json_encode($result);
             
             default:
                 break;
         }
-        return 'NULL';
+        
+        return '';
     }
 
     protected function initCommandSocket($socket_file)

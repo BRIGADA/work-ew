@@ -138,6 +138,13 @@ class commonActions extends sfActions
         $this->getResponse()->setContentType($request->getParameter('type', 'application/json'));
         return $this->renderText($result);
     }
+    
+    public function executePlayer()
+    {
+        $r = $this->getUser()->RGET('/api/player');
+        $this->getResponse()->setContentType('application/json');
+        return $this->renderText(json_encode(json_decode($r, true)['response']));
+    }
 
     public function executeResetTestCount()
     {
