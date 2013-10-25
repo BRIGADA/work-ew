@@ -31,6 +31,19 @@ class commonActions extends sfActions
         
         $this->clientForm = new ClientForm();
     }
+    
+    public function executeLogin()
+    {
+    	$r = array();
+    	$r['cmd'] = 'login';
+    	$r['reactor'] = $this->getUser()->getAttribute('reactor', null, 'player/data');
+    	$r['server'] = $this->getUser()->getAttribute('host', null, 'player/data');
+    	$r['session'] = $this->getUser()->getAttribute('_session_id', null, 'player/data');
+    	$r['user_id'] = $this->getUser()->getAttribute('user_id', null, 'player/data');
+    	$r['useragent'] = $_SERVER['HTTP_USER_AGENT'];
+    	 
+    	return $this->renderText(var_export($this->getUser()->PROXY2($r, 10), true));    	
+    }
 
     public function executeStats()
     {

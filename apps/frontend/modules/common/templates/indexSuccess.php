@@ -66,6 +66,7 @@
 </table>
 
 <legend>Proxy</legend>
+<a href="<?php echo url_for('common/login')?>">LOGIN</a>
 <?php if($proxy_status === null) : ?>
 <p class="text-error">NOT READY</p>
 <?php else : ?>

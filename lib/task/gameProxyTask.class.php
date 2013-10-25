@@ -2,21 +2,24 @@
 
 class GameClient
 {
+
     public $useragent;
-    
+
     public $server;
-    
+
     public $user_id;
-    
+
     public $session_id;
-    
+
     public $reactor;
     
     // номер сектора
-    public $sector;    
-    
+    public $sector;
+
     public $socket = null;
-    public $obuf = array();    
+
+    public $obuf = array();
+
     public $ibuf = '';
     
     // идентификатор игрока
@@ -24,50 +27,60 @@ class GameClient
     
     // имя игрока
     public $player_name;
-    
+
     /**
      * Идентификатор главной базы
+     *
      * @var integer
      */
     public $base_id = NULL;
-    
+
     /**
      * Колонии
-     * @var array|null
+     *
+     * @var array null
      */
-    public $colonies = NULL;    
+    public $colonies = NULL;
 
     /**
      * Альянс
-     * @var array|null
+     *
+     * @var array null
      */
     public $alliance = null;
 
     protected $curl;
 
-    public function __construct($user_id)
+    protected $task;
+
+    public function __construct($user_id, sfTask &$task)
     {
+        $task->logBlock(__FUNCTION__, 'INFO');
         $this->curl = curl_init();
         $this->socket = null;
         $this->user_id = $user_id;
+        $this->task = $task;
     }
-    
+
     public function init($server, $reactor, $session_id, $useragent)
     {
+        $this->task->logBlock(__FUNCTION__, 'INFO');
         $this->useragent = $useragent;
         $this->reactor = $reactor;
         $this->session_id = $session_id;
         
-        if($server != $this->server) {
-            if(preg_match('/^sector([0-9]+)\./', $server, $matches)) {
+        if ($server != $this->server) {
+            if (preg_match('/^sector([0-9]+)\./', $server, $matches)) {
                 $this->sector = $matches[1];
-            }            
-            else return false;
+                printf("SECTOR: %u\n", $this->sector);
+            } else
+                return false;
             
             $this->server = $server;
             
             $r = $this->RGET('/api/player');
-            if(is_null($r)) return false;
+            if (is_null($r))
+                return false;
             
             $r = json_decode($r, true);
             
@@ -77,8 +90,8 @@ class GameClient
             $this->base_id = $r['response']['base']['id'];
             $this->alliance = $r['response']['alliance'];
             $this->colonies = $r['response']['colonies'];
-                        
-            return $this->connect();            
+            
+            return $this->connect();
         }
         
         return true;
@@ -86,19 +99,25 @@ class GameClient
 
     public function connect()
     {
+        $this->task->logBlock(__FUNCTION__, 'INFO');
         if ($this->socket != NULL) {
             $this->disconnect();
         }
         
         $this->socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
         
-        if (! socket_connect($this->sock, $this->remote_addr, $this->remote_port)) {
+        if (! socket_connect($this->socket, $this->server, 8000)) {
             return false;
         }
         
         $this->ibuf = '';
         $this->obuf = array();
-        $this->obuf[] = array('type' => 'subscribe', 'data' => array('player_id' => strval($this->player_id)));        
+        $this->obuf[] = json_encode(array(
+            'type' => 'subscribe',
+            'data' => array(
+                'player_id' => strval($this->player_id)
+            )
+        ))."\r\n";
         
         return true;
     }
@@ -107,6 +126,7 @@ class GameClient
     {
         if ($this->socket == NULL)
             return;
+        $this->task->logBlock(__FUNCTION__, 'INFO');
         socket_shutdown($this->socket);
         socket_close($this->socket);
         $this->obuf = array();
@@ -114,20 +134,118 @@ class GameClient
         $this->socket = NULL;
     }
 
-    public function processread()
-    {}
-
-    public function processwrite()
-    {}
+    public function RGET($path, $query = array())
+    {
+        $this->task->logBlock(__FUNCTION__, 'INFO');
+        $query['meltdown'] = MeltdownTable::getCurrent();
+        $query['reactor'] = $this->reactor;
+        $query['user_id'] = $this->user_id;
+        $query['_session_id'] = $this->session_id;
+        
+        $query_str = http_build_query($query);
+        
+        $url = sprintf('http://%s%s?%s', $this->server, $path, $query_str);
+        
+        $this->task->logSection('url', $url);
+        
+        curl_setopt($this->curl, CURLOPT_URL, $url);
+        curl_setopt($this->curl, CURLOPT_CONNECTTIMEOUT, 5);
+        curl_setopt($this->curl, CURLOPT_TIMEOUT, 10);
+        curl_setopt($this->curl, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($this->curl, CURLOPT_USERAGENT, $this->useragent);
+        
+        $cookie_file = sfConfig::get('sf_upload_dir') . '/cookie/' . $this->user_id . '.dat';
+        curl_setopt($this->curl, CURLOPT_COOKIEFILE, $cookie_file);
+        curl_setopt($this->curl, CURLOPT_COOKIEJAR, $cookie_file);
+        
+        $result = curl_exec($this->curl);
+        
+        var_dump(curl_getinfo($this->curl));
+        
+        if (curl_getinfo($this->curl, CURLINFO_HTTP_CODE) != 200) {
+            var_dump($result);
+            $result = NULL;
+        }
+        
+        return $result;
+    }
 
     public function __destruct()
     {
+        $this->disconnect();
         curl_close($this->curl);
+    }
+
+    public function read()
+    {
+        $r = socket_read($this->socket, 2048);
+        if (strlen($r) == 0) {
+            $this->task->logSection($this->user_id, 'connection closed, reconnecting...');
+            $this->connect();
+        } else {
+            $messages = explode("\r\n", $this->ibuf . $r);
+            while (count($messages)) {
+                $cur = array_shift($messages);
+                $c = json_decode($cur, true);
+                
+                $this->task->logSection("---->", trim($cur));
+                
+                switch ($c['type']) {
+                    case 'subscribe':
+                        $this->obuf[] = json_encode(array(
+                            'type' => 'chat_join',
+                            'data' => array(
+                                'player_id' => strval($this->player_id),
+                                'room' => sprintf('global::%u', $this->sector)
+                            )
+                        )) . "\r\n";
+                        
+                        if ($this->alliance) {
+//                            var_dump($this->alliance);
+                            $this->obuf[] = json_encode(array(
+                                'type' => 'chat_join',
+                                'data' => array(
+                                    'player_id' => strval($this->player_id),
+                                    'room' => sprintf('alliance::%u::%u', $this->alliance['id'], $this->sector)
+                                )
+                            )) . "\r\n";
+                        }
+                        $this->obuf[] = json_encode(array(
+                            'type' => 'chat_join',
+                            'data' => array(
+                                'player_id' => strval($this->player_id),
+                                'room' => sprintf('locale::%u::en', $this->sector),
+                                'player_name' => $this->player_name
+                            )
+                        )) . "\r\n";
+                        break;
+                    default:
+                        break;
+                }
+            }
+            $this->ibuf = implode("\r\n", $messages);
+        }
+    }
+
+    public function write()
+    {
+        if (count($this->obuf)) {
+            $cur = array_shift($this->obuf);
+            $this->task->logSection('<----', trim($cur));
+            $r = socket_write($this->socket, $cur);
+            if($r === false) {
+                $this->task->logBlock(socket_strerror(socket_last_error($this->socket)), 'ERROR');
+            }
+            elseif ($r < strlen($cur)) {
+                array_unshift($this->obuf, substr($cur, $r));
+            }            
+        }
     }
 }
 
 class PeerSocket extends BufferedSocket
 {
+
     public function __construct($socket)
     {
         $this->fd = $socket;
@@ -223,6 +341,8 @@ EOF;
         
         // главный цикл
         while (true) {
+//            $this->logBlock('MAIN LOOP', 'INFO');
+            
             $r_sock = array();
             $w_sock = array();
             $e_sock = NULL;
@@ -230,20 +350,29 @@ EOF;
             $r_sock[] = $socket;
             
             foreach ($this->peer as $peer) {
-                $r_sock[] = $pear->fd;
+                $r_sock[] = $peer->fd;
                 if (strlen($peer->obuf))
                     $w_sock[] = $peer->fd;
+            }
+            
+            foreach ($this->client as $client) {
+                $r_sock[] = $client->socket;
+                if (count($client->obuf)) {
+                    $w_sock[] = $client->socket;
+                }
             }
             
             if (socket_select($r_sock, $w_sock, $e_sock, $timeout) != 0) {
                 if (in_array($socket, $r_sock)) {
                     // new peer connection;
+                    $this->logBlock('new connection', 'INFO');
                     $peer_socket = socket_accept($socket);
                     $this->peer[] = new PeerSocket($peer_socket);
                 }
                 
                 foreach ($this->peer as $i => $peer) {
                     if (in_array($peer->fd, $r_sock)) {
+                        $this->logSection('PEER', '>>>>>>>>');
                         $d = socket_read($peer->fd, 65536);
                         if ($d === FALSE || $d == '') {
                             $peer->disconnect();
@@ -254,7 +383,7 @@ EOF;
                         $peer->ibuf .= $d;
                         if (strpos($peer->ibuf, "\n")) {
                             $peer->obuf = $this->processPeerMessage(json_decode($peer->ibuf, true));
-                            if (strlen($pear->obuf) == 0) {
+                            if (strlen($peer->obuf) == 0) {
                                 $peer->disconnect();
                                 unset($this->peer[$i]);
                                 continue;
@@ -263,6 +392,7 @@ EOF;
                     }
                     
                     if (in_array($peer->fd, $w_sock)) {
+                        $this->logSection('PEER', '<<<<<<<<<');
                         $l = socket_write($peer->fd, $peer->obuf);
                         if ($l === FALSE || $l == strlen($peer->obuf)) {
                             $peer->disconnect();
@@ -270,6 +400,15 @@ EOF;
                             continue;
                         }
                         $peer->obuf = substr($peer->obuf, $l);
+                    }
+                }
+                
+                foreach ($this->client as $i => $client) {
+                    if (in_array($client->socket, $r_sock)) {
+                        $client->read();
+                    }
+                    if (in_array($client->socket, $w_sock)) {
+                        $client->write();
                     }
                 }
             } else {
@@ -282,17 +421,19 @@ EOF;
     {
         switch ($data['cmd']) {
             case 'status':
-                $this->logSection('status', "for uid = {$data['uid']}");                
+                $this->logSection('status', "for uid = {$data['uid']}");
                 $result = array();
                 $result['online'] = isset($this->client[$data['uid']]);
                 return json_encode($result);
             
             case 'login':
                 $uid = $data['user_id'];
-                if(!isset($this->client[$uid])) {
-                    $this->client[$uid] = new ClientSocket($uid);
-                }                
-                $result = $this->client[$uid]->init($data['server'], $data['reactor'], $data['session'], $data['useragent']);                
+                if (! isset($this->client[$uid])) {
+                    $this->client[$uid] = new GameClient($uid, $this);
+                }
+                $result = $this->client[$uid]->init($data['server'], $data['reactor'], $data['session'], $data['useragent']);
+                if (! $result)
+                    unset($this->client[$uid]);
                 return json_encode($result);
             
             default:

@@ -12,11 +12,11 @@
 <div class="row">
 	<div class="span12">
 		<p>
-			<button id="action-upgrade-all" class="btn"><i class="icon-arrow-up"></i> <?php echo __('Upgrade all')?></button>
-			<button id="action-delete-all" class="btn"><i class="icon-trash"></i> <?php echo __('Delete all')?></button>
-			<button id="action-repair-all" class="btn"><i class="icon-refresh"></i> <?php echo __('Repair all')?></button>
-			<button id="action-craft" class="btn">Craft</button>
-			<button id="action-cheat" class="btn">:)</button>
+			<button id="action-upgrade-all" class="btn"><i class="icon-arrow-up"></i> Обновить</button>
+<!-- 		<button id="action-delete-all" class="btn"><i class="icon-trash"></i> Удалить</button> -->
+			<button id="action-repair-all" class="btn"><i class="icon-refresh"></i> Починить</button>
+			<button id="action-craft" class="btn"><i class="icon-gift"></i> Крафтить</button>
+<!-- 			<button id="action-cheat" class="btn">:)</button> -->
 			
 		</p>
 	</div>

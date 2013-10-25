@@ -331,6 +331,7 @@ class manifestActions extends sfActions
         
         $this->resources = array();
         $this->stats = array();
+        $this->nonnumeric = array();
         
         foreach ($this->levels as $level) {
             foreach ($level->requirements['resources'] as $type => $value) {
@@ -339,8 +340,9 @@ class manifestActions extends sfActions
                 }
             }
             
-            foreach ($level->stats as $type => $value) {
+            foreach ($level->stats as $type => $value) {            	
                 if (! in_array($type, $this->stats) && ($value != 'false') && $value) {
+                	if(!is_numeric($value) && !in_array($type, $this->nonnumeric)) $this->nonnumeric[] = $type;
                     $this->stats[] = $type;
                 }
             }

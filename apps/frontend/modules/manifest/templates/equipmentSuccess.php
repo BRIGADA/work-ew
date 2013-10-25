@@ -22,11 +22,26 @@
 </div>
 <?php foreach($stats as $stat) : ?>
 <div class="span12" style="padding-bottom: 20px;">
-    <div id="chart-stats-<?php echo $stat ?>" style="min-height: 300px"></div>
+<?php if(!in_array($stat, $nonnumeric->getRawValue())) : ?>
+<div id="chart-stats-<?php echo $stat ?>" style="min-height: 300px"></div>
+<?php else : ?>
+<table class="table table-condensed table-bordered">
+<tr>
+<th></th><?php foreach($levels as $level) : ?><th><?php echo "L{$level->level}" ?></th><?php endforeach ?>
+</tr>
+<tr>
+<th><?php echo $stat ?></th>
+<?php foreach ($levels as $level) : ?>
+<td><?php echo $level->stats[$stat] ?></td>
+<?php endforeach ?>
+</tr>
+</table>
+<?php endif ?>
 </div>
 <?php endforeach ?>
 </div>
 
+<?php var_dump($nonnumeric)?>
 <script type="text/javascript">
 var levelLabels = [<?php foreach ($levels as $level ) : ?><?php echo json_encode(sprintf('L%d', $level->level )) ?>, <?php endforeach ?>];
 
