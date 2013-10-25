@@ -15,12 +15,14 @@ abstract class BaseProxyFormFilter extends BaseFormFilterDoctrine
     $this->setWidgets(array(
       'type'       => new sfWidgetFormFilterInput(),
       'params'     => new sfWidgetFormFilterInput(),
+      'timestamp'  => new sfWidgetFormFilterInput(),
       'created_at' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
     ));
 
     $this->setValidators(array(
       'type'       => new sfValidatorPass(array('required' => false)),
       'params'     => new sfValidatorPass(array('required' => false)),
+      'timestamp'  => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'created_at' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
     ));
 
@@ -44,6 +46,7 @@ abstract class BaseProxyFormFilter extends BaseFormFilterDoctrine
       'id'         => 'Number',
       'type'       => 'Text',
       'params'     => 'Text',
+      'timestamp'  => 'Number',
       'created_at' => 'Date',
     );
   }

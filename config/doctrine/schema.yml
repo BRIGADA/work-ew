@@ -203,6 +203,7 @@ Proxy:
       autoincrement: true
     type: text
     params: array
+    timestamp: integer
 
 Meltdown:
   actAs:

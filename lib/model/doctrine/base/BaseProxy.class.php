@@ -8,13 +8,16 @@
  * @property integer $id
  * @property text $type
  * @property array $params
+ * @property integer $timestamp
  * 
- * @method integer getId()     Returns the current record's "id" value
- * @method text    getType()   Returns the current record's "type" value
- * @method array   getParams() Returns the current record's "params" value
- * @method Proxy   setId()     Sets the current record's "id" value
- * @method Proxy   setType()   Sets the current record's "type" value
- * @method Proxy   setParams() Sets the current record's "params" value
+ * @method integer getId()        Returns the current record's "id" value
+ * @method text    getType()      Returns the current record's "type" value
+ * @method array   getParams()    Returns the current record's "params" value
+ * @method integer getTimestamp() Returns the current record's "timestamp" value
+ * @method Proxy   setId()        Sets the current record's "id" value
+ * @method Proxy   setType()      Sets the current record's "type" value
+ * @method Proxy   setParams()    Sets the current record's "params" value
+ * @method Proxy   setTimestamp() Sets the current record's "timestamp" value
  * 
  * @package    edgeworld
  * @subpackage model
@@ -36,6 +39,9 @@ abstract class BaseProxy extends sfDoctrineRecord
              ));
         $this->hasColumn('params', 'array', null, array(
              'type' => 'array',
+             ));
+        $this->hasColumn('timestamp', 'integer', null, array(
+             'type' => 'integer',
              ));
     }
 

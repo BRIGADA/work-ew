@@ -52,6 +52,16 @@ class GameClient
     protected $curl;
 
     protected $task;
+    
+    
+    public $jobs = array();
+    
+    /*
+     * equipment_auto_upgrade
+     *   upgrade
+     *   repair
+     *   repairing
+     */
 
     public function __construct($user_id, sfTask &$task)
     {
@@ -82,6 +92,7 @@ class GameClient
             if (is_null($r))
                 return false;
             
+            file_put_contents(sfConfig::get('sf_upload_dir').'/current-player.json', $r);
             $r = json_decode($r, true);
             
             $this->player_id = $r['response']['id'];
@@ -91,6 +102,30 @@ class GameClient
             $this->alliance = $r['response']['alliance'];
             $this->colonies = $r['response']['colonies'];
             
+            $this->jobs['equipment_auto_update'] = array();
+            $this->jobs['equipment_auto_update']['repairing'] = array();
+            $this->jobs['equipment_auto_update']['update'] = array();
+            $this->jobs['equipment_auto_update']['repair'] = array();
+            
+            foreach ($r['response']['jobs'] as $job) {
+                if($job['type'] == 'RepairEquipment') {
+                    $this->jobs['equipment_auto_update']['repairing'][] = $job['equipment_id'];
+                }
+            }
+            
+            foreach ($r['response']['equipment'] as $equipment) {
+                if(!$equipment['equipped']) {
+                    if($equipment['durability'] > 0) {
+                        // обновить
+                        $this->jobs['equipment_auto_update']['update'][] = $equipment['id'];
+                    }
+                    elseif(!in_array($equipment['id'], $this->jobs['equipment_auto_update']['repairing'])) {
+                        // починить, если уже не чинится
+                        $this->jobs['equipment_auto_update']['repair'][] = $equipment['id'];
+                    }
+                }
+            }
+            
             return $this->connect();
         }
         
@@ -99,7 +134,7 @@ class GameClient
 
     public function connect()
     {
-        $this->task->logBlock(__FUNCTION__, 'INFO');
+        $this->task->logBlock(__METHOD__, 'INFO');
         if ($this->socket != NULL) {
             $this->disconnect();
         }
@@ -117,7 +152,7 @@ class GameClient
             'data' => array(
                 'player_id' => strval($this->player_id)
             )
-        ))."\r\n";
+        )) . "\r\n";
         
         return true;
     }
@@ -126,7 +161,7 @@ class GameClient
     {
         if ($this->socket == NULL)
             return;
-        $this->task->logBlock(__FUNCTION__, 'INFO');
+        $this->task->logBlock(__METHOD__, 'INFO');
         socket_shutdown($this->socket);
         socket_close($this->socket);
         $this->obuf = array();
@@ -136,7 +171,7 @@ class GameClient
 
     public function RGET($path, $query = array())
     {
-        $this->task->logBlock(__FUNCTION__, 'INFO');
+        $this->task->logBlock(__METHOD__, 'INFO');
         $query['meltdown'] = MeltdownTable::getCurrent();
         $query['reactor'] = $this->reactor;
         $query['user_id'] = $this->user_id;
@@ -178,46 +213,32 @@ class GameClient
 
     public function read()
     {
-        $r = socket_read($this->socket, 2048);
+        $r = socket_read($this->socket, 4096);
         if (strlen($r) == 0) {
             $this->task->logSection($this->user_id, 'connection closed, reconnecting...');
             $this->connect();
         } else {
             $messages = explode("\r\n", $this->ibuf . $r);
-            while (count($messages)) {
+            while (count($messages) > 1) {
                 $cur = array_shift($messages);
                 $c = json_decode($cur, true);
                 
-                $this->task->logSection("---->", trim($cur));
+                $this->task->logSection("---->", $cur);
+                
+                $record = new Proxy();
+                $record->type = $c['type'];
+                $record->params = $c['data'];
+                if (isset($c['timestamp'])) {
+                    $record->timestamp = $c['timestamp'];
+                }
+                $record->save();
                 
                 switch ($c['type']) {
                     case 'subscribe':
-                        $this->obuf[] = json_encode(array(
-                            'type' => 'chat_join',
-                            'data' => array(
-                                'player_id' => strval($this->player_id),
-                                'room' => sprintf('global::%u', $this->sector)
-                            )
-                        )) . "\r\n";
-                        
-                        if ($this->alliance) {
-//                            var_dump($this->alliance);
-                            $this->obuf[] = json_encode(array(
-                                'type' => 'chat_join',
-                                'data' => array(
-                                    'player_id' => strval($this->player_id),
-                                    'room' => sprintf('alliance::%u::%u', $this->alliance['id'], $this->sector)
-                                )
-                            )) . "\r\n";
-                        }
-                        $this->obuf[] = json_encode(array(
-                            'type' => 'chat_join',
-                            'data' => array(
-                                'player_id' => strval($this->player_id),
-                                'room' => sprintf('locale::%u::en', $this->sector),
-                                'player_name' => $this->player_name
-                            )
-                        )) . "\r\n";
+                        $this->processSubscribe();
+                        break;
+                    case 'job_completed':
+                        $this->processJobCompleted($c['data']);
                         break;
                     default:
                         break;
@@ -227,18 +248,60 @@ class GameClient
         }
     }
 
+    protected function processSubscribe()
+    {
+        $this->obuf[] = json_encode(array(
+            'type' => 'chat_join',
+            'data' => array(
+                'player_id' => strval($this->player_id),
+                'room' => sprintf('global::%u', $this->sector)
+            )
+        )) . "\r\n";
+        
+        if ($this->alliance) {
+            $this->obuf[] = json_encode(array(
+                'type' => 'chat_join',
+                'data' => array(
+                    'player_id' => strval($this->player_id),
+                    'room' => sprintf('alliance::%u::%u', $this->alliance['id'], $this->sector)
+                )
+            )) . "\r\n";
+        }
+        $this->obuf[] = json_encode(array(
+            'type' => 'chat_join',
+            'data' => array(
+                'player_id' => strval($this->player_id),
+                'room' => sprintf('locale::%u::en', $this->sector),
+                'player_name' => $this->player_name
+            )
+        )) . "\r\n";
+    }
+    
+    protected function processJobCompleted($data)
+    {
+        switch($data['type'])
+        {
+        	case 'RepairEquipment':
+        	    if(isset($this->jobs['equipment_auto_update'])) {
+        	        $this->jobs['equipment_auto_update']['update'][] = $data['equipment_id'];
+        	    }
+        	    break;
+        	default:
+        	    break;
+        }
+    }
+
     public function write()
     {
         if (count($this->obuf)) {
             $cur = array_shift($this->obuf);
             $this->task->logSection('<----', trim($cur));
             $r = socket_write($this->socket, $cur);
-            if($r === false) {
+            if ($r === false) {
                 $this->task->logBlock(socket_strerror(socket_last_error($this->socket)), 'ERROR');
-            }
-            elseif ($r < strlen($cur)) {
+            } elseif ($r < strlen($cur)) {
                 array_unshift($this->obuf, substr($cur, $r));
-            }            
+            }
         }
     }
 }
@@ -341,7 +404,7 @@ EOF;
         
         // главный цикл
         while (true) {
-//            $this->logBlock('MAIN LOOP', 'INFO');
+            // $this->logBlock('MAIN LOOP', 'INFO');
             
             $r_sock = array();
             $w_sock = array();

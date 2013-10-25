@@ -2,6 +2,19 @@
 	<h1>Proxy</h1>
 </div>
 
+<?php if($pager->haveToPaginate()) : ?>
+<div class="pagination">
+	<ul>
+        <?php foreach ($pager->getLinks() as $page): ?>
+        <?php if ($page == $pager->getPage()): ?>
+        <li class="active"><a href="<?php echo url_for("proxy/index?filter={$filter}&page={$page}") ?>"><?php echo $page ?></a></li>
+        <?php else: ?>
+        <li><a href="<?php echo url_for("proxy/index?filter={$filter}&page={$page}") ?>"><?php echo $page ?></a></li>
+        <?php endif; ?>
+        <?php endforeach; ?>
+    </ul>
+</div>
+<?php endif ?>
 <div>
 	<form action="<?php echo url_for('proxy/index')?>">
 		<select name="filter" onchange="submit();">

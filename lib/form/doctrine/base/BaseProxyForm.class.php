@@ -18,6 +18,7 @@ abstract class BaseProxyForm extends BaseFormDoctrine
       'id'         => new sfWidgetFormInputHidden(),
       'type'       => new sfWidgetFormInputText(),
       'params'     => new sfWidgetFormInputText(),
+      'timestamp'  => new sfWidgetFormInputText(),
       'created_at' => new sfWidgetFormDateTime(),
     ));
 
@@ -25,6 +26,7 @@ abstract class BaseProxyForm extends BaseFormDoctrine
       'id'         => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'type'       => new sfValidatorPass(array('required' => false)),
       'params'     => new sfValidatorPass(array('required' => false)),
+      'timestamp'  => new sfValidatorInteger(array('required' => false)),
       'created_at' => new sfValidatorDateTime(),
     ));
 
