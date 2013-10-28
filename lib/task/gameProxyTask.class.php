@@ -114,7 +114,7 @@ class GameClient {
                 }
             }
 
-            $this->processEquipments($d['response']['equipment']);
+            $this->autoEquipmentParse($d['response']['equipment']);
 
             return $this->connect();
         }
@@ -122,14 +122,14 @@ class GameClient {
         return true;
     }
 
-    protected function processEquipments(&$arr) {
+    protected function autoEquipmentParse(&$arr) {
 
         $this->jobs['auto_equipment']['used'] = 0;
         $this->jobs['auto_equipment']['upgrade'] = array();
         $this->jobs['auto_equipment']['repair'] = array();
         $this->jobs['auto_equipment']['craft1a'] = array();
         $this->jobs['auto_equipment']['craft1b'] = array();
-        
+
         $a = array();
 
         foreach ($arr as $e) {
@@ -142,25 +142,25 @@ class GameClient {
                     }
                 } else {
                     if (!in_array($e['id'], $this->jobs['auto_equipment']['repairing'])) {
-                        $this->processBroken($e, count($arr));
+                        $this->autoEquipmentBroken($e, count($arr));
                     }
                 }
             } else {
                 $this->jobs['auto_equipment']['used'] ++;
             }
         }
-        
-        foreach($this->jobs['auto_equipment']['repairing'] as $key => $id) {
-            if(!in_array($id, $a)) {
+
+        foreach ($this->jobs['auto_equipment']['repairing'] as $key => $id) {
+            if (!in_array($id, $a)) {
                 unset($this->jobs['auto_equipment']['repairing'][$key]);
             }
         }
-        
+
         $this->jobs['auto_equipment']['repairing'] = array_unique($this->jobs['auto_equipment']['repairing']);
         sort($this->jobs['auto_equipment']['repairing']);
     }
 
-    protected function processBroken($equipment, $total) {
+    protected function autoEquipmentBroken($equipment, $total) {
         $record = Doctrine::getTable('EquipmentLevel')
                 ->createQuery('el')
                 ->where('el.equipment_id = (SELECT e.id FROM Equipment e WHERE e.type = ?)', $equipment['type'])
@@ -324,10 +324,10 @@ class GameClient {
 
                 switch ($c['type']) {
                     case 'subscribe':
-                        $this->processSubscribe();
+                        $this->subscribe();
                         break;
                     case 'job_completed':
-                        $this->processJobCompleted($c['data']);
+                        $this->job_completed($c['data']);
                         break;
                     default:
                         break;
@@ -337,7 +337,7 @@ class GameClient {
         }
     }
 
-    protected function processSubscribe() {
+    protected function subscribe() {
         $this->obuf[] = json_encode(array(
                     'type' => 'chat_join',
                     'data' => array(
@@ -365,7 +365,7 @@ class GameClient {
                 )) . "\r\n";
     }
 
-    protected function processJobCompleted($data) {
+    protected function job_completed($data) {
         switch ($data['type']) {
             case 'RepairEquipment':
                 if (isset($this->jobs['auto_equipment'])) {
@@ -389,7 +389,7 @@ class GameClient {
                 if ($r) {
                     $this->jobs['auto_equipment']['next'] = time() + self::AUTO_EQUIPMENT_INTERVAL;
                     $d = json_decode($r, true);
-                    $this->processEquipments($d['response']['equipment']);
+                    $this->autoEquipmentParse($d['response']['equipment']);
                 } else {
                     unset($this->jobs['auto_equipment']);
                     $this->task->logBlock('STOP AUTO UPGRADE', 'ERROR');
@@ -401,7 +401,7 @@ class GameClient {
                 $ids = array_splice($this->jobs['auto_equipment']['craft1a'], 0, 10);
 
                 $this->task->logSection('Craft1A', implode(', ', $ids));
-                
+
                 $input = array();
                 foreach ($ids as $id) {
                     $input[] = array('type' => 'equipment', 'id' => intval($id));
@@ -412,7 +412,7 @@ class GameClient {
                 $query['input'] = json_encode($input);
 
                 $this->POST('/api/player/craft', $query);
-                
+
                 return;
             }
 
@@ -468,16 +468,25 @@ class GameClient {
                     $d = json_decode($r, true);
                     if (isset($d['response']['job'])) {
                         if ($d['response']['job']['successful']) {
-//                            $this->jobs['auto_equipment']['stat'][]
                             $this->jobs['auto_equipment']['upgrade'][] = $id;
                         } else {
-                            $this->processBroken($d['response']['job']['equipment'], $this->getAutoEquipmentTotal());
+                            $this->autoEquipmentBroken($d['response']['job']['equipment'], $this->autoEquipmentTotal() + 1);
                         }
+
+                        $level = $d['response']['job']['equipment']['level'] - ($d['response']['job']['successful'] ? 1 : 0);
+                        if (!isset($this->jobs['auto_equipment']['stat'][$level])) {
+                            $this->jobs['auto_equipment']['stat'][$level]['done'] = 0;
+                            $this->jobs['auto_equipment']['stat'][$level]['fail'] = 0;
+                        }
+
+                        $this->jobs['auto_equipment']['stat'][$level][$d['response']['job']['successful'] ? 'done' : 'fail'] ++;
+
                         return;
                     }
+//                    $this->task->log(isset($d['resonse']['errors']))
                 }
 
-                $this->task->log(var_export($r, true));
+                $this->task->logBlock(var_export($r, true), 'ERROR');
                 $this->jobs['auto_equipment']['repair'][] = $id;
 
                 return;
@@ -485,7 +494,7 @@ class GameClient {
         }
     }
 
-    protected function getAutoEquipmentTotal() {
+    protected function autoEquipmentTotal() {
         return $this->jobs['auto_equipment']['used'] +
                 count($this->jobs['auto_equipment']['repair']) +
                 count($this->jobs['auto_equipment']['repairing']) +
@@ -496,22 +505,22 @@ class GameClient {
 
     public function getTimeout() {
         if (isset($this->jobs['auto_equipment'])) {
-            $this->task->log(sprintf('used: %u, repair: %u, repairing: %u, upgrade: %u, craft1a: %u, craft1b: %u, total: %u', $this->jobs['auto_equipment']['used'], count($this->jobs['auto_equipment']['repair']), count($this->jobs['auto_equipment']['repairing']), count($this->jobs['auto_equipment']['upgrade']), count($this->jobs['auto_equipment']['craft1a']), count($this->jobs['auto_equipment']['craft1b']), $this->getAutoEquipmentTotal()));
+            $this->task->log(sprintf('used: %u, repair: %u, repairing: %u, upgrade: %u, craft1a: %u, craft1b: %u, total: %u', $this->jobs['auto_equipment']['used'], count($this->jobs['auto_equipment']['repair']), count($this->jobs['auto_equipment']['repairing']), count($this->jobs['auto_equipment']['upgrade']), count($this->jobs['auto_equipment']['craft1a']), count($this->jobs['auto_equipment']['craft1b']), $this->autoEquipmentTotal()));
 
             if (count($this->jobs['auto_equipment']['repair'])) {
-                return 0;
+                return 1;
             }
             if (count($this->jobs['auto_equipment']['upgrade'])) {
-                return 0;
+                return 1;
             }
             if (count($this->jobs['auto_equipment']['craft1a']) >= 10) {
-                return 0;
+                return 1;
             }
             if (count($this->jobs['auto_equipment']['craft1b']) >= 5) {
-                return 0;
+                return 1;
             }
             if ($this->jobs['auto_equipment']['next'] < time()) {
-                return 0;
+                return 1;
             }
 
             return $this->jobs['auto_equipment']['next'] - time();
@@ -581,7 +590,9 @@ class gameProxyTask extends sfBaseTask {
             new sfCommandOption('env', null, sfCommandOption::PARAMETER_REQUIRED, 'The environment', 'dev'),
             new sfCommandOption('connection', null, sfCommandOption::PARAMETER_REQUIRED, 'The connection name', 'doctrine')
         ));
-
+        
+//        $this->dispatcher->connect('task.logBlock', array($this, 'listenLogBlock'));
+        
         $this->namespace = 'game';
         $this->name = 'proxy';
         $this->briefDescription = '';
@@ -652,7 +663,7 @@ EOF;
 
 //            $this->logSection('SELECT', $timeout === null ? 'inf' : $timeout);
 
-            if (socket_select($r_sock, $w_sock, $e_sock, $timeout) != 0) {
+            if (socket_select($r_sock, $w_sock, $e_sock, $timeout, $timeout === 0 ? 500 : 0) != 0) {
                 if (in_array($socket, $r_sock)) {
                     // new peer connection;
                     $this->logBlock('new connection', 'INFO');
@@ -672,7 +683,7 @@ EOF;
 
                         $peer->ibuf .= $d;
                         if (strpos($peer->ibuf, "\n")) {
-                            $peer->obuf = $this->processPeerMessage(json_decode($peer->ibuf, true));
+                            $peer->obuf = $this->peerMessage(json_decode($peer->ibuf, true));
                             if (strlen($peer->obuf) == 0) {
                                 $peer->disconnect();
                                 unset($this->peer[$i]);
@@ -709,7 +720,7 @@ EOF;
         }
     }
 
-    protected function processPeerMessage($data) {
+    protected function peerMessage($data) {
         switch ($data['cmd']) {
             case 'status':
                 $this->logSection('status', "for uid = {$data['uid']}");
