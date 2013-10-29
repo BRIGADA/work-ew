@@ -117,8 +117,10 @@ class commonActions extends sfActions
         $this->forward404Unless($path);
         
         $query = $request->getParameter('query', array());
+
+        $proxy = $request->getParameter('proxy', false);
+        $result = $request->getMethod() == sfWebRequest::POST ? $this->getUser()->RPOST($path, $query, $proxy) : $this->getUser()->RGET($path, $query, $proxy);
         
-        $result = $request->getMethod() == sfWebRequest::POST ? $this->getUser()->RPOST($path, $query) : $this->getUser()->RGET($path, $query);
         $this->forward404Unless($result, 'FETCH FAILED');
         
         foreach($request->getParameter('replace', array()) as $replace) {

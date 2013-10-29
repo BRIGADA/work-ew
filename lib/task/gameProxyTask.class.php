@@ -60,7 +60,7 @@ class GameClient {
         $this->task = $task;
 
         curl_setopt($this->curl, CURLOPT_CONNECTTIMEOUT, 5);
-        curl_setopt($this->curl, CURLOPT_TIMEOUT, 10);
+        curl_setopt($this->curl, CURLOPT_TIMEOUT, 30);
         curl_setopt($this->curl, CURLOPT_RETURNTRANSFER, true);
     }
 
@@ -383,6 +383,7 @@ class GameClient {
     public function job() {
 
         if (isset($this->jobs['auto_equipment'])) {
+
             if (time() >= $this->jobs['auto_equipment']['next']) {
                 $r = $this->GET('/api/player/equipment');
 
@@ -396,6 +397,9 @@ class GameClient {
                 }
                 return;
             }
+
+            $this->task->log(sprintf('used: %u, repair: %u, repairing: %u, upgrade: %u, craft1a: %u, craft1b: %u, total: %u', $this->jobs['auto_equipment']['used'], count($this->jobs['auto_equipment']['repair']), count($this->jobs['auto_equipment']['repairing']), count($this->jobs['auto_equipment']['upgrade']), count($this->jobs['auto_equipment']['craft1a']), count($this->jobs['auto_equipment']['craft1b']), $this->autoEquipmentTotal()));
+            
             // craft1a
             if (count($this->jobs['auto_equipment']['craft1a']) >= 10) {
                 $ids = array_splice($this->jobs['auto_equipment']['craft1a'], 0, 10);
@@ -483,10 +487,17 @@ class GameClient {
 
                         return;
                     }
-//                    $this->task->log(isset($d['resonse']['errors']))
+                    elseif(isset($d['response']['errors'])) {
+                        $this->task->logBlock($d['response']['errors'], 'ERROR');
+                    }
+                    else {
+                        $this->task->logBlock($r, 'ERROR');
+                    }
                 }
-
-                $this->task->logBlock(var_export($r, true), 'ERROR');
+                else {
+                    $this->task->logBlock(var_export($r, true), 'ERROR');
+                }
+                
                 $this->jobs['auto_equipment']['repair'][] = $id;
 
                 return;
@@ -505,8 +516,6 @@ class GameClient {
 
     public function getTimeout() {
         if (isset($this->jobs['auto_equipment'])) {
-            $this->task->log(sprintf('used: %u, repair: %u, repairing: %u, upgrade: %u, craft1a: %u, craft1b: %u, total: %u', $this->jobs['auto_equipment']['used'], count($this->jobs['auto_equipment']['repair']), count($this->jobs['auto_equipment']['repairing']), count($this->jobs['auto_equipment']['upgrade']), count($this->jobs['auto_equipment']['craft1a']), count($this->jobs['auto_equipment']['craft1b']), $this->autoEquipmentTotal()));
-
             if (count($this->jobs['auto_equipment']['repair'])) {
                 return 1;
             }

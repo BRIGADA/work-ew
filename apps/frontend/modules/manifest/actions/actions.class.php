@@ -17,9 +17,30 @@ class manifestActions extends sfActions
      * @param sfRequest $request
      *            A request object
      */
-    public function executeIndex(sfWebRequest $request)
+    public function executeIndex()
     {
-        $this->forward('default', 'module');
+    }
+    
+    public function executeTranslation($request) {
+//        parent::execute($request);
+        return sfView::HEADER_ONLY;
+    }
+
+
+    public function executeTrans(sfWebRequest $request)
+    {
+        $locale = $request->getParameter('locale', ['en', 'ru']);
+        foreach($locale as $lang) {
+            $r = $this->getUser()->PGET('/api/manifest/translations', ['locale'=>$lang]);
+            $this->forward404Unless($r, "{$lang} FAILED");
+            
+            $r = preg_replace('/<<p>><\/<p>>/', '', $r);
+            
+            file_put_contents(sfConfig::get('sf_upload_dir')."/trans.{$lang}.xml", $r);
+        }
+        
+        $this->getResponse()->setContentType('application/json');
+        return $this->renderText(json_encode(true));
     }
 
     public function executeItems(sfWebRequest $request)
