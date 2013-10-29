@@ -119,69 +119,30 @@ class myUser extends sfBasicSecurityUser
         curl_close($ch);
         return $result;
     }
-
-    public function ProxyGET($path, $query = array())
+    
+    public function PGET($path, $query = array())
     {
-        $host = $this->getAttribute('host', null, 'player/data');
-        $user_id = $this->getAttribute('user_id', null, 'player/data');
+        $request = array();
+        $request['uid'] = $this->getAttribute('user_id', null, 'player/data');
+        $request['cmd'] = 'post';
+        $request['path'] = $path;
+        $request['query'] = $query;
         
-        $query['meltdown'] = MeltdownTable::getCurrent();
-        $query['reactor'] = $this->getAttribute('reactor', null, 'player/data');
-        $query['user_id'] = $user_id;
-        $query['_session_id'] = $this->getAttribute('_session_id', null, 'player/data');
+        return $this->proxy($request, 10);
+    }
+    
+    public function PPOST($path, $query = array())
+    {
+        $request = array();
+        $request['uid'] = $this->getAttribute('user_id', null, 'player/data');
+        $request['cmd'] = 'post';
+        $request['path'] = $path;
+        $request['query'] = $query;
         
-        return $this->proxy('get', array(
-            'host' => $host,
-            'path' => $path,
-            'query' => $query,
-            'cookie' => $user_id,
-            'useragent' => $_SERVER['HTTP_USER_AGENT']
-        ));
+        return $this->proxy($request, 10);
     }
 
-    public function ProxyPOST($path, $query = array())
-    {
-        $host = $this->getAttribute('host', null, 'player/data');
-        $user_id = $this->getAttribute('user_id', null, 'player/data');
-        
-        $query['meltdown'] = MeltdownTable::getCurrent();
-        $query['reactor'] = $this->getAttribute('reactor', null, 'player/data');
-        $query['user_id'] = $this->getAttribute('user_id', null, 'player/data');
-        $query['_session_id'] = $this->getAttribute('_session_id', null, 'player/data');
-        $query['testCount'] = $this->getAttribute('testCount', 1, 'player/data');
-        
-        $response = $this->proxy('post', array(
-            'host' => $host,
-            'path' => $path,
-            'query' => $query,
-            'cookie' => $user_id,
-            'useragent' => $_SERVER['HTTP_USER_AGENT']
-        ));
-        
-        if ($response !== NULL) {
-            $this->setAttribute('testCount', $this->getAttribute('testCount', 1, 'player/data') + 1, 'player/data');
-        }
-        return $response;
-    }
-
-    public function proxy($command, $data)
-    {
-        $data['cmd'] = $command;
-        
-        $s = socket_create(AF_UNIX, SOCK_STREAM, 0);
-        $f = serialize($data);
-        if (! socket_connect($s, '/tmp/edgeworld-http.sock')) {
-            die('socket_connect');
-        }
-        $w = socket_write($s, strlen($f) . "\n" . $f);
-        $r = socket_read($s, 10, PHP_NORMAL_READ);
-        $l = intval($r);
-        $r = unserialize(socket_read($s, $l));
-        socket_close($s);
-        return $r;
-    }
-
-    public function PROXY2($request, $timeout = NULL)
+    public function proxy($request, $timeout = NULL)
     {
         $socket = socket_create(AF_UNIX, SOCK_STREAM, 0);
         if (! @socket_connect($socket, '/tmp/edgeworld-proxy.sock')) {

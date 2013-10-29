@@ -42,7 +42,7 @@ class commonActions extends sfActions
     	$r['user_id'] = $this->getUser()->getAttribute('user_id', null, 'player/data');
     	$r['useragent'] = $_SERVER['HTTP_USER_AGENT'];
     	 
-    	return $this->renderText(var_export($this->getUser()->PROXY2($r, 10), true));    	
+    	return $this->renderText(var_export($this->getUser()->proxy($r, 10), true));    	
     }
 
     public function executeStats()
