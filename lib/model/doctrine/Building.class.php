@@ -12,4 +12,12 @@
  */
 class Building extends BaseBuilding
 {
+    public function getStat($stat)
+    {
+        $result = array();
+        foreach($this->levels as $l) {
+            $result[] = (isset($l->stats) && isset($l->stats[$stat])) ? $l->stats[$stat] : null;
+        }
+        return $result;
+    }
 }

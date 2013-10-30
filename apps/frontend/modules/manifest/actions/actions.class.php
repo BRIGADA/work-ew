@@ -416,11 +416,36 @@ class manifestActions extends sfActions
     }
     
     public function executeBuildings() {
+        $this->buildings = Doctrine::getTable('Building')->findAll();
     }
     
     public function executeBuilding(sfWebRequest $request) {
         $type = $request->getParameter('type');
         $this->forward404Unless($type);
+        
+        $this->building = Doctrine::getTable('Building')
+                ->createQuery('b')
+                ->leftJoin('b.levels l INDEX BY l.level')
+//                ->select('b.*, l.*')
+                ->where('b.type = ?', $type)
+                ->fetchOne();
+        
+        if($request->isXmlHttpRequest()) {
+            $this->getResponse()->setContentType('application/json');
+            return $this->renderText(json_encode($this->building->toArray(), JSON_NUMERIC_CHECK));
+        }
+
+        $this->stats = array();        
+        
+        foreach ($this->building->levels as $level) {
+            foreach($level->stats as $stat => $value)
+            {
+                if(!in_array($stat, $this->stats) && ($value != 0)) {
+                    $this->stats[] = $stat;
+                }
+            }
+        }
+        
     }
     
     public function executeBuildingUpdate(sfWebRequest $request) {

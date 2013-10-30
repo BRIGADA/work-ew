@@ -45,6 +45,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="<?php echo url_for('manifest/index') ?>">Главная</a></li>
                                     <li class="divider"></li>
+                                    <li><a href="<?php echo url_for('@manifest-buildings') ?>">Здания</a></li>
                                     <li><a href="<?php echo url_for('@manifest-items') ?>">Предметы</a></li>
                                     <li><a href="<?php echo url_for('@manifest-units') ?>">Юниты</a></li>
                                     <li><a href="<?php echo url_for('@manifest-campaigns') ?>">Компании</a></li>

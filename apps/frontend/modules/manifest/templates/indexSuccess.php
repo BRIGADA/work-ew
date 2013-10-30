@@ -143,7 +143,7 @@
                             type: 'post',
                             success: function(r) {
                                 $('#' + b.element + ' .progress > .bar').css('width', ((index + 1) * 100 / manifest[b.element].length) + '%');
-                                return;
+//                                return;
                                 updateElement(index + 1);
                             },
                             error: function() {
