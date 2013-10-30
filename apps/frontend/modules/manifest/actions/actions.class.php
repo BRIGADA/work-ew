@@ -35,6 +35,7 @@ class manifestActions extends sfActions
             $this->forward404Unless($r, "{$lang} FAILED");
             
             $r = preg_replace('/<<p>><\/<p>>/', '', $r);
+            $r = preg_replace('/#ITEM-LIST#/', 'ITEM_LIST', $r);
             
             file_put_contents(sfConfig::get('sf_upload_dir')."/trans.{$lang}.xml", $r);
         }
@@ -190,6 +191,14 @@ class manifestActions extends sfActions
             }
         }
     }
+    
+    public function executeUnitUpdate(sfWebRequest $request)
+    {
+        $type = $request->getParameter('type');
+        $this->forward404Unless($type);
+        
+//        $record = 
+    }
 
     public function executeCampaigns(sfWebRequest $request)
     {
@@ -264,17 +273,19 @@ class manifestActions extends sfActions
         $this->forward404Unless($this->general);
     }
 
-    public function executeGeneralsUpdate(sfWebRequest $request)
+    public function executeGeneralUpdate(sfWebRequest $request)
     {
         $this->forward404Unless($request->isMethod(sfWebRequest::POST), 'Only POST');
-        $data = $request->getParameter('general', 'Where data?');
-        $this->forward404Unless($data);
+        $type = $request->getParameter('type');
+        $this->forward404Unless($type);
         
-        $record = GeneralTable::getInstance()->findOneBy('type', $data['type']);
+        $record = GeneralTable::getInstance()->findOneBy('type', $type);
         if (! $record) {
             $record = new General();
+            $record->type = $type;
         }
-        $record->fromArray($data);
+        $this->getLogger()->debug(var_export($request->getParameter('levels'), true));
+        $record->levels->fromArray(json_decode(json_encode($request->getParameter('levels'), JSON_NUMERIC_CHECK), true));
         $record->save();
         return sfView::HEADER_ONLY;
     }
@@ -402,5 +413,35 @@ class manifestActions extends sfActions
         $this->recipe = Doctrine::getTable('CraftingRecipe')->findOneBy('name', $name);
         $this->forward404Unless($this->recipe);
         
+    }
+    
+    public function executeBuildings() {
+    }
+    
+    public function executeBuilding(sfWebRequest $request) {
+        $type = $request->getParameter('type');
+        $this->forward404Unless($type);
+    }
+    
+    public function executeBuildingUpdate(sfWebRequest $request) {
+        $value = $request->getParameter('value');
+        $this->forward404Unless($value);
+        
+        $data = json_decode($value, true);
+        
+        $record = Doctrine::getTable('Building')->findOneBy('type', $data['type']);
+        if(!$record) {
+            $record = new Building();
+            $record->type = $data['type'];
+        }
+        
+        $record->size_x = $data['size'][0];
+        $record->size_y = $data['size'][1];
+        
+        $record->levels->fromArray($data['levels']);
+        
+        $record->save();
+        
+        return sfView::HEADER_ONLY;
     }
 }

@@ -24,3 +24,5 @@
 		</ul>
 	</div>
 </div>
+
+<?php var_dump($general->levels->toArray()->getRawValue()) ?>

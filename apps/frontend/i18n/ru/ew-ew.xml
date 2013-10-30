@@ -5,1946 +5,1946 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>under-siege</source>
-        <target>&#x411;&#x430;&#x437;&#x430; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x432; &#x43E;&#x441;&#x430;&#x434;&#x435;</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>request.to.join</source>
-        <target>&#x41E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x430; &#x432;&#x441;&#x442;&#x443;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x435;</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>common.training-cost</source>
-        <target>&#x421;&#x442;&#x43E;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x43E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F;</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>report.you.attacked.lbl</source>
-        <target>&#x412;&#x44B; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43B;&#x438;:</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>mission.filter.construction</source>
-        <target>&#x421;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x442;&#x432;&#x43E;</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>max-level-benefits.title</source>
-        <target>Max Level Bonus</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>common.members</source>
-        <target>&#x427;&#x43B;&#x435;&#x43D;&#x43E;&#x432;</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>alli.view.descr</source>
-        <target>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>alliance-log.attacked</source>
-        <target>&#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43D;</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>common.terms</source>
-        <target>&#x423;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x44F;</target>
-      </trans-unit>
-      <trans-unit id="11">
-        <source>train.err.time-min</source>
-        <target>&#x412;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x43E;&#x431;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x43F;&#x43E; &#x43A;&#x440;&#x430;&#x439;&#x43D;&#x435;&#x439; &#x43C;&#x435;&#x440;&#x435; 1 &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x443;</target>
-      </trans-unit>
-      <trans-unit id="12">
-        <source>edit.alliance</source>
-        <target>&#x420;&#x435;&#x434;&#x430;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
-      </trans-unit>
-      <trans-unit id="13">
-        <source>common.reject.all</source>
-        <target>&#x41E;&#x442;&#x43A;&#x43B;&#x43E;&#x43D;&#x438;&#x442;&#x44C; &#x432;&#x441;&#x435;</target>
-      </trans-unit>
-      <trans-unit id="14">
-        <source>beginner-base.best-deal</source>
-        <target>&#x41B;&#x443;&#x447;&#x448;&#x430;&#x44F; &#x441;&#x434;&#x435;&#x43B;&#x43A;&#x430;</target>
-      </trans-unit>
-      <trans-unit id="15">
-        <source>crafting.craft-successful</source>
-        <target>&#x41F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;!</target>
-      </trans-unit>
-      <trans-unit id="16">
-        <source>mapinfo.score-tooltip</source>
-        <target>&#x421;&#x443;&#x43C;&#x43C;&#x43E;&#x439; &#x43E;&#x447;&#x43A;&#x43E;&#x432; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x443;&#x43C;&#x43C;&#x430; &#x432;&#x441;&#x435;&#x445; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;&#x439; &#x431;&#x430;&#x437; &#x43D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x435;.</target>
-      </trans-unit>
-      <trans-unit id="17">
-        <source>event.level-nine.content1</source>
-        <target>The next level of Edgeworld warfare has arrived!</target>
-      </trans-unit>
-      <trans-unit id="18">
-        <source>event.level-nine.content2</source>
-        <target>Upgrade your buildings to Level 9 and research Level 9 units in the Tech Lab.</target>
-      </trans-unit>
-      <trans-unit id="19">
-        <source>crafting.input-basic</source>
-        <target>&#x41E;&#x431;&#x44B;&#x447;&#x43D;&#x44B;&#x439;</target>
-      </trans-unit>
-      <trans-unit id="20">
-        <source>event.level-nine.content3</source>
-        <target>Upgrade your Command Center</target>
-      </trans-unit>
-      <trans-unit id="21">
-        <source>event.level-nine.content4</source>
-        <target>NOW!</target>
-      </trans-unit>
-      <trans-unit id="22">
-        <source>campaign.brawler1.name</source>
-        <target>&#x412;&#x437;&#x433;&#x43B;&#x44F;&#x434; &#x437;&#x430;&#x431;&#x438;&#x44F;&#x43A;&#x438;
-</target>
-      </trans-unit>
-      <trans-unit id="23">
-        <source>click.train</source>
-        <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43E;&#x431;&#x443;&#x447;&#x438;&#x442;&#x44C;</target>
-      </trans-unit>
-      <trans-unit id="24">
         <source>simulation.boost-effect</source>
         <target>&#x423;&#x412;&#x415;&#x41B;&#x418;&#x427;&#x418;&#x422;&#x415;&#x41B;&#x418; &#x42D;&#x424;&#x424;&#x415;&#x41A;&#x422;&#x41E;&#x412;</target>
       </trans-unit>
-      <trans-unit id="25">
+      <trans-unit id="2">
         <source>common.to</source>
         <target>&#x41A;</target>
       </trans-unit>
-      <trans-unit id="26">
+      <trans-unit id="3">
         <source>bunker-garrison.current-level</source>
         <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; +</target>
       </trans-unit>
-      <trans-unit id="27">
+      <trans-unit id="4">
         <source>alliance.leave.appt</source>
         <target>&#x422;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43B;&#x438;&#x434;&#x435;&#x440;&#x430;, &#x43F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44C; &#x441;&#x432;&#x43E;&#x439; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;.</target>
       </trans-unit>
-      <trans-unit id="28">
+      <trans-unit id="5">
         <source>campaign.pulse3.name</source>
         <target>&#x422;&#x430;&#x43D;&#x43A;&#x438;, &#x442;&#x430;&#x43D;&#x43A;&#x438;, &#x442;&#x430;&#x43D;&#x43A;&#x438;</target>
       </trans-unit>
-      <trans-unit id="29">
+      <trans-unit id="6">
         <source>common.day.fri</source>
         <target>&#x41F;&#x442;</target>
       </trans-unit>
-      <trans-unit id="30">
+      <trans-unit id="7">
         <source>create.items.received</source>
         <target>&#x422;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x435; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x44B;!</target>
       </trans-unit>
-      <trans-unit id="31">
+      <trans-unit id="8">
         <source>battle-report.nothing</source>
         <target>&#x41D;&#x438;&#x447;&#x435;&#x433;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="32">
+      <trans-unit id="9">
         <source>chat.ticker.on-sale</source>
         <target>&#x420;&#x435;&#x43A;&#x43E;&#x43C;&#x435;&#x43D;&#x434;&#x443;&#x435;&#x43C;&#x44B;&#x435; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x44B;:  </target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="10">
         <source>simulation.boost-xp</source>
         <target>&#x423;&#x412;&#x415;&#x41B;&#x418;&#x427;&#x418;&#x422;&#x415;&#x41B;&#x418; &#x41E;&#x41E;</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="11">
         <source>mission.filter.production</source>
         <target>&#x41F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x441;&#x442;&#x432;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="12">
         <source>main-base.scouting-tooltip</source>
         <target>	&#x420;&#x430;&#x437;&#x432;&#x435;&#x434;&#x430;&#x442;&#x44C; &#x433;&#x43B;&#x430;&#x432;&#x43D;&#x443;&#x44E; &#x431;&#x430;&#x437;&#x443;</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="13">
         <source>common.actions</source>
         <target>&#x414;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="14">
         <source>alliance.join.conf</source>
         <target>&#x422;&#x44B; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x445;&#x43E;&#x447;&#x435;&#x448;&#x44C; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x44D;&#x442;&#x43E;&#x43C;&#x443; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;:</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="15">
         <source>mobile.help.tip.content</source>
         <target>&#x423;&#x436;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E;!
 </target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="16">
         <source>common.month.jul</source>
         <target>&#x418;&#x44E;&#x43B;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="17">
         <source>common.month.jun</source>
         <target>&#x418;&#x44E;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="18">
         <source>loot-drop.attack-faction</source>
         <target>&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x431;&#x43E;&#x438; &#x43F;&#x440;&#x438;&#x43D;&#x43E;&#x441;&#x44F;&#x442; &#x434;&#x43E;&#x431;&#x44B;&#x447;&#x443;</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="19">
         <source>error.no.errstring</source>
         <target>&#x427;&#x442;&#x43E;-&#x442;&#x43E; &#x43F;&#x43E;&#x448;&#x43B;&#x43E; &#x43D;&#x435; &#x442;&#x430;&#x43A; &#x438; &#x442;&#x432;&#x43E;&#x439; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x43D;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x438; &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x443; &#x438;&#x43B;&#x438; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x438; &#x43E;&#x431; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="20">
         <source>alliance.leave.cooldown</source>
         <target>&#x41F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x430; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430; &#x442;&#x440;&#x435;&#x431;&#x443;&#x44E;&#x442; 72-&#x447;&#x430;&#x441;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x440;&#x44B;&#x432;&#x430;, &#x43F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x432;&#x44B; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x43D;&#x43E; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; #ALLIANCE_NAME#
 
 &#x412;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438; &#x43E;&#x441;&#x442;&#x430;&#x43B;&#x43E;&#x441;&#x44C;: #COOLDOWN#</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="21">
         <source>common.structure</source>
         <target>&#x417;&#x434;&#x430;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="22">
         <source>mobile.current-login.title</source>
         <target>KABAM.COM ID</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="23">
         <source>go-to-kabam.link</source>
         <target/>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="24">
         <source>alli.msg</source>
         <target>&#x421;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="25">
         <source>common.submit</source>
         <target>&#x41E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="26">
         <source>common.search</source>
         <target>&#x41F;&#x43E;&#x438;&#x441;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="27">
         <source>common.total</source>
         <target>&#x412;&#x441;&#x435;&#x433;&#x43E; &#x41E;&#x41E;:</target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="28">
         <source>store.massopen.equipmentcapreached</source>
         <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;, &#x434;&#x43B;&#x44F; &#x43E;&#x431;&#x43E;&#x440;&#x443;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x435;&#x442; &#x43C;&#x435;&#x441;&#x442;&#x430;. &#x423;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x435; &#x447;&#x430;&#x441;&#x442;&#x44C; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x435;&#x439; &#x432; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x43E;&#x43C; &#x41D;&#x418;&#x418;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x431;&#x44B;&#x43B;&#x43E; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x44B;&#x435; &#x44F;&#x449;&#x438;&#x43A;&#x438;.</target>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="29">
         <source>under-siege-by</source>
         <target>&#x411;&#x430;&#x437;&#x443; &#x43E;&#x441;&#x430;&#x436;&#x434;&#x430;&#x435;&#x442;: </target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="30">
         <source>common.buildings.lost</source>
         <target>&#x417;&#x434;&#x430;&#x43D;&#x438;&#x439; &#x43F;&#x43E;&#x442;&#x435;&#x440;&#x44F;&#x43D;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="31">
         <source>common.chat.settings</source>
         <target>&#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x447;&#x430;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="32">
         <source>error.cannot-train-here</source>
         <target>	&#x412;&#x44B; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43E;&#x431;&#x443;&#x447;&#x430;&#x442;&#x44C; &#x44D;&#x442;&#x438; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B; &#x43D;&#x430; &#x44D;&#x442;&#x43E;&#x439; &#x431;&#x430;&#x437;&#x435;</target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="33">
         <source>chat.global</source>
         <target>&#x413;&#x43B;&#x43E;&#x431;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x447;&#x430;&#x442;</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="34">
         <source>mobile.blue-light-special.title</source>
         <target>&#x41F;&#x41B;&#x410;&#x422;&#x418;&#x41D;&#x41E;&#x412;&#x410;&#x42F; &#x41D;&#x410;&#x413;&#x420;&#x410;&#x414;&#x410;</target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="35">
         <source>common.xp.gained.lbl</source>
         <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x41E;&#x41E;:</target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="36">
         <source>error.cannot-research-here</source>
         <target>&#x412;&#x44B; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x44D;&#x442;&#x443; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x443; &#x432; &#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x439; &#x431;&#x430;&#x437;&#x435;</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="37">
         <source>train.inf.bld</source>
         <target>&#x422;&#x44B; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x433; &#x43B;&#x438;&#x43C;&#x438;&#x442;&#x430; &#x432; &#x43E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x438; &#x43F;&#x435;&#x445;&#x43E;&#x442;&#x44B;. &#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43A;&#x430;&#x437;&#x430;&#x440;&#x43C; &#x438;&#x43B;&#x438; &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x44C; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x435; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="38">
         <source>common.xp.boost.lbl</source>
         <target>&#x411;&#x43E;&#x43D;&#x443;&#x441; &#x41E;&#x41E;:</target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="39">
         <source>report.you.attacked</source>
         <target>&#x412;&#x44B; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="63">
+      <trans-unit id="40">
         <source>colony.aurora-one.scouting-tooltip</source>
         <target>	&#x420;&#x430;&#x437;&#x432;&#x435;&#x434;&#x430;&#x442;&#x44C; &#x43A;&#x43E;&#x43B;&#x43E;&#x43D;&#x438;&#x44E; &#x410;&#x432;&#x440;&#x43E;&#x440;&#x430;-1</target>
       </trans-unit>
-      <trans-unit id="64">
+      <trans-unit id="41">
         <source>convert-resource.done</source>
         <target>&#x420;&#x415;&#x421;&#x423;&#x420;&#x421;&#x42B; &#x41F;&#x420;&#x415;&#x41E;&#x411;&#x420;&#x410;&#x417;&#x41E;&#x412;&#x410;&#x41D;&#x42B;</target>
       </trans-unit>
-      <trans-unit id="65">
+      <trans-unit id="42">
         <source>common.recruit</source>
         <target>	&#x41D;&#x43E;&#x432;&#x43E;&#x431;&#x440;&#x430;&#x43D;&#x435;&#x446;</target>
       </trans-unit>
-      <trans-unit id="66">
+      <trans-unit id="43">
         <source>transfer-troops.transfer-done</source>
         <target>	&#x412;&#x41E;&#x419;&#x421;&#x41A;&#x410; &#x200B;&#x200B;&#x41F;&#x415;&#x420;&#x415;&#x41C;&#x415;&#x429;&#x415;&#x41D;&#x42B;</target>
       </trans-unit>
-      <trans-unit id="67">
+      <trans-unit id="44">
         <source>common.sim-instruct</source>
         <target>&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x430;&#x447;&#x430;&#x442;&#x44C; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x446;&#x438;&#x44E; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="68">
+      <trans-unit id="45">
         <source>announcement.context1</source>
         <target>&#x421;&#x422;&#x418;&#x41C;&#x423;&#x41B;&#x42F;&#x422;&#x41E;&#x420; &#x421;&#x41E;&#x41B;&#x414;&#x410;&#x422;</target>
       </trans-unit>
-      <trans-unit id="69">
+      <trans-unit id="46">
         <source>announcement.context2</source>
         <target>&#x414;&#x430;&#x439; &#x441;&#x432;&#x43E;&#x438;&#x43C; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430;&#x43C; &#x43F;&#x440;&#x435;&#x438;&#x43C;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x432; &#x431;&#x43E;&#x44E;, &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432; &#x438;&#x445; &#x43C;&#x43E;&#x449;&#x44C; &#x43D;&#x430; 25% &#x432; &#x442;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x435; 60 &#x43C;&#x438;&#x43D;&#x443;&#x442;!
 
 </target>
       </trans-unit>
-      <trans-unit id="70">
+      <trans-unit id="47">
         <source>campaign.shrike3.name</source>
         <target>&#x412;&#x441;&#x435; &#x438;&#x43B;&#x438; &#x43D;&#x438;&#x447;&#x435;&#x433;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="71">
+      <trans-unit id="48">
         <source>beginner-base.deal3-price</source>
         <target>3499</target>
       </trans-unit>
-      <trans-unit id="72">
+      <trans-unit id="49">
         <source>mobile.sector-selector.change-name</source>
         <target>&#x421;&#x41C;&#x415;&#x41D;&#x418;&#x422;&#x42C; &#x418;&#x41C;&#x42F;</target>
       </trans-unit>
-      <trans-unit id="73">
+      <trans-unit id="50">
         <source>common.eventended</source>
         <target>&#x410;&#x43A;&#x446;&#x438;&#x44F; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x447;&#x438;&#x43B;&#x430;&#x441;&#x44C;.</target>
       </trans-unit>
-      <trans-unit id="74">
+      <trans-unit id="51">
         <source>common.remove</source>
         <target>&#x423;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="75">
+      <trans-unit id="52">
         <source>train.owned.lbl</source>
         <target>&#x418;&#x43C;&#x435;&#x435;&#x442;&#x441;&#x44F;:</target>
       </trans-unit>
-      <trans-unit id="76">
+      <trans-unit id="53">
         <source>alliance.not.in</source>
         <target>&#x422;&#x44B; &#x43D;&#x435; &#x432; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x435;!</target>
       </trans-unit>
-      <trans-unit id="77">
+      <trans-unit id="54">
         <source>protection.tooltip.in-activate</source>
         <target>&#x41D;&#x435;&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x430;: &#x411;&#x430;&#x437;&#x430; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43D;&#x430; &#x434;&#x440;&#x443;&#x433;&#x438;&#x43C;&#x438; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430;&#x43C;&#x438; &#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43A;&#x443;&#x43F;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="78">
+      <trans-unit id="55">
         <source>err.train.barracks</source>
         <target>&#x414;&#x43B;&#x44F; &#x43E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x44C; &#x43A;&#x430;&#x437;&#x430;&#x440;&#x43C;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="79">
+      <trans-unit id="56">
         <source>msg.leader</source>
         <target>&#x421;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x43B;&#x438;&#x434;&#x435;&#x440;&#x443;</target>
       </trans-unit>
-      <trans-unit id="80">
+      <trans-unit id="57">
         <source>train.time.lbl</source>
         <target>&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x43E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F;:</target>
       </trans-unit>
-      <trans-unit id="81">
+      <trans-unit id="58">
         <source>map-list.shield-generator.active</source>
         <target>&#x413;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440; &#x449;&#x438;&#x442;&#x430; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="82">
+      <trans-unit id="59">
         <source>group.inv.full</source>
         <target>&#x413;&#x440;&#x443;&#x43F;&#x43F;&#x430; &#x437;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="83">
+      <trans-unit id="60">
         <source>alli.edit.descr</source>
         <target>&#x418;&#x437;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="84">
+      <trans-unit id="61">
         <source>common.select-simstage-tip</source>
         <target>&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; &#x43A;&#x430;&#x43C;&#x43F;&#x430;&#x43D;&#x438;&#x44E; &#x441;&#x43B;&#x435;&#x432;&#x430; &#x438; &#x43D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; &#x436;&#x435;&#x43B;&#x430;&#x435;&#x43C;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x430;&#x447;&#x430;&#x442;&#x44C; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x446;&#x438;&#x44E;. &#x420;&#x430;&#x437;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x443;&#x439;&#x442;&#x435; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x43A;&#x430;&#x43C;&#x43F;&#x430;&#x43D;&#x438;&#x438;, &#x443;&#x43B;&#x443;&#x447;&#x448;&#x430;&#x44F; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x435; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x430; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;.  </target>
       </trans-unit>
-      <trans-unit id="85">
+      <trans-unit id="62">
         <source>simulator.campaign.unlock-at</source>
         <target>&#x41E;&#x442;&#x43A;&#x440;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x430; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;  </target>
       </trans-unit>
-      <trans-unit id="86">
+      <trans-unit id="63">
         <source>common.select-simboost-tip</source>
         <target>&#x41F;&#x43E;&#x432;&#x44B;&#x441;&#x44C;&#x442;&#x435; &#x43E;&#x431;&#x449;&#x435;&#x435; &#x43A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x41E;&#x41E; &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x41E;&#x41E;. &#x41F;&#x43E;&#x432;&#x44B;&#x441;&#x44C;&#x442;&#x435; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B; &#x431;&#x430;&#x437;&#x44B;, &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44F; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x438; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;. &#x427;&#x442;&#x43E;&#x431;&#x44B; &#x43E;&#x442;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x443;&#x441;&#x438;&#x43B;&#x435;&#x43D;&#x438;&#x435;, &#x43D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x41D;&#x430;&#x437;&#x430;&#x434;. &#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x411;&#x438;&#x442;&#x432;&#x430;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x430;&#x447;&#x430;&#x442;&#x44C; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x446;&#x438;&#x44E;.</target>
       </trans-unit>
-      <trans-unit id="87">
+      <trans-unit id="64">
         <source>event.training.complete</source>
         <target>&#x41E;&#x411;&#x423;&#x427;&#x415;&#x41D;&#x418;&#x415; &#x417;&#x410;&#x41A;&#x41E;&#x41D;&#x427;&#x415;&#x41D;&#x41E;</target>
       </trans-unit>
-      <trans-unit id="88">
+      <trans-unit id="65">
         <source>faction.spider.lose</source>
         <target/>
       </trans-unit>
-      <trans-unit id="89">
+      <trans-unit id="66">
         <source>common.transfer</source>
         <target>	&#x41F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="90">
+      <trans-unit id="67">
         <source>mission.filter.all</source>
         <target>&#x412;&#x441;&#x435; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x438;</target>
       </trans-unit>
-      <trans-unit id="91">
+      <trans-unit id="68">
         <source>common.defense-level</source>
         <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="92">
+      <trans-unit id="69">
         <source>mobile.create-kabam-account.create-account</source>
         <target>&#x421;&#x41E;&#x417;&#x414;&#x410;&#x422;&#x42C; &#x423;&#x427;&#x415;&#x422;&#x41D;&#x423;&#x42E; &#x417;&#x410;&#x41F;&#x418;&#x421;&#x42C;</target>
       </trans-unit>
-      <trans-unit id="93">
+      <trans-unit id="70">
         <source>common.sector</source>
         <target>&#x421;&#x435;&#x43A;&#x442;&#x43E;&#x440;</target>
       </trans-unit>
-      <trans-unit id="94">
+      <trans-unit id="71">
         <source>warn.keys.fs</source>
         <target>&#x412; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x435; &#x43F;&#x43E;&#x43B;&#x43D;&#x43E;&#x433;&#x43E; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x430; &#x447;&#x430;&#x442; &#x43D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x435;&#x43D;.</target>
       </trans-unit>
-      <trans-unit id="95">
+      <trans-unit id="72">
         <source>beginner-base.deal2-des</source>
         <target>&#x421;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; 5 &#x443;&#x440;., &#x432; &#x442;&#x43E;&#x43C; &#x447;&#x438;&#x441;&#x43B;&#x435; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440;, &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x43D;&#x44B;&#x439; &#x41D;&#x418;&#x418;, &#x442;&#x435;&#x445;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x41D;&#x418;&#x418;, &#x43A;&#x430;&#x437;&#x430;&#x440;&#x43C;&#x44B;, &#x432;&#x440;&#x430;&#x442;&#x430; &#x438;&#x441;&#x43A;&#x440;&#x438;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;, &#x43F;&#x43E;&#x43B;&#x438;&#x433;&#x43E;&#x43D;, &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x44B;&#x439; &#x41D;&#x418;&#x418;, 18 &#x431;&#x430;&#x448;&#x435;&#x43D; &#x438; &#x43C;&#x43D;&#x43E;&#x433;&#x43E;&#x435; &#x434;&#x440;&#x443;&#x433;&#x43E;&#x435;! &#x411;&#x43E;&#x43B;&#x435;&#x435; 1500 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;&#x439; &#x43E;&#x43F;&#x44B;&#x442;&#x430; &#x431;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x43E;!</target>
       </trans-unit>
-      <trans-unit id="96">
+      <trans-unit id="73">
         <source>bunker-garrison.exceed-limit</source>
         <target>&#x41F;&#x420;&#x415;&#x412;&#x42B;&#x428;&#x415;&#x41D; &#x41B;&#x418;&#x41C;&#x418;&#x422; &#x423;&#x412;&#x415;&#x41B;&#x418;&#x427;&#x415;&#x41D;&#x418;&#x42F; &#x423;&#x420;&#x41E;&#x41D;&#x410;</target>
       </trans-unit>
-      <trans-unit id="97">
+      <trans-unit id="74">
         <source>campaign.new12.name</source>
         <target>&#x412; &#x43E;&#x441;&#x430;&#x434;&#x435; (4-100 &#x442;&#x44B;&#x441;.)</target>
       </trans-unit>
-      <trans-unit id="98">
+      <trans-unit id="75">
         <source>colony.caldera-two</source>
         <target>&#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x430;-2</target>
       </trans-unit>
-      <trans-unit id="99">
+      <trans-unit id="76">
         <source>common.fs.off</source>
         <target>&#x412;&#x44B;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x43F;&#x43E;&#x43B;&#x43D;&#x43E;&#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x440;&#x435;&#x436;&#x438;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="100">
+      <trans-unit id="77">
         <source>showdamagenumbers</source>
         <target>&#x41F;&#x43E;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x442;&#x44C; &#x443;&#x440;&#x43E;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="101">
+      <trans-unit id="78">
         <source>abbr.message</source>
         <target>&#x421;&#x43E;&#x43E;&#x431;&#x449;.</target>
       </trans-unit>
-      <trans-unit id="102">
+      <trans-unit id="79">
         <source>common.play</source>
         <target>&#x418;&#x433;&#x440;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="103">
+      <trans-unit id="80">
         <source>mobile.help.tip.knowledge-base</source>
         <target>&#x411;&#x410;&#x417;&#x410; &#x417;&#x41D;&#x410;&#x41D;&#x418;&#x419;
 </target>
       </trans-unit>
-      <trans-unit id="104">
+      <trans-unit id="81">
         <source>alli.rank.update</source>
         <target>&#x420;&#x430;&#x43D;&#x433; &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x44B;&#x435; 3 &#x447;&#x430;&#x441;&#x430;</target>
       </trans-unit>
-      <trans-unit id="105">
+      <trans-unit id="82">
         <source>loadering.fbase</source>
         <target>&#x417;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x430; &#x431;&#x430;&#x437;&#x44B; &#x444;&#x440;&#x430;&#x43A;&#x446;&#x438;&#x438;...</target>
       </trans-unit>
-      <trans-unit id="106">
+      <trans-unit id="83">
         <source>train.err.days</source>
         <target>&#x434;&#x43D;&#x435;&#x439;</target>
       </trans-unit>
-      <trans-unit id="107">
+      <trans-unit id="84">
         <source>common.month.dec</source>
         <target>&#x414;&#x435;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="108">
+      <trans-unit id="85">
         <source>common.battle-simulations</source>
         <target>&#x421;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x44B; &#x431;&#x438;&#x442;&#x432;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="109">
+      <trans-unit id="86">
         <source>common.help</source>
         <target>&#x421;&#x43F;&#x440;&#x430;&#x432;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="110">
+      <trans-unit id="87">
         <source>error.sync</source>
         <target>Edgeworld &#x43D;&#x435; &#x441;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x438;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D; &#x441; &#x441;&#x435;&#x440;&#x432;&#x435;&#x440;&#x43E;&#x43C;. &#x41F;&#x43E;&#x43F;&#x440;&#x43E;&#x431;&#x443;&#x439; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x443; &#x438; &#x43E;&#x431;&#x440;&#x430;&#x442;&#x438;&#x441;&#x44C; &#x432; &#x441;&#x43B;&#x443;&#x436;&#x431;&#x443; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438;, &#x435;&#x441;&#x43B;&#x438; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x430; &#x43D;&#x435; &#x438;&#x441;&#x447;&#x435;&#x437;&#x43B;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="111">
+      <trans-unit id="88">
         <source>common.outpost</source>
         <target>&#x410;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442;</target>
       </trans-unit>
-      <trans-unit id="112">
+      <trans-unit id="89">
         <source>beginner-base.deal2-price</source>
         <target>499</target>
       </trans-unit>
-      <trans-unit id="113">
+      <trans-unit id="90">
         <source>battle-report.level-too-low</source>
         <target>&#x41D;&#x438;&#x437;&#x43A;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x437;&#x430;&#x449;&#x438;&#x442;&#x43D;&#x438;&#x43A;&#x430;. &#x426;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x432;&#x435;&#x449;&#x438; &#x43D;&#x435; &#x43D;&#x430;&#x439;&#x434;&#x435;&#x43D;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="114">
+      <trans-unit id="91">
         <source>campaign.xmas12.name</source>
         <target>Red Sleigh Down</target>
       </trans-unit>
-      <trans-unit id="115">
+      <trans-unit id="92">
         <source>common.lang</source>
         <target>&#x42F;&#x437;&#x44B;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="116">
+      <trans-unit id="93">
         <source>common.requests</source>
         <target>&#x417;&#x430;&#x43F;&#x440;&#x43E;&#x441;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="117">
+      <trans-unit id="94">
         <source>common.day.thurs</source>
         <target>&#x427;&#x442;</target>
       </trans-unit>
-      <trans-unit id="118">
+      <trans-unit id="95">
         <source>mobile.login-error.pw-too-short</source>
         <target>&#x41F;&#x430;&#x440;&#x43E;&#x43B;&#x44C; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x431;&#x44B;&#x442;&#x44C; &#x434;&#x43B;&#x438;&#x43D;&#x43D;&#x435;&#x435; 7 &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x43E;&#x432;
 </target>
       </trans-unit>
-      <trans-unit id="119">
+      <trans-unit id="96">
         <source>common.report-defboost</source>
         <target>&#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x41E;&#x41E;</target>
       </trans-unit>
-      <trans-unit id="120">
+      <trans-unit id="97">
         <source>common.resources.lost</source>
         <target>&#x423;&#x442;&#x440;&#x430;&#x447;&#x435;&#x43D;&#x43E; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="121">
+      <trans-unit id="98">
         <source>common.defeat</source>
         <target>&#x41F;&#x43E;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="122">
+      <trans-unit id="99">
         <source>mobile.current-login.manage-account</source>
         <target>&#x423;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x439;&#x442;&#x435; &#x441;&#x432;&#x43E;&#x435;&#x439; &#x443;&#x447;&#x435;&#x442;&#x43D;&#x43E;&#x439; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x44C;&#x44E; </target>
       </trans-unit>
-      <trans-unit id="123">
+      <trans-unit id="100">
         <source>common.lbl.level</source>
         <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;:</target>
       </trans-unit>
-      <trans-unit id="124">
+      <trans-unit id="101">
         <source>train.r.space</source>
         <target>&#x41D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x43C;&#x435;&#x441;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="125">
+      <trans-unit id="102">
         <source>msg.to.alliance.members</source>
         <target>&#x414;&#x43B;&#x44F; &#x447;&#x43B;&#x435;&#x43D;&#x43E;&#x432;:</target>
       </trans-unit>
-      <trans-unit id="126">
+      <trans-unit id="103">
         <source>common.forums</source>
         <target>&#x424;&#x43E;&#x440;&#x443;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="127">
+      <trans-unit id="104">
         <source>chat.settings.first</source>
         <target>&#x422;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x441;&#x432;&#x43E;&#x438; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x447;&#x430;&#x442;&#x430;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x44D;&#x442;&#x43E;.</target>
       </trans-unit>
-      <trans-unit id="128">
+      <trans-unit id="105">
         <source>mobile.login-option.title</source>
         <target>&#x421;&#x41E;&#x417;&#x414;&#x410;&#x419;&#x422;&#x415; &#x411;&#x415;&#x421;&#x41F;&#x41B;&#x410;&#x422;&#x41D;&#x423;&#x42E; &#x423;&#x427;&#x415;&#x422;&#x41D;&#x423;&#x42E; &#x417;&#x410;&#x41F;&#x418;&#x421;&#x42C; &#x41D;&#x410; KABAM.COM &#x417;&#x410; &#x421;&#x427;&#x418;&#x422;&#x410;&#x41D;&#x41D;&#x42B;&#x415; &#x421;&#x415;&#x41A;&#x423;&#x41D;&#x414;&#x42B;!</target>
       </trans-unit>
-      <trans-unit id="129">
+      <trans-unit id="106">
         <source>campaign.dragon2.name</source>
         <target>&#x412;&#x437;&#x440;&#x44B;&#x432;&#x44B; &#x432; &#x43D;&#x435;&#x431;&#x435; (10-300 &#x442;&#x44B;&#x441;.)</target>
       </trans-unit>
-      <trans-unit id="130">
+      <trans-unit id="107">
         <source>mobile.payment.free-platinum</source>
         <target>&#x411;&#x415;&#x421;&#x41F;&#x41B;&#x410;&#x422;&#x41D;&#x410;&#x42F; &#x43F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x430;!</target>
       </trans-unit>
-      <trans-unit id="131">
+      <trans-unit id="108">
         <source>train.max.lbl</source>
         <target>&#x41C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x443;&#x43C;:</target>
       </trans-unit>
-      <trans-unit id="132">
+      <trans-unit id="109">
         <source>chat.lvl.scout</source>
         <target>&#x420;&#x430;&#x437;&#x432;&#x435;&#x434;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="133">
+      <trans-unit id="110">
         <source>alliance.inv.lbl.conf</source>
         <target>&#x422;&#x44B; &#x441;&#x43E;&#x431;&#x438;&#x440;&#x430;&#x435;&#x448;&#x44C;&#x441;&#x44F; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x442;&#x44C;:</target>
       </trans-unit>
-      <trans-unit id="134">
+      <trans-unit id="111">
         <source>protection.tooltip.activate</source>
         <target>&#x410;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x430;: &#x411;&#x430;&#x437;&#x430; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43D;&#x430; &#x434;&#x440;&#x443;&#x433;&#x438;&#x43C;&#x438; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430;&#x43C;&#x438;</target>
       </trans-unit>
-      <trans-unit id="135">
+      <trans-unit id="112">
         <source>event.weekend-event.title</source>
         <target>&#x422;&#x415;&#x420;&#x420;&#x418;&#x422;&#x41E;&#x420;&#x418;&#x410;&#x41B;&#x42C;&#x41D;&#x410;&#x42F; &#x412;&#x41E;&#x419;&#x41D;&#x410;</target>
       </trans-unit>
-      <trans-unit id="136">
+      <trans-unit id="113">
         <source>suggest.kabamdotcom.play</source>
         <target>&#x418;&#x433;&#x440;&#x430;&#x439; &#x43D;&#x430; Kabam.com</target>
       </trans-unit>
-      <trans-unit id="137">
+      <trans-unit id="114">
         <source>common.recharge-sims-tip</source>
         <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x435;&#x440;&#x435;&#x437;&#x430;&#x440;&#x44F;&#x434;&#x438;&#x442;&#x44C; &#x44D;&#x43D;&#x435;&#x440;&#x433;&#x438;&#x44E; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x430;</target>
       </trans-unit>
-      <trans-unit id="138">
+      <trans-unit id="115">
         <source>beginner-base.title</source>
         <target>&#x412;&#x42B;&#x411;&#x41E;&#x420; &#x411;&#x410;&#x417;&#x42B;</target>
       </trans-unit>
-      <trans-unit id="139">
+      <trans-unit id="116">
         <source>common.privacy</source>
         <target>&#x41A;&#x43E;&#x43D;&#x444;&#x438;&#x434;&#x435;&#x43D;&#x446;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="140">
+      <trans-unit id="117">
         <source>alliance-log.left</source>
         <target>&#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x43B;</target>
       </trans-unit>
-      <trans-unit id="141">
+      <trans-unit id="118">
         <source>campaign.terraknor1.name</source>
         <target>&#x41E;&#x433;&#x43E;! &#x41E;&#x433;&#x440;&#x43E;&#x43C;&#x43D;&#x44B;&#x435; &#x43E;&#x441;&#x44B; (25-10 &#x442;&#x44B;&#x441;.)</target>
       </trans-unit>
-      <trans-unit id="142">
+      <trans-unit id="119">
         <source>common.deconstructing</source>
         <target>&#x418;&#x434;&#x435;&#x442; &#x440;&#x430;&#x437;&#x431;&#x43E;&#x440;...</target>
       </trans-unit>
-      <trans-unit id="143">
+      <trans-unit id="120">
         <source>train.r.res</source>
         <target>&#x41D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="144">
+      <trans-unit id="121">
         <source>common.day.tues</source>
         <target>&#x412;&#x442;</target>
       </trans-unit>
-      <trans-unit id="145">
+      <trans-unit id="122">
         <source>research.at.tech</source>
         <target>&#x418;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x443;&#x439; &#x432; &#x422;&#x435;&#x445;&#x43B;&#x430;&#x431;&#x435;</target>
       </trans-unit>
-      <trans-unit id="146">
+      <trans-unit id="123">
         <source>load.alliance</source>
         <target>&#x417;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x430; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;...</target>
       </trans-unit>
-      <trans-unit id="147">
+      <trans-unit id="124">
         <source>alliance.leave.plr</source>
         <target>&#x422;&#x44B; &#x443;&#x432;&#x435;&#x440;&#x435;&#x43D;, &#x447;&#x442;&#x43E; &#x445;&#x43E;&#x447;&#x435;&#x448;&#x44C; &#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44C; &#x441;&#x432;&#x43E;&#x439; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;? &#x42D;&#x442;&#x43E; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x435; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x43E;&#x442;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x43E;.</target>
       </trans-unit>
-      <trans-unit id="148">
+      <trans-unit id="125">
         <source>common.attack-at-level</source>
         <target>Attack at level </target>
       </trans-unit>
-      <trans-unit id="149">
+      <trans-unit id="126">
         <source>map.minimap.alpha-badge</source>
         <target>&#x41A;&#x430;&#x440;&#x442;&#x44B; &#x432; &#x43D;&#x430;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x435;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x432; &#x432;&#x435;&#x440;&#x441;&#x438;&#x438; &#x410;&#x43B;&#x44C;&#x444;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="150">
+      <trans-unit id="127">
         <source>common.list</source>
         <target>&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="151">
+      <trans-unit id="128">
         <source>holiday-event.context1</source>
         <target>&#x414;&#x41E;&#x41F;&#x41E;&#x41B;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x410;&#x42F; &#x421;&#x41A;&#x418;&#x414;&#x41A;&#x410; 10%</target>
       </trans-unit>
-      <trans-unit id="152">
+      <trans-unit id="129">
         <source>holiday-event.context2</source>
         <target>&#x414;&#x435;&#x439;&#x441;&#x442;&#x432;&#x443;&#x439;&#x442;&#x435; &#x431;&#x44B;&#x441;&#x442;&#x440;&#x43E;: &#x44D;&#x442;&#x43E; &#x43F;&#x440;&#x435;&#x434;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x447;&#x438;&#x442;&#x441;&#x44F;!</target>
       </trans-unit>
-      <trans-unit id="153">
+      <trans-unit id="130">
         <source>holiday-event.context3</source>
         <target>&#x414;&#x41E;&#x41F;&#x41E;&#x41B;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x410;&#x42F; &#x421;&#x41A;&#x418;&#x414;&#x41A;&#x410; 15%</target>
       </trans-unit>
-      <trans-unit id="154">
+      <trans-unit id="131">
         <source>common.unblock</source>
         <target>&#x420;&#x430;&#x437;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="155">
+      <trans-unit id="132">
         <source>beginner-base.deal1-price</source>
         <target>&#x412;&#x44B;&#x431;&#x440;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="156">
+      <trans-unit id="133">
         <source>common.day.weds</source>
         <target>&#x421;&#x440;</target>
       </trans-unit>
-      <trans-unit id="157">
+      <trans-unit id="134">
         <source>alli.descr</source>
         <target>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;</target>
       </trans-unit>
-      <trans-unit id="158">
+      <trans-unit id="135">
         <source>map.disable</source>
         <target>&#x41A;&#x430;&#x440;&#x442;&#x430; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x430; &#x438;&#x437;-&#x437;&#x430; &#x441;&#x43E;&#x43B;&#x43D;&#x435;&#x447;&#x43D;&#x43E;&#x439; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x440;&#x435;&#x43D;&#x446;&#x438;&#x438;.</target>
       </trans-unit>
-      <trans-unit id="159">
+      <trans-unit id="136">
         <source>crafting.picked</source>
         <target>&#x412;&#x44B;&#x431;&#x440;&#x430;&#x43D;&#x43E;:</target>
       </trans-unit>
-      <trans-unit id="160">
+      <trans-unit id="137">
         <source>mission.filter.combat</source>
         <target>&#x421;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="161">
+      <trans-unit id="138">
         <source>mobile.create-kabam-account.password</source>
         <target>&#x41F;&#x410;&#x420;&#x41E;&#x41B;&#x42C;:</target>
       </trans-unit>
-      <trans-unit id="162">
+      <trans-unit id="139">
         <source>siege.store.err</source>
         <target>&#x422;&#x44B; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F; &#x43A; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x443; &#x432;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43E;&#x441;&#x430;&#x434;&#x44B;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43F;&#x43E;&#x434;&#x43E;&#x436;&#x434;&#x438; &#x43D;&#x435;&#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x434;&#x43E; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x441;&#x430;&#x434;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="163">
+      <trans-unit id="140">
         <source>common.withdraw</source>
         <target>&#x41E;&#x442;&#x432;&#x435;&#x441;&#x442;&#x438; &#x43D;&#x430;&#x437;&#x430;&#x434;</target>
       </trans-unit>
-      <trans-unit id="164">
+      <trans-unit id="141">
         <source>common.leader</source>
         <target>&#x41B;&#x438;&#x434;&#x435;&#x440;</target>
       </trans-unit>
-      <trans-unit id="165">
+      <trans-unit id="142">
         <source>campaign.beginner1.name</source>
         <target>&#x41F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x43A;&#x430; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="166">
+      <trans-unit id="143">
         <source>chat.lbl.allianceinv</source>
         <target>&#x41F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;</target>
       </trans-unit>
-      <trans-unit id="167">
+      <trans-unit id="144">
         <source>alliance-log.promoted-lieutenant</source>
         <target>&#x431;&#x44B;&#x43B; &#x43F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D; &#x434;&#x43E; &#x41B;&#x435;&#x439;&#x442;&#x435;&#x43D;&#x430;&#x43D;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="168">
+      <trans-unit id="145">
         <source>max-level-benefits.1</source>
         <target>5x Damage to troops</target>
       </trans-unit>
-      <trans-unit id="169">
+      <trans-unit id="146">
         <source>block.confirm</source>
         <target>&#x422;&#x44B; &#x443;&#x432;&#x435;&#x440;&#x435;&#x43D;, &#x447;&#x442;&#x43E; &#x445;&#x43E;&#x447;&#x435;&#x448;&#x44C; &#x437;&#x430;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430;? &#x422;&#x44B; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x435; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x443;&#x432;&#x438;&#x434;&#x435;&#x442;&#x44C; &#x435;&#x433;&#x43E; &#x432; &#x447;&#x430;&#x442;&#x435; &#x438;&#x43B;&#x438; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x442;&#x44C; &#x43E;&#x442; &#x43D;&#x435;&#x433;&#x43E; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;.</target>
       </trans-unit>
-      <trans-unit id="170">
+      <trans-unit id="147">
         <source>max-level-benefits.2</source>
         <target>10x Damage to Generals</target>
       </trans-unit>
-      <trans-unit id="171">
+      <trans-unit id="148">
         <source>max-level-benefits.3</source>
         <target>50% Reduced damage from Generals</target>
       </trans-unit>
-      <trans-unit id="172">
+      <trans-unit id="149">
         <source>simulator.report.three-star</source>
         <target>&#x412;&#x441;&#x435; &#x431;&#x430;&#x448;&#x43D;&#x438; &#x443;&#x446;&#x435;&#x43B;&#x435;&#x43B;&#x438;</target>
       </trans-unit>
-      <trans-unit id="173">
+      <trans-unit id="150">
         <source>alliance-log.membership</source>
         <target>&#x427;&#x43B;&#x435;&#x43D;&#x441;&#x442;&#x432;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="174">
+      <trans-unit id="151">
         <source>common.alliances</source>
         <target>&#x410;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="175">
+      <trans-unit id="152">
         <source>map-list.shield-generator.inactive</source>
         <target>&#x413;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440; &#x449;&#x438;&#x442;&#x430; &#x43D;&#x435;&#x430;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="176">
+      <trans-unit id="153">
         <source>mobile.defenseresearchcomplete</source>
         <target>&#x41E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x43D;&#x44B;&#x435; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x44B;. &#x418;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x443;&#x439;&#x442;&#x435; &#x43D;&#x43E;&#x432;&#x44B;&#x435; &#x442;&#x435;&#x445;&#x43D;&#x43E;&#x43B;&#x43E;&#x433;&#x438;&#x438; &#x434;&#x43B;&#x44F; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B; &#x441;&#x432;&#x43E;&#x435;&#x439; &#x431;&#x430;&#x437;&#x44B;!</target>
       </trans-unit>
-      <trans-unit id="177">
+      <trans-unit id="154">
         <source>mobile.beginner-sale.banner.detail</source>
         <target>500 &#x435;&#x434;. &#x43F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x44B; &#x432; &#x431;&#x43E;&#x43D;&#x443;&#x441;&#x43D;&#x44B;&#x445; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x430;&#x445; &#x43F;&#x440;&#x438; &#x43B;&#x44E;&#x431;&#x43E;&#x439; &#x43F;&#x43E;&#x43A;&#x443;&#x43F;&#x43A;&#x435;!
 </target>
       </trans-unit>
-      <trans-unit id="178">
+      <trans-unit id="155">
         <source>common.empty</source>
         <target>&#x41F;&#x443;&#x441;&#x442;&#x43E;&#x439;</target>
       </trans-unit>
-      <trans-unit id="179">
+      <trans-unit id="156">
         <source>defense-simulator.stage-locked</source>
         <target>&#x41D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C; #LEVEL# 
 &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="180">
+      <trans-unit id="157">
         <source>pending-attack.spider.description</source>
         <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;, &#x43D;&#x430;&#x448;&#x438; &#x441;&#x43A;&#x430;&#x43D;&#x435;&#x440;&#x44B; &#x431;&#x44B;&#x43B;&#x438; &#x437;&#x430;&#x43A;&#x43E;&#x434;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x44B;. &#x42F; &#x43D;&#x435; &#x443;&#x432;&#x435;&#x440;&#x435;&#x43D;&#x430; &#x432; &#x43F;&#x440;&#x438;&#x447;&#x438;&#x43D;&#x435;, &#x43D;&#x43E; &#x43F;&#x440;&#x435;&#x434;&#x43B;&#x430;&#x433;&#x430;&#x44E; &#x43F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x43D;&#x430;&#x448;&#x443; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x443;, &#x43D;&#x430; &#x432;&#x441;&#x44F;&#x43A;&#x438;&#x439; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x439;...</target>
       </trans-unit>
-      <trans-unit id="181">
+      <trans-unit id="158">
         <source>factory.unlock</source>
         <target>&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x437;&#x430;&#x432;&#x43E;&#x434;&#x43E;&#x432;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x440;&#x430;&#x437;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="182">
+      <trans-unit id="159">
         <source>gps.title</source>
         <target>&#x41F;&#x43E;&#x438;&#x441;&#x43A; GPS</target>
       </trans-unit>
-      <trans-unit id="183">
+      <trans-unit id="160">
         <source>transfer-troops.destination-staging-space</source>
         <target>&#x412;&#x41C;&#x415;&#x421;&#x422;&#x418;&#x41C;&#x41E;&#x421;&#x422;&#x42C; &#x41A;&#x41E;&#x41D;&#x415;&#x427;&#x41D;&#x41E;&#x413;&#x41E; &#x41F;&#x41B;&#x410;&#x426;&#x414;&#x410;&#x420;&#x41C;&#x410;</target>
       </trans-unit>
-      <trans-unit id="184">
+      <trans-unit id="161">
         <source>common.month.mar</source>
         <target>&#x41C;&#x430;&#x440;&#x442;</target>
       </trans-unit>
-      <trans-unit id="185">
+      <trans-unit id="162">
         <source>event.level-nine.title</source>
         <target>LEVEL 9 IS HERE!</target>
       </trans-unit>
-      <trans-unit id="186">
+      <trans-unit id="163">
         <source>common.month.may</source>
         <target>&#x41C;&#x430;&#x439;</target>
       </trans-unit>
-      <trans-unit id="187">
+      <trans-unit id="164">
         <source>simulator.report.star</source>
         <target>&#x437;&#x432;&#x435;&#x437;&#x434;&#x430;</target>
       </trans-unit>
-      <trans-unit id="188">
+      <trans-unit id="165">
         <source>common.transfer-max</source>
         <target>&#x41C;&#x410;&#x41A;&#x421;.</target>
       </trans-unit>
-      <trans-unit id="189">
+      <trans-unit id="166">
         <source>common.eventendsat</source>
         <target>&#x414;&#x43E; &#x43A;&#x43E;&#x43D;&#x446;&#x430; &#x430;&#x43A;&#x446;&#x438;&#x438; #TIME#</target>
       </trans-unit>
-      <trans-unit id="190">
+      <trans-unit id="167">
         <source>train.err.time</source>
         <target>&#x421;&#x440;&#x43E;&#x43A; &#x43E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43F;&#x440;&#x435;&#x432;&#x44B;&#x448;&#x430;&#x442;&#x44C; #TIME# #TIME_UNIT#</target>
       </trans-unit>
-      <trans-unit id="191">
+      <trans-unit id="168">
         <source>beginner-base.deal1-des</source>
         <target>&#x421;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; 1 &#x443;&#x440;., &#x432; &#x442;&#x43E;&#x43C; &#x447;&#x438;&#x441;&#x43B;&#x435; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440;, &#x445;&#x440;&#x443;&#x441;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x443;&#x44E; &#x448;&#x430;&#x445;&#x442;&#x443;, &#x41D;&#x41F;&#x417;, &#x432;&#x440;&#x430;&#x442;&#x430; &#x438;&#x441;&#x43A;&#x440;&#x438;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;, &#x43F;&#x43E;&#x43B;&#x438;&#x433;&#x43E;&#x43D; &#x438; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;!</target>
       </trans-unit>
-      <trans-unit id="192">
+      <trans-unit id="169">
         <source>chat.my.lang</source>
         <target>&#x41C;&#x43E;&#x439; &#x44F;&#x437;&#x44B;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="193">
+      <trans-unit id="170">
         <source>common.tip.lbl</source>
         <target>&#x421;&#x43E;&#x432;&#x435;&#x442;:</target>
       </trans-unit>
-      <trans-unit id="194">
+      <trans-unit id="171">
         <source>mobile.sector-selector.change-sector</source>
         <target>&#x421;&#x41C;&#x415;&#x41D;&#x418;&#x422;&#x42C; &#x421;&#x415;&#x41A;&#x422;&#x41E;&#x420;</target>
       </trans-unit>
-      <trans-unit id="195">
+      <trans-unit id="172">
         <source>bunker-garrison.title</source>
         <target>&#x413;&#x430;&#x440;&#x43D;&#x438;&#x437;&#x43E;&#x43D; &#x432; &#x431;&#x443;&#x43D;&#x43A;&#x435;&#x440;&#x435;</target>
       </trans-unit>
-      <trans-unit id="196">
+      <trans-unit id="173">
         <source>chat.lbl.msg</source>
         <target>&#x421;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="197">
+      <trans-unit id="174">
         <source>chat.lbl.mute</source>
         <target>&#x412;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E; &#x437;&#x430;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="198">
+      <trans-unit id="175">
         <source>common.report-effectboost</source>
         <target>&#x417;&#x432;&#x435;&#x437;&#x434;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="199">
+      <trans-unit id="176">
         <source>mobile.help.support</source>
         <target>&#x41F;&#x41E;&#x414;&#x414;&#x415;&#x420;&#x416;&#x41A;&#x410;
 </target>
       </trans-unit>
-      <trans-unit id="200">
+      <trans-unit id="177">
         <source>bunker-garrison.troop-icon-tooltip</source>
         <target>+#AMOUNT# &#x43A; &#x443;&#x440;&#x43E;&#x43D;&#x443; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x433;&#x43E; &#x432;&#x43E;&#x438;&#x43D;&#x430;</target>
       </trans-unit>
-      <trans-unit id="201">
+      <trans-unit id="178">
         <source>beginner-base.description</source>
         <target>&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x431;&#x430;&#x437;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="202">
+      <trans-unit id="179">
         <source>alliance.rej.conf</source>
         <target>&#x422;&#x44B; &#x443;&#x432;&#x435;&#x440;&#x435;&#x43D;, &#x447;&#x442;&#x43E; &#x445;&#x43E;&#x447;&#x435;&#x448;&#x44C; &#x43E;&#x442;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x44C; &#x432;&#x441;&#x435;&#x43C; &#x43F;&#x440;&#x435;&#x442;&#x435;&#x43D;&#x434;&#x435;&#x43D;&#x442;&#x430;&#x43C;? &#x42D;&#x442;&#x43E; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x435; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x43E;&#x442;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x43E;.</target>
       </trans-unit>
-      <trans-unit id="203">
+      <trans-unit id="180">
         <source>common.rewards</source>
         <target>&#x41D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="204">
+      <trans-unit id="181">
         <source>mobile.login.title</source>
         <target>&#x41B;&#x41E;&#x413;&#x418;&#x41D;</target>
       </trans-unit>
-      <trans-unit id="205">
+      <trans-unit id="182">
         <source>mobile.login-option.benefits</source>
         <target>&#x412;&#x42B;&#x413;&#x41E;&#x414;&#x410;:- 75 &#x435;&#x434;. &#x43F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x44B; &#x431;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x43E; - &#x421;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x438;&#x433;&#x440;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x435;&#x441;&#x441;&#x430; - &#x42D;&#x43A;&#x441;&#x43A;&#x43B;&#x44E;&#x437;&#x438;&#x432;&#x43D;&#x44B;&#x435; &#x43F;&#x440;&#x435;&#x434;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="206">
+      <trans-unit id="183">
         <source>campaign.specter1.name</source>
         <target>&#x423;&#x447;&#x435;&#x431;&#x43D;&#x430;&#x44F; &#x441;&#x442;&#x440;&#x435;&#x43B;&#x44C;&#x431;&#x430;</target>
       </trans-unit>
-      <trans-unit id="207">
+      <trans-unit id="184">
         <source>common.fan.page</source>
         <target>&#x424;&#x430;&#x43D;-&#x441;&#x430;&#x439;&#x442;</target>
       </trans-unit>
-      <trans-unit id="208">
+      <trans-unit id="185">
         <source>mobile.login-option.create-a-kabam-id</source>
         <target>&#x421;&#x41E;&#x417;&#x414;&#x410;&#x419;&#x422;&#x415; KABAM ID</target>
       </trans-unit>
-      <trans-unit id="209">
+      <trans-unit id="186">
         <source>beginner-base.deal2-subtitle</source>
         <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440; 5 &#x443;&#x440;.</target>
       </trans-unit>
-      <trans-unit id="210">
+      <trans-unit id="187">
         <source>chat.lbl.grpinv</source>
         <target>&#x41F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x442;&#x44C; &#x432; &#x433;&#x440;&#x443;&#x43F;&#x43F;&#x443;</target>
       </trans-unit>
-      <trans-unit id="211">
+      <trans-unit id="188">
         <source>train.mechs.bld</source>
         <target>&#x422;&#x44B; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x433; &#x43B;&#x438;&#x43C;&#x438;&#x442;&#x430; &#x432; &#x43E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x438; &#x43C;&#x435;&#x445;&#x43E;&#x432;. &#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x437;&#x430;&#x432;&#x43E;&#x434;&#x43E;&#x432; &#x438;&#x43B;&#x438; &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x44C; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x435; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="212">
+      <trans-unit id="189">
         <source>campaign.new13.name</source>
         <target>&#x41D;&#x430;&#x447;&#x430;&#x43B;&#x43E; &#x43A;&#x43E;&#x43D;&#x446;&#x430; (5-150 &#x442;&#x44B;&#x441;.)</target>
       </trans-unit>
-      <trans-unit id="213">
+      <trans-unit id="190">
         <source>ph.subject</source>
         <target>&#x422;&#x435;&#x43C;&#x430;...</target>
       </trans-unit>
-      <trans-unit id="214">
+      <trans-unit id="191">
         <source>mobile.blue-light-special.progress</source>
         <target>Platinum to go for your reward</target>
       </trans-unit>
-      <trans-unit id="215">
+      <trans-unit id="192">
         <source>event.building.complete</source>
         <target>&#x421;&#x422;&#x420;&#x41E;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x421;&#x422;&#x412;&#x41E; &#x417;&#x410;&#x412;&#x415;&#x420;&#x428;&#x415;&#x41D;&#x41E;</target>
       </trans-unit>
-      <trans-unit id="216">
+      <trans-unit id="193">
         <source>store.massopen.openx</source>
         <target>&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; #QUANTITY#</target>
       </trans-unit>
-      <trans-unit id="217">
+      <trans-unit id="194">
         <source>chat.warn.spam</source>
         <target>&#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43D;&#x435; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x44F;&#x439; &#x43E;&#x434;&#x43D;&#x43E; &#x438; &#x442;&#x43E; &#x436;&#x435; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x432; &#x447;&#x430;&#x442;&#x435; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x440;&#x430;&#x437;.</target>
       </trans-unit>
-      <trans-unit id="218">
+      <trans-unit id="195">
         <source>common.month.feb</source>
         <target>&#x424;&#x435;&#x432;&#x440;</target>
       </trans-unit>
-      <trans-unit id="219">
+      <trans-unit id="196">
         <source>common.send</source>
         <target>&#x41E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="220">
+      <trans-unit id="197">
         <source>alliance.leave.cooldown-warning</source>
         <target>&#x415;&#x441;&#x43B;&#x438; &#x412;&#x44B; &#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x435;&#x442;&#x435; &lt;span class="neonBlue"&gt;#ALLIANCE_NAME#&lt;/span&gt;, &#x442;&#x43E; &#x412;&#x44B; &#x43D;&#x435; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43A; &#x43D;&#x435;&#x43C;&#x443; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x432; &#x442;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x435; #COOLDOWN# &#x447;&#x430;&#x441;&#x43E;&#x432;.&lt;br&gt;&lt;br&gt;&#x412;&#x44B; &#x443;&#x432;&#x435;&#x440;&#x435;&#x43D;&#x44B;, &#x447;&#x442;&#x43E; &#x445;&#x43E;&#x442;&#x438;&#x442;&#x435; &#x44D;&#x442;&#x43E; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C;?</target>
       </trans-unit>
-      <trans-unit id="221">
+      <trans-unit id="198">
         <source>common.foe</source>
         <target>&#x412;&#x440;&#x430;&#x433;</target>
       </trans-unit>
-      <trans-unit id="222">
+      <trans-unit id="199">
         <source>common.change-sector</source>
         <target>&#x418;&#x417;&#x41C;&#x415;&#x41D;&#x415;&#x41D;&#x418;&#x422;&#x42C; &#x421;&#x415;&#x41A;&#x422;&#x41E;&#x420;</target>
       </trans-unit>
-      <trans-unit id="223">
+      <trans-unit id="200">
         <source>err.build.building1</source>
         <target>&#x422;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442;&#x441;&#x44F; #BUILDING_TYPE_0# #LEVEL_0# &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="224">
+      <trans-unit id="201">
         <source>err.build.building2</source>
         <target>&#x41D;&#x443;&#x436;&#x43D;&#x44B; #BUILDING_TYPE_0# #LEVEL_0# &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x438; #BUILDING_TYPE_1# #LEVEL_1# &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="225">
+      <trans-unit id="202">
         <source>err.build.building3</source>
         <target>&#x422;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442;&#x441;&#x44F; #BUILDING_TYPE_0#  #LEVEL_0# &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;, #BUILDING_TYPE_1#  #LEVEL_1# &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;, &#x438; #BUILDING_TYPE_2#  #LEVEL_2# &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x44C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435;</target>
       </trans-unit>
-      <trans-unit id="226">
+      <trans-unit id="203">
         <source>bunker-garrison.instructions</source>
         <target>&#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x44C;&#x442;&#x435; &#x443;&#x440;&#x43E;&#x43D; &#x431;&#x443;&#x43D;&#x43A;&#x435;&#x440;&#x430;, &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x430;&#x44F; &#x432; &#x43D;&#x435;&#x43C; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430;! &#x423;&#x43B;&#x443;&#x447;&#x448;&#x430;&#x439;&#x442;&#x435; &#x431;&#x443;&#x43D;&#x43A;&#x435;&#x440;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x432;&#x44B;&#x441;&#x438;&#x442;&#x44C; &#x43B;&#x438;&#x43C;&#x438;&#x442; &#x443;&#x440;&#x43E;&#x43D;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="227">
+      <trans-unit id="204">
         <source>common.activity-log</source>
         <target>&#x416;&#x443;&#x440;&#x43D;&#x430;&#x43B; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x43E;&#x441;&#x442;&#x438;</target>
       </trans-unit>
-      <trans-unit id="228">
+      <trans-unit id="205">
         <source>comm</source>
         <target>DO NOT USE</target>
       </trans-unit>
-      <trans-unit id="229">
+      <trans-unit id="206">
         <source>siege.ended</source>
         <target>&#x41E;&#x441;&#x430;&#x434;&#x430; &#x442;&#x432;&#x43E;&#x435;&#x439; &#x431;&#x430;&#x437;&#x44B; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x447;&#x438;&#x43B;&#x430;&#x441;&#x44C;. &#x411;&#x43E;&#x435;&#x432;&#x430;&#x44F; &#x441;&#x432;&#x43E;&#x434;&#x43A;&#x430; &#x441; &#x431;&#x43E;&#x43B;&#x435;&#x435; &#x43F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x43E;&#x439; &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x435;&#x439; &#x43F;&#x43E;&#x44F;&#x432;&#x438;&#x442;&#x441;&#x44F; &#x432; &#x43F;&#x43E;&#x447;&#x442;&#x43E;&#x432;&#x43E;&#x43C; &#x44F;&#x449;&#x438;&#x43A;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="230">
+      <trans-unit id="207">
         <source>not.in.any.alli</source>
         <target>&#x41D;&#x438; &#x432; &#x43E;&#x434;&#x43D;&#x43E;&#x43C; &#x438;&#x437; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="231">
+      <trans-unit id="208">
         <source>alliance.name.descr.err</source>
         <target>&#x41D;&#x435;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x438;&#x43B;&#x438; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="232">
+      <trans-unit id="209">
         <source>common.block</source>
         <target>&#x411;&#x43B;&#x43E;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="233">
+      <trans-unit id="210">
         <source>alli.rank.expl</source>
         <target>&#x421;&#x443;&#x43C;&#x43C;&#x430; &#x432;&#x441;&#x435;&#x445; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;&#x439;</target>
       </trans-unit>
-      <trans-unit id="234">
+      <trans-unit id="211">
         <source>transfer-troops.warp-gate-capacity</source>
         <target>	&#x41C;&#x41E;&#x429;&#x41D;&#x41E;&#x421;&#x422;&#x42C; &#x412;&#x420;&#x410;&#x422; &#x418;&#x421;&#x41A;&#x420;&#x418;&#x412;&#x41B;&#x415;&#x41D;&#x418;&#x42F;</target>
       </trans-unit>
-      <trans-unit id="235">
+      <trans-unit id="212">
         <source>campaign.pulse1.name</source>
         <target>&#x422;&#x430;&#x43D;&#x43A;&#x43E;&#x432;&#x44B;&#x435; &#x43C;&#x430;&#x43D;&#x435;&#x432;&#x440;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="236">
+      <trans-unit id="213">
         <source>transfer-troop.destination-troop-count.tooltip</source>
         <target>	&#x41A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x445; &#x432;&#x43E;&#x439;&#x441;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="237">
+      <trans-unit id="214">
         <source>gps.cmd</source>
         <target>&#x412;&#x432;&#x435;&#x434;&#x438; &#x438;&#x43C;&#x44F; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x433;&#x43E; &#x442;&#x44B; &#x445;&#x43E;&#x447;&#x435;&#x448;&#x44C; &#x440;&#x430;&#x437;&#x432;&#x435;&#x434;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="238">
+      <trans-unit id="215">
         <source>err.train.academy</source>
         <target>&#x414;&#x43B;&#x44F; &#x43E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x44C; &#x41B;&#x435;&#x442;&#x43D;&#x443;&#x44E; &#x430;&#x43A;&#x430;&#x434;&#x435;&#x43C;&#x438;&#x44E;.</target>
       </trans-unit>
-      <trans-unit id="239">
+      <trans-unit id="216">
         <source>alliance-log.diplomacy</source>
         <target>&#x414;&#x438;&#x43F;&#x43B;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="240">
+      <trans-unit id="217">
         <source>common.requirements</source>
         <target>&#x422;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="241">
+      <trans-unit id="218">
         <source>battle-report.items-looted</source>
         <target>&#x422;&#x440;&#x43E;&#x444;&#x435;&#x438;</target>
       </trans-unit>
-      <trans-unit id="242">
+      <trans-unit id="219">
         <source>loading.base</source>
         <target>&#x417;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x430; &#x431;&#x430;&#x437;&#x44B;...</target>
       </trans-unit>
-      <trans-unit id="243">
+      <trans-unit id="220">
         <source>err.build.academy</source>
         <target>&#x412;&#x430;&#x43C; &#x43F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x443;&#x44E;&#x442;&#x441;&#x44F; &#x434;&#x432;&#x430; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; 12 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;: &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440; &#x438; &#x43A;&#x430;&#x437;&#x430;&#x440;&#x43C;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="244">
+      <trans-unit id="221">
         <source>campaign.dragon3.name</source>
         <target>&#x41E;&#x433;&#x43D;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x434;&#x43E;&#x436;&#x434;&#x44C; (20-400 &#x442;&#x44B;&#x441;.)</target>
       </trans-unit>
-      <trans-unit id="245">
+      <trans-unit id="222">
         <source>err.train.factory</source>
         <target>&#x414;&#x43B;&#x44F; &#x43E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x44C; &#x437;&#x430;&#x432;&#x43E;&#x434;.</target>
       </trans-unit>
-      <trans-unit id="246">
+      <trans-unit id="223">
         <source>mobile.login.forget-password</source>
         <target>&#x42F; &#x417;&#x410;&#x411;&#x42B;&#x41B; &#x414;&#x410;&#x41D;&#x41D;&#x42B;&#x415; &#x41B;&#x41E;&#x413;&#x418;&#x41D;&#x410; KABAM ID</target>
       </trans-unit>
-      <trans-unit id="247">
+      <trans-unit id="224">
         <source>missions.daily-missions.complete</source>
         <target>&#x41C;&#x438;&#x441;&#x441;&#x438;&#x44F; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x430;</target>
       </trans-unit>
-      <trans-unit id="248">
+      <trans-unit id="225">
         <source>missions.daily-missions</source>
         <target>&#x415;&#x436;&#x435;&#x434;&#x43D;&#x435;&#x432;&#x43D;&#x44B;&#x435; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x438;</target>
       </trans-unit>
-      <trans-unit id="249">
+      <trans-unit id="226">
         <source>common.rank</source>
         <target>&#x420;&#x435;&#x439;&#x442;&#x438;&#x43D;&#x433;</target>
       </trans-unit>
-      <trans-unit id="250">
+      <trans-unit id="227">
         <source>holiday-event.title</source>
         <target>&#x420;&#x410;&#x421;&#x41F;&#x420;&#x41E;&#x414;&#x410;&#x416;&#x410; &#x41D;&#x410; &#x427;&#x415;&#x420;&#x41D;&#x423;&#x42E; &#x41F;&#x42F;&#x422;&#x41D;&#x418;&#x426;&#x423;!</target>
       </trans-unit>
-      <trans-unit id="251">
+      <trans-unit id="228">
         <source>leave.your.alli</source>
         <target>&#x41F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
       </trans-unit>
-      <trans-unit id="252">
+      <trans-unit id="229">
         <source>common.change</source>
         <target>&#x418;&#x437;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="253">
+      <trans-unit id="230">
         <source>common.confirm</source>
         <target>&#x41F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x434;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="254">
+      <trans-unit id="231">
         <source>mobile.researchcomplete</source>
         <target>&#x418;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43E;. &#x418;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x443;&#x439;&#x442;&#x435; &#x43D;&#x43E;&#x432;&#x44B;&#x435; &#x442;&#x435;&#x445;&#x43D;&#x43E;&#x43B;&#x43E;&#x433;&#x438;&#x438; &#x438; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x439;&#x442;&#x435; &#x441;&#x432;&#x43E;&#x44E; &#x430;&#x440;&#x43C;&#x438;&#x44E; &#x441;&#x438;&#x43B;&#x44C;&#x43D;&#x435;&#x435;!</target>
       </trans-unit>
-      <trans-unit id="255">
+      <trans-unit id="232">
         <source>err.comm.del</source>
         <target>&#x418;&#x437;&#x432;&#x438;&#x43D;&#x438;&#x442;&#x435;, &#x432;&#x44B; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x443;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x44C; &#x441;&#x432;&#x43E;&#x438; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440;.</target>
       </trans-unit>
-      <trans-unit id="256">
+      <trans-unit id="233">
         <source>store.boost.warn</source>
         <target>&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x430; &#x431;&#x443;&#x434;&#x435;&#x442; &#x432;&#x43E;&#x437;&#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x435; &#x443;&#x441;&#x438;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x41E;&#x41E;.</target>
       </trans-unit>
-      <trans-unit id="257">
+      <trans-unit id="234">
         <source>mobile.payment.current-platinum</source>
         <target>&#x412;&#x441;&#x435;&#x433;&#x43E; &#x43F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="258">
+      <trans-unit id="235">
         <source>mobile.create-kabam-account.password-tip</source>
         <target>&#x41F;&#x430;&#x440;&#x43E;&#x43B;&#x44C; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x441;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x430;&#x442;&#x44C; &#x43D;&#x435; &#x43C;&#x435;&#x43D;&#x435;&#x435; 7 &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="259">
+      <trans-unit id="236">
         <source>event.weekend-event.content1</source>
         <target>&#x41A;&#x410;&#x420;&#x422;&#x42B; &#x417;&#x414;&#x415;&#x421;&#x42C;!</target>
       </trans-unit>
-      <trans-unit id="260">
+      <trans-unit id="237">
         <source>event.weekend-event.content2</source>
         <target>&#x41F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x438;&#x435; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; Edgeworld &#x442;&#x435;&#x43F;&#x435;&#x440;&#x44C; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="261">
+      <trans-unit id="238">
         <source>event.weekend-event.content3</source>
         <target>&#x421;&#x440;&#x430;&#x436;&#x430;&#x439;&#x441;&#x44F; &#x43D;&#x430; &#x432;&#x43E;&#x439;&#x43D;&#x435;: &#x434;&#x43E;&#x431;&#x44B;&#x432;&#x430;&#x439; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x44B;!</target>
       </trans-unit>
-      <trans-unit id="262">
+      <trans-unit id="239">
         <source>event.weekend-event.content4</source>
         <target>&#x42F;&#x449;&#x438;&#x43A;&#x438; &#x442;&#x440;&#x43E;&#x444;&#x435;&#x435;&#x432;</target>
       </trans-unit>
-      <trans-unit id="263">
+      <trans-unit id="240">
         <source>event.weekend-event.content5</source>
         <target>#NAME?</target>
       </trans-unit>
-      <trans-unit id="264">
+      <trans-unit id="241">
         <source>event.weekend-event.content6</source>
         <target>#NAME?</target>
       </trans-unit>
-      <trans-unit id="265">
+      <trans-unit id="242">
         <source>event.weekend-event.content7</source>
         <target>&#x412; &#x43D;&#x430;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x435;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43A;&#x430;&#x440;&#x442;&#x430; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x430; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43D;&#x430;:</target>
       </trans-unit>
-      <trans-unit id="266">
+      <trans-unit id="243">
         <source>event.weekend-event.content8</source>
         <target>&#x420;&#x430;&#x432;&#x43D;&#x438;&#x43D;&#x43D;&#x44B;&#x439; &#x441;&#x435;&#x43A;&#x442;&#x43E;&#x440;</target>
       </trans-unit>
-      <trans-unit id="267">
+      <trans-unit id="244">
         <source>event.weekend-event.content9</source>
         <target>The latest Edgeworld feature is coming to this sector soon!</target>
       </trans-unit>
-      <trans-unit id="268">
+      <trans-unit id="245">
         <source>common.reject</source>
         <target>&#x41E;&#x442;&#x43A;&#x43B;&#x43E;&#x43D;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="269">
+      <trans-unit id="246">
         <source>common.month.nov</source>
         <target>&#x41D;&#x43E;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="270">
+      <trans-unit id="247">
         <source>common.population</source>
         <target>&#x41D;&#x430;&#x441;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="271">
+      <trans-unit id="248">
         <source>alli.make.lieutenant</source>
         <target>	&#x421;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x43B;&#x435;&#x439;&#x442;&#x435;&#x43D;&#x430;&#x43D;&#x442;&#x43E;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="272">
+      <trans-unit id="249">
         <source>common.click-for-descriptions</source>
         <target>Click for descriptions</target>
       </trans-unit>
-      <trans-unit id="273">
+      <trans-unit id="250">
         <source>campaign.shrike1.name</source>
         <target>&#x413;&#x440;&#x430;&#x434; &#x43F;&#x443;&#x43B;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="274">
+      <trans-unit id="251">
         <source>scout.leader</source>
         <target>&#x413;&#x43B;&#x430;&#x432;&#x43D;&#x44B;&#x439; &#x440;&#x430;&#x437;&#x432;&#x435;&#x434;&#x447;&#x438;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="275">
+      <trans-unit id="252">
         <source>mobile.login-error.invalid-email</source>
         <target>&#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x432;&#x432;&#x435;&#x434;&#x438;&#x442;&#x435; &#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x430;&#x434;&#x440;&#x435;&#x441; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x43E;&#x43D;&#x43D;&#x43E;&#x439; &#x43F;&#x43E;&#x447;&#x442;&#x44B;
 </target>
       </trans-unit>
-      <trans-unit id="276">
+      <trans-unit id="253">
         <source>common.combat.exp</source>
         <target>&#x411;&#x43E;&#x435;&#x432;&#x43E;&#x439; &#x43E;&#x43F;&#x44B;&#x442;</target>
       </trans-unit>
-      <trans-unit id="277">
+      <trans-unit id="254">
         <source>alliance-log.was-attacked-by</source>
         <target>&#x431;&#x44B;&#x43B; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="278">
+      <trans-unit id="255">
         <source>mobile.trainingcomplete</source>
         <target>&#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43E;. &#x412;&#x430;&#x448;&#x430; &#x430;&#x440;&#x43C;&#x438;&#x44F; &#x440;&#x430;&#x441;&#x442;&#x435;&#x442;! &#x41E;&#x431;&#x443;&#x447;&#x430;&#x439;&#x442;&#x435; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x441;&#x43E;&#x43B;&#x434;&#x430;&#x442;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x44C; &#x432;&#x441;&#x435;&#x43B;&#x435;&#x43D;&#x43D;&#x443;&#x44E;!</target>
       </trans-unit>
-      <trans-unit id="279">
+      <trans-unit id="256">
         <source>simulation.boost-defense</source>
         <target>&#x423;&#x412;&#x415;&#x41B;&#x418;&#x427;&#x418;&#x422;&#x415;&#x41B;&#x418; &#x423;&#x420;&#x41E;&#x412;&#x41D;&#x42F; &#x41E;&#x411;&#x41E;&#x420;&#x41E;&#x41D;&#x42B;</target>
       </trans-unit>
-      <trans-unit id="280">
+      <trans-unit id="257">
         <source>invite</source>
         <target>&#x41F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="281">
+      <trans-unit id="258">
         <source>common.recipient</source>
         <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44C;:</target>
       </trans-unit>
-      <trans-unit id="282">
+      <trans-unit id="259">
         <source>alli.make.recruit</source>
         <target>	&#x421;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x43E;&#x431;&#x440;&#x430;&#x43D;&#x446;&#x435;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="283">
+      <trans-unit id="260">
         <source>chat.lbl.block</source>
         <target>&#x411;&#x43B;&#x43E;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="284">
+      <trans-unit id="261">
         <source>common.click.to.build</source>
         <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="285">
+      <trans-unit id="262">
         <source>common.alliance</source>
         <target>&#x410;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
       </trans-unit>
-      <trans-unit id="286">
+      <trans-unit id="263">
         <source>common.report-unlockboost</source>
         <target>&#x420;&#x430;&#x437;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x431;&#x43E;&#x43D;&#x443;&#x441;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="287">
+      <trans-unit id="264">
         <source>chat.lbl.unmute</source>
         <target>	&#x412;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44C; &#x437;&#x432;&#x443;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="288">
+      <trans-unit id="265">
         <source>alliance.descr.err</source>
         <target>&#x41D;&#x435;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="289">
+      <trans-unit id="266">
         <source>mobile.create-kabam-account.password-confirm</source>
         <target>&#x41F;&#x410;&#x420;&#x41E;&#x41B;&#x42C; &#x415;&#x429;&#x415; &#x420;&#x410;&#x417;:</target>
       </trans-unit>
-      <trans-unit id="290">
+      <trans-unit id="267">
         <source>bunker-garrison.next-level</source>
         <target>&#x421;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x435;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; +</target>
       </trans-unit>
-      <trans-unit id="291">
+      <trans-unit id="268">
         <source>common.total.xp.lbl</source>
         <target>&#x412;&#x441;&#x435;&#x433;&#x43E; &#x41E;&#x41E;:</target>
       </trans-unit>
-      <trans-unit id="292">
+      <trans-unit id="269">
         <source>campaign.surround.name</source>
         <target>We're Surrounded! (25-10k)</target>
       </trans-unit>
-      <trans-unit id="293">
+      <trans-unit id="270">
         <source>mobile.blue-light-special.reward</source>
         <target>&#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;! &#x414;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x435;&#x43D; &#x43E;&#x441;&#x43E;&#x431;&#x44B;&#x439; &#x43F;&#x440;&#x438;&#x437; "&#x421;&#x438;&#x43D;&#x438;&#x439; &#x441;&#x432;&#x435;&#x442;"!</target>
       </trans-unit>
-      <trans-unit id="294">
+      <trans-unit id="271">
         <source>campaign.halloween.name</source>
         <target>Rise of the Lancer!</target>
       </trans-unit>
-      <trans-unit id="295">
+      <trans-unit id="272">
         <source>mobile.login-option.as-guest</source>
         <target>&#x41F;&#x420;&#x41E;&#x414;&#x41E;&#x41B;&#x416;&#x418;&#x422;&#x42C; &#x41A;&#x410;&#x41A; &#x413;&#x41E;&#x421;&#x422;&#x42C;</target>
       </trans-unit>
-      <trans-unit id="296">
+      <trans-unit id="273">
         <source>bunker-garrison.boost-level</source>
         <target>&#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430;</target>
       </trans-unit>
-      <trans-unit id="297">
+      <trans-unit id="274">
         <source>alliance-log.lost-lieutenant</source>
         <target>&#x440;&#x430;&#x437;&#x436;&#x430;&#x43B;&#x43E;&#x432;&#x430;&#x43D;(&#x430;) &#x438;&#x437; &#x43B;&#x435;&#x439;&#x442;&#x435;&#x43D;&#x430;&#x43D;&#x442;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="298">
+      <trans-unit id="275">
         <source>mobile.buildingupgradecomplete</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43E;. &#x421;&#x442;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x439;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x44C; &#x432;&#x441;&#x435;&#x43B;&#x435;&#x43D;&#x43D;&#x443;&#x44E;!</target>
       </trans-unit>
-      <trans-unit id="299">
+      <trans-unit id="276">
         <source>campaign.new10.name</source>
         <target>&#x418;&#x441;&#x43A;&#x443;&#x441;&#x441;&#x442;&#x432;&#x43E; &#x432;&#x43E;&#x439;&#x43D;&#x44B; (2-50 &#x442;&#x44B;&#x441;.)</target>
       </trans-unit>
-      <trans-unit id="300">
+      <trans-unit id="277">
         <source>common.neutral</source>
         <target>&#x41D;&#x435;&#x439;&#x442;&#x440;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;</target>
       </trans-unit>
-      <trans-unit id="301">
+      <trans-unit id="278">
         <source>crafting.input-parts</source>
         <target>&#x427;&#x430;&#x441;&#x442;&#x438;</target>
       </trans-unit>
-      <trans-unit id="302">
+      <trans-unit id="279">
         <source>chat.release-notes-url</source>
         <target>	http://community.kabam.com/forums/forumdisplay.php?141</target>
       </trans-unit>
-      <trans-unit id="303">
+      <trans-unit id="280">
         <source>mission.filter.research</source>
         <target>&#x418;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="304">
+      <trans-unit id="281">
         <source>common.leave</source>
         <target>&#x41F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="305">
+      <trans-unit id="282">
         <source>event.warp.charged</source>
         <target>&#x418;&#x421;&#x41A;&#x410;&#x416;&#x415;&#x41D;&#x418;&#x415; &#x417;&#x410;&#x420;&#x42F;&#x416;&#x415;&#x41D;&#x41E;</target>
       </trans-unit>
-      <trans-unit id="306">
+      <trans-unit id="283">
         <source>common.sale-countdown</source>
         <target>&#x420;&#x430;&#x441;&#x43F;&#x440;&#x43E;&#x434;&#x430;&#x436;&#x430; - #TIME_REMAINING#</target>
       </trans-unit>
-      <trans-unit id="307">
+      <trans-unit id="284">
         <source>chat.spy.alliance</source>
         <target>&#x418;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44F; &#x43E;&#x431; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x435;</target>
       </trans-unit>
-      <trans-unit id="308">
+      <trans-unit id="285">
         <source>beginner.sale.duration</source>
         <target>6 &#x434;&#x43D;&#x435;&#x439; 24 &#x447;&#x430;&#x441;&#x430; 35 &#x43C;&#x438;&#x43D;&#x443;&#x442;</target>
       </trans-unit>
-      <trans-unit id="309">
+      <trans-unit id="286">
         <source>common.month.oct</source>
         <target>&#x41E;&#x43A;&#x442;</target>
       </trans-unit>
-      <trans-unit id="310">
+      <trans-unit id="287">
         <source>lbl.lwr.level</source>
         <target>&#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="311">
+      <trans-unit id="288">
         <source>colony.caldera</source>
         <target>&#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x430;-2</target>
       </trans-unit>
-      <trans-unit id="312">
+      <trans-unit id="289">
         <source>mobile.blue-light-special.detail</source>
         <target>&#x414;&#x43E;&#x441;&#x442;&#x438;&#x433;&#x43D;&#x438;&#x442;&#x435; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x43E;&#x439; &#x43D;&#x438;&#x436;&#x435; &#x446;&#x435;&#x43B;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x431;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x44B;&#x439; &#x44F;&#x449;&#x438;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="313">
+      <trans-unit id="290">
         <source>common.my.alliance</source>
         <target>&#x41C;&#x43E;&#x439; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
       </trans-unit>
-      <trans-unit id="314">
+      <trans-unit id="291">
         <source>alli.kabam-forum-link-btn</source>
         <target>&#x424;&#x43E;&#x440;&#x443;&#x43C;&#x44B; Kabam.com</target>
       </trans-unit>
-      <trans-unit id="315">
+      <trans-unit id="292">
         <source>alliance-log.lost</source>
         <target>&#x43F;&#x43E;&#x434;&#x430;&#x43B; &#x432; &#x43E;&#x442;&#x441;&#x442;&#x430;&#x432;&#x43A;&#x443;</target>
       </trans-unit>
-      <trans-unit id="316">
+      <trans-unit id="293">
         <source>common.fs.on</source>
         <target>&#x41F;&#x43E;&#x43B;&#x43D;&#x43E;&#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x440;&#x435;&#x436;&#x438;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="317">
+      <trans-unit id="294">
         <source>err.build.more</source>
         <target>&#x422;&#x44B; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="318">
+      <trans-unit id="295">
         <source>alliance-log.event</source>
         <target>&#x421;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="319">
+      <trans-unit id="296">
         <source>alliance-log.is-neutral</source>
         <target>&#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x435;&#x439;&#x442;&#x440;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x43C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="320">
+      <trans-unit id="297">
         <source>alliance-log.promoted</source>
         <target>&#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="321">
+      <trans-unit id="298">
         <source>alliance-log.is</source>
         <target>&#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="322">
+      <trans-unit id="299">
         <source>common.buy.now</source>
         <target>&#x41A;&#x443;&#x43F;&#x438;&#x442;&#x44C; &#x441;&#x435;&#x439;&#x447;&#x430;&#x441;</target>
       </trans-unit>
-      <trans-unit id="323">
+      <trans-unit id="300">
         <source>crate.contents</source>
         <target>&#x421;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x435; &#x44F;&#x449;&#x438;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="324">
+      <trans-unit id="301">
         <source>common.open-sim-button</source>
         <target>&#x421;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x446;&#x438;&#x438;</target>
       </trans-unit>
-      <trans-unit id="325">
+      <trans-unit id="302">
         <source>alli.make.leader</source>
         <target>&#x421;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x43B;&#x438;&#x434;&#x435;&#x440;&#x43E;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="326">
+      <trans-unit id="303">
         <source>mobile.buildingcomplete</source>
         <target>&#x421;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x442;&#x432;&#x43E; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43E;. &#x421;&#x442;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x439;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x44C; &#x432;&#x441;&#x435;&#x43B;&#x435;&#x43D;&#x43D;&#x443;&#x44E;!</target>
       </trans-unit>
-      <trans-unit id="327">
+      <trans-unit id="304">
         <source>map.node-upgrade.level</source>
         <target>&#x422;&#x440;&#x435;&#x431;&#x443;&#x435;&#x43C;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="328">
+      <trans-unit id="305">
         <source>common.day.sat</source>
         <target>&#x421;&#x431;</target>
       </trans-unit>
-      <trans-unit id="329">
+      <trans-unit id="306">
         <source>group.inv.err</source>
         <target>&#x41D;&#x435; &#x443;&#x434;&#x430;&#x43B;&#x43E;&#x441;&#x44C; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x442;&#x44C; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430; &#x432; &#x433;&#x440;&#x443;&#x43F;&#x43F;&#x443;. &#x41E;&#x43D;&#x438; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x443;&#x436;&#x435; &#x432; &#x433;&#x440;&#x443;&#x43F;&#x43F;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="330">
+      <trans-unit id="307">
         <source>create.contents</source>
         <target>DO NOT USE</target>
       </trans-unit>
-      <trans-unit id="331">
+      <trans-unit id="308">
         <source>campaign.specter2.name</source>
         <target>&#x421;&#x43C;&#x435;&#x440;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43E;&#x433;&#x43E;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="332">
+      <trans-unit id="309">
         <source>groups.expl.share</source>
         <target>&#x420;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44B;, &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x432; &#x441;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;&#x445;, &#x434;&#x435;&#x43B;&#x44F;&#x442;&#x441;&#x44F; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x447;&#x43B;&#x435;&#x43D;&#x43E;&#x432; &#x433;&#x440;&#x443;&#x43F;&#x43F;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="333">
+      <trans-unit id="310">
         <source>simulator.report.one-star</source>
         <target>&#x41C;&#x438;&#x441;&#x441;&#x438;&#x44F; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x430;</target>
       </trans-unit>
-      <trans-unit id="334">
+      <trans-unit id="311">
         <source>research.tech.unlock</source>
         <target>&#x418;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x443;&#x439; &#x432; &#x422;&#x435;&#x445;&#x43B;&#x430;&#x431;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x440;&#x430;&#x437;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;.</target>
       </trans-unit>
-      <trans-unit id="335">
+      <trans-unit id="312">
         <source>mission.filter.social</source>
         <target>&#x421;&#x43E;&#x446;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;</target>
       </trans-unit>
-      <trans-unit id="336">
+      <trans-unit id="313">
         <source>common.month.sept</source>
         <target>&#x421;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="337">
+      <trans-unit id="314">
         <source>common.damage-boost</source>
         <target>&#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430;</target>
       </trans-unit>
-      <trans-unit id="338">
+      <trans-unit id="315">
         <source>mission.filter.training</source>
         <target>&#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="339">
+      <trans-unit id="316">
         <source>campaign.new14.name</source>
         <target>&#x41F;&#x43E;&#x43B;&#x43D;&#x43E;&#x435; &#x43E;&#x43F;&#x443;&#x441;&#x442;&#x43E;&#x448;&#x435;&#x43D;&#x438;&#x435; (5-200 &#x442;&#x44B;&#x441;.)</target>
       </trans-unit>
-      <trans-unit id="340">
+      <trans-unit id="317">
         <source>another-base.under-siege-by</source>
         <target>&#x410;&#x442;&#x430;&#x43A;&#x443;&#x44E;&#x449;&#x438;&#x439;:</target>
       </trans-unit>
-      <trans-unit id="341">
+      <trans-unit id="318">
         <source>choose.sec</source>
         <target>&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438; &#x441;&#x435;&#x43A;&#x442;&#x43E;&#x440;</target>
       </trans-unit>
-      <trans-unit id="342">
+      <trans-unit id="319">
         <source>upgrade.cc.build.more</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x438; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440; &#x438;&#x43B;&#x438; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439; &#x435;&#x449;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="343">
+      <trans-unit id="320">
         <source>crafting.craft</source>
         <target>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="344">
+      <trans-unit id="321">
         <source>alliance-log.is-enemy</source>
         <target>&#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x432;&#x440;&#x430;&#x436;&#x435;&#x441;&#x43A;&#x438;&#x43C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="345">
+      <trans-unit id="322">
         <source>alliance.leave.ldr</source>
         <target>&#x422;&#x44B; &#x443;&#x432;&#x435;&#x440;&#x435;&#x43D;, &#x447;&#x442;&#x43E; &#x445;&#x43E;&#x447;&#x435;&#x448;&#x44C; &#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44C; &#x441;&#x432;&#x43E;&#x439; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;? &#x422;&#x44B; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x448;&#x44C;&#x441;&#x44F; &#x435;&#x433;&#x43E; &#x43B;&#x438;&#x434;&#x435;&#x440;&#x43E;&#x43C; &#x438; &#x44D;&#x442;&#x43E; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x435; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x43E;&#x442;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x43E;.</target>
       </trans-unit>
-      <trans-unit id="346">
+      <trans-unit id="323">
         <source>missions.description</source>
         <target>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="347">
+      <trans-unit id="324">
         <source>common.get.plat</source>
         <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x43F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x443;</target>
       </trans-unit>
-      <trans-unit id="348">
+      <trans-unit id="325">
         <source>common.all.alliance</source>
         <target>&#x412;&#x441;&#x435; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="349">
+      <trans-unit id="326">
         <source>common.pending</source>
         <target>&#x412; &#x43E;&#x436;&#x438;&#x434;&#x430;&#x43D;&#x438;&#x438;</target>
       </trans-unit>
-      <trans-unit id="350">
+      <trans-unit id="327">
         <source>allow.grps</source>
         <target>&#x420;&#x430;&#x437;&#x440;&#x435;&#x448;&#x438;&#x442;&#x44C; &#x433;&#x440;&#x443;&#x43F;&#x43F;&#x43E;&#x432;&#x44B;&#x435; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="351">
+      <trans-unit id="328">
         <source>common.queued</source>
         <target>&#x412; &#x43E;&#x447;&#x435;&#x440;&#x435;&#x434;&#x438;</target>
       </trans-unit>
-      <trans-unit id="352">
+      <trans-unit id="329">
         <source>common.button-max</source>
         <target>&#x41C;&#x410;&#x41A;&#x421;</target>
       </trans-unit>
-      <trans-unit id="353">
+      <trans-unit id="330">
         <source>common.last.attacker</source>
         <target>&#x41D;&#x430;&#x43F;&#x430;&#x432;&#x448;&#x438;&#x439;</target>
       </trans-unit>
-      <trans-unit id="354">
+      <trans-unit id="331">
         <source>common.stage</source>
         <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x432;&#x440;&#x430;&#x433;&#x430;  </target>
       </trans-unit>
-      <trans-unit id="355">
+      <trans-unit id="332">
         <source>simulator.report.two-star</source>
         <target>&#x423;&#x446;&#x435;&#x43B;&#x435;&#x43B;&#x43E; &#x431;&#x43E;&#x43B;&#x435;&#x435; 50% &#x431;&#x430;&#x448;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="356">
+      <trans-unit id="333">
         <source>sec.desc</source>
         <target>&#x41A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x441;&#x435;&#x43A;&#x442;&#x43E;&#x440; &#x432; Edgeworld &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x430;&#x43C;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x43C; &#x438;&#x433;&#x440;&#x43E;&#x432;&#x44B;&#x43C; &#x43C;&#x438;&#x440;&#x43E;&#x43C;. &#x422;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x432;&#x430;&#x442;&#x44C; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x443; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x441;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x430;&#x43C;&#x438; - &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F;, &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;, &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44B;, &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430; &#x438; &#x438;&#x433;&#x440;&#x43E;&#x432;&#x43E;&#x439; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x435;&#x441;&#x441; &#x43D;&#x435; &#x43C;&#x43E;&#x433;&#x443;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x43D;&#x44B; &#x438;&#x43B;&#x438; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x44B; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x441;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x430;&#x43C;&#x438;. &#x422;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x441;&#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x438;&#x445; &#x441;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x430;&#x445;, &#x43D;&#x430; &#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x438;&#x445; &#x43F;&#x43E;&#x436;&#x435;&#x43B;&#x430;&#x435;&#x448;&#x44C;!</target>
       </trans-unit>
-      <trans-unit id="357">
+      <trans-unit id="334">
         <source>alliance.plr.lbl</source>
         <target>&#x418;&#x433;&#x440;&#x43E;&#x43A;:</target>
       </trans-unit>
-      <trans-unit id="358">
+      <trans-unit id="335">
         <source>common.err.player.not.fnd</source>
         <target>&#x418;&#x433;&#x440;&#x43E;&#x43A; &#x43D;&#x435; &#x43D;&#x430;&#x439;&#x434;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="359">
+      <trans-unit id="336">
         <source>store.massopen.howmany</source>
         <target>&#x421;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x432;&#x44B; &#x445;&#x43E;&#x442;&#x438;&#x442;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C;?</target>
       </trans-unit>
-      <trans-unit id="360">
+      <trans-unit id="337">
         <source>alliance-log.kicked</source>
         <target>&#x431;&#x44B;&#x43B; &#x432;&#x44B;&#x433;&#x43D;&#x430;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="361">
+      <trans-unit id="338">
         <source>store.energizer.warn</source>
         <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x439; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x441;&#x442;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x430; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x431;&#x43E;&#x43B;&#x435;&#x435; &#x43C;&#x43E;&#x449;&#x43D;&#x44B;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="362">
+      <trans-unit id="339">
         <source>campaign.pulse2.name</source>
         <target>&#x41D;&#x430;&#x43F;&#x430;&#x434;&#x435;&#x43D;&#x438;&#x435; &#x442;&#x430;&#x43D;&#x43A;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="363">
+      <trans-unit id="340">
         <source>announcement.title</source>
         <target>&#x421;&#x423;&#x41F;&#x415;&#x420;&#x417;&#x410;&#x420;&#x42F;&#x416;&#x415;&#x41D;&#x41D;&#x42B;&#x415; &#x421;&#x420;&#x410;&#x416;&#x415;&#x41D;&#x418;&#x42F;</target>
       </trans-unit>
-      <trans-unit id="364">
+      <trans-unit id="341">
         <source>report.attacked.by.lbl</source>
         <target>&#x41D;&#x430; &#x432;&#x430;&#x441; &#x43D;&#x430;&#x43F;&#x430;&#x43B;:</target>
       </trans-unit>
-      <trans-unit id="365">
+      <trans-unit id="342">
         <source>chat.alliance</source>
         <target>&#x427;&#x430;&#x442; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;</target>
       </trans-unit>
-      <trans-unit id="366">
+      <trans-unit id="343">
         <source>loading.map</source>
         <target>&#x417;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x44B;...</target>
       </trans-unit>
-      <trans-unit id="367">
+      <trans-unit id="344">
         <source>common.attack-level</source>
         <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x430;&#x442;&#x430;&#x43A;&#x438;</target>
       </trans-unit>
-      <trans-unit id="368">
+      <trans-unit id="345">
         <source>alliance.ldr.conf</source>
         <target>&#x422;&#x44B; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x445;&#x43E;&#x447;&#x435;&#x448;&#x44C; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430; &#x43B;&#x438;&#x434;&#x435;&#x440;&#x43E;&#x43C; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;?</target>
       </trans-unit>
-      <trans-unit id="369">
+      <trans-unit id="346">
         <source>common.last.online</source>
         <target>&#x41F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x438;&#x439; &#x440;&#x430;&#x437; &#x431;&#x44B;&#x43B; &#x432; &#x441;&#x435;&#x442;&#x438;</target>
       </trans-unit>
-      <trans-unit id="370">
+      <trans-unit id="347">
         <source>common.day.sun</source>
         <target>&#x412;&#x441;</target>
       </trans-unit>
-      <trans-unit id="371">
+      <trans-unit id="348">
         <source>err.build.landmine</source>
         <target>&#x422;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442;&#x441;&#x44F; #BUILDING_TYPE# #LEVEL# &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="372">
+      <trans-unit id="349">
         <source>common.sale-scarcity</source>
         <target>&#x420;&#x430;&#x441;&#x43F;&#x440;&#x43E;&#x434;&#x430;&#x436;&#x430; -  &#x43E;&#x441;&#x442;&#x430;&#x43B;&#x43E;&#x441;&#x44C; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; #QUANTITY#!</target>
       </trans-unit>
-      <trans-unit id="373">
+      <trans-unit id="350">
         <source>crafting.input-rare</source>
         <target>&#x420;&#x435;&#x434;&#x43A;&#x438;&#x439;</target>
       </trans-unit>
-      <trans-unit id="374">
+      <trans-unit id="351">
         <source>common.units.killed</source>
         <target>&#x415;&#x434;&#x438;&#x43D;&#x438;&#x446; &#x443;&#x431;&#x438;&#x442;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="375">
+      <trans-unit id="352">
         <source>gps.err</source>
         <target>&#x418;&#x433;&#x440;&#x43E;&#x43A; &#x43D;&#x435; &#x43D;&#x430;&#x439;&#x434;&#x435;&#x43D;, &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442; &#x43D;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;.</target>
       </trans-unit>
-      <trans-unit id="376">
+      <trans-unit id="353">
         <source>chat.alliance.first</source>
         <target>&#x421;&#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430; &#x442;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;.</target>
       </trans-unit>
-      <trans-unit id="377">
+      <trans-unit id="354">
         <source>under-siege.notice</source>
         <target>&#x41D;&#x430; &#x432;&#x430;&#x448;&#x443; &#x431;&#x430;&#x437;&#x443; &#x432; &#x43D;&#x430;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x438;&#x439; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442; &#x43D;&#x430;&#x43F;&#x430;&#x434;&#x430;&#x435;&#x442; &#x434;&#x440;&#x443;&#x433;&#x43E;&#x439; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x439;. &#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x43E;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x431;&#x430;&#x437;&#x44B; &#x431;&#x443;&#x434;&#x435;&#x442; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x430; &#x447;&#x435;&#x440;&#x435;&#x437; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43C;&#x438;&#x43D;&#x443;&#x442;.</target>
       </trans-unit>
-      <trans-unit id="378">
+      <trans-unit id="355">
         <source>pending-attack.spider.title</source>
         <target>&#x422;&#x420;&#x410;&#x41D;&#x421;&#x41B;&#x42F;&#x426;&#x418;&#x42F; &#x417;&#x410;&#x428;&#x418;&#x424;&#x420;&#x41E;&#x412;&#x410;&#x41D;&#x410;</target>
       </trans-unit>
-      <trans-unit id="379">
+      <trans-unit id="356">
         <source>notice.base-under-attack</source>
         <target>&#x42D;&#x442;&#x430; &#x431;&#x430;&#x437;&#x430; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x43F;&#x43E;&#x434; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x439;</target>
       </trans-unit>
-      <trans-unit id="380">
+      <trans-unit id="357">
         <source>common.accept</source>
         <target>&#x41F;&#x440;&#x438;&#x43D;&#x44F;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="381">
+      <trans-unit id="358">
         <source>common.clickformore</source>
         <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x443;&#x437;&#x43D;&#x430;&#x442;&#x44C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435;</target>
       </trans-unit>
-      <trans-unit id="382">
+      <trans-unit id="359">
         <source>common.units.lost</source>
         <target>&#x415;&#x434;&#x438;&#x43D;&#x438;&#x446; &#x43F;&#x43E;&#x442;&#x435;&#x440;&#x44F;&#x43D;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="383">
+      <trans-unit id="360">
         <source>event.upgrade.complete</source>
         <target>&#x423;&#x41B;&#x423;&#x427;&#x428;&#x415;&#x41D;&#x418;&#x415; &#x417;&#x410;&#x412;&#x415;&#x420;&#x428;&#x415;&#x41D;&#x41E;</target>
       </trans-unit>
-      <trans-unit id="384">
+      <trans-unit id="361">
         <source>alliance-log.joined</source>
         <target>&#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x43B;&#x441;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="385">
+      <trans-unit id="362">
         <source>mobile.create-kabam-account.email</source>
         <target>EMAIL:</target>
       </trans-unit>
-      <trans-unit id="386">
+      <trans-unit id="363">
         <source>mobile.help.forum</source>
         <target>&#x424;&#x41E;&#x420;&#x423;&#x41C;
 </target>
       </trans-unit>
-      <trans-unit id="387">
+      <trans-unit id="364">
         <source>event.research.complete</source>
         <target>&#x418;&#x421;&#x421;&#x41B;&#x415;&#x414;&#x41E;&#x412;&#x410;&#x41D;&#x418;&#x415; &#x417;&#x410;&#x412;&#x415;&#x420;&#x428;&#x415;&#x41D;&#x41E;</target>
       </trans-unit>
-      <trans-unit id="388">
+      <trans-unit id="365">
         <source>mobile.help.tip.title</source>
         <target>&#x418;&#x437;&#x432;&#x435;&#x441;&#x442;&#x43D;&#x44B;&#x435; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x44B;
 </target>
       </trans-unit>
-      <trans-unit id="389">
+      <trans-unit id="366">
         <source>transfer-resource.done</source>
         <target>	&#x420;&#x415;&#x421;&#x423;&#x420;&#x421;&#x42B; &#x41F;&#x415;&#x420;&#x415;&#x41C;&#x415;&#x429;&#x415;&#x41D;&#x42B;</target>
       </trans-unit>
-      <trans-unit id="390">
+      <trans-unit id="367">
         <source>mobile.current-login.logged-in-as</source>
         <target>&#x412;&#x44B; &#x432;&#x43E;&#x448;&#x43B;&#x438; &#x43A;&#x430;&#x43A;: </target>
       </trans-unit>
-      <trans-unit id="391">
+      <trans-unit id="368">
         <source>client.break</source>
         <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;, &#x43C;&#x44B; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x447;&#x442;&#x43E; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x438; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;, &#x447;&#x442;&#x43E; Edgeworld &#x431;&#x44B;&#x43B; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D; &#x438; &#x433;&#x43E;&#x442;&#x43E;&#x432; &#x43A; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44E;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x435; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x443;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x440;&#x43E;&#x434;&#x43E;&#x43B;&#x436;&#x438;&#x442;&#x44C; &#x438;&#x433;&#x440;&#x443;.</target>
       </trans-unit>
-      <trans-unit id="392">
+      <trans-unit id="369">
         <source>chat.toggle.h</source>
         <target>&#x41F;&#x435;&#x440;&#x435;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x43E;&#x43A;&#x43D;&#x430; &#x447;&#x430;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="393">
+      <trans-unit id="370">
         <source>common.inactive</source>
         <target>&#x41D;&#x435;&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x439;</target>
       </trans-unit>
-      <trans-unit id="394">
+      <trans-unit id="371">
         <source>mobile.help.tip.report-bugs</source>
         <target>&#x421;&#x41E;&#x41E;&#x411;&#x429;&#x418;&#x422;&#x42C; &#x41E;&#x411; &#x41E;&#x428;&#x418;&#x411;&#x41A;&#x415;
 </target>
       </trans-unit>
-      <trans-unit id="395">
+      <trans-unit id="372">
         <source>common.resources-sent</source>
         <target>&#x420;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44B; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="396">
+      <trans-unit id="373">
         <source>event.training.xp-earned</source>
         <target>+ #AMOUNT#&#x41E;&#x41E;</target>
       </trans-unit>
-      <trans-unit id="397">
+      <trans-unit id="374">
         <source>grp.leave</source>
         <target>&#x41F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44C; &#x433;&#x440;&#x443;&#x43F;&#x43F;&#x443;</target>
       </trans-unit>
-      <trans-unit id="398">
+      <trans-unit id="375">
         <source>campaign.bomba1.name</source>
         <target>&#x41F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x44F;&#x44F; &#x431;&#x438;&#x442;&#x432;&#x430; &#x411;&#x43E;&#x43C;&#x431;</target>
       </trans-unit>
-      <trans-unit id="399">
+      <trans-unit id="376">
         <source>notice.no-longer-under-attack</source>
         <target>&#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x435; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x43F;&#x43E;&#x434; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x439;</target>
       </trans-unit>
-      <trans-unit id="400">
+      <trans-unit id="377">
         <source>mobile.login-error.pw-not-match</source>
         <target>&#x41F;&#x430;&#x440;&#x43E;&#x43B;&#x438; &#x43D;&#x435; &#x441;&#x43E;&#x432;&#x43F;&#x430;&#x434;&#x430;&#x44E;&#x442;
 </target>
       </trans-unit>
-      <trans-unit id="401">
+      <trans-unit id="378">
         <source>transfer-troops.no-colony</source>
         <target>	&#x42D;&#x442;&#x430; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x44F; &#x43F;&#x43E;&#x437;&#x432;&#x43E;&#x43B;&#x44F;&#x435;&#x442; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x430;&#x442;&#x44C; &#x43E;&#x442;&#x440;&#x44F;&#x434;&#x44B; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x431;&#x430;&#x437;&#x430;&#x43C;&#x438;. &#x427;&#x442;&#x43E;&#x431;&#x44B; &#x435;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="402">
+      <trans-unit id="379">
         <source>showdamagenumbers.tooltip</source>
         <target>&#x41E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x443;&#x440;&#x43E;&#x43D;&#x430; &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x438;&#x442; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x443; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="403">
+      <trans-unit id="380">
         <source>event.group.invite</source>
         <target>&#x422;&#x435;&#x431;&#x44F; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x43B;&#x438; &#x432; &#x433;&#x440;&#x443;&#x43F;&#x43F;&#x443;. &#x41F;&#x440;&#x43E;&#x434;&#x43E;&#x43B;&#x436;&#x438;&#x442;&#x44C;?</target>
       </trans-unit>
-      <trans-unit id="404">
+      <trans-unit id="381">
         <source>chat.group.first</source>
         <target>&#x422;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x441;&#x432;&#x43E;&#x438; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x447;&#x430;&#x442;&#x430;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x44D;&#x442;&#x43E;.</target>
       </trans-unit>
-      <trans-unit id="405">
+      <trans-unit id="382">
         <source>common.month.apr</source>
         <target>&#x410;&#x43F;&#x440;</target>
       </trans-unit>
-      <trans-unit id="406">
+      <trans-unit id="383">
         <source>colony.need-caldera-core</source>
         <target>&#x414;&#x43B;&#x44F; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x43A;&#x43E;&#x43B;&#x43E;&#x43D;&#x438;&#x438; &#x43D;&#x430; &#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x435;-2 &#x43D;&#x443;&#x436;&#x43D;&#x44B; &#x441;&#x445;&#x435;&#x43C;&#x44B; &#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="407">
+      <trans-unit id="384">
         <source>chat.cmds</source>
         <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x44B;: /a (&#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;) /g (&#x433;&#x440;&#x443;&#x43F;&#x43F;&#x430;) /w (&#x43C;&#x438;&#x440;)</target>
       </trans-unit>
-      <trans-unit id="408">
+      <trans-unit id="385">
         <source>campaign.shrike2.name</source>
         <target>&#x410;&#x432;&#x430;&#x43D;&#x433;&#x430;&#x440;&#x434;</target>
       </trans-unit>
-      <trans-unit id="409">
+      <trans-unit id="386">
         <source>common.sim-loading</source>
         <target>&#x41F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x43A;&#x430; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;&#x439; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x430;</target>
       </trans-unit>
-      <trans-unit id="410">
+      <trans-unit id="387">
         <source>report.abuse</source>
         <target>&#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="411">
+      <trans-unit id="388">
         <source>simulator.stage.units-info</source>
         <target>&#x438;&#x43D;&#x444;&#x43E; &#x43E; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x435;</target>
       </trans-unit>
-      <trans-unit id="412">
+      <trans-unit id="389">
         <source>your.player</source>
         <target>&#x422;&#x432;&#x43E;&#x439; &#x438;&#x433;&#x440;&#x43E;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="413">
+      <trans-unit id="390">
         <source>loading.battle.report</source>
         <target>&#x417;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x430; &#x431;&#x43E;&#x435;&#x432;&#x43E;&#x433;&#x43E; &#x43E;&#x442;&#x447;&#x435;&#x442;&#x430;...</target>
       </trans-unit>
-      <trans-unit id="414">
+      <trans-unit id="391">
         <source>common.resources.looted</source>
         <target>&#x414;&#x43E;&#x431;&#x44B;&#x442;&#x43E; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="415">
+      <trans-unit id="392">
         <source>common.month.aug</source>
         <target>&#x410;&#x432;&#x433;</target>
       </trans-unit>
-      <trans-unit id="416">
+      <trans-unit id="393">
         <source>alliance-log.lost-leader</source>
         <target>&#x43F;&#x43E;&#x442;&#x435;&#x440;&#x44F;&#x43D;&#x43D;&#x43E;&#x435; &#x43B;&#x438;&#x434;&#x435;&#x440;&#x441;&#x442;&#x432;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="417">
+      <trans-unit id="394">
         <source>suggest.kabamdotcom.fs</source>
         <target>&#x412; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x435; &#x43F;&#x43E;&#x43B;&#x43D;&#x43E;&#x433;&#x43E; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x430; &#x447;&#x430;&#x442; &#x43D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x435;&#x43D;.
 
 &#x41D;&#x430;&#x441;&#x43B;&#x430;&#x436;&#x434;&#x430;&#x439;&#x442;&#x435;&#x441;&#x44C; &#x447;&#x430;&#x442;&#x43E;&#x43C; &#x438; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x43E;&#x43D;&#x430;&#x43B;&#x43E;&#x43C; &#x43A;&#x43B;&#x430;&#x432;&#x438;&#x430;&#x442;&#x443;&#x440;&#x44B; &#x432; &#x448;&#x438;&#x440;&#x43E;&#x43A;&#x43E;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x43D;&#x43E;&#x43C; HD &#x43D;&#x430; Kabam.com</target>
       </trans-unit>
-      <trans-unit id="418">
+      <trans-unit id="395">
         <source>mute.warn</source>
         <target>&#x421;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x43E; &#x434;&#x43E; &#x43A;&#x43E;&#x43D;&#x446;&#x430; &#x44D;&#x442;&#x43E;&#x439; &#x438;&#x433;&#x440;&#x43E;&#x432;&#x43E;&#x439; &#x441;&#x435;&#x441;&#x441;&#x438;&#x438;.</target>
       </trans-unit>
-      <trans-unit id="419">
+      <trans-unit id="396">
         <source>event.training.complete-sub</source>
         <target>#LOCATION# &#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43E;: #QUANTITY# #TROOP_TYPE#</target>
       </trans-unit>
-      <trans-unit id="420">
+      <trans-unit id="397">
         <source>train.err.res</source>
         <target>&#x41D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="421">
+      <trans-unit id="398">
         <source>simulator.report.star-breakdown</source>
         <target>&#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x441;&#x43E;&#x432;&#x435;&#x442;&#x43E;&#x432; &#x43F;&#x43E; &#x43A;&#x43B;&#x430;&#x441;&#x441;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x446;&#x438;&#x438; &#x437;&#x432;&#x435;&#x437;&#x434;</target>
       </trans-unit>
-      <trans-unit id="422">
+      <trans-unit id="399">
         <source>bunker-garrison.garrison</source>
         <target>&#x413;&#x430;&#x440;&#x43D;&#x438;&#x437;&#x43E;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="423">
+      <trans-unit id="400">
         <source>error.label</source>
         <target>&#x41E;&#x448;&#x438;&#x431;&#x43A;&#x430;:</target>
       </trans-unit>
-      <trans-unit id="424">
+      <trans-unit id="401">
         <source>common.buildings.destroyed</source>
         <target>&#x417;&#x434;&#x430;&#x43D;&#x438;&#x439; &#x443;&#x43D;&#x438;&#x447;&#x442;&#x43E;&#x436;&#x435;&#x43D;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="425">
+      <trans-unit id="402">
         <source>alliance.inv.conf</source>
         <target>&#x422;&#x44B; &#x445;&#x43E;&#x442;&#x435;&#x43B; &#x431;&#x44B; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x442;&#x44C; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x44F;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x432;&#x430;&#x448;&#x435;&#x43C;&#x443; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;?</target>
       </trans-unit>
-      <trans-unit id="426">
+      <trans-unit id="403">
         <source>train.err.space</source>
         <target>&#x41D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x43C;&#x435;&#x441;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="427">
+      <trans-unit id="404">
         <source>colony.warning.caldera-defense-research</source>
         <target>&#x41E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x43D;&#x44B;&#x435; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x44B; &#x43D;&#x430; &#x441;&#x442;&#x430;&#x434;&#x438;&#x438; &#x43F;&#x43E;&#x434;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x43A;&#x438; </target>
       </trans-unit>
-      <trans-unit id="428">
+      <trans-unit id="405">
         <source>common.deconstruct</source>
         <target>&#x420;&#x430;&#x437;&#x43E;&#x431;&#x440;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="429">
+      <trans-unit id="406">
         <source>common.loading</source>
         <target>	&#x417;&#x430;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="430">
+      <trans-unit id="407">
         <source>common.lieutenant</source>
         <target>	&#x41B;&#x435;&#x439;&#x442;&#x435;&#x43D;&#x430;&#x43D;&#x442;</target>
       </trans-unit>
-      <trans-unit id="431">
+      <trans-unit id="408">
         <source>gate.info</source>
         <target>&#x421;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x438;&#x44F; &#x43E; &#x432;&#x440;&#x430;&#x442;&#x430;&#x445;</target>
       </trans-unit>
-      <trans-unit id="432">
+      <trans-unit id="409">
         <source>chat.release-notes</source>
         <target>	&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435;</target>
       </trans-unit>
-      <trans-unit id="433">
+      <trans-unit id="410">
         <source>campaign.thor1.name</source>
         <target>&#x41F;&#x43E;&#x43B;&#x43D;&#x43E;&#x435; &#x443;&#x43D;&#x438;&#x447;&#x442;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435; (51-10 &#x442;&#x44B;&#x441;.)</target>
       </trans-unit>
-      <trans-unit id="434">
+      <trans-unit id="411">
         <source>colony.aurora-one</source>
         <target>&#x410;&#x432;&#x440;&#x43E;&#x440;&#x430;-1</target>
       </trans-unit>
-      <trans-unit id="435">
+      <trans-unit id="412">
         <source>zoot-loot.disable-close-btn</source>
         <target/>
       </trans-unit>
-      <trans-unit id="436">
+      <trans-unit id="413">
         <source>beginner-base.deal1-subtitle</source>
         <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440; 1 &#x443;&#x440;.</target>
       </trans-unit>
-      <trans-unit id="437">
+      <trans-unit id="414">
         <source>campaign.new11.name</source>
         <target>&#x41E;&#x434;&#x438;&#x43D; &#x432; &#x43F;&#x43E;&#x43B;&#x435; &#x43D;&#x435; &#x432;&#x43E;&#x438;&#x43D; (3-75 &#x442;&#x44B;&#x441;.)</target>
       </trans-unit>
-      <trans-unit id="438">
+      <trans-unit id="415">
         <source>alliance-log.member</source>
         <target>&#x447;&#x43B;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="439">
+      <trans-unit id="416">
         <source>protection.tooltip.title</source>
         <target>&#x417;&#x410;&#x429;&#x418;&#x422;&#x410; &#x411;&#x410;&#x417;&#x42B;</target>
       </trans-unit>
-      <trans-unit id="440">
+      <trans-unit id="417">
         <source>common.x.of.y</source>
         <target>&#x438;&#x437;</target>
       </trans-unit>
-      <trans-unit id="441">
+      <trans-unit id="418">
         <source>common.sale</source>
         <target>&#x410;&#x41A;&#x426;&#x418;&#x42F;!</target>
       </trans-unit>
-      <trans-unit id="442">
+      <trans-unit id="419">
         <source>common.transfer-button</source>
         <target>	&#x41F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x442;&#x44C; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="443">
+      <trans-unit id="420">
         <source>chat.filters</source>
         <target>&#x424;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x44B; &#x447;&#x430;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="444">
+      <trans-unit id="421">
         <source>alli.beta</source>
         <target>&#x410;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x44B; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x44F;&#x442;&#x441;&#x44F; &#x432; &#x431;&#x435;&#x442;&#x430;-&#x432;&#x435;&#x440;&#x441;&#x438;&#x438;. &#x411;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x439; &#x443;&#x436;&#x435; &#x432;&#x441;&#x43A;&#x43E;&#x440;&#x435;! &#x41F;&#x440;&#x435;&#x434;&#x43B;&#x43E;&#x436;&#x438;&#x442;&#x44C; &#x438;&#x434;&#x435;&#x438; &#x43D;&#x430; &#x444;&#x43E;&#x440;&#x443;&#x43C;&#x430;&#x445;.</target>
       </trans-unit>
-      <trans-unit id="445">
+      <trans-unit id="422">
         <source>common.active</source>
         <target>&#x430;&#x43A;&#x442;&#x438;&#x432;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="446">
+      <trans-unit id="423">
         <source>common.recharge-sims-window</source>
         <target>&#x417;&#x430;&#x440;&#x44F;&#x434;&#x438;&#x442;&#x44C; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440; &#x44D;&#x43D;&#x435;&#x440;&#x433;&#x438;&#x435;&#x439;</target>
       </trans-unit>
-      <trans-unit id="447">
+      <trans-unit id="424">
         <source>alliance-log.is-friendly</source>
         <target>&#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x434;&#x440;&#x443;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x43C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="448">
+      <trans-unit id="425">
         <source>alliance-log.time</source>
         <target>&#x412;&#x440;&#x435;&#x43C;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="449">
+      <trans-unit id="426">
         <source>common.awaiting.response</source>
         <target>&#x41E;&#x436;&#x438;&#x434;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="450">
+      <trans-unit id="427">
         <source>beginner-base.deal3-des</source>
         <target>&#x421;&#x43E;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442;  &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; 8 &#x443;&#x440;., &#x432; &#x442;&#x43E;&#x43C; &#x447;&#x438;&#x441;&#x43B;&#x435; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440;, &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x43D;&#x44B;&#x439; &#x41D;&#x418;&#x418;, &#x442;&#x435;&#x445;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439;  &#x41D;&#x418;&#x418;, &#x43A;&#x430;&#x437;&#x430;&#x440;&#x43C;&#x44B;, &#x432;&#x440;&#x430;&#x442;&#x430; &#x438;&#x441;&#x43A;&#x440;&#x438;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;, &#x43F;&#x43E;&#x43B;&#x438;&#x433;&#x43E;&#x43D;, &#x440;&#x435;&#x437;&#x438;&#x434;&#x435;&#x43D;&#x446;&#x438;&#x44E; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x43E;&#x432;, 36 &#x431;&#x430;&#x448;&#x435;&#x43D; &#x438;  &#x43C;&#x43D;&#x43E;&#x433;&#x43E;&#x435; &#x434;&#x440;&#x443;&#x433;&#x43E;&#x435;!  &#x411;&#x43E;&#x43B;&#x435;&#x435; 3500 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;&#x439; &#x43E;&#x43F;&#x44B;&#x442;&#x430; &#x431;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x43E;!</target>
       </trans-unit>
-      <trans-unit id="451">
+      <trans-unit id="428">
         <source>beginner-base.deal1</source>
         <target>&#x421;&#x442;&#x430;&#x43D;&#x434;&#x430;&#x440;&#x442;&#x43D;.</target>
       </trans-unit>
-      <trans-unit id="452">
+      <trans-unit id="429">
         <source>beginner-base.deal2</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x43D;.</target>
       </trans-unit>
-      <trans-unit id="453">
+      <trans-unit id="430">
         <source>beginner-base.deal3</source>
         <target>&#x42D;&#x43B;&#x438;&#x442;&#x43D;.</target>
       </trans-unit>
-      <trans-unit id="454">
+      <trans-unit id="431">
         <source>tooltip.upgrade-simulator</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x442;&#x435; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x440;&#x430;&#x437;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;!</target>
       </trans-unit>
-      <trans-unit id="455">
+      <trans-unit id="432">
         <source>common.friend</source>
         <target>&#x414;&#x440;&#x443;&#x433;</target>
       </trans-unit>
-      <trans-unit id="456">
+      <trans-unit id="433">
         <source>barracks.unlock</source>
         <target>&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43A;&#x430;&#x437;&#x430;&#x440;&#x43C;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x440;&#x430;&#x437;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="457">
+      <trans-unit id="434">
         <source>crafting.menu-subtitle</source>
         <target>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x432;&#x430;&#x439;&#x442;&#x435; &#x443;&#x43D;&#x438;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x438; &#x43C;&#x43E;&#x449;&#x43D;&#x44B;&#x435; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442;&#x44B;, &#x441;&#x43E;&#x447;&#x435;&#x442;&#x430;&#x44F; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x435; &#x447;&#x430;&#x441;&#x442;&#x438; &#x438; &#x430;&#x440;&#x442;&#x435;&#x444;&#x430;&#x43A;&#x442;&#x44B;!</target>
       </trans-unit>
-      <trans-unit id="458">
+      <trans-unit id="435">
         <source>common.report-xpboost</source>
         <target>&#x411;&#x430;&#x437;&#x43E;&#x432;&#x44B;&#x435; &#x41E;&#x41E;</target>
       </trans-unit>
-      <trans-unit id="459">
+      <trans-unit id="436">
         <source>faction.spider.win</source>
         <target>&#x411;&#x430;&#x437;&#x443; &#x443;&#x434;&#x430;&#x43B;&#x43E;&#x441;&#x44C; &#x43E;&#x442;&#x441;&#x442;&#x43E;&#x44F;&#x442;&#x44C;!</target>
       </trans-unit>
-      <trans-unit id="460">
+      <trans-unit id="437">
         <source>common.day.mon</source>
         <target>&#x41F;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="461">
+      <trans-unit id="438">
         <source>common.garrison</source>
         <target>&#x413;&#x430;&#x440;&#x43D;&#x438;&#x437;&#x43E;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="462">
+      <trans-unit id="439">
         <source>chat.show.ally.names</source>
         <target>&#x41F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x44C; &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="463">
+      <trans-unit id="440">
         <source>common.base.list</source>
         <target>&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A; &#x431;&#x430;&#x437;</target>
       </trans-unit>
-      <trans-unit id="464">
+      <trans-unit id="441">
         <source>mobile.baseattacked</source>
         <target>&#x412;&#x430;&#x448;&#x430; &#x431;&#x430;&#x437;&#x430; &#x440;&#x430;&#x437;&#x440;&#x443;&#x448;&#x435;&#x43D;&#x430;. &#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x439;&#x442;&#x435;&#x441;&#x44C; &#x438; &#x43E;&#x442;&#x43E;&#x43C;&#x441;&#x442;&#x438;&#x442;&#x435; &#x432;&#x440;&#x430;&#x433;&#x430;&#x43C;!</target>
       </trans-unit>
-      <trans-unit id="465">
+      <trans-unit id="442">
         <source>common.victory.bang</source>
         <target>&#x41F;&#x43E;&#x431;&#x435;&#x434;&#x430;!</target>
       </trans-unit>
-      <trans-unit id="466">
+      <trans-unit id="443">
         <source>alliance-log.promoted-leader</source>
         <target>&#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43B;&#x438;&#x434;&#x435;&#x440;&#x441;&#x442;&#x432;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="467">
+      <trans-unit id="444">
         <source>beginner-base.underline</source>
         <target>&#x41D;&#x430;&#x432;&#x435;&#x434;&#x438;&#x442;&#x435; &#x43A;&#x443;&#x440;&#x441;&#x43E;&#x440; &#x43D;&#x430; &#x43A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x438;&#x437; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x43E;&#x432;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x443;&#x437;&#x43D;&#x430;&#x442;&#x44C;, &#x447;&#x442;&#x43E; &#x432;&#x43D;&#x443;&#x442;&#x440;&#x438;!</target>
       </trans-unit>
-      <trans-unit id="468">
+      <trans-unit id="445">
         <source>common.send-all</source>
         <target>&#x41E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x432;&#x441;&#x435;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="469">
+      <trans-unit id="446">
         <source>chat.rules</source>
         <target>&#x41F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x430;: &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x443;&#x432;&#x430;&#x436;&#x430;&#x439; &#x434;&#x440;&#x443;&#x433;&#x438;&#x445; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x43E;&#x432;. &#x41D;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439; &#x43D;&#x435;&#x43D;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x438;&#x432;&#x43D;&#x443;&#x44E; &#x43B;&#x435;&#x43A;&#x441;&#x438;&#x43A;&#x443;, &#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x435; &#x432;&#x44B;&#x43F;&#x430;&#x434;&#x44B;, &#x43F;&#x440;&#x43E;&#x43F;&#x430;&#x433;&#x430;&#x43D;&#x434;&#x443; &#x43D;&#x435;&#x43D;&#x430;&#x432;&#x438;&#x441;&#x442;&#x438;; &#x441;&#x43F;&#x430;&#x43C; &#x438; &#x441;&#x441;&#x44B;&#x43B;&#x43A;&#x438; &#x43D;&#x435; &#x434;&#x43E;&#x43F;&#x443;&#x441;&#x43A;&#x430;&#x44E;&#x442;&#x441;&#x44F;.</target>
       </trans-unit>
-      <trans-unit id="470">
+      <trans-unit id="447">
         <source>missions.main-missions</source>
         <target>&#x41E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x435; &#x437;&#x430;&#x434;&#x430;&#x447;&#x438;</target>
       </trans-unit>
-      <trans-unit id="471">
+      <trans-unit id="448">
         <source>common.no.alliance</source>
         <target>&#x41D;&#x435;&#x442; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;</target>
       </trans-unit>
-      <trans-unit id="472">
+      <trans-unit id="449">
         <source>campaign.specter3.name</source>
         <target>&#x422;&#x438;&#x445;&#x438;&#x435; &#x443;&#x431;&#x438;&#x439;&#x446;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="473">
+      <trans-unit id="450">
         <source>dialog.title.boost-selection</source>
         <target>&#x412;&#x42B;&#x411;&#x41E;&#x420; &#x423;&#x412;&#x415;&#x41B;&#x418;&#x427;&#x415;&#x41D;&#x418;&#x42F;</target>
       </trans-unit>
-      <trans-unit id="474">
+      <trans-unit id="451">
         <source>alliance.msg.ldro</source>
         <target>&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43B;&#x438;&#x434;&#x435;&#x440; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x432;&#x441;&#x435;&#x43C;&#x443; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;.</target>
       </trans-unit>
-      <trans-unit id="475">
+      <trans-unit id="452">
         <source>beginner-base.deal3-subtitle</source>
         <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440; 8 &#x443;&#x440;.</target>
       </trans-unit>
-      <trans-unit id="476">
+      <trans-unit id="453">
         <source>mobile.login-option.already-have-kabam-id</source>
         <target>&#x423; &#x41C;&#x415;&#x41D;&#x42F; &#x423;&#x416;&#x415; &#x415;&#x421;&#x422;&#x42C; KABAM ID</target>
       </trans-unit>
-      <trans-unit id="477">
+      <trans-unit id="454">
         <source>common.month.jan</source>
         <target>&#x42F;&#x43D;&#x432;</target>
       </trans-unit>
-      <trans-unit id="478">
+      <trans-unit id="455">
         <source>common.convert-button</source>
         <target>&#x41F;&#x440;&#x435;&#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="479">
+      <trans-unit id="456">
         <source>campaign.dragon1.name</source>
         <target>&#x412;&#x442;&#x43E;&#x440;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x434;&#x436;&#x438;&#x433;&#x43E;&#x437;&#x430;&#x432;&#x440;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="480">
+      <trans-unit id="457">
         <source>group.sess.mute</source>
         <target>&#x417;&#x430;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x442; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="481">
+      <trans-unit id="458">
         <source>campaign.new15.name</source>
         <target>&#x412;&#x442;&#x43E;&#x440;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x434;&#x436;&#x438;&#x433;&#x43E;&#x437;&#x430;&#x432;&#x440;&#x43E;&#x432; (5-270 &#x442;&#x44B;&#x441;.)</target>
+      </trans-unit>
+      <trans-unit id="459">
+        <source>under-siege</source>
+        <target>&#x411;&#x430;&#x437;&#x430; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x432; &#x43E;&#x441;&#x430;&#x434;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="460">
+        <source>common.training-cost</source>
+        <target>&#x421;&#x442;&#x43E;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x43E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="461">
+        <source>max-level-benefits.title</source>
+        <target>Max Level Bonus</target>
+      </trans-unit>
+      <trans-unit id="462">
+        <source>common.members</source>
+        <target>&#x427;&#x43B;&#x435;&#x43D;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="463">
+        <source>common.terms</source>
+        <target>&#x423;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="464">
+        <source>train.err.time-min</source>
+        <target>&#x412;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x43E;&#x431;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x43F;&#x43E; &#x43A;&#x440;&#x430;&#x439;&#x43D;&#x435;&#x439; &#x43C;&#x435;&#x440;&#x435; 1 &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x443;</target>
+      </trans-unit>
+      <trans-unit id="465">
+        <source>edit.alliance</source>
+        <target>&#x420;&#x435;&#x434;&#x430;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
+      </trans-unit>
+      <trans-unit id="466">
+        <source>crafting.craft-successful</source>
+        <target>&#x41F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;!</target>
+      </trans-unit>
+      <trans-unit id="467">
+        <source>mapinfo.score-tooltip</source>
+        <target>&#x421;&#x443;&#x43C;&#x43C;&#x43E;&#x439; &#x43E;&#x447;&#x43A;&#x43E;&#x432; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x443;&#x43C;&#x43C;&#x430; &#x432;&#x441;&#x435;&#x445; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;&#x439; &#x431;&#x430;&#x437; &#x43D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x435;.</target>
+      </trans-unit>
+      <trans-unit id="468">
+        <source>event.level-nine.content1</source>
+        <target>The next level of Edgeworld warfare has arrived!</target>
+      </trans-unit>
+      <trans-unit id="469">
+        <source>event.level-nine.content2</source>
+        <target>Upgrade your buildings to Level 9 and research Level 9 units in the Tech Lab.</target>
+      </trans-unit>
+      <trans-unit id="470">
+        <source>event.level-nine.content3</source>
+        <target>Upgrade your Command Center</target>
+      </trans-unit>
+      <trans-unit id="471">
+        <source>crafting.input-basic</source>
+        <target>&#x41E;&#x431;&#x44B;&#x447;&#x43D;&#x44B;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="472">
+        <source>event.level-nine.content4</source>
+        <target>NOW!</target>
+      </trans-unit>
+      <trans-unit id="473">
+        <source>request.to.join</source>
+        <target>&#x41E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x430; &#x432;&#x441;&#x442;&#x443;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="474">
+        <source>report.you.attacked.lbl</source>
+        <target>&#x412;&#x44B; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43B;&#x438;:</target>
+      </trans-unit>
+      <trans-unit id="475">
+        <source>mission.filter.construction</source>
+        <target>&#x421;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x442;&#x432;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="476">
+        <source>alli.view.descr</source>
+        <target>&#x41E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="477">
+        <source>alliance-log.attacked</source>
+        <target>&#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="478">
+        <source>common.reject.all</source>
+        <target>&#x41E;&#x442;&#x43A;&#x43B;&#x43E;&#x43D;&#x438;&#x442;&#x44C; &#x432;&#x441;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="479">
+        <source>beginner-base.best-deal</source>
+        <target>&#x41B;&#x443;&#x447;&#x448;&#x430;&#x44F; &#x441;&#x434;&#x435;&#x43B;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="480">
+        <source>campaign.brawler1.name</source>
+        <target>&#x412;&#x437;&#x433;&#x43B;&#x44F;&#x434; &#x437;&#x430;&#x431;&#x438;&#x44F;&#x43A;&#x438;
+</target>
+      </trans-unit>
+      <trans-unit id="481">
+        <source>click.train</source>
+        <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43E;&#x431;&#x443;&#x447;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
     </body>
   </file>

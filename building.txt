@@ -1,0 +1,22 @@
+POST /api/bases/2324999/buildings/62440345
+
+_method=put
+_session_id=a155ad1908f4c513b1b6d377aebd5061
+meltdown=885377e8de5c82ee89c5d616d11024f62f5acb95
+reactor=8694f154769b1fe1a6c174209b7df65c6418e31c
+testCount=352
+user_id=608208
+
+POST /api/bases/1997028/buildings/62579011
+_method=put
+_session_id=a155ad1908f4c513b1b6d377aebd5061
+meltdown=885377e8de5c82ee89c5d616d11024f62f5acb95
+reactor=8694f154769b1fe1a6c174209b7df65c6418e31c
+testCount=354
+user_id=608208
+
+GET /api/player/colonies/2324999
+_session_id=a155ad1908f4c513b1b6d377aebd5061
+meltdown=885377e8de5c82ee89c5d616d11024f62f5acb95
+reactor=8694f154769b1fe1a6c174209b7df65c6418e31c
+user_id=608208

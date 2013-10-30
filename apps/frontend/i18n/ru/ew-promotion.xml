@@ -5,39 +5,6 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>093011.subject</source>
-        <target>Research Reward!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>octfirstbuyerb.subject</source>
-        <target>
-First-Time Platinum Bonus!</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>factionattack1011.subject</source>
-        <target>Faction Counterattack!</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>twitter7500.subject</source>
-        <target>Help us reach 7500 Followers!</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>23Jan2012.body</source>
-        <target>	&#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;! &#x412;&#x44B; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x43B;&#x438; &#x441;&#x432;&#x43E;&#x44E; &#x431;&#x430;&#x437;&#x443; &#x434;&#x43E; 9-&#x433;&#x43E; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>SevenSixteen.body</source>
-        <target>Stock up on Platinum! Starting now, every Platinum package you purchase is a chance to win double Platinum!&lt;br&gt;&lt;br&gt;  We're choosing three winners a day on Monday, Tuesday, Wednesday and Thursday. (July 18-21) If you're chosen, one of your Platinum purchases will be doubled! The more packages you buy, the more chances you have to win!&lt;br&gt;&lt;br&gt;  You'll want to have some extra Platinum on hand soon - the Edgeworld team is working on tons of new stuff! Watch for details on new building levels, large-scale Alliance warfare, and more. Buy a Platinum package to be prepared!</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>2011maptournament.subject</source>
-        <target>Alliance Map Tournament!</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>heliowinner.subject</source>
-        <target>Helio Assault Winner!</target>
-      </trans-unit>
-      <trans-unit id="9">
         <source>102611.body</source>
         <target>&lt;p&gt;
 Have you survived a Lancer attack yet? They're not out for candy - they're out for blood!
@@ -47,7 +14,7 @@ Heads-up: We're preparing a great event for the Halloween weekend, and we have a
 Don't get spooked! Make Edgeworld a part of your Halloween plans, and find time to play each day, Thursday through Monday! (Costumes optional)
 &lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="2">
         <source>120611.body</source>
         <target>Congratulations, Commander! You shut down the Maar's dreams of expansion, and earned the grudging thanks of the Erazi and Helio.
 &lt;p&gt;
@@ -59,19 +26,19 @@ Your prize is based on your level. Check your inventory for these items:
 &lt;p&gt;
 &lt;b&gt;One Commander Level 501 and up:&lt;/b&gt; 4 million Energy, 4 million Uranium, 3 Combat Strategies</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="3">
         <source>decembertwitter.subject</source>
         <target>12 Alien Holiday Giveaways!</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="4">
         <source>kiragiftwinner1.body</source>
         <target>	&#x427;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x431;&#x43B;&#x430;&#x433;&#x43E;&#x434;&#x430;&#x440;&#x438;&#x442;&#x44C; &#x432;&#x430;&#x441; &#x437;&#x430; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x443;</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="5">
         <source>platinumgifting.subject</source>
         <target>Platinum Gifting!</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="6">
         <source>092311zoot.body</source>
         <target>Zoot's inviting everyone to his Platinum giveaway party! He's giving away TWO 1,000 PLATINUM PRIZES ON EVERY SECTOR!
 &lt;br&gt;&lt;br&gt;
@@ -79,11 +46,11 @@ To win, you just have to play Zoot's Loot! Every time you play Zoot's Loot this 
 &lt;br&gt;&lt;br&gt;
 Zoot's giving out OVER 50,000 PLATINUM IN PRIZES, and we'll announce the winners Monday! Visit the shop and get your Zoot Tokens NOW!</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="7">
         <source>eraziwinner.subject</source>
         <target>Faction Assault: Erazi Eradication!</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="8">
         <source>octfirstbuyerfridaygoogle.body</source>
         <target>&lt;p&gt;We're extending a special offer to our experienced Edgeworld players!&lt;/p&gt;&lt;p&gt;Purchase a Platinum Package for the first time this weekend, and you'll receive 
 
@@ -103,13 +70,13 @@ our Beginner's Sale to get a similar discount.&lt;/p&gt;&lt;p&gt;The additional 
 
 &lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="9">
         <source>erazi150.body</source>
         <target>&lt;p&gt;Commander, your devotion to crushing the Erazi Syndicate is commendable. The Maar Confederacy has sent Gas and Crystal to our base. They call it a 'Tax Rebate,' but I think they're just afraid of us destroying all their bases again!
 &lt;p&gt;Check your inventory using the Shop button to access these items.
 &lt;p&gt;You have received 4 million Crystal and Gas.</target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="10">
         <source>seveneighteen.body</source>
         <target>Congratulations to Squishykins, Chawntelle, and Kuulei, the first three winners of our Platinum Package Daily Double event! They've each won double Platinum on one of their purchases!&lt;br&gt;&lt;br&gt;
 
@@ -119,28 +86,28 @@ We've got another event coming up soon...watch your mailbox!&lt;br&gt;&lt;br&gt;
 
 Missed the announcement of the Platinum Package event? &lt;a href="http://community.kabam.com/forums/showthread.php?27022" target="_blank"&gt;Get the full rules here!&lt;/a&gt;</target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="11">
         <source>102911.subject</source>
         <target>Halloween Weekend Events</target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="12">
         <source>SevenSixteen.subject</source>
         <target>Platinum Package Daily Double!
 </target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="13">
         <source>102611.subject</source>
         <target>Tricks and Treats!</target>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="14">
         <source>081211.subject</source>
         <target>Alliance Expansion Event</target>
       </trans-unit>
-      <trans-unit id="23">
+      <trans-unit id="15">
         <source>seveneighteen.subject</source>
         <target>Monday Winners!</target>
       </trans-unit>
-      <trans-unit id="24">
+      <trans-unit id="16">
         <source>092311weekend.body</source>
         <target>Our events just keep getting better and better! We've got big Platinum prizes for every Sector available this weekend!
 &lt;br&gt;&lt;br&gt;&lt;b&gt;
@@ -160,15 +127,15 @@ Fight hard and level up! One player in each Sector who gains the most Levels fro
 &lt;br&gt;&lt;br&gt;
 We're giving away nearly 100,000 PLATINUM WORTH OF PRIZES this weekend! We'll announce the winners Monday. Will you be a big Platinum winner?</target>
       </trans-unit>
-      <trans-unit id="25">
+      <trans-unit id="17">
         <source>alliancemapjanuary3.body</source>
         <target>	&#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;! &#x412;&#x430;&#x448; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441; &#x441; &#x43E;&#x433;&#x440;&#x43E;&#x43C;&#x43D;&#x43E;&#x439; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C;&#x44E; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x438;&#x43B; &#x443;&#x437;&#x43B;&#x44B; &#x43A;&#x430;&#x440;&#x442;&#x44B; &#x432; &#x442;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x442;&#x443;&#x440;&#x43D;&#x438;&#x440;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x44B; &#x410;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;! &#x41A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x447;&#x43B;&#x435;&#x43D; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442; 8-&#x447;&#x430;&#x441;. &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x435;&#x43B;&#x44C;!</target>
       </trans-unit>
-      <trans-unit id="26">
+      <trans-unit id="18">
         <source>09012011.subject</source>
         <target>Galactic Labor Day</target>
       </trans-unit>
-      <trans-unit id="27">
+      <trans-unit id="19">
         <source>09192011.body</source>
         <target>Congratulations to ZombieKing! They won 1100 Platinum for upgrading their Command Center to Level 9!
 &lt;br&gt;&lt;br&gt;
@@ -180,15 +147,15 @@ Finally, Porzer, Avatar, mamme, Cosmic Death, Eosrali, Raduran, kingshawn, Het, 
 &lt;br&gt;&lt;br&gt;
 Congratulations to all our winners, and thanks again for playing Edgeworld!</target>
       </trans-unit>
-      <trans-unit id="28">
+      <trans-unit id="20">
         <source>febattack24h.body</source>
         <target/>
       </trans-unit>
-      <trans-unit id="29">
+      <trans-unit id="21">
         <source>febattack24h.subject</source>
         <target/>
       </trans-unit>
-      <trans-unit id="30">
+      <trans-unit id="22">
         <source>quadplatinum.body</source>
         <target>Want to win double Platinum? Triple? How about quadruple Platinum prizes, every day!&lt;br&gt;&lt;br&gt;
 Each day, Friday through Monday (October 17), we're choosing two players and giving out quadruple Platinum on all their purchases that day!&lt;br&gt;&lt;br&gt;
@@ -197,7 +164,7 @@ Want to give a Platinum Gift instead? Even better! If chosen, both you AND your 
 Two winners every day!&lt;br&gt;&lt;br&gt;
 To enter, just purchase a Platinum Package from Friday through Monday. You'll automatically be entered to win!</target>
       </trans-unit>
-      <trans-unit id="31">
+      <trans-unit id="23">
         <source>octfirstbuyerfridayfacebook.body</source>
         <target>&lt;p&gt;We're extending a special offer to our experienced Edgeworld players!&lt;/p&gt;&lt;p&gt;Purchase a Platinum Package for the first time this weekend, and you'll receive 
 
@@ -218,12 +185,12 @@ our Beginner's Sale to get a similar discount.&lt;/p&gt;&lt;p&gt;The additional 
 
 &lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="32">
+      <trans-unit id="24">
         <source>20120314.newusers.body</source>
         <target>Welcome to Edgeworld, Commander!&lt;br&gt;&lt;br&gt;
 A leader of your caliber will go far in the battle to dominate Cerulea IV!&lt;br&gt;&lt;br&gt; To aid you in these first days, we are pleased to offer a special bonus for new Commanders only: take advantage of Edgeworld  &lt;a href="https://www.kabam.com/edgeworld/play?path=/platinum" target="_blank"&gt;Platinum&lt;/a&gt; and we will give you a bonus FREE Beginner's Kit with the purchase of our 155 platinum package!&lt;br&gt;&lt;br&gt;  The Beginner's Kit contains a variety of Accelerators to speed your building construction and troop training, tokens for the always-popular &lt;b&gt;&lt;i&gt;Zoot's Loot&lt;/i&gt;&lt;/b&gt; chance game and XP boosting Combat Tactics to help you level up faster and grow your power!  Get your &lt;b&gt;FREE&lt;/b&gt; bonus gift before its too late.  This offer expires within 7 days of joining Edgeworld!&lt;br&gt;&lt;br&gt; &lt;a href="https://www.kabam.com/edgeworld/play?path=/platinum" target="_blank"&gt;Click Here&lt;/a&gt; to get some Platinum and claim your &lt;b&gt;FREE&lt;/b&gt; Beginner's Kit!&lt;br&gt;&lt;br&gt;Once you've made your purchase, keep an eye on your in-game mail in the coming days for your &lt;b&gt;FREE&lt;/b&gt; Beginner's Kit!</target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="25">
         <source>factionattack1011.body</source>
         <target>It&#x2019;s time to rally and show the Factions who&#x2019;s boss of Cerulea IV!
 &lt;br&gt;&lt;br&gt;
@@ -233,21 +200,21 @@ Three players per Sector will win, one for each Faction! We&#x2019;ll also choos
 &lt;br&gt;&lt;br&gt;
 You have until Friday (10/8) to score those victories and crush the Factions! Fight hard to win!</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="26">
         <source>erazi50.body</source>
         <target>&lt;p&gt;Commander, your devotion to crushing the Erazi Syndicate is commendable. The Maar Confederacy has sent Gas and Crystal to our base. They call it a 'Tax Rebate,' but I think they're just afraid of us destroying all their bases again!
 &lt;p&gt;Check your inventory using the Shop button to access these items.
 &lt;p&gt;You have received 100,000 Crystal and Gas.</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="27">
         <source>110711all.subject</source>
         <target>Lancer Science Fair Winners</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="28">
         <source>platinumgifting.body</source>
         <target>A strong Commander needs strong allies. Help your allies by sending them Platinum!&lt;br&gt;&lt;br&gt;From our Platinum Packages screen, you can now buy Packages for your Alliance members or Facebook friends. You'll receive the bonus items, but they'll get all the Platinum!&lt;br&gt;&lt;br&gt;A powerful Alliance can send you resources and attack your enemies, even when you're not playing. Help your allies grow!&lt;br&gt;&lt;br&gt;&lt;a href="http://apps.facebook.com/edgeworld/platinum" target="_blank"&gt;Check out Platinum Gifts now!&lt;/a&gt;&lt;br&gt;&lt;br&gt;Platinum Gifts are currently not available on Google+.</target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="29">
         <source>factionattackend.body</source>
         <target>Thousands of Maar bases lie in ruins. The Confederacy rose up in pride, and you smashed them back into humility.&lt;p&gt;
 The bases and dens of the Erazi Syndicate have been cracked open, and their energy stolen. They'll have a long fight to recover from this.&lt;p&gt;
@@ -256,25 +223,25 @@ The Cerulean obelisks pulse with a powerful energy. The strongest Commanders in 
 The results have been tallied, and reward packages are being delivered to the strongest Commanders in this Sector. You'll have a message in your mail if you're a winner!&lt;p&gt;
 The planet is at peace now...surely this can last forever, right?</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="30">
         <source>pvpassault.body</source>
         <target>A mysterious challenge has gone out across Cerulea IV. The most powerful Commanders will win Energizers and Boosts!&lt;p&gt;
 Think you can win it? &lt;a href="http://community.kabam.com/forums/showthread.php?53674" target="_blank"&gt;Read about the challenge here, and how to win!&lt;/a&gt;&lt;p&gt;
 &lt;p&gt;&lt;img src="http://i44.tinypic.com/2rrxs37.jpg"&gt;</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="31">
         <source>09012011.body</source>
         <target>Labor Day is upon us, and the show must go on! Celebrate the hardworking laborers of Cerulea IV this weekend!&lt;br&gt;&lt;br&gt;&lt;a href="http://www.facebook.com/event.php?eid=276591275700265" target="_blank"&gt;Visit our Event Page to RSVP!&lt;/a&gt; One player who RSVPs will win 50 Platinum!&lt;br&gt;&lt;br&gt;&lt;b&gt;Platinum Sale&lt;/b&gt;&lt;br&gt;&lt;br&gt;Help your workers do their jobs with Accelerators, Nanos, and Shields! Platinum is on sale!&lt;br&gt;&lt;br&gt;The 225 Platinum Package is &lt;b&gt;5% OFF!&lt;/b&gt;&lt;br&gt;The 400 Platinum Package is &lt;b&gt;10% OFF!&lt;/b&gt;&lt;br&gt;The 1,000 Platinum Package is &lt;b&gt;15% OFF!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Platinum Gifting Event&lt;/b&gt;&lt;br&gt;&lt;br&gt;You can also give this discounted Platinum to your allies!&lt;br&gt;&lt;br&gt;Three players who give gifts this weekend will win &lt;u&gt;twice as much Platinum&lt;/u&gt; for themselves, and a &lt;u&gt;24-Hour Shield&lt;/u&gt; for every member of their Alliance! Every gift is a chance to win!&lt;br&gt;&lt;br&gt;&lt;b&gt;Alliance Level Up Contest&lt;/b&gt;&lt;br&gt;&lt;br&gt;The 5 Alliances who gain the most total levels will win an &lt;u&gt;8-Hour Accelerator&lt;/u&gt; for every member of the Alliance! The clock starts now!&lt;br&gt;&lt;br&gt;&lt;b&gt;The Labor of the Future&lt;/b&gt;&lt;br&gt;&lt;br&gt;This Labor Day, we want to know: what will your job be like in the future? Will you be a space Marine, a Tech Lab researcher, or maybe a Crystal Miner?&lt;br&gt;&lt;br&gt;&lt;a href="http://community.kabam.com/forums/showthread.php?34549" target="_blank"&gt;Visit the Forums to share your story, and win 150 Platinum!&lt;/a&gt;&lt;br&gt;&lt;br&gt;All winners will be announced &lt;b&gt;Tuesday, 9/6.&lt;/b&gt; Good luck!</target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="32">
         <source>quadplatinumwinners.subject</source>
         <target>Quadruple Platinum Winner!</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="33">
         <source>seveneighteen2.subject</source>
         <target>Level 7 Building Rush</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="34">
         <source>octfirstbuyersundayfacebook.body</source>
         <target>&lt;p&gt;We have a special deal available right now for our experienced Edgeworld players! Lots of players are taking advantage of this bonus Platinum, and you can 
 
@@ -296,36 +263,36 @@ our Beginner's Sale to get a similar discount.&lt;/p&gt;&lt;p&gt;The additional 
 &lt;/p&gt;
 </target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="35">
         <source>120211.subject</source>
         <target>Faction Assault Contest! Target: Maar</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="36">
         <source>rhinofriday.body</source>
         <target>The Rhino Rampage has started! Break your enemy's defensive line with these mighty troops!&lt;br&gt;&lt;br&gt;This weekend, Rhinos are free and quick to train, attack twice as fast, and only take up one space in your Warp Capacity.&lt;br&gt;&lt;br&gt;Train your offensive squad, and get on the field!&lt;br&gt;&lt;br&gt;Don't miss any announcements - &lt;a href="http://www.facebook.com/edgeworld" target="_blank"&gt;Like our Fan Page!&lt;/a&gt;</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="37">
         <source>110711all.body</source>
         <target>We've chosen the winners for the Lancer Science Fair and sent out the prizes. If you've won, there will be a message in your Edgeworld mail. Thanks for participating!</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="38">
         <source>januarycorewinner.subject</source>
         <target>	&#x41F;&#x43E;&#x431;&#x435;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x43A;&#x43E;&#x43D;&#x43A;&#x443;&#x440;&#x441;&#x430; &#x426;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x43E;&#x435; &#x44F;&#x434;&#x440;&#x43E;!</target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="39">
         <source>rhinofriday.subject</source>
         <target>Rhino Rampage!</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="40">
         <source>sevensixteen.subject</source>
         <target>Platinum Package Daily Double!
 </target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="41">
         <source>level8.admiraltenmu.subject</source>
         <target>Cerulean Technology</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="42">
         <source>102811.body</source>
         <target>&lt;p&gt;
 Halloween is almost here, and the terrors of Cerulea IV are rising. A powerful Alliance will protect you from the things that go bump in the night, and let you give some bumps of your own!
@@ -337,54 +304,54 @@ You can have bases and Alliances on multiple sectors. Try starting an Alliance i
 Prizes are awarded Monday, October 31. Ghoulishly good luck!
 &lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="43">
         <source>vday24h.body</source>
         <target/>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="44">
         <source>08012011.body</source>
         <target>It's time for our next event: the Level 7 Building Blitz!&lt;br&gt;&lt;br&gt;Upgrade your buildings to Level 7, and you could win a HAX-8 Speedup! Every Level 7 building is another chance to win!&lt;br&gt;&lt;br&gt;25 players will win on Wednesday. Start your upgrades now!&lt;br&gt;&lt;br&gt;&lt;br&gt;Get yourself up to Level 7, because we're just about ready to take your base to the next level!</target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="45">
         <source>kiragiftwinner.subject</source>
         <target>	&#x412;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x438; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x43E;&#x43A; &#x41A;&#x418;&#x420;&#x42B;!</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="46">
         <source>08262011.body</source>
         <target>Take advantage of Zoot's generosity, send Platinum to your friends, and help us name the next sector! It's another exciting weekend in Edgeworld!&lt;br&gt;&lt;br&gt;
 Zoot's Double Down&lt;br&gt;&lt;br&gt;Zoot's inventory is overstocked, and he's just giving it away! This weekend, you can play Zoot's Loot twice a day!&lt;br&gt;Visit often to win!&lt;br&gt;&lt;br&gt;Name the Next Sector!&lt;br&gt;&lt;br&gt;Visit the forums to give us your ideas for the next Sector name!&lt;br&gt;Any names we use will win 100 Platinum!&lt;br&gt;&lt;br&gt;&lt;a href="http://community.kabam.com/forums/showthread.php?33610" target="_blank"&gt;Visit the contest thread here!&lt;/a&gt;&lt;br&gt;&lt;br&gt;And don't forget about Platinum Gifting! You can buy Platinum for other members of your Alliance, and your Facebook friends, from our &lt;a href="http://apps.facebook.com/edgeworld/platinum" target="_blank"&gt;Platinum Page!&lt;/a&gt;&lt;br&gt;&lt;br&gt;Platinum Gifts are currently not available on Google+.</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="47">
         <source>gift120911.subject</source>
         <target>Platinum Gifting Holiday every day through 12/31!</target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="48">
         <source>kiragiftwinner2.body</source>
         <target>	&#x427;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x431;&#x43B;&#x430;&#x433;&#x43E;&#x434;&#x430;&#x440;&#x438;&#x442;&#x44C; &#x432;&#x430;&#x441; &#x437;&#x430; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x443;</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="49">
         <source>erazi75.body</source>
         <target>&lt;p&gt;Commander, your devotion to crushing the Erazi Syndicate is commendable. The Maar Confederacy has sent Gas and Crystal to our base. They call it a 'Tax Rebate,' but I think they're just afraid of us destroying all their bases again!
 &lt;p&gt;Check your inventory using the Shop button to access these items.
 &lt;p&gt;You have received 250,000 Crystal and Gas.</target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="50">
         <source>giftcardwinner1.body</source>
         <target/>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="51">
         <source>09192011.subject</source>
         <target>Build and Battle Winners!</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="52">
         <source>sevensixteen.body</source>
         <target>Stock up on Platinum! Starting now, every Platinum package you purchase is a chance to win double Platinum!&lt;br&gt;&lt;br&gt;  We're choosing three winners a day on Monday, Tuesday, Wednesday and Thursday. (July 18-21) If you're chosen, one of your Platinum purchases will be doubled! The more packages you buy, the more chances you have to win!&lt;br&gt;&lt;br&gt;  You'll want to have some extra Platinum on hand soon - the Edgeworld team is working on tons of new stuff! Watch for details on new building levels, large-scale Alliance warfare, and more. Buy a Platinum package to be prepared!</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="53">
         <source>decemberevents.subject</source>
         <target>Edgeworld December Events!</target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="54">
         <source>120211.body</source>
         <target>&lt;p&gt;
 The Maar Confederacy was once a mutually beneficial alliance between the sovereign world governments. But when the Cerulean threat nearly destroyed civilization, the Confederacy changed from a benevolent partnership to a martial dictatorship.
@@ -406,41 +373,41 @@ Picking on weaklings isn't sporting - only battles against bases that are at lea
 &lt;a href-"http://community.kabam.com/forums/showthread.php?49778"&gt;Details and full rules are in the forums!&lt;/a&gt; Let the battle begin!
 &lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="63">
+      <trans-unit id="55">
         <source>valentines.tooltip</source>
         <target>Explore a variety of offers that include FREE Platinum!</target>
       </trans-unit>
-      <trans-unit id="64">
+      <trans-unit id="56">
         <source>heliowinner.body</source>
         <target>Congratulations, Commander! The Helio Legion rose up, and you shut them down. Admiral Tenmu thanks you.&lt;p&gt;
 As one of the 20 Commanders in this Sector who attacked the most Helio bases, you have been awarded a 24-Hour Shield and a 60-Minute Troop Energizer!&lt;p&gt;
 Use your new items to wage war in the name of peace, and look forward to our next event!</target>
       </trans-unit>
-      <trans-unit id="65">
+      <trans-unit id="57">
         <source>rhinosaturday.subject</source>
         <target>Rhino Chaos Continues!</target>
       </trans-unit>
-      <trans-unit id="66">
+      <trans-unit id="58">
         <source>seventwenty.body</source>
         <target>Lots of Platinum to give away today - here are our Wednesday winners!&lt;br&gt;&lt;br&gt;&lt;a href="http://community.kabam.com/forums/showthread.php?27022" target="_blank"&gt;Platinum Package Daily Double contest!&lt;/a&gt;&lt;br&gt;These users have won double Platinum for their purchase: torvald, mighty beef, and AnNa74!&lt;br&gt;&lt;br&gt;&lt;a href="http://community.kabam.com/forums/showthread.php?27319" target="_blank"&gt;Level 7 Building Rush!&lt;/a&gt;&lt;br&gt;Build a level 7 building, and you could win 100 Platinum!&lt;br&gt;&lt;br&gt;Djay - L7 Gun Turret&lt;br&gt;Slagathor - L7 Tesla Tower&lt;br&gt;Lady~Gaga - L7 Command Center&lt;br&gt;Cherokeenigh - L7 Concussion Turret&lt;br&gt;Varen - L7 Gun Turret&lt;br&gt;&lt;br&gt;We're giving away more Platinum Thursday and Friday! Want to win? &lt;a href="http://www.facebook.com/event.php?eid=174029452663052" target="_blank"&gt;Get the full rules here!&lt;/a&gt;</target>
       </trans-unit>
-      <trans-unit id="67">
+      <trans-unit id="59">
         <source>octobertwitter.subject</source>
         <target>Twitter Core Collection!</target>
       </trans-unit>
-      <trans-unit id="68">
+      <trans-unit id="60">
         <source>rhinothursday.subject</source>
         <target>Rhinos Take the Field!</target>
       </trans-unit>
-      <trans-unit id="69">
+      <trans-unit id="61">
         <source>eraziassault.subject</source>
         <target>Faction Assault Contest! Target: Erazi</target>
       </trans-unit>
-      <trans-unit id="70">
+      <trans-unit id="62">
         <source>internationalsectors.august2011.subject</source>
         <target>International Sectors</target>
       </trans-unit>
-      <trans-unit id="71">
+      <trans-unit id="63">
         <source>decemberevents.body</source>
         <target>&lt;img src="http://i42.tinypic.com/2ewma9d.jpg"&gt;&lt;p&gt;
 &lt;b&gt;Platinum Gifting Sweepstakes&lt;/b&gt;&lt;/p&gt;&lt;p&gt;
@@ -459,31 +426,31 @@ Follow @EdgeworldGame on Twitter to win items through Jan.5!&lt;/p&gt;&lt;p&gt;
 What strange holidays and traditions are your troops celebrating? Share your art and stories!&lt;/p&gt;&lt;p&gt;
 &lt;a href="http://community.kabam.com/forums/showthread.php?53639" target="_blank"&gt;More info&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="72">
+      <trans-unit id="64">
         <source>081211.body</source>
         <target>Have you read about our &lt;a href="https://www.facebook.com/Edgeworld?sk=notes" target="_blank"&gt;latest update&lt;/a&gt; yet?&lt;br&gt;&lt;br&gt;In celebration of Alliance resource gifting, we're announcing our Alliance Expansion Event! One Alliance per Sector with the largest growth* by Monday will win a HAX-1 Speedup for every member of the Alliance!&lt;br&gt;&lt;br&gt;*We're looking at percentage growth for this one. This means that smaller Alliances actually have a great chance to win this event! Can you grow more than 1000%?&lt;br&gt;&lt;br&gt;We have more events happening this weekend!&lt;br&gt;&lt;br&gt;&lt;a href="https://www.facebook.com/Edgeworld?sk=reviews" target="_blank"&gt;Give us a 5-Star Review!&lt;/a&gt; Five users who give us reviews will win 50 Platinum!&lt;br&gt;&lt;br&gt;&lt;a href="http://community.kabam.com/forums/showthread.php?31468" target="_blank"&gt;Show off your base!&lt;/a&gt; Our favorite base will win 200 Platinum (and 100 for the runner-up!)&lt;br&gt;&lt;br&gt;All the winners will be announced on Monday. Will you be one of them? &lt;a href="http://apps.facebook.com/Edgeworld" target="_blank"&gt;Play Edgeworld!&lt;/a&gt;</target>
       </trans-unit>
-      <trans-unit id="73">
+      <trans-unit id="65">
         <source>20120312.subject</source>
         <target>Get your FREE Bonus Kira's Gift!</target>
       </trans-unit>
-      <trans-unit id="74">
+      <trans-unit id="66">
         <source>09162011.subject</source>
         <target>Build and Battle Weekend!</target>
       </trans-unit>
-      <trans-unit id="75">
+      <trans-unit id="67">
         <source>092311zoot.subject</source>
         <target>Zoot's Platinum Giveaway Party!</target>
       </trans-unit>
-      <trans-unit id="76">
+      <trans-unit id="68">
         <source>102811.subject</source>
         <target>Halloween Alliance Power!</target>
       </trans-unit>
-      <trans-unit id="77">
+      <trans-unit id="69">
         <source>heliowinner2.body</source>
         <target>Thank you for your dedication in battling the Helio! The Helio Assault event ended a few weeks ago, but we missed the 60-Minute Troop Energizers you were supposed to receive. As thanks for your patience, we've added TWO 60-Minute Troop Energizers to your inventory! Have fun with your powered-up troops!</target>
       </trans-unit>
-      <trans-unit id="78">
+      <trans-unit id="70">
         <source>gift120911.body</source>
         <target>'tis the season for giving, and for winning! Give a Platinum Gift, and you could receive an equal amount of Platinum the next day!
 &lt;p&gt;
@@ -494,11 +461,11 @@ Send 6000 Platinum, and get 6000 Platinum for yourself. Every gift you give is a
 One winner each day, every day, from now until Saturday, December 31! &lt;a href="http://community.kabam.com/forums/showthread.php?51025"&gt;Full rules and details are on the forums.&lt;/a&gt; Naughty or nice - who's on your list?
 &lt;/p&gt;&lt;p&gt;</target>
       </trans-unit>
-      <trans-unit id="79">
+      <trans-unit id="71">
         <source>110711winners.subject</source>
         <target>Lancer Science Fair Winner!</target>
       </trans-unit>
-      <trans-unit id="80">
+      <trans-unit id="72">
         <source>121611.body</source>
         <target>&lt;b&gt;
 Faction Assault Contest! Target: Helio
@@ -509,81 +476,81 @@ Urgent Message: Shields and Troop Energizer rewards for destroying Helio Legion 
 &lt;/p&gt;&lt;p&gt;
 &lt;a href="http://community.kabam.com/forums/showthread.php?51025" target="_blank"&gt;Details and full rules are in the forums!&lt;/a&gt; Let the battle begin!&lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="81">
+      <trans-unit id="73">
         <source>sevennineteen.subject</source>
         <target>Tuesday Winners!</target>
       </trans-unit>
-      <trans-unit id="82">
+      <trans-unit id="74">
         <source>buildforbomba.subject</source>
         <target/>
       </trans-unit>
-      <trans-unit id="83">
+      <trans-unit id="75">
         <source>levelnine.subject</source>
         <target>Level 9 Contests!</target>
       </trans-unit>
-      <trans-unit id="84">
+      <trans-unit id="76">
         <source>09162011.body</source>
         <target>Take your base and your XP to new heights this weekend, and earn prizes and Platinum!&lt;br&gt;&lt;br&gt;&lt;b&gt;Battle Cry!&lt;/b&gt;&lt;br&gt;&lt;br&gt;Every Combat Boost you use this weekend (Skill, Tactics, or Strategy) will automatically enter you to win 5 Combat Strategy items! Will you be lucky enough to win the huge boost? One winner will be chosen in each sector!&lt;br&gt;&lt;br&gt;&lt;b&gt;Level 9 Upgrade Contests!&lt;/b&gt;&lt;br&gt;&lt;br&gt;Our Level 9 contests continue! Upgrade your Command Center to Level 9, and you're entered to win 1100 Platinum! One player will win!&lt;br&gt;&lt;br&gt;Once your CC is at Level 9, keep upgrading! Every building or research that reaches level 9 will give you a chance to win a Master's Kit! Five players will be chosen!&lt;br&gt;&lt;br&gt;&lt;b&gt;Instant Upgrade Bonus!&lt;/b&gt;&lt;br&gt;&lt;br&gt;Build up your base! Use the 'Buy Now' button to instantly upgrade your buildings or research new units! Use instant upgrade this weekend, and you're instantly entered to win a Warrior's Kit! Fifteen players will win!&lt;br&gt;&lt;br&gt;Winners will be announced Monday, 9/19! Good luck, Commander!</target>
       </trans-unit>
-      <trans-unit id="85">
+      <trans-unit id="77">
         <source>080311.body</source>
         <target>Congratulations! These winners have recieved a HAX-8 Speedup in our Level 7 Building Blitz!&lt;br&gt;&lt;br&gt;bryce, Scotticus, TOTO, Dracon_X, Morphling, Deoxis, robbie hart, Mica, Opus, Gareth1971, Cyni-Kul, Birdie, Bu, jelloshepard, Degredon, TanaBanana, Capt. Kirk, Camccormick, Mandar, italiaking, Benny Ha Ha, Lightyear, Omega, Toadious, and Izorion.&lt;br&gt;&lt;br&gt;These users are ready to upgrade to the next level! Will you be ready, too? Our next event starts this weekend!</target>
       </trans-unit>
-      <trans-unit id="86">
+      <trans-unit id="78">
         <source>rhinowednesday.body</source>
         <target>Their favorite sport is back on TV, and the Rhinos are pumped up for this weekend!&lt;br&gt;&lt;br&gt;Visit Edgeworld this weekend to try out the boosted Rhinos!&lt;br&gt;&lt;br&gt;Don't miss any announcements - &lt;a href="http://www.facebook.com/edgeworld" target="_blank"&gt;Like our Fan Page!&lt;/a&gt;</target>
       </trans-unit>
-      <trans-unit id="87">
+      <trans-unit id="79">
         <source>factionattackend.subject</source>
         <target>Faction Attack Contest Update</target>
       </trans-unit>
-      <trans-unit id="88">
+      <trans-unit id="80">
         <source>pvpassault.subject</source>
         <target>PvP Assault Contest!</target>
       </trans-unit>
-      <trans-unit id="89">
+      <trans-unit id="81">
         <source>vday24h.subject</source>
         <target/>
       </trans-unit>
-      <trans-unit id="90">
+      <trans-unit id="82">
         <source>rhinosaturday.body</source>
         <target>Rhinos are on offense this weekend, and they're unstoppable!&lt;br&gt;&lt;br&gt;Rhinos are free and fast to train, hit twice as often, and take up less space in your Warp Capacity! Click on your Barracks and train a team of Rhinos!&lt;br&gt;&lt;br&gt;Rhinos revert to normal on Monday, so get out there and attack!&lt;br&gt;&lt;br&gt;Come back Monday for our next event: The Level 7 Building Rush! Upgrade to level 7, because level 8 is just around the corner!
 </target>
       </trans-unit>
-      <trans-unit id="91">
+      <trans-unit id="83">
         <source>januarycorewinner.body</source>
         <target>	&#x412;&#x44B; &#x441;&#x442;&#x430;&#x43B;&#x438; &#x43F;&#x43E;&#x431;&#x435;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x435;&#x43C; &#x432; &#x43A;&#x43E;&#x43D;&#x43A;&#x443;&#x440;&#x441;&#x435; &#x426;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x43E;&#x435; &#x44F;&#x434;&#x440;&#x43E;! &#x411;&#x43B;&#x430;&#x433;&#x43E;&#x434;&#x430;&#x440;&#x438;&#x43C; &#x432;&#x430;&#x441; &#x437;&#x430; &#x43F;&#x43E;&#x43A;&#x443;&#x43F;&#x43A;&#x443; &#x446;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x44F;&#x434;&#x440;&#x430;! &#x41C;&#x44B; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x43B;&#x438; &#x43E;&#x434;&#x438;&#x43D; &#x43F;&#x43E;&#x434;&#x430;&#x440;&#x43E;&#x43A; &#x41A;&#x418;&#x420;&#x42B; &#x432; &#x432;&#x430;&#x448; &#x438;&#x43D;&#x432;&#x435;&#x43D;&#x442;&#x430;&#x440;&#x44C;! &#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;!</target>
       </trans-unit>
-      <trans-unit id="92">
+      <trans-unit id="84">
         <source>erazi10.body</source>
         <target>&lt;p&gt;Commander, your devotion to crushing the Erazi Syndicate is commendable. The Maar Confederacy has sent Gas and Crystal to our base. They call it a 'Tax Rebate,' but I think they're just afraid of us destroying all their bases again!
 &lt;p&gt;Check your inventory using the Shop button to access these items.
 &lt;p&gt;You have received 1000 Crystal and Gas.</target>
       </trans-unit>
-      <trans-unit id="93">
+      <trans-unit id="85">
         <source>alliancemapjanuary.subject</source>
         <target>	&#x41F;&#x43E;&#x431;&#x435;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x442;&#x443;&#x440;&#x43D;&#x438;&#x440;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x44B; &#x410;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;!</target>
       </trans-unit>
-      <trans-unit id="94">
+      <trans-unit id="86">
         <source>kiragiftwinner3.body</source>
         <target>	&#x427;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x431;&#x43B;&#x430;&#x433;&#x43E;&#x434;&#x430;&#x440;&#x438;&#x442;&#x44C; &#x432;&#x430;&#x441; &#x437;&#x430; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x443;</target>
       </trans-unit>
-      <trans-unit id="95">
+      <trans-unit id="87">
         <source>giftcardwinner2.body</source>
         <target/>
       </trans-unit>
-      <trans-unit id="96">
+      <trans-unit id="88">
         <source>seveneighteen2.body</source>
         <target>Get those workers moving!&lt;br&gt;&lt;br&gt;
 Do you have a level 7 building yet? Upgrade your base, and you could win twenty Zoot Tokens! We're choosing 5 winners a day, Tuesday through Friday. Every level 7 building you have is another chance to win!&lt;br&gt;&lt;br&gt;
 Use speedups to finish multiple upgrades and get more level 7 buildings and turrets by the end of the contest!&lt;br&gt;&lt;br&gt;
 Reminder: Our Platinum Package Daily Double event is still in progress! Purchase a Platinum Package for your chance to win double Platinum! &lt;a href="http://community.kabam.com/forums/showthread.php?27022" target="_blank"&gt;Get the full rules here!&lt;/a&gt; </target>
       </trans-unit>
-      <trans-unit id="97">
+      <trans-unit id="89">
         <source>alliancemapjanuary1.body</source>
         <target>	&#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;! &#x412;&#x430;&#x448; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441; &#x441;&#x442;&#x430;&#x43B; &#x441;&#x438;&#x43B;&#x44C;&#x43D;&#x435;&#x439;&#x448;&#x438;&#x43C; &#x432; &#x441;&#x432;&#x43E;&#x435;&#x43C; &#x441;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x435;</target>
       </trans-unit>
-      <trans-unit id="98">
+      <trans-unit id="90">
         <source>octfirstbuyersundaygoogle.body</source>
         <target>
 &lt;p&gt;We have a special deal available right now for our experienced Edgeworld players! Lots of players are taking advantage of this bonus Platinum, and you can 
@@ -606,13 +573,13 @@ our Beginner's Sale to get a similar discount.&lt;/p&gt;&lt;p&gt;The additional 
 
 &lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="99">
+      <trans-unit id="91">
         <source>erazi100.body</source>
         <target>&lt;p&gt;Commander, your devotion to crushing the Erazi Syndicate is commendable. The Maar Confederacy has sent Gas and Crystal to our base. They call it a 'Tax Rebate,' but I think they're just afraid of us destroying all their bases again!
 &lt;p&gt;Check your inventory using the Shop button to access these items.
 &lt;p&gt;You have received 1 million Crystal and Gas.</target>
       </trans-unit>
-      <trans-unit id="100">
+      <trans-unit id="92">
         <source>102711.body</source>
         <target>&lt;p&gt;
 Daily Missions have arrived! These missions can be completed once each day, for bonus resources, XP, or items.
@@ -622,27 +589,27 @@ Your first mission is to get these Lancer under control. They're tearing up the 
 All you have to do is log in and check your Daily Missions each day, now through Monday! (Oct 31) Celebrate Halloween with your own horde of Terraknor, and get ready to chow down on some bases!
 &lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="101">
+      <trans-unit id="93">
         <source>internationalsectors.august2011</source>
         <target>The population of international players in Edgeworld is increasing! Our international players are important to us, and we're currently adding new Sectors exclusively for non-English chat. Our new Sectors will be active by the end of August!</target>
       </trans-unit>
-      <trans-unit id="102">
+      <trans-unit id="94">
         <source>092311weekend.subject</source>
         <target>Huge Platinum Prizes!</target>
       </trans-unit>
-      <trans-unit id="103">
+      <trans-unit id="95">
         <source>name</source>
         <target>Edgeworld</target>
       </trans-unit>
-      <trans-unit id="104">
+      <trans-unit id="96">
         <source>quadplatinum.subject</source>
         <target>Quadruple Platinum Multiplier</target>
       </trans-unit>
-      <trans-unit id="105">
+      <trans-unit id="97">
         <source>08012011.subject</source>
         <target>Level 7 Building Blitz</target>
       </trans-unit>
-      <trans-unit id="106">
+      <trans-unit id="98">
         <source>093011.body</source>
         <target>Technology is the future! Improve your research, and you could win!
 &lt;br&gt;&lt;br&gt;
@@ -664,67 +631,67 @@ You have until Tuesday (10/4) to complete your research. Good luck!
 &lt;br&gt;&lt;br&gt;
 &lt;img src="http://kabam1-a.akamaihd.net/edgeworld/sheets/buildings/tech_lab_4.png"&gt;</target>
       </trans-unit>
-      <trans-unit id="107">
+      <trans-unit id="99">
         <source>20110701.subject</source>
         <target>&#x413;&#x430;&#x43B;&#x430;&#x43A;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x414;&#x435;&#x43D;&#x44C; &#x41D;&#x435;&#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438;</target>
       </trans-unit>
-      <trans-unit id="108">
+      <trans-unit id="100">
         <source>erazi250.body</source>
         <target>&lt;p&gt;Commander, your devotion to crushing the Erazi Syndicate is commendable. The Maar Confederacy has sent Gas and Crystal to our base. They call it a 'Tax Rebate,' but I think they're just afraid of us destroying all their bases again!
 &lt;p&gt;Check your inventory using the Shop button to access these items.
 &lt;p&gt;You have received 20 million Crystal and Gas.</target>
       </trans-unit>
-      <trans-unit id="109">
+      <trans-unit id="101">
         <source>decembertwitter.body</source>
         <target>Edgeworld is giving out amazing gifts as we celebrate the 12 days of Alien Holidays!&lt;p&gt;
 &lt;a href="http://www.twitter.com/edgeworldgame" target="_blank"&gt;Follow @EdgeworldGame on Twitter for your chance to win!&lt;/a&gt; We'll be selecting winners for 12 days, from December 25 to January 5.&lt;p&gt;
 You don't need to do anything special - just follow @EdgeworldGame, and watch our Tweets to see if you've received an alien gift!&lt;p&gt;
 All prizes will be sent January 6.</target>
       </trans-unit>
-      <trans-unit id="110">
+      <trans-unit id="102">
         <source>rhinowednesday.subject</source>
         <target>Rhinos Ready to Tackle!</target>
       </trans-unit>
-      <trans-unit id="111">
+      <trans-unit id="103">
         <source>110711winners.body</source>
         <target>Congratulations! You've won a prize in the Lancer Science Fair! Check the Shop for your prize! (Based on your level of Lancer Research)</target>
       </trans-unit>
-      <trans-unit id="112">
+      <trans-unit id="104">
         <source>seventwentyone.subject</source>
         <target>Thursday Winners!</target>
       </trans-unit>
-      <trans-unit id="113">
+      <trans-unit id="105">
         <source>102711.subject</source>
         <target>Daily Treat!</target>
       </trans-unit>
-      <trans-unit id="114">
+      <trans-unit id="106">
         <source>OctFirstBuyer.subject</source>
         <target>First-Time Platinum Bonus!</target>
       </trans-unit>
-      <trans-unit id="115">
+      <trans-unit id="107">
         <source>121611.subject</source>
         <target>Faction Assault Contest! Target: Helio</target>
       </trans-unit>
-      <trans-unit id="116">
+      <trans-unit id="108">
         <source>twitter7500.body</source>
         <target>&lt;p&gt;2011 is almost over, and we want to finish strong! Help us reach 7,500 Followers on Twitter! @EdgeworldGame
 &lt;p&gt;We'll have trivia, contests, and prizes throughout December, and a special giveaways when we hit our milestones!
 &lt;p&gt;Our first goal is 5000 Followers. We only need a few hundred more to make it, and we'll give a Cerulean Core to our 5,000th follower!
 &lt;p&gt;Will it be you? &lt;a href="http://www.twitter.com/Edgeworldgame" target="_blank"&gt;Follow @Edgeworld!&lt;/a&gt;</target>
       </trans-unit>
-      <trans-unit id="117">
+      <trans-unit id="109">
         <source>20110701.body</source>
         <target>The Galactic Union is gone, but not forgotten. This weekend, we celebrate our freedom from the Cerulean War, and the Commanders that made it possible!&lt;br&gt;&lt;br&gt;--Platinum Sweepstakes--&lt;br&gt;Purchase a Platinum Package for your chance to win!&lt;br&gt;Twenty players who buy a $10 package will win 2x Platinum!&lt;br&gt;One player who buys a $100 package will win 5x Platinum!&lt;br&gt;&lt;br&gt;--Alliance XP Contest--&lt;br&gt;Raise your flag and build your Alliance!&lt;br&gt;One Alliance in each Sector with the highest total XP gain this weekend will win a HAX-1 Speedup for every member of the Alliance. Work together to claim the big prize!&lt;br&gt;&lt;br&gt;--Featured Commanders--&lt;br&gt;Look for the new Hoarder and Warlord's Wealth missions in your mission list, suggested by Katiyana!&lt;br&gt;Get some advice from one of our top players - visit the forums to read our interview with Jangoon!&lt;br&gt;Could you be our next Featured Commander?&lt;br&gt;&lt;br&gt;Contest winners will be announced on July 5.&lt;br&gt;&lt;a href="http://community.kabam.com/forums/forumdisplay.php?141" target="_blank"&gt;Full rules and details are in the forums! Visit the forums now!&lt;/a&gt;</target>
       </trans-unit>
-      <trans-unit id="118">
+      <trans-unit id="110">
         <source>seventwenty.subject</source>
         <target>Wednesday Winners!</target>
       </trans-unit>
-      <trans-unit id="119">
+      <trans-unit id="111">
         <source>08262011.subject</source>
         <target>Weekend Events</target>
       </trans-unit>
-      <trans-unit id="120">
+      <trans-unit id="112">
         <source>110211.body</source>
         <target>We must improve our knowledge of the terrible Lancer!
 
@@ -740,27 +707,27 @@ Increase your Research to be eligible for higher prizes.
 
 Prizes are awarded Monday, November 7. Good luck! Click on your Tech Lab and start your research!</target>
       </trans-unit>
-      <trans-unit id="121">
+      <trans-unit id="113">
         <source>sevennineteen.body</source>
         <target>Congratulations to our winners!&lt;br&gt;&lt;br&gt; These three players have won double platinum in our &lt;a href="http://community.kabam.com/forums/showthread.php?27022" target="_blank"&gt;Platinum Package Daily Double contest!&lt;/a&gt;&lt;br&gt;&lt;br&gt; Lowky, Bank, and MONTAG are Tuesday's winners!&lt;br&gt;&lt;br&gt; Five more players have won 100 Platinum from our  &lt;/a&gt;&lt;a href="http://community.kabam.com/forums/showthread.php?27319" target="_blank"&gt;Level 7 Building Rush event!&lt;/a&gt;&lt;br&gt;&lt;br&gt; kodiak wins for their L7 Crystal Mine!&lt;br&gt; Nutty wins for their L7 X-1 Cannon!&lt;br&gt; Leggo wins for their L7 Solar Plant!&lt;br&gt; heven7 wins for their L7 Solar Plant!&lt;br&gt; Refpstr wins for their L7 Tech Lab!&lt;br&gt;&lt;br&gt; We're awarding more Platinum and Zoot Tokens every day through Friday! &lt;a href="http://www.facebook.com/event.php?eid=174029452663052" target="_blank"&gt;Get the full rules here!&lt;/a&gt; </target>
       </trans-unit>
-      <trans-unit id="122">
+      <trans-unit id="114">
         <source>erazi25.body</source>
         <target>&lt;p&gt;Commander, your devotion to crushing the Erazi Syndicate is commendable. The Maar Confederacy has sent Gas and Crystal to our base. They call it a 'Tax Rebate,' but I think they're just afraid of us destroying all their bases again!
 &lt;p&gt;Check your inventory using the Shop button to access these items.
 &lt;p&gt;You have received 50,000 Crystal and Gas.</target>
       </trans-unit>
-      <trans-unit id="123">
+      <trans-unit id="115">
         <source>seventwentyone.body</source>
         <target>It's Thursday, and that means an new round of winners!&lt;br&gt;&lt;br&gt;
 In our &lt;a href="http://community.kabam.com/forums/showthread.php?27022" target="_blank"&gt;Platinum Package Daily Double contest:&lt;/a&gt;&lt;br&gt;Banshee, bigasixstamp, and SKYNET have won double Platinum for their purchases!&lt;br&gt;&lt;br&gt;&lt;a href="http://community.kabam.com/forums/showthread.php?27319" target="_blank"&gt;Level 7 Building Rush!&lt;/a&gt;&lt;br&gt;These users won 100 Platinum for upgrading their buildings to level 7!&lt;br&gt;Kirla - Gun Turret&lt;br&gt;Bam Bam - X-1 Cannon&lt;br&gt;Faqrdom - Tesla Tower&lt;br&gt;Devistation - Concussion Turret&lt;br&gt;Toadling - Gun Turret&lt;br&gt;&lt;br&gt;That's the end of the Platinum Daily Double, but there's still one day left in the level 7 Building Rush!&lt;br&gt;&lt;a href="http://www.facebook.com/event.php?eid=174029452663052" target="_blank"&gt;Get the full event rules here!&lt;/a&gt;&lt;br&gt;One player who RSVPs on the event page will win 50 Platinum!
 </target>
       </trans-unit>
-      <trans-unit id="124">
+      <trans-unit id="116">
         <source>internationalsectors.launch</source>
         <target>International sectors are here! Non-English users can join our new Sectors to play with other non-English players. You can also receive quick customer support in your language from Kabam's international team!</target>
       </trans-unit>
-      <trans-unit id="125">
+      <trans-unit id="117">
         <source>eraziassault.body</source>
         <target>&lt;img src="http://i39.tinypic.com/ih76tt.jpg"&gt;The Maar Confederacy was pushed to the brink of destruction, but they've bounced back with surprising strength. Where are their resources coming from?
 &lt;p&gt;&lt;/p&gt;&lt;p&gt;Governor Maalick of the Confederacy has publicly denounced the actions of the Erazi Syndicate, calling them the largest and most powerful criminal organization in the galaxy. (Which is completely true.)
@@ -776,59 +743,59 @@ In our &lt;a href="http://community.kabam.com/forums/showthread.php?27022" targe
 &lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;250 attacks: 20,000,000 Crystal and Gas&lt;/b&gt;
 &lt;/p&gt;&lt;p&gt;&lt;a href="http://community.kabam.com/forums/showthread.php?50907" target="_blank"&gt;Details and full rules are in the forums!&lt;/a&gt; Show the Erazi your might!&lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="126">
+      <trans-unit id="118">
         <source>20120314.newusers.subject</source>
         <target>Get your FREE Beginner's Crate!</target>
       </trans-unit>
-      <trans-unit id="127">
+      <trans-unit id="119">
         <source>level8.admiraltenmu.body</source>
         <target>There is more to this world than you know. The technology of the Ceruleans can be harnessed to enhance your buildings and units, taking their abilities to the next level.&lt;br&gt;&lt;br&gt;This frequency isn&#x2019;t secure, and I must be brief. All the secrets of Cerulean technology and level 8 research and upgrades will soon be revealed.&lt;br&gt;&lt;br&gt;We are entering a new era of this planet-wide conflict. Good luck, Commander.&lt;br&gt;&lt;br&gt;Respectfully,&lt;br&gt;Admiral Tenmu</target>
       </trans-unit>
-      <trans-unit id="128">
+      <trans-unit id="120">
         <source>buildforbomba.body</source>
         <target>&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x44C; &#x441;&#x435;&#x439;&#x447;&#x430;&#x441;!</target>
       </trans-unit>
-      <trans-unit id="129">
+      <trans-unit id="121">
         <source>octobertwitter.body</source>
         <target>Want some free Pulse Cores and Incendiary Cores? We&#x2019;re giving away cores every hour from 10am-6pm Pacific, Fri-Mon on Twitter! &lt;a href="http://www.twitter.com/EdgeworldGame" target="_blank"&gt; Follow our Twitter feed, @EdgeworldGame, to win!&lt;/a&gt;&lt;br&gt;&lt;br&gt;Just write a Tweet about Edgeworld, include your name and Sector, and use the #Edgeworld hashtag, and you could win free Cores!</target>
       </trans-unit>
-      <trans-unit id="130">
+      <trans-unit id="122">
         <source>giftcardwinner3.body</source>
         <target/>
       </trans-unit>
-      <trans-unit id="131">
+      <trans-unit id="123">
         <source>levelnine.body</source>
         <target>Level 9 will be here soon! Upgrade your buildings and units to level 9, and you'll be entered to win great prizes!&lt;br&gt;&lt;br&gt;&lt;b&gt;Level 9 Upgrade Contest!&lt;/b&gt;&lt;br&gt;&lt;br&gt;Upgrade any building to level 9, or research any unit to level 9, and you're automatically entered to win! Five players will win a Master's Kit! More level 9s mean more chances to win!&lt;br&gt;&lt;br&gt;&lt;b&gt;Upgrade Your Command Center!&lt;/b&gt;&lt;br&gt;&lt;br&gt;A level 9 Command Center isn't just a good idea - it's a chance to win big! One user with a Level 9 Command Center will win 1100 Platinum!&lt;br&gt;&lt;br&gt;&lt;b&gt;Instant Upgrade Bonus!&lt;/b&gt;&lt;br&gt;&lt;br&gt;Use the 'Buy Now' button to instantly upgrade a building or research a unit, and you could win! Fifteen players will win a Warriors' Kit!&lt;br&gt;&lt;br&gt;&lt;b&gt;And yes: If you instant upgrade your Command Center to level 9, you're entered into all three contests!&lt;/b&gt;&lt;br&gt;&lt;br&gt;Our contests will begin as soon as our level 9 update is out, and winners will be announced on Monday, 9/19!</target>
       </trans-unit>
-      <trans-unit id="132">
+      <trans-unit id="124">
         <source>080311.subject</source>
         <target>Building Blitz Winners!</target>
       </trans-unit>
-      <trans-unit id="133">
+      <trans-unit id="125">
         <source>quadplatinumwinners.body</source>
         <target>Today's winners have been announced on our Fan Page! Did you win quadruple Platinum today? &lt;a href="http://www.facebook.com/edgeworld" target="_blank"&gt;Visit the Fan Page now!&lt;/a&gt;</target>
       </trans-unit>
-      <trans-unit id="134">
+      <trans-unit id="126">
         <source>2011maptournament.body</source>
         <target>We're looking for the strongest Alliances in Edgeworld!&lt;p&gt;
 Three Alliances in each Sector will receive an 8-Hour Accelerator for every member of the Alliance!&lt;p&gt;
 Think you can win it? &lt;a href="http://community.kabam.com/forums/showthread.php?53673" target="_blank"&gt;Read the full tournament rules here!&lt;/a&gt;
 &lt;p&gt;&lt;img src="http://i41.tinypic.com/9zvqxu.jpg"&gt;</target>
       </trans-unit>
-      <trans-unit id="135">
+      <trans-unit id="127">
         <source>alliancemapjanuary2.body</source>
         <target>	&#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;! &#x412;&#x430;&#x448; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441; &#x441;&#x442;&#x430;&#x43B; &#x441;&#x430;&#x43C;&#x44B;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x438;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="136">
+      <trans-unit id="128">
         <source>rhinothursday.body</source>
         <target>Get your Rhinos in formation and rush the end zone!&lt;br&gt;&lt;br&gt;Rhinos are in the spotlight this weekend, with free troops, reduced training time, and increased fire rate.&lt;br&gt;&lt;br&gt;Rhinos are the mighty backbone of your Edgeworld game plan, so use this weekend to master these troops!</target>
       </trans-unit>
-      <trans-unit id="137">
+      <trans-unit id="129">
         <source>20120312.body</source>
         <target>Welcome to Edgeworld, Commander!&lt;br&gt;&lt;br&gt;
 A leader of your caliber will go far in the battle to dominate Cerulea IV!&lt;br&gt;&lt;br&gt; To aid you in these first days, we are pleased to offer a special bonus for new Commanders only; take advantage of the Edgeworld  &lt;a href="https://www.kabam.com/edgeworld/play?path=/platinum" target="_blank"&gt;beginner's sale&lt;/a&gt; and not only will you save 20% on our popular, 400 platinum package, you will also receive a &lt;b&gt;FREE&lt;/b&gt; bonus Kira's Gift.&lt;br&gt;&lt;br&gt;  Kira's Gift is our most popular mystery crate and is not available for purchase in the Edgeworld store.  Get your &lt;b&gt;FREE&lt;/b&gt; bonus gift before its too late.  This offer expires within 7 days of joining Edgeworld!&lt;br&gt;&lt;br&gt; &lt;a href="https://www.kabam.com/edgeworld/play?path=/platinum" target="_blank"&gt;Click Here&lt;/a&gt; to save 20% and claim your &lt;b&gt;FREE&lt;/b&gt; Kira's Gift with your first purchase!</target>
       </trans-unit>
-      <trans-unit id="138">
+      <trans-unit id="130">
         <source>102911.body</source>
         <target>&lt;p&gt;
 The Lancers are here, and they're eating your base! Research and train these monsters, and create a Lancer attack force of your own!
@@ -842,9 +809,42 @@ We also have a Trick-and-Treat thread going, with Platinum prizes for participat
 It's all happening this Halloween weekend in Edgeworld!
 &lt;/p&gt;</target>
       </trans-unit>
-      <trans-unit id="139">
+      <trans-unit id="131">
         <source>110211.subject</source>
         <target>Lancer Science Fair!</target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>factionattack1011.subject</source>
+        <target>Faction Counterattack!</target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>twitter7500.subject</source>
+        <target>Help us reach 7500 Followers!</target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>SevenSixteen.body</source>
+        <target>Stock up on Platinum! Starting now, every Platinum package you purchase is a chance to win double Platinum!&lt;br&gt;&lt;br&gt;  We're choosing three winners a day on Monday, Tuesday, Wednesday and Thursday. (July 18-21) If you're chosen, one of your Platinum purchases will be doubled! The more packages you buy, the more chances you have to win!&lt;br&gt;&lt;br&gt;  You'll want to have some extra Platinum on hand soon - the Edgeworld team is working on tons of new stuff! Watch for details on new building levels, large-scale Alliance warfare, and more. Buy a Platinum package to be prepared!</target>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>2011maptournament.subject</source>
+        <target>Alliance Map Tournament!</target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>heliowinner.subject</source>
+        <target>Helio Assault Winner!</target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>093011.subject</source>
+        <target>Research Reward!</target>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>octfirstbuyerb.subject</source>
+        <target>
+First-Time Platinum Bonus!</target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>23Jan2012.body</source>
+        <target>	&#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;! &#x412;&#x44B; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x43B;&#x438; &#x441;&#x432;&#x43E;&#x44E; &#x431;&#x430;&#x437;&#x443; &#x434;&#x43E; 9-&#x433;&#x43E; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;</target>
       </trans-unit>
     </body>
   </file>

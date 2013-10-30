@@ -21,7 +21,19 @@ manifest-equipment-update:
 manifest-equipment:
   url: /manifest/equipment/:type
   param: { module: manifest, action: equipment }
-  
+
+manifest-buildings:
+  url: /manifest/buildings
+  param: {module: manifest, action: buildings}
+
+manifest-building-update:
+  url: /manifest/building-update
+  param: {module: manifest, action: buildingUpdate}
+
+manifest-building:
+  url: /manifest/building/:type
+  param: {module: manifest, action: building}
+
 manifest-items:
   url: /manifest/items
   param: { module: manifest, action: items }
@@ -62,9 +74,9 @@ manifest-generals-compare:
   url: /manifest/generals/compare
   param: { module: manifest, action: generalsCompare }
 
-manifest-generals-update:
-  url: /manifest/generals/update
-  param: { module: manifest, action: generalsUpdate }
+manifest-general-update:
+  url: /manifest/general-update
+  param: { module: manifest, action: generalUpdate }
 
 manifest-general:
   url: /manifest/general/:type

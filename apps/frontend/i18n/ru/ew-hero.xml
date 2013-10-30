@@ -5,428 +5,428 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>skilltip.overdrive</source>
-        <target>&#x423;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x44C; &#x441;&#x43E;&#x441;&#x435;&#x434;&#x43D;&#x438;&#x435; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430;</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>skills.psionichack.durationlabel</source>
-        <target>&#x412;&#x437;&#x43B;&#x43E;&#x43C; &#x43D;&#x430; #TIME_IN_SECONDS# &#x441;</target>
-      </trans-unit>
-      <trans-unit id="3">
         <source>skills.speedstrong.description</source>
         <target>&#x417;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x43E;&#x439;&#x441;&#x43A;
 </target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="2">
         <source>skill.targetinstruction</source>
         <target>Click ground to activate skill!</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="3">
         <source>skilltip.aoeheal</source>
         <target>&#x41B;&#x435;&#x447;&#x438;&#x442;&#x44C; &#x441;&#x43E;&#x441;&#x435;&#x434;&#x43D;&#x438;&#x435; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="4">
         <source>skills.ballisticmissile.description</source>
         <target>&#x41F;&#x43E;&#x432;&#x440;&#x435;&#x436;&#x434;&#x430;&#x435;&#x442; &#x432;&#x437;&#x440;&#x44B;&#x432;&#x43D;&#x43E;&#x439; &#x432;&#x43E;&#x43B;&#x43D;&#x43E;&#x439; &#x441;&#x43E;&#x441;&#x435;&#x434;&#x43D;&#x438;&#x435; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F;. &#x41D;&#x430; 10 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435; &#x43D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x438; &#x443;&#x434;&#x435;&#x440;&#x436;&#x438;&#x432;&#x430;&#x439;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x44C; &#x434;&#x435;&#x442;&#x43E;&#x43D;&#x430;&#x446;&#x438;&#x44E; &#x438; &#x43D;&#x430;&#x43D;&#x435;&#x441;&#x442;&#x438; &#x441;&#x435;&#x440;&#x44C;&#x435;&#x437;&#x43D;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x43D; &#x43D;&#x430; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435;&#x439; &#x43F;&#x43B;&#x43E;&#x449;&#x430;&#x434;&#x438;.</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="5">
         <source>skills.healthnormal.description</source>
         <target>&#x421;&#x440;&#x435;&#x434;&#x43D;&#x435;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x434;&#x43E;&#x440;&#x43E;&#x432;&#x44C;&#x44F;, &#x443;&#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43D;&#x430; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="6">
         <source>view</source>
         <target>&#x41F;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x442;&#x44C; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x43E;&#x432;
 </target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="7">
         <source>skills.splashradiusnormal.description</source>
         <target>&#x421;&#x440;&#x435;&#x434;&#x43D;&#x435;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x43E;&#x43D;&#x44B; &#x43F;&#x43E;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;
 </target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="8">
         <source>skills.healthnormal.name</source>
         <target>&#x429;&#x438;&#x442;
 </target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="9">
         <source>instructions</source>
         <target>&#x417;&#x430;&#x440;&#x430;&#x431;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x439;&#x442;&#x435; &#x43E;&#x447;&#x43A;&#x438; &#x443;&#x43C;&#x435;&#x43D;&#x438;&#x439;, &#x441;&#x440;&#x430;&#x436;&#x430;&#x44F;&#x441;&#x44C; &#x441; &#x434;&#x440;&#x443;&#x433;&#x438;&#x43C;&#x438; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430;&#x43C;&#x438;</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="10">
         <source>skills.generalsorder.description</source>
         <target>&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439;&#x442;&#x435; &#x41F;&#x440;&#x438;&#x43A;&#x430;&#x437;&#x44B; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x430; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x44F; &#x44D;&#x444;&#x444;&#x435;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x44D;&#x43B;&#x438;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x43D;&#x430;&#x432;&#x44B;&#x43A;&#x430; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x43E;&#x432; &#x438; &#x43F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x44F; &#x438;&#x445; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;.  &#x413;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x43E;&#x432; 10 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x438; &#x432;&#x44B;&#x448;&#x435; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x44C; &#x432; &#x431;&#x43E;&#x439; &#x43E;&#x434;&#x43D;&#x43E;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;.</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="11">
         <source>skills.concussion.name</source>
         <target>&#x423;&#x448;&#x438;&#x431;</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="12">
         <source>skills.uses</source>
         <target>#AMOUNT# &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x439;</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="13">
         <source>skills.speedstrong.name</source>
         <target>&#x411;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x435;&#x43B;&#x44C;
 </target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="14">
         <source>skills.ratenormal.name</source>
         <target>&#x411;&#x44B;&#x441;&#x442;&#x440;&#x44B;&#x439; &#x43E;&#x433;&#x43E;&#x43D;&#x44C;
 </target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="15">
         <source>skills.warpcapacity.name</source>
         <target>&#x41A;&#x430;&#x432;&#x430;&#x43B;&#x435;&#x440;&#x438;&#x44F;
 </target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="16">
         <source>skills.healthweak.description</source>
         <target>&#x41D;&#x435;&#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x434;&#x43E;&#x440;&#x43E;&#x432;&#x44C;&#x44F;, &#x443;&#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43D;&#x430; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="17">
         <source>skills.rangenormal.description</source>
         <target>&#x421;&#x440;&#x435;&#x434;&#x43D;&#x435;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x440;&#x430;&#x434;&#x438;&#x443;&#x441;&#x430; &#x430;&#x442;&#x430;&#x43A;&#x438;
 </target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="18">
         <source>skills.destabilize.description</source>
         <target>&#x423;&#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x430;&#x435;&#x442; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x432;&#x440;&#x430;&#x436;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x442;&#x443;&#x440;&#x435;&#x43B;&#x438; &#x43D;&#x430; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43F;&#x440;&#x43E;&#x446;&#x435;&#x43D;&#x442; &#x43E;&#x442; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x433;&#x43E; &#x437;&#x430;&#x43F;&#x430;&#x441;&#x430; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438;</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="19">
         <source>skills.ratenormal.description</source>
         <target>&#x421;&#x440;&#x435;&#x434;&#x43D;&#x435;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438; &#x430;&#x442;&#x430;&#x43A;&#x438;
 </target>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="20">
         <source>skills.rangestrong.name</source>
         <target>&#x41B;&#x430;&#x437;&#x435;&#x440;&#x43D;&#x43E;&#x435; &#x43D;&#x430;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x438;&#x435;
 </target>
       </trans-unit>
-      <trans-unit id="23">
+      <trans-unit id="21">
         <source>skills.psionichack.name</source>
         <target>&#x41F;&#x441;&#x438;-&#x432;&#x437;&#x43B;&#x43E;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="24">
+      <trans-unit id="22">
         <source>skill.levelup</source>
         <target>Level Up with General's Orders</target>
       </trans-unit>
-      <trans-unit id="25">
+      <trans-unit id="23">
         <source>skills.healthweak.name</source>
         <target>&#x41B;&#x435;&#x433;&#x43A;&#x438;&#x439; &#x449;&#x438;&#x442;
 </target>
       </trans-unit>
-      <trans-unit id="26">
+      <trans-unit id="24">
         <source>skills.damagestrong.description</source>
         <target>&#x411;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430;, &#x443;&#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43D;&#x430; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="27">
+      <trans-unit id="25">
         <source>skilltip.teleport</source>
         <target>&#x41F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x430;</target>
       </trans-unit>
-      <trans-unit id="28">
+      <trans-unit id="26">
         <source>skills.teleport.name</source>
         <target>&#x422;&#x435;&#x43B;&#x435;&#x43F;&#x43E;&#x440;&#x442;&#x430;&#x446;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="29">
+      <trans-unit id="27">
         <source>skills.splashradiusnormal.name</source>
         <target>&#x410;&#x440;&#x442;&#x438;&#x43B;&#x43B;&#x435;&#x440;&#x438;&#x44F;
 </target>
       </trans-unit>
-      <trans-unit id="30">
+      <trans-unit id="28">
         <source>skills.targets.description</source>
         <target>&#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x446;&#x435;&#x43B;&#x435;&#x439;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43A;&#x430;&#x436;&#x434;&#x430;&#x44F; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x430; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C;
 </target>
       </trans-unit>
-      <trans-unit id="31">
+      <trans-unit id="29">
         <source>skilltip.magneticshielding</source>
         <target>&#x417;&#x430;&#x449;&#x438;&#x442;&#x438;&#x442;&#x44C; &#x441;&#x43E;&#x441;&#x435;&#x434;&#x43D;&#x438;&#x435; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="32">
+      <trans-unit id="30">
         <source>skills.speedweak.description</source>
         <target>&#x41D;&#x435;&#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x43E;&#x439;&#x441;&#x43A;
 </target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="31">
         <source>skills.heal.name</source>
         <target>&#x41B;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="32">
         <source>skillerror.herodead</source>
         <target>&#x413;&#x435;&#x440;&#x43E;&#x439; &#x432;&#x44B;&#x448;&#x435;&#x43B; &#x438;&#x437; &#x431;&#x43E;&#x44F;!</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="33">
         <source>skilltip.overdrivetargeted</source>
         <target>&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430; &#x434;&#x43B;&#x44F; &#x443;&#x441;&#x438;&#x43B;&#x435;&#x43D;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="34">
         <source>skills.rateweak.description</source>
         <target>&#x41D;&#x435;&#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438; &#x430;&#x442;&#x430;&#x43A;&#x438;
 </target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="35">
         <source>skilltip.psionichack</source>
         <target>&#x417;&#x430;&#x445;&#x432;&#x430;&#x442; &#x442;&#x443;&#x440;&#x435;&#x43B;&#x435;&#x439;</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="36">
         <source>nextlevel</source>
         <target>&#x417;&#x430;&#x442;&#x440;&#x430;&#x442;&#x44B; &#x434;&#x43B;&#x44F; &#x441;&#x43B;&#x435;&#x434;. &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="37">
         <source>skills.rangeweak.name</source>
         <target>&#x41C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x43F;&#x440;&#x438;&#x446;&#x435;&#x43B;
 </target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="38">
         <source>dialogtitle</source>
         <target>&#x413;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x44B;
 </target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="39">
         <source>skilltip.teleportgroup</source>
         <target>&#x417;&#x430;&#x440;&#x44F;&#x436;&#x430;&#x439;&#x442;&#x435; &#x43D;&#x430;&#x432;&#x44B;&#x43A;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="40">
         <source>skillerror.cooldown</source>
         <target>&#x416;&#x434;&#x435;&#x43C; &#x43F;&#x435;&#x440;&#x435;&#x437;&#x430;&#x440;&#x44F;&#x434;&#x43A;&#x438;!</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="41">
         <source>skilltip.troopformation</source>
         <target>Give troops direct orders</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="42">
         <source>generalsordersowned</source>
         <target>&#x41F;&#x420;&#x418;&#x41A;&#x410;&#x417;&#x42B; &#x413;&#x415;&#x41D;&#x415;&#x420;&#x410;&#x41B;&#x410; &#x41F;&#x41E;&#x41B;&#x423;&#x427;&#x415;&#x41D;&#x42B;
 </target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="43">
         <source>skills.overdrive.description</source>
         <target>&#x41F;&#x435;&#x440;&#x435;&#x432;&#x43E;&#x434;&#x438;&#x442; &#x432;&#x441;&#x435; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430; &#x432; &#x440;&#x435;&#x436;&#x438;&#x43C; &#x43D;&#x430;&#x43A;&#x430;&#x447;&#x43A;&#x438; &#x438; &#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43D;&#x430;&#x43D;&#x43E;&#x441;&#x438;&#x43C;&#x44B;&#x439; &#x438;&#x43C;&#x438; &#x443;&#x440;&#x43E;&#x43D;.</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="44">
         <source>skilltip.empgrenadecharge</source>
         <target>&#x417;&#x430;&#x440;&#x44F;&#x434;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x442;&#x44C; &#x440;&#x430;&#x434;&#x438;&#x443;&#x441;</target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="45">
         <source>skills.heal.description</source>
         <target>&#x418;&#x437;&#x43B;&#x435;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x44F;&#x449;&#x438;&#x435;&#x441;&#x44F; &#x43F;&#x43E;&#x431;&#x43B;&#x438;&#x437;&#x43E;&#x441;&#x442;&#x438; &#x434;&#x440;&#x443;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B;. &#x41D;&#x430; 10 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435; &#x43D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x438; &#x443;&#x434;&#x435;&#x440;&#x436;&#x438;&#x432;&#x430;&#x439;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x44D;&#x444;&#x444;&#x435;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x43E; &#x43B;&#x435;&#x447;&#x438;&#x442;&#x44C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435;&#x435; &#x447;&#x438;&#x441;&#x43B;&#x43E; &#x432;&#x43E;&#x439;&#x441;&#x43A;.</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="46">
         <source>skills.damagestrong.name</source>
         <target>&#x422;&#x44F;&#x436;&#x435;&#x43B;&#x44B;&#x439; &#x430;&#x440;&#x441;&#x435;&#x43D;&#x430;&#x43B;
 </target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="47">
         <source>skilltip.aoehealcharge</source>
         <target>&#x417;&#x430;&#x440;&#x44F;&#x434;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x442;&#x44C; &#x440;&#x430;&#x434;&#x438;&#x443;&#x441;</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="48">
         <source>skills.speednormal.name</source>
         <target>&#x423;&#x441;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x435;&#x43B;&#x44C;
 </target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="49">
         <source>skills.empgrenade.description</source>
         <target>&#x412;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x435;&#x442; &#x441;&#x43E;&#x441;&#x435;&#x434;&#x43D;&#x438;&#x435; &#x431;&#x430;&#x448;&#x43D;&#x438;. &#x41D;&#x430; 10 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435; &#x43D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x438; &#x443;&#x434;&#x435;&#x440;&#x436;&#x438;&#x432;&#x430;&#x439;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x430;&#x43A;&#x43E;&#x43F;&#x438;&#x442;&#x44C; &#x437;&#x430;&#x440;&#x44F;&#x434; &#x438; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x431;&#x430;&#x448;&#x43D;&#x438; &#x43D;&#x430; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435;&#x439; &#x43F;&#x43B;&#x43E;&#x449;&#x430;&#x434;&#x438;.</target>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="50">
         <source>skills.healthstrong.description</source>
         <target>&#x411;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x434;&#x43E;&#x440;&#x43E;&#x432;&#x44C;&#x44F;, &#x443;&#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43D;&#x430; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="51">
         <source>skills.troopformation.name</source>
         <target>&#x421;&#x43E;&#x441;&#x440;&#x435;&#x434;&#x43E;&#x442;&#x43E;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43E;&#x433;&#x43E;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="52">
         <source>skills.destabilize.name</source>
         <target>&#x414;&#x435;&#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="53">
         <source>skills.splashradiusstrong.description</source>
         <target>&#x417;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x43E;&#x43D;&#x44B; &#x43F;&#x43E;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;
 </target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="54">
         <source>skilltip.magneticshieldingtargeted</source>
         <target>&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430; &#x434;&#x43B;&#x44F; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="55">
         <source>skills.damageweak.name</source>
         <target>&#x41B;&#x435;&#x433;&#x43A;&#x438;&#x439; &#x430;&#x440;&#x441;&#x435;&#x43D;&#x430;&#x43B;
 </target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="56">
         <source>skills.speedweak.name</source>
         <target>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x435;&#x43B;&#x44C;
 </target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="57">
         <source>skills.energybeam.description</source>
         <target>&#x41C;&#x43E;&#x449;&#x43D;&#x44B;&#x439; &#x43B;&#x443;&#x447;, &#x43F;&#x43E;&#x432;&#x440;&#x435;&#x436;&#x434;&#x430;&#x44E;&#x449;&#x438;&#x439; &#x432;&#x441;&#x435; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x430; &#x441;&#x432;&#x43E;&#x435;&#x43C; &#x43F;&#x443;&#x442;&#x438;</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="58">
         <source>skilltip.aoedmgcharge</source>
         <target>&#x417;&#x430;&#x440;&#x44F;&#x436;&#x430;&#x439;&#x442;&#x435; &#x43D;&#x430;&#x432;&#x44B;&#x43A;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x442;&#x44C; &#x441;&#x438;&#x43B;&#x443; &#x438; &#x440;&#x430;&#x434;&#x438;&#x443;&#x441; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="59">
         <source>skills.speednormal.description</source>
         <target>&#x421;&#x440;&#x435;&#x434;&#x43D;&#x435;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x43E;&#x439;&#x441;&#x43A;
 </target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="60">
         <source>skills.rangenormal.name</source>
         <target>&#x422;&#x435;&#x43B;&#x435;&#x441;&#x43A;&#x43E;&#x43F;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x432;&#x438;&#x437;&#x438;&#x440;
 </target>
       </trans-unit>
-      <trans-unit id="63">
+      <trans-unit id="61">
         <source>skills.ballisticmissile.name</source>
         <target>&#x411;&#x430;&#x43B;&#x43B;&#x438;&#x441;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; &#x440;&#x430;&#x43A;&#x435;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="64">
+      <trans-unit id="62">
         <source>skills.rangestrong.description</source>
         <target>&#x417;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x440;&#x430;&#x434;&#x438;&#x443;&#x441;&#x430; &#x430;&#x442;&#x430;&#x43A;&#x438;
 </target>
       </trans-unit>
-      <trans-unit id="65">
+      <trans-unit id="63">
         <source>skills.targets.name</source>
         <target>&#x414;&#x432;&#x430; &#x441;&#x442;&#x432;&#x43E;&#x43B;&#x430;
 </target>
       </trans-unit>
-      <trans-unit id="66">
+      <trans-unit id="64">
         <source>skills.magneticshielding.description</source>
         <target>&#x412;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E; &#x441;&#x43D;&#x438;&#x436;&#x430;&#x435;&#x442; &#x443;&#x440;&#x43E;&#x43D; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;, &#x43A;&#x440;&#x43E;&#x43C;&#x435; &#x44D;&#x43D;&#x435;&#x440;&#x433;&#x435;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x43E;&#x440;&#x443;&#x436;&#x438;&#x44F; &#x432;&#x440;&#x43E;&#x434;&#x435; &#x43F;&#x443;&#x448;&#x435;&#x43A; &#x422;&#x435;&#x441;&#x43B;&#x44B;, &#x437;&#x430;&#x436;&#x438;&#x433;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x438; &#x43A;&#x43E;&#x440;&#x440;&#x43E;&#x437;&#x438;&#x43E;&#x43D;&#x43D;&#x44B;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;.</target>
       </trans-unit>
-      <trans-unit id="67">
+      <trans-unit id="65">
         <source>skills.ratestrong.description</source>
         <target>&#x417;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438; &#x430;&#x442;&#x430;&#x43A;&#x438;
 </target>
       </trans-unit>
-      <trans-unit id="68">
+      <trans-unit id="66">
         <source>skills.notresearched</source>
         <target>&#x41D;&#x435; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="69">
+      <trans-unit id="67">
         <source>skills.psionichack.description</source>
         <target>&#x41F;&#x435;&#x440;&#x435;&#x445;&#x432;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x435;&#x442; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x432;&#x440;&#x430;&#x436;&#x435;&#x441;&#x43A;&#x438;&#x43C;&#x438; &#x442;&#x443;&#x440;&#x435;&#x43B;&#x44F;&#x43C;&#x438;, &#x437;&#x430;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x44F; &#x438;&#x445; &#x441;&#x442;&#x440;&#x435;&#x43B;&#x44F;&#x442;&#x44C; &#x434;&#x440;&#x443;&#x433; &#x432; &#x434;&#x440;&#x443;&#x433;&#x430;</target>
       </trans-unit>
-      <trans-unit id="70">
+      <trans-unit id="68">
         <source>skilltip.aoedmg</source>
         <target>&#x41D;&#x430;&#x43D;&#x43E;&#x441;&#x438;&#x442; &#x443;&#x434;&#x430;&#x440; &#x43F;&#x43E; &#x43F;&#x43B;&#x43E;&#x449;&#x430;&#x434;&#x44F;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="71">
+      <trans-unit id="69">
         <source>skills.plasmacannon.description</source>
         <target>&#x41D;&#x430;&#x43D;&#x43E;&#x441;&#x438;&#x442; &#x442;&#x44F;&#x436;&#x435;&#x43B;&#x44B;&#x435; &#x43F;&#x43E;&#x432;&#x440;&#x435;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x44F; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F;&#x43C; &#x43D;&#x430; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x43C; &#x440;&#x430;&#x441;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x438;.</target>
       </trans-unit>
-      <trans-unit id="72">
+      <trans-unit id="70">
         <source>skills.energybeam.name</source>
         <target>&#x41B;&#x443;&#x447; &#x44D;&#x43D;&#x435;&#x440;&#x433;&#x438;&#x438;</target>
       </trans-unit>
-      <trans-unit id="73">
+      <trans-unit id="71">
         <source>skills.concussion.description</source>
         <target>&#x417;&#x430;&#x43C;&#x435;&#x434;&#x43B;&#x44F;&#x435;&#x442; &#x432;&#x440;&#x430;&#x436;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x43E;&#x433;&#x43E;&#x43D;&#x44C; &#x43D;&#x430; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F;
 </target>
       </trans-unit>
-      <trans-unit id="74">
+      <trans-unit id="72">
         <source>skills.damageweak.description</source>
         <target>&#x41D;&#x435;&#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430;, &#x443;&#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43D;&#x430; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="75">
+      <trans-unit id="73">
         <source>skills.healthstrong.name</source>
         <target>&#x422;&#x44F;&#x436;&#x435;&#x43B;&#x44B;&#x439; &#x449;&#x438;&#x442;
 </target>
       </trans-unit>
-      <trans-unit id="76">
+      <trans-unit id="74">
         <source>skills.rangeweak.description</source>
         <target>&#x41D;&#x435;&#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x440;&#x430;&#x434;&#x438;&#x443;&#x441;&#x430; &#x430;&#x442;&#x430;&#x43A;&#x438;
 </target>
       </trans-unit>
-      <trans-unit id="77">
+      <trans-unit id="75">
         <source>skills.warpcapacity.description</source>
         <target>&#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43C;&#x43E;&#x449;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x432;&#x440;&#x430;&#x442; &#x438;&#x441;&#x43A;&#x440;&#x438;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;
 </target>
       </trans-unit>
-      <trans-unit id="78">
+      <trans-unit id="76">
         <source>skillerror.notdeployed</source>
         <target>&#x413;&#x435;&#x440;&#x43E;&#x439; &#x43D;&#x435; &#x432;&#x44B;&#x441;&#x430;&#x434;&#x438;&#x43B;&#x441;&#x44F;!</target>
       </trans-unit>
-      <trans-unit id="79">
+      <trans-unit id="77">
         <source>skills.ratestrong.name</source>
         <target>&#x411;&#x435;&#x433;&#x43B;&#x44B;&#x439; &#x43E;&#x433;&#x43E;&#x43D;&#x44C;
 </target>
       </trans-unit>
-      <trans-unit id="80">
+      <trans-unit id="78">
         <source>skills.damagenormal.description</source>
         <target>&#x421;&#x440;&#x435;&#x434;&#x43D;&#x435;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430;, &#x443;&#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43D;&#x430; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="81">
+      <trans-unit id="79">
         <source>skills.plasmacannon.name</source>
         <target>&#x41F;&#x43B;&#x430;&#x437;&#x43C;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x43F;&#x443;&#x448;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="82">
+      <trans-unit id="80">
         <source>skills.troopformation.description</source>
         <target>&#x412;&#x43E;&#x439;&#x441;&#x43A;&#x430; &#x432;&#x43E;&#x437;&#x43B;&#x435; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x430; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x44E;&#x442; &#x43F;&#x440;&#x438;&#x43A;&#x430;&#x437; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="83">
+      <trans-unit id="81">
         <source>skills.damagenormal.name</source>
         <target>&#x410;&#x440;&#x441;&#x435;&#x43D;&#x430;&#x43B;
 </target>
       </trans-unit>
-      <trans-unit id="84">
+      <trans-unit id="82">
         <source>skills.splashradiusweak.description</source>
         <target>&#x41D;&#x435;&#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x43E;&#x43D;&#x44B; &#x43F;&#x43E;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;
 </target>
       </trans-unit>
-      <trans-unit id="85">
+      <trans-unit id="83">
         <source>skills.resources.description</source>
         <target>&#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;, &#x438;&#x437;&#x44B;&#x43C;&#x430;&#x435;&#x43C;&#x44B;&#x445; &#x443; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x43A;&#x430;
 </target>
       </trans-unit>
-      <trans-unit id="86">
+      <trans-unit id="84">
         <source>skills.teleport.description</source>
         <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x442;&#x435;&#x43B;&#x435;&#x43F;&#x43E;&#x440;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x430; &#x432; &#x43B;&#x44E;&#x431;&#x43E;&#x435; &#x43C;&#x435;&#x441;&#x442;&#x43E; &#x43D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x435;. &#x41D;&#x430; 10 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435; &#x43D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x438; &#x443;&#x434;&#x435;&#x440;&#x436;&#x438;&#x432;&#x430;&#x439;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x442;&#x435;&#x43B;&#x435;&#x43F;&#x43E;&#x440;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B;&#x430; &#x438; &#x43E;&#x43A;&#x440;&#x443;&#x436;&#x430;&#x44E;&#x449;&#x438;&#x435; &#x435;&#x433;&#x43E; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="87">
+      <trans-unit id="85">
         <source>skills.rateweak.name</source>
         <target>&#x41E;&#x433;&#x43E;&#x43D;&#x44C; &#x43E;&#x447;&#x435;&#x440;&#x435;&#x434;&#x44F;&#x43C;&#x438;
 </target>
       </trans-unit>
-      <trans-unit id="88">
+      <trans-unit id="86">
         <source>skills.splashradiusweak.name</source>
         <target>&#x41B;&#x435;&#x433;&#x43A;&#x430; &#x430;&#x440;&#x442;&#x438;&#x43B;&#x43B;&#x435;&#x440;&#x438;&#x44F;
 </target>
       </trans-unit>
-      <trans-unit id="89">
+      <trans-unit id="87">
         <source>skills.resources.name</source>
         <target>&#x421;&#x438;&#x444;&#x43E;&#x43D; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;
 </target>
       </trans-unit>
-      <trans-unit id="90">
+      <trans-unit id="88">
         <source>skills.magneticshielding.name</source>
         <target>&#x41C;&#x430;&#x433;&#x43D;&#x438;&#x442;&#x43D;&#x44B;&#x439; &#x449;&#x438;&#x442;</target>
       </trans-unit>
-      <trans-unit id="91">
+      <trans-unit id="89">
         <source>skilltip.empgrenade</source>
         <target>&#x41E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x441;&#x43E;&#x441;&#x435;&#x434;&#x43D;&#x438;&#x435; &#x431;&#x430;&#x448;&#x43D;&#x438;</target>
       </trans-unit>
-      <trans-unit id="92">
+      <trans-unit id="90">
         <source>skilltip.plasmacannon</source>
         <target>&#x412;&#x44B;&#x431;&#x440;&#x430;&#x43D;&#x44B;, &#x441;&#x43C;&#x435;&#x440;&#x442;&#x43E;&#x43D;&#x43E;&#x441;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="93">
+      <trans-unit id="91">
         <source>skills.splashradiusstrong.name</source>
         <target>&#x422;&#x44F;&#x436;&#x435;&#x43B;&#x430;&#x44F; &#x430;&#x440;&#x442;&#x438;&#x43B;&#x43B;&#x435;&#x440;&#x438;&#x44F;
 </target>
       </trans-unit>
-      <trans-unit id="94">
+      <trans-unit id="92">
         <source>skills.overdrive.name</source>
         <target>&#x41D;&#x430;&#x43A;&#x430;&#x447;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="95">
+      <trans-unit id="93">
         <source>skillerror.nouses</source>
         <target>&#x41D;&#x430;&#x432;&#x44B;&#x43A; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x435;&#x43B;&#x44C;&#x437;&#x44F;!</target>
       </trans-unit>
-      <trans-unit id="96">
+      <trans-unit id="94">
         <source>skills.empgrenade.name</source>
         <target>&#x413;&#x440;&#x430;&#x43D;&#x430;&#x442;&#x430; &#x42D;&#x41C;&#x418;</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>skilltip.overdrive</source>
+        <target>&#x423;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x44C; &#x441;&#x43E;&#x441;&#x435;&#x434;&#x43D;&#x438;&#x435; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>skills.psionichack.durationlabel</source>
+        <target>&#x412;&#x437;&#x43B;&#x43E;&#x43C; &#x43D;&#x430; #TIME_IN_SECONDS# &#x441;</target>
       </trans-unit>
     </body>
   </file>

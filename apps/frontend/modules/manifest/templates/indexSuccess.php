@@ -2,6 +2,7 @@
     <h1>Справочники</h1>
     <p class="lead">
         <button class="btn btn-primary" id="fetch">Fetch</button>
+        <button class="btn btn-primary" id="manifest">Manifest</button>
         <button class="btn btn-primary" id="update">Update</button>
     </p>
 </div>
@@ -17,11 +18,15 @@
     </tr>
     <tr id="buildings">
         <th>buildings</th>
-        <td>&mdash;</td>
+        <td><div class="progress"><div class="bar"></div></div></td>
     </tr>
     <tr id="items">
         <th>items</th>
-        <td>&mdash;</td>
+        <td><div class="progress"><div class="bar"></div></div></td>
+    </tr>
+    <tr id="equipment">
+        <th>equipment</th>
+        <td><div class="progress"><div class="bar"></div></div></td>
     </tr>
     <tr id="">
         <th>units</th>
@@ -31,9 +36,9 @@
         <th>campaigns</th>
         <td>&mdash;</td>
     </tr>
-    <tr id="">
+    <tr id="generals">
         <th>generals</th>
-        <td>&mdash;</td>
+        <td><div class="progress"><div class="bar"></div></div></td>
     </tr>
     <tr id="">
         <th>skills</th>
@@ -45,10 +50,6 @@
     </tr>
     <tr id="">
         <th>defense</th>
-        <td>&mdash;</td>
-    </tr>
-    <tr id="">
-        <th>equipment</th>
         <td>&mdash;</td>
     </tr>
     <tr id="">
@@ -71,24 +72,90 @@
             var lang = 'ru';
             var t1 = new Date();
             var i = 0;
-            
+
             function process(element) {
-                if(!element) {
+                if (!element) {
                     console.log((new Date() - t1));
-                    console.log('i='+i);
+                    console.log('i=' + i);
                     return;
                 }
-                
-                $.post('<?php echo url_for('manifest/translation') ?>', {lang: lang, id: element.tagName, value: element.text }, function(){
-                   process(element.nextElementSibling);
+
+                $.post('<?php echo url_for('manifest/translation') ?>', {lang: lang, id: element.tagName, value: element.text}, function() {
+                    process(element.nextElementSibling);
                 });
             }
-            
+
             process(xml.documentElement.firstElementChild);
-            
+
         });
-        
+
 //        $('table.table td').html('<div class="progress"><div class="bar"></div></div>');
         return false;
     });
+
+    $('#manifest').click(function() {
+        $.ajax({
+            url: '<?php echo url_for('common/REMOTE') ?>',
+            data: {
+                path: '/api/manifest.amf',
+                decode: 'amf',
+                proxy: true
+            },
+            success: function(manifest) {
+                var a = [{
+                        url: '<?php echo url_for('@manifest-building-update') ?>',
+                        element: 'buildings'
+                    },
+                    {
+                        url: '<?php echo url_for('@manifest-general-update') ?>',
+                        element: 'generals'
+                    },
+                    {
+                        url: '<?php echo url_for('@manifest-item-update') ?>',
+                        element: 'items'
+                    }];
+
+                update(0);
+                function update(p) {
+                    if (p >= a.length) {
+                        console.log('done');
+                        return;
+                    }
+
+                    var b = a[p];
+
+                    updateElement(0);
+
+                    function updateElement(index) {
+                        console.log(b.element);
+
+                        if (index >= manifest[b.element].length) {
+                            console.log(b.element + ' done');
+                            update(p + 1);
+                            return;
+                        }
+
+                        $.ajax({
+                            url: b.url,
+                            data: {
+                                value: JSON.stringify(manifest[b.element][index])
+                            },
+                            type: 'post',
+                            success: function(r) {
+                                $('#' + b.element + ' .progress > .bar').css('width', ((index + 1) * 100 / manifest[b.element].length) + '%');
+                                return;
+                                updateElement(index + 1);
+                            },
+                            error: function() {
+                                console.log('failed to update ' + b.element);
+                            }
+                        });
+                    }
+                }
+
+            }
+        });
+        return false;
+    });
+
 </script>

@@ -166,4 +166,12 @@ class commonActions extends sfActions
         $this->getUser()->setAttribute('testCount', 1, 'player/data');
         $this->redirect('common/index');
     }
+    
+    public function executeBase(sfWebRequest $request) {
+        $id = $request->getParameter('id', $this->getUser()->getAttribute('bases', array(), 'player')['caldera']);
+        $this->forward404Unless($id);
+        $r = $this->getUser()->RGET("/api/player/colonies/{$id}", array(), true);
+        $this->forward404Unless($r);
+        $this->result = json_decode($r, true);
+    }
 }
