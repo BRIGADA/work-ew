@@ -173,5 +173,9 @@ class commonActions extends sfActions
         $r = $this->getUser()->RGET("/api/player/colonies/{$id}", array(), true);
         $this->forward404Unless($r);
         $this->result = json_decode($r, true);
+        
+        $this->manifest = Doctrine::getTable('Building')
+                ->createQuery('INDEXBY type')
+                ->fetchArray();
     }
 }

@@ -30,3 +30,6 @@ function Highcharts($title, $series, $options = array(), $container = null)
 	return $prefix.javascript_tag(sprintf('$(function(){$("#%s").highcharts(%s);});', $container, json_encode($options)));
 }
 
+function _highcharts($data, $selector) {
+    return javascript_tag(sprintf('$(function(){$("%s").highcharts(%s)});', $selector, json_encode($data, JSON_NUMERIC_CHECK)));
+}

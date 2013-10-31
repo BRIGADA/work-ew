@@ -20,4 +20,23 @@ class Building extends BaseBuilding
         }
         return $result;
     }
+    
+    public function getDataSeries($path, $default = null) {
+        $result = array();
+        
+        foreach($this->levels as $a) {
+            $p = explode('/', $path);
+            while(count($p)) {
+                $e = array_shift($p);
+                if(!isset($a[$e])) {
+                    $result[] = $default;
+                    continue 2;
+                }
+                $a = $a[$e];
+            }
+            $result[] = $a;
+        }
+        
+        return $result;
+    }
 }

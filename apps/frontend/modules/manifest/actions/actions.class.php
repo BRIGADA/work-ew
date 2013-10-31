@@ -445,7 +445,6 @@ class manifestActions extends sfActions
                 }
             }
         }
-        
     }
     
     public function executeBuildingUpdate(sfWebRequest $request) {
