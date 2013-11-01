@@ -179,6 +179,21 @@ class commonActions extends sfActions
                 ->fetchArray();
     }
     
+    public function executeI18N(sfWebRequest $request)
+    {
+        $q = $request->getParameter('q');
+        $this->forward404Unless($q);
+        
+        $p = explode('.', $q);
+        
+        $this->getContext()->getConfiguration()->loadHelpers('I18N');
+        if(count($p)>1) {
+            $catalogue = array_shift($p);
+            return $this->renderText(__(implode('.', $p), NULL, "ew-{$catalogue}"));
+        }
+        return $this->renderText(__($q));
+    }
+    
 //    POST /api/lottery
 //    _session_id=null
 //    meltdown=45733806cd75e877ae48cdc642b7cbbbd8d8a044
