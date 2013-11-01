@@ -178,4 +178,19 @@ class commonActions extends sfActions
                 ->createQuery('INDEXBY type')
                 ->fetchArray();
     }
+    
+//    POST /api/lottery
+//    _session_id=null
+//    meltdown=45733806cd75e877ae48cdc642b7cbbbd8d8a044
+//    reactor=8694f154769b1fe1a6c174209b7df65c6418e31c
+//    testCount=12
+//    user_id=608208
+    
+    public function executeZoot() {
+        $r = $this->getUser()->RGET('/api/player');
+        $this->forwardUnless($r, 'common', 'index');
+        
+        $d = json_decode($r, true);
+        $this->items = $d['response']['items'];
+    }
 }

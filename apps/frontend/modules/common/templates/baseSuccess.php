@@ -1,4 +1,6 @@
 <?php use_helper('I18N') ?>
+<?php use_javascript('pixi.js') ?>
+
 <h1><?php echo $result['response']['base']['name'] ?></h1>
 
 <ul>
@@ -18,17 +20,17 @@
             <th>HP</th>
         </tr>
     </thead>
-    <?php //foreach ($result['response']['base']['buildings'] as $building) : ?>
-        <tr data-id="<?php // echo $building['id'] ?>">
-            <td><?php // echo $building['id'] ?></td>
-            <td><?php // echo __(strtolower($building['type']) . '.name', null, 'ew-buildings') ?></td>
-            <td><?php // echo $building['x'] ?></td>
-            <td><?php // echo $building['y'] ?></td>
-            <td><?php // echo $building['level'] ?></td>
-            <td><?php // echo $building['hp'] ?></td>
+<?php //foreach ($result['response']['base']['buildings'] as $building) : ?>
+        <tr data-id="<?php // echo $building['id']    ?>">
+            <td><?php // echo $building['id']    ?></td>
+            <td><?php // echo __(strtolower($building['type']) . '.name', null, 'ew-buildings')    ?></td>
+            <td><?php // echo $building['x']    ?></td>
+            <td><?php // echo $building['y']    ?></td>
+            <td><?php // echo $building['level']    ?></td>
+            <td><?php // echo $building['hp']    ?></td>
             <td><button class="btn btn-mini action-upgrade"><i class="icon-arrow-up"></i></button></td>
         </tr>
-    <?php // endforeach ?>
+<?php // endforeach ?>
 -->
 </table>
 <script type="text/javascript">
@@ -59,49 +61,56 @@
     var manifest = <?php echo json_encode($manifest->getRawValue(), JSON_NUMERIC_CHECK) ?>;
     var w = <?php echo $result['response']['base']['width'] ?>;
     var h = <?php echo $result['response']['base']['length'] ?>;
-    var ctx = document.getElementById('base').getContext('2d');
-    
+    var p = 0;
+
+    var renderer = PIXI.autoDetectRenderer(w, h, document.getElementById('base'));
+    var stage = new PIXI.Stage(0xffffff, true);
+    stage.setInteractive(true);
+
+    var grid = new PIXI.Graphics();
+    grid.beginFill(0xff0000);
+    for (var x = 0; x < w / 10; x++) {
+        grid.lineStyle(x % 10 ? 1 : 2, 0xe0e0e0);
+        grid.moveTo(x * 10, 0);
+        grid.lineTo(x * 10, h);
+    }
+    for (var y = 0; y < h / 10; y++) {
+        grid.lineStyle(y % 10 ? 1 : 2, 0xe0e0e0);
+        grid.moveTo(0, y * 10);
+        grid.lineTo(w, y * 10);
+    }
+    grid.endFill();
+    grid.lineStyle(4, 0xe0e0e0);
+    grid.drawRect(0, 0, w, h);
+    stage.addChild(grid);
+
+    $(buildings).each(function() {
+        if(!manifest[this.type].hasOwnProperty('color')) {
+            console.log('new color for '+this.type);
+            manifest[this.type].color = colorByIndex(p);
+            p++;
+        }
+        console.log(this.type);
+        var b = new PIXI.Graphics();
+        b.lineStyle(1, 0x000000);
+        b.beginFill(manifest[this.type].color);
+        b.drawRect(this.x, this.y, manifest[this.type].size_x, manifest[this.type].size_y);
+        b.endFill();
+
+        stage.addChild(b);
+    });
+
+    renderer.render(stage);
+
     function colorByIndex(index) {
         var r, g, b;
         r = index & 0x03;
         g = (index >> 2) & 0x03;
         b = (index >> 4) & 0x03;
-        return 'rgb('+r*85+','+g*85+','+b*85+')';
+        var result = (((b * 85) << 0) + ((g * 85) << 8) + ((r * 85) << 16));
+        console.log(index + ':' + result.toString(16));
+        return result;
     }
 
-    $(function() {
-        
-
-        ctx.strokeStyle = '#e0e0e0';
-
-        ctx.beginPath();
-        for (var x = 1; x < w / 10; x++) {
-            ctx.moveTo(x * 10, 0);
-            ctx.lineTo(x * 10, h);
-        }
-        for (var y = 1; y < h / 10; y++) {
-            ctx.moveTo(0, y * 10);
-            ctx.lineTo(w, y * 10);
-        }
-        ctx.stroke();
-
-        ctx.fillStyle = 'yellow';
-        ctx.strokeStyle = 'red';
-        ctx.font = '10px Verdana';
-        
-        $(buildings).each(function() {
-            ctx.fillStyle = colorByIndex(manifest[this.type].id);
-            
-            console.log(this.type + ': ' + ctx.fillStyle);
-            ctx.beginPath();
-            ctx.rect(this.x, this.y, manifest[this.type].size_x, manifest[this.type].size_y);
-            ctx.fill();
-            ctx.stroke();
-            
-            ctx.fillStyle = '#000000';
-            ctx.fillText(this.level, this.x+1, this.y+10);
-        });
-
-    });
 
 </script>

@@ -167,7 +167,7 @@ class GameClient {
                 ->andWhere('el.level = ?', $equipment['level'])
                 ->fetchOne();
 
-        if ($record && $total > self::AUTO_EQUIPMENT_LIMIT && $equipment['level'] > 4 && in_array($record->tier, [1, 2])) {
+        if ($record && $total > self::AUTO_EQUIPMENT_LIMIT && $equipment['level'] > 3 && in_array($record->tier, [1, 2])) {
             $common = ['hp', 'range', 'attack_rate', 'damage', 'simultaneous_targets', 'splash_radius', 'concussion_effect'];
             foreach ($record->stats as $stat => $value) {
                 if (!in_array($stat, $common) && $value) {

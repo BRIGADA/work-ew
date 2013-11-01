@@ -419,6 +419,7 @@ class manifestActions extends sfActions
         $this->buildings = Doctrine::getTable('Building')->findAll();
     }
     
+// https://kabam1-a.akamaihd.net/edgeworld/images/buildings/antiaircraftturret.png
     public function executeBuilding(sfWebRequest $request) {
         $type = $request->getParameter('type');
         $this->forward404Unless($type);
