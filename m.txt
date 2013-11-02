@@ -1,6 +1,0 @@
-http://sector181.c1.galactic.wonderhill.com/api/bases/1997028/defense_simulator/stars?
-
-reactor=8694f154769b1fe1a6c174209b7df65c6418e31c
-%5Fsession%5Fid=a0bcb1464135bbfd5332bd53fb0277ce
-meltdown=da7164a70bf754df22d1abe040ed5c5676ddf00c
-user%5Fid=608208
