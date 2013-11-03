@@ -59,6 +59,30 @@
 </table>
 
 <script type="text/javascript">
+    Array.prototype.compare = function (array) {
+        // if the other array is a falsy value, return
+        if (!(array instanceof Array))
+            return false;
+
+        // compare lengths - can save a lot of time
+        if (this.length !== array.length)
+            return false;
+
+        for (var i = 0; i < this.length; i++) {
+            // Check if we have nested arrays
+            if (this[i] instanceof Array && array[i] instanceof Array) {
+                // recurse into the nested arrays
+                if (!this[i].compare(array[i]))
+                    return false;
+            }
+            else if (this[i] != array[i]) {
+                // Warning - two different object instances will never be equal: {x:20} != {x:20}
+                return false;
+            }
+        }
+        return true;
+    }
+
     $('#fetch').click(function() {
         $.get('<?php echo url_for('manifest/trans') ?>', function(response) {
             alert(response);
@@ -115,8 +139,31 @@
                         element: 'items'
                     }];
 
-                update(0);
-                function update(p) {
+                updateBuildings(function(){});
+                
+                function updateBuildings() {
+                    $.get('<?php echo url_for('@manifest-buildings') ?>', function(buildings){
+                        
+                        function updateBuilding(index) {
+                            if(index >= manifest.buildings.length) {
+                                console.log('buildings done');
+                                return;
+                            }
+                            var c = manifest.buildings[index];
+                            var changed = false;
+                            if(!buildings.hasOwnProperty(c.type) || !buildings[c.type].compare(c)) {
+                                changed = true;
+                            }
+                            console.log('changed: '+changed);
+                            updateBuilding(index + 1);
+                                
+                        }
+                        console.log(buildings);
+                        updateBuilding(0);
+                    });
+                }
+                /*
+                function updateBuilding(index) {
                     if (p >= a.length) {
                         console.log('done');
                         return;
@@ -152,6 +199,7 @@
                         });
                     }
                 }
+                */
 
             }
         });

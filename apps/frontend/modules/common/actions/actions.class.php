@@ -32,6 +32,17 @@ class commonActions extends sfActions
         $this->clientForm = new ClientForm();
     }
     
+    public function executeClientProxy(sfWebRequest $request)
+    {
+        $query = $request->getParameter('query');
+        $this->forward404Unless($query);
+        $type = $request->getParameter('type');
+        if($type) {
+            $this->getResponse()->setContentType($type);
+        }
+        return $this->renderText($this->getUser()->proxy($query));
+    }
+    
     public function executeLogin()
     {
     	$r = array();

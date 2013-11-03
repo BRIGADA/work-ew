@@ -73,7 +73,6 @@ BuildingLevels:
       class: Building
       local: building_id
       foreign: id
-      alias: building
       foreignAlias: levels
       onUpdate: CASCADE
       onDelete: CASCADE

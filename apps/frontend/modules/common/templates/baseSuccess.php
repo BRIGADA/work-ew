@@ -55,7 +55,7 @@
     });
 </script>
 
-<canvas width="<?php echo $result['response']['base']['width'] ?>" height="<?php echo $result['response']['base']['length'] ?>" style="border: 1px solid green;" id="base"></canvas>
+<canvas width="<?php echo $result['response']['base']['width'] ?>" height="<?php echo $result['response']['base']['length'] ?>" id="base">not supported</canvas>
 <script type="text/javascript">
     var buildings = <?php echo json_encode($result['response']['base']['buildings']->getRawValue(), JSON_NUMERIC_CHECK) ?>;
     var manifest = <?php echo json_encode($manifest->getRawValue(), JSON_NUMERIC_CHECK) ?>;
@@ -82,6 +82,17 @@
     grid.endFill();
     grid.lineStyle(4, 0xe0e0e0);
     grid.drawRect(0, 0, w, h);
+    
+    grid.beginFill(0x0000ff);
+    grid.lineStyle(1, 0x0000ff);
+    grid.moveTo(w/2, 0);
+    grid.lineTo(w/2, h);
+    grid.moveTo(0, h/2);
+    grid.lineTo(w, h/2);
+    
+    grid.endFill();
+    
+    
     stage.addChild(grid);
 
     $(buildings).each(function() {

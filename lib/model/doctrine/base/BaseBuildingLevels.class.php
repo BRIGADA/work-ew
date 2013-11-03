@@ -10,20 +10,20 @@
  * @property integer $time
  * @property array $requirements
  * @property array $stats
- * @property Building $building
+ * @property Building $rel_building
  * 
  * @method integer        getBuildingId()   Returns the current record's "building_id" value
  * @method integer        getLevel()        Returns the current record's "level" value
  * @method integer        getTime()         Returns the current record's "time" value
  * @method array          getRequirements() Returns the current record's "requirements" value
  * @method array          getStats()        Returns the current record's "stats" value
- * @method Building       getBuilding()     Returns the current record's "building" value
+ * @method Building       getRelBuilding()  Returns the current record's "rel_building" value
  * @method BuildingLevels setBuildingId()   Sets the current record's "building_id" value
  * @method BuildingLevels setLevel()        Sets the current record's "level" value
  * @method BuildingLevels setTime()         Sets the current record's "time" value
  * @method BuildingLevels setRequirements() Sets the current record's "requirements" value
  * @method BuildingLevels setStats()        Sets the current record's "stats" value
- * @method BuildingLevels setBuilding()     Sets the current record's "building" value
+ * @method BuildingLevels setRelBuilding()  Sets the current record's "rel_building" value
  * 
  * @package    edgeworld
  * @subpackage model
@@ -57,7 +57,7 @@ abstract class BaseBuildingLevels extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasOne('Building as building', array(
+        $this->hasOne('Building as rel_building', array(
              'local' => 'building_id',
              'foreign' => 'id',
              'onDelete' => 'CASCADE',

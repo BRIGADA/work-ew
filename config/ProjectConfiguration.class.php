@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__).'/../../vendor/symfony/lib/autoload/sfCoreAutoload.class.php';
+require_once dirname(__FILE__).'/../lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php';
 sfCoreAutoload::register();
 
 class ProjectConfiguration extends sfProjectConfiguration
@@ -14,8 +14,8 @@ class ProjectConfiguration extends sfProjectConfiguration
       return;
     }
  
-    set_include_path(dirname(__FILE__).'/../../vendor'.PATH_SEPARATOR.get_include_path());
-    require_once dirname(__FILE__).'/../../vendor/Zend/Loader/Autoloader.php';
+    set_include_path(sfConfig::get('sf_lib_dir').'/vendor'.PATH_SEPARATOR.get_include_path());
+    require_once sfConfig::get('sf_lib_dir').'/vendor/Zend/Loader/Autoloader.php';
     Zend_Loader_Autoloader::getInstance();
     self::$zendLoaded = true;
   }

@@ -187,4 +187,20 @@ class equipmentActions extends sfActions
         $this->getResponse()->setContentType('application/json');
         return $this->renderText($encode ? json_encode($data) : $data);
     }
+    
+    public function executeAuto(sfWebRequest $request) {
+        $query = array();
+        $query['cmd'] = 'autoequipment_stat';
+        $query['user_id'] = $this->getUser()->getAttribute('user_id', null, 'player/data');
+        
+        $r = $this->getUser()->proxy($query);
+        $this->forward404Unless($r);        
+        
+        if($request->isXmlHttpRequest()) {
+            $this->getResponse()->setContentType('application/json');
+            return $this->renderText($r);
+        }
+        $this->current = json_decode($r, true);
+//        ksort($this->current);
+    }
 }
