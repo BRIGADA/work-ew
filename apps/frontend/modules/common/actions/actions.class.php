@@ -129,7 +129,7 @@ class commonActions extends sfActions
         
         $query = $request->getParameter('query', array());
 
-        $proxy = $request->getParameter('proxy', false);
+        $proxy = $request->getParameter('proxy') === 'true';
         $result = $request->getMethod() == sfWebRequest::POST ? $this->getUser()->RPOST($path, $query, $proxy) : $this->getUser()->RGET($path, $query, $proxy);
         
         $this->forward404Unless($result, 'FETCH FAILED');
@@ -161,7 +161,11 @@ class commonActions extends sfActions
             $result = json_encode($result);
         }
         
-        $this->getResponse()->setContentType($request->getParameter('type', 'application/json'));
+        $type = $request->getParameter('type', 'application/json');
+        $this->getResponse()->setContentType($type);
+        if($type == 'application/json') {
+            file_put_contents(sfConfig::get('sf_upload_dir').'/'.str_replace('/', '-', $path), $result);
+        }
         return $this->renderText($result);
     }
     

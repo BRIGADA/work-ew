@@ -7,11 +7,17 @@
  * 
  * @property integer $id
  * @property text $name
+ * @property text $description
+ * @property boolean $active
  * 
- * @method integer  getId()   Returns the current record's "id" value
- * @method text     getName() Returns the current record's "name" value
- * @method Alliance setId()   Sets the current record's "id" value
- * @method Alliance setName() Sets the current record's "name" value
+ * @method integer  getId()          Returns the current record's "id" value
+ * @method text     getName()        Returns the current record's "name" value
+ * @method text     getDescription() Returns the current record's "description" value
+ * @method boolean  getActive()      Returns the current record's "active" value
+ * @method Alliance setId()          Sets the current record's "id" value
+ * @method Alliance setName()        Sets the current record's "name" value
+ * @method Alliance setDescription() Sets the current record's "description" value
+ * @method Alliance setActive()      Sets the current record's "active" value
  * 
  * @package    edgeworld
  * @subpackage model
@@ -29,7 +35,12 @@ abstract class BaseAlliance extends sfDoctrineRecord
              ));
         $this->hasColumn('name', 'text', null, array(
              'type' => 'text',
-             'notnull' => true,
+             ));
+        $this->hasColumn('description', 'text', null, array(
+             'type' => 'text',
+             ));
+        $this->hasColumn('active', 'boolean', null, array(
+             'type' => 'boolean',
              ));
     }
 

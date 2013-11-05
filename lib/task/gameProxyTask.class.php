@@ -3,7 +3,7 @@
 class GameClient {
 
     const AUTO_EQUIPMENT_INTERVAL = 60;
-    const AUTO_EQUIPMENT_LIMIT = 190;
+    const AUTO_EQUIPMENT_LIMIT = 195;
 
     public $useragent;
     public $server;
@@ -27,6 +27,7 @@ class GameClient {
      * @var integer
      */
     public $base_id = NULL;
+    protected $queue_equipment_repairing = array();
 
     /**
      * Колонии
@@ -43,13 +44,6 @@ class GameClient {
     public $alliance = null;
     protected $curl;
     protected $task;
-
-    /*
-     * equipment_auto_upgrade
-     *   upgrade
-     *   repair
-     *   repairing
-     */
 
     public function __construct($user_id, sfTask &$task) {
         $task->logBlock(__FUNCTION__, 'INFO');
@@ -87,6 +81,8 @@ class GameClient {
                 return false;
             }
 
+            file_put_contents(sfConfig::get('sf_upload_dir') . '/api-player.json', $r);
+
             $d = json_decode($r, true);
 
             $this->player_id = $d['response']['id'];
@@ -96,6 +92,16 @@ class GameClient {
             $this->alliance = $d['response']['alliance'];
             $this->colonies = $d['response']['colonies'];
             $this->testCount = 1;
+
+            $this->queue_equipment_repairing = array();
+
+            foreach ($d['response']['jobs'] as $job) {
+                if ($job['type'] == 'RepairEquipment') {
+                    if (!in_array($job['equipment_id'], $this->queue_equipment_repairing)) {
+                        $this->queue_equipment_repairing[] = $job['equipment_id'];
+                    }
+                }
+            }
 
             $this->autoEquipmentStop();
 
@@ -109,7 +115,6 @@ class GameClient {
         $this->auto_equipment = array();
         $this->auto_equipment['next'] = 0;
         $this->auto_equipment['used'] = 0;
-        $this->auto_equipment['repairing'] = array();
         $this->auto_equipment['upgrade'] = array();
         $this->auto_equipment['repair'] = array();
         $this->auto_equipment['craft1a'] = array();
@@ -165,10 +170,10 @@ class GameClient {
 
                 if ($e['durability'] > 0) {
                     $this->auto_equipment['upgrade'][] = $e['id'];
-                    if (($key = array_search($e['id'], $this->auto_equipment['repairing'])) !== false) {
-                        unset($this->auto_equipment['repairing'][$key]);
+                    if (($key = array_search($e['id'], $this->queue_equipment_repairing)) !== false) {
+                        unset($this->queue_equipment_repairing[$key]);
                     }
-                } elseif (!in_array($e['id'], $this->auto_equipment['repairing'])) {
+                } elseif (!in_array($e['id'], $this->queue_equipment_repairing)) {
                     $this->auto_equipment['repair'][] = $e['id'];
                 }
             } else {
@@ -176,14 +181,14 @@ class GameClient {
             }
         }
 
-        foreach ($this->auto_equipment['repairing'] as $key => $id) {
+        foreach ($this->queue_equipment_repairing as $key => $id) {
             if (!in_array($id, $a)) {
-                unset($this->auto_equipment['repairing'][$key]);
+                unset($this->queue_equipment_repairing[$key]);
             }
         }
 
-        $this->auto_equipment['repairing'] = array_unique($this->auto_equipment['repairing']);
-        sort($this->auto_equipment['repairing']);
+        $this->queue_equipment_repairing = array_unique($this->queue_equipment_repairing);
+        sort($this->queue_equipment_repairing);
     }
 
     public function connect() {
@@ -325,6 +330,25 @@ class GameClient {
                     case 'job_completed':
                         $this->job_completed($c['data']);
                         break;
+                    case 'level_changed':
+                        // сборка ресурсов при изменении уровня (все шахты заполенены)
+                        $collected = array();
+                        foreach ($record->params['buildings'] as $building) {
+                            if (!in_array($building['base_id'], $collected)) {
+
+//                                 POST /api/bases/{base_id}/buildings/{building_id}/collect_all
+//                                 _method=put
+//                                 _session_id=3a4768ff9e88ecbbaaf64346918b40fd
+//                                 meltdown=55e13ee969c6de281eff709d55e828a12ac4ac91
+//                                 reactor=8694f154769b1fe1a6c174209b7df65c6418e31c
+//                                 testCount=4
+//                                 user_id=608208
+                                $collected[] = $building['base_id'];
+                                $query = array('_method' => 'put');
+                                $this->POST("/api/bases/{$building['base_id']}/buildings/{$building['id']}/collect_all", $query);
+                            }
+                        }
+                        break;
                     default:
                         break;
                 }
@@ -364,11 +388,17 @@ class GameClient {
     protected function job_completed($data) {
         switch ($data['type']) {
             case 'RepairEquipment':
+                if (($key = array_search($data['equipment_id'], $this->queue_equipment_repairing)) !== false) {
+                    unset($this->queue_equipment_repairing[$key]);
+                }
+
                 if (isset($this->auto_equipment)) {
-                    if (($key = array_search($data['equipment_id'], $this->auto_equipment['repairing'])) !== false) {
-                        unset($this->auto_equipment['repairing'][$key]);
+                    if (($key = array_search($data['equipment_id'], $this->auto_equipment['repair'])) !== false) {
+                        unset($this->auto_equipment['repair'][$key]);
                     }
-                    $this->auto_equipment['upgrade'][] = $data['equipment_id'];
+                    if (($key = array_search($data['equipment_id'], $this->auto_equipment['upgrade'])) === false) {
+                        $this->auto_equipment['upgrade'][] = $data['equipment_id'];
+                    }
                 }
                 break;
             default:
@@ -379,7 +409,6 @@ class GameClient {
     public function job() {
         if (isset($this->auto_equipment)) {
 
-            $this->task->log(sprintf('used: %u, repair: %u, repairing: %u, upgrade: %u, craft1a: %u, craft1b: %u, total: %u', $this->auto_equipment['used'], count($this->auto_equipment['repair']), count($this->auto_equipment['repairing']), count($this->auto_equipment['upgrade']), count($this->auto_equipment['craft1a']), count($this->auto_equipment['craft1b']), $this->autoEquipmentTotal()));
 
             if (time() >= $this->auto_equipment['next']) {
                 $r = $this->GET('/api/player/equipment');
@@ -393,85 +422,90 @@ class GameClient {
                 $d = json_decode($r, true);
 
                 $this->autoEquipmentParse($d['response']['equipment']);
-
+                $this->task->log(sprintf('repairing: %u, used: %u, repair: %u, upgrade: %u, craft1a: %u, craft1b: %u, total: %u', count($this->queue_equipment_repairing), $this->auto_equipment['used'], count($this->auto_equipment['repair']), count($this->auto_equipment['upgrade']), count($this->auto_equipment['craft1a']), count($this->auto_equipment['craft1b']), $this->autoEquipmentTotal()));
                 return;
             }
 
+            if ($this->autoEquipmentTotal() > self::AUTO_EQUIPMENT_LIMIT) {
+                $c1 = count($this->auto_equipment['craft1a']) / 10;
+                $c2 = count($this->auto_equipment['craft1b']) / 5;
 
-            // craft1a
-            if ($this->autoEquipmentTotal() > self::AUTO_EQUIPMENT_LIMIT && count($this->auto_equipment['craft1a']) >= 10) {
-                $this->task->logSection('Craft', '1A');
+                if ($c1 > $c2) {
+                    if ($c1 >= 1) {
+                        $this->task->logSection('Craft', '1A');
 
-                usort($this->auto_equipment['craft1a'], function($a, $b) {
-                    return ($a['level'] > $b['level']) ? -1 : ($a['level'] < $b['level'] ? 1 : 0);
-                });
+                        usort($this->auto_equipment['craft1a'], function($a, $b) {
+                            return ($a['level'] > $b['level']) ? -1 : ($a['level'] < $b['level'] ? 1 : 0);
+                        });
 
-                $ids = array_map(function($a) {
-                    if (($key = array_search($a['id'], $this->auto_equipment['upgrade'])) !== false) {
-                        unset($this->auto_equipment['upgrade'][$key]);
+                        $this->task->log(implode(', ', array_map(function($a) {
+                                            return $a['level'];
+                                        }, $this->auto_equipment['craft1a'])));
+
+                        $ids = array_map(function($a) {
+                            if (($key = array_search($a['id'], $this->auto_equipment['upgrade'])) !== false) {
+                                unset($this->auto_equipment['upgrade'][$key]);
+                            }
+                            if (($key = array_search($a['id'], $this->auto_equipment['repair'])) !== false) {
+                                unset($this->auto_equipment['repair'][$key]);
+                            }
+                            if (($key = array_search($a['id'], $this->queue_equipment_repairing)) !== false) {
+                                unset($this->queue_equipment_repairing[$key]);
+                            }
+
+                            return ['type' => 'equipment', 'id' => intval($a['id'])];
+                        }, array_splice($this->auto_equipment['craft1a'], 0, 10));
+
+                        $query = array();
+                        $query['name'] = 'rarebox1a';
+                        $query['input'] = json_encode($ids);
+
+                        $this->POST('/api/player/craft', $query);
                     }
-                    if (($key = array_search($a['id'], $this->auto_equipment['repair'])) !== false) {
-                        unset($this->auto_equipment['repair'][$key]);
+                } else {
+                    if ($c2 >= 1) {
+                        $this->task->logSection('Craft', '1B');
+
+                        usort($this->auto_equipment['craft1b'], function($a, $b) {
+                            return ($a['level'] > $b['level']) ? -1 : ($a['level'] < $b['level'] ? 1 : 0);
+                        });
+
+                        $this->task->log(implode(', ', array_map(function($a) {
+                                            return $a['level'];
+                                        }, $this->auto_equipment['craft1b'])));
+
+                        $ids = array_map(function($a) {
+                            if (($key = array_search($a['id'], $this->auto_equipment['upgrade'])) !== false) {
+                                unset($this->auto_equipment['upgrade'][$key]);
+                            }
+                            if (($key = array_search($a['id'], $this->auto_equipment['repair'])) !== false) {
+                                unset($this->auto_equipment['repair'][$key]);
+                            }
+                            if (($key = array_search($a['id'], $this->queue_equipment_repairing)) !== false) {
+                                unset($this->queue_equipment_repairing[$key]);
+                            }
+                            return ['type' => 'equipment', 'id' => intval($a['id'])];
+                        }, array_splice($this->auto_equipment['craft1b'], 0, 5));
+
+                        $query = array();
+                        $query['name'] = 'rarebox1b';
+                        $query['input'] = json_encode($ids);
+
+                        $this->POST('/api/player/craft', $query);
                     }
-                    if (($key = array_search($a['id'], $this->auto_equipment['repairing'])) !== false) {
-                        unset($this->auto_equipment['repairing'][$key]);
-                    }
-
-                    return ['type' => 'equipment', 'id' => intval($a['id'])];
-                }, array_splice($this->auto_equipment['craft1a'], 0, 10));
-
-                $query = array();
-                $query['name'] = 'rarebox1a';
-                $query['input'] = json_encode($ids);
-
-                $this->POST('/api/player/craft', $query);
-
-                return;
-            }
-
-            // craft1b
-            if ($this->autoEquipmentTotal() > self::AUTO_EQUIPMENT_LIMIT && count($this->auto_equipment['craft1b']) >= 5) {
-                $this->task->logSection('Craft', '1B');
-
-                usort($this->auto_equipment['craft1b'], function($a, $b) {
-                    return ($a['level'] > $b['level']) ? -1 : ($a['level'] < $b['level'] ? 1 : 0);
-                });
-
-                $ids = array_map(function($a) {
-                    if (($key = array_search($a['id'], $this->auto_equipment['upgrade'])) !== false) {
-                        unset($this->auto_equipment['upgrade'][$key]);
-                    }
-                    if (($key = array_search($a['id'], $this->auto_equipment['repair'])) !== false) {
-                        unset($this->auto_equipment['repair'][$key]);
-                    }
-                    if (($key = array_search($a['id'], $this->auto_equipment['repairing'])) !== false) {
-                        unset($this->auto_equipment['repairing'][$key]);
-                    }
-                    return ['type' => 'equipment', 'id' => intval($a['id'])];
-                }, array_splice($this->auto_equipment['craft1b'], 0, 5));
-
-                $query = array();
-                $query['name'] = 'rarebox1b';
-                $query['input'] = json_encode($ids);
-
-                $this->POST('/api/player/craft', $query);
-
+                }
                 return;
             }
 
             // repair
             if (count($this->auto_equipment['repair'])) {
                 $id = array_shift($this->auto_equipment['repair']);
-
-//                $this->task->logSection('REPAIR', $id);
-
                 $query = array();
                 $query['basis_id'] = $this->base_id;
                 $query['_method'] = 'post';
-
                 $r = $this->POST("/api/player/equipment/{$id}/repair", $query);
-                if ($r && !in_array($id, $this->auto_equipment['repairing'])) {
-                    $this->auto_equipment['repairing'][] = $id;
+                if ($r && !in_array($id, $this->queue_equipment_repairing)) {
+                    $this->queue_equipment_repairing[] = $id;
                 }
                 return;
             }
@@ -523,7 +557,7 @@ class GameClient {
 
     protected function autoEquipmentTotal() {
         return $this->auto_equipment['used'] +
-                count($this->auto_equipment['repairing']) +
+                count($this->queue_equipment_repairing) +
                 count($this->auto_equipment['repair']) +
                 count($this->auto_equipment['upgrade']);
     }

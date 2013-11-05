@@ -15,27 +15,30 @@
  * @property text $resource_type
  * @property array $contents
  * @property array $tags
+ * @property Doctrine_Collection $Store
  * 
- * @method integer getId()               Returns the current record's "id" value
- * @method text    getType()             Returns the current record's "type" value
- * @method boolean getPermanent()        Returns the current record's "permanent" value
- * @method integer getBoostAmount()      Returns the current record's "boost_amount" value
- * @method integer getBoostPercentage()  Returns the current record's "boost_percentage" value
- * @method text    getBoostType()        Returns the current record's "boost_type" value
- * @method integer getResourceAmount()   Returns the current record's "resource_amount" value
- * @method text    getResourceType()     Returns the current record's "resource_type" value
- * @method array   getContents()         Returns the current record's "contents" value
- * @method array   getTags()             Returns the current record's "tags" value
- * @method Item    setId()               Sets the current record's "id" value
- * @method Item    setType()             Sets the current record's "type" value
- * @method Item    setPermanent()        Sets the current record's "permanent" value
- * @method Item    setBoostAmount()      Sets the current record's "boost_amount" value
- * @method Item    setBoostPercentage()  Sets the current record's "boost_percentage" value
- * @method Item    setBoostType()        Sets the current record's "boost_type" value
- * @method Item    setResourceAmount()   Sets the current record's "resource_amount" value
- * @method Item    setResourceType()     Sets the current record's "resource_type" value
- * @method Item    setContents()         Sets the current record's "contents" value
- * @method Item    setTags()             Sets the current record's "tags" value
+ * @method integer             getId()               Returns the current record's "id" value
+ * @method text                getType()             Returns the current record's "type" value
+ * @method boolean             getPermanent()        Returns the current record's "permanent" value
+ * @method integer             getBoostAmount()      Returns the current record's "boost_amount" value
+ * @method integer             getBoostPercentage()  Returns the current record's "boost_percentage" value
+ * @method text                getBoostType()        Returns the current record's "boost_type" value
+ * @method integer             getResourceAmount()   Returns the current record's "resource_amount" value
+ * @method text                getResourceType()     Returns the current record's "resource_type" value
+ * @method array               getContents()         Returns the current record's "contents" value
+ * @method array               getTags()             Returns the current record's "tags" value
+ * @method Doctrine_Collection getStore()            Returns the current record's "Store" collection
+ * @method Item                setId()               Sets the current record's "id" value
+ * @method Item                setType()             Sets the current record's "type" value
+ * @method Item                setPermanent()        Sets the current record's "permanent" value
+ * @method Item                setBoostAmount()      Sets the current record's "boost_amount" value
+ * @method Item                setBoostPercentage()  Sets the current record's "boost_percentage" value
+ * @method Item                setBoostType()        Sets the current record's "boost_type" value
+ * @method Item                setResourceAmount()   Sets the current record's "resource_amount" value
+ * @method Item                setResourceType()     Sets the current record's "resource_type" value
+ * @method Item                setContents()         Sets the current record's "contents" value
+ * @method Item                setTags()             Sets the current record's "tags" value
+ * @method Item                setStore()            Sets the current record's "Store" collection
  * 
  * @package    edgeworld
  * @subpackage model
@@ -46,7 +49,7 @@ abstract class BaseItem extends sfDoctrineRecord
 {
     public function setTableDefinition()
     {
-        $this->setTableName('items');
+        $this->setTableName('item');
         $this->hasColumn('id', 'integer', null, array(
              'type' => 'integer',
              'primary' => true,
@@ -86,6 +89,8 @@ abstract class BaseItem extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        
+        $this->hasMany('Store', array(
+             'local' => 'id',
+             'foreign' => 'item_id'));
     }
 }

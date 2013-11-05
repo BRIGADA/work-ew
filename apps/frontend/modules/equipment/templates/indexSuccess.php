@@ -14,19 +14,7 @@
     <!-- <button id="action-delete-all" class="btn"><i class="icon-trash"></i> Удалить</button> -->
     <button id="action-repair-all" class="btn"><i class="icon-refresh"></i> Починить</button>
     <button id="action-craft" class="btn"><i class="icon-gift"></i> Крафтить</button>
-    <button id="action-autoequipment-start" class="btn">START</button>
-    <button id="action-autoequipment-stop" class="btn">STOP</button>
-    <button id="action-autoequipment-stat" class="btn">STAT</button>
 </p>
-
-<ul class="thumbnails hide" id="charts">
-    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
-    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
-    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
-    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
-    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
-    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
-</ul>
 
 <table class="table table-hover table-condensed" id="equipment-list">
     <thead>
@@ -100,6 +88,15 @@
     </tfoot>
 </table>
 
+<ul class="thumbnails" id="charts">
+    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+    <li class="span2" data-success="0" data-error="0"><div class="thumbnail" style="height: 160px;"></div></li>
+</ul>
+
 <script type="text/javascript">
     var manifest = <?php echo json_encode($manifest->getRawValue(), JSON_NUMERIC_CHECK) ?>;
     var stats = <?php echo json_encode($stats->getRawValue()) ?>;
@@ -121,21 +118,6 @@
     }
 
     $(function() {
-        $.get('<?php echo url_for('common/clientProxy') ?>', {
-            query: {
-                cmd: 'autoequipment_stat',
-                user_id: <?php echo $sf_user->getAttribute('user_id', null, 'player/data') ?>
-            },
-            type: 'application/json'
-        }, function(response) {
-            if(response instanceof Object) {
-                $('#action-autoequipment-start').hide();
-                $('#action-autoequipment-stat').show();
-                $('#action-autoequipment-stop').show();
-            }
-            console.log(response);
-        });
-
         $('#hide-unusial').click(function() {
             $('#filter-stats').val($('#filter-stats > option').map(function() {
                 if (stats_usial.indexOf($(this).val()) == -1)
