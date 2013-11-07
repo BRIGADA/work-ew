@@ -124,7 +124,7 @@
   $('#manifest').click(function() {
     $.get('<?php echo url_for('manifest/file') ?>', function(manifest){
       
-      updateItem(0);
+      updateBuilding(0);
       
       
       function updateItem(index){
@@ -168,6 +168,30 @@
           }
         });
       
+      }
+      
+      function updateBuilding(index) {
+        if(index >= manifest.buildings.length) {
+          console.log('buildings complete');
+          updateItem(0);
+          return;
+        }
+
+        $('#buildings .bar').css('width', (100 * (index+1)/manifest.buildings.length)+'%')            
+        
+        $.ajax({
+          type: 'post',
+          url: '<?php echo url_for('manifest/buildingUpdate')?>',
+          data: {
+            value: JSON.stringify(manifest.buildings[index])
+          },
+          success: function(){
+            updateBuilding(index + 1);
+          },
+          error: function(){
+            console.log('error');
+          }
+        });
       }
       
     });
