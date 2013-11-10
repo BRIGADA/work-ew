@@ -8,60 +8,50 @@
  * @author     BRIGADA
  * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */
-class chatActions extends sfActions
-{
- /**
-  * Executes index action
-  *
-  * @param sfRequest $request A request object
-  */
-  public function executeIndex(sfWebRequest $request)
-  {
-  	$this->results = Doctrine::getTable('Chat')
-  		->createQuery()
-  		->select('room')
-  		->distinct()
-  		->groupBy('room')
-  		->execute(array(), Doctrine::HYDRATE_SINGLE_SCALAR);
-  	
+class chatActions extends sfActions {
+
+  /**
+   * Executes index action
+   *
+   * @param sfRequest $request A request object
+   */
+  public function executeIndex() {
+    $this->messages = Doctrine::getTable('Chat')
+            ->createQuery()
+            ->limit(10)
+            ->orderBy('id DESC')
+            ->fetchArray();
   }
-  
-  public function executeRead(sfWebRequest $request)
-  {
-  	$this->room = $request->getParameter('room');
-  	
-  	$this->result = Doctrine::getTable('Chat')
-  		->createQuery()
-  		->where('room = ?', $this->room)
-  		->limit(10)
-  		->offset(100)
-  		->orderBy('id DESC')
-  		->fetchArray();
-  	
+
+  public function executeNew(sfWebRequest $request) {
+    $id = $request->getParameter('id');
+    $this->forward404Unless($id);
+    
+    $messages = Doctrine::getTable('Chat')
+            ->createQuery()
+            ->orderBy('id DESC')
+            ->where('id > ?', $id)
+            ->fetchArray();
+
+    if (!count($messages)) {
+      return sfView::HEADER_ONLY;
+    }
+
+    return $this->renderPartial('messages', ['messages' => $messages]);
   }
-  
-  public function executeNew(sfWebRequest $request)
-  {
-  	$room = $request->getParameter('room');
-  	$this->forward404Unless($room);
-  
-  	$id = $request->getParameter('id');
-  	$this->forward404Unless('id');
-  	
-  	$result = Doctrine::getTable('Chat')
-  		->createQuery()
-  		->where('room = ?', $room)
-  		->andWhere('id > ?', $id)
-  		->orderBy('id')
-  		->fetchArray();
-  	
-  	$answer = array();
-  	foreach ($result as $msg)
-  	{
-  		$answer[] = $this->getPartial('message', array('msg'=>$msg));
-  	}
-  	
-  	$this->getResponse()->setContentType('application/json');  	
-  	return $this->renderText(json_encode($answer));
+
+  public function executeOld($request) {
+    $id = $request->getParameter('id');
+    $this->forward404Unless($id);
+
+    $messages = Doctrine::getTable('Chat')
+            ->createQuery()
+            ->orderBy('id DESC')
+            ->where('id < ?', $id)
+            ->limit(100)
+            ->fetchArray();
+
+    return $this->renderPartial('messages', ['messages' => $messages]);
   }
+
 }

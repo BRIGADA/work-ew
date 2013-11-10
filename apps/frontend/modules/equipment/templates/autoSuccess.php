@@ -1,31 +1,33 @@
 <?php use_javascript('http://code.highcharts.com/highcharts.js') ?>
 
 <div class="page-header clearfix" style="margin-top: 0px; margin-bottom: 15px;">
-    <h1>Automatic Equipment Upgrader<button id="action-start" class="btn btn-large btn-primary pull-right hide">Запуск</button><button id="action-stop" class="btn btn-large btn-primary pull-right hide">Стоп</button></h1>
+    <h1>Automatic Equipment Upgrader<button id="action-start" class="btn btn-large btn-primary pull-right">Запуск</button><button id="action-stop" class="btn btn-large btn-primary pull-right hide">Стоп</button></h1>
 </div>
 
+<!--
 <div class="progress" style="height: 19px;"><div class="bar" style="width: 33%;"></div></div>
+-->
 
-<ul class="thumbnails" id="charts">
-    <li class="span4" data-fail="0" data-done="0">
-        <div class="thumbnail" style="height: 320px;"></div>
-    </li>
-    <li class="span4" data-fail="0" data-done="0">
-        <div class="thumbnail" style="height: 320px;"></div>
-    </li>
-    <li class="span4" data-fail="0" data-done="0">
-        <div class="thumbnail" style="height: 320px;"></div>
-    </li>
-    <li class="span4" data-fail="0" data-done="0">
-        <div class="thumbnail" style="height: 320px;"></div>
-    </li>
-    <li class="span4" data-fail="0" data-done="0">
-        <div class="thumbnail" style="height: 320px;"></div>
-    </li>
-    <li class="span4" data-fail="0" data-done="0">
-        <div class="thumbnail" style="height: 320px;"></div>
-    </li>
-</ul>
+<div class="row" id="charts">
+    <div class="col-lg-4" data-fail="0" data-done="0">
+	<div class="thumbnail" style="height: 340px;"></div>
+    </div>
+    <div class="col-lg-4" data-fail="0" data-done="0">
+	<div class="thumbnail" style="height: 340px;"></div>
+    </div>
+    <div class="col-lg-4" data-fail="0" data-done="0">
+	<div class="thumbnail" style="height: 340px;"></div>
+    </div>
+    <div class="col-lg-4" data-fail="0" data-done="0">
+	<div class="thumbnail" style="height: 340px;"></div>
+    </div>
+    <div class="col-lg-4" data-fail="0" data-done="0">
+	<div class="thumbnail" style="height: 340px;"></div>
+    </div>
+    <div class="col-lg-4" data-fail="0" data-done="0">
+	<div class="thumbnail" style="height: 340px;"></div>
+    </div>
+</div>
 
 <script type="text/javascript">
     var current = <?php echo is_null($current) ? 'null' : json_encode($current->getRawValue()) ?>;
@@ -52,15 +54,15 @@
             return;
         }
 
-        $('#charts > li').data('done', 0).data('fail', 0);
+        $('#charts > div').data('done', 0).data('fail', 0);
 
         for (var i in current) {
-            var c = $('#charts > li').eq(parseInt(i) > 5 ? 5 : (parseInt(i) - 1));
+            var c = $('#charts > div').eq(parseInt(i) > 5 ? 5 : (parseInt(i) - 1));
             c.data('done', c.data('done') + current[i].done);
             c.data('fail', c.data('fail') + current[i].fail);
         }
 
-        $('#charts > li').each(function() {
+        $('#charts > div').each(function() {
             $(this).children('div').highcharts({
                 chart: {
                     animation: false,

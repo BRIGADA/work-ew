@@ -21,7 +21,7 @@
 			<?php foreach($skills as $skill) : ?>
 			<tr>
 				<th style="text-align: right"><a href="<?php echo url_for("@manifest-skill?type={$skill->type}") ?>"><?php echo __(sprintf('skills.%s.name', strtolower($skill->type)), array(), 'ew-hero') ?></a></th>
-				<?php foreach ($generals as $general) : ?><td style="text-align: center;"><?php if(in_array($skill->type, $general->skills->getRawValue())) : ?><i class="icon-ok"></i><?php endif ?></td><?php endforeach ?>
+				<?php foreach ($generals as $general) : ?><td style="text-align: center;"><?php if(in_array($skill->type, $general->skills->getRawValue())) : ?><i class="glyphicon glyphicon-ok"></i><?php endif ?></td><?php endforeach ?>
 			</tr>
 			<?php endforeach ?>
 		</table>

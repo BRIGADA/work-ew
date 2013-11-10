@@ -43,12 +43,6 @@ EOF;
     foreach ($messages as $k => $msg)
     {
     	$record = new Chat();
-//    	var_dump($msg->params);
-//    	$record->player_id = $msg->params['player_id'];
-//     	$record->message = $msg->params['message'];
-//     	$record->room = $msg->params['room'];
-//     	$record->user_card = $msg->params['user_card'];
-//    	$record->player_id = 
     	$record->fromArray($msg->params);
     	$record->created_at = $msg->created_at;
     	$record->save();

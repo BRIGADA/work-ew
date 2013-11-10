@@ -25,6 +25,38 @@ class myUser extends sfBasicSecurityUser {
     public function RPOST($path, $query = array(), $proxy = false) {
         return $proxy ? $this->PPOST($path, $query) : $this->LPOST($path, $query);
     }
+    
+    protected $_client = NULL;
+    
+    public function getClient() {
+      if(is_null($this->_client) && !is_null($this->getAttribute('user_id', null, 'player/data'))) {
+        $request = array();
+        $request['uid'] = $this->getAttribute('user_id', null, 'player/data');
+        $request['cmd'] = 'status';
+        
+        $r = $this->proxy($request);
+        if($r) {
+          $this->_client = json_decode($r, true);
+        }        
+      }
+      return $this->_client;
+    }
+    
+    public function getClientValue($field) {
+      $d = $this->getClient();
+      return $d && isset($d[$field]) ? $d[$field] : NULL;
+    }
+    
+    public function getClientXP()
+    {
+      $d = $this->getClientValue('xp');
+      if($d) {
+        $nl = $this->getClientValue('next_level_xp');
+        $cl = $this->getClientValue('current_level_xp');
+        return sprintf('%u%%', 100 * ($d - $cl) / ($nl - $cl));
+      }
+      return null;
+    }
 
     public function LGET($path, $query = array()) {
         $query['meltdown'] = MeltdownTable::getCurrent();

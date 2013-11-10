@@ -28,7 +28,7 @@
             <td><?php // echo $building['y']    ?></td>
             <td><?php // echo $building['level']    ?></td>
             <td><?php // echo $building['hp']    ?></td>
-            <td><button class="btn btn-mini action-upgrade"><i class="icon-arrow-up"></i></button></td>
+            <td><button class="btn btn-mini action-upgrade"><i class="glyphicon glyphicon-arrow-up"></i></button></td>
         </tr>
 <?php // endforeach ?>
 -->

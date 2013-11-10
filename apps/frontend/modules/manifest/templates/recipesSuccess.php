@@ -1,6 +1,6 @@
 <div class="page-header">
     <h1>Рецепты</h1>
-    <p><button id="update" class="btn btn-primary"><i class="icon-refresh icon-white"></i> Обновить</button></p>
+    <p><button id="update" class="btn btn-primary"><i class="glyphicon glyphicon-refresh icon-white"></i> Обновить</button></p>
 </div>
 
 <ul>

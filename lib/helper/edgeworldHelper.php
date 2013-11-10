@@ -7,10 +7,10 @@
  */
 use_helper('I18N');
 
-function __EW($prefix, $term, $suffix) {
+function __EW($prefix, $term, $suffix, $returnAnyWay = true) {
   $s = strtolower($term) . '.' . $suffix;
   $r = __($s, NULL, "ew-{$prefix}");
-  return ($r == $s) ? $term : $r;
+  return ($r == $s) ? ($returnAnyWay ? $term : '') : $r;
 }
 
 /**

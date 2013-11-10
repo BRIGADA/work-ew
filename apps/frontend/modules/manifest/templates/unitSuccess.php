@@ -9,7 +9,7 @@
 	<p class="lead"><?php echo __(strtolower($unit->type.'.description'), array(), 'ew-units') ?></p>
 	<div>
 		<a href="<?php echo url_for('@manifest-units')?>" class="btn btn-large"><i
-			class="icon-th"></i> Назад</a>
+			class="glyphicon glyphicon-th"></i> Назад</a>
 	</div>
 </div>
 

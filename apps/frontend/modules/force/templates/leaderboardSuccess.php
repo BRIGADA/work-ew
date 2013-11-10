@@ -4,7 +4,7 @@
 </div>
 
 <div class="progress" id="update-countdown" style="height: 40px;" title="click for update">
-	<div class="bar" style="width: 100%;"></div>
+	<div class="progress-bar" style="width: 0%;"></div>
 </div>
 
 
@@ -56,7 +56,7 @@ $(document).ready(function(){
 		if(t1 >= t2) {
 			update();
 		}
-		$('#update-countdown .bar').css('width', (t1 * 100 / t2)+'%');		
+		$('#update-countdown .progress-bar').css('width', (t1 * 100 / t2)+'%');		
 	}, 1000);
 });
 

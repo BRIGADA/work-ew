@@ -28,33 +28,14 @@ class proxyActions extends sfActions
   	
   	$this->pager = new sfDoctrinePager('Proxy');
   	$this->pager->setPage($page);
-  	$this->pager->getQuery()->orderBy('created_at');
+//    $this->pager->
+  	$this->pager->getQuery()->orderBy('id DESC');
+    
   	if($this->filter) {
   		$this->pager->getQuery()->where('type = ?', $this->filter);  		
   		$this->pager->setParameter('filter', $this->filter);
   	}
   	$this->pager->init();
   }
-  
-  public function executeChat(sfWebRequest $request)
-  {
-  	$this->room = $request->getParameter('room');
-  	
-  	$this->rooms = Doctrine::getTable('Chat')
-  		->createQuery()
-  		->select('room')
-  		->distinct()
-  		->execute(null, Doctrine::HYDRATE_SINGLE_SCALAR);
-  	
-  	if(is_string($this->rooms)) {
-  		$this->rooms = array($this->rooms);
-  	}
-  	
-  	$this->messages = Doctrine::getTable('Chat')
-  		->createQuery()
-  		->orderBy('created_at DESC')
-  		->limit(160)
-  		->execute();
-  }
-  
+ 
 }

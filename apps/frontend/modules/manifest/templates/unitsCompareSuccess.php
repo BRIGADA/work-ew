@@ -4,7 +4,7 @@
 <div class="page-header">
 	<h1>Статистика по юнитам</h1>
 	<p class="lead">
-		<a href="<?php echo url_for('@manifest-units') ?>" class="btn"><i class="icon-list"></i> Список</a>
+		<a href="<?php echo url_for('@manifest-units') ?>" class="btn"><i class="glyphicon glyphicon-list"></i> Список</a>
 	</p>
 </div>
 <div class="row">
