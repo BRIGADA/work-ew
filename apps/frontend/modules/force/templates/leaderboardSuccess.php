@@ -1,4 +1,4 @@
-<?php use_helper('I18N')?>
+<?php use_helper('edgeworld')?>
 <div class="page-header">
 	<h1><?php echo $tournament->dates?></h1>
 </div>

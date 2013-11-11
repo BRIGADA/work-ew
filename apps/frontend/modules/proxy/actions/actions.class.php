@@ -37,5 +37,20 @@ class proxyActions extends sfActions
   	}
   	$this->pager->init();
   }
+  
+  public function executeClear(sfWebRequest $request) {
+      $filter = $request->getParameter('filter', '');
+      
+      $query = Doctrine::getTable('Proxy')
+              ->createQuery()
+              ->delete();
+      
+      if($filter != '') {
+          $query->where('type = ?', $filter);
+      }
+      
+      $query->execute();
+      $this->redirect('proxy/index');
+  }
  
 }

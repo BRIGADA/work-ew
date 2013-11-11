@@ -24,7 +24,7 @@ class GameClient {
   public $xp;
   public $next_level_xp;
   public $current_level_xp;
-  public $unreaded_messages;
+  public $unread_messages;
   public $sp;
   public $fp;
   public $tournament_fp;
@@ -108,7 +108,7 @@ class GameClient {
       $this->xp = $d['response']['xp'];
       $this->next_level_xp = $d['response']['next_level_xp'];
       $this->current_level_xp = $d['response']['current_level_xp'];
-      $this->unreaded_messages = $d['response']['unreaded_messages'];
+      $this->unread_messages = $d['response']['unread_messages'];
       
       $this->testCount = 1;
 
@@ -377,8 +377,8 @@ class GameClient {
             $log = false;
             break;          
           
-          case 'unreaded_messages':
-            $this->unreaded_messages = $msg['data']['unread_messages'];
+          case 'message_count_changed':
+            $this->unread_messages = $msg['data']['unread_messages'];
             $log = false;
             break;
           
@@ -840,7 +840,7 @@ EOF;
           $result['player_name'] = $this->client[$data['uid']]->player_name;
           $result['fp'] = $this->client[$data['uid']]->fp;
           $result['tournament_fp'] = $this->client[$data['uid']]->tournament_fp;
-          $result['unreaded_messages'] = $this->client[$data['uid']]->unreaded_messages;
+          $result['unread_messages'] = $this->client[$data['uid']]->unread_messages;
         }
         return json_encode($result);
 
