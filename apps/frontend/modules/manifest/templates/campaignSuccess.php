@@ -1,7 +1,6 @@
 <?php use_helper('I18N')?>
 <div class="page-header">
-	<h1>Кампания &laquo;<?php echo __(sprintf('campaign.%s.name', $campaign->name), array(), 'ew-ew')?>&raquo;</h1>
-	<a href="<?php echo url_for('@manifest-campaigns')?>" class="btn btn-large">Список кампаний</a>
+	<h1><?php echo __(sprintf('campaign.%s.name', $campaign->name), array(), 'ew-ew')?></h1>
 </div>
 
 <table class="table table-striped">

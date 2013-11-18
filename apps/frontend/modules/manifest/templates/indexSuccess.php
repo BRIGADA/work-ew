@@ -1,237 +1,163 @@
 <div class="page-header">
-    <h1>Справочники</h1>
-    <p class="lead">
-        <button class="btn btn-primary" id="fetch">Fetch</button>
-        <button class="btn btn-primary" id="manifest">Manifest</button>
-        <button class="btn btn-primary" id="update">Update</button>
-    </p>
+  <h1 class="clearfix">Справочники <button class="btn btn-primary btn-lg pull-right" id="update">Обновить</button></h1>
 </div>
 
-<table class="table table-stripped">
-    <tr id="translation-en">
-        <th style="max-width: 100px; width: 100px;">EN</th>
-        <td><div class="progress"><div class="bar"></div></div></td>
-    </tr>
-    <tr id="translation-ru">
-        <th>RU</th>
-        <td><div class="progress"><div class="bar"></div></div></td>
-    </tr>
-    <tr id="buildings">
-        <th>buildings</th>
-        <td><div class="progress"><div class="bar"></div></div></td>
-    </tr>
-    <tr id="items">
-        <th>items <button id="update-items" class="btn btn-default">UP</button></th>
-        <td><div class="progress"><div class="progress-bar"></div></div></td>
-    </tr>
-    <tr id="store">
-        <th>store</th>
-        <td><div class="progress"><div class="bar"></div></div></td>
-    </tr>
-    <tr id="equipment">
-        <th>equipment</th>
-        <td><div class="progress"><div class="bar"></div></div></td>
-    </tr>
-    <tr id="">
-        <th>units</th>
-        <td>&mdash;</td>
-    </tr>
-    <tr id="">
-        <th>campaigns</th>
-        <td>&mdash;</td>
-    </tr>
-    <tr id="generals">
-        <th>generals</th>
-        <td><div class="progress"><div class="progress-bar"></div></div></td>
-    </tr>
-    <tr id="">
-        <th>skills</th>
-        <td>&mdash;</td>
-    </tr>
-    <tr id="">
-        <th>research</th>
-        <td>&mdash;</td>
-    </tr>
-    <tr id="">
-        <th>defense</th>
-        <td>&mdash;</td>
-    </tr>
-    <tr id="">
-        <th>craft</th>
-        <td>&mdash;</td>
-    </tr>
+<table class="table table-stripped" id="manifest">
+  <tr id="translation-en">
+    <th style="max-width: 100px; width: 100px;">EN</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="translation-ru">
+    <th>RU</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="buildings">
+    <th>buildings</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="items">
+    <th>items</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="store">
+    <th>store</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="equipment">
+    <th>equipment</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="units">
+    <th>units</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="campaigns">
+    <th>campaigns</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="generals">
+    <th>generals</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="skills">
+    <th>skills</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="research">
+    <th>research</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="defense">
+    <th>defense</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
+  <tr id="craft">
+    <th>craft</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
 </table>
+<p>
+
+</p>
 
 <script type="text/javascript">
-    function compare(a, b) {
-        if(typeof a !== typeof b) {
-            return false;
-        }
-        
-        if(a instanceof Array || a instanceof Object) {
-            for(var i in a) {
-                if(!b.hasOwnProperty(i)) {
-                    console.log('new field \'' + i + '\'', a[i]);
-                    continue;
-                }
-                if(!compare(a[i], b[i])){
-                    return false;
-                }
-            }
-            return true;
-        }
-        return a == b;
+  function compare(a, b) {
+    if (typeof b === 'undefined') {
+      return false;
     }
+    /*    
+     if (typeof a !== typeof b) {
+     console.log('TYPES NOT EQUAL', typeof a, typeof b);
+     return false;
+     }
+     */
+    if (a instanceof Array || a instanceof Object) {
+      for (var i in a) {
+        if (!b.hasOwnProperty(i)) {
+          console.log('new field \'' + i + '\'', a[i]);
+          continue;
+        }
+        if (!compare(a[i], b[i])) {
+          console.log('NOT EQUAL');
+          console.log(i);
+          console.log(a[i], b[i]);
+          return false;
+        }
+      }
+      return true;
+    }
+    if (a != b) {
+      console.log('VALUES NOT EQUAL', a, b);
 
+    }
+    return a == b;
+  }
 
-    $('#fetch').click(function() {
-        $.get('<?php echo url_for('manifest/trans') ?>', function(response) {
-            alert(response);
-        });
-        return false;
+  $('#update-campaigns').click(function() {
+    $.get('<?php echo url_for('common/REMOTE') ?>', {path: '/api/manifest/campaigns.amf', decode: 'amf'}, function(manifest) {
+      $.get('<?php echo url_for('@manifest-campaigns') ?>', function(records) {
+        updateCampaign(0);
+        function updateCampaign(index) {
+          if (index >= manifest.campaigns.length) {
+            console.log('campaigns complete');
+            return;
+          }
+          $('#campaigns .progress-bar').css('width', ((index + 1) * 100 / manifest.campaigns.length) + '%');
+          if (!compare(manifest.campaigns[index], records[manifest.campaigns[index].name])) {
+            $.post('<?php echo url_for('@manifest-campaign-update') ?>', {value: JSON.stringify(manifest.campaigns[index])}, function() {
+              updateCampaign(index + 1);
+            });
+          }
+          else {
+            updateCampaign(index + 1);
+          }
+        }
+      });
     });
+  });
 
-    $('#update').click(function() {
-        $.get('/uploads/trans.ru.xml', function(xml) {
-            console.log(xml);
-            var lang = 'ru';
-            var t1 = new Date();
-            var i = 0;
+  $('#update').click(function() {
 
-            function process(element) {
-                if (!element) {
-                    console.log((new Date() - t1));
-                    console.log('i=' + i);
-                    return;
-                }
+    $.get('<?php echo url_for('common/REMOTE') ?>', {path: '/api/manifest.amf', decode: 'amf'}, function(manifest) {
 
-                $.post('<?php echo url_for('manifest/translation') ?>', {lang: lang, id: element.tagName, value: element.text}, function() {
-                    process(element.nextElementSibling);
-                });
+      var sections = [
+        {id: 'buildings', class: 'Building', key: 'type', fetch: '<?php echo url_for('@manifest-buildings') ?>'},
+        {id: 'skills', class: 'Skill', key: 'type', fetch: '<?php echo url_for('@manifest-skills') ?>'},
+      ];
+
+      update('units', 'Unit', 'type', manifest.units, '<?php echo url_for('@manifest-units') ?>');
+      update('generals', 'General', 'type', manifest.generals, '<?php echo url_for('@manifest-generals') ?>');
+      update('items', 'Item', 'type', manifest.items, '<?php echo url_for('@manifest-items') ?>');
+      update('buildings', 'Building', 'type', manifest.buildings, '<?php echo url_for('@manifest-buildings') ?>');
+      update('skills', 'Skill', 'type', manifest.skills, '<?php echo url_for('@manifest-skills') ?>');
+      update('store', 'Store', 'id', manifest.store, '<?php echo url_for('@manifest-store') ?>');
+      update('research', 'Research', 'type', manifest.research, '<?php echo url_for('@manifest-researches') ?>');
+      update('defense', 'Defense', 'type', manifest.defense, '<?php echo url_for('@manifest-defenses') ?>');
+      update('craft', 'Recipe', 'name', manifest.crafting_recipes, '<?php echo url_for('@manifest-recipes') ?>');
+
+      function update(section, classname, key, actual, fetch) {
+        $.get(fetch, function(records) {
+          updateRow(0, section, classname, key, actual, records);
+          function updateRow(index, section, classname, key, actual, records) {
+            if (index >= actual.length) {
+              console.log(section + ' complete');
+              return;
             }
-
-            process(xml.documentElement.firstElementChild);
-
+            $('#' + section + ' .progress-bar').css('width', ((index + 1) * 100 / actual.length) + '%');
+            if (!compare(actual[index], records[actual[index][key]])) {
+              $.post('<?php echo url_for('@manifest-update') ?>', {value: JSON.stringify(actual[index]), class: classname, key: key}, function() {
+                updateRow(index + 1, section, classname, key, actual, records);
+              });
+            }
+            else {
+              updateRow(index + 1, section, classname, key, actual, records);
+            }
+          }
         });
+      }
 
-//        $('table.table td').html('<div class="progress"><div class="bar"></div></div>');
-        return false;
+
     });
-    
-    $('#update-items').click(function() {
-
-//        $.get('<?php echo url_for('common/REMOTE') ?>', {path: '/api/manifest.amf', proxy: true, decode: 'amf'});
-        $.get('<?php echo url_for('manifest/file') ?>', function(manifest) {
-
-            // update items
-            $.get('<?php echo url_for('manifest/items') ?>', function(items){
-                function updateItem(index) {
-                    if(index >= manifest.items.length) {
-                        console.log('finished items');
-                        return;
-                    }
-                    
-                    $('#items .progress-bar').css('width', ((index + 1) * 100 / manifest.items.length) + '%' );
-                    
-                    if(!compare(manifest.items[index], items[manifest.items[index].type])) {
-                        $.ajax({
-                            type: 'post',
-                            url: '<?php echo url_for('@manifest-item-update') ?>',
-                            data: manifest.items[index],
-                            success: function() {
-                                updateItem(index + 1);
-                            }
-                        });
-                    }
-                    else {
-                        updateItem(index + 1);
-                    }
-                }
-                
-                updateItem(0);
-            });                
-            
-//            console.log(manifest);
-        });
-        return false;
-    });
-
-    $('#manifest').click(function() {
-        $.get('<?php echo url_for('manifest/file') ?>', function(manifest) {
-
-            updateBuilding(0);
-
-
-            function updateItem(index) {
-                if (index >= manifest.items.length) {
-                    console.log('items complete');
-                    updateStore(0);
-                    return;
-                }
-
-                $('#items .bar').css('width', (100 * (index + 1) / manifest.items.length) + '%')
-                $.ajax({
-                    type: 'post',
-                    url: '<?php echo url_for('@manifest-item-update') ?>',
-                    data: manifest.items[index],
-                    success: function() {
-                        updateItem(index + 1);
-                    },
-                    error: function() {
-                        console.log('error');
-                    }
-                });
-            }
-
-            function updateStore(index) {
-                if (index >= manifest.store.length) {
-                    console.log('store complete');
-                    return;
-                }
-
-                $('#store .bar').css('width', (100 * (index + 1) / manifest.store.length) + '%')
-
-                $.ajax({
-                    type: 'post',
-                    url: '<?php echo url_for('manifest/storeUpdate') ?>',
-                    data: manifest.store[index],
-                    success: function() {
-                        updateStore(index + 1);
-                    },
-                    error: function() {
-                        console.log('error');
-                    }
-                });
-
-            }
-
-            function updateBuilding(index) {
-                if (index >= manifest.buildings.length) {
-                    console.log('buildings complete');
-                    updateItem(0);
-                    return;
-                }
-
-                $('#buildings .bar').css('width', (100 * (index + 1) / manifest.buildings.length) + '%')
-
-                $.ajax({
-                    type: 'post',
-                    url: '<?php echo url_for('manifest/buildingUpdate') ?>',
-                    data: {
-                        value: JSON.stringify(manifest.buildings[index])
-                    },
-                    success: function() {
-                        updateBuilding(index + 1);
-                    },
-                    error: function() {
-                        console.log('error');
-                    }
-                });
-            }
-
-        });
-
-        return false;
-    });
+  });
 
 </script>

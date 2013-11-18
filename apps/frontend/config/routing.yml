@@ -10,6 +10,10 @@ equipment-info:
   url: /equipment-info/:type
   param: { module: equipment, action: info }
 
+manifest-update:
+  url: /manifest/update
+  param: { module: manifest, action: update }
+  
 manifest-equipments:
   url: /manifest/equipments
   param: { module: manifest, action: equipments }
@@ -58,9 +62,9 @@ manifest-units-compare:
   url: /manifest/units/compare
   param: { module: manifest, action unitsCompare }
 
-manifest-units-update:
-  url: /manifest/units/update
-  param: { module: manifest, action unitsUpdate }
+manifest-unit-update:
+  url: /manifest/unit/update
+  param: { module: manifest, action unitUpdate }
 
 manifest-unit:
   url: /manifest/unit/:type
@@ -90,6 +94,11 @@ manifest-skill:
   url: /manifest/skill/:type
   param: { module: manifest, action: skill }
 
+manifest-store:
+  url: /manifest/store
+  param: { module: manifest, action: store }
+
+
 manifest-researches:
   url: /manifest/researches
   param: { module: manifest, action: researches }
@@ -109,6 +118,10 @@ manifest-defense:
 manifest-campaigns:
   url: /manifest/campaigns
   param: { module: manifest, action: campaigns }
+
+manifest-campaign-update:
+  url: /manifest/update/campaign
+  param: { module: manifest, action: campaignUpdate }
 
 manifest-campaign:
   url: /manifest/campaign/:id

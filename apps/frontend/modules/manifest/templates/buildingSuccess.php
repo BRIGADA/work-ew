@@ -12,20 +12,17 @@ $ll = array_map(function($l) {
   return "L{$l['level']}";
 }, (array) $building->levels->toArray()->getRawValue())
 ?>
-<ul class="thumbnails">
-  <li class="span12">
-    <div class="thumbnail" id="upgrade-time"></div>
-    <p>Всего: <?php echo seconds2times(array_sum($building->getDataSeries('time')->getRawValue()))?></p>
-  </li>
-  <li class="span12">
-    <div class="thumbnail" id="requirements-resources"></div>
-  </li>
-  <?php foreach ($stats as $stat) : ?>
-    <li class="span6">
-      <div class="thumbnail" id="stat-<?php echo $stat ?>"></div>
-    </li>
-  <?php endforeach ?>
-</ul>
+
+<div id="upgrade-time" class="thumbnail"></div>
+
+<p><strong>Общее время постройки:</strong> <?php echo seconds2times(array_sum($building->getDataSeries('time')->getRawValue())) ?></p>
+
+<div id="requirements-resources" class="thumbnail"></div>
+
+<?php foreach ($stats as $stat) : ?>
+<div id="stat-<?php echo $stat ?>" class="thumbnail"></div>
+<?php endforeach ?>
+
 <?php
 echo _highcharts(array(
     'credits' => ['enabled' => false],
