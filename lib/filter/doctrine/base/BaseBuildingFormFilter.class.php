@@ -13,15 +13,13 @@ abstract class BaseBuildingFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'type'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'size_x' => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'size_y' => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'type' => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'size' => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
-      'type'   => new sfValidatorPass(array('required' => false)),
-      'size_x' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
-      'size_y' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'type' => new sfValidatorPass(array('required' => false)),
+      'size' => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('building_filters[%s]');
@@ -41,10 +39,9 @@ abstract class BaseBuildingFormFilter extends BaseFormFilterDoctrine
   public function getFields()
   {
     return array(
-      'id'     => 'Number',
-      'type'   => 'Text',
-      'size_x' => 'Number',
-      'size_y' => 'Number',
+      'id'   => 'Number',
+      'type' => 'Text',
+      'size' => 'Text',
     );
   }
 }

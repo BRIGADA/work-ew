@@ -13,32 +13,44 @@
  * @property text $boost_type
  * @property integer $resource_amount
  * @property text $resource_type
+ * @property text $image_name
+ * @property integer $success_multiplier
+ * @property integer $sp
+ * @property array $required_for_use
  * @property array $contents
  * @property array $tags
  * @property Doctrine_Collection $Store
  * 
- * @method integer             getId()               Returns the current record's "id" value
- * @method text                getType()             Returns the current record's "type" value
- * @method boolean             getPermanent()        Returns the current record's "permanent" value
- * @method integer             getBoostAmount()      Returns the current record's "boost_amount" value
- * @method integer             getBoostPercentage()  Returns the current record's "boost_percentage" value
- * @method text                getBoostType()        Returns the current record's "boost_type" value
- * @method integer             getResourceAmount()   Returns the current record's "resource_amount" value
- * @method text                getResourceType()     Returns the current record's "resource_type" value
- * @method array               getContents()         Returns the current record's "contents" value
- * @method array               getTags()             Returns the current record's "tags" value
- * @method Doctrine_Collection getStore()            Returns the current record's "Store" collection
- * @method Item                setId()               Sets the current record's "id" value
- * @method Item                setType()             Sets the current record's "type" value
- * @method Item                setPermanent()        Sets the current record's "permanent" value
- * @method Item                setBoostAmount()      Sets the current record's "boost_amount" value
- * @method Item                setBoostPercentage()  Sets the current record's "boost_percentage" value
- * @method Item                setBoostType()        Sets the current record's "boost_type" value
- * @method Item                setResourceAmount()   Sets the current record's "resource_amount" value
- * @method Item                setResourceType()     Sets the current record's "resource_type" value
- * @method Item                setContents()         Sets the current record's "contents" value
- * @method Item                setTags()             Sets the current record's "tags" value
- * @method Item                setStore()            Sets the current record's "Store" collection
+ * @method integer             getId()                 Returns the current record's "id" value
+ * @method text                getType()               Returns the current record's "type" value
+ * @method boolean             getPermanent()          Returns the current record's "permanent" value
+ * @method integer             getBoostAmount()        Returns the current record's "boost_amount" value
+ * @method integer             getBoostPercentage()    Returns the current record's "boost_percentage" value
+ * @method text                getBoostType()          Returns the current record's "boost_type" value
+ * @method integer             getResourceAmount()     Returns the current record's "resource_amount" value
+ * @method text                getResourceType()       Returns the current record's "resource_type" value
+ * @method text                getImageName()          Returns the current record's "image_name" value
+ * @method integer             getSuccessMultiplier()  Returns the current record's "success_multiplier" value
+ * @method integer             getSp()                 Returns the current record's "sp" value
+ * @method array               getRequiredForUse()     Returns the current record's "required_for_use" value
+ * @method array               getContents()           Returns the current record's "contents" value
+ * @method array               getTags()               Returns the current record's "tags" value
+ * @method Doctrine_Collection getStore()              Returns the current record's "Store" collection
+ * @method Item                setId()                 Sets the current record's "id" value
+ * @method Item                setType()               Sets the current record's "type" value
+ * @method Item                setPermanent()          Sets the current record's "permanent" value
+ * @method Item                setBoostAmount()        Sets the current record's "boost_amount" value
+ * @method Item                setBoostPercentage()    Sets the current record's "boost_percentage" value
+ * @method Item                setBoostType()          Sets the current record's "boost_type" value
+ * @method Item                setResourceAmount()     Sets the current record's "resource_amount" value
+ * @method Item                setResourceType()       Sets the current record's "resource_type" value
+ * @method Item                setImageName()          Sets the current record's "image_name" value
+ * @method Item                setSuccessMultiplier()  Sets the current record's "success_multiplier" value
+ * @method Item                setSp()                 Sets the current record's "sp" value
+ * @method Item                setRequiredForUse()     Sets the current record's "required_for_use" value
+ * @method Item                setContents()           Sets the current record's "contents" value
+ * @method Item                setTags()               Sets the current record's "tags" value
+ * @method Item                setStore()              Sets the current record's "Store" collection
  * 
  * @package    edgeworld
  * @subpackage model
@@ -77,6 +89,18 @@ abstract class BaseItem extends sfDoctrineRecord
              ));
         $this->hasColumn('resource_type', 'text', null, array(
              'type' => 'text',
+             ));
+        $this->hasColumn('image_name', 'text', null, array(
+             'type' => 'text',
+             ));
+        $this->hasColumn('success_multiplier', 'integer', null, array(
+             'type' => 'integer',
+             ));
+        $this->hasColumn('sp', 'integer', null, array(
+             'type' => 'integer',
+             ));
+        $this->hasColumn('required_for_use', 'array', null, array(
+             'type' => 'array',
              ));
         $this->hasColumn('contents', 'array', null, array(
              'type' => 'array',

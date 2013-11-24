@@ -12,4 +12,7 @@
  */
 class Item extends BaseItem
 {
+  public function getImage() {
+    return empty($this->image_name) ? (strtolower($this->type).'.png') : $this->image_name;
+  }
 }

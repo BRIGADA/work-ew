@@ -2,9 +2,16 @@
 <?php use_helper('edgeworld') ?>
 <?php use_javascript('http://code.highcharts.com/highcharts.js') ?>
 
-<div class="page-header">
-  <h1 class="clearfix"><?php echo __EW('buildings', $building->type, 'name') ?><span class="pull-right badge"><?php echo $building->size_x ?>x<?php echo $building->size_y ?></span></h1>
-  <p class="lead"><?php echo __EW('buildings', $building->type, 'description') ?></p>
+<div class="page-header clearfix">
+  <img class="pull-right" src="<?php echo image_path('http://kabam1-a.akamaihd.net/edgeworld/images/buildings/' . strtolower($building->type) . '_3.png') ?>"/>
+  <h1><?php echo __EW('buildings', $building->type, 'name') ?></h1>
+  <p class="lead">
+    <?php echo __EW('buildings', $building->type, 'description') ?>
+  </p>
+  <p class="lead">
+  <span class="label label-default"><?php echo $building->size_x ?>x<?php echo $building->size_y ?></span>
+  </p>
+
 </div>
 
 <?php
@@ -60,4 +67,3 @@ echo _highcharts(array(
       ]), "#stat-{$stat}")
   ?>
 <?php endforeach ?>
-

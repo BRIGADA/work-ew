@@ -83,12 +83,11 @@ EOF;
                 $tu_element = $out->createElement('trans-unit');
                 $body_element->appendChild($tu_element);
                 $tu_element->setAttribute('id', $curr_id++);
-//                $tu_element->appendChild($out->createElement('source', $k));
-                $aaa = $out->createElement('target', $v);
-//                $tu_element->appendChild();
+                $tu_element->appendChild($out->createElement('source', $k));
+                $tu_element->appendChild($out->createElement('target', $v));
             }
 
-//            $out->save("apps/frontend/i18n/{$arguments['lang']}/{$collection}.xml");
+            $out->save("apps/frontend/i18n/{$arguments['lang']}/{$collection}.xml");
         }
     }
 

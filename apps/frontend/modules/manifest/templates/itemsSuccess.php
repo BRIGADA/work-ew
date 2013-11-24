@@ -25,7 +25,7 @@
                 </div>
                 <div class="panel-body text-center edgeworld-bg" style="min-height: 140px;">
                     <a href="<?php echo url_for('@manifest-item?type=' . $item->type) ?>">
-                        <img alt="<?php echo $item->type ?>" style="height: 120px;" src="<?php echo image_path('loading.gif') ?>" data-original="<?php printf('https://kabam1-a.akamaihd.net/edgeworld/images/items/%s.png', strtolower($item->type)) ?>">
+                        <img alt="<?php echo $item->type ?>" style="height: 120px;" src="<?php echo image_path('loading.gif') ?>" data-original="<?php printf('https://kabam1-a.akamaihd.net/edgeworld/images/items/%s', $item->image) ?>">
                     </a>
                 </div>
 

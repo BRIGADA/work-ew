@@ -5,26 +5,14 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>7dayspeedupsale.body</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>body.blackmarketinshop</source>
-        <target>For a VERY limited time, the Black Market Patch will be available to purchase in the Shop!  Visit the featured tab for your chance to pick one up!
-
-The Black Market Patch will GUARANTEE upgrades to your Engineering Lab Parts up to Level 16 and 17!
-
-This item will be featured at the low price of 249 Platinum and there is NO limit to the number you can buy!  Stock up today!</target>
-      </trans-unit>
-      <trans-unit id="3">
         <source>subject.mysterybox17</source>
         <target>Get the New Frozen Token!</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="2">
         <source>mass-assignment.from</source>
         <target>Mister X</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="3">
         <source>mass-assignment.body</source>
         <target>Maps are now available again on all sectors except Orion and Cygnus, which we expect to restore within 12-24 hours. 
 
@@ -32,11 +20,11 @@ Sorry for the interruption of service. We'll have a more comprehensive report by
 
 Thank you for your patience.</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="4">
         <source>outage20120209.subject</source>
         <target>Planned Maintenance on All Sectors</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="5">
         <source>body.mysterybox17</source>
         <target>Looking to add a Concussive Effect to your turrets?  The new Frozen Token will stop attacking troops in their tracks!  Enhance your Turrets with the Frozen Token to add the Concussive Effect to any of your turrets!
 
@@ -45,7 +33,7 @@ Open this Mystery Box for a chance to win the Frozen Token!  Prizes also include
 This box will only be available for a limited time so be sure to pick one up and start freezing your enemy attacks today!
 </target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="6">
         <source>eu20130513forum.body</source>
         <target>Greetings Commanders,
 
@@ -86,7 +74,7 @@ Regards,
 
 Edgeworld Community Team</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="7">
         <source>outage20120209.body</source>
         <target>Commander,
 
@@ -94,29 +82,41 @@ All Sectors on Edgeworld will require space maintenance tonight at 20:00 PST. Tr
 
 Edgeworld</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="8">
         <source>bongbong.subject</source>
         <target>Bongbong</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="9">
         <source>eu20130513forum.subject</source>
         <target>Forum Reminder</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="10">
         <source>7dayspeedupsale.subject</source>
         <target/>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="11">
         <source>bongbong.from</source>
         <target>Mister X</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="12">
         <source>bongbong.body</source>
         <target>Sample message: Zivio!</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="13">
         <source>mass-assignment.subject</source>
         <target>Maps Mostly Restored</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>7dayspeedupsale.body</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>body.blackmarketinshop</source>
+        <target>For a VERY limited time, the Black Market Patch will be available to purchase in the Shop!  Visit the featured tab for your chance to pick one up!
+
+The Black Market Patch will GUARANTEE upgrades to your Engineering Lab Parts up to Level 16 and 17!
+
+This item will be featured at the low price of 225 Platinum and there is NO limit to the number you can buy!  Stock up today!</target>
       </trans-unit>
     </body>
   </file>

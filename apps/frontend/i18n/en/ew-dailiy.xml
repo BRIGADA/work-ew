@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="en" target-language="en" datatype="plaintext" original="ew-dailiy" product-name="ew-dailiy">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>title.20tokensavailable</source>
+        <target>Troop Token 2.0 Sale!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -5,16 +5,16 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>name</source>
-        <target>Faux World</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>alert.subject</source>
         <target>Lorem Ipsum</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>alert.body</source>
         <target>Mauris sapien est, tincidunt vel faucibus non, aliquam nec dolor. Duis euismod posuere eros, ut pulvinar ante accumsan ac. Ut sed leo est. Ut gravida libero sit amet nunc egestas eleifend ac non sem. Duis tristique mollis leo, nec consequat dui vestibulum eget. Nam tempor dignissim elementum. Nullam dapibus, ante et tincidunt viverra, ipsum metus rutrum metus, id tristique purus mauris eget urna. Proin pretium velit at ligula sollicitudin pulvinar. Pellentesque fermentum congue elit ullamcorper gravida. Sed placerat tristique tortor, ut tristique justo pretium eget. </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>name</source>
+        <target>Faux World</target>
       </trans-unit>
     </body>
   </file>

@@ -5,16 +5,16 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>welcome</source>
-        <target>Welcome to Edgeworld</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>connected.global</source>
         <target>Connected to the Global Chat Room</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>enter-message</source>
         <target>Enter message here...</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>welcome</source>
+        <target>Welcome to Edgeworld</target>
       </trans-unit>
     </body>
   </file>

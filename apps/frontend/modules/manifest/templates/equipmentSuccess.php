@@ -39,7 +39,6 @@
   <?php endforeach ?>
 </div>
 
-<?php var_dump($nonnumeric) ?>
 <script type="text/javascript">
   var levelLabels = [<?php foreach ($levels as $level) : ?><?php echo json_encode(sprintf('L%d', $level->level)) ?>, <?php endforeach ?>];
 

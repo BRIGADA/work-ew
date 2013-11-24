@@ -5,16 +5,16 @@
     <header/>
     <body>
       <trans-unit id="1">
+        <source>subject</source>
+        <target>Territorial Gains</target>
+      </trans-unit>
+      <trans-unit id="2">
         <source>body</source>
         <target>Based on the territory your alliance controls, you received the following items:
 
 #ITEM_LIST#
 
 Control more territory to earn even greater rewards.</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>subject</source>
-        <target>Territorial Gains</target>
       </trans-unit>
     </body>
   </file>

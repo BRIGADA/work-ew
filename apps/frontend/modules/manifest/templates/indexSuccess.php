@@ -55,6 +55,10 @@
     <th>craft</th>
     <td><div class="progress"><div class="progress-bar"></div></div></td>
   </tr>
+  <tr id="tokens">
+    <th>tokens</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
 </table>
 <p>
 
@@ -118,46 +122,67 @@
 
   $('#update').click(function() {
 
-    $.get('<?php echo url_for('common/REMOTE') ?>', {path: '/api/manifest.amf', decode: 'amf'}, function(manifest) {
+    $.get('<?php echo url_for('common/REMOTE') ?>', {
+      path: '/api/manifest.amf',
+      decode: 'amf'
+    }, function(manifest) {
 
-      var sections = [
-        {id: 'buildings', class: 'Building', key: 'type', fetch: '<?php echo url_for('@manifest-buildings') ?>'},
-        {id: 'skills', class: 'Skill', key: 'type', fetch: '<?php echo url_for('@manifest-skills') ?>'},
-      ];
-
+      update('items', 'Item', 'type', manifest.items, '<?php echo url_for('@manifest-items') ?>', function() {
+        update('store', 'Store', 'id', manifest.store, '<?php echo url_for('@manifest-store') ?>');
+      });
       update('units', 'Unit', 'type', manifest.units, '<?php echo url_for('@manifest-units') ?>');
       update('generals', 'General', 'type', manifest.generals, '<?php echo url_for('@manifest-generals') ?>');
-      update('items', 'Item', 'type', manifest.items, '<?php echo url_for('@manifest-items') ?>');
       update('buildings', 'Building', 'type', manifest.buildings, '<?php echo url_for('@manifest-buildings') ?>');
       update('skills', 'Skill', 'type', manifest.skills, '<?php echo url_for('@manifest-skills') ?>');
-      update('store', 'Store', 'id', manifest.store, '<?php echo url_for('@manifest-store') ?>');
       update('research', 'Research', 'type', manifest.research, '<?php echo url_for('@manifest-researches') ?>');
       update('defense', 'Defense', 'type', manifest.defense, '<?php echo url_for('@manifest-defenses') ?>');
-      update('craft', 'Recipe', 'name', manifest.crafting_recipes, '<?php echo url_for('@manifest-recipes') ?>');
-
-      function update(section, classname, key, actual, fetch) {
-        $.get(fetch, function(records) {
-          updateRow(0, section, classname, key, actual, records);
-          function updateRow(index, section, classname, key, actual, records) {
-            if (index >= actual.length) {
-              console.log(section + ' complete');
-              return;
-            }
-            $('#' + section + ' .progress-bar').css('width', ((index + 1) * 100 / actual.length) + '%');
-            if (!compare(actual[index], records[actual[index][key]])) {
-              $.post('<?php echo url_for('@manifest-update') ?>', {value: JSON.stringify(actual[index]), class: classname, key: key}, function() {
-                updateRow(index + 1, section, classname, key, actual, records);
-              });
-            }
-            else {
-              updateRow(index + 1, section, classname, key, actual, records);
-            }
-          }
-        });
-      }
-
-
+      update('craft', 'CraftingRecipe', 'name', manifest.crafting_recipes, '<?php echo url_for('@manifest-recipes') ?>');
+      update('tokens', 'Token', 'type', manifest.tokens, '<?php echo url_for('@manifest-tokens') ?>');
     });
+
+    $.get('<?php echo url_for('common/REMOTE') ?>', {
+      path: '/api/manifest/equipment',
+      element: 'response/equipment'
+    }, function(equipment) {
+      update('equipment', 'Equipment', 'type', equipment, '<?php echo url_for('@manifest-equipments') ?>');
+    });
+
+    $.get('<?php echo url_for('common/REMOTE') ?>', {
+      path: '/api/manifest/campaigns.amf',
+      decode: 'amf',
+      element: 'campaigns'
+    }, function(campaigns) {
+      update('campaigns', 'Campaign', 'id', campaigns, '<?php echo url_for('@manifest-campaigns') ?>');
+    });
+
+    function update(section, classname, key, actual, fetch, complete) {
+      $.get(fetch, function(records) {
+        updateRow(0, section, classname, key, actual, records);
+        function updateRow(index, section, classname, key, actual, records) {
+          if (index >= actual.length) {
+            console.log(section + ' complete');
+            if (complete instanceof Function) {
+              complete();
+            }
+            return;
+          }
+          $('#' + section + ' .progress-bar').css('width', ((index + 1) * 100 / actual.length) + '%');
+          if (!compare(actual[index], records[actual[index][key]])) {
+            $.post('<?php echo url_for('@manifest-update') ?>', {
+              value: JSON.stringify(actual[index]),
+              class: classname,
+              key: key
+            }, function() {
+              updateRow(index + 1, section, classname, key, actual, records);
+            });
+          }
+          else {
+            updateRow(index + 1, section, classname, key, actual, records);
+          }
+        }
+      });
+    }
+
   });
 
 </script>

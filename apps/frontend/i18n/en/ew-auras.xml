@@ -5,20 +5,20 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>slowtroops.name</source>
-        <target>Slow Troops Aura</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>misc.effectduration</source>
         <target>Duration</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>slowtroops.strengthname</source>
         <target>Speed Reduction</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="3">
         <source>misc.range</source>
         <target>Range</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>slowtroops.name</source>
+        <target>Slow Troops Aura</target>
       </trans-unit>
     </body>
   </file>

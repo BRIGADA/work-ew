@@ -47,11 +47,8 @@ Building:
     type:
       type: text
       notnull: true
-    size_x:
-      type: integer
-      notnull: true
-    size_y:
-      type: integer
+    size:
+      type: array
       notnull: true
 
 BuildingLevels:
@@ -344,6 +341,11 @@ Item:
     resource_amount: integer
     resource_type: text
     
+    image_name: text
+    success_multiplier: integer
+    sp: integer
+    required_for_use: array
+    
     contents: array
     tags: array
     
@@ -573,4 +575,35 @@ Store:
       foreign: id
       onDelete: CASCADE
       onUpdate: CASCADE
-       
+
+Token:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    type:
+      type: text
+      notnull: true
+
+TokenLevel:
+  columns:
+    token_id:
+      type: integer
+      primary: true
+      notnull: true
+    level:
+      type: integer
+      primary: true
+      notnull: true
+    stats: array
+  relations:
+    token:
+      class: Token
+      local: token_id
+      foreign: id
+      foreignAlias: levels
+      onUpdate: CASCADE
+      onDelete: CASCADE
+
+        

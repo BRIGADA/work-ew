@@ -7,8 +7,8 @@
  */
 use_helper('I18N');
 
-function __EW($prefix, $term, $suffix, $returnAnyWay = true) {
-  $s = strtolower($term) . '.' . $suffix;
+function __EW($prefix, $term, $suffix = null, $returnAnyWay = true) {
+  $s = is_null($suffix) ? strtolower($term) : strtolower($term) . '.' . $suffix;
   $r = __($s, NULL, "ew-{$prefix}");
   return ($r == $s) ? ($returnAnyWay ? $term : '') : $r;
 }

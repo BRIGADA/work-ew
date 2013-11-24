@@ -5,56 +5,56 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>promoted-to-lieutenant.body</source>
-        <target>You are now a lieutenant of:</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>kicked.subject</source>
-        <target>Kicked out</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>invite.body</source>
-        <target>You've been invited to join an alliance.  Being in an alliance gives you access to alliance chat, alliances messages, and the alliance members page.</target>
-      </trans-unit>
-      <trans-unit id="4">
         <source>welcome.subject</source>
         <target>Accepted</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="2">
         <source>rejected.body</source>
         <target>Sorry, you were not accepted into the alliance:</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="3">
         <source>kicked.body</source>
         <target>You are no longer a member of:</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="4">
         <source>left.body</source>
         <target>A player has left your alliance:</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="5">
         <source>left.subject</source>
         <target>Left</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="6">
         <source>invite.subject</source>
         <target>Alliance Invite</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="7">
         <source>promoted-to-leader.body</source>
         <target>You are now the leader of:</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="8">
         <source>welcome.body</source>
         <target>Congratulations! You are a member of:</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="9">
         <source>promoted-to-leader.subject</source>
         <target>Promoted</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="10">
         <source>rejected.subject</source>
         <target>Declined</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>promoted-to-lieutenant.body</source>
+        <target>You are now a lieutenant of:</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>invite.body</source>
+        <target>You've been invited to join an alliance.  Being in an alliance gives you access to alliance chat, alliances messages, and the alliance members page.</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>kicked.subject</source>
+        <target>Kicked out</target>
       </trans-unit>
     </body>
   </file>

@@ -5,431 +5,431 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>skilltip.overdrive</source>
-        <target>Buff nearby troops</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>skills.psionichack.durationlabel</source>
-        <target>#TIME_IN_SECONDS#s Hack</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>skills.speedstrong.description</source>
-        <target>Large increase in troop movement speed
-</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>skill.targetinstruction</source>
-        <target>Click ground to activate skill!</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>skilltip.aoeheal</source>
-        <target>Heal nearby troops</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>skills.ballisticmissile.description</source>
-        <target>Deals explosive damage nearby buildings. At level 10 click and hold to charge detonation and deal massive damage to a larger area.</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>skills.healthnormal.description</source>
-        <target>Medium health boost multiplied by unit transport size
-</target>
-      </trans-unit>
-      <trans-unit id="8">
         <source>view</source>
         <target>View Generals</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="2">
         <source>skills.splashradiusnormal.description</source>
         <target>Medium increase in splash radius
 </target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="3">
         <source>skills.healthnormal.name</source>
         <target>Shield
 </target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="4">
         <source>instructions</source>
         <target>Earn Skill Points in PvP</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="5">
         <source>skills.generalsorder.description</source>
         <target>Use Generals Order to increase the effectiveness of a General's Premium Skill and increase their Level.  Level 10+ Generals can be deployed into battle simultaneously.</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="6">
         <source>skills.concussion.name</source>
         <target>Concussion</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="7">
         <source>skills.uses</source>
         <target>#AMOUNT# Uses</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="8">
         <source>skills.speedstrong.name</source>
         <target>High Accelerator
 </target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="9">
         <source>skills.ratenormal.name</source>
         <target>Quick Fire
 </target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="10">
         <source>skills.warpcapacity.name</source>
         <target>Cavalry
 </target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="11">
         <source>skills.healthweak.description</source>
         <target>Small health boost multiplied by unit transport size
 </target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="12">
         <source>skills.rangenormal.description</source>
         <target>Medium increase in attack range
 </target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="13">
         <source>skills.destabilize.description</source>
         <target>Reduces enemy turret health by a percentage of remaining health</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="14">
         <source>skills.ratenormal.description</source>
         <target>Medium increase in attack rate
 </target>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="15">
         <source>skills.rangestrong.name</source>
         <target>Laser Targeting
 </target>
       </trans-unit>
-      <trans-unit id="23">
+      <trans-unit id="16">
         <source>skills.psionichack.name</source>
         <target>Psionic Hack</target>
       </trans-unit>
-      <trans-unit id="24">
+      <trans-unit id="17">
         <source>skill.levelup</source>
         <target>Level Up with General's Orders</target>
       </trans-unit>
-      <trans-unit id="25">
+      <trans-unit id="18">
         <source>skills.healthweak.name</source>
         <target>Light Shield
 </target>
       </trans-unit>
-      <trans-unit id="26">
+      <trans-unit id="19">
         <source>skills.damagestrong.description</source>
         <target>Large damage boost multiplied by unit transport size
 </target>
       </trans-unit>
-      <trans-unit id="27">
+      <trans-unit id="20">
         <source>skilltip.teleport</source>
         <target>Move the General</target>
       </trans-unit>
-      <trans-unit id="28">
+      <trans-unit id="21">
         <source>skills.teleport.name</source>
         <target>Teleport</target>
       </trans-unit>
-      <trans-unit id="29">
+      <trans-unit id="22">
         <source>skills.splashradiusnormal.name</source>
         <target>Artillery
 </target>
       </trans-unit>
-      <trans-unit id="30">
+      <trans-unit id="23">
         <source>skills.targets.description</source>
         <target>Increases the number of targets each unit can attack
 </target>
       </trans-unit>
-      <trans-unit id="31">
+      <trans-unit id="24">
         <source>skilltip.magneticshielding</source>
         <target>Shield nearby troops</target>
       </trans-unit>
-      <trans-unit id="32">
+      <trans-unit id="25">
         <source>skills.speedweak.description</source>
         <target>Small increase in troop movement speed
 </target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="26">
         <source>skills.heal.name</source>
         <target>Heal</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="27">
         <source>skillerror.herodead</source>
         <target>Hero is no longer in combat!</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="28">
         <source>skilltip.overdrivetargeted</source>
         <target>Target troops to buff</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="29">
         <source>skills.rateweak.description</source>
         <target>Small increase in attack rate
 </target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="30">
         <source>skilltip.psionichack</source>
         <target>Take over turrets</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="31">
         <source>nextlevel</source>
         <target>Cost to Next Level</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="32">
         <source>skills.rangeweak.name</source>
         <target>Iron Sights
 </target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="33">
         <source>dialogtitle</source>
         <target>Generals</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="34">
         <source>skilltip.teleportgroup</source>
         <target>Charge to grab troops</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="35">
         <source>skillerror.cooldown</source>
         <target>Waiting for cooldown!</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="36">
         <source>skilltip.troopformation</source>
         <target>Give troops direct orders</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="37">
         <source>generalsordersowned</source>
         <target>GENERAL'S ORDERS OWNED</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="38">
         <source>skills.overdrive.description</source>
         <target>Puts all troops into overdrive and dramatically increases their damage output.</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="39">
         <source>skilltip.empgrenadecharge</source>
         <target>Charge to increase range</target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="40">
         <source>skills.heal.description</source>
         <target>Heal nearby friendly units. At level 10 click and hold to provide massive heal to more troops.</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="41">
         <source>skills.damagestrong.name</source>
         <target>Heavy Arsenal
 </target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="42">
         <source>skilltip.aoehealcharge</source>
         <target>Charge to increase range</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="43">
         <source>skills.speednormal.name</source>
         <target>Accelerator
 </target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="44">
         <source>skills.empgrenade.description</source>
         <target>Temporarily disables nearby turrets from firing. At level 10 click and hold to charge detonation and disable a larger area.</target>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="45">
         <source>skills.healthstrong.description</source>
         <target>Large health boost multiplied by unit transport size
 </target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="46">
         <source>skills.troopformation.name</source>
         <target>Focus Fire</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="47">
         <source>skills.destabilize.name</source>
         <target>Destabilize</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="48">
         <source>skills.splashradiusstrong.description</source>
         <target>Large increase in splash radius
 </target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="49">
         <source>skilltip.magneticshieldingtargeted</source>
         <target>Target troops to shield</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="50">
         <source>skills.damageweak.name</source>
         <target>Light Arsenal
 </target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="51">
         <source>skills.speedweak.name</source>
         <target>Low Accelerator
 </target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="52">
         <source>skills.energybeam.description</source>
         <target>Unleash a high-powered beam that damages all buildings in its path</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="53">
         <source>skilltip.aoedmgcharge</source>
         <target>Charge to increase range &amp; power</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="54">
         <source>skills.speednormal.description</source>
         <target>Medium increase in troop movement speed
 </target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="55">
         <source>skills.rangenormal.name</source>
         <target>Telescopic Sight
 </target>
       </trans-unit>
-      <trans-unit id="63">
+      <trans-unit id="56">
         <source>skills.ballisticmissile.name</source>
         <target>Ballistic Missile</target>
       </trans-unit>
-      <trans-unit id="64">
+      <trans-unit id="57">
         <source>skills.rangestrong.description</source>
         <target>Large increase in attack range
 </target>
       </trans-unit>
-      <trans-unit id="65">
+      <trans-unit id="58">
         <source>skills.targets.name</source>
         <target>Dualwield
 </target>
       </trans-unit>
-      <trans-unit id="66">
+      <trans-unit id="59">
         <source>skills.magneticshielding.description</source>
         <target>Temporary damage reduction to all Turrets except for energy based guns such as Teslas, Incendiaries and Corrosive Turrets.</target>
       </trans-unit>
-      <trans-unit id="67">
+      <trans-unit id="60">
         <source>skills.ratestrong.description</source>
         <target>Large increase in attack rate
 </target>
       </trans-unit>
-      <trans-unit id="68">
+      <trans-unit id="61">
         <source>skills.notresearched</source>
         <target>Not Researched</target>
       </trans-unit>
-      <trans-unit id="69">
+      <trans-unit id="62">
         <source>skills.psionichack.description</source>
         <target>Controls enemy turrets and turns them against each other</target>
       </trans-unit>
-      <trans-unit id="70">
+      <trans-unit id="63">
         <source>skilltip.aoedmg</source>
         <target>AOE Damage</target>
       </trans-unit>
-      <trans-unit id="71">
+      <trans-unit id="64">
         <source>skills.plasmacannon.description</source>
         <target>Deals massive amounts of long range damage to buildings.</target>
       </trans-unit>
-      <trans-unit id="72">
+      <trans-unit id="65">
         <source>skills.energybeam.name</source>
         <target>Energy Beam</target>
       </trans-unit>
-      <trans-unit id="73">
+      <trans-unit id="66">
         <source>skills.concussion.description</source>
         <target>Slows down enemy fire for a duration of time
 </target>
       </trans-unit>
-      <trans-unit id="74">
+      <trans-unit id="67">
         <source>skills.damageweak.description</source>
         <target>Small damage boost multiplied by unit transport size
 </target>
       </trans-unit>
-      <trans-unit id="75">
+      <trans-unit id="68">
         <source>skills.healthstrong.name</source>
         <target>Heavy Shield
 </target>
       </trans-unit>
-      <trans-unit id="76">
+      <trans-unit id="69">
         <source>skills.rangeweak.description</source>
         <target>Small increase in attack range
 </target>
       </trans-unit>
-      <trans-unit id="77">
+      <trans-unit id="70">
         <source>skills.warpcapacity.description</source>
         <target>Increases warp gate capacity
 </target>
       </trans-unit>
-      <trans-unit id="78">
+      <trans-unit id="71">
         <source>skillerror.notdeployed</source>
         <target>Hero not deployed!</target>
       </trans-unit>
-      <trans-unit id="79">
+      <trans-unit id="72">
         <source>skills.ratestrong.name</source>
         <target>Rapid Fire
 </target>
       </trans-unit>
-      <trans-unit id="80">
+      <trans-unit id="73">
         <source>skills.damagenormal.description</source>
         <target>Medium damage boost multiplied by unit transport size
 </target>
       </trans-unit>
-      <trans-unit id="81">
+      <trans-unit id="74">
         <source>skills.plasmacannon.name</source>
         <target>Plasma Cannon</target>
       </trans-unit>
-      <trans-unit id="82">
+      <trans-unit id="75">
         <source>skills.troopformation.description</source>
         <target>Order troops around the General to attack a specific building</target>
       </trans-unit>
-      <trans-unit id="83">
+      <trans-unit id="76">
         <source>skills.damagenormal.name</source>
         <target>Arsenal
 </target>
       </trans-unit>
-      <trans-unit id="84">
+      <trans-unit id="77">
         <source>skills.splashradiusweak.description</source>
         <target>Small increase in splash radius
 </target>
       </trans-unit>
-      <trans-unit id="85">
+      <trans-unit id="78">
         <source>skills.resources.description</source>
         <target>Increases the amount of resources acquired from enemies
 </target>
       </trans-unit>
-      <trans-unit id="86">
+      <trans-unit id="79">
         <source>skills.teleport.description</source>
         <target>Click to teleport the General anywhere on the map. At level 10 click and hold to teleport General and surrounding troops.</target>
       </trans-unit>
-      <trans-unit id="87">
+      <trans-unit id="80">
         <source>skills.rateweak.name</source>
         <target>Burst Fire
 </target>
       </trans-unit>
-      <trans-unit id="88">
+      <trans-unit id="81">
         <source>skills.splashradiusweak.name</source>
         <target>Light Artillery
 </target>
       </trans-unit>
-      <trans-unit id="89">
+      <trans-unit id="82">
         <source>skills.resources.name</source>
         <target>Resource Siphon
 </target>
       </trans-unit>
-      <trans-unit id="90">
+      <trans-unit id="83">
         <source>skills.magneticshielding.name</source>
         <target>Magnetic Shielding</target>
       </trans-unit>
-      <trans-unit id="91">
+      <trans-unit id="84">
         <source>skilltip.empgrenade</source>
         <target>Deactivate nearby Turrets</target>
       </trans-unit>
-      <trans-unit id="92">
+      <trans-unit id="85">
         <source>skilltip.plasmacannon</source>
         <target>Targeted, deadly</target>
       </trans-unit>
-      <trans-unit id="93">
+      <trans-unit id="86">
         <source>skills.splashradiusstrong.name</source>
         <target>Heavy Artillery
 </target>
       </trans-unit>
-      <trans-unit id="94">
+      <trans-unit id="87">
         <source>skills.overdrive.name</source>
         <target>Overdrive</target>
       </trans-unit>
-      <trans-unit id="95">
+      <trans-unit id="88">
         <source>skillerror.nouses</source>
         <target>Skill cannot be used anymore!</target>
       </trans-unit>
-      <trans-unit id="96">
+      <trans-unit id="89">
         <source>skills.empgrenade.name</source>
         <target>EMP Grenade</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>skilltip.overdrive</source>
+        <target>Buff nearby troops</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>skills.speedstrong.description</source>
+        <target>Large increase in troop movement speed
+</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>skilltip.aoeheal</source>
+        <target>Heal nearby troops</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>skills.healthnormal.description</source>
+        <target>Medium health boost multiplied by unit transport size
+</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>skills.psionichack.durationlabel</source>
+        <target>#TIME_IN_SECONDS#s Hack</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>skill.targetinstruction</source>
+        <target>Click ground to activate skill!</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>skills.ballisticmissile.description</source>
+        <target>Deals explosive damage nearby buildings. At level 10 click and hold to charge detonation and deal massive damage to a larger area.</target>
       </trans-unit>
     </body>
   </file>

@@ -1,5 +1,5 @@
 CREATE TABLE alliance (id BIGINT, name text, description text, active TINYINT(1), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
-CREATE TABLE buildings (id BIGINT AUTO_INCREMENT, type text NOT NULL, size_x BIGINT NOT NULL, size_y BIGINT NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
+CREATE TABLE buildings (id BIGINT AUTO_INCREMENT, type text NOT NULL, size LONGTEXT NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE building_levels (building_id BIGINT, level BIGINT, time BIGINT, requirements LONGTEXT, stats LONGTEXT, PRIMARY KEY(building_id, level)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE campaigns (id BIGINT, name text, unlock_level BIGINT, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE campaigns_stages (id BIGINT, campaign_id BIGINT NOT NULL, name text, attacker_level BIGINT, attacker_boost FLOAT(18, 2), unit_level BIGINT, baseline_xp BIGINT, player_unlock_level BIGINT, INDEX campaign_id_idx (campaign_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
@@ -15,7 +15,7 @@ CREATE TABLE force_tournament (id BIGINT, dates text, sector BIGINT, type text, 
 CREATE TABLE generals (id BIGINT AUTO_INCREMENT, type text, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE general_levels (general_id BIGINT, level BIGINT, requirements LONGTEXT, stats LONGTEXT, skills LONGTEXT, PRIMARY KEY(general_id, level)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE home (id BIGINT, name text, damage_protection datetime, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
-CREATE TABLE item (id BIGINT, type text NOT NULL, permanent TINYINT(1) DEFAULT '0' NOT NULL, boost_amount BIGINT, boost_percentage BIGINT, boost_type text, resource_amount BIGINT, resource_type text, contents LONGTEXT, tags LONGTEXT, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
+CREATE TABLE item (id BIGINT, type text NOT NULL, permanent TINYINT(1) DEFAULT '0' NOT NULL, boost_amount BIGINT, boost_percentage BIGINT, boost_type text, resource_amount BIGINT, resource_type text, image_name text, success_multiplier BIGINT, sp BIGINT, required_for_use LONGTEXT, contents LONGTEXT, tags LONGTEXT, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE map (id BIGINT, sector BIGINT, width BIGINT, height BIGINT, chunk_size BIGINT, outpost_levels LONGTEXT, upgrade_costs LONGTEXT, max_territory_limit BIGINT, type text, active TINYINT(1), maximum_node_level BIGINT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE map_node (id BIGINT, map_id BIGINT NOT NULL, x BIGINT NOT NULL, y BIGINT NOT NULL, owner text, owner_id BIGINT, collection text, collection_id BIGINT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, INDEX map_id_idx (map_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE map_rewards (id BIGINT AUTO_INCREMENT, value BIGINT, rewards LONGTEXT, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
@@ -27,6 +27,8 @@ CREATE TABLE research_levels (research_id BIGINT, level BIGINT, time BIGINT, req
 CREATE TABLE skills (id BIGINT AUTO_INCREMENT, type text, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE skill_levels (skill_id BIGINT, level BIGINT, requirements LONGTEXT, stats LONGTEXT, PRIMARY KEY(skill_id, level)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE store (id BIGINT, item_id BIGINT NOT NULL, price BIGINT, featured_until BIGINT, sale LONGTEXT, purchasable TINYINT(1) NOT NULL, usable TINYINT(1) NOT NULL, priority_id BIGINT, INDEX item_id_idx (item_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
+CREATE TABLE token (id BIGINT AUTO_INCREMENT, type text NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
+CREATE TABLE token_level (token_id BIGINT, level BIGINT, stats LONGTEXT, PRIMARY KEY(token_id, level)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE units (id BIGINT AUTO_INCREMENT, type text, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE unit_levels (unit_id BIGINT, level BIGINT, time BIGINT, requirements LONGTEXT, stats LONGTEXT, PRIMARY KEY(unit_id, level)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 ALTER TABLE building_levels ADD CONSTRAINT building_levels_building_id_buildings_id FOREIGN KEY (building_id) REFERENCES buildings(id) ON UPDATE CASCADE ON DELETE CASCADE;
@@ -40,4 +42,5 @@ ALTER TABLE map_node ADD CONSTRAINT map_node_map_id_map_id FOREIGN KEY (map_id) 
 ALTER TABLE research_levels ADD CONSTRAINT research_levels_research_id_research_id FOREIGN KEY (research_id) REFERENCES research(id) ON UPDATE CASCADE ON DELETE CASCADE;
 ALTER TABLE skill_levels ADD CONSTRAINT skill_levels_skill_id_skills_id FOREIGN KEY (skill_id) REFERENCES skills(id) ON UPDATE CASCADE ON DELETE CASCADE;
 ALTER TABLE store ADD CONSTRAINT store_item_id_item_id FOREIGN KEY (item_id) REFERENCES item(id) ON UPDATE CASCADE ON DELETE CASCADE;
+ALTER TABLE token_level ADD CONSTRAINT token_level_token_id_token_id FOREIGN KEY (token_id) REFERENCES token(id) ON UPDATE CASCADE ON DELETE CASCADE;
 ALTER TABLE unit_levels ADD CONSTRAINT unit_levels_unit_id_units_id FOREIGN KEY (unit_id) REFERENCES units(id) ON UPDATE CASCADE ON DELETE CASCADE;

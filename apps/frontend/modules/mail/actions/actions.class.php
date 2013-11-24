@@ -8,7 +8,7 @@
  * @author     BRIGADA
  * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */
-class messageActions extends sfActions
+class mailActions extends sfActions
 {
 
     /**
@@ -46,9 +46,7 @@ class messageActions extends sfActions
         $response = json_decode($r)->response;
         
         $this->getUser()->setAttribute('unread', $response->unread_messages, 'player/messages');
-        
-        return $this->renderPartial("body-{$response->message->type}", array('message'=>$response->message));
-        
+        $this->message = $response->message;
     }
 
     // POST /api/player/messages/

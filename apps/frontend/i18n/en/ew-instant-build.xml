@@ -5,13 +5,13 @@
     <header/>
     <body>
       <trans-unit id="1">
+        <source>update.time</source>
+        <target>You can only build or upgrade one building at a time.</target>
+      </trans-unit>
+      <trans-unit id="2">
         <source>upgrade.disable</source>
         <target>Sorry, Commander. You do not meet the requirement for instant build!
 </target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>update.time</source>
-        <target>You can only build or upgrade one building at a time.</target>
       </trans-unit>
     </body>
   </file>

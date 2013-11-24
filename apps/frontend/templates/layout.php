@@ -42,6 +42,7 @@
                 <li><a href="<?php echo url_for('@manifest-defenses') ?>">Оборона</a></li>
                 <li><a href="<?php echo url_for('@manifest-equipments') ?>">Снаряжение</a></li>
                 <li><a href="<?php echo url_for('@manifest-recipes') ?>">Рецепты</a></li>
+                <li><a href="<?php echo url_for('@manifest-tokens') ?>">Токены</a></li>
               </ul>
             </li>
             <li class="<?php if (sfContext::getInstance()->getModuleName() == 'equipment') : ?>active<?php endif ?>">
@@ -55,6 +56,12 @@
             </li>
             <li class="<?php if (sfContext::getInstance()->getModuleName() == 'chat') : ?>active<?php endif ?>">
               <a href="<?php echo url_for('chat/index') ?>">Чат</a>
+            </li>
+            <li class="<?php if (sfContext::getInstance()->getModuleName() == 'mail') : ?>active<?php endif ?>">
+              <a href="<?php echo url_for('@mail') ?>">Почта</a>
+            </li>
+            <li class="<?php if (sfContext::getInstance()->getModuleName() == 'zoot') : ?>active<?php endif ?>">
+              <a href="<?php echo url_for('zoot/index') ?>">Zoot</a>
             </li>
           </ul>
         </div><!--/.nav-collapse -->

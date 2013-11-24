@@ -7,19 +7,16 @@
  * 
  * @property integer $id
  * @property text $type
- * @property integer $size_x
- * @property integer $size_y
+ * @property array $size
  * @property Doctrine_Collection $levels
  * 
  * @method integer             getId()     Returns the current record's "id" value
  * @method text                getType()   Returns the current record's "type" value
- * @method integer             getSizeX()  Returns the current record's "size_x" value
- * @method integer             getSizeY()  Returns the current record's "size_y" value
+ * @method array               getSize()   Returns the current record's "size" value
  * @method Doctrine_Collection getLevels() Returns the current record's "levels" collection
  * @method Building            setId()     Sets the current record's "id" value
  * @method Building            setType()   Sets the current record's "type" value
- * @method Building            setSizeX()  Sets the current record's "size_x" value
- * @method Building            setSizeY()  Sets the current record's "size_y" value
+ * @method Building            setSize()   Sets the current record's "size" value
  * @method Building            setLevels() Sets the current record's "levels" collection
  * 
  * @package    edgeworld
@@ -41,12 +38,8 @@ abstract class BaseBuilding extends sfDoctrineRecord
              'type' => 'text',
              'notnull' => true,
              ));
-        $this->hasColumn('size_x', 'integer', null, array(
-             'type' => 'integer',
-             'notnull' => true,
-             ));
-        $this->hasColumn('size_y', 'integer', null, array(
-             'type' => 'integer',
+        $this->hasColumn('size', 'array', null, array(
+             'type' => 'array',
              'notnull' => true,
              ));
     }

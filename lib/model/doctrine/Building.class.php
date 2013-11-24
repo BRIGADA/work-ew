@@ -39,4 +39,12 @@ class Building extends BaseBuilding
         
         return $result;
     }
+    
+    public function getSizeX() {
+      return $this->size[0];
+    }
+
+    public function getSizeY() {
+      return $this->size[1];
+    }
 }

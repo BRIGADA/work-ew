@@ -2,10 +2,9 @@
 <?php use_javascript('jquery.lazyload.min.js') ?>
 <?php use_javascript('jquery.scrollstop.js') ?>
 
-<div class="page-header">
-    <h1>Юниты</h1>
-    <button class="btn btn-primary btn-large" id="units-update">Обновить</button>
-    <a href="<?php echo url_for('@manifest-units-compare') ?>" class="btn btn-large">Статистика</a>
+<div class="page-header clearfix">
+    
+    <h1>Юниты<a href="<?php echo url_for('@manifest-units-compare') ?>" class="btn btn-success btn-lg pull-right">Статистика</a></h1>
 </div>
 
 <div class="row" id="units-list">

@@ -323,7 +323,17 @@ class manifestActions extends sfActions {
     $this->defenses = DefenseTable::getInstance()->findAll();
   }
 
-  public function executeEquipments() {
+  public function executeEquipments(sfWebRequest $request) {
+    if($request->isXmlHttpRequest() || $request->getParameter('json')) {
+      $result = Doctrine::getTable('Equipment')
+              ->createQuery('e INDEXBY type')
+              ->leftJoin('e.levels l')
+              ->orderBy('e.type, l.level')
+              ->fetchArray();
+      $this->getResponse()->setContentType('application/json');
+      return $this->renderText(json_encode($result, JSON_NUMERIC_CHECK));
+    }    
+    
     $this->equipments = Doctrine::getTable('Equipment')->createQuery()
             ->orderBy('type')
             ->execute();
@@ -405,14 +415,6 @@ class manifestActions extends sfActions {
               ->leftJoin('b.levels l INDEXBY l.level')
               ->fetchArray();
 
-      foreach ($result as &$b) {
-        $b['size'] = array(intval($b['size_x']), intval($b['size_y']));
-        unset($b['size_x'], $b['size_y']);
-        unset($b['id']);
-        foreach ($b['levels'] as &$l) {
-          unset($l['building_id']);
-        }
-      }
       $this->getResponse()->setContentType('application/json');
       return $this->renderText(json_encode($result));
     }
@@ -465,6 +467,36 @@ class manifestActions extends sfActions {
     $f = file_get_contents($filename);
     $this->getResponse()->setContentType('application/json');
     return $this->renderText($f);
+  }
+  
+  public function executeTokens(sfWebRequest $request) {
+    if($request->isXmlHttpRequest()) {
+      $result = Doctrine::getTable('Token')
+              ->createQuery('t INDEXBY type')
+              ->leftJoin('t.levels l')
+              ->fetchArray();
+      $this->getResponse()->setContentType('application/json');
+      return $this->renderText(json_encode($result, JSON_NUMERIC_CHECK));
+              
+    }
+    
+    $this->tokens = TokenTable::getInstance()
+            ->createQuery('t')
+            ->orderBy('t.type')
+            ->fetchArray();
+  }
+  
+  public function executeToken(sfWebRequest $request) {
+    $type = $request->getParameter('type');
+    $this->forward404Unless($type);
+    
+    $this->token = TokenTable::getInstance()
+            ->createQuery('t')
+            ->leftJoin('t.levels l')
+            ->where('t.type = ?', $type)
+            ->orderBy('l.level')
+            ->fetchOne();
+    $this->forward404Unless($this->token);
   }
 
 }

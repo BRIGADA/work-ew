@@ -5,77 +5,77 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>levelup.bonus</source>
-        <target>&#x41A;&#x43E;&#x43B;&#x43B;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x44B; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432; &#x437;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x44B;</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>mysterybox.winmessage</source>
         <target>&#x432;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x438;...</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>mysterybox.kiras-gift.try-again</source>
         <target>	&#x415;&#x429;&#x415; &#x420;&#x410;&#x417;?</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="3">
         <source>instantrepair.description</source>
         <target>&#x411;&#x430;&#x437;&#x430; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x430; &#x442;&#x44F;&#x436;&#x435;&#x43B;&#x44B;&#x435; &#x43F;&#x43E;&#x432;&#x440;&#x435;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x44F;. &#x422;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x435;&#x435; &#x431;&#x44B;&#x441;&#x442;&#x440;&#x43E; &#x43E;&#x442;&#x440;&#x435;&#x43C;&#x43E;&#x43D;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x43E;&#x441;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x43F;&#x43E;&#x43B;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C;.</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="4">
         <source>mysterybox.wintitle</source>
         <target>&#x41F;&#x41E;&#x417;&#x414;&#x420;&#x410;&#x412;&#x41B;&#x42F;&#x415;&#x41C;!</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="5">
         <source>levelup.title</source>
         <target>&#x422;&#x435;&#x43F;&#x435;&#x440;&#x44C; &#x442;&#x432;&#x43E;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="6">
         <source>level.bonus.warps</source>
         <target>&#x412;&#x440;&#x430;&#x442;&#x430; &#x438;&#x441;&#x43A;&#x440;&#x438;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x437;&#x430;&#x440;&#x44F;&#x436;&#x435;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="7">
         <source>mysterybox.playagain</source>
         <target>&#x418;&#x413;&#x420;&#x410;&#x422;&#x42C; &#x421;&#x41D;&#x41E;&#x412;&#x410;!</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="8">
         <source>speedup-suggest.description</source>
         <target>&#x412;&#x44B; &#x443;&#x436;&#x435; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x435;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x435; &#x432;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x447;&#x438;&#x442;&#x44C;, &#x43F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x43D;&#x430;&#x447;&#x430;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x43E;&#x435; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x442;&#x432;&#x43E;.</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="9">
         <source>instantrepair.bottomdescription</source>
         <target>&#x42D;&#x442;&#x43E;&#x442; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x432; &#x43B;&#x44E;&#x431;&#x43E;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43A;&#x443;&#x43F;&#x438;&#x442;&#x44C; &#x432; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x435; </target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="10">
         <source>mysterybox.losemessage</source>
         <target>&#x41D;&#x435; &#x431;&#x435;&#x441;&#x43F;&#x43E;&#x43A;&#x43E;&#x439;&#x441;&#x44F;, &#x442;&#x44B; &#x432;&#x441;&#x435; &#x440;&#x430;&#x432;&#x43D;&#x43E; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x448;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="11">
         <source>speedup-suggest.hint</source>
         <target>&#x422;&#x44B; &#x43D;&#x435; &#x445;&#x43E;&#x442;&#x435;&#x43B; &#x431;&#x44B; &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x44C; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x435; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x442;&#x432;&#x43E;?</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="12">
         <source>skillpoints</source>
         <target>&#x41E;&#x447;&#x43A;&#x438; &#x443;&#x43C;&#x435;&#x43D;&#x438;&#x439;
 </target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="13">
         <source>mysterybox.kiras-gift.enjoy-your-gift</source>
         <target>	&#x41D;&#x410;&#x421;&#x41B;&#x410;&#x416;&#x414;&#x410;&#x419;&#x422;&#x415;&#x421;&#x42C; &#x41F;&#x41E;&#x414;&#x410;&#x420;&#x41A;&#x41E;&#x41C;!</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="14">
         <source>instantrepair.subdescription</source>
         <target>&#x41C;&#x433;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x440;&#x435;&#x43C;&#x43E;&#x43D;&#x442; &#x432;&#x441;&#x435;&#x439; &#x431;&#x430;&#x437;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="15">
         <source>mysterybox.losetitle</source>
         <target>&#x41C;&#x41E;&#x416;&#x415;&#x422; &#x412; &#x421;&#x41B;&#x415;&#x414;&#x423;&#x42E;&#x429;&#x418;&#x419; &#x420;&#x410;&#x417;...</target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="16">
         <source>mysterybox.header</source>
         <target>&#x42F;&#x449;&#x438;&#x43A; &#x442;&#x440;&#x43E;&#x444;&#x435;&#x435;&#x432;</target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="17">
         <source>instantrepair.title</source>
         <target>&#x41C;&#x433;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x440;&#x435;&#x43C;&#x43E;&#x43D;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>levelup.bonus</source>
+        <target>&#x41A;&#x43E;&#x43B;&#x43B;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x44B; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432; &#x437;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x44B;</target>
       </trans-unit>
     </body>
   </file>

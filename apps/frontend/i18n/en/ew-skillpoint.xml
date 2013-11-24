@@ -5,16 +5,16 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>total</source>
-        <target>Total SP</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>disclaimer</source>
         <target>WARNING: SP currently allocated to abilities will be confirmed if an SP item is used and exceeds the maximum SP cap.</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>pending</source>
         <target>Currently allocated skill points</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>total</source>
+        <target>Total SP</target>
       </trans-unit>
     </body>
   </file>

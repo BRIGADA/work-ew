@@ -5,528 +5,528 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>intro-conquer.p1</source>
-        <target>&#x414;&#x43E;&#x431;&#x440;&#x43E; &#x43F;&#x43E;&#x436;&#x430;&#x43B;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x432;&#x43E;&#x439;&#x43D;&#x443;</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>intro-conquer.p2</source>
-        <target>&#x41F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x432;&#x44B; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43F;&#x440;&#x438;&#x43D;&#x44F;&#x442;&#x44C; &#x443;&#x447;&#x430;&#x441;&#x442;&#x438;&#x435; &#x432; &#x442;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x432;&#x43E;&#x439;&#x43D;&#x430;&#x445; &#x43D;&#x430; &#x426;&#x435;&#x440;&#x443;&#x43B;&#x435;&#x438; IV, &#x432;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x43C;&#x435;&#x441;&#x442;&#x43E; &#x43D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x435;.</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>intro-conquer.p3</source>
-        <target>&#x423;&#x43D;&#x438;&#x447;&#x442;&#x43E;&#x436;&#x44C; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440; &#x43D;&#x430; &#x43B;&#x44E;&#x431;&#x43E;&#x439; &#x431;&#x430;&#x437;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x442;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x44E;.</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>intro-conquer.p4</source>
-        <target>&#x42F; &#x440;&#x435;&#x43A;&#x43E;&#x43C;&#x435;&#x43D;&#x434;&#x443;&#x44E; &#x432;&#x430;&#x43C; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x435;&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x443;&#x44E; &#x431;&#x430;&#x437;&#x443; (&#x442;&#x430;&#x43A;&#x443;&#x44E;, &#x43A;&#x430;&#x43A; &#x43D;&#x430; &#x200B;&#x200B;&#x43F;&#x438;&#x43A;&#x442;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x435;).</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>intro-conquer.p5</source>
-        <target>&#x41D;&#x435;&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x430;&#x44F;</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>intro-conquer.p6</source>
-        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;: 20</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>intro-conquer.p7</source>
-        <target>&#x420;&#x430;&#x437;&#x432;&#x435;&#x434;&#x43A;&#x430;</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>reinforce.maxed</source>
-        <target>&#x41C;&#x410;&#x41A;&#x421;&#x418;&#x41C;&#x410;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x423;&#x420;&#x41E;&#x412;&#x415;&#x41D;&#x42C;!</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>baserelocate.header</source>
-        <target>&#x41F;&#x415;&#x420;&#x415;&#x41C;&#x415;&#x421;&#x422;&#x418;&#x422;&#x42C; &#x411;&#x410;&#x417;&#x423;</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>nodeclick.noplayer</source>
-        <target>&#x41D;&#x435;&#x437;&#x430;&#x43D;&#x44F;&#x442;&#x44B;&#x439;</target>
-      </trans-unit>
-      <trans-unit id="11">
-        <source>nodeclick.upgrade</source>
-        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x442;&#x44C;</target>
-      </trans-unit>
-      <trans-unit id="12">
-        <source>leaderboard.hourly</source>
-        <target>&#x422;&#x430;&#x431;&#x43B;&#x438;&#x446;&#x430; &#x43B;&#x438;&#x434;&#x435;&#x440;&#x43E;&#x432; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x435;&#x436;&#x435;&#x447;&#x430;&#x441;&#x43D;&#x43E;. &#x41F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x435;&#x435; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435;: #TIME#</target>
-      </trans-unit>
-      <trans-unit id="13">
-        <source>nodeclick.location</source>
-        <target>&#x412;&#x437;&#x432;&#x43E;&#x434;</target>
-      </trans-unit>
-      <trans-unit id="14">
-        <source>tabs.player-unavailable</source>
-        <target>&#x422;&#x443;&#x440;&#x43D;&#x438;&#x440; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x43E;&#x432; &#x432; &#x43D;&#x430;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x435;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x435;&#x43D;</target>
-      </trans-unit>
-      <trans-unit id="15">
         <source>nodeclick.factionbase</source>
         <target>&#x417;&#x430;&#x431;&#x440;&#x43E;&#x448;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x430;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442;</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="2">
         <source>tournament.ruleslink</source>
         <target/>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="3">
         <source>intro.prev</source>
         <target>&#x41D;&#x430;&#x437;&#x430;&#x434;</target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="4">
         <source>relocatebase.comingsoon</source>
         <target>&#x421;&#x43A;&#x43E;&#x440;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="5">
         <source>intro-4.p1</source>
         <target>&#x41A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x439; &#x441;&#x435;&#x43A;&#x442;&#x43E;&#x440;</target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="6">
         <source>intro-4.p2</source>
         <target>&#x423;&#x43D;&#x438;&#x447;&#x442;&#x43E;&#x436;&#x44C; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x437;&#x44F;&#x442;&#x44C; &#x43F;&#x43E;&#x434; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C; &#x431;&#x430;&#x437;&#x443;.</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="7">
         <source>intro-4.p3</source>
         <target>&#x43F;&#x43E;&#x431;&#x435;&#x436;&#x434;&#x430;&#x439; &#x432;&#x440;&#x430;&#x433;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="8">
         <source>intro-4.p4</source>
         <target>&#x440;&#x430;&#x441;&#x448;&#x438;&#x440;&#x44F;&#x439; &#x442;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x44E;</target>
       </trans-unit>
-      <trans-unit id="23">
+      <trans-unit id="9">
         <source>intro-4.p5</source>
         <target>&#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x439; &#x435;&#x436;&#x435;&#x434;&#x43D;&#x435;&#x432;&#x43D;&#x44B;&#x435; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="24">
+      <trans-unit id="10">
         <source>intro-4.p6</source>
         <target>Apr 04</target>
       </trans-unit>
-      <trans-unit id="25">
+      <trans-unit id="11">
         <source>nodeclick.claim</source>
         <target>&#x41F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="26">
+      <trans-unit id="12">
         <source>leaderboard.score</source>
         <target>&#x421;&#x447;&#x435;&#x442;</target>
       </trans-unit>
-      <trans-unit id="27">
+      <trans-unit id="13">
         <source>terrain.generic</source>
         <target>&#x41C;&#x435;&#x441;&#x442;&#x43D;&#x43E;&#x441;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="28">
+      <trans-unit id="14">
         <source>nodeupgrade.requirementsmet</source>
         <target>&#x42D;&#x442;&#x43E;&#x442; &#x443;&#x437;&#x435;&#x43B; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x442;&#x441;&#x44F; &#x43C;&#x433;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x43D;&#x43E;, &#x435;&#x441;&#x43B;&#x438; &#x442;&#x44B; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x43B; &#x432;&#x441;&#x435; &#x442;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;.</target>
       </trans-unit>
-      <trans-unit id="29">
+      <trans-unit id="15">
         <source>nodeupgrade.currentlevel</source>
         <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="30">
+      <trans-unit id="16">
         <source>legend.netural</source>
         <target>&#x41D;&#x435;&#x439;&#x442;&#x440;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
       </trans-unit>
-      <trans-unit id="31">
+      <trans-unit id="17">
         <source>leaderboard.subheading</source>
         <target>&#x422;&#x410;&#x411;&#x41B;&#x418;&#x426;&#x410; &#x41B;&#x418;&#x414;&#x415;&#x420;&#x41E;&#x412; &#x422;&#x423;&#x420;&#x41D;&#x418;&#x420;&#x410;</target>
       </trans-unit>
-      <trans-unit id="32">
+      <trans-unit id="18">
         <source>general.invalid-coordinates</source>
         <target>	&#x41D;&#x435;&#x434;&#x43E;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x43C;&#x44B;&#x435; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x44B; &#x43A;&#x430;&#x440;&#x442;&#x44B;!</target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="19">
         <source>info.score</source>
         <target>&#x421;&#x447;&#x435;&#x442;</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="20">
         <source>leaderboard.alliance</source>
         <target>&#x41F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="21">
         <source>nodeclick.playerbase</source>
         <target>&#x434;&#x43E;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="22">
         <source>fte.no-territory</source>
         <target>&#x423; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430; &#x43D;&#x435;&#x442; &#x442;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x438;. &#x417;&#x430;&#x445;&#x432;&#x430;&#x442;&#x438;&#x442;&#x435; &#x430;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x430;&#x447;&#x430;&#x442;&#x44C;. </target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="23">
         <source>info.multiplier-hint</source>
         <target>	&#x41E;&#x447;&#x43A;&#x438; &#x443;&#x434;&#x432;&#x430;&#x438;&#x432;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x43F;&#x440;&#x438; </target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="24">
         <source>reinforce.tooltip-singular</source>
         <target>+1 &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x437;&#x430; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x443;</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="25">
         <source>leaderboard.heading</source>
         <target>&#x422;&#x410;&#x411;&#x41B;&#x418;&#x426;&#x410; &#x41B;&#x418;&#x414;&#x415;&#x420;&#x41E;&#x412; &#x41A;&#x410;&#x420;&#x422;&#x42B;</target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="26">
         <source>legend.you</source>
         <target>&#x412;&#x430;&#x448;&#x430; &#x431;&#x430;&#x437;&#x430;</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="27">
         <source>tabs.alliance-unavailable</source>
         <target>&#x422;&#x443;&#x440;&#x43D;&#x438;&#x440; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x432; &#x432; &#x43D;&#x430;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x435;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="28">
         <source>legend.tutorial</source>
         <target>&#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435;</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="29">
         <source>info.nexttier</source>
         <target>&#x421;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="30">
         <source>info.currenttier</source>
         <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="31">
         <source>general.map-must-be-open</source>
         <target>	&#x41A;&#x430;&#x440;&#x442;&#x430; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x430; &#x431;&#x44B;&#x442;&#x44C; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x430; &#x434;&#x43B;&#x44F; &#x43F;&#x440;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x430; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;.</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="32">
         <source>info.capacity</source>
         <target>	&#x411;&#x430;&#x437;&#x44B;:</target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="33">
         <source>intro-2.p1</source>
         <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x438; &#x442;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x43F;&#x440;&#x435;&#x438;&#x43C;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="34">
         <source>intro-2.p2</source>
         <target>&#x423;&#x43D;&#x438;&#x447;&#x442;&#x43E;&#x436;&#x44C; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x437;&#x44F;&#x442;&#x44C; &#x43F;&#x43E;&#x434; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C; &#x431;&#x430;&#x437;&#x443;.</target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="35">
         <source>intro-2.p3</source>
         <target>&#x422;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x432;&#x437;&#x44F;&#x442;&#x44C; &#x43F;&#x43E;&#x434; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C; &#x431;&#x430;&#x437;&#x443;, &#x435;&#x441;&#x43B;&#x438; &#x43E;&#x43D;&#x430; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x440;&#x44F;&#x434;&#x43E;&#x43C; &#x441; &#x432;&#x430;&#x448;&#x438;&#x43C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x43C;.</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="36">
         <source>intro-2.p4</source>
         <target>&#x422;&#x44B; &#x432;&#x441;&#x435; &#x435;&#x449;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x434;&#x440;&#x443;&#x433;&#x438;&#x435; &#x431;&#x430;&#x437;&#x44B;, &#x43D;&#x43E; &#x43D;&#x435; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x438;&#x445; &#x432;&#x437;&#x44F;&#x442;&#x44C; &#x43F;&#x43E;&#x434; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44C;.</target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="37">
         <source>intro-2.p5</source>
         <target>&#x411;&#x430;&#x437;&#x44B;, &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x44B;&#x435; &#x432;&#x430;&#x448;&#x438;&#x43C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x43C;, &#x43C;&#x43E;&#x433;&#x443;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x44B; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x44F; &#x438;&#x445; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;.</target>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="38">
         <source>intro-2.p6</source>
         <target>Feb 04</target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="39">
         <source>reinforce.select</source>
         <target>&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; &#x441;&#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430; &#x442;&#x438;&#x43F; &#x432;&#x43E;&#x439;&#x441;&#x43A;!</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="40">
         <source>leaderboard.hourly-short</source>
         <target>&#x41E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x447;&#x430;&#x441;</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="41">
         <source>reinforce.currentlevel</source>
         <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x431;&#x430;&#x437;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="42">
         <source>legend.title</source>
         <target>&#x41B;&#x415;&#x413;&#x415;&#x41D;&#x414;&#x410;</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="43">
         <source>reinforce.tooltip</source>
         <target>+#AMOUNT# &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x435;&#x439; &#x437;&#x430; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x443;</target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="44">
         <source>terrain.genericdescription</source>
         <target>&#x41D;&#x435;&#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x430;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="45">
         <source>nodeupgrade.instant</source>
         <target>&#x41C;&#x433;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x43D;&#x43E;</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="46">
         <source>relocatebase.yourlevel</source>
         <target>&#x412;&#x430;&#x448; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="47">
         <source>nodeupgrade.header</source>
         <target>&#x424;&#x43E;&#x440;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x446;&#x438;&#x438; &#x431;&#x430;&#x437;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="48">
         <source>reinforce.exceed-limit</source>
         <target>&#x41F;&#x420;&#x415;&#x412;&#x42B;&#x428;&#x410;&#x415;&#x422; &#x41B;&#x418;&#x41C;&#x418;&#x422; &#x423;&#x420;&#x41E;&#x412;&#x41D;&#x42F; &#x411;&#x410;&#x417;&#x42B;</target>
       </trans-unit>
-      <trans-unit id="63">
+      <trans-unit id="49">
         <source>intro-claim.p1</source>
         <target>&#x41F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x432;&#x44B; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43F;&#x440;&#x438;&#x43D;&#x44F;&#x442;&#x44C; &#x443;&#x447;&#x430;&#x441;&#x442;&#x438;&#x435; &#x432; &#x442;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x432;&#x43E;&#x439;&#x43D;&#x430;&#x445; &#x43D;&#x430; &#x426;&#x435;&#x440;&#x443;&#x43B;&#x435;&#x438; IV, &#x432;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x43C;&#x435;&#x441;&#x442;&#x43E; &#x43D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="64">
+      <trans-unit id="50">
         <source>intro-claim.p2</source>
         <target>&#x412;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x439;&#x442;&#x438; &#x43D;&#x430; &#x43B;&#x44E;&#x431;&#x443;&#x44E; &#x431;&#x430;&#x437;&#x443;, &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x443;&#x44E; &#x432;&#x430;&#x448;&#x438;&#x43C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x43C; &#x438;&#x43B;&#x438; &#x43D;&#x430; &#x43B;&#x44E;&#x431;&#x443;&#x44E; &#x43D;&#x435;&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x443;&#x44E; &#x431;&#x430;&#x437;&#x443; &#x440;&#x44F;&#x434;&#x43E;&#x43C; &#x441; &#x432;&#x430;&#x448;&#x438;&#x43C; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x43C;.</target>
       </trans-unit>
-      <trans-unit id="65">
+      <trans-unit id="51">
         <source>intro-claim.p3</source>
         <target>&#x41A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x430;&#x44F; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x43C; &#x431;&#x430;&#x437;&#x430;</target>
       </trans-unit>
-      <trans-unit id="66">
+      <trans-unit id="52">
         <source>intro-claim.p4</source>
         <target>&#x41D;&#x435;&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x430;&#x44F; &#x431;&#x430;&#x437;&#x430;</target>
       </trans-unit>
-      <trans-unit id="67">
+      <trans-unit id="53">
         <source>info.multiplier</source>
         <target>	&#x41E;&#x447;&#x43A;&#x438; &#x443;&#x434;&#x432;&#x43E;&#x435;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="68">
+      <trans-unit id="54">
         <source>nodeclick.maxed</source>
         <target>Level maxed</target>
       </trans-unit>
-      <trans-unit id="69">
+      <trans-unit id="55">
         <source>nodeclick.move</source>
         <target>&#x41F;&#x435;&#x440;&#x435;&#x434;&#x432;&#x438;&#x43D;&#x443;&#x442;&#x44C; &#x441;&#x44E;&#x434;&#x430;</target>
       </trans-unit>
-      <trans-unit id="70">
+      <trans-unit id="56">
         <source>nodeupgrade.move</source>
         <target>&#x41F;&#x415;&#x420;&#x415;&#x41C;&#x415;&#x421;&#x422;&#x418;&#x422;&#x42C;</target>
       </trans-unit>
-      <trans-unit id="71">
+      <trans-unit id="57">
         <source>info.multiplierHint</source>
         <target>	&#x41E;&#x447;&#x43A;&#x438; &#x445;2 &#x43F;&#x440;&#x438; &#x432;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438;</target>
       </trans-unit>
-      <trans-unit id="72">
+      <trans-unit id="58">
         <source>nodeclick.abandon</source>
         <target>	&#x41F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44C; (#NUMBER# &#x43E;&#x441;&#x442;&#x430;&#x43B;&#x43E;&#x441;&#x44C;)</target>
       </trans-unit>
-      <trans-unit id="73">
+      <trans-unit id="59">
         <source>info.full-capacity</source>
         <target>	&#x412;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x433;&#x43D;&#x443;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="74">
+      <trans-unit id="60">
         <source>tabs.alliance</source>
         <target>&#x422;&#x443;&#x440;&#x43D;&#x438;&#x440; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="75">
+      <trans-unit id="61">
         <source>leaderboard.reward</source>
         <target>&#x41D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x430;</target>
       </trans-unit>
-      <trans-unit id="76">
+      <trans-unit id="62">
         <source>leaderboard.platinum</source>
         <target>#AMOUNT# &#x435;&#x434;. &#x43F;&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="77">
+      <trans-unit id="63">
         <source>nodeupgrade.description</source>
         <target>&#x411;&#x43E;&#x43B;&#x435;&#x435; &#x432;&#x44B;&#x441;&#x43E;&#x43A;&#x438;&#x435; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x438; &#x443;&#x43A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x439; &#x443;&#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x44F;&#x442; &#x43D;&#x430;&#x43D;&#x435;&#x441;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;.</target>
       </trans-unit>
-      <trans-unit id="78">
+      <trans-unit id="64">
         <source>legend.terrain</source>
         <target>&#x41C;&#x435;&#x441;&#x442;&#x43D;&#x43E;&#x441;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="79">
+      <trans-unit id="65">
         <source>nodeclick.cannotscout-adjacency</source>
         <target>&#x41D;&#x435;&#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x440;&#x430;&#x437;&#x432;&#x435;&#x434;&#x430;&#x442;&#x44C;: &#x43D;&#x435;&#x441;&#x43C;&#x435;&#x436;&#x43D;&#x44B;&#x439; &#x430;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442;</target>
       </trans-unit>
-      <trans-unit id="80">
+      <trans-unit id="66">
         <source>info.claim-reward</source>
         <target>&#x41F;&#x43E;&#x442;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x443;</target>
       </trans-unit>
-      <trans-unit id="81">
+      <trans-unit id="67">
         <source>intro.next</source>
         <target>&#x41F;&#x440;&#x43E;&#x434;&#x43E;&#x43B;&#x436;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="82">
+      <trans-unit id="68">
         <source>info.refresh-score</source>
         <target>&#x41E;&#x431;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x43E;&#x447;&#x43A;&#x438;</target>
       </trans-unit>
-      <trans-unit id="83">
+      <trans-unit id="69">
         <source>legend.friendly</source>
         <target>&#x414;&#x440;&#x443;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
       </trans-unit>
-      <trans-unit id="84">
+      <trans-unit id="70">
         <source>fte.must-be-in-alliance</source>
         <target>&#x412;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x431;&#x44B;&#x442;&#x44C; &#x432; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x440;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x442;&#x44C; &#x43A;&#x430;&#x440;&#x442;&#x443;!  &#x421;&#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x435;&#x441;&#x44C; &#x43A; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;, &#x43D;&#x430;&#x436;&#x430;&#x432; &#x43D;&#x430; &#x43A;&#x43D;&#x43E;&#x43F;&#x43A;&#x443; &#x410;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;.  </target>
       </trans-unit>
-      <trans-unit id="85">
+      <trans-unit id="71">
         <source>info.rewardin</source>
         <target>&#x41D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x430; &#x447;&#x435;&#x440;&#x435;&#x437;</target>
       </trans-unit>
-      <trans-unit id="86">
+      <trans-unit id="72">
         <source>reinforce.owned</source>
         <target>&#x418;&#x41C;&#x415;&#x415;&#x422;&#x415;</target>
       </trans-unit>
-      <trans-unit id="87">
+      <trans-unit id="73">
         <source>info.base</source>
         <target>&#x411;&#x430;&#x437;&#x430;</target>
       </trans-unit>
-      <trans-unit id="88">
+      <trans-unit id="74">
         <source>intro-3.p1</source>
         <target>&#x421;&#x440;&#x430;&#x436;&#x430;&#x439;&#x441;&#x44F; &#x441; &#x432;&#x440;&#x430;&#x433;&#x430;&#x43C;&#x438;</target>
       </trans-unit>
-      <trans-unit id="89">
+      <trans-unit id="75">
         <source>intro-3.p2</source>
         <target>&#x41A;&#x440;&#x43E;&#x43C;&#x435; &#x431;&#x430;&#x437; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430; &#x438; &#x43D;&#x435;&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x44B;&#x445; &#x431;&#x430;&#x437;, &#x441;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442; &#x435;&#x449;&#x435; &#x442;&#x440;&#x438; &#x434;&#x440;&#x443;&#x433;&#x438;&#x445; &#x432;&#x438;&#x434;&#x430; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x44B;&#x445; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;&#x43C;&#x438; &#x431;&#x430;&#x437;.</target>
       </trans-unit>
-      <trans-unit id="90">
+      <trans-unit id="76">
         <source>intro-3.p3</source>
         <target>&#x42D;&#x442;&#x43E;&#x442; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B; &#x43E;&#x431;&#x43E;&#x437;&#x43D;&#x430;&#x447;&#x430;&#x435;&#x442; &#x431;&#x430;&#x437;&#x443; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430;. &#x412; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x435; &#x43F;&#x43E;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x44F;, &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43D;&#x438;&#x43A; &#x431;&#x443;&#x434;&#x435;&#x442; &#x432;&#x44B;&#x431;&#x440;&#x43E;&#x448;&#x435;&#x43D; &#x441; &#x43A;&#x430;&#x440;&#x442;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="91">
+      <trans-unit id="77">
         <source>intro-3.p4</source>
         <target>&#x414;&#x440;&#x443;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x439;</target>
       </trans-unit>
-      <trans-unit id="92">
+      <trans-unit id="78">
         <source>intro-3.p5</source>
         <target>&#x412;&#x440;&#x430;&#x433;</target>
       </trans-unit>
-      <trans-unit id="93">
+      <trans-unit id="79">
         <source>intro-3.p6</source>
         <target>&#x41D;&#x435;&#x439;&#x442;&#x440;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;</target>
       </trans-unit>
-      <trans-unit id="94">
+      <trans-unit id="80">
         <source>intro-3.p7</source>
         <target>Mar 04</target>
       </trans-unit>
-      <trans-unit id="95">
+      <trans-unit id="81">
         <source>info.free-reward</source>
         <target>&#x41D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x430; &#x447;&#x435;&#x440;&#x435;&#x437;:</target>
       </trans-unit>
-      <trans-unit id="96">
+      <trans-unit id="82">
         <source>reinforce.fortify</source>
         <target>&#x417;&#x410;&#x429;&#x418;&#x422;&#x418;&#x422;&#x42C;</target>
       </trans-unit>
-      <trans-unit id="97">
+      <trans-unit id="83">
         <source>leaderboard.time</source>
         <target>&#x41E;&#x441;&#x442;&#x430;&#x432;&#x448;&#x435;&#x435;&#x441;&#x44F; &#x432;&#x440;&#x435;&#x43C;&#x44F;: </target>
       </trans-unit>
-      <trans-unit id="98">
+      <trans-unit id="84">
         <source>relocatebase.outpostlevel</source>
         <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x430;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="99">
+      <trans-unit id="85">
         <source>legend.playerbase</source>
         <target>&#x411;&#x430;&#x437;&#x430; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430;</target>
       </trans-unit>
-      <trans-unit id="100">
+      <trans-unit id="86">
         <source>reinforce.send</source>
         <target>&#x41E;&#x422;&#x41F;&#x420;&#x410;&#x412;&#x418;&#x422;&#x42C;</target>
       </trans-unit>
-      <trans-unit id="101">
+      <trans-unit id="87">
         <source>tabs.main</source>
         <target>&#x422;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;</target>
       </trans-unit>
-      <trans-unit id="102">
+      <trans-unit id="88">
         <source>nodeupgrade.upgrade</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x442;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="103">
+      <trans-unit id="89">
         <source>leaderboard.remaining</source>
         <target>&#x41E;&#x441;&#x442;&#x430;&#x43B;&#x43E;&#x441;&#x44C;: </target>
       </trans-unit>
-      <trans-unit id="104">
+      <trans-unit id="90">
         <source>reinforce.instructions</source>
         <target>&#x423;&#x43A;&#x440;&#x435;&#x43F;&#x438;&#x442;&#x435; &#x441;&#x432;&#x43E;&#x44E; &#x431;&#x430;&#x437;&#x443;, &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x432; &#x43F;&#x43E;&#x434;&#x43A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x43B;&#x44F; &#x435;&#x435; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;.</target>
       </trans-unit>
-      <trans-unit id="105">
+      <trans-unit id="91">
         <source>leaderboard.bases</source>
         <target>&#x411;&#x430;&#x437;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="106">
+      <trans-unit id="92">
         <source>nodeupgrade.upgradelevel</source>
         <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="107">
+      <trans-unit id="93">
         <source>nodeclick.alliancebase</source>
         <target>&#x410;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;</target>
       </trans-unit>
-      <trans-unit id="108">
+      <trans-unit id="94">
         <source>nodeclick.cannotscout</source>
         <target>&#x421;&#x43B;&#x438;&#x448;&#x43A;&#x43E;&#x43C; &#x43D;&#x438;&#x437;&#x43A;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x440;&#x430;&#x437;&#x432;&#x435;&#x434;&#x430;&#x442;&#x44C;.</target>
       </trans-unit>
-      <trans-unit id="109">
+      <trans-unit id="95">
         <source>nodeclick.cannotscout-too-many-bases</source>
         <target>&#x412;&#x44B; &#x434;&#x43E;&#x43C;&#x438;&#x43D;&#x438;&#x440;&#x443;&#x435;&#x442;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="110">
+      <trans-unit id="96">
         <source>legend.enemy</source>
         <target>&#x412;&#x440;&#x430;&#x436;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
       </trans-unit>
-      <trans-unit id="111">
+      <trans-unit id="97">
         <source>reinforce.maxed-detail</source>
         <target>&#x412;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x433;&#x43D;&#x443;&#x442;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="112">
+      <trans-unit id="98">
         <source>info.bases</source>
         <target>&#x411;&#x430;&#x437;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="113">
+      <trans-unit id="99">
         <source>intro-claim.welcome</source>
         <target>&#x414;&#x43E;&#x431;&#x440;&#x43E; &#x43F;&#x43E;&#x436;&#x430;&#x43B;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x432;&#x43E;&#x439;&#x43D;&#x443;</target>
       </trans-unit>
-      <trans-unit id="114">
+      <trans-unit id="100">
         <source>legend.youralliance</source>
         <target>&#x412;&#x430;&#x448; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;</target>
       </trans-unit>
-      <trans-unit id="115">
+      <trans-unit id="101">
         <source>tabs.player</source>
         <target>&#x422;&#x443;&#x440;&#x43D;&#x438;&#x440; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="116">
+      <trans-unit id="102">
         <source>reinforce.nextlevel</source>
         <target>&#x41D;&#x43E;&#x432;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x431;&#x430;&#x437;&#x44B;</target>
       </trans-unit>
-      <trans-unit id="117">
+      <trans-unit id="103">
         <source>info.fullCapacity</source>
         <target>	&#x412;&#x43C;&#x435;&#x441;&#x442;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x44C; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x433;&#x43D;&#x443;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="118">
+      <trans-unit id="104">
         <source>leaderboard.viewfull</source>
         <target>&#x41F;&#x420;&#x41E;&#x421;&#x41C;&#x41E;&#x422;&#x420;&#x415;&#x422;&#x42C; &#x41F;&#x41E;&#x41B;&#x41D;&#x423;&#x42E; &#x422;&#x410;&#x411;&#x41B;&#x418;&#x426;&#x423; &#x41B;&#x418;&#x414;&#x415;&#x420;&#x41E;&#x412;</target>
       </trans-unit>
-      <trans-unit id="119">
+      <trans-unit id="105">
         <source>relocatebase.description</source>
         <target>&#x41F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x431;&#x430;&#x437;&#x44B; &#x442;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442; &#x437;&#x430;&#x442;&#x440;&#x430;&#x442;.</target>
       </trans-unit>
-      <trans-unit id="120">
+      <trans-unit id="106">
         <source>nodeclick.need-alliance</source>
         <target>&#x412;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x437;&#x430;&#x438;&#x43C;&#x43E;&#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x441; &#x44D;&#x442;&#x43E;&#x439; &#x43A;&#x430;&#x440;&#x442;&#x43E;&#x439;.</target>
       </trans-unit>
-      <trans-unit id="121">
+      <trans-unit id="107">
         <source>intro-1.p1</source>
         <target>&#x414;&#x43E;&#x431;&#x440;&#x43E; &#x43F;&#x43E;&#x436;&#x430;&#x43B;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x432;&#x43E;&#x439;&#x43D;&#x443;</target>
       </trans-unit>
-      <trans-unit id="122">
+      <trans-unit id="108">
         <source>intro-1.p2</source>
         <target>&#x422;&#x435;&#x43F;&#x435;&#x440;&#x44C; &#x432;&#x44B; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x435;&#x441;&#x44C; &#x447;&#x430;&#x441;&#x442;&#x44C;&#x44E; &#x442;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x439; &#x432;&#x43E;&#x439;&#x43D;&#x44B; &#x43D;&#x430; &#x426;&#x435;&#x440;&#x443;&#x43B;&#x435;&#x435; IV!</target>
       </trans-unit>
-      <trans-unit id="123">
+      <trans-unit id="109">
         <source>intro-1.p3</source>
         <target>&#x41A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x43A;&#x432;&#x430;&#x434;&#x440;&#x430;&#x442; &#x43D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x435; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x431;&#x430;&#x437;&#x43E;&#x439; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430; &#x438;&#x43B;&#x438; &#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44B;&#x43C; &#x433;&#x430;&#x43B;&#x430;&#x43A;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x43C; &#x430;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x43C;.</target>
       </trans-unit>
-      <trans-unit id="124">
+      <trans-unit id="110">
         <source>intro-1.p4</source>
         <target>&#x41A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x431;&#x430;&#x437; &#x434;&#x430;&#x441;&#x442; &#x432;&#x430;&#x448;&#x435;&#x43C;&#x443; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443; &#x435;&#x436;&#x435;&#x434;&#x43D;&#x435;&#x432;&#x43D;&#x44B;&#x435; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x44B;:</target>
       </trans-unit>
-      <trans-unit id="125">
+      <trans-unit id="111">
         <source>intro-1.p5</source>
         <target>- &#x411;&#x43E;&#x435;&#x432;&#x44B;&#x435; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x438;</target>
       </trans-unit>
-      <trans-unit id="126">
+      <trans-unit id="112">
         <source>intro-1.p6</source>
         <target>- &#x423;&#x441;&#x43A;&#x43E;&#x440;&#x438;&#x442;&#x435;&#x43B;&#x438;</target>
       </trans-unit>
-      <trans-unit id="127">
+      <trans-unit id="113">
         <source>intro-1.p7</source>
         <target>- &#x422;&#x435;&#x440;&#x440;&#x430;&#x43A;&#x43D;&#x43E;&#x440;&#x43E;&#x432;&#x44B;&#x435; &#x43A;&#x43E;&#x440;&#x43E;&#x431;&#x43A;&#x438;</target>
       </trans-unit>
-      <trans-unit id="128">
+      <trans-unit id="114">
         <source>intro-1.p8</source>
         <target>Jan 04</target>
       </trans-unit>
-      <trans-unit id="129">
+      <trans-unit id="115">
         <source>reinforce.title</source>
         <target>&#x417;&#x410;&#x429;&#x418;&#x422;&#x410; &#x411;&#x410;&#x417;&#x42B;</target>
       </trans-unit>
-      <trans-unit id="130">
+      <trans-unit id="116">
         <source>intro.gotomap</source>
         <target>&#x41D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x443;</target>
       </trans-unit>
-      <trans-unit id="131">
+      <trans-unit id="117">
         <source>reinforce.add</source>
         <target>&#x414;&#x41E;&#x411;&#x410;&#x412;&#x418;&#x422;&#x42C;</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>baserelocate.header</source>
+        <target>&#x41F;&#x415;&#x420;&#x415;&#x41C;&#x415;&#x421;&#x422;&#x418;&#x422;&#x42C; &#x411;&#x410;&#x417;&#x423;</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>nodeclick.upgrade</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x438;&#x442;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>leaderboard.hourly</source>
+        <target>&#x422;&#x430;&#x431;&#x43B;&#x438;&#x446;&#x430; &#x43B;&#x438;&#x434;&#x435;&#x440;&#x43E;&#x432; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x435;&#x436;&#x435;&#x447;&#x430;&#x441;&#x43D;&#x43E;. &#x41F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x435;&#x435; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435;: #TIME#</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>nodeclick.location</source>
+        <target>&#x412;&#x437;&#x432;&#x43E;&#x434;</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>intro-conquer.p1</source>
+        <target>&#x414;&#x43E;&#x431;&#x440;&#x43E; &#x43F;&#x43E;&#x436;&#x430;&#x43B;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x430; &#x432;&#x43E;&#x439;&#x43D;&#x443;</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>intro-conquer.p2</source>
+        <target>&#x41F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x432;&#x44B; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43F;&#x440;&#x438;&#x43D;&#x44F;&#x442;&#x44C; &#x443;&#x447;&#x430;&#x441;&#x442;&#x438;&#x435; &#x432; &#x442;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x432;&#x43E;&#x439;&#x43D;&#x430;&#x445; &#x43D;&#x430; &#x426;&#x435;&#x440;&#x443;&#x43B;&#x435;&#x438; IV, &#x432;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x43C;&#x435;&#x441;&#x442;&#x43E; &#x43D;&#x430; &#x43A;&#x430;&#x440;&#x442;&#x435;.</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>intro-conquer.p3</source>
+        <target>&#x423;&#x43D;&#x438;&#x447;&#x442;&#x43E;&#x436;&#x44C; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x44B;&#x439; &#x446;&#x435;&#x43D;&#x442;&#x440; &#x43D;&#x430; &#x43B;&#x44E;&#x431;&#x43E;&#x439; &#x431;&#x430;&#x437;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x442;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x44E;.</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>intro-conquer.p4</source>
+        <target>&#x42F; &#x440;&#x435;&#x43A;&#x43E;&#x43C;&#x435;&#x43D;&#x434;&#x443;&#x44E; &#x432;&#x430;&#x43C; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43D;&#x435;&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x443;&#x44E; &#x431;&#x430;&#x437;&#x443; (&#x442;&#x430;&#x43A;&#x443;&#x44E;, &#x43A;&#x430;&#x43A; &#x43D;&#x430; &#x200B;&#x200B;&#x43F;&#x438;&#x43A;&#x442;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x435;).</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>intro-conquer.p5</source>
+        <target>&#x41D;&#x435;&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x438;&#x440;&#x443;&#x435;&#x43C;&#x430;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>intro-conquer.p6</source>
+        <target>&#x423;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;: 20</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>intro-conquer.p7</source>
+        <target>&#x420;&#x430;&#x437;&#x432;&#x435;&#x434;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>reinforce.maxed</source>
+        <target>&#x41C;&#x410;&#x41A;&#x421;&#x418;&#x41C;&#x410;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x423;&#x420;&#x41E;&#x412;&#x415;&#x41D;&#x42C;!</target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>nodeclick.noplayer</source>
+        <target>&#x41D;&#x435;&#x437;&#x430;&#x43D;&#x44F;&#x442;&#x44B;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>tabs.player-unavailable</source>
+        <target>&#x422;&#x443;&#x440;&#x43D;&#x438;&#x440; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x43E;&#x432; &#x432; &#x43D;&#x430;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x435;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43D;&#x435;&#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x435;&#x43D;</target>
       </trans-unit>
     </body>
   </file>
