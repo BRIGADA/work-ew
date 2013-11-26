@@ -498,5 +498,42 @@ class manifestActions extends sfActions {
             ->fetchOne();
     $this->forward404Unless($this->token);
   }
-
+  
+  public function executeAssets(sfWebRequest $request) {
+    $this->result = Doctrine_Query::create()
+            ->from('Asset INDEXBY file')
+            ->orderBy('file')
+            ->fetchArray();
+    
+    if($request->isXmlHttpRequest()) {
+      $this->getResponse()->setContentType('application/json');
+      return $this->renderText(json_encode($this->result));      
+    }
+    
+    $dirs = array();
+    foreach($this->result as $row) {
+      $path = explode('/', $row['file']);
+      $this->assetPath($dirs, $path, $row['hash']);
+    }    
+    
+    $this->getResponse()->setContentType('application/json');
+    return $this->renderText(json_encode($dirs));    
+  }
+  
+  protected function assetPath(&$result, $path, $hash) {
+    $this->getLogger()->debug(implode('/', $path));
+    if(count($path)) {
+      $d = array_shift($path);
+      if(!is_array($result)) {
+        $result = array();
+      }
+      if(!isset($result[$d])) {
+        $result[$d] = array();
+      }
+      $this->assetPath($result[$d], $path, $hash);
+    }
+    else {
+      $result = $hash;
+    }
+  }
 }

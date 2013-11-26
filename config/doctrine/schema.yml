@@ -606,4 +606,13 @@ TokenLevel:
       onUpdate: CASCADE
       onDelete: CASCADE
 
-        
+Asset:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    file:
+      type: text
+    hash:
+      type: string(32)

@@ -183,11 +183,13 @@ class commonActions extends sfActions
     }
     
     public function executeBase(sfWebRequest $request) {
-        $id = $request->getParameter('id', $this->getUser()->getAttribute('bases', array(), 'player')['caldera']);
-        $this->forward404Unless($id);
-        $r = $this->getUser()->RGET("/api/player/colonies/{$id}", array(), true);
+        $id = $request->getParameter('id');
+        
+        $r = $this->getUser()->RGET(is_null($id) ? "/api/player" : "/api/player/colonies/{$id}");        
         $this->forward404Unless($r);
-        $this->result = json_decode($r, true);
+        
+        $data = json_decode($r, true);
+        $this->result = $data['response']['base'];
         
         $this->manifest = Doctrine::getTable('Building')
                 ->createQuery('INDEXBY type')

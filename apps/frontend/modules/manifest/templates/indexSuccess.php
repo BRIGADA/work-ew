@@ -59,6 +59,10 @@
     <th>tokens</th>
     <td><div class="progress"><div class="progress-bar"></div></div></td>
   </tr>
+  <tr id="assets">
+    <th>assets</th>
+    <td><div class="progress"><div class="progress-bar"></div></div></td>
+  </tr>
 </table>
 <p>
 
@@ -97,36 +101,22 @@
     return a == b;
   }
 
-  $('#update-campaigns').click(function() {
-    $.get('<?php echo url_for('common/REMOTE') ?>', {path: '/api/manifest/campaigns.amf', decode: 'amf'}, function(manifest) {
-      $.get('<?php echo url_for('@manifest-campaigns') ?>', function(records) {
-        updateCampaign(0);
-        function updateCampaign(index) {
-          if (index >= manifest.campaigns.length) {
-            console.log('campaigns complete');
-            return;
-          }
-          $('#campaigns .progress-bar').css('width', ((index + 1) * 100 / manifest.campaigns.length) + '%');
-          if (!compare(manifest.campaigns[index], records[manifest.campaigns[index].name])) {
-            $.post('<?php echo url_for('@manifest-campaign-update') ?>', {value: JSON.stringify(manifest.campaigns[index])}, function() {
-              updateCampaign(index + 1);
-            });
-          }
-          else {
-            updateCampaign(index + 1);
-          }
-        }
-      });
-    });
-  });
-
   $('#update').click(function() {
 
     $.get('<?php echo url_for('common/REMOTE') ?>', {
       path: '/api/manifest.amf',
       decode: 'amf'
     }, function(manifest) {
-
+      
+      var assets = $.map(manifest.assets, function(value, key){
+        return {
+          file: key,
+          hash: value
+        };
+      });
+      
+      update('assets', 'Asset', 'file', assets, '<?php echo url_for('manifest/assets')?>');
+      
       update('items', 'Item', 'type', manifest.items, '<?php echo url_for('@manifest-items') ?>', function() {
         update('store', 'Store', 'id', manifest.store, '<?php echo url_for('@manifest-store') ?>');
       });
@@ -138,6 +128,7 @@
       update('defense', 'Defense', 'type', manifest.defense, '<?php echo url_for('@manifest-defenses') ?>');
       update('craft', 'CraftingRecipe', 'name', manifest.crafting_recipes, '<?php echo url_for('@manifest-recipes') ?>');
       update('tokens', 'Token', 'type', manifest.tokens, '<?php echo url_for('@manifest-tokens') ?>');
+      
     });
 
     $.get('<?php echo url_for('common/REMOTE') ?>', {

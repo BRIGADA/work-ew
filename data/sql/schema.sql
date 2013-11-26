@@ -1,4 +1,5 @@
 CREATE TABLE alliance (id BIGINT, name text, description text, active TINYINT(1), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
+CREATE TABLE asset (id BIGINT AUTO_INCREMENT, file text, hash VARCHAR(32), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE buildings (id BIGINT AUTO_INCREMENT, type text NOT NULL, size LONGTEXT NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE building_levels (building_id BIGINT, level BIGINT, time BIGINT, requirements LONGTEXT, stats LONGTEXT, PRIMARY KEY(building_id, level)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;
 CREATE TABLE campaigns (id BIGINT, name text, unlock_level BIGINT, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE = INNODB;

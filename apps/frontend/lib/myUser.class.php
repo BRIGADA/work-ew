@@ -10,7 +10,7 @@ class myUser extends sfBasicSecurityUser {
      * 
      * @return Ambigous <NULL, mixed>
      */
-    public function RGET($path, $query = array(), $proxy = false) {
+    public function RGET($path, $query = array(), $proxy = true) {
         return $proxy ? $this->PGET($path, $query) : $this->LGET($path, $query);
     }
 
