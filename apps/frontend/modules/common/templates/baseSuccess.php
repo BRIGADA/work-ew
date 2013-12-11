@@ -1,41 +1,17 @@
 <?php use_helper('I18N') ?>
 <?php use_javascript('pixi.js') ?>
 
-<h1><?php echo $result['response']['base']['name'] ?></h1>
+<h1><?php echo $result['name'] ?></h1>
 
 <ul>
   <?php foreach ($sf_user->getAttribute('bases', array(), 'player') as $name => $id): ?>
     <li><a href="<?php echo url_for($name == 'main' ? "common/base" : "common/base?id={$id}") ?>"><?php echo $name ?></a></li>
   <?php endforeach ?>
 </ul>
-<!--
-<table class="table table-condensed table-striped">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Type</th>
-            <th>X</th>
-            <th>Y</th>
-            <th>Level</th>
-            <th>HP</th>
-        </tr>
-    </thead>
-<?php //foreach ($result['response']['base']['buildings'] as $building) : ?>
-        <tr data-id="<?php // echo $building['id']     ?>">
-            <td><?php // echo $building['id']     ?></td>
-            <td><?php // echo __(strtolower($building['type']) . '.name', null, 'ew-buildings')     ?></td>
-            <td><?php // echo $building['x']     ?></td>
-            <td><?php // echo $building['y']     ?></td>
-            <td><?php // echo $building['level']     ?></td>
-            <td><?php // echo $building['hp']     ?></td>
-            <td><button class="btn btn-mini action-upgrade"><i class="glyphicon glyphicon-arrow-up"></i></button></td>
-        </tr>
-<?php // endforeach ?>
--->
-</table>
+
 <script type="text/javascript">
   $('.action-upgrade').click(function() {
-    var base_id = <?php echo $result['response']['base']['id'] ?>;
+    var base_id = <?php echo $result['id'] ?>;
     var building_id = $(this).closest('tr').data('id');
 
     $.ajax({

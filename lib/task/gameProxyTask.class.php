@@ -134,6 +134,7 @@ class GameClient {
     $this->auto_equipment = array();
     $this->auto_equipment['next'] = 0;
     $this->auto_equipment['used'] = 0;
+    $this->auto_equipment['maxed'] = array(); // do not try upgrade
     $this->auto_equipment['upgrade'] = array();
     $this->auto_equipment['repair'] = array();
     $this->auto_equipment['craft1a'] = array();
@@ -150,6 +151,7 @@ class GameClient {
   protected function autoEquipmentParse(&$arr) {
 
     $this->auto_equipment['used'] = 0;
+    $this->auto_equipment['maxed'] = array();
     $this->auto_equipment['upgrade'] = array();
     $this->auto_equipment['repair'] = array();
     $this->auto_equipment['craft1a'] = array();
@@ -188,7 +190,12 @@ class GameClient {
         }
 
         if ($e['durability'] > 0) {
-          $this->auto_equipment['upgrade'][] = $e['id'];
+          if($e['level'] < 17) {
+            $this->auto_equipment['upgrade'][] = $e['id'];
+          }
+          else {
+            $this->auto_equipment['maxed'][] = $e['id'];
+          }
           if (($key = array_search($e['id'], $this->queue_equipment_repairing)) !== false) {
             unset($this->queue_equipment_repairing[$key]);
           }
@@ -403,8 +410,13 @@ class GameClient {
                   if (($key = array_search($msg['data']['equipment_id'], $this->auto_equipment['repair'])) !== false) {
                     unset($this->auto_equipment['repair'][$key]);
                   }
-                  if (($key = array_search($msg['data']['equipment_id'], $this->auto_equipment['upgrade'])) === false) {
-                    $this->auto_equipment['upgrade'][] = $msg['data']['equipment_id'];
+                  if (!in_array($msg['data']['equipment_id'], $this->auto_equipment['maxed'])) {
+                    if (($key = array_search($msg['data']['equipment_id'], $this->auto_equipment['upgrade'])) === false) {
+                      $this->auto_equipment['upgrade'][] = $msg['data']['equipment_id'];
+                    }
+                  }
+                  else {
+                    $this->task->logBlock('MAXED equipment repaired...', 'ERROR');
                   }
                 }
                 $log = false;
@@ -467,7 +479,7 @@ class GameClient {
         $d = json_decode($r, true);
 
         $this->autoEquipmentParse($d['response']['equipment']);
-        $this->task->log(sprintf('repairing: %u, used: %u, repair: %u, upgrade: %u, craft1a: %u, craft1b: %u, total: %u', count($this->queue_equipment_repairing), $this->auto_equipment['used'], count($this->auto_equipment['repair']), count($this->auto_equipment['upgrade']), count($this->auto_equipment['craft1a']), count($this->auto_equipment['craft1b']), $this->autoEquipmentTotal()));
+        $this->task->log(sprintf('repairing: %u, used: %u, maxed: %u, repair: %u, upgrade: %u, craft1a: %u, craft1b: %u, total: %u', count($this->queue_equipment_repairing), $this->auto_equipment['used'], count($this->auto_equipment['maxed']), count($this->auto_equipment['repair']), count($this->auto_equipment['upgrade']), count($this->auto_equipment['craft1a']), count($this->auto_equipment['craft1b']), $this->autoEquipmentTotal()));
         return;
       }
 
@@ -601,8 +613,10 @@ class GameClient {
   }
 
   protected function autoEquipmentTotal() {
+    $repairing = array_diff($this->queue_equipment_repairing, $this->auto_equipment['maxed']);    
     return $this->auto_equipment['used'] +
-            count($this->queue_equipment_repairing) +
+            count($this->auto_equipment['maxed']) +
+            count($repairing) +
             count($this->auto_equipment['repair']) +
             count($this->auto_equipment['upgrade']);
   }
