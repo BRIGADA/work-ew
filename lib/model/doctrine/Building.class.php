@@ -40,6 +40,56 @@ class Building extends BaseBuilding
         return $result;
     }
     
+    public function getRequirements() {
+        $result = array();
+        foreach ($this->levels as $level) {
+            foreach($level->requirements as $key => $value) {
+                if(($value !== 'false') && $value && !in_array($key, $result)) {
+                    $result[] = $key;
+                }
+            }
+        }
+        return $result;
+    }
+    
+    public function getAllKeys($path, $ignore_zeros = true) {
+        $result = array();
+        foreach($this->levels as $a) {
+            $p = explode('/', $path);
+            while(count($p)) {
+                $e = array_shift($p);
+                if(!isset($a[$e])) {
+                    continue 2;
+                }
+                $a = $a[$e];
+            }
+            
+            foreach($a as $k => $v) {
+                if((!$ignore_zeros || ($v && ($v !== 'false'))) && !in_array($k, $result)) {
+                    $result[] = $k;
+                }
+            }
+        }
+        return $result;        
+    }
+    
+    public function getAllValues($path, $default = NULL) {
+        $result = array();
+        foreach($this->levels as $a) {
+            $p = explode('/', $path);
+            while(count($p)) {
+                $e = array_shift($p);
+                if(!isset($a[$e])) {
+                    $a = $default;
+                    break;
+                }
+                $a = $a[$e];
+            }
+            $result[] = $a;
+        }
+        return $result;        
+    }
+    
     public function getSizeX() {
       return $this->size[0];
     }

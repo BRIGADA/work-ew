@@ -14,6 +14,7 @@
   <div id="chart-resources-<?php echo $res ?>" style="min-height: 300px"></div>
 <?php endforeach ?>
 
+<?php var_dump($equipment->getStatsTypes()->getRawValue()) ?>
 <div class="row">
   <div class="span12">
     <h3>Характеристики</h3>

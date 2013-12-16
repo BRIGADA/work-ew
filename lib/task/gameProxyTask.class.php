@@ -173,7 +173,7 @@ class GameClient {
           $unique = false;
           foreach ($record->stats as $stat => $value) {
             if (!in_array($stat, $common) && $value) {
-              $this->task->logBlock(sprintf('%u has unique stat: %s = %s', $e['id'], $stat, $value), 'ERROR');
+              $this->task->logBlock(sprintf('%u (%s L%u) has unique stat: %s = %s', $e['id'], $e['type'], $e['level'], $stat, $value), 'ERROR');
               $unique = true;
               break;
             }

@@ -388,6 +388,33 @@ class manifestActions extends sfActions {
       }
     }
   }
+  
+  public function executeEquipmentStats() {
+    $this->equipments = EquipmentTable::getInstance()
+            ->createQuery('e')
+            ->leftJoin('e.levels l')
+            ->fetchArray();
+    
+    $this->stats = array();
+    
+    foreach($this->equipments as &$equipment) {
+      $equipment['stats_types'] = array();
+      foreach($equipment['levels'] as $level) {
+        foreach ($level['stats'] as $stat => $value) {
+          if($value && ($value !== 'false')) {
+            if(!in_array($stat, $this->stats)) {
+              $this->stats[] = $stat;
+            }
+            if(!in_array($stat, $equipment['stats_types'])) {
+              $equipment['stats_types'][] = $stat;
+            }
+          }
+        }
+      }
+    }
+    
+    sort($this->stats);
+  }
 
   public function executeRecipes(sfWebRequest $request) {
     if($request->isXmlHttpRequest()) {
@@ -418,7 +445,10 @@ class manifestActions extends sfActions {
       $this->getResponse()->setContentType('application/json');
       return $this->renderText(json_encode($result));
     }
-    $this->buildings = Doctrine::getTable('Building')->findAll();
+    $this->buildings = BuildingTable::getInstance()
+            ->createQuery()
+            ->orderBy('type')
+            ->fetchArray();
   }
 
 // https://kabam1-a.akamaihd.net/edgeworld/images/buildings/antiaircraftturret.png
