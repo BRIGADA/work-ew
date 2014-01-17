@@ -437,6 +437,7 @@ class GameClient {
             $this->next_level_xp = $msg['data']['next_level_xp'];
             $this->current_level_xp = $msg['data']['current_level_xp'];
             $this->level = $msg['data']['level'];
+	    break;
 
             // сборка ресурсов при изменении уровня (все шахты заполенены)            
             
