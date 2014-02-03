@@ -275,6 +275,9 @@ MapNode:
     y: 
       type: integer
       notnull: true
+    level:
+      type: integer
+      notnull: true
     owner:
       type: text
     owner_id:

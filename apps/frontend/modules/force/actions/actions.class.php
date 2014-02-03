@@ -156,32 +156,58 @@ class forceActions extends sfActions {
     // reactor=8694f154769b1fe1a6c174209b7df65c6418e31c
     // testCount=61
     // user_id=608208
-    
+
     public function executeUnits() {
+        $this->force = $this->getUser()->getAttribute('units-force');
+        $this->redirectUnless($this->force, 'force/settings');
+        
         $r = $this->getUser()->RGET('/api/player');
         $this->forwardUnless($r, 'common', 'index');
-        
+
         $data = json_decode($r, true);
         
-        $this->items = $data['response']['items'];
+        $this->items = array();
         
-        $this->bases = array();
-        $this->bases[] = array('id'=>$data['response']['base']['id'], 'name'=>$data['response']['base']['name']);
-        foreach ($data['response']['colonies'] as $colony) {
-            $this->bases[] = array('id'=>$colony['id'], 'name'=>$colony['name']);
+        foreach ($data['response']['items'] as $item) {
+            if(isset($this->force[$item['type']])) {
+                $this->items[] = $item;
+            }
         }
-        
-        $this->boxes = StoreTable::getInstance()
-                ->createQuery('s')
-                ->leftJoin('s.item i')
-                ->where('s.usable = 1')
-                ->andWhereIn('i.type', array_map(function($item){
-                    return $item['type'];
-                }, $data['response']['items']))
-                ->andWhere('i.tags LIKE ?', '%'.  serialize('units').'%')
+
+//        $this->items = $data['response']['items'];
+
+        $this->bases = array();
+        $this->bases[] = array('id' => $data['response']['base']['id'], 'name' => $data['response']['base']['name']);
+        foreach ($data['response']['colonies'] as $colony) {
+            $this->bases[] = array('id' => $colony['id'], 'name' => $colony['name']);
+        }
+    }
+
+    public function executeSettings(sfWebRequest $request) {
+        if ($request->isMethod(sfWebRequest::POST)) {
+            $data = $request->getParameter('data');
+            foreach($data as &$d) {
+                $d = floatval($d);
+            }
+            $this->getUser()->setAttribute('units-force', $data);
+            $this->redirect('force/settings');
+        }
+        $this->units = ItemTable::getInstance()
+                ->createQuery()
+                ->select('type')
+                ->where('contents LIKE ?', '%s:9:"unit_type";%')
                 ->fetchArray();
-                
+
+        $this->force = $this->getUser()->getAttribute('units-force', array());
+            
     }
     
-    
+    public function executeSettingsGet() {
+        $data = $this->getUser()->getAttribute('units-force');
+        $this->redirectUnless($data, 'force/settings');
+        
+        $this->getResponse()->setContentType('application/json');
+        return $this->renderText(json_encode($data));
+    }
+
 }

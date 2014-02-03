@@ -9,6 +9,7 @@
  * @property integer $map_id
  * @property integer $x
  * @property integer $y
+ * @property integer $level
  * @property text $owner
  * @property integer $owner_id
  * @property text $collection
@@ -19,6 +20,7 @@
  * @method integer getMapId()         Returns the current record's "map_id" value
  * @method integer getX()             Returns the current record's "x" value
  * @method integer getY()             Returns the current record's "y" value
+ * @method integer getLevel()         Returns the current record's "level" value
  * @method text    getOwner()         Returns the current record's "owner" value
  * @method integer getOwnerId()       Returns the current record's "owner_id" value
  * @method text    getCollection()    Returns the current record's "collection" value
@@ -28,6 +30,7 @@
  * @method MapNode setMapId()         Sets the current record's "map_id" value
  * @method MapNode setX()             Sets the current record's "x" value
  * @method MapNode setY()             Sets the current record's "y" value
+ * @method MapNode setLevel()         Sets the current record's "level" value
  * @method MapNode setOwner()         Sets the current record's "owner" value
  * @method MapNode setOwnerId()       Sets the current record's "owner_id" value
  * @method MapNode setCollection()    Sets the current record's "collection" value
@@ -57,6 +60,10 @@ abstract class BaseMapNode extends sfDoctrineRecord
              'notnull' => true,
              ));
         $this->hasColumn('y', 'integer', null, array(
+             'type' => 'integer',
+             'notnull' => true,
+             ));
+        $this->hasColumn('level', 'integer', null, array(
              'type' => 'integer',
              'notnull' => true,
              ));

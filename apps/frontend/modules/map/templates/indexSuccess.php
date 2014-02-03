@@ -13,7 +13,7 @@
 	<tbody>
 		<?php foreach($result as $n => $map):?>
 		<tr data-id="<?php echo $map->id ?>">
-			<td><?php echo link_to($map->type, "map/{$n}")?></td>
+			<td><?php echo link_to($map->type, "map/{$map->id}")?></td>
 			<td><?php if($map->active) : ?>+<?php else : ?>-<?php endif ?></td>
 			<td><?php echo $map->width ?> x <?php echo $map->height?></td>
 			<td><?php echo $map->max_territory_limit ?></td>
@@ -22,16 +22,3 @@
 		<?php endforeach ?>
 	</tbody>
 </table>
-
-<script type="text/javascript">
-<!--
-$('#maps > tbody > tr').click(function(){
-//	$(this).find('a').click();
-//	return false;
-});
-
-//-->
-</script>
-
-
-<?php var_dump($result->getRawValue())?>

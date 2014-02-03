@@ -131,10 +131,15 @@ maps:
   url: /maps
   param: { module: map, action: index }
 
-map-show:
-  url: /map/:pos
-  param: { module: map, action: show }
+map-update:
+  url: /map/update
+  param: { module: map, action: update }
   
+map-show:
+  url: /map/:id
+  param: { module: map, action: show }
+
+
 chat-read:
   url: /chat-read/:room
   param: { module: chat, action: read }

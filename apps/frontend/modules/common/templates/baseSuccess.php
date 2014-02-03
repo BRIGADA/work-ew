@@ -73,21 +73,70 @@
 
   $(buildings).each(function() {
     if (!manifest[this.type].hasOwnProperty('color')) {
-      console.log('new color for ' + this.type);
+//      console.log('new color for ' + this.type);
       manifest[this.type].color = colorByIndex(p);
       p++;
     }
-    console.log(this.type);
+//    console.log(this.type);
+
     var b = new PIXI.Graphics();
+    b.interactive = true;
+    b.buttonMode = true;
+
     b.lineStyle(1, 0x000000);
     b.beginFill(manifest[this.type].color);
-    b.drawRect(this.x, this.y, manifest[this.type].size[0], manifest[this.type].size[1]);
+    b.drawRect(0, 0, manifest[this.type].size[0], manifest[this.type].size[1]);
     b.endFill();
+
+    var t = new PIXI.Text(this.level, {font: '12px Arial', fill: 'white'});
+    b.addChild(t);
+
+    b.mousedown = b.touchstart = function(data) {
+      console.log('down', data);
+      
+      
+      data.originalEvent.preventDefault();
+      this.data = data;
+      this.ccc = data.getLocalPosition(this.parent);
+      this.dragging = true;
+      var parent = this.parent;
+      parent.removeChild(this);
+      parent.addChild(this);
+    }
+    b.mouseup = b.mouseupoutside = b.touchend = b.touchendoutside = function(data) {
+      console.log('up', data);
+      this.dragging = false;
+      this.data = null;
+      console.log(this.ccc);
+    }
+
+    b.mousemove = b.touchmove = function(data) {
+//      console.log('move');
+      if (this.dragging) {
+        var np = this.data.getLocalPosition(this.parent);
+        var x = Math.round((np.x - this.ccc.x) / 10) * 10;
+        if(x < 0) x = 0;
+        var y = Math.round((np.y - this.ccc.y) / 10) * 10;
+        if(y < 0) y = 0;
+        
+        this.position.x = x;
+        this.position.y = y;
+      }
+    }
+    b.hitArea = new PIXI.Rectangle(0, 0, manifest[this.type].size[0], manifest[this.type].size[1]);
+
+    b.position.x = this.x;
+    b.position.y = this.y;
 
     stage.addChild(b);
   });
 
-  renderer.render(stage);
+  requestAnimFrame(animate);
+
+  function animate() {
+    requestAnimFrame(animate);
+    renderer.render(stage);
+  }
 
   function colorByIndex(index) {
     var r, g, b;
