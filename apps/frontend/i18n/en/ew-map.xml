@@ -5,528 +5,528 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>nodeclick.factionbase</source>
-        <target>Abandoned Outpost</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>tournament.ruleslink</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>intro.prev</source>
-        <target>Back</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>relocatebase.comingsoon</source>
-        <target>Coming Soon</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>intro-4.p1</source>
-        <target>Control The Sector</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>intro-4.p2</source>
-        <target>Defeat the Command Center to take control of a base.</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>intro-4.p3</source>
-        <target>defeat your enemies</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>intro-4.p4</source>
-        <target>expand your territory</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>intro-4.p5</source>
-        <target>receive daily rewards</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>intro-4.p6</source>
-        <target>4/4</target>
-      </trans-unit>
-      <trans-unit id="11">
-        <source>nodeclick.claim</source>
-        <target>Claim</target>
-      </trans-unit>
-      <trans-unit id="12">
-        <source>leaderboard.score</source>
-        <target>Score</target>
-      </trans-unit>
-      <trans-unit id="13">
-        <source>terrain.generic</source>
-        <target>Terrain</target>
-      </trans-unit>
-      <trans-unit id="14">
-        <source>nodeupgrade.requirementsmet</source>
-        <target>Upgrading this node is instant, provided you meet the requirements.</target>
-      </trans-unit>
-      <trans-unit id="15">
-        <source>nodeupgrade.currentlevel</source>
-        <target>Current Level</target>
-      </trans-unit>
-      <trans-unit id="16">
-        <source>legend.netural</source>
-        <target>Neutral alliance</target>
-      </trans-unit>
-      <trans-unit id="17">
-        <source>leaderboard.subheading</source>
-        <target>TOURNAMENT LEADERBOARD</target>
-      </trans-unit>
-      <trans-unit id="18">
-        <source>general.invalid-coordinates</source>
-        <target>Invalid map coordinates!</target>
-      </trans-unit>
-      <trans-unit id="19">
-        <source>info.score</source>
-        <target>Score</target>
-      </trans-unit>
-      <trans-unit id="20">
-        <source>leaderboard.alliance</source>
-        <target>Competitor</target>
-      </trans-unit>
-      <trans-unit id="21">
-        <source>nodeclick.playerbase</source>
-        <target>'s Home</target>
-      </trans-unit>
-      <trans-unit id="22">
-        <source>fte.no-territory</source>
-        <target>Your alliance has no territories. Claim an Outpost to start.</target>
-      </trans-unit>
-      <trans-unit id="23">
-        <source>info.multiplier-hint</source>
-        <target>Score doubles at </target>
-      </trans-unit>
-      <trans-unit id="24">
-        <source>reinforce.tooltip-singular</source>
-        <target>+1 Level per unit</target>
-      </trans-unit>
-      <trans-unit id="25">
-        <source>leaderboard.heading</source>
-        <target>MAP LEADERBOARD</target>
-      </trans-unit>
-      <trans-unit id="26">
-        <source>legend.you</source>
-        <target>Your base</target>
-      </trans-unit>
-      <trans-unit id="27">
-        <source>tabs.alliance-unavailable</source>
-        <target>Alliance tournament not currently active</target>
-      </trans-unit>
-      <trans-unit id="28">
-        <source>legend.tutorial</source>
-        <target>Tutorial</target>
-      </trans-unit>
-      <trans-unit id="29">
-        <source>info.nexttier</source>
-        <target>Next Tier</target>
-      </trans-unit>
-      <trans-unit id="30">
-        <source>info.currenttier</source>
-        <target>Current Tier</target>
-      </trans-unit>
-      <trans-unit id="31">
-        <source>general.map-must-be-open</source>
-        <target>Map must be open to view coordinates.</target>
-      </trans-unit>
-      <trans-unit id="32">
-        <source>info.capacity</source>
-        <target>Bases:</target>
-      </trans-unit>
-      <trans-unit id="33">
-        <source>intro-2.p1</source>
-        <target>Get The Territorial Advantage</target>
-      </trans-unit>
-      <trans-unit id="34">
-        <source>intro-2.p2</source>
-        <target>Defeat the command center to take control of a base.</target>
-      </trans-unit>
-      <trans-unit id="35">
-        <source>intro-2.p3</source>
-        <target>You can take control of a base if it is next to your alliance.</target>
-      </trans-unit>
-      <trans-unit id="36">
-        <source>intro-2.p4</source>
-        <target>Other bases can still be attacked but you can't take control of them.</target>
-      </trans-unit>
-      <trans-unit id="37">
-        <source>intro-2.p5</source>
-        <target>Bases controlled by your Alliance can be upgraded to raise their level.</target>
-      </trans-unit>
-      <trans-unit id="38">
-        <source>intro-2.p6</source>
-        <target>2/4</target>
-      </trans-unit>
-      <trans-unit id="39">
-        <source>reinforce.select</source>
-        <target>Select a troop type first!</target>
-      </trans-unit>
-      <trans-unit id="40">
-        <source>leaderboard.hourly-short</source>
-        <target>Updated hourly</target>
-      </trans-unit>
-      <trans-unit id="41">
-        <source>reinforce.currentlevel</source>
-        <target>Current Base Level</target>
-      </trans-unit>
-      <trans-unit id="42">
-        <source>legend.title</source>
-        <target>LEGEND</target>
-      </trans-unit>
-      <trans-unit id="43">
-        <source>reinforce.tooltip</source>
-        <target>+#AMOUNT# Levels per unit</target>
-      </trans-unit>
-      <trans-unit id="44">
-        <source>terrain.genericdescription</source>
-        <target>Impassable</target>
-      </trans-unit>
-      <trans-unit id="45">
-        <source>nodeupgrade.instant</source>
-        <target>Instant</target>
-      </trans-unit>
-      <trans-unit id="46">
-        <source>relocatebase.yourlevel</source>
-        <target>Your Level</target>
-      </trans-unit>
-      <trans-unit id="47">
-        <source>nodeupgrade.header</source>
-        <target>Base Fortification</target>
-      </trans-unit>
-      <trans-unit id="48">
-        <source>reinforce.exceed-limit</source>
-        <target>EXCEEDS BASE LEVEL LIMIT</target>
-      </trans-unit>
-      <trans-unit id="49">
-        <source>intro-claim.p1</source>
-        <target>Before you can take part in the territorial Warfare on Cerulea IV, you need to claim your spot on the map.</target>
-      </trans-unit>
-      <trans-unit id="50">
-        <source>intro-claim.p2</source>
-        <target>You can move into any base controlled by your alliance, or into any uncontrolled base next to your alliance.</target>
-      </trans-unit>
-      <trans-unit id="51">
-        <source>intro-claim.p3</source>
-        <target>Alliance controlled base</target>
-      </trans-unit>
-      <trans-unit id="52">
-        <source>intro-claim.p4</source>
-        <target>Uncontrolled base</target>
-      </trans-unit>
-      <trans-unit id="53">
-        <source>info.multiplier</source>
-        <target>Score doubled</target>
-      </trans-unit>
-      <trans-unit id="54">
         <source>nodeclick.maxed</source>
         <target>Level maxed</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="2">
         <source>nodeclick.move</source>
         <target>Move Here</target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="3">
         <source>nodeupgrade.move</source>
         <target>MOVE</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="4">
         <source>info.multiplierHint</source>
         <target>Score x2 at Capacity</target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="5">
         <source>nodeclick.abandon</source>
         <target>Abandon (#NUMBER# remaining)</target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="6">
         <source>info.full-capacity</source>
         <target>Capacity Reached</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="7">
         <source>tabs.alliance</source>
         <target>Alliance Tournament</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="8">
         <source>leaderboard.reward</source>
         <target>Reward</target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="9">
         <source>leaderboard.platinum</source>
         <target>#AMOUNT# platinum</target>
       </trans-unit>
-      <trans-unit id="63">
+      <trans-unit id="10">
         <source>nodeupgrade.description</source>
         <target>Higher fortification levels make bases harder to defeat.</target>
       </trans-unit>
-      <trans-unit id="64">
+      <trans-unit id="11">
         <source>legend.terrain</source>
         <target>Terrain</target>
       </trans-unit>
-      <trans-unit id="65">
+      <trans-unit id="12">
         <source>nodeclick.cannotscout-adjacency</source>
         <target>Can't scout: outpost not adjacent</target>
       </trans-unit>
-      <trans-unit id="66">
+      <trans-unit id="13">
         <source>info.claim-reward</source>
         <target>Claim Reward</target>
       </trans-unit>
-      <trans-unit id="67">
+      <trans-unit id="14">
         <source>intro.next</source>
         <target>Continue</target>
       </trans-unit>
-      <trans-unit id="68">
+      <trans-unit id="15">
         <source>info.refresh-score</source>
         <target>Refresh Score</target>
       </trans-unit>
-      <trans-unit id="69">
+      <trans-unit id="16">
         <source>legend.friendly</source>
         <target>Friendly alliance</target>
       </trans-unit>
-      <trans-unit id="70">
+      <trans-unit id="17">
         <source>fte.must-be-in-alliance</source>
         <target>You must be in an alliance to interact with this map!  Join an alliance first by clicking on the Alliance button.</target>
       </trans-unit>
-      <trans-unit id="71">
+      <trans-unit id="18">
         <source>info.rewardin</source>
         <target>Reward In</target>
       </trans-unit>
-      <trans-unit id="72">
+      <trans-unit id="19">
         <source>reinforce.owned</source>
         <target>OWNED</target>
       </trans-unit>
-      <trans-unit id="73">
+      <trans-unit id="20">
         <source>info.base</source>
         <target>Base</target>
       </trans-unit>
-      <trans-unit id="74">
+      <trans-unit id="21">
         <source>intro-3.p1</source>
         <target>Fight Your Enemies</target>
       </trans-unit>
-      <trans-unit id="75">
+      <trans-unit id="22">
         <source>intro-3.p2</source>
         <target>As well as your own Alliance bases and uncontrolled bases, there are three other types of Alliance controlled bases.</target>
       </trans-unit>
-      <trans-unit id="76">
+      <trans-unit id="23">
         <source>intro-3.p3</source>
         <target>This symbol represents a player base. Defeating a player base will kick it from the map.</target>
       </trans-unit>
-      <trans-unit id="77">
+      <trans-unit id="24">
         <source>intro-3.p4</source>
         <target>Friendly</target>
       </trans-unit>
-      <trans-unit id="78">
+      <trans-unit id="25">
         <source>intro-3.p5</source>
         <target>Enemy</target>
       </trans-unit>
-      <trans-unit id="79">
+      <trans-unit id="26">
         <source>intro-3.p6</source>
         <target>Neutral</target>
       </trans-unit>
-      <trans-unit id="80">
+      <trans-unit id="27">
         <source>intro-3.p7</source>
         <target>3/4</target>
       </trans-unit>
-      <trans-unit id="81">
+      <trans-unit id="28">
         <source>info.free-reward</source>
         <target>Reward In:</target>
       </trans-unit>
-      <trans-unit id="82">
+      <trans-unit id="29">
         <source>reinforce.fortify</source>
         <target>FORTIFY</target>
       </trans-unit>
-      <trans-unit id="83">
+      <trans-unit id="30">
         <source>leaderboard.time</source>
         <target>Time Remaining: </target>
       </trans-unit>
-      <trans-unit id="84">
+      <trans-unit id="31">
         <source>relocatebase.outpostlevel</source>
         <target>Outpost Level</target>
       </trans-unit>
-      <trans-unit id="85">
+      <trans-unit id="32">
         <source>legend.playerbase</source>
         <target>Player base</target>
       </trans-unit>
-      <trans-unit id="86">
+      <trans-unit id="33">
         <source>reinforce.send</source>
         <target>TO SEND</target>
       </trans-unit>
-      <trans-unit id="87">
+      <trans-unit id="34">
         <source>tabs.main</source>
         <target>Territorial</target>
       </trans-unit>
-      <trans-unit id="88">
+      <trans-unit id="35">
         <source>nodeupgrade.upgrade</source>
         <target>Upgrade</target>
       </trans-unit>
-      <trans-unit id="89">
+      <trans-unit id="36">
         <source>leaderboard.remaining</source>
         <target>Remaining: </target>
       </trans-unit>
-      <trans-unit id="90">
+      <trans-unit id="37">
         <source>reinforce.instructions</source>
         <target>Fortify your base by sending reinforcements to defend it.</target>
       </trans-unit>
-      <trans-unit id="91">
+      <trans-unit id="38">
         <source>leaderboard.bases</source>
         <target>Bases</target>
       </trans-unit>
-      <trans-unit id="92">
+      <trans-unit id="39">
         <source>nodeupgrade.upgradelevel</source>
         <target>Upgrade Level</target>
       </trans-unit>
-      <trans-unit id="93">
+      <trans-unit id="40">
         <source>nodeclick.alliancebase</source>
         <target>Alliance Outpost</target>
       </trans-unit>
-      <trans-unit id="94">
+      <trans-unit id="41">
         <source>nodeclick.cannotscout</source>
         <target>Level too low to scout.</target>
       </trans-unit>
-      <trans-unit id="95">
+      <trans-unit id="42">
         <source>nodeclick.cannotscout-too-many-bases</source>
         <target>You are dominating.</target>
       </trans-unit>
-      <trans-unit id="96">
+      <trans-unit id="43">
         <source>legend.enemy</source>
         <target>Enemy alliance</target>
       </trans-unit>
-      <trans-unit id="97">
+      <trans-unit id="44">
         <source>reinforce.maxed-detail</source>
         <target>Capacity Reached.</target>
       </trans-unit>
-      <trans-unit id="98">
+      <trans-unit id="45">
         <source>info.bases</source>
         <target>Bases</target>
       </trans-unit>
-      <trans-unit id="99">
+      <trans-unit id="46">
         <source>intro-claim.welcome</source>
         <target>Welcome To The War</target>
       </trans-unit>
-      <trans-unit id="100">
+      <trans-unit id="47">
         <source>legend.youralliance</source>
         <target>Your alliance</target>
       </trans-unit>
-      <trans-unit id="101">
+      <trans-unit id="48">
         <source>tabs.player</source>
         <target>Player Tournament</target>
       </trans-unit>
-      <trans-unit id="102">
+      <trans-unit id="49">
         <source>reinforce.nextlevel</source>
         <target>New Base Level</target>
       </trans-unit>
-      <trans-unit id="103">
+      <trans-unit id="50">
         <source>info.fullCapacity</source>
         <target>Capacity Reached</target>
       </trans-unit>
-      <trans-unit id="104">
+      <trans-unit id="51">
         <source>leaderboard.viewfull</source>
         <target>VIEW FULL LEADERBOARD</target>
       </trans-unit>
-      <trans-unit id="105">
+      <trans-unit id="52">
         <source>relocatebase.description</source>
         <target>Moving your base costs resources.</target>
       </trans-unit>
-      <trans-unit id="106">
+      <trans-unit id="53">
         <source>nodeclick.need-alliance</source>
         <target>You need to be in an alliance to interact with this map.</target>
       </trans-unit>
-      <trans-unit id="107">
+      <trans-unit id="54">
         <source>intro-1.p1</source>
         <target>Welcome To The War</target>
       </trans-unit>
-      <trans-unit id="108">
+      <trans-unit id="55">
         <source>intro-1.p2</source>
         <target>You are now part of the territorial Warfare on Cerulea IV!</target>
       </trans-unit>
-      <trans-unit id="109">
+      <trans-unit id="56">
         <source>intro-1.p3</source>
         <target>Each square on the map is a player base or an abandoned Galactic outpost.</target>
       </trans-unit>
-      <trans-unit id="110">
+      <trans-unit id="57">
         <source>intro-1.p4</source>
         <target>Controlling bases will give your alliance daily rewards, which are:</target>
       </trans-unit>
-      <trans-unit id="111">
+      <trans-unit id="58">
         <source>intro-1.p5</source>
         <target>- Combat Boosts</target>
       </trans-unit>
-      <trans-unit id="112">
+      <trans-unit id="59">
         <source>intro-1.p6</source>
         <target>- Accelerators</target>
       </trans-unit>
-      <trans-unit id="113">
+      <trans-unit id="60">
         <source>intro-1.p7</source>
         <target>- Salvage Boxes</target>
       </trans-unit>
-      <trans-unit id="114">
+      <trans-unit id="61">
         <source>intro-1.p8</source>
         <target>1/4</target>
       </trans-unit>
-      <trans-unit id="115">
+      <trans-unit id="62">
         <source>reinforce.title</source>
         <target>BASE FORTIFICATION</target>
       </trans-unit>
-      <trans-unit id="116">
+      <trans-unit id="63">
         <source>intro.gotomap</source>
         <target>Go to Map</target>
       </trans-unit>
-      <trans-unit id="117">
+      <trans-unit id="64">
         <source>reinforce.add</source>
         <target>ADD</target>
       </trans-unit>
-      <trans-unit id="118">
+      <trans-unit id="65">
         <source>baserelocate.header</source>
         <target>MOVE BASE</target>
       </trans-unit>
-      <trans-unit id="119">
+      <trans-unit id="66">
         <source>nodeclick.upgrade</source>
         <target>Upgrade</target>
       </trans-unit>
-      <trans-unit id="120">
+      <trans-unit id="67">
         <source>leaderboard.hourly</source>
         <target>Leaderboard updated hourly. Last updated #TIME#</target>
       </trans-unit>
-      <trans-unit id="121">
+      <trans-unit id="68">
         <source>nodeclick.location</source>
         <target>Location</target>
       </trans-unit>
-      <trans-unit id="122">
+      <trans-unit id="69">
+        <source>tournament.ruleslink</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>intro.prev</source>
+        <target>Back</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>nodeclick.claim</source>
+        <target>Claim</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>nodeupgrade.requirementsmet</source>
+        <target>Upgrading this node is instant, provided you meet the requirements.</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>nodeupgrade.currentlevel</source>
+        <target>Current Level</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>legend.netural</source>
+        <target>Neutral alliance</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>info.score</source>
+        <target>Score</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>reinforce.tooltip-singular</source>
+        <target>+1 Level per unit</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>leaderboard.heading</source>
+        <target>MAP LEADERBOARD</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>legend.you</source>
+        <target>Your base</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>info.nexttier</source>
+        <target>Next Tier</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>info.currenttier</source>
+        <target>Current Tier</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>info.capacity</source>
+        <target>Bases:</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>intro-2.p1</source>
+        <target>Get The Territorial Advantage</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>intro-2.p2</source>
+        <target>Defeat the command center to take control of a base.</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>intro-2.p3</source>
+        <target>You can take control of a base if it is next to your alliance.</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>intro-2.p4</source>
+        <target>Other bases can still be attacked but you can't take control of them.</target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>intro-2.p5</source>
+        <target>Bases controlled by your Alliance can be upgraded to raise their level.</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>intro-2.p6</source>
+        <target>2/4</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>reinforce.select</source>
+        <target>Select a troop type first!</target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>leaderboard.hourly-short</source>
+        <target>Updated hourly</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>reinforce.currentlevel</source>
+        <target>Current Base Level</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>reinforce.tooltip</source>
+        <target>+#AMOUNT# Levels per unit</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>terrain.genericdescription</source>
+        <target>Impassable</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>relocatebase.yourlevel</source>
+        <target>Your Level</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>reinforce.exceed-limit</source>
+        <target>EXCEEDS BASE LEVEL LIMIT</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>intro-claim.p1</source>
+        <target>Before you can take part in the territorial Warfare on Cerulea IV, you need to claim your spot on the map.</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>intro-claim.p2</source>
+        <target>You can move into any base controlled by your alliance, or into any uncontrolled base next to your alliance.</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>intro-claim.p3</source>
+        <target>Alliance controlled base</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>intro-claim.p4</source>
+        <target>Uncontrolled base</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>info.multiplier</source>
+        <target>Score doubled</target>
+      </trans-unit>
+      <trans-unit id="100">
         <source>intro-conquer.p1</source>
         <target>Welcome To The War</target>
       </trans-unit>
-      <trans-unit id="123">
+      <trans-unit id="101">
         <source>intro-conquer.p2</source>
         <target>Before you can take part in the territorial Warfare on Cerulea IV, you need to claim your spot on the map.</target>
       </trans-unit>
-      <trans-unit id="124">
+      <trans-unit id="102">
         <source>intro-conquer.p3</source>
         <target>Destroy the command center of any base to claim its territory.</target>
       </trans-unit>
-      <trans-unit id="125">
+      <trans-unit id="103">
         <source>intro-conquer.p4</source>
         <target>I recommend you attack an uncontrolled base (shown by this icon).</target>
       </trans-unit>
-      <trans-unit id="126">
+      <trans-unit id="104">
         <source>intro-conquer.p5</source>
         <target>Uncontrolled</target>
       </trans-unit>
-      <trans-unit id="127">
+      <trans-unit id="105">
         <source>intro-conquer.p6</source>
         <target>Level: 20</target>
       </trans-unit>
-      <trans-unit id="128">
+      <trans-unit id="106">
         <source>intro-conquer.p7</source>
         <target>Scout</target>
       </trans-unit>
-      <trans-unit id="129">
+      <trans-unit id="107">
         <source>reinforce.maxed</source>
         <target>MAXIMUM LEVEL!</target>
       </trans-unit>
-      <trans-unit id="130">
+      <trans-unit id="108">
         <source>nodeclick.noplayer</source>
         <target>Unclaimed</target>
       </trans-unit>
-      <trans-unit id="131">
+      <trans-unit id="109">
         <source>tabs.player-unavailable</source>
         <target>Player tournament not currently active</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>nodeclick.factionbase</source>
+        <target>Abandoned Outpost</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>relocatebase.comingsoon</source>
+        <target>Coming Soon</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>intro-4.p1</source>
+        <target>Control The Sector</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>intro-4.p2</source>
+        <target>Defeat the Command Center to take control of a base.</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>intro-4.p3</source>
+        <target>defeat your enemies</target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>intro-4.p4</source>
+        <target>expand your territory</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>intro-4.p5</source>
+        <target>receive daily rewards</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>intro-4.p6</source>
+        <target>4/4</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>leaderboard.score</source>
+        <target>Score</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>terrain.generic</source>
+        <target>Terrain</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>leaderboard.subheading</source>
+        <target>TOURNAMENT LEADERBOARD</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>general.invalid-coordinates</source>
+        <target>Invalid map coordinates!</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>leaderboard.alliance</source>
+        <target>Competitor</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>nodeclick.playerbase</source>
+        <target>'s Home</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>fte.no-territory</source>
+        <target>Your alliance has no territories. Claim an Outpost to start.</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>info.multiplier-hint</source>
+        <target>Score doubles at </target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>tabs.alliance-unavailable</source>
+        <target>Alliance tournament not currently active</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>legend.tutorial</source>
+        <target>Tutorial</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>general.map-must-be-open</source>
+        <target>Map must be open to view coordinates.</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>legend.title</source>
+        <target>LEGEND</target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>nodeupgrade.instant</source>
+        <target>Instant</target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>nodeupgrade.header</source>
+        <target>Base Fortification</target>
       </trans-unit>
     </body>
   </file>

@@ -5,16 +5,16 @@
     <header/>
     <body>
       <trans-unit id="1">
+        <source>name</source>
+        <target>James Holloway</target>
+      </trans-unit>
+      <trans-unit id="2">
         <source>invite.body</source>
         <target>As one of our valued players, we&#x2019;d like your feedback on how Edgeworld can serve you better. Your comments and suggestions are very important to us, so we&#x2019;d love to hear from you! Please help us by taking a short survey and participating in a moderated chat session.&lt;br&gt;&lt;br&gt;  If you are able to participate, you will receive a $50 Amazon gift card and be entered into a sweepstakes for another $50 Amazon gift card.&lt;br&gt;&lt;br&gt;  To begin, please click on the link below. If this does not work, please cut and paste the address into your web browser.&lt;br&gt;&lt;br&gt;  &lt;a href="http://survey.confirmit.com/wix/p1752505458.aspx?SAM=2"target="_blank"&gt;http://survey.confirmit.com/wix/p1752505458.aspx?SAM=2&lt;/a&gt;&lt;br&gt;&lt;br&gt;  Thank you for your participation. Your insight is invaluable to us.&lt;br&gt;&lt;br&gt;  Sincerely,&lt;br&gt;&lt;br&gt;&lt;br&gt;  James Holloway&lt;br&gt; Executive Producer</target>
       </trans-unit>
-      <trans-unit id="2">
+      <trans-unit id="3">
         <source>invite.subject</source>
         <target>Special Invitation</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>name</source>
-        <target>James Holloway</target>
       </trans-unit>
       <trans-unit id="4">
         <source>from</source>

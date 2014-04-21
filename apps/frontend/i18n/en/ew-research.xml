@@ -5,252 +5,252 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>legend.defenselab-current</source>
-        <target>Current Defense Level</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>spacedragon.name</source>
-        <target>Incineraptor</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>pyro.name</source>
-        <target>Pyro</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>antiaircraftturret.description</source>
-        <target>Each Anti-Tank Turret receives a boost to their Attack and Health based on each Anti-Tank Turret level across all bases. The more you build the more powerful the boost.</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>legend.techlab-available</source>
-        <target>Available Research Level</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>titan.description</source>
-        <target>Heavily armored combat walker designed for humanoids. </target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>corrosiveturret.name</source>
-        <target>Corrosive Upgrade</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>specter.description</source>
-        <target>Special ops alien unit capable of long range attacks.</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>exploder.description</source>
-        <target>From the frozen wastes of Cerulea, these trained beasts carry powerful, and highly unstable, pulse cannons on their backs!</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>pulsetank.description</source>
-        <target>In Beast Mode, Pulse Tanks fire huge explosives. They go into Beast Mode for 12 seconds when a friendly unit dies.</target>
-      </trans-unit>
-      <trans-unit id="11">
-        <source>shrike.description</source>
-        <target>Light, fast vehicles driven by marines and equipped with laser cannons.</target>
-      </trans-unit>
-      <trans-unit id="12">
-        <source>raider.name</source>
-        <target>Raider</target>
-      </trans-unit>
-      <trans-unit id="13">
-        <source>x1cannon.description</source>
-        <target>Each X-1 Cannon receives a boost to their Attack and Health based on each X-1 Cannon level across all bases. The more you build the more powerful the boost.</target>
-      </trans-unit>
-      <trans-unit id="14">
-        <source>teslatower.name</source>
-        <target>Tesla Upgrade</target>
-      </trans-unit>
-      <trans-unit id="15">
-        <source>incendiaryturret.description</source>
-        <target>Each Incendiary Turret receives a boost to their Attack and Health based on each Incendiary Turret level across all bases. The more you build the more powerful the boost.</target>
-      </trans-unit>
-      <trans-unit id="16">
-        <source>thor.name</source>
-        <target>Devastator</target>
-      </trans-unit>
-      <trans-unit id="17">
-        <source>sentinel.name</source>
-        <target>Sentinel</target>
-      </trans-unit>
-      <trans-unit id="18">
-        <source>thor.description</source>
-        <target>These elite artillery units outrange every other unit and almost all turrets. They also pack a fearsome punch. </target>
-      </trans-unit>
-      <trans-unit id="19">
-        <source>tankturret.description</source>
-        <target>Each Heavyweight Turret receives a boost to their Attack and Health based on each Heavyweight Turret level across all bases. The more you build the more powerful the boost.</target>
-      </trans-unit>
-      <trans-unit id="20">
-        <source>pulsetank.name</source>
-        <target>Pulse Tank</target>
-      </trans-unit>
-      <trans-unit id="21">
-        <source>concussionturret.description</source>
-        <target>Each X-1 Cannon receives a boost to their Attack and Health based on each X-1 Cannon level across all bases. The more you build the more powerful the boost.</target>
-      </trans-unit>
-      <trans-unit id="22">
-        <source>concussionturret.name</source>
-        <target>Concussion Upgrade</target>
-      </trans-unit>
-      <trans-unit id="23">
-        <source>pyro.description</source>
-        <target>Armored assault trooper armed with dual arm-mounted flame throwers - they like to BBQ.</target>
-      </trans-unit>
-      <trans-unit id="24">
-        <source>spacedragon.description</source>
-        <target>Flying synthetic beasts that unleash an unrelenting torrent of fireballs upon their prey.</target>
-      </trans-unit>
-      <trans-unit id="25">
-        <source>decimator.name</source>
-        <target>Decimator</target>
-      </trans-unit>
-      <trans-unit id="26">
-        <source>disruptor.description</source>
-        <target>Heavily armored vehicles designed to take the heat.</target>
-      </trans-unit>
-      <trans-unit id="27">
-        <source>chimera.name</source>
-        <target>Chimera</target>
-      </trans-unit>
-      <trans-unit id="28">
-        <source>battlecruiser.description</source>
-        <target>An advanced Battle Ship capable of dealing massive damage to multiple targets</target>
-      </trans-unit>
-      <trans-unit id="29">
-        <source>legend.defenselab-available</source>
-        <target>Available Defense Level</target>
-      </trans-unit>
-      <trans-unit id="30">
-        <source>marine.name</source>
-        <target>Marine</target>
-      </trans-unit>
-      <trans-unit id="31">
-        <source>chimera.description</source>
-        <target>Elite ranged artillery units that range devastation from afar.</target>
-      </trans-unit>
-      <trans-unit id="32">
         <source>sentinel.description</source>
         <target>Sentinel's are equipped with hyper-ablation armor that can withstand large amounts of damage and punishment.</target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="2">
         <source>disruptor.name</source>
         <target>Disruptor</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="3">
         <source>shrike.name</source>
         <target>Shrike</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="4">
         <source>titan.name</source>
         <target>Titan</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="5">
         <source>gunturret.name</source>
         <target>Gun Turret Upgrade</target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="6">
         <source>corrosiveturret.description</source>
         <target>Each Corrosive Turret receives a boost to their Attack and Health based on each Corrosive Turret level across all bases. The more you build the more powerful the boost.</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="7">
         <source>gunturret.description</source>
         <target>Each Gun Turret receives a boost to their Attack and Health based on each Gun Turret level across all bases. The more you build the more powerful the boost.</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="8">
         <source>legend.techlab-current</source>
         <target>Current Research Level</target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="9">
         <source>legend.defenselab-max</source>
         <target>Maximum Level</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="10">
         <source>tankturret.name</source>
         <target>Heavyweight Upgrade</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="11">
         <source>decimator.description</source>
         <target>Fire-breathing monstrosities that reduce even the strongest bases to cinders.</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="12">
         <source>hornet.description</source>
         <target>Armored gunships equipped with pulse cannons that sting its targets.</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="13">
         <source>x1cannon.name</source>
         <target>X-1 Cannon Upgrade</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="14">
         <source>brawler.name</source>
         <target>Berserker</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="15">
         <source>rhino.name</source>
         <target>Rhino</target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="16">
         <source>teslatower.description</source>
         <target>Each Tesla Tower receives a boost to their Attack and Health based on each Tesla Tower level across all bases. The more you build the more powerful the boost.</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="17">
         <source>specter.name</source>
         <target>Specter</target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="18">
         <source>marine.description</source>
         <target>Genetically modified human infantry unit equipped with assault rifles.</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="19">
         <source>rhino.description</source>
         <target>Armored alien that uses its powerful horn as a battering ram.</target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="20">
         <source>snipertower.name</source>
         <target>Sniper Upgrade</target>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="21">
         <source>snipertower.description</source>
         <target>Each Sniper Tower receives a boost to their Attack and Health based on each Sniper Tower level across all bases. The more you build the more powerful the boost.</target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="22">
         <source>exploder.name</source>
         <target>Bomba</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="23">
         <source>spider.name</source>
         <target>Lancer</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="24">
         <source>hornet.name</source>
         <target>Hornet</target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="25">
         <source>incendiaryturret.name</source>
         <target>Incendiary Upgrade</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="26">
         <source>raider.description</source>
         <target>Fast alien infantry unit equipped with advanced suction packs capable of rapid resource extraction.</target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="27">
         <source>spider.description</source>
         <target>Massive Cerulean wasp-like lifeforms. They do 10x damage against Tesla towers, and are immune to Incendiary burning.</target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="28">
         <source>legend.techlab-max</source>
         <target>Maximum Level</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="29">
+        <source>pyro.name</source>
+        <target>Pyro</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>legend.techlab-available</source>
+        <target>Available Research Level</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>shrike.description</source>
+        <target>Light, fast vehicles driven by marines and equipped with laser cannons.</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>raider.name</source>
+        <target>Raider</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>x1cannon.description</source>
+        <target>Each X-1 Cannon receives a boost to their Attack and Health based on each X-1 Cannon level across all bases. The more you build the more powerful the boost.</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>teslatower.name</source>
+        <target>Tesla Upgrade</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>tankturret.description</source>
+        <target>Each Heavyweight Turret receives a boost to their Attack and Health based on each Heavyweight Turret level across all bases. The more you build the more powerful the boost.</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>decimator.name</source>
+        <target>Decimator</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>disruptor.description</source>
+        <target>Heavily armored vehicles designed to take the heat.</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>battlecruiser.description</source>
+        <target>An advanced Battle Ship capable of dealing massive damage to multiple targets</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>chimera.description</source>
+        <target>Elite ranged artillery units that range devastation from afar.</target>
+      </trans-unit>
+      <trans-unit id="40">
         <source>antiaircraftturret.name</source>
         <target>Anti-Tank Upgrade</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="41">
         <source>brawler.description</source>
         <target>Heavy ballistic armor vulnerable to only Fire and Electricity make Berserkers tough to kill</target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="42">
         <source>battlecruiser.name</source>
         <target>Battle Cruiser</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>legend.defenselab-current</source>
+        <target>Current Defense Level</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>spacedragon.name</source>
+        <target>Incineraptor</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>antiaircraftturret.description</source>
+        <target>Each Anti-Tank Turret receives a boost to their Attack and Health based on each Anti-Tank Turret level across all bases. The more you build the more powerful the boost.</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>titan.description</source>
+        <target>Heavily armored combat walker designed for humanoids. </target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>corrosiveturret.name</source>
+        <target>Corrosive Upgrade</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>specter.description</source>
+        <target>Special ops alien unit capable of long range attacks.</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>exploder.description</source>
+        <target>From the frozen wastes of Cerulea, these trained beasts carry powerful, and highly unstable, pulse cannons on their backs!</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>pulsetank.description</source>
+        <target>In Beast Mode, Pulse Tanks fire huge explosives. They go into Beast Mode for 12 seconds when a friendly unit dies.</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>incendiaryturret.description</source>
+        <target>Each Incendiary Turret receives a boost to their Attack and Health based on each Incendiary Turret level across all bases. The more you build the more powerful the boost.</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>thor.name</source>
+        <target>Devastator</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>sentinel.name</source>
+        <target>Sentinel</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>thor.description</source>
+        <target>These elite artillery units outrange every other unit and almost all turrets. They also pack a fearsome punch. </target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>pulsetank.name</source>
+        <target>Pulse Tank</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>concussionturret.description</source>
+        <target>Each X-1 Cannon receives a boost to their Attack and Health based on each X-1 Cannon level across all bases. The more you build the more powerful the boost.</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>concussionturret.name</source>
+        <target>Concussion Upgrade</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>pyro.description</source>
+        <target>Armored assault trooper armed with dual arm-mounted flame throwers - they like to BBQ.</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>spacedragon.description</source>
+        <target>Flying synthetic beasts that unleash an unrelenting torrent of fireballs upon their prey.</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>chimera.name</source>
+        <target>Chimera</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>legend.defenselab-available</source>
+        <target>Available Defense Level</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>marine.name</source>
+        <target>Marine</target>
       </trans-unit>
     </body>
   </file>

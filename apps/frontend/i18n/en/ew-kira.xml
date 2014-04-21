@@ -5,20 +5,20 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>completed-missions-title</source>
-        <target>Excellent work!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>completed-missions</source>
-        <target>You have completed missions</target>
-      </trans-unit>
-      <trans-unit id="3">
         <source>click-to-view-missions</source>
         <target>Click to view missions</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="2">
         <source>no-completed-missions</source>
         <target>You do not have any completed missions</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>completed-missions-title</source>
+        <target>Excellent work!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>completed-missions</source>
+        <target>You have completed missions</target>
       </trans-unit>
     </body>
   </file>

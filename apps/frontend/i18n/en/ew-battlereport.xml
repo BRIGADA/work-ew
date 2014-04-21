@@ -5,16 +5,16 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>defense.xp</source>
-        <target>XP is not gained while defending your base.</target>
+        <source>skillpoints</source>
+        <target>General Skill Points:</target>
       </trans-unit>
       <trans-unit id="2">
-        <source>withdraw</source>
-        <target>Your forces withdrew from combat.</target>
+        <source>forcepoints</source>
+        <target>Force Gained:</target>
       </trans-unit>
       <trans-unit id="3">
-        <source>attacked.win</source>
-        <target>Your forces destroyed the enemy.</target>
+        <source>withdraw</source>
+        <target>Your forces withdrew from combat.</target>
       </trans-unit>
       <trans-unit id="4">
         <source>attackedby.lose</source>
@@ -25,20 +25,20 @@
         <target>XP is not gained while defending your base.</target>
       </trans-unit>
       <trans-unit id="6">
-        <source>skillpoints</source>
-        <target>General Skill Points:</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>forcepoints</source>
-        <target>Force Gained:</target>
-      </trans-unit>
-      <trans-unit id="8">
         <source>attackedby.win</source>
         <target>failed to destroy your base.</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="7">
         <source>attacked.lose</source>
         <target>Your forces failed to destroy the enemy.</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>defense.xp</source>
+        <target>XP is not gained while defending your base.</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>attacked.win</source>
+        <target>Your forces destroyed the enemy.</target>
       </trans-unit>
     </body>
   </file>

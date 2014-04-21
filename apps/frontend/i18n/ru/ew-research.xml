@@ -5,256 +5,256 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>legend.defenselab-current</source>
-        <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>spacedragon.name</source>
-        <target>&#x41F;&#x43E;&#x434;&#x436;&#x438;&#x433;&#x43E;&#x437;&#x430;&#x432;&#x440;</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>pyro.name</source>
-        <target>&#x41F;&#x43E;&#x434;&#x436;&#x438;&#x433;&#x430;&#x442;&#x435;&#x43B;&#x44C;</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>antiaircraftturret.description</source>
-        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43E;&#x442;&#x430;&#x43D;&#x43A;&#x43E;&#x432;&#x43E;&#x439; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>legend.techlab-available</source>
-        <target>&#x414;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>titan.description</source>
-        <target>&#x422;&#x44F;&#x436;&#x435;&#x43B;&#x43E; &#x431;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x431;&#x43E;&#x435;&#x432;&#x43E;&#x439; &#x445;&#x43E;&#x434;&#x43E;&#x43A; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x434;&#x43B;&#x44F; &#x433;&#x443;&#x43C;&#x430;&#x43D;&#x43E;&#x438;&#x434;&#x43E;&#x432;.</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>corrosiveturret.name</source>
-        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43A;&#x43E;&#x440;&#x440;&#x43E;&#x437;&#x438;&#x43E;&#x43D;&#x43D;&#x44B;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>specter.description</source>
-        <target>&#x421;&#x43F;&#x435;&#x446;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x431;&#x43E;&#x435;&#x432;&#x430;&#x44F; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x430; &#x447;&#x443;&#x436;&#x438;&#x445;, &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43D;&#x430;&#x44F; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x441; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x434;&#x438;&#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438;.</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>exploder.description</source>
-        <target>	&#x418;&#x437; &#x43B;&#x435;&#x434;&#x44F;&#x43D;&#x44B;&#x445; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E;&#x440;&#x43E;&#x432; &#x426;&#x435;&#x440;&#x443;&#x43B;&#x435;&#x438;</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>pulsetank.description</source>
-        <target>&#x412; &#x436;&#x435;&#x441;&#x442;&#x43E;&#x43A;&#x43E;&#x43C; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x435; &#x438;&#x43C;&#x43F;&#x443;&#x43B;&#x44C;&#x441;&#x43D;&#x44B;&#x439; &#x442;&#x430;&#x43D;&#x43A; &#x432;&#x44B;&#x43F;&#x443;&#x441;&#x43A;&#x430;&#x435;&#x442; &#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x441;&#x43D;&#x430;&#x440;&#x44F;&#x434;&#x43E;&#x432;. &#x41E;&#x43D; &#x43F;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x432; &#x436;&#x435;&#x441;&#x442;&#x43E;&#x43A;&#x438;&#x439; &#x440;&#x435;&#x436;&#x438;&#x43C; &#x43D;&#x430; 12 &#x441;&#x435;&#x43A;&#x443;&#x43D;&#x434;, &#x43A;&#x43E;&#x433;&#x434;&#x430; &#x43F;&#x43E;&#x433;&#x438;&#x431;&#x430;&#x435;&#x442; &#x434;&#x440;&#x443;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43E;&#x442;&#x440;&#x44F;&#x434;.</target>
-      </trans-unit>
-      <trans-unit id="11">
-        <source>shrike.description</source>
-        <target>&#x41B;&#x435;&#x433;&#x43A;&#x438;&#x435;, &#x431;&#x44B;&#x441;&#x442;&#x440;&#x44B;&#x435; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x435; &#x441;&#x440;&#x435;&#x434;&#x441;&#x442;&#x432;&#x430; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;&#x44B;&#x435; &#x43C;&#x43E;&#x440;&#x43F;&#x435;&#x445;&#x430;&#x43C;&#x438;, &#x43E;&#x441;&#x43D;&#x430;&#x449;&#x435;&#x43D;&#x44B; &#x43B;&#x430;&#x437;&#x435;&#x440;&#x43D;&#x43E;&#x439; &#x43F;&#x443;&#x448;&#x43A;&#x43E;&#x439;.</target>
-      </trans-unit>
-      <trans-unit id="12">
-        <source>raider.name</source>
-        <target>&#x420;&#x435;&#x439;&#x434;&#x435;&#x440;</target>
-      </trans-unit>
-      <trans-unit id="13">
-        <source>x1cannon.description</source>
-        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x443;&#x448;&#x435;&#x43A; X-1 &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x43F;&#x443;&#x448;&#x43A;&#x438; X-1 &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
-      </trans-unit>
-      <trans-unit id="14">
-        <source>teslatower.name</source>
-        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x422;&#x435;&#x441;&#x43B;&#x44B;</target>
-      </trans-unit>
-      <trans-unit id="15">
-        <source>incendiaryturret.description</source>
-        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x437;&#x430;&#x436;&#x438;&#x433;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x439; &#x431;&#x430;&#x448;&#x43D;&#x438; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
-      </trans-unit>
-      <trans-unit id="16">
-        <source>thor.name</source>
-        <target>&#x41E;&#x43F;&#x443;&#x441;&#x442;&#x43E;&#x448;&#x438;&#x442;&#x435;&#x43B;&#x44C;</target>
-      </trans-unit>
-      <trans-unit id="17">
-        <source>sentinel.name</source>
-        <target>&#x421;&#x442;&#x440;&#x430;&#x436;
-</target>
-      </trans-unit>
-      <trans-unit id="18">
-        <source>thor.description</source>
-        <target>&#x42D;&#x442;&#x438; &#x44D;&#x43B;&#x438;&#x442;&#x43D;&#x44B;&#x435; &#x43F;&#x43E;&#x434;&#x440;&#x430;&#x437;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x438;&#x43C;&#x435;&#x44E;&#x442; &#x441;&#x430;&#x43C;&#x443;&#x44E; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x443;&#x44E; &#x434;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x431;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x441;&#x440;&#x435;&#x434;&#x438; &#x432;&#x43E;&#x439;&#x441;&#x43A;, &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x43F;&#x43E;&#x447;&#x442;&#x438; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;. &#x41E;&#x43D;&#x438; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x43D;&#x430;&#x43D;&#x43E;&#x441;&#x44F;&#x442; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x443;&#x440;&#x43E;&#x43D;.</target>
-      </trans-unit>
-      <trans-unit id="19">
-        <source>tankturret.description</source>
-        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x442;&#x44F;&#x436;&#x435;&#x43B;&#x43E;&#x439; &#x431;&#x430;&#x448;&#x43D;&#x438; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
-      </trans-unit>
-      <trans-unit id="20">
-        <source>pulsetank.name</source>
-        <target>&#x418;&#x43C;&#x43F;&#x443;&#x43B;&#x44C;&#x441;&#x43D;&#x44B;&#x439; &#x442;&#x430;&#x43D;&#x43A;</target>
-      </trans-unit>
-      <trans-unit id="21">
-        <source>concussionturret.description</source>
-        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x443;&#x448;&#x435;&#x43A; X-1 &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x43F;&#x443;&#x448;&#x435;&#x43A; X-1 &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
-      </trans-unit>
-      <trans-unit id="22">
-        <source>concussionturret.name</source>
-        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x440;&#x430;&#x437;&#x440;&#x44B;&#x432;&#x43D;&#x44B;&#x445; &#x441;&#x43D;&#x430;&#x440;&#x44F;&#x434;&#x43E;&#x432;</target>
-      </trans-unit>
-      <trans-unit id="23">
-        <source>pyro.description</source>
-        <target>&#x411;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x430;&#x44F; &#x43F;&#x435;&#x445;&#x43E;&#x442;&#x430;, &#x432;&#x43E;&#x43E;&#x440;&#x443;&#x436;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x434;&#x432;&#x443;&#x43C;&#x44F; &#x43E;&#x433;&#x43D;&#x435;&#x43C;&#x435;&#x442;&#x430;&#x43C;&#x438; - &#x43E;&#x43D;&#x438; &#x43B;&#x44E;&#x431;&#x44F;&#x442; &#x431;&#x430;&#x440;&#x431;&#x435;&#x43A;&#x44E;.</target>
-      </trans-unit>
-      <trans-unit id="24">
-        <source>spacedragon.description</source>
-        <target>&#x41B;&#x435;&#x442;&#x443;&#x447;&#x438;&#x435; &#x441;&#x438;&#x43D;&#x442;&#x435;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x435; &#x43C;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x44B;, &#x43E;&#x431;&#x440;&#x443;&#x448;&#x438;&#x432;&#x430;&#x44E;&#x449;&#x438;&#x435; &#x43D;&#x430; &#x432;&#x440;&#x430;&#x433;&#x430; &#x43F;&#x43E;&#x442;&#x43E;&#x43A; &#x43E;&#x433;&#x43D;&#x44F;.</target>
-      </trans-unit>
-      <trans-unit id="25">
-        <source>decimator.name</source>
-        <target>&#x41F;&#x440;&#x43E;&#x440;&#x435;&#x436;&#x438;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;</target>
-      </trans-unit>
-      <trans-unit id="26">
-        <source>disruptor.description</source>
-        <target>&#x422;&#x44F;&#x436;&#x435;&#x43B;&#x43E; &#x431;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x435; &#x441;&#x440;&#x435;&#x434;&#x441;&#x442;&#x432;&#x430;.</target>
-      </trans-unit>
-      <trans-unit id="27">
-        <source>chimera.name</source>
-        <target>&#x425;&#x438;&#x43C;&#x435;&#x440;&#x430;</target>
-      </trans-unit>
-      <trans-unit id="28">
-        <source>battlecruiser.description</source>
-        <target>An advanced Battle Ship capable of dealing massive damage to multiple targets</target>
-      </trans-unit>
-      <trans-unit id="29">
-        <source>legend.defenselab-available</source>
-        <target>&#x414;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;</target>
-      </trans-unit>
-      <trans-unit id="30">
-        <source>marine.name</source>
-        <target>&#x41C;&#x43E;&#x440;&#x43F;&#x435;&#x445;</target>
-      </trans-unit>
-      <trans-unit id="31">
-        <source>chimera.description</source>
-        <target>&#x42D;&#x43B;&#x438;&#x442;&#x43D;&#x430;&#x44F; &#x430;&#x440;&#x442;&#x438;&#x43B;&#x43B;&#x435;&#x440;&#x438;&#x439;&#x441;&#x43A;&#x430;&#x44F; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x430;, &#x43D;&#x430;&#x43D;&#x43E;&#x441;&#x44F;&#x449;&#x430;&#x44F; &#x443;&#x440;&#x43E;&#x43D; &#x438;&#x437;&#x434;&#x430;&#x43B;&#x435;&#x43A;&#x430;.</target>
-      </trans-unit>
-      <trans-unit id="32">
         <source>sentinel.description</source>
         <target>&#x421;&#x442;&#x440;&#x430;&#x436;&#x438; &#x437;&#x430;&#x449;&#x438;&#x449;&#x435;&#x43D;&#x44B; &#x440;&#x430;&#x441;&#x441;&#x435;&#x438;&#x432;&#x430;&#x44E;&#x449;&#x435;&#x439; &#x433;&#x438;&#x43F;&#x435;&#x440;&#x431;&#x440;&#x43E;&#x43D;&#x435;&#x439;, &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43D;&#x43E;&#x439; &#x432;&#x44B;&#x434;&#x435;&#x440;&#x436;&#x438;&#x432;&#x430;&#x442;&#x44C; &#x432;&#x44B;&#x441;&#x442;&#x440;&#x435;&#x43B;&#x44B; &#x43C;&#x43E;&#x449;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x440;&#x443;&#x436;&#x438;&#x44F;.
 </target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="2">
         <source>disruptor.name</source>
         <target>&#x41F;&#x43E;&#x434;&#x440;&#x44B;&#x432;&#x43D;&#x438;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="3">
         <source>shrike.name</source>
         <target>&#x428;&#x440;&#x430;&#x439;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="4">
         <source>titan.name</source>
         <target>&#x422;&#x438;&#x442;&#x430;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="5">
         <source>gunturret.name</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x443;&#x448;&#x435;&#x447;&#x43D;&#x44B;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="6">
         <source>corrosiveturret.description</source>
         <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43A;&#x43E;&#x440;&#x440;&#x43E;&#x437;&#x438;&#x43E;&#x43D;&#x43D;&#x43E;&#x439; &#x431;&#x430;&#x448;&#x43D;&#x438; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="7">
         <source>gunturret.description</source>
         <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x443;&#x448;&#x435;&#x447;&#x43D;&#x43E;&#x439; &#x431;&#x430;&#x448;&#x43D;&#x438; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="8">
         <source>legend.techlab-current</source>
         <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x438;&#x441;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x439;</target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="9">
         <source>legend.defenselab-max</source>
         <target>&#x41C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="10">
         <source>tankturret.name</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x442;&#x44F;&#x436;&#x435;&#x43B;&#x44B;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="11">
         <source>decimator.description</source>
         <target>&#x41E;&#x433;&#x43D;&#x435;&#x434;&#x44B;&#x448;&#x430;&#x449;&#x435;&#x435; &#x447;&#x443;&#x434;&#x43E;&#x432;&#x438;&#x449;&#x435;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x435; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43D;&#x43E; &#x43F;&#x440;&#x435;&#x432;&#x440;&#x430;&#x442;&#x438;&#x442;&#x44C; &#x434;&#x430;&#x436;&#x435; &#x441;&#x430;&#x43C;&#x443;&#x44E; &#x43C;&#x43E;&#x449;&#x43D;&#x443;&#x44E; &#x431;&#x430;&#x437;&#x443; &#x432; &#x43F;&#x435;&#x43F;&#x435;&#x43B;.</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="12">
         <source>hornet.description</source>
         <target>&#x411;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x430;&#x44F; &#x43B;&#x435;&#x442;&#x430;&#x44E;&#x449;&#x430;&#x44F; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x430; &#x43E;&#x441;&#x43D;&#x430;&#x449;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x438;&#x43C;&#x43F;&#x443;&#x43B;&#x44C;&#x441;&#x43D;&#x43E;&#x439; &#x43F;&#x443;&#x448;&#x43A;&#x43E;&#x439; - &#x441;&#x43C;&#x435;&#x440;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x436;&#x430;&#x43B;&#x438;&#x442; &#x441;&#x432;&#x43E;&#x438;&#x445; &#x432;&#x440;&#x430;&#x433;&#x43E;&#x432;.</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="13">
         <source>x1cannon.name</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x443;&#x448;&#x43A;&#x438; X-1</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="14">
         <source>brawler.name</source>
         <target>&#x411;&#x435;&#x440;&#x441;&#x435;&#x440;&#x43A;
 </target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="15">
         <source>rhino.name</source>
         <target>&#x41D;&#x43E;&#x441;&#x43E;&#x440;&#x43E;&#x433;</target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="16">
         <source>teslatower.description</source>
         <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x422;&#x435;&#x441;&#x43B;&#x44B; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="17">
         <source>specter.name</source>
         <target>&#x41F;&#x440;&#x438;&#x437;&#x440;&#x430;&#x43A;</target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="18">
         <source>marine.description</source>
         <target>&#x413;&#x435;&#x43D;&#x435;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x43C;&#x43E;&#x434;&#x438;&#x444;&#x438;&#x446;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x430;&#x44F; &#x447;&#x435;&#x43B;&#x43E;&#x432;&#x435;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; &#x43F;&#x435;&#x445;&#x43E;&#x442;&#x430; &#x441; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x430;&#x43C;&#x438;.</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="19">
         <source>rhino.description</source>
         <target>&#x411;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x447;&#x443;&#x436;&#x438;&#x435;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44E;&#x442; &#x441;&#x432;&#x43E;&#x439; &#x43C;&#x43E;&#x449;&#x43D;&#x44B;&#x439; &#x440;&#x43E;&#x433; &#x432; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x442;&#x430;&#x440;&#x430;&#x43D;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="20">
         <source>snipertower.name</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x43D;&#x430;&#x439;&#x43F;&#x435;&#x440;&#x441;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="21">
         <source>snipertower.description</source>
         <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x441;&#x43D;&#x430;&#x439;&#x43F;&#x435;&#x440;&#x441;&#x43A;&#x43E;&#x439; &#x431;&#x430;&#x448;&#x43D;&#x438; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="22">
         <source>exploder.name</source>
         <target>	&#x411;&#x43E;&#x43C;&#x431;&#x430;</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="23">
         <source>spider.name</source>
         <target>Lancer</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="24">
         <source>hornet.name</source>
         <target>&#x428;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="25">
         <source>incendiaryturret.name</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x430;&#x436;&#x438;&#x433;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="26">
         <source>raider.description</source>
         <target>&#x411;&#x44B;&#x441;&#x442;&#x440;&#x44B;&#x439; &#x43F;&#x435;&#x445;&#x43E;&#x442;&#x438;&#x43D;&#x435;&#x446;-&#x447;&#x443;&#x436;&#x43E;&#x439;, &#x43E;&#x441;&#x43D;&#x430;&#x449;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x43D;&#x44B;&#x43C;&#x438; &#x443;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430;&#x43C;&#x438; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x430;. &#x41C;&#x43E;&#x436;&#x435;&#x442; &#x431;&#x44B;&#x441;&#x442;&#x440;&#x43E; &#x432;&#x44B;&#x43A;&#x430;&#x447;&#x438;&#x432;&#x430;&#x442;&#x44C; &#x43F;&#x43E;&#x43B;&#x435;&#x437;&#x43D;&#x44B;&#x435; &#x438;&#x441;&#x43A;&#x43E;&#x43F;&#x430;&#x435;&#x43C;&#x44B;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="27">
         <source>spider.description</source>
         <target>&#x41E;&#x433;&#x440;&#x43E;&#x43C;&#x43D;&#x44B;&#x435; &#x446;&#x435;&#x440;&#x443;&#x43B;&#x438;&#x430;&#x43D;&#x441;&#x43A;&#x438;&#x435; &#x447;&#x443;&#x434;&#x43E;&#x432;&#x438;&#x449;&#x430;, &#x432;&#x43D;&#x435;&#x448;&#x43D;&#x435; &#x43D;&#x430;&#x43F;&#x43E;&#x43C;&#x438;&#x43D;&#x430;&#x44E;&#x449;&#x438;&#x435; &#x43E;&#x441;. &#x41D;&#x430;&#x43D;&#x43E;&#x441;&#x44F;&#x442; &#x432; 10 &#x440;&#x430;&#x437; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430; &#x431;&#x430;&#x448;&#x43D;&#x44F;&#x43C; &#x422;&#x435;&#x441;&#x43B;&#x44B; &#x438; &#x43D;&#x435;&#x443;&#x44F;&#x437;&#x432;&#x438;&#x43C;&#x44B; &#x434;&#x43B;&#x44F; &#x43E;&#x433;&#x43D;&#x44F; &#x437;&#x430;&#x436;&#x438;&#x433;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x44F;&#x434;&#x435;&#x440;.</target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="28">
         <source>legend.techlab-max</source>
         <target>&#x41C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="29">
+        <source>pyro.name</source>
+        <target>&#x41F;&#x43E;&#x434;&#x436;&#x438;&#x433;&#x430;&#x442;&#x435;&#x43B;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>legend.techlab-available</source>
+        <target>&#x414;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>shrike.description</source>
+        <target>&#x41B;&#x435;&#x433;&#x43A;&#x438;&#x435;, &#x431;&#x44B;&#x441;&#x442;&#x440;&#x44B;&#x435; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x435; &#x441;&#x440;&#x435;&#x434;&#x441;&#x442;&#x432;&#x430; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;&#x44B;&#x435; &#x43C;&#x43E;&#x440;&#x43F;&#x435;&#x445;&#x430;&#x43C;&#x438;, &#x43E;&#x441;&#x43D;&#x430;&#x449;&#x435;&#x43D;&#x44B; &#x43B;&#x430;&#x437;&#x435;&#x440;&#x43D;&#x43E;&#x439; &#x43F;&#x443;&#x448;&#x43A;&#x43E;&#x439;.</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>raider.name</source>
+        <target>&#x420;&#x435;&#x439;&#x434;&#x435;&#x440;</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>x1cannon.description</source>
+        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x443;&#x448;&#x435;&#x43A; X-1 &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x43F;&#x443;&#x448;&#x43A;&#x438; X-1 &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>teslatower.name</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x422;&#x435;&#x441;&#x43B;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>tankturret.description</source>
+        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x442;&#x44F;&#x436;&#x435;&#x43B;&#x43E;&#x439; &#x431;&#x430;&#x448;&#x43D;&#x438; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>decimator.name</source>
+        <target>&#x41F;&#x440;&#x43E;&#x440;&#x435;&#x436;&#x438;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>disruptor.description</source>
+        <target>&#x422;&#x44F;&#x436;&#x435;&#x43B;&#x43E; &#x431;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x442;&#x440;&#x430;&#x43D;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x44B;&#x435; &#x441;&#x440;&#x435;&#x434;&#x441;&#x442;&#x432;&#x430;.</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>battlecruiser.description</source>
+        <target>An advanced Battle Ship capable of dealing massive damage to multiple targets</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>chimera.description</source>
+        <target>&#x42D;&#x43B;&#x438;&#x442;&#x43D;&#x430;&#x44F; &#x430;&#x440;&#x442;&#x438;&#x43B;&#x43B;&#x435;&#x440;&#x438;&#x439;&#x441;&#x43A;&#x430;&#x44F; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x430;, &#x43D;&#x430;&#x43D;&#x43E;&#x441;&#x44F;&#x449;&#x430;&#x44F; &#x443;&#x440;&#x43E;&#x43D; &#x438;&#x437;&#x434;&#x430;&#x43B;&#x435;&#x43A;&#x430;.</target>
+      </trans-unit>
+      <trans-unit id="40">
         <source>antiaircraftturret.name</source>
         <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43E;&#x442;&#x430;&#x43D;&#x43A;&#x43E;&#x432;&#x44B;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="41">
         <source>brawler.description</source>
         <target>&#x411;&#x43B;&#x430;&#x433;&#x43E;&#x434;&#x430;&#x440;&#x44F; &#x442;&#x44F;&#x436;&#x435;&#x43B;&#x43E;&#x439; &#x431;&#x440;&#x43E;&#x43D;&#x435;, &#x443;&#x44F;&#x437;&#x432;&#x438;&#x43C;&#x43E;&#x439; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x434;&#x43B;&#x44F; &#x43E;&#x433;&#x43D;&#x44F; &#x438; &#x44D;&#x43B;&#x435;&#x43A;&#x442;&#x440;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x430;, &#x431;&#x435;&#x440;&#x441;&#x435;&#x440;&#x43A;&#x430; &#x443;&#x431;&#x438;&#x442;&#x44C; &#x43D;&#x435; &#x442;&#x430;&#x43A;-&#x442;&#x43E; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E;
 </target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="42">
         <source>battlecruiser.name</source>
         <target>&#x421;&#x443;&#x43F;&#x435;&#x440;&#x43A;&#x440;&#x435;&#x439;&#x441;&#x435;&#x440;</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>legend.defenselab-current</source>
+        <target>&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>spacedragon.name</source>
+        <target>&#x41F;&#x43E;&#x434;&#x436;&#x438;&#x433;&#x43E;&#x437;&#x430;&#x432;&#x440;</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>antiaircraftturret.description</source>
+        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x43E;&#x442;&#x430;&#x43D;&#x43A;&#x43E;&#x432;&#x43E;&#x439; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>titan.description</source>
+        <target>&#x422;&#x44F;&#x436;&#x435;&#x43B;&#x43E; &#x431;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x431;&#x43E;&#x435;&#x432;&#x43E;&#x439; &#x445;&#x43E;&#x434;&#x43E;&#x43A; &#x43F;&#x440;&#x435;&#x434;&#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x434;&#x43B;&#x44F; &#x433;&#x443;&#x43C;&#x430;&#x43D;&#x43E;&#x438;&#x434;&#x43E;&#x432;.</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>corrosiveturret.name</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43A;&#x43E;&#x440;&#x440;&#x43E;&#x437;&#x438;&#x43E;&#x43D;&#x43D;&#x44B;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>specter.description</source>
+        <target>&#x421;&#x43F;&#x435;&#x446;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x431;&#x43E;&#x435;&#x432;&#x430;&#x44F; &#x435;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x430; &#x447;&#x443;&#x436;&#x438;&#x445;, &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43D;&#x430;&#x44F; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x441; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x434;&#x438;&#x441;&#x442;&#x430;&#x43D;&#x446;&#x438;&#x438;.</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>exploder.description</source>
+        <target>	&#x418;&#x437; &#x43B;&#x435;&#x434;&#x44F;&#x43D;&#x44B;&#x445; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E;&#x440;&#x43E;&#x432; &#x426;&#x435;&#x440;&#x443;&#x43B;&#x435;&#x438;</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>pulsetank.description</source>
+        <target>&#x412; &#x436;&#x435;&#x441;&#x442;&#x43E;&#x43A;&#x43E;&#x43C; &#x440;&#x435;&#x436;&#x438;&#x43C;&#x435; &#x438;&#x43C;&#x43F;&#x443;&#x43B;&#x44C;&#x441;&#x43D;&#x44B;&#x439; &#x442;&#x430;&#x43D;&#x43A; &#x432;&#x44B;&#x43F;&#x443;&#x441;&#x43A;&#x430;&#x435;&#x442; &#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x441;&#x43D;&#x430;&#x440;&#x44F;&#x434;&#x43E;&#x432;. &#x41E;&#x43D; &#x43F;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x432; &#x436;&#x435;&#x441;&#x442;&#x43E;&#x43A;&#x438;&#x439; &#x440;&#x435;&#x436;&#x438;&#x43C; &#x43D;&#x430; 12 &#x441;&#x435;&#x43A;&#x443;&#x43D;&#x434;, &#x43A;&#x43E;&#x433;&#x434;&#x430; &#x43F;&#x43E;&#x433;&#x438;&#x431;&#x430;&#x435;&#x442; &#x434;&#x440;&#x443;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43E;&#x442;&#x440;&#x44F;&#x434;.</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>incendiaryturret.description</source>
+        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x437;&#x430;&#x436;&#x438;&#x433;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x439; &#x431;&#x430;&#x448;&#x43D;&#x438; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x442;&#x430;&#x43A;&#x438;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D; &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>thor.name</source>
+        <target>&#x41E;&#x43F;&#x443;&#x441;&#x442;&#x43E;&#x448;&#x438;&#x442;&#x435;&#x43B;&#x44C;</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>sentinel.name</source>
+        <target>&#x421;&#x442;&#x440;&#x430;&#x436;
+</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>thor.description</source>
+        <target>&#x42D;&#x442;&#x438; &#x44D;&#x43B;&#x438;&#x442;&#x43D;&#x44B;&#x435; &#x43F;&#x43E;&#x434;&#x440;&#x430;&#x437;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x438;&#x43C;&#x435;&#x44E;&#x442; &#x441;&#x430;&#x43C;&#x443;&#x44E; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x443;&#x44E; &#x434;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x431;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x441;&#x440;&#x435;&#x434;&#x438; &#x432;&#x43E;&#x439;&#x441;&#x43A;, &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x43F;&#x43E;&#x447;&#x442;&#x438; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x448;&#x435;&#x43D;. &#x41E;&#x43D;&#x438; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x43D;&#x430;&#x43D;&#x43E;&#x441;&#x44F;&#x442; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x443;&#x440;&#x43E;&#x43D;.</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>pulsetank.name</source>
+        <target>&#x418;&#x43C;&#x43F;&#x443;&#x43B;&#x44C;&#x441;&#x43D;&#x44B;&#x439; &#x442;&#x430;&#x43D;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>concussionturret.description</source>
+        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x439; &#x430;&#x442;&#x430;&#x43A;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43F;&#x443;&#x448;&#x435;&#x43A; X-1 &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x442; &#x43E;&#x442; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x439; &#x438;&#x437; &#x43F;&#x443;&#x448;&#x435;&#x43A; X-1 &#x43D;&#x430; &#x432;&#x441;&#x435;&#x445; &#x431;&#x430;&#x437;&#x430;&#x445;. &#x427;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x432;&#x44B; &#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x435;, &#x442;&#x435;&#x43C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43F;&#x440;&#x438;&#x440;&#x43E;&#x441;&#x442;.</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>concussionturret.name</source>
+        <target>&#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x440;&#x430;&#x437;&#x440;&#x44B;&#x432;&#x43D;&#x44B;&#x445; &#x441;&#x43D;&#x430;&#x440;&#x44F;&#x434;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>pyro.description</source>
+        <target>&#x411;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x430;&#x44F; &#x43F;&#x435;&#x445;&#x43E;&#x442;&#x430;, &#x432;&#x43E;&#x43E;&#x440;&#x443;&#x436;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x434;&#x432;&#x443;&#x43C;&#x44F; &#x43E;&#x433;&#x43D;&#x435;&#x43C;&#x435;&#x442;&#x430;&#x43C;&#x438; - &#x43E;&#x43D;&#x438; &#x43B;&#x44E;&#x431;&#x44F;&#x442; &#x431;&#x430;&#x440;&#x431;&#x435;&#x43A;&#x44E;.</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>spacedragon.description</source>
+        <target>&#x41B;&#x435;&#x442;&#x443;&#x447;&#x438;&#x435; &#x441;&#x438;&#x43D;&#x442;&#x435;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x435; &#x43C;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x44B;, &#x43E;&#x431;&#x440;&#x443;&#x448;&#x438;&#x432;&#x430;&#x44E;&#x449;&#x438;&#x435; &#x43D;&#x430; &#x432;&#x440;&#x430;&#x433;&#x430; &#x43F;&#x43E;&#x442;&#x43E;&#x43A; &#x43E;&#x433;&#x43D;&#x44F;.</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>chimera.name</source>
+        <target>&#x425;&#x438;&#x43C;&#x435;&#x440;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>legend.defenselab-available</source>
+        <target>&#x414;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x43E;&#x431;&#x43E;&#x440;&#x43E;&#x43D;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>marine.name</source>
+        <target>&#x41C;&#x43E;&#x440;&#x43F;&#x435;&#x445;</target>
       </trans-unit>
     </body>
   </file>

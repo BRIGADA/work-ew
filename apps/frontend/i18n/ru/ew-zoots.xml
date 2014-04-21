@@ -5,56 +5,56 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>click.to.play</source>
-        <target>&#x41D;&#x430;&#x436;&#x43C;&#x438; &#x418;&#x433;&#x440;&#x430;&#x442;&#x44C;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x43F;&#x440;&#x438;&#x437;!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>claim.prize</source>
-        <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x443;</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>again</source>
-        <target>&#x418;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x441;&#x43D;&#x43E;&#x432;&#x430;?</target>
-      </trans-unit>
-      <trans-unit id="4">
         <source>explain</source>
         <target>&#x422;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x431;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x43E; &#x43E;&#x434;&#x438;&#x43D; &#x440;&#x430;&#x437; &#x432; &#x434;&#x435;&#x43D;&#x44C;.</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="2">
         <source>won</source>
         <target>&#x422;&#x42B; &#x41F;&#x41E;&#x411;&#x415;&#x414;&#x418;&#x41B;!</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="3">
         <source>pick.box</source>
         <target>&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438; &#x44F;&#x449;&#x438;&#x43A;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44C; &#x441;&#x432;&#x43E;&#x44E; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x443;.</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="4">
         <source>play.again</source>
         <target>&#x418;&#x433;&#x440;&#x430;&#x439; &#x441;&#x43D;&#x43E;&#x432;&#x430;, &#x435;&#x441;&#x43B;&#x438; &#x442;&#x44B; &#x445;&#x43E;&#x447;&#x435;&#x448;&#x44C; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x435;&#x449;&#x435; &#x43E;&#x434;&#x438;&#x43D; &#x437;&#x430;&#x43C;&#x435;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; &#x43F;&#x440;&#x438;&#x437;.</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="5">
         <source>use.in.store</source>
         <target>&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439; &#x44D;&#x442;&#x43E;&#x442; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442; &#x432; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x435;</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="6">
         <source>need.tokens</source>
         <target>&#x41E;, &#x43D;&#x435;&#x442;, &#x443; &#x442;&#x435;&#x431;&#x44F; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x435;&#x442; &#x436;&#x435;&#x442;&#x43E;&#x43D;&#x43E;&#x432;. &#x422;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x43A;&#x443;&#x43F;&#x438;&#x442;&#x44C; &#x435;&#x449;&#x435; &#x43E;&#x434;&#x438;&#x43D;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x441;&#x44B;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x441;&#x43D;&#x43E;&#x432;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="7">
         <source>intro</source>
         <target/>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="8">
         <source>welcome</source>
         <target>&#x41F;&#x440;&#x438;&#x432;&#x435;&#x442;, &#x44F; &#x417;&#x443;&#x442;, &#x432;&#x43B;&#x430;&#x434;&#x435;&#x43B;&#x435;&#x446; &#xAB;&#x422;&#x440;&#x43E;&#x444;&#x435;&#x438; &#x417;&#x443;&#x442;&#x430;&#xBB;.</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="9">
+        <source>click.to.play</source>
+        <target>&#x41D;&#x430;&#x436;&#x43C;&#x438; &#x418;&#x433;&#x440;&#x430;&#x442;&#x44C;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x432;&#x44B;&#x438;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x43F;&#x440;&#x438;&#x437;!</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>again</source>
+        <target>&#x418;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x441;&#x43D;&#x43E;&#x432;&#x430;?</target>
+      </trans-unit>
+      <trans-unit id="11">
         <source>lucky.day</source>
         <target>&#x41A;&#x430;&#x436;&#x435;&#x442;&#x441;&#x44F; &#x44D;&#x442;&#x43E; &#x442;&#x432;&#x43E;&#x439; &#x441;&#x447;&#x430;&#x441;&#x442;&#x43B;&#x438;&#x432;&#x44B;&#x439; &#x434;&#x435;&#x43D;&#x44C;!</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="12">
         <source>use.tokens</source>
         <target>&#x41D;&#x430;&#x436;&#x43C;&#x438; &#x418;&#x433;&#x440;&#x430;&#x442;&#x44C;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43E;&#x434;&#x438;&#x43D; &#x438;&#x437; &#x441;&#x432;&#x43E;&#x438;&#x445; &#x436;&#x435;&#x442;&#x43E;&#x43D;&#x43E;&#x432;.</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>claim.prize</source>
+        <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x443;</target>
       </trans-unit>
     </body>
   </file>

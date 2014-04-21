@@ -5,69 +5,69 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>alliancetournamentdialog.ruleslink</source>
-        <target>http://www.whatever.com/bin.net</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>tournamentdialog.reward</source>
-        <target>Top prize is Platinum!</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>alliancetournamentdialog.subtitle</source>
-        <target>ALLIANCE TOURNAMENT</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>alliancetournamentdialog.reward</source>
-        <target>Top Prize is 1,000 Platinum!</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>tournamentdialog.ruleslink-text</source>
-        <target>here&gt;&gt;</target>
-      </trans-unit>
-      <trans-unit id="6">
         <source>tournamentdialog.time</source>
         <target>Tournament Time Remaining:</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="2">
         <source>alliancetournamentdialog.time</source>
         <target>Tournament time remaining:</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="3">
         <source>tournamentdialog.subtitle</source>
         <target>PLAYER TOURNAMENT</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="4">
         <source>tournamentdialog.desc</source>
         <target>Show Cerulea IV who the real Commander is by competing in our player tournament.&lt;br /&gt;&lt;br /&gt;The Player with the highest map score at the end of the tournament will win great prizes!</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="5">
         <source>alliancetournamentdialog.ruleslink-text</source>
         <target>here&gt;&gt;</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="6">
         <source>tournamentdialog.title</source>
         <target>MAP TOURNAMENTS</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="7">
         <source>tournamentdialog.rules</source>
         <target>Full rules and prize list can be found  #HERE#</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="8">
         <source>tournamentdialog.ruleslink</source>
         <target>http://community.kabam.com/forums/showthread.php?90955-New-Feature-Tournament-Maps!</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="9">
+        <source>alliancetournamentdialog.subtitle</source>
+        <target>ALLIANCE TOURNAMENT</target>
+      </trans-unit>
+      <trans-unit id="10">
         <source>alliancetournamentdialog.desc</source>
         <target>Prove your alliance's dominance on Cerulea IV by competing in our map tournaments.
 The alliance with the highest map score at the end of the tournament will win great prizes!</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="11">
         <source>alliancetournamentdialog.title</source>
         <target>MAP TOURNAMENTS</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="12">
         <source>alliancetournamentdialog.rules</source>
         <target>Full rules and prize list can be found </target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>alliancetournamentdialog.ruleslink</source>
+        <target>http://www.whatever.com/bin.net</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>tournamentdialog.reward</source>
+        <target>Top prize is Platinum!</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>alliancetournamentdialog.reward</source>
+        <target>Top Prize is 1,000 Platinum!</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>tournamentdialog.ruleslink-text</source>
+        <target>here&gt;&gt;</target>
       </trans-unit>
     </body>
   </file>

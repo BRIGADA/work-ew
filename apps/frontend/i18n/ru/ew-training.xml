@@ -5,12 +5,12 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>mech</source>
-        <target>&#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x43C;&#x435;&#x445;&#x43E;&#x432;</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>infantry</source>
         <target>&#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x435;&#x445;&#x43E;&#x442;&#x44B;</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>mech</source>
+        <target>&#x41E;&#x431;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x43C;&#x435;&#x445;&#x43E;&#x432;</target>
       </trans-unit>
     </body>
   </file>

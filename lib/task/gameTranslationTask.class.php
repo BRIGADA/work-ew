@@ -36,7 +36,8 @@ EOF;
 //    $this->logBlock($dir, 'INFO');
 //    return;
 
-        $xml = simplexml_load_file($arguments['file'], "SimpleXMLElement", LIBXML_NOERROR | LIBXML_ERR_NONE | LIBXML_NOENT);
+        $xml = simplexml_load_file($arguments['file']);
+//        $xml = simplexml_load_file($arguments['file'], "SimpleXMLElement", LIBXML_NOERROR | LIBXML_ERR_NONE | LIBXML_NOENT);
 
         if (!$xml) {
             foreach (libxml_get_errors() as $error) {

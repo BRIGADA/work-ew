@@ -5,16 +5,16 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>names.mallick</source>
-        <target>Governor Malick</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>names.grod</source>
         <target>General Grod</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>names.executrix</source>
         <target>Executrix Scylith</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>names.mallick</source>
+        <target>Governor Malick</target>
       </trans-unit>
     </body>
   </file>

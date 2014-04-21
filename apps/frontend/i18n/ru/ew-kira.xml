@@ -5,20 +5,20 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>completed-missions-title</source>
-        <target>&#x41E;&#x442;&#x43B;&#x438;&#x447;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>completed-missions</source>
-        <target>&#x412;&#x44B; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x438;&#x43B;&#x438; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x44E;</target>
-      </trans-unit>
-      <trans-unit id="3">
         <source>click-to-view-missions</source>
         <target>&#x41D;&#x430;&#x436;&#x43C;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x440;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x442;&#x44C; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x438;</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="2">
         <source>no-completed-missions</source>
         <target>&#x423; &#x432;&#x430;&#x441; &#x43D;&#x435;&#x442; &#x43D;&#x438;&#x43A;&#x430;&#x43A;&#x438;&#x445; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43D;&#x44B;&#x445; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>completed-missions-title</source>
+        <target>&#x41E;&#x442;&#x43B;&#x438;&#x447;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>completed-missions</source>
+        <target>&#x412;&#x44B; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x438;&#x43B;&#x438; &#x43C;&#x438;&#x441;&#x441;&#x438;&#x44E;</target>
       </trans-unit>
     </body>
   </file>

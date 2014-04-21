@@ -5,20 +5,20 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>armor</source>
-        <target>Armor Boosts Coming Soon!</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>firepower</source>
         <target>Ammunition Boosts Coming Soon!</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>default</source>
         <target>Coming soon</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="3">
         <source>alliances</source>
         <target>Alliances coming VERY VERY soon!!!!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>armor</source>
+        <target>Armor Boosts Coming Soon!</target>
       </trans-unit>
     </body>
   </file>

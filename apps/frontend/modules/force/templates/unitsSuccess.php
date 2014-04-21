@@ -44,6 +44,10 @@
         </tr>
     </tfoot>
 </table>
+
+<div class="well text-right" style="font-size: 2em; display: none;" id="autojob-stat">
+    Rate: <strong></strong> box/sec
+</div>
 <script type="text/javascript">
 
     function updateTotal() {
@@ -56,12 +60,26 @@
     }
 
     updateTotal();
+    
+    var autojob_time = null;
+    var autojob_count = 0;
 
     $('.action-use-all').click(function() {
+        $(this).closest('tr').find('button').hide();
         function use_all(tr) {
+            if(autojob_time == null) {
+                $('#autojob-stat').show();
+                autojob_count = 0;
+                autojob_time = new Date();
+            }
+            
             use_item(tr, function() {
+                autojob_count++;
+                var curtime = new Date();
+                var rate = autojob_count * 1000 / (curtime - autojob_time);
+                $('#autojob-stat strong').text(rate.toFixed(3));
                 use_all(tr);
-            });
+            });            
         }
         use_all($(this).closest('tr'));
         $(this).closest('tr').addClass('success');
@@ -86,14 +104,23 @@
                 type: 'post',
                 data: {
                     path: '/api/player/items/' + $(tr).data('id'),
+                    proxy: true,
+                    element: 'response',
                     query: {
-                        _basis_id: $('#base').val(),
+                        basis_id: $('#base').val(),
                         _method: 'delete'
                     }
                 },
                 success: function(response) {
-                    console.log(response);
-                    callback();
+                    if (response.success) {
+                        callback();
+                    }
+                    else {
+                        $(tr).removeClass().addClass('danger');
+                    }
+                },
+                error: function() {
+                    $(tr).removeClass().addClass('danger');
                 }
             });
         }

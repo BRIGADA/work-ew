@@ -5,16 +5,16 @@
     <header/>
     <body>
       <trans-unit id="1">
+        <source>reward</source>
+        <target>Reward</target>
+      </trans-unit>
+      <trans-unit id="2">
         <source>tooltip</source>
         <target>XP Reward</target>
       </trans-unit>
-      <trans-unit id="2">
+      <trans-unit id="3">
         <source>label</source>
         <target>#AMOUNT# XP</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>reward</source>
-        <target>Reward</target>
       </trans-unit>
     </body>
   </file>

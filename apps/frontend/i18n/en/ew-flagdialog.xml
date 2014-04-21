@@ -5,28 +5,28 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>myflags</source>
-        <target>My Banners</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>buysomeflags</source>
-        <target>Purchase Some Banners To Customize Your Banner Monument!</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>miscflags</source>
-        <target>Miscellaneous Banners</target>
-      </trans-unit>
-      <trans-unit id="4">
         <source>countryflags</source>
         <target>Country Banners</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="2">
         <source>title</source>
         <target>Banner Monument</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="3">
         <source>availableflags</source>
         <target>Available Banners</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>myflags</source>
+        <target>My Banners</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>buysomeflags</source>
+        <target>Purchase Some Banners To Customize Your Banner Monument!</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>miscflags</source>
+        <target>Miscellaneous Banners</target>
       </trans-unit>
     </body>
   </file>

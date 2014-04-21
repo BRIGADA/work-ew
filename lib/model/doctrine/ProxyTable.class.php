@@ -24,6 +24,8 @@ class ProxyTable extends Doctrine_Table {
       $record->timestamp = $msg['timestamp'];
     }
     $record->save();
+    $record->free(true);
+    unset($record);
   }
 
 }

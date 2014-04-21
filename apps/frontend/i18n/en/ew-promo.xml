@@ -5,52 +5,52 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>ton.button</source>
-        <target>Play Now!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>doa.paragraph1</source>
-        <target>Build your empire in Dragons of Atlantis!</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>doa.paragraph2</source>
-        <target>Join the Dragons community and get rewards in BOTH games!</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>doa.moredetailstooltip</source>
-        <target>Find out more in our Forum!</target>
-      </trans-unit>
-      <trans-unit id="5">
         <source>tgf.body</source>
         <target>Become The Don. Join one of the Five Families!</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="2">
         <source>tgf.title</source>
         <target>Kabam Presents The Godfather: Five Families</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="3">
         <source>doa.moredetails</source>
         <target>More Details Here</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="4">
         <source>tgf.button</source>
         <target>Play Now!</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="5">
         <source>doa.title</source>
         <target>PLAY DRAGONS OF ATLANTIS</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="6">
         <source>ton.body</source>
         <target>Join bloodthirsty vampires in a fight for supremacy!</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="7">
         <source>ton.title</source>
         <target>Kabam Presents: Thirst of Night</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="8">
         <source>doa.playtooltip</source>
         <target>Play Dragons of Atlantis now!</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>ton.button</source>
+        <target>Play Now!</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>doa.paragraph1</source>
+        <target>Build your empire in Dragons of Atlantis!</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>doa.paragraph2</source>
+        <target>Join the Dragons community and get rewards in BOTH games!</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>doa.moredetailstooltip</source>
+        <target>Find out more in our Forum!</target>
       </trans-unit>
     </body>
   </file>

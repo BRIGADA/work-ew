@@ -5,24 +5,24 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>title.20130503resourceconverter</source>
-        <target>Resource Converter Build Times 80% OFF!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>title.04302013generals</source>
-        <target>Generals Have Become Even Stronger!</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>title.20130426buildtimes</source>
-        <target>Research Times 75% OFF!</target>
-      </trans-unit>
-      <trans-unit id="4">
         <source>text.20130503resourceconverter</source>
         <target>Resource Converter build times all reduced by 80%!</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="2">
+        <source>title.20130503resourceconverter</source>
+        <target>Resource Converter Build Times 80% OFF!</target>
+      </trans-unit>
+      <trans-unit id="3">
         <source>text.20130426buildtimes</source>
         <target>Unit and Turret Control research times reduced by 75%!</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>title.04302013generals</source>
+        <target>Generals Have Become Even Stronger!</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>title.20130426buildtimes</source>
+        <target>Research Times 75% OFF!</target>
       </trans-unit>
     </body>
   </file>

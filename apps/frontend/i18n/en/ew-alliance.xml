@@ -5,12 +5,12 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>create-alliance.alliance-description</source>
-        <target>Alliance Description</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>create-alliance.alliance-name</source>
         <target>Alliance Name</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>create-alliance.alliance-description</source>
+        <target>Alliance Description</target>
       </trans-unit>
     </body>
   </file>

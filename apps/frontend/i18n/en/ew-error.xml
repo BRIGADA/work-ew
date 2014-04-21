@@ -5,133 +5,133 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>attack-level-too-low</source>
-        <target>Your level is too low to attack this player.</target>
+        <source>same-alliance</source>
+        <target>Your alliance controls this outpost.</target>
       </trans-unit>
       <trans-unit id="2">
+        <source>inactive-player</source>
+        <target>Are you still in command? Reboot comm link to continue. </target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>already-researching</source>
+        <target>You are already researching something, Speed Up your job to create another one.</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>alliance-member</source>
+        <target>This base belongs to a member of your alliance.</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>workers-busy</source>
+        <target>All of your workers are busy, buy more in the store!</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>same-player</source>
+        <target>You control this outpost.</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>sp-overflow</source>
+        <target>Commander, your skill point capacity is #SKILL_POINT_CAPACITY#.  Using this item would cause an overflow of #LOST_SKILL_POINTS# skill points. Continue?</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>build-barracks</source>
+        <target>Build a Barracks to train infantry units.</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>delete-barracks.training</source>
+        <target>No Barracks can be deconstructed while training units.</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>build-academy</source>
+        <target>Build an Academy to train Chimera units.</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>sp-fullcapactiy</source>
+        <target>Commander, your skill point capacity is already maxed out! Level up your General's skills or your Generals Headquarters to increase capacity.</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>delete-staging.space</source>
+        <target>No Staging Areas can be deconstructed when it holds units.</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>build-factory</source>
+        <target>Build a Factory to train mechanized units.</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>capacity-reached</source>
+        <target>Storage Capacity Reached: Build or Upgrade Supply Depots.</target>
+      </trans-unit>
+      <trans-unit id="15">
         <source>full</source>
         <target>Full</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="16">
         <source>idle-player</source>
         <target>COMMANDER, WE HAVE LOST CONNECTION WITH OUR BASE.&lt;br&gt;REBOOT THE LINK TO CONTINUE</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="17">
         <source>unable-to-load-alliance</source>
         <target>Unable to load this alliance.  It is possible this alliance no longer exists.</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="18">
         <source>resource-lost</source>
         <target>You don't have enough resource storage space. Resources gained from deconstruction will be lost if you continue!</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="19">
+        <source>speedup-on-job</source>
+        <target>Sorry commander! In order to use that item you must click Speed on an existing job.</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>resource-overflow</source>
+        <target>Sorry commander! Your storage capacity for this resource has been reached. Build or Upgrade Supply Depots to increase your storage capacity.  Then you can use this item.</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>delete-academy.training</source>
+        <target>No Fleet Academy can be desconstructed while training units.</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>unit-lost</source>
+        <target>You don't have enough free space in your Staging Area for these units so you will lose some if you continue!</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>build-techlab</source>
+        <target>You can't research anything until you build a Tech Lab.</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>no-troops</source>
+        <target>You do not have any units to attack with</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>incorrect-base</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>no-buildings</source>
+        <target>This base has no buildings!</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>warpgate-full</source>
+        <target>Warp Gate is full</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>attack-level-too-low</source>
+        <target>Your level is too low to attack this player.</target>
+      </trans-unit>
+      <trans-unit id="29">
         <source>opponent-level-too-high</source>
         <target>Target level is too high
 </target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="30">
         <source>delete-factory.training</source>
         <target>No Factories can be deconstructed while training units.</target>
       </trans-unit>
-      <trans-unit id="8">
-        <source>speedup-on-job</source>
-        <target>Sorry commander! In order to use that item you must click Speed on an existing job.</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>resource-overflow</source>
-        <target>Sorry commander! Your storage capacity for this resource has been reached. Build or Upgrade Supply Depots to increase your storage capacity.  Then you can use this item.</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>delete-academy.training</source>
-        <target>No Fleet Academy can be desconstructed while training units.</target>
-      </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="31">
         <source>cannot-attack-protection</source>
         <target>Enemy base is under protection and cannot be attacked</target>
       </trans-unit>
-      <trans-unit id="12">
-        <source>unit-lost</source>
-        <target>You don't have enough free space in your Staging Area for these units so you will lose some if you continue!</target>
-      </trans-unit>
-      <trans-unit id="13">
-        <source>build-techlab</source>
-        <target>You can't research anything until you build a Tech Lab.</target>
-      </trans-unit>
-      <trans-unit id="14">
-        <source>no-troops</source>
-        <target>You do not have any units to attack with</target>
-      </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="32">
         <source>need-more-units</source>
         <target>Train more units to do that</target>
-      </trans-unit>
-      <trans-unit id="16">
-        <source>incorrect-base</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="17">
-        <source>same-alliance</source>
-        <target>Your alliance controls this outpost.</target>
-      </trans-unit>
-      <trans-unit id="18">
-        <source>inactive-player</source>
-        <target>Are you still in command? Reboot comm link to continue. </target>
-      </trans-unit>
-      <trans-unit id="19">
-        <source>already-researching</source>
-        <target>You are already researching something, Speed Up your job to create another one.</target>
-      </trans-unit>
-      <trans-unit id="20">
-        <source>alliance-member</source>
-        <target>This base belongs to a member of your alliance.</target>
-      </trans-unit>
-      <trans-unit id="21">
-        <source>workers-busy</source>
-        <target>All of your workers are busy, buy more in the store!</target>
-      </trans-unit>
-      <trans-unit id="22">
-        <source>same-player</source>
-        <target>You control this outpost.</target>
-      </trans-unit>
-      <trans-unit id="23">
-        <source>sp-overflow</source>
-        <target>Commander, your skill point capacity is #SKILL_POINT_CAPACITY#.  Using this item would cause an overflow of #LOST_SKILL_POINTS# skill points. Continue?</target>
-      </trans-unit>
-      <trans-unit id="24">
-        <source>build-barracks</source>
-        <target>Build a Barracks to train infantry units.</target>
-      </trans-unit>
-      <trans-unit id="25">
-        <source>delete-barracks.training</source>
-        <target>No Barracks can be deconstructed while training units.</target>
-      </trans-unit>
-      <trans-unit id="26">
-        <source>build-academy</source>
-        <target>Build an Academy to train Chimera units.</target>
-      </trans-unit>
-      <trans-unit id="27">
-        <source>sp-fullcapactiy</source>
-        <target>Commander, your skill point capacity is already maxed out! Level up your General's skills or your Generals Headquarters to increase capacity.</target>
-      </trans-unit>
-      <trans-unit id="28">
-        <source>delete-staging.space</source>
-        <target>No Staging Areas can be deconstructed when it holds units.</target>
-      </trans-unit>
-      <trans-unit id="29">
-        <source>build-factory</source>
-        <target>Build a Factory to train mechanized units.</target>
-      </trans-unit>
-      <trans-unit id="30">
-        <source>capacity-reached</source>
-        <target>Storage Capacity Reached: Build or Upgrade Supply Depots.</target>
-      </trans-unit>
-      <trans-unit id="31">
-        <source>no-buildings</source>
-        <target>This base has no buildings!</target>
-      </trans-unit>
-      <trans-unit id="32">
-        <source>warpgate-full</source>
-        <target>Warp Gate is full</target>
       </trans-unit>
     </body>
   </file>

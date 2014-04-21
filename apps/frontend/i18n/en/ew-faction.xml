@@ -5,192 +5,192 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>erazi-syndicate</source>
-        <target>Erazi Syndicate</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>unknown</source>
-        <target>Unknown</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>attack.fight-now-or-delay</source>
-        <target>Fight now or delay for 5 minutes?</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>erazi</source>
-        <target>Erazi Syndicate</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>erazi.win.1</source>
-        <target>If only you'd surrendered, my dear, we could have skirted this mess. Did you really think you stood half a chance?</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>erazi.win.2</source>
-        <target>Don't take it so hard, Commander. Defeat is something you should get used to.</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>erazi.win.3</source>
-        <target>Oh, Commander. You only see me as the villain because you're on the wrong side.</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>lurking</source>
-        <target>Lurking Doom</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>maar.commander.1</source>
-        <target>This is Governor Malick from the Maar Confederacy</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>maar.commander.2</source>
-        <target>This is Governor Malick from the Maar Confederacy</target>
-      </trans-unit>
-      <trans-unit id="11">
-        <source>maar.commander.3</source>
-        <target>This is Governor Malick from the Maar Confederacy</target>
-      </trans-unit>
-      <trans-unit id="12">
-        <source>helio.lose.1</source>
-        <target>Like every sun, Helio will rise again!</target>
-      </trans-unit>
-      <trans-unit id="13">
-        <source>helio.lose.2</source>
-        <target>You've only succeeded in making me angry. For Grod, anger is energy!</target>
-      </trans-unit>
-      <trans-unit id="14">
-        <source>helio.lose.3</source>
-        <target>I promise you, I'll be back -- with a plaque for your head!</target>
-      </trans-unit>
-      <trans-unit id="15">
-        <source>lurking-doom</source>
-        <target>Lurking Doom</target>
-      </trans-unit>
-      <trans-unit id="16">
-        <source>maar</source>
-        <target>Maar Confederacy</target>
-      </trans-unit>
-      <trans-unit id="17">
-        <source>helio.commander.1</source>
-        <target>This is General Grod from the Helio Legion</target>
-      </trans-unit>
-      <trans-unit id="18">
-        <source>helio.commander.2</source>
-        <target>This is General Grod from the Helio Legion</target>
-      </trans-unit>
-      <trans-unit id="19">
-        <source>helio.commander.3</source>
-        <target>This is General Grod from the Helio Legion</target>
-      </trans-unit>
-      <trans-unit id="20">
-        <source>erazi.lose.1</source>
-        <target>I forgive you, but only because I like it rough.</target>
-      </trans-unit>
-      <trans-unit id="21">
-        <source>erazi.lose.2</source>
-        <target>Remember those human-skin shoes and belts my people used to wear? I can't wait to bring them back in style.</target>
-      </trans-unit>
-      <trans-unit id="22">
-        <source>erazi.lose.3</source>
-        <target>Not bad... for a primate.</target>
-      </trans-unit>
-      <trans-unit id="23">
-        <source>helio.win.1</source>
-        <target>Fly in the face of Helio -- and get burned!</target>
-      </trans-unit>
-      <trans-unit id="24">
-        <source>helio.win.2</source>
-        <target>Only the strong survive, and Grod is the strongest of all!</target>
-      </trans-unit>
-      <trans-unit id="25">
-        <source>helio.win.3</source>
-        <target>Soon, the rubble of your Command Center will mark only your grave.</target>
-      </trans-unit>
-      <trans-unit id="26">
-        <source>maar.lose.1</source>
-        <target>Most impressive, Commander, but I was only testing your weaknesses. Let me assure you, I found plenty.</target>
-      </trans-unit>
-      <trans-unit id="27">
-        <source>maar.lose.2</source>
-        <target>Smile while you may. Nothing lasts forever, least of all your teeth.</target>
-      </trans-unit>
-      <trans-unit id="28">
-        <source>maar.lose.3</source>
-        <target>Revenge is best served cold. Rest assured, I'll soon have you frozen in carbonite.</target>
-      </trans-unit>
-      <trans-unit id="29">
-        <source>attack.map-disabled</source>
-        <target>Map is currently disabled.  Fight off your attackers and try again</target>
-      </trans-unit>
-      <trans-unit id="30">
         <source>helio.attack.1</source>
         <target>The destiny of any sun is to expand. And as Helio grows, so must the body count.</target>
       </trans-unit>
-      <trans-unit id="31">
+      <trans-unit id="2">
         <source>helio.attack.2</source>
         <target>Give up hope, or have it wrenched from your broken fingers!</target>
       </trans-unit>
-      <trans-unit id="32">
+      <trans-unit id="3">
         <source>helio.attack.3</source>
         <target>Bow to your new overlord! Kneel before Grod!</target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="4">
         <source>maar.attack.1</source>
         <target>Best raise your white flag now, Commander -- lest it be you who are hanged.</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="5">
         <source>maar.attack.2</source>
         <target>There's no shame in surrendering, Commander. True embarrassment lies in having the floor mopped with that punching bag you call a face.</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="6">
         <source>maar.attack.3</source>
         <target>Still here, Commander? There's only one way you'll learn, and that's with my boot on your throat!</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="7">
         <source>maar.win.1</source>
         <target>Ha! Is that all you've got?! Come now, Commander. Did you even try?</target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="8">
         <source>maar.win.2</source>
         <target>You renegade dregs are gluttons for punishment, and I'm all too happy to oblige.</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="9">
         <source>maar.win.3</source>
         <target>Call me sadistic, but I find immense pleasure in your suffering.</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="10">
         <source>erazi.commander.1</source>
         <target>This is Executrix Scylith from the Erazi Syndicate</target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="11">
         <source>erazi.commander.2</source>
         <target>This is Executrix Scylith from the Erazi Syndicate</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="12">
         <source>erazi.commander.3</source>
         <target>This is Executrix Scylith from the Erazi Syndicate</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="13">
         <source>helio</source>
         <target>Helio Legion</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="14">
         <source>helio-legion</source>
         <target>Helio Legion</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="15">
         <source>maar-confederacy</source>
         <target>Maar Confederacy</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="16">
+        <source>unknown</source>
+        <target>Unknown</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>erazi</source>
+        <target>Erazi Syndicate</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>lurking-doom</source>
+        <target>Lurking Doom</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>erazi.lose.1</source>
+        <target>I forgive you, but only because I like it rough.</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>erazi.lose.2</source>
+        <target>Remember those human-skin shoes and belts my people used to wear? I can't wait to bring them back in style.</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>erazi.lose.3</source>
+        <target>Not bad... for a primate.</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>helio.win.1</source>
+        <target>Fly in the face of Helio -- and get burned!</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>helio.win.2</source>
+        <target>Only the strong survive, and Grod is the strongest of all!</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>helio.win.3</source>
+        <target>Soon, the rubble of your Command Center will mark only your grave.</target>
+      </trans-unit>
+      <trans-unit id="25">
         <source>erazi.attack.1</source>
         <target>What a lovely base, Commander. It'd be a shame if anything were to happen to it.</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="26">
         <source>erazi.attack.2</source>
         <target>Strength lies in numbers, Commander. All alone, you're dinner. </target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="27">
         <source>erazi.attack.3</source>
         <target>Surrender now, my dear, and you can still save lives -- beginning with your own!</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>erazi-syndicate</source>
+        <target>Erazi Syndicate</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>attack.fight-now-or-delay</source>
+        <target>Fight now or delay for 5 minutes?</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>erazi.win.1</source>
+        <target>If only you'd surrendered, my dear, we could have skirted this mess. Did you really think you stood half a chance?</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>erazi.win.2</source>
+        <target>Don't take it so hard, Commander. Defeat is something you should get used to.</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>erazi.win.3</source>
+        <target>Oh, Commander. You only see me as the villain because you're on the wrong side.</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>lurking</source>
+        <target>Lurking Doom</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>maar.commander.1</source>
+        <target>This is Governor Malick from the Maar Confederacy</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>maar.commander.2</source>
+        <target>This is Governor Malick from the Maar Confederacy</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>maar.commander.3</source>
+        <target>This is Governor Malick from the Maar Confederacy</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>helio.lose.1</source>
+        <target>Like every sun, Helio will rise again!</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>helio.lose.2</source>
+        <target>You've only succeeded in making me angry. For Grod, anger is energy!</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>helio.lose.3</source>
+        <target>I promise you, I'll be back -- with a plaque for your head!</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>maar</source>
+        <target>Maar Confederacy</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>helio.commander.1</source>
+        <target>This is General Grod from the Helio Legion</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>helio.commander.2</source>
+        <target>This is General Grod from the Helio Legion</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>helio.commander.3</source>
+        <target>This is General Grod from the Helio Legion</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>maar.lose.1</source>
+        <target>Most impressive, Commander, but I was only testing your weaknesses. Let me assure you, I found plenty.</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>maar.lose.2</source>
+        <target>Smile while you may. Nothing lasts forever, least of all your teeth.</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>maar.lose.3</source>
+        <target>Revenge is best served cold. Rest assured, I'll soon have you frozen in carbonite.</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>attack.map-disabled</source>
+        <target>Map is currently disabled.  Fight off your attackers and try again</target>
       </trans-unit>
     </body>
   </file>

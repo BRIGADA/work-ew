@@ -5,24 +5,24 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>height</source>
-        <target>Base Length</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>unlock</source>
         <target>Unlock bigger base at Command Center L.#LEVEL#</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>size</source>
         <target>Base Size</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="3">
         <source>nextsize</source>
         <target>Next Base Size</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="4">
         <source>width</source>
         <target>Base Width</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>height</source>
+        <target>Base Length</target>
       </trans-unit>
     </body>
   </file>

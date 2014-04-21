@@ -5,52 +5,52 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>ton.button</source>
-        <target>	&#x418;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x441;&#x435;&#x439;&#x447;&#x430;&#x441;!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>doa.paragraph1</source>
-        <target>&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439; &#x441;&#x432;&#x43E;&#x44E; &#x438;&#x43C;&#x43F;&#x435;&#x440;&#x438;&#x44E; &#x432; Dragons of Atlantis!</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>doa.paragraph2</source>
-        <target>&#x41F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x441;&#x44C; &#x43A; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443; &#x434;&#x440;&#x430;&#x43A;&#x43E;&#x43D;&#x43E;&#x432; &#x438; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x44B; &#x412; &#x41E;&#x411;&#x415;&#x418;&#x425; &#x438;&#x433;&#x440;&#x430;&#x445;!</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>doa.moredetailstooltip</source>
-        <target>&#x423;&#x437;&#x43D;&#x430;&#x439; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x430; &#x43D;&#x430;&#x448;&#x435;&#x43C; &#x444;&#x43E;&#x440;&#x443;&#x43C;&#x435;!</target>
-      </trans-unit>
-      <trans-unit id="5">
         <source>tgf.body</source>
         <target>	&#x421;&#x442;&#x430;&#x43D;&#x44C;&#x442;&#x435; &#x43A;&#x440;&#x435;&#x441;&#x442;&#x43D;&#x44B;&#x43C; &#x43E;&#x442;&#x446;&#x43E;&#x43C;. &#x41F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x435;&#x441;&#x44C; &#x43A; &#x43E;&#x434;&#x43D;&#x43E;&#x439; &#x438;&#x437; &#x43F;&#x44F;&#x442;&#x438; &#x441;&#x435;&#x43C;&#x435;&#x439;!</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="2">
         <source>tgf.title</source>
         <target>	Kabam &#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442; - &#x41A;&#x440;&#x435;&#x441;&#x442;&#x43D;&#x44B;&#x439; &#x43E;&#x442;&#x435;&#x446;: &#x41F;&#x44F;&#x442;&#x44C; &#x441;&#x435;&#x43C;&#x435;&#x439;</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="3">
         <source>doa.moredetails</source>
         <target>&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x437;&#x434;&#x435;&#x441;&#x44C;</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="4">
         <source>tgf.button</source>
         <target>	&#x418;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x441;&#x435;&#x439;&#x447;&#x430;&#x441;!</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="5">
         <source>doa.title</source>
         <target>&#x418;&#x413;&#x420;&#x410;&#x419; &#x412; DRAGONS OF ATLANTIS</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="6">
         <source>ton.body</source>
         <target>	&#x41F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x44F;&#x439;&#x442;&#x435;&#x441;&#x44C; &#x43A; &#x43A;&#x440;&#x43E;&#x432;&#x43E;&#x436;&#x430;&#x434;&#x43D;&#x44B;&#x43C; &#x432;&#x430;&#x43C;&#x43F;&#x438;&#x440;&#x430;&#x43C; &#x432; &#x431;&#x43E;&#x440;&#x44C;&#x431;&#x435; &#x437;&#x430; &#x433;&#x43E;&#x441;&#x43F;&#x43E;&#x434;&#x441;&#x442;&#x432;&#x43E;!</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="7">
         <source>ton.title</source>
         <target>	Kabam &#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442;: Thirst of Night</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="8">
         <source>doa.playtooltip</source>
         <target>&#x418;&#x433;&#x440;&#x430;&#x439; &#x432; Dragons of Atlantis &#x441;&#x435;&#x439;&#x447;&#x430;&#x441;!</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>ton.button</source>
+        <target>	&#x418;&#x433;&#x440;&#x430;&#x442;&#x44C; &#x441;&#x435;&#x439;&#x447;&#x430;&#x441;!</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>doa.paragraph1</source>
+        <target>&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439; &#x441;&#x432;&#x43E;&#x44E; &#x438;&#x43C;&#x43F;&#x435;&#x440;&#x438;&#x44E; &#x432; Dragons of Atlantis!</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>doa.paragraph2</source>
+        <target>&#x41F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x441;&#x44C; &#x43A; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443; &#x434;&#x440;&#x430;&#x43A;&#x43E;&#x43D;&#x43E;&#x432; &#x438; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438; &#x43D;&#x430;&#x433;&#x440;&#x430;&#x434;&#x44B; &#x412; &#x41E;&#x411;&#x415;&#x418;&#x425; &#x438;&#x433;&#x440;&#x430;&#x445;!</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>doa.moredetailstooltip</source>
+        <target>&#x423;&#x437;&#x43D;&#x430;&#x439; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x430; &#x43D;&#x430;&#x448;&#x435;&#x43C; &#x444;&#x43E;&#x440;&#x443;&#x43C;&#x435;!</target>
       </trans-unit>
     </body>
   </file>

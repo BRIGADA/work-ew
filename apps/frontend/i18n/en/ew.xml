@@ -5,100 +5,104 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>victory</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>Product</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>maptournament</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>Bundles</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>helio</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>marchbuildathon</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>Spelstabilitetsproblem</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>Mystery</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="9">
         <source>Other</source>
         <target/>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="2">
         <source>Building</source>
         <target/>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="3">
         <source>ID</source>
         <target/>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="4">
         <source>Boosts</source>
         <target/>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="5">
         <source>V&#xE4;rde</source>
         <target/>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="6">
         <source>tenmu-gift</source>
         <target/>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="7">
         <source>h</source>
         <target/>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="8">
         <source>not-available-for-instant-build</source>
         <target>This building is currently not eligible for instant build</target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="9">
         <source>Cerulean</source>
         <target/>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="10">
         <source>Shields</source>
         <target/>
       </trans-unit>
-      <trans-unit id="19">
-        <source>ITEM_LIST</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="11">
         <source>game-name</source>
         <target>Edgeworld</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="12">
         <source>project-juggernaut</source>
         <target/>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="13">
         <source>maps</source>
         <target/>
       </trans-unit>
-      <trans-unit id="23">
+      <trans-unit id="14">
         <source>gsat</source>
         <target/>
       </trans-unit>
-      <trans-unit id="24">
+      <trans-unit id="15">
         <source>a-gift-from-tenmu</source>
         <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>victory</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Bundles</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Spelstabilitetsproblem</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Product</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>maptournament</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>helio</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>marchbuildathon</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Mystery</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>rewards-name</source>
+        <target>Kabam Rewards</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>rebel-name</source>
+        <target>The Rebellion</target>
       </trans-unit>
     </body>
   </file>

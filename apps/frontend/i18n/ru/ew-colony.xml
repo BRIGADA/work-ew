@@ -5,152 +5,340 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>slides.rhino.bullet1</source>
-        <target>	- &#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x43D;</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>slides.rhino.bullet2</source>
-        <target>	- &#x41C;&#x43E;&#x449;&#x43D;&#x430;&#x44F; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x44F;&#x44F; &#x430;&#x442;&#x430;&#x43A;&#x430;</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>slides.schematic.button</source>
-        <target>	&#x41F;&#x415;&#x420;&#x415;&#x419;&#x422;&#x418; &#x41A; &#x41A;&#x41E;&#x41B;&#x41E;&#x41D;&#x418;&#x418;</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>slides.upsell.button</source>
-        <target>	&#x41C;&#x410;&#x413;&#x410;&#x417;&#x418;&#x41D;</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>slides.rhino.desc2</source>
-        <target>	&#x42D;&#x442;&#x43E; &#x43E;&#x440;&#x443;&#x436;&#x438;&#x435; &#x43A;&#x440;&#x430;&#x439;&#x43D;&#x435; &#x43D;&#x435;&#x443;&#x441;&#x442;&#x43E;&#x439;&#x447;&#x438;&#x432;&#x43E;</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>slides.upsell.title-welcome</source>
-        <target>	&#x414;&#x41E;&#x411;&#x420;&#x41E; &#x41F;&#x41E;&#x416;&#x410;&#x41B;&#x41E;&#x412;&#x410;&#x422;&#x42C; &#x412; &#x410;&#x412;&#x420;&#x41E;&#x420;&#x410;-1</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>slides.shield.desc</source>
-        <target>&#x413;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440; &#x449;&#x438;&#x442;&#x430; &#x434;&#x430;&#x441;&#x442; &#x432;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x43B;&#x44F;&#x44E;&#x449;&#x435;&#x435; &#x443;&#x441;&#x438;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x432;&#x430;&#x448;&#x438;&#x43C; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F;&#x43C; &#x438; &#x437;&#x430;&#x449;&#x438;&#x442;&#x43D;&#x44B;&#x43C; &#x431;&#x430;&#x448;&#x43D;&#x44F;&#x43C;.</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>slides.shield.bullet1</source>
-        <target>	- &#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x439; &#x438; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x437;&#x434;&#x43E;&#x440;&#x43E;&#x432;&#x44C;&#x44F; &#x432;&#x43E;&#x439;&#x441;&#x43A;</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>slides.schematic.title</source>
-        <target>	&#x421;&#x425;&#x415;&#x41C;&#x410; &#x410;&#x412;&#x420;&#x41E;&#x420;&#x42B;-1</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>slides.welcom.summary</source>
-        <target>	&#x41F;&#x420;&#x41E;&#x413;&#x420;&#x415;&#x421;&#x421;</target>
-      </trans-unit>
-      <trans-unit id="11">
-        <source>slides.schematic.desc1</source>
-        <target>	&#x41F;&#x440;&#x435;&#x432;&#x43E;&#x441;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;</target>
-      </trans-unit>
-      <trans-unit id="12">
-        <source>slides.schematic.desc2</source>
-        <target>	&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x44F;&#x439;&#x442;&#x435; &#x441;&#x432;&#x43E;&#x44E; &#x438;&#x43C;&#x43F;&#x435;&#x440;&#x438;&#x44E;</target>
-      </trans-unit>
-      <trans-unit id="13">
-        <source>slides.common.summary</source>
-        <target>	&#x412;&#x42B;&#x413;&#x41E;&#x414;&#x42B;</target>
-      </trans-unit>
-      <trans-unit id="14">
         <source>slides.welcome.desc2</source>
         <target>	&#x41E;&#x442;&#x441;&#x44E;&#x434;&#x430; &#x43C;&#x44B; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x43C;&#x43E;&#x436;&#x435;&#x43C; &#x432;&#x435;&#x441;&#x442;&#x438; &#x431;&#x43E;&#x440;&#x44C;&#x431;&#x443; &#x441; &#x41C;&#x430;&#x430;&#x440;.</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="2">
         <source>slides.welcome.desc3</source>
         <target>&#x41C;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x438; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F; &#x43A;:</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="3">
         <source>slides.welcome.desc</source>
         <target>	&#x41E;&#x442;&#x43B;&#x438;&#x447;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;</target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="4">
         <source>slides.upsell.where</source>
         <target>	&#x413;&#x434;&#x435; &#x44F; &#x43C;&#x43E;&#x433;&#x443; &#x435;&#x435; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C;?</target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="5">
         <source>slide.title</source>
         <target>	&#x41A;&#x41E;&#x41B;&#x41E;&#x41D;&#x418;&#x418;</target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="6">
         <source>slides.warp.bullet1</source>
         <target>	- &#x422;&#x440;&#x438; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x430; &#x438;&#x441;&#x43A;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x439;</target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="7">
         <source>slides.warp.bullet2</source>
         <target>	- &#x41F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x440;&#x44F;&#x434;&#x43E;&#x432;</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="8">
         <source>slides.upsell.title</source>
         <target>	&#x41A;&#x41E;&#x41B;&#x41E;&#x41D;&#x418;&#x42F; &#x410;&#x412;&#x420;&#x41E;&#x420;&#x410;-1</target>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="9">
         <source>slides.welcome.bullet1</source>
         <target>	- &#x41D;&#x43E;&#x432;&#x44B;&#x43C; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="23">
+      <trans-unit id="10">
         <source>slides.welcome.bullet2</source>
         <target>	- &#x41D;&#x43E;&#x432;&#x44B;&#x43C; &#x43E;&#x442;&#x440;&#x44F;&#x434;&#x430;&#x43C;</target>
       </trans-unit>
-      <trans-unit id="24">
+      <trans-unit id="11">
         <source>slides.welcome.bullet3</source>
         <target>	- &#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x43D;&#x43E;&#x43C;&#x443; &#x432;&#x43E;&#x43E;&#x440;&#x443;&#x436;&#x435;&#x43D;&#x438;&#x44E;</target>
       </trans-unit>
-      <trans-unit id="25">
+      <trans-unit id="12">
         <source>slides.upsell.summary</source>
         <target>	&#x422;&#x420;&#x415;&#x411;&#x41E;&#x412;&#x410;&#x41D;&#x418;&#x42F;</target>
       </trans-unit>
-      <trans-unit id="26">
+      <trans-unit id="13">
         <source>slides.upsell.subtitle</source>
         <target>	&#x421;&#x425;&#x415;&#x41C;&#x410; &#x410;&#x412;&#x420;&#x41E;&#x420;&#x42B;-1</target>
       </trans-unit>
-      <trans-unit id="27">
+      <trans-unit id="14">
         <source>slides.rhino.desc</source>
         <target>	&#x411;&#x43E;&#x43C;&#x431;&#x430;' - &#x44D;&#x442;&#x43E; &#x442;&#x44F;&#x436;&#x435;&#x43B;&#x43E; &#x431;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43F;&#x43E;&#x434;&#x440;&#x430;&#x437;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x44F;</target>
       </trans-unit>
-      <trans-unit id="28">
+      <trans-unit id="15">
         <source>slides.upsell.bullet1</source>
         <target>	- &#x412; &#x43D;&#x430;&#x431;&#x43E;&#x440;&#x435; &#x410;&#x432;&#x440;&#x43E;&#x440;&#x430;-1</target>
       </trans-unit>
-      <trans-unit id="29">
+      <trans-unit id="16">
         <source>slides.upsell.bullet2</source>
         <target>- &#x412; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x434;&#x43E;&#x431;&#x44B;&#x447;&#x438; &#x441; &#x431;&#x430;&#x437; &#x41C;&#x430;&#x430;&#x440; (&#x432;&#x441;&#x43A;&#x43E;&#x440;&#x435;)</target>
       </trans-unit>
-      <trans-unit id="30">
+      <trans-unit id="17">
         <source>slides.upsell.reqs</source>
         <target>	&#x422;&#x420;&#x415;&#x411;&#x41E;&#x412;&#x410;&#x41D;&#x418;&#x42F;</target>
       </trans-unit>
-      <trans-unit id="31">
+      <trans-unit id="18">
         <source>slides.schematic.dialog-title</source>
         <target>	&#x41D;&#x410;&#x419;&#x414;&#x415;&#x41D;&#x41D;&#x42B;&#x415; &#x422;&#x420;&#x41E;&#x424;&#x415;&#x418;</target>
       </trans-unit>
-      <trans-unit id="32">
+      <trans-unit id="19">
         <source>slides.upsell.title-shield</source>
         <target>	&#x413;&#x415;&#x41D;&#x415;&#x420;&#x410;&#x422;&#x41E;&#x420; &#x429;&#x418;&#x422;&#x410;</target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="20">
+        <source>slides.caldera.upsell.store-desc</source>
+        <target>&#x417;&#x434;&#x435;&#x441;&#x44C; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43A;&#x443;&#x43F;&#x438;&#x442;&#x44C; &#x441;&#x445;&#x435;&#x43C;&#x44B; &#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x44B;-2!</target>
+      </trans-unit>
+      <trans-unit id="21">
         <source>slides.warp.desc</source>
         <target>&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x432;&#x440;&#x430;&#x442;&#x430; &#x438;&#x441;&#x43A;&#x440;&#x438;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x44B;&#x43C;&#x438; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x430;&#x442;&#x430;&#x43A;&#x438;, &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x430;&#x442;&#x44C; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x441;&#x432;&#x43E;&#x438;&#x43C;&#x438; &#x431;&#x430;&#x437;&#x430;&#x43C;&#x438;.</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="22">
+        <source>slides.caldera.unit.title</source>
+        <target>&#x421;&#x423;&#x41F;&#x415;&#x420;&#x41A;&#x420;&#x415;&#x419;&#x421;&#x415;&#x420;</target>
+      </trans-unit>
+      <trans-unit id="23">
         <source>slides.shield.desc2</source>
         <target>&#x41F;&#x43E;&#x43A;&#x430; &#x43D;&#x435; &#x431;&#x443;&#x434;&#x435;&#x442; &#x440;&#x430;&#x437;&#x440;&#x443;&#x448;&#x435;&#x43D;</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="24">
         <source>slides.shield.desc3</source>
         <target>	&#x41E;&#x431;&#x435;&#x440;&#x435;&#x433;&#x430;&#x439;&#x442;&#x435; &#x44D;&#x442;&#x43E; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x435; &#x43B;&#x44E;&#x431;&#x43E;&#x439; &#x446;&#x435;&#x43D;&#x43E;&#x439;!</target>
       </trans-unit>
+      <trans-unit id="25">
+        <source>slides.caldera.unit.desc1</source>
+        <target>&#x421;&#x432;&#x435;&#x440;&#x445;&#x441;&#x43E;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x431;&#x43E;&#x435;&#x432;&#x43E;&#x439; &#x43A;&#x43E;&#x440;&#x430;&#x431;&#x43B;&#x44C;, &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43D;&#x44B;&#x439; &#x43D;&#x430;&#x43D;&#x435;&#x441;&#x442;&#x438; &#x441;&#x435;&#x440;&#x44C;&#x435;&#x437;&#x43D;&#x44B;&#x439; &#x443;&#x440;&#x43E;&#x43D; &#x441;&#x440;&#x430;&#x437;&#x443; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x438;&#x43C; &#x446;&#x435;&#x43B;&#x44F;&#x43C;.</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>slides.rhino.bullet1</source>
+        <target>	- &#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>slides.rhino.bullet2</source>
+        <target>	- &#x41C;&#x43E;&#x449;&#x43D;&#x430;&#x44F; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x44F;&#x44F; &#x430;&#x442;&#x430;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>slides.schematic.button</source>
+        <target>	&#x41F;&#x415;&#x420;&#x415;&#x419;&#x422;&#x418; &#x41A; &#x41A;&#x41E;&#x41B;&#x41E;&#x41D;&#x418;&#x418;</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>slides.aurora-one.upsell.item-title</source>
+        <target>	&#x421;&#x425;&#x415;&#x41C;&#x410; &#x410;&#x412;&#x420;&#x41E;&#x420;&#x42B;-1</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>slides.rhino.desc2</source>
+        <target>	&#x42D;&#x442;&#x43E; &#x43E;&#x440;&#x443;&#x436;&#x438;&#x435; &#x43A;&#x440;&#x430;&#x439;&#x43D;&#x435; &#x43D;&#x435;&#x443;&#x441;&#x442;&#x43E;&#x439;&#x447;&#x438;&#x432;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>slides.aurora-one.upsell.store-title</source>
+        <target>&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x410;&#x432;&#x440;&#x43E;&#x440;&#x443;-1</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>slides.caldera.schematic.desc1</source>
+        <target>&#x41E;&#x442;&#x43B;&#x438;&#x447;&#x43D;&#x43E;, &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;! &#x412;&#x430;&#x43C; &#x443;&#x434;&#x430;&#x43B;&#x43E;&#x441;&#x44C; &#x440;&#x430;&#x437;&#x434;&#x43E;&#x431;&#x44B;&#x442;&#x44C; &#x441;&#x445;&#x435;&#x43C;&#x443; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x446;&#x435;&#x43D;&#x442;&#x440;&#x430; &#x434;&#x43B;&#x44F; &#x43A;&#x43E;&#x43B;&#x43E;&#x43D;&#x438;&#x438; &#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x430;-2!</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>slides.caldera.schematic.desc2</source>
+        <target>&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x44F;&#x439;&#x442;&#x435; &#x441;&#x432;&#x43E;&#x44E; &#x438;&#x43C;&#x43F;&#x435;&#x440;&#x438;&#x44E; &#x43D;&#x430; &#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x435;-2, &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44F; &#x43D;&#x43E;&#x432;&#x43E;&#x435; &#x443;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43E;&#x440;&#x443;&#x436;&#x438;&#x435;, &#x441;&#x435;&#x439;&#x447;&#x430;&#x441;!</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>slides.upsell.title-welcome</source>
+        <target>	&#x414;&#x41E;&#x411;&#x420;&#x41E; &#x41F;&#x41E;&#x416;&#x410;&#x41B;&#x41E;&#x412;&#x410;&#x422;&#x42C; &#x412; &#x410;&#x412;&#x420;&#x41E;&#x420;&#x410;-1</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>slides.aurora-one.upsell.store-desc</source>
+        <target>&#x417;&#x434;&#x435;&#x441;&#x44C; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43A;&#x443;&#x43F;&#x438;&#x442;&#x44C; &#x441;&#x445;&#x435;&#x43C;&#x44B; &#x410;&#x432;&#x440;&#x43E;&#x440;&#x44B;-1!</target>
+      </trans-unit>
       <trans-unit id="36">
+        <source>slides.common.warp.bullet1</source>
+        <target>	- &#x422;&#x440;&#x438; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x437;&#x430;&#x440;&#x44F;&#x434;&#x430; &#x438;&#x441;&#x43A;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x439;</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>slides.common.warp.bullet2</source>
+        <target>	- &#x41F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x440;&#x44F;&#x434;&#x43E;&#x432;</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>slides.common.welcome.content-title</source>
+        <target>	&#x41F;&#x420;&#x41E;&#x413;&#x420;&#x415;&#x421;&#x421;</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>slides.schematic.title</source>
+        <target>	&#x421;&#x425;&#x415;&#x41C;&#x410; &#x410;&#x412;&#x420;&#x41E;&#x420;&#x42B;-1</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>slides.schematic.desc1</source>
+        <target>	&#x41F;&#x440;&#x435;&#x432;&#x43E;&#x441;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>slides.schematic.desc2</source>
+        <target>	&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x44F;&#x439;&#x442;&#x435; &#x441;&#x432;&#x43E;&#x44E; &#x438;&#x43C;&#x43F;&#x435;&#x440;&#x438;&#x44E;</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>slides.aurora-one.upsell.bullet1</source>
+        <target>	- &#x412; &#x43D;&#x430;&#x431;&#x43E;&#x440;&#x435; &#x410;&#x432;&#x440;&#x43E;&#x440;&#x430;-1</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>slides.aurora-one.upsell.bullet2</source>
+        <target>- &#x412; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x434;&#x43E;&#x431;&#x44B;&#x447;&#x438; &#x441; &#x431;&#x430;&#x437; &#x41C;&#x430;&#x430;&#x440; (&#x432;&#x441;&#x43A;&#x43E;&#x440;&#x435;)</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>slides.common.warp.title</source>
+        <target>&#x414;&#x41E;&#x41F;&#x41E;&#x41B;&#x41D;&#x418;&#x422;&#x415;&#x41B;&#x42C;&#x41D;&#x42B;&#x415; &#x412;&#x420;&#x410;&#x422;&#x410; &#x418;&#x421;&#x41A;&#x420;&#x418;&#x412;&#x41B;&#x415;&#x41D;&#x418;&#x42F;</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>slides.common.warp.desc1</source>
+        <target>&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x432;&#x440;&#x430;&#x442;&#x430; &#x438;&#x441;&#x43A;&#x440;&#x438;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x44B;&#x43C;&#x438; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x430;&#x442;&#x430;&#x43A;&#x438;, &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x430;&#x442;&#x44C; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x441;&#x432;&#x43E;&#x438;&#x43C;&#x438; &#x431;&#x430;&#x437;&#x430;&#x43C;&#x438;.</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>slides.caldera.building.bullet1</source>
+        <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x430;&#x435;&#x442; &#x437;&#x430;&#x43F;&#x430;&#x441; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x438; &#x443;&#x440;&#x43E;&#x43D; &#x442;&#x443;&#x440;&#x435;&#x43B;&#x435;&#x439;.</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>slides.caldera.upsell.store-title</source>
+        <target>&#x41A;&#x443;&#x43F;&#x438;&#x442;&#x44C; &#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x443;-2</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>slides.caldera.building.title</source>
+        <target>&#x423;&#x41F;&#x420;&#x410;&#x412;&#x41B;&#x415;&#x41D;&#x418;&#x415; &#x422;&#x423;&#x420;&#x415;&#x41B;&#x42F;&#x41C;&#x418;</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>slides.caldera.upsell.title</source>
+        <target>&#x41A;&#x41E;&#x41B;&#x41E;&#x41D;&#x418;&#x42F; &#x41A;&#x410;&#x41B;&#x42C;&#x414;&#x415;&#x420;&#x410;-2</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>slides.caldera.building.desc1</source>
+        <target>&#x423;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x442;&#x443;&#x440;&#x435;&#x43B;&#x44F;&#x43C;&#x438; &#x43E;&#x431;&#x435;&#x441;&#x43F;&#x435;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x441;&#x43F;&#x443;&#x442;&#x43D;&#x438;&#x43A;&#x43E;&#x432;&#x443;&#x44E; &#x441;&#x432;&#x44F;&#x437;&#x44C; &#x441;&#x43E; &#x448;&#x442;&#x430;&#x431;&#x43E;&#x43C;. &#x411;&#x43B;&#x430;&#x433;&#x43E;&#x434;&#x430;&#x440;&#x44F; &#x44D;&#x442;&#x43E;&#x43C;&#x443; &#x43C;&#x43E;&#x449;&#x44C; &#x442;&#x443;&#x440;&#x435;&#x43B;&#x435;&#x439; &#x433;&#x43B;&#x430;&#x432;&#x43D;&#x43E;&#x439; &#x431;&#x430;&#x437;&#x44B; &#x432;&#x43E;&#x437;&#x440;&#x430;&#x441;&#x442;&#x430;&#x435;&#x442; &#x441; &#x440;&#x43E;&#x441;&#x442;&#x43E;&#x43C; &#x43C;&#x43E;&#x449;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x442;&#x443;&#x440;&#x435;&#x43B;&#x435;&#x439; &#x43A;&#x43E;&#x43B;&#x43E;&#x43D;&#x438;&#x439;.</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>slides.common.upsell.content-title</source>
+        <target>	&#x422;&#x420;&#x415;&#x411;&#x41E;&#x412;&#x410;&#x41D;&#x418;&#x42F;</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>slides.caldera.unit.bullet1</source>
+        <target>&#x41E;&#x447;&#x435;&#x43D;&#x44C; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x437;&#x430;&#x43F;&#x430;&#x441; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x438;.</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>slides.caldera.unit.bullet2</source>
+        <target>&#x41F;&#x43E;&#x440;&#x430;&#x436;&#x430;&#x435;&#x442; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x446;&#x435;&#x43B;&#x435;&#x439;.</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>slides.common.welcome.desc1</source>
+        <target>&#x412;&#x44B; &#x43E;&#x442;&#x43B;&#x438;&#x447;&#x43D;&#x43E; &#x441;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x438;&#x441;&#x44C; &#x441; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x435;&#x43C; &#x43D;&#x43E;&#x432;&#x43E;&#x439; &#x43A;&#x43E;&#x43B;&#x43E;&#x43D;&#x438;&#x438;, &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;!</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>slides.common.welcome.desc2</source>
+        <target>&#x41C;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x438; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F; &#x43A;:</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>slides.aurora-one.welcome.desc1</source>
+        <target>	&#x41E;&#x442;&#x43B;&#x438;&#x447;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>slides.aurora-one.welcome.desc2</source>
+        <target>	&#x41E;&#x442;&#x441;&#x44E;&#x434;&#x430; &#x43C;&#x44B; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E; &#x43C;&#x43E;&#x436;&#x435;&#x43C; &#x432;&#x435;&#x441;&#x442;&#x438; &#x431;&#x43E;&#x440;&#x44C;&#x431;&#x443; &#x441; &#x41C;&#x430;&#x430;&#x440;.</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>slides.aurora-one.welcome.desc3</source>
+        <target>&#x41C;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x438; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F; &#x43A;:</target>
+      </trans-unit>
+      <trans-unit id="59">
         <source>slides.upsell.title-rhino</source>
         <target>	&#x411;&#x41E;&#x41C;&#x411;&#x410;</target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="60">
         <source>slides.upsell.title-warp</source>
         <target>	&#x412;&#x420;&#x410;&#x422;&#x410; &#x418;&#x421;&#x41A;&#x420;&#x418;&#x412;&#x41B;&#x415;&#x41D;&#x418;&#x42F; &#x2116; 2</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>slides.common.content-title</source>
+        <target>	&#x412;&#x42B;&#x413;&#x41E;&#x414;&#x42B;</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>slides.upsell.button</source>
+        <target>	&#x41C;&#x410;&#x413;&#x410;&#x417;&#x418;&#x41D;</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>slides.aurora-one.schematic.desc1</source>
+        <target>	&#x41F;&#x440;&#x435;&#x432;&#x43E;&#x441;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>slides.aurora-one.schematic.desc2</source>
+        <target>	&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x44F;&#x439;&#x442;&#x435; &#x441;&#x432;&#x43E;&#x44E; &#x438;&#x43C;&#x43F;&#x435;&#x440;&#x438;&#x44E;</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>slides.aurora-one.building.title</source>
+        <target>	&#x413;&#x415;&#x41D;&#x415;&#x420;&#x410;&#x422;&#x41E;&#x420; &#x429;&#x418;&#x422;&#x410;</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>slides.shield.desc</source>
+        <target>&#x413;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440; &#x449;&#x438;&#x442;&#x430; &#x434;&#x430;&#x441;&#x442; &#x432;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x43B;&#x44F;&#x44E;&#x449;&#x435;&#x435; &#x443;&#x441;&#x438;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x432;&#x430;&#x448;&#x438;&#x43C; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F;&#x43C; &#x438; &#x437;&#x430;&#x449;&#x438;&#x442;&#x43D;&#x44B;&#x43C; &#x431;&#x430;&#x448;&#x43D;&#x44F;&#x43C;.</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>slides.aurora-one.building.desc1</source>
+        <target>&#x413;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440; &#x449;&#x438;&#x442;&#x430; &#x434;&#x430;&#x441;&#x442; &#x432;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x43B;&#x44F;&#x44E;&#x449;&#x435;&#x435; &#x443;&#x441;&#x438;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x432;&#x430;&#x448;&#x438;&#x43C; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F;&#x43C; &#x438; &#x437;&#x430;&#x449;&#x438;&#x442;&#x43D;&#x44B;&#x43C; &#x431;&#x430;&#x448;&#x43D;&#x44F;&#x43C;.</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>slides.aurora-one.building.desc2</source>
+        <target>&#x41F;&#x43E;&#x43A;&#x430; &#x43D;&#x435; &#x431;&#x443;&#x434;&#x435;&#x442; &#x440;&#x430;&#x437;&#x440;&#x443;&#x448;&#x435;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>slides.aurora-one.building.desc3</source>
+        <target>	&#x41E;&#x431;&#x435;&#x440;&#x435;&#x433;&#x430;&#x439;&#x442;&#x435; &#x44D;&#x442;&#x43E; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x435; &#x43B;&#x44E;&#x431;&#x43E;&#x439; &#x446;&#x435;&#x43D;&#x43E;&#x439;!</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>slides.shield.bullet1</source>
+        <target>	- &#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x439; &#x438; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x437;&#x434;&#x43E;&#x440;&#x43E;&#x432;&#x44C;&#x44F; &#x432;&#x43E;&#x439;&#x441;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>slides.welcom.summary</source>
+        <target>	&#x41F;&#x420;&#x41E;&#x413;&#x420;&#x415;&#x421;&#x421;</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>slides.common.summary</source>
+        <target>	&#x412;&#x42B;&#x413;&#x41E;&#x414;&#x42B;</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>slides.aurora-one.building.bullet1</source>
+        <target>	- &#x423;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x432;&#x430;&#x435;&#x442; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x439; &#x438; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x437;&#x434;&#x43E;&#x440;&#x43E;&#x432;&#x44C;&#x44F; &#x432;&#x43E;&#x439;&#x441;&#x43A;</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>slides.aurora-one.upsell.title</source>
+        <target>	&#x41A;&#x41E;&#x41B;&#x41E;&#x41D;&#x418;&#x42F; &#x410;&#x412;&#x420;&#x41E;&#x420;&#x410;-1</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>slides.aurora-one.unit.title</source>
+        <target>	&#x411;&#x41E;&#x41C;&#x411;&#x410;</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>slides.aurora-one.unit.desc1</source>
+        <target>	&#x411;&#x43E;&#x43C;&#x431;&#x430;' - &#x44D;&#x442;&#x43E; &#x442;&#x44F;&#x436;&#x435;&#x43B;&#x43E; &#x431;&#x440;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43F;&#x43E;&#x434;&#x440;&#x430;&#x437;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x44F;</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>slides.aurora-one.unit.desc2</source>
+        <target>	&#x42D;&#x442;&#x43E; &#x43E;&#x440;&#x443;&#x436;&#x438;&#x435; &#x43A;&#x440;&#x430;&#x439;&#x43D;&#x435; &#x43D;&#x435;&#x443;&#x441;&#x442;&#x43E;&#x439;&#x447;&#x438;&#x432;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>slides.aurora-one.unit.bullet1</source>
+        <target>	- &#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x438;&#x439; &#x443;&#x440;&#x43E;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>slides.aurora-one.unit.bullet2</source>
+        <target>	- &#x41C;&#x43E;&#x449;&#x43D;&#x430;&#x44F; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x44F;&#x44F; &#x430;&#x442;&#x430;&#x43A;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>slides.caldera.upsell.item-title</source>
+        <target>&#x421;&#x425;&#x415;&#x41C;&#x410; &#x41A;&#x410;&#x41B;&#x42C;&#x414;&#x415;&#x420;&#x42B;-2</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>slides.common.welcome.bullet1</source>
+        <target>	- &#x41D;&#x43E;&#x432;&#x44B;&#x43C; &#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F;&#x43C;</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>slides.common.welcome.bullet2</source>
+        <target>	- &#x41D;&#x43E;&#x432;&#x44B;&#x43C; &#x43E;&#x442;&#x440;&#x44F;&#x434;&#x430;&#x43C;</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>slides.common.welcome.bullet3</source>
+        <target>	- &#x423;&#x43B;&#x443;&#x447;&#x448;&#x435;&#x43D;&#x43D;&#x43E;&#x43C;&#x443; &#x432;&#x43E;&#x43E;&#x440;&#x443;&#x436;&#x435;&#x43D;&#x438;&#x44E;</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>slides.caldera.upsell.bullet1</source>
+        <target>&#x412;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x432; &#x43D;&#x430;&#x431;&#x43E;&#x440;&#x44B; &#x41A;&#x430;&#x43B;&#x44C;&#x434;&#x435;&#x440;&#x44B;-2</target>
       </trans-unit>
     </body>
   </file>

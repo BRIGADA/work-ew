@@ -5,56 +5,56 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>welcome.subject</source>
-        <target>&#x41F;&#x440;&#x438;&#x43D;&#x44F;&#x442;&#x43E;</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>rejected.body</source>
-        <target>&#x41A; &#x441;&#x43E;&#x436;&#x430;&#x43B;&#x435;&#x43D;&#x438;&#x44E;, &#x442;&#x435;&#x431;&#x44F; &#x43D;&#x435; &#x43F;&#x440;&#x438;&#x43D;&#x44F;&#x43B;&#x438; &#x432; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;:</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>kicked.body</source>
-        <target>&#x422;&#x44B; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x435; &#x447;&#x43B;&#x435;&#x43D;:</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>left.body</source>
-        <target>&#x418;&#x433;&#x440;&#x43E;&#x43A; &#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x43B; &#x432;&#x430;&#x448; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;:</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>left.subject</source>
-        <target>&#x41F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x43B;</target>
-      </trans-unit>
-      <trans-unit id="6">
         <source>invite.subject</source>
         <target>&#x41F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="2">
         <source>promoted-to-leader.body</source>
         <target>&#x422;&#x435;&#x43F;&#x435;&#x440;&#x44C; &#x442;&#x44B; &#x43B;&#x438;&#x434;&#x435;&#x440;:</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="3">
         <source>welcome.body</source>
         <target>&#x41F;&#x43E;&#x437;&#x434;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x43C;! &#x422;&#x44B; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x448;&#x44C;&#x441;&#x44F; &#x447;&#x43B;&#x435;&#x43D;&#x43E;&#x43C;:</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="4">
         <source>promoted-to-leader.subject</source>
         <target>&#x41F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D; &#x432; &#x440;&#x430;&#x43D;&#x433;&#x435;</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="5">
         <source>rejected.subject</source>
         <target>&#x41E;&#x442;&#x43A;&#x43B;&#x43E;&#x43D;&#x438;&#x43B;</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="6">
         <source>promoted-to-lieutenant.body</source>
         <target>You are now a lieutenant of:</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="7">
         <source>invite.body</source>
         <target>&#x422;&#x435;&#x431;&#x44F; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x43B;&#x438; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;. &#x410;&#x43B;&#x44C;&#x44F;&#x43D;&#x441; &#x434;&#x430;&#x435;&#x442; &#x442;&#x435;&#x431;&#x435; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F; &#x43A; &#x447;&#x430;&#x442;&#x443;, &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F;&#x43C; &#x438; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x435; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="8">
+        <source>welcome.subject</source>
+        <target>&#x41F;&#x440;&#x438;&#x43D;&#x44F;&#x442;&#x43E;</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>rejected.body</source>
+        <target>&#x41A; &#x441;&#x43E;&#x436;&#x430;&#x43B;&#x435;&#x43D;&#x438;&#x44E;, &#x442;&#x435;&#x431;&#x44F; &#x43D;&#x435; &#x43F;&#x440;&#x438;&#x43D;&#x44F;&#x43B;&#x438; &#x432; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;:</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>left.body</source>
+        <target>&#x418;&#x433;&#x440;&#x43E;&#x43A; &#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x43B; &#x432;&#x430;&#x448; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;:</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>left.subject</source>
+        <target>&#x41F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x43B;</target>
+      </trans-unit>
+      <trans-unit id="12">
         <source>kicked.subject</source>
         <target>&#x412;&#x44B;&#x433;&#x43D;&#x430;&#x43D;</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>kicked.body</source>
+        <target>&#x422;&#x44B; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x435; &#x447;&#x43B;&#x435;&#x43D;:</target>
       </trans-unit>
     </body>
   </file>

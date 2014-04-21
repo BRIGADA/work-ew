@@ -5,56 +5,56 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>click.to.play</source>
-        <target>Press play to win a prize!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>claim.prize</source>
-        <target>Claim Prize</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>again</source>
-        <target>Play Again?</target>
-      </trans-unit>
-      <trans-unit id="4">
         <source>explain</source>
         <target>You can play for free once a day.</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="2">
         <source>won</source>
         <target>YOU WON!</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="3">
         <source>pick.box</source>
         <target>Pick a box to reveal your prize.</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="4">
         <source>play.again</source>
         <target>Play again if you want to win another great prize.</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="5">
         <source>use.in.store</source>
         <target>Use this item in the store</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="6">
         <source>need.tokens</source>
         <target>Oh no, you haven't got any tokens left. You should buy another one to play again now.</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="7">
         <source>intro</source>
         <target/>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="8">
         <source>welcome</source>
         <target>Hi, I'm Zoot, the proprietor of Zoot's Loot.</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="9">
+        <source>click.to.play</source>
+        <target>Press play to win a prize!</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>again</source>
+        <target>Play Again?</target>
+      </trans-unit>
+      <trans-unit id="11">
         <source>lucky.day</source>
         <target>It must be your lucky day!</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="12">
         <source>use.tokens</source>
         <target>Click play to use one of your tokens.</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>claim.prize</source>
+        <target>Claim Prize</target>
       </trans-unit>
     </body>
   </file>

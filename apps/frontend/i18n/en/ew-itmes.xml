@@ -5,32 +5,32 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>simdef50.name</source>
-        <target>Defense Level +50</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>simdef20.name</source>
-        <target>Defense Level +20</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>xpsim15.name</source>
-        <target>Defense XP x15</target>
-      </trans-unit>
-      <trans-unit id="4">
         <source>xpsim2.name</source>
         <target>Defense XP x2</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="2">
         <source>simdef25.name</source>
         <target>Defense Sim Level +25</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="3">
         <source>simdef2x.name</source>
         <target>Defense Level x2</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="4">
+        <source>simdef50.name</source>
+        <target>Defense Level +50</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>simdef20.name</source>
+        <target>Defense Level +20</target>
+      </trans-unit>
+      <trans-unit id="6">
         <source>xpsim30.name</source>
         <target>Defense XP x30</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>xpsim15.name</source>
+        <target>Defense XP x15</target>
       </trans-unit>
     </body>
   </file>

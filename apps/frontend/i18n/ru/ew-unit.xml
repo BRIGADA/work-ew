@@ -5,22 +5,22 @@
     <header/>
     <body>
       <trans-unit id="1">
+        <source>sentinel.name</source>
+        <target>&#x421;&#x442;&#x440;&#x430;&#x436;
+</target>
+      </trans-unit>
+      <trans-unit id="2">
         <source>brawler.name</source>
         <target>&#x411;&#x435;&#x440;&#x441;&#x435;&#x440;&#x43A;
 </target>
       </trans-unit>
-      <trans-unit id="2">
+      <trans-unit id="3">
         <source>battlecruiser.name</source>
         <target>&#x421;&#x443;&#x43F;&#x435;&#x440;&#x43A;&#x440;&#x435;&#x439;&#x441;&#x435;&#x440;</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="4">
         <source>spacedragon.name</source>
         <target>&#x41F;&#x43E;&#x434;&#x436;&#x438;&#x433;&#x43E;&#x437;&#x430;&#x432;&#x440;</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>sentinel.name</source>
-        <target>&#x421;&#x442;&#x440;&#x430;&#x436;
-</target>
       </trans-unit>
     </body>
   </file>

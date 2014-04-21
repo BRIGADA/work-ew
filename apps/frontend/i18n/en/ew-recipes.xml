@@ -5,92 +5,92 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>ceruleaninflammableshield.description</source>
-        <target>Crafting Formula for one Cerulean Fireproof Shield Engineering Lab Part!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>ceruleandamagesensor.name</source>
-        <target>Cerulean Damage Sensor</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>rarebox3a.description</source>
-        <target>Open for a GUARANTEED 3 Bonus Rare Engineering Lab Part!</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>rarebox3a.name</source>
-        <target>Tier 3 Rare Part Box</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>rarebox2a.description</source>
-        <target>Open for a chance to win a Rare 3 Bonus Smart Part or FIVE Zoot's Tokens</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>ceruleanblastshield.description</source>
-        <target>Crafting Formula for one Cerulean Blast Shield Engineering Lab Part!</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>ceruleanblastshield.name</source>
-        <target>Cerulean Blast Shield</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>rarebox2a.name</source>
-        <target>Tier 2 Rare Part Box</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>rarebox3b.description</source>
-        <target>Open for a GUARANTEED 3 Bonus Rare Engineering Lab Part!</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>rarebox1a.name</source>
-        <target>Tier 1 Rare Part Box</target>
-      </trans-unit>
-      <trans-unit id="11">
         <source>ceruleanarmor.description</source>
         <target>Crafting Formula for one Cerulean Armor Smart Part!</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="2">
         <source>ceruleandamagesensor.description</source>
         <target>Crafting Formula for one Cerulean Damage Sensor Smart Part!</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="3">
         <source>ceruleanarmor.name</source>
         <target>Cerulean Armor</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="4">
         <source>rarebox1a.description</source>
         <target>Open for a chance to win a Rare 3 Bonus Smart Part or a Zoot's Token</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="5">
         <source>rarebox3b.name</source>
         <target>Tier 3 Rare Part Box</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="6">
         <source>rarebox2b.description</source>
         <target>Open for a chance to win a Rare 3 Bonus Smart Part or FIVE Zoot's Tokens</target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="7">
         <source>rarebox2b.name</source>
         <target>Tier 2 Rare Part Box</target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="8">
         <source>ceruleanammodelivery.name</source>
         <target>Cerulean Ammo Delivery</target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="9">
         <source>ceruleaninflammableshield.name</source>
         <target>Cerulean Fireproof Shield</target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="10">
         <source>rarebox1b.name</source>
         <target>Tier 1 Rare Part Box</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="11">
         <source>rarebox1b.description</source>
         <target>Open for a chance to win a Rare 3 Bonus Smart Part or a Zoot's Token</target>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="12">
         <source>ceruleanammodelivery.description</source>
         <target>Crafting Formula for one Cerulean Ammo Delivery Smart Part!</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>ceruleandamagesensor.name</source>
+        <target>Cerulean Damage Sensor</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>rarebox3a.name</source>
+        <target>Tier 3 Rare Part Box</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>ceruleanblastshield.description</source>
+        <target>Crafting Formula for one Cerulean Blast Shield Engineering Lab Part!</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>ceruleanblastshield.name</source>
+        <target>Cerulean Blast Shield</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>rarebox2a.name</source>
+        <target>Tier 2 Rare Part Box</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>rarebox1a.name</source>
+        <target>Tier 1 Rare Part Box</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>ceruleaninflammableshield.description</source>
+        <target>Crafting Formula for one Cerulean Fireproof Shield Engineering Lab Part!</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>rarebox3a.description</source>
+        <target>Open for a GUARANTEED 3 Bonus Rare Engineering Lab Part!</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>rarebox2a.description</source>
+        <target>Open for a chance to win a Rare 3 Bonus Smart Part or FIVE Zoot's Tokens</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>rarebox3b.description</source>
+        <target>Open for a GUARANTEED 3 Bonus Rare Engineering Lab Part!</target>
       </trans-unit>
     </body>
   </file>

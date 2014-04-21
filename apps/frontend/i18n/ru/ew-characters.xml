@@ -5,16 +5,16 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>names.mallick</source>
-        <target>&#x413;&#x443;&#x431;&#x435;&#x440;&#x43D;&#x430;&#x442;&#x43E;&#x440; &#x41C;&#x430;&#x43B;&#x438;&#x43A;</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>names.grod</source>
         <target>&#x413;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x43B; &#x413;&#x440;&#x43E;&#x434;</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>names.executrix</source>
         <target>&#x414;&#x443;&#x448;&#x435;&#x43F;&#x440;&#x438;&#x43A;&#x430;&#x437;&#x447;&#x438;&#x446;&#x430; &#x421;&#x446;&#x438;&#x43B;&#x438;&#x444;</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>names.mallick</source>
+        <target>&#x413;&#x443;&#x431;&#x435;&#x440;&#x43D;&#x430;&#x442;&#x43E;&#x440; &#x41C;&#x430;&#x43B;&#x438;&#x43A;</target>
       </trans-unit>
     </body>
   </file>

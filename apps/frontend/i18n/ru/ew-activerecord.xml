@@ -5,114 +5,114 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>errors.models.store-purchase.sale-not-valid</source>
-        <target>	&#x42D;&#x442;&#x43E;&#x442; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442; &#x443;&#x436;&#x435; &#x43D;&#x435; &#x43D;&#x430; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x43E;&#x434;&#x430;&#x436;&#x435;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;</target>
+        <source>errors.models.battle-token.insufficient-level-for-online-attacking</source>
+        <target>&#x418;&#x437;&#x432;&#x438;&#x43D;&#x438;&#x442;&#x435;, &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;. &#x412;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x433;&#x43D;&#x443;&#x442;&#x44C; 10 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x434;&#x440;&#x443;&#x433;&#x438;&#x445; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x43E;&#x432;.</target>
       </trans-unit>
       <trans-unit id="2">
+        <source>errors.models.store-purchase.cannot-buy-multiple-aurora-one-schematics</source>
+        <target>	&#x423; &#x432;&#x430;&#x441; &#x443;&#x436;&#x435; &#x435;&#x441;&#x442;&#x44C; &#x441;&#x445;&#x435;&#x43C;&#x430; &#x410;&#x432;&#x440;&#x43E;&#x440;&#x44B;-1.</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>errors.models.outpost-base-battle-token.player-not-of-sufficient-level</source>
+        <target>	&#x41F;&#x440;&#x43E;&#x441;&#x442;&#x438;&#x442;&#x435;</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>errors.models.alliance-membership.no-longer-exists</source>
+        <target>&#x41A; &#x441;&#x43E;&#x436;&#x430;&#x43B;&#x435;&#x43D;&#x438;&#x44E;, &#x442;&#x432;&#x43E;&#x435; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x432; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441; &#x431;&#x44B;&#x43B;&#x43E; &#x430;&#x43D;&#x43D;&#x443;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43E;. &#x422;&#x435;&#x431;&#x435; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x43E;&#x435; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x435;.</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>errors.models.simulation-token.player-already-simulating</source>
+        <target>&#x412;&#x44B; &#x443;&#x436;&#x435; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x435; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x446;&#x438;&#x44E;.</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>errors.models.store-purchase.cannot-buy-multiple-permanent-boosts</source>
+        <target>&#x423; &#x432;&#x430;&#x441; &#x443;&#x436;&#x435; &#x435;&#x441;&#x442;&#x44C; &#x44D;&#x442;&#x43E; &lt;b&gt;&#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E;&#x435;&lt;/b&gt; &#x443;&#x441;&#x438;&#x43B;&#x435;&#x43D;&#x438;&#x435;!  &#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439;&#x442;&#x435; &#x435;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432; &#x432;&#x440;&#x430;&#x433;&#x43E;&#x432;!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>attributes.alliance.name-activerecord.errors.models.alliance.taken</source>
+        <target>&#x41D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x438;&#x43B;&#x438; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x435;&#x434;&#x43E;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x43C;&#x44B;&#x43C;.</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>errors.models.alliance-membership.already-requested-membership</source>
+        <target>&#x422;&#x435;&#x431;&#x44F; &#x443;&#x436;&#x435; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x43B;&#x438; &#x438;&#x43B;&#x438; &#x442;&#x44B; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x430; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43A; &#x44D;&#x442;&#x43E;&#x43C;&#x443; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;.</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>errors.models.battle-token.defender-under-attack</source>
+        <target>&#x418;&#x437;&#x432;&#x438;&#x43D;&#x438;&#x442;&#x435;, &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;. &#x42D;&#x442;&#x443; &#x431;&#x430;&#x437;&#x443; &#x443;&#x436;&#x435; &#x430;&#x442;&#x430;&#x43A;&#x443;&#x44E;&#x442;</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>errors.models.player-used-item.equipment-cap-reached</source>
+        <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;, &#x434;&#x43B;&#x44F; &#x43E;&#x431;&#x43E;&#x440;&#x443;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x435;&#x442; &#x43C;&#x435;&#x441;&#x442;&#x430;.  &#x423;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x435; &#x447;&#x430;&#x441;&#x442;&#x44C; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x435;&#x439; &#x432; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x43E;&#x43C; &#x41D;&#x418;&#x418;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x431;&#x44B;&#x43B;&#x43E; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x44B;&#x435; &#x44F;&#x449;&#x438;&#x43A;&#x438;.</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>errors.models.suspension</source>
+        <target>	&#x412;&#x430;&#x448;&#x430; &#x443;&#x447;&#x435;&#x442;&#x43D;&#x430;&#x44F; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x44C; &#x431;&#x44B;&#x43B;&#x430; &#x43F;&#x440;&#x438;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x430; &#x200B;&#x200B;&#x43D;&#x430;  #DAYS# &#x441;&#x443;&#x442;&#x43E;&#x43A;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>errors.models.player.insufficient-space</source>
+        <target>&#x412;&#x430;&#x448; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x44B;&#x439; &#x41D;&#x418;&#x418; &#x43F;&#x43E;&#x43B;&#x43E;&#x43D;.</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>errors.models.alliance.cooling-down</source>
+        <target>&#x41F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x430; &#x434;&#x43B;&#x44F; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x432; &#x442;&#x440;&#x435;&#x431;&#x443;&#x44E;&#x442; 72-&#x447;&#x430;&#x441;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x440;&#x44B;&#x432;&#x430;, &#x43F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x432;&#x44B; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x44B;&#x439; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x438;&#x442;&#x435; &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x443; &#x43F;&#x43E;&#x437;&#x436;&#x435;.  </target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>attributes.alliance.name-activerecord.errors.models.alliance.too-short</source>
+        <target>&#x41D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x438;&#x43B;&#x438; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x435;&#x434;&#x43E;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x43C;&#x44B;&#x43C;.</target>
+      </trans-unit>
+      <trans-unit id="15">
         <source>errors.models.outpost-base-battle-token.attacker-already-attacking</source>
         <target>&#x412;&#x44B; &#x432;&#x441;&#x435; &#x435;&#x449;&#x435; &#x43D;&#x435; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x44D;&#x442;&#x43E;&#x442; &#x430;&#x432;&#x430;&#x43D;&#x43F;&#x43E;&#x441;&#x442;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43F;&#x43E;&#x434;&#x43E;&#x436;&#x434;&#x438;&#x442;&#x435; 6 &#x43C;&#x438;&#x43D;&#x443;&#x442; &#x438; &#x43F;&#x43E;&#x43F;&#x440;&#x43E;&#x431;&#x443;&#x439;&#x442;&#x435; &#x441;&#x43D;&#x43E;&#x432;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="16">
         <source>errors.models.battle-token.player-not-of-sufficient-level</source>
         <target>&#x41E;&#x448;&#x438;&#x431;&#x43A;&#x430;: &#x412;&#x430;&#x448; &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C; &#x441;&#x43B;&#x438;&#x448;&#x43A;&#x43E;&#x43C; &#x43D;&#x438;&#x437;&#x43A;&#x438;&#x439; &#x434;&#x43B;&#x44F; &#x44D;&#x442;&#x43E;&#x439; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x446;&#x438;&#x438;!</target>
       </trans-unit>
-      <trans-unit id="4">
-        <source>errors.models.ban</source>
-        <target>	&#x412;&#x430;&#x448;&#x430; &#x443;&#x447;&#x435;&#x442;&#x43D;&#x430;&#x44F; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x44C; &#x431;&#x44B;&#x43B;&#x430; &#x43F;&#x440;&#x438;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x430;.</target>
-      </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="17">
         <source>errors.models.battle-token.attacker-already-attacking</source>
         <target>&#x412;&#x44B; &#x43D;&#x430;&#x43F;&#x430;&#x43B;&#x438; &#x43D;&#x430; &#x434;&#x440;&#x443;&#x433;&#x43E;&#x433;&#x43E; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x430;, &#x43D;&#x43E; &#x43D;&#x435; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x447;&#x438;&#x43B;&#x438; &#x431;&#x43E;&#x439;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43F;&#x43E;&#x434;&#x43E;&#x436;&#x434;&#x438;&#x442;&#x435; 6 &#x43C;&#x438;&#x43D;&#x443;&#x442; &#x438; &#x43F;&#x43E;&#x43F;&#x440;&#x43E;&#x431;&#x443;&#x439;&#x442;&#x435; &#x441;&#x43D;&#x43E;&#x432;&#x430;.</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="18">
         <source>errors.models.faction-battle.too-many-troops-deployed</source>
         <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x439;, &#x432;&#x430;&#x448; &#x434;&#x435;&#x441;&#x430;&#x43D;&#x442; &#x43F;&#x440;&#x435;&#x432;&#x44B;&#x441;&#x438;&#x43B; &#x434;&#x43E;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x43C;&#x44B;&#x435; &#x43B;&#x438;&#x43C;&#x438;&#x442;&#x44B;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x441;&#x432;&#x44F;&#x436;&#x438;&#x442;&#x435;&#x441;&#x44C; &#x441;&#x43E; &#x441;&#x43B;&#x443;&#x436;&#x431;&#x43E;&#x439; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438; &#x43A;&#x43B;&#x438;&#x435;&#x43D;&#x442;&#x430; EW.</target>
       </trans-unit>
-      <trans-unit id="7">
-        <source>errors.models.alliance-membership.already-member</source>
-        <target>&#x42D;&#x442;&#x43E;&#x442; &#x438;&#x433;&#x440;&#x43E;&#x43A; &#x443;&#x436;&#x435; &#x432; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x435;. &#x41E;&#x43D; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x435;&#x433;&#x43E; &#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44C;, &#x43F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x442;&#x44B; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x435;&#x433;&#x43E; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x442;&#x44C;.</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>errors.models.player-message.sender-is-silenced</source>
-        <target>&#x412;&#x430;&#x448;&#x438; &#x43F;&#x440;&#x438;&#x432;&#x438;&#x43B;&#x435;&#x433;&#x438;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x438; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x439; &#x43F;&#x440;&#x438;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x44B;.</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>errors.models.faction-battle.more-damage-than-troops-could-inflict</source>
-        <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x439;, &#x432;&#x44B; &#x43D;&#x430;&#x43D;&#x435;&#x441;&#x43B;&#x438; &#x433;&#x43E;&#x440;&#x430;&#x437;&#x434;&#x43E; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430;, &#x447;&#x435;&#x43C; &#x432;&#x430;&#x448;&#x438; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430; &#x43C;&#x43E;&#x433;&#x43B;&#x438; &#x431;&#x44B; &#x43D;&#x430;&#x43D;&#x435;&#x441;&#x442;&#x438;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x441;&#x432;&#x44F;&#x436;&#x438;&#x442;&#x435;&#x441;&#x44C; &#x441;&#x43E; &#x441;&#x43B;&#x443;&#x436;&#x431;&#x43E;&#x439; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438; &#x43A;&#x43B;&#x438;&#x435;&#x43D;&#x442;&#x430; EW.</target>
-      </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="19">
         <source>errors.models.faction-base-battle-token.attacker-already-attacking</source>
         <target>&#x418;&#x437;&#x432;&#x438;&#x43D;&#x438;&#x442;&#x435;, &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;. &#x412;&#x44B; &#x443;&#x436;&#x435; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x438; &#x430;&#x442;&#x430;&#x43A;&#x443; &#x43D;&#x430; &#x431;&#x430;&#x437;&#x443; &#x444;&#x440;&#x430;&#x43A;&#x446;&#x438;&#x438;. &#x424;&#x440;&#x430;&#x43A;&#x446;&#x438;&#x44F; &#x431;&#x443;&#x434;&#x435;&#x442; &#x441;&#x43D;&#x43E;&#x432;&#x430; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x430; &#x447;&#x435;&#x440;&#x435;&#x437; 5 &#x43C;&#x438;&#x43D;&#x443;&#x442;.</target>
       </trans-unit>
-      <trans-unit id="11">
-        <source>errors.models.base-boost.cannot-stack</source>
-        <target>&#x423; &#x412;&#x430;&#x441; &#x435;&#x441;&#x442;&#x44C; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x439; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x41E;&#x41E; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x43E;&#x439; &#x43C;&#x43E;&#x449;&#x43D;&#x43E;&#x441;&#x442;&#x438;. &#x41F;&#x43E;&#x441;&#x43B;&#x435; &#x438;&#x441;&#x442;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x440;&#x43E;&#x43A;&#x430; &#x435;&#x433;&#x43E; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44F; &#x412;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x44D;&#x442;&#x43E;&#x442; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;.</target>
+      <trans-unit id="20">
+        <source>errors.models.faction-battle.more-damage-than-troops-could-inflict</source>
+        <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x439;, &#x432;&#x44B; &#x43D;&#x430;&#x43D;&#x435;&#x441;&#x43B;&#x438; &#x433;&#x43E;&#x440;&#x430;&#x437;&#x434;&#x43E; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x443;&#x440;&#x43E;&#x43D;&#x430;, &#x447;&#x435;&#x43C; &#x432;&#x430;&#x448;&#x438; &#x432;&#x43E;&#x439;&#x441;&#x43A;&#x430; &#x43C;&#x43E;&#x433;&#x43B;&#x438; &#x431;&#x44B; &#x43D;&#x430;&#x43D;&#x435;&#x441;&#x442;&#x438;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x441;&#x432;&#x44F;&#x436;&#x438;&#x442;&#x435;&#x441;&#x44C; &#x441;&#x43E; &#x441;&#x43B;&#x443;&#x436;&#x431;&#x43E;&#x439; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438; &#x43A;&#x43B;&#x438;&#x435;&#x43D;&#x442;&#x430; EW.</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="21">
         <source>errors.models.alliance-membership.membership-in-cooldown-period</source>
         <target>&#x41F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x430; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x430; &#x442;&#x440;&#x435;&#x431;&#x443;&#x44E;&#x442; 72-&#x447;&#x430;&#x441;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x440;&#x44B;&#x432;&#x430;, &#x43F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x432;&#x44B; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x43D;&#x43E; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x438;&#x442;&#x44C;&#x441;&#x44F; &#x43A; &#x43F;&#x440;&#x435;&#x434;&#x44B;&#x434;&#x443;&#x449;&#x435;&#x43C;&#x443; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;.
 
  &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x438;&#x442;&#x435; &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x443; &#x43F;&#x43E;&#x437;&#x436;&#x435;.</target>
       </trans-unit>
-      <trans-unit id="13">
-        <source>errors.models.player-message.sender-is-muted</source>
-        <target>&#x41D;&#x435; &#x443;&#x434;&#x430;&#x43B;&#x43E;&#x441;&#x44C; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C;. &#x422;&#x44B; &#x437;&#x430;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x43C;.</target>
-      </trans-unit>
-      <trans-unit id="14">
-        <source>errors.models.battle-token.insufficient-level-for-online-attacking</source>
-        <target>&#x418;&#x437;&#x432;&#x438;&#x43D;&#x438;&#x442;&#x435;, &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;. &#x412;&#x44B; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x433;&#x43D;&#x443;&#x442;&#x44C; 10 &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x430;&#x442;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x434;&#x440;&#x443;&#x433;&#x438;&#x445; &#x438;&#x433;&#x440;&#x43E;&#x43A;&#x43E;&#x432;.</target>
-      </trans-unit>
-      <trans-unit id="15">
-        <source>errors.models.store-purchase.cannot-buy-multiple-aurora-one-schematics</source>
-        <target>	&#x423; &#x432;&#x430;&#x441; &#x443;&#x436;&#x435; &#x435;&#x441;&#x442;&#x44C; &#x441;&#x445;&#x435;&#x43C;&#x430; &#x410;&#x432;&#x440;&#x43E;&#x440;&#x44B;-1.</target>
-      </trans-unit>
-      <trans-unit id="16">
-        <source>errors.models.outpost-base-battle-token.player-not-of-sufficient-level</source>
-        <target>	&#x41F;&#x440;&#x43E;&#x441;&#x442;&#x438;&#x442;&#x435;</target>
-      </trans-unit>
-      <trans-unit id="17">
-        <source>errors.models.alliance-membership.no-longer-exists</source>
-        <target>&#x41A; &#x441;&#x43E;&#x436;&#x430;&#x43B;&#x435;&#x43D;&#x438;&#x44E;, &#x442;&#x432;&#x43E;&#x435; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x432; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441; &#x431;&#x44B;&#x43B;&#x43E; &#x430;&#x43D;&#x43D;&#x443;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43E;. &#x422;&#x435;&#x431;&#x435; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x43E;&#x435; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x448;&#x435;&#x43D;&#x438;&#x435;.</target>
-      </trans-unit>
-      <trans-unit id="18">
-        <source>errors.models.simulation-token.player-already-simulating</source>
-        <target>&#x412;&#x44B; &#x443;&#x436;&#x435; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x435; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x446;&#x438;&#x44E;.</target>
-      </trans-unit>
-      <trans-unit id="19">
-        <source>errors.models.store-purchase.cannot-buy-multiple-permanent-boosts</source>
-        <target>&#x423; &#x432;&#x430;&#x441; &#x443;&#x436;&#x435; &#x435;&#x441;&#x442;&#x44C; &#x44D;&#x442;&#x43E; &lt;b&gt;&#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E;&#x435;&lt;/b&gt; &#x443;&#x441;&#x438;&#x43B;&#x435;&#x43D;&#x438;&#x435;!  &#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439;&#x442;&#x435; &#x435;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432; &#x432;&#x440;&#x430;&#x433;&#x43E;&#x432;!</target>
-      </trans-unit>
-      <trans-unit id="20">
-        <source>attributes.alliance.name-activerecord.errors.models.alliance.taken</source>
-        <target>&#x41D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x438;&#x43B;&#x438; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x435;&#x434;&#x43E;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x43C;&#x44B;&#x43C;.</target>
-      </trans-unit>
-      <trans-unit id="21">
-        <source>errors.models.alliance-membership.already-requested-membership</source>
-        <target>&#x422;&#x435;&#x431;&#x44F; &#x443;&#x436;&#x435; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x43B;&#x438; &#x438;&#x43B;&#x438; &#x442;&#x44B; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; &#x43D;&#x430; &#x43F;&#x440;&#x438;&#x441;&#x43E;&#x435;&#x434;&#x438;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43A; &#x44D;&#x442;&#x43E;&#x43C;&#x443; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x443;.</target>
-      </trans-unit>
       <trans-unit id="22">
-        <source>errors.models.battle-token.defender-under-attack</source>
-        <target>&#x418;&#x437;&#x432;&#x438;&#x43D;&#x438;&#x442;&#x435;, &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;. &#x42D;&#x442;&#x443; &#x431;&#x430;&#x437;&#x443; &#x443;&#x436;&#x435; &#x430;&#x442;&#x430;&#x43A;&#x443;&#x44E;&#x442;</target>
+        <source>errors.models.store-purchase.sale-not-valid</source>
+        <target>	&#x42D;&#x442;&#x43E;&#x442; &#x43F;&#x440;&#x435;&#x434;&#x43C;&#x435;&#x442; &#x443;&#x436;&#x435; &#x43D;&#x435; &#x43D;&#x430; &#x440;&#x430;&#x441;&#x43F;&#x440;&#x43E;&#x434;&#x430;&#x436;&#x435;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;</target>
       </trans-unit>
       <trans-unit id="23">
-        <source>errors.models.player-used-item.equipment-cap-reached</source>
-        <target>&#x41A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;&#x440;, &#x434;&#x43B;&#x44F; &#x43E;&#x431;&#x43E;&#x440;&#x443;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x435; &#x43D;&#x435;&#x442; &#x43C;&#x435;&#x441;&#x442;&#x430;.  &#x423;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x435; &#x447;&#x430;&#x441;&#x442;&#x44C; &#x434;&#x435;&#x442;&#x430;&#x43B;&#x435;&#x439; &#x432; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x43E;&#x43C; &#x41D;&#x418;&#x418;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x431;&#x44B;&#x43B;&#x43E; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x44B;&#x435; &#x44F;&#x449;&#x438;&#x43A;&#x438;.</target>
+        <source>errors.models.ban</source>
+        <target>	&#x412;&#x430;&#x448;&#x430; &#x443;&#x447;&#x435;&#x442;&#x43D;&#x430;&#x44F; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x44C; &#x431;&#x44B;&#x43B;&#x430; &#x43F;&#x440;&#x438;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x430;.</target>
       </trans-unit>
       <trans-unit id="24">
-        <source>errors.models.suspension</source>
-        <target>	&#x412;&#x430;&#x448;&#x430; &#x443;&#x447;&#x435;&#x442;&#x43D;&#x430;&#x44F; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x44C; &#x431;&#x44B;&#x43B;&#x430; &#x43F;&#x440;&#x438;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x430; &#x200B;&#x200B;&#x43D;&#x430;  #DAYS# &#x441;&#x443;&#x442;&#x43E;&#x43A;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;</target>
+        <source>errors.models.alliance-membership.already-member</source>
+        <target>&#x42D;&#x442;&#x43E;&#x442; &#x438;&#x433;&#x440;&#x43E;&#x43A; &#x443;&#x436;&#x435; &#x432; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x435;. &#x41E;&#x43D; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x435;&#x433;&#x43E; &#x43F;&#x43E;&#x43A;&#x438;&#x43D;&#x443;&#x442;&#x44C;, &#x43F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x442;&#x44B; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x448;&#x44C; &#x435;&#x433;&#x43E; &#x43F;&#x440;&#x438;&#x433;&#x43B;&#x430;&#x441;&#x438;&#x442;&#x44C;.</target>
       </trans-unit>
       <trans-unit id="25">
-        <source>errors.models.player.insufficient-space</source>
-        <target>&#x412;&#x430;&#x448; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x43D;&#x44B;&#x439; &#x41D;&#x418;&#x418; &#x43F;&#x43E;&#x43B;&#x43E;&#x43D;.</target>
+        <source>errors.models.player-message.sender-is-silenced</source>
+        <target>&#x412;&#x430;&#x448;&#x438; &#x43F;&#x440;&#x438;&#x432;&#x438;&#x43B;&#x435;&#x433;&#x438;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x438; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x439; &#x43F;&#x440;&#x438;&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x44B;.</target>
       </trans-unit>
       <trans-unit id="26">
-        <source>errors.models.alliance.cooling-down</source>
-        <target>&#x41F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x430; &#x434;&#x43B;&#x44F; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;&#x43E;&#x432; &#x442;&#x440;&#x435;&#x431;&#x443;&#x44E;&#x442; 72-&#x447;&#x430;&#x441;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x440;&#x44B;&#x432;&#x430;, &#x43F;&#x440;&#x435;&#x436;&#x434;&#x435; &#x447;&#x435;&#x43C; &#x432;&#x44B; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x44B;&#x439; &#x430;&#x43B;&#x44C;&#x44F;&#x43D;&#x441;. &#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x438;&#x442;&#x435; &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x443; &#x43F;&#x43E;&#x437;&#x436;&#x435;.  </target>
+        <source>errors.models.base-boost.cannot-stack</source>
+        <target>&#x423; &#x412;&#x430;&#x441; &#x435;&#x441;&#x442;&#x44C; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x439; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C; &#x41E;&#x41E; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x43E;&#x439; &#x43C;&#x43E;&#x449;&#x43D;&#x43E;&#x441;&#x442;&#x438;. &#x41F;&#x43E;&#x441;&#x43B;&#x435; &#x438;&#x441;&#x442;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x440;&#x43E;&#x43A;&#x430; &#x435;&#x433;&#x43E; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44F; &#x412;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x44D;&#x442;&#x43E;&#x442; &#x443;&#x441;&#x438;&#x43B;&#x438;&#x442;&#x435;&#x43B;&#x44C;.</target>
       </trans-unit>
       <trans-unit id="27">
-        <source>attributes.alliance.name-activerecord.errors.models.alliance.too-short</source>
-        <target>&#x41D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x438;&#x43B;&#x438; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43D;&#x435;&#x434;&#x43E;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x43C;&#x44B;&#x43C;.</target>
+        <source>errors.models.player-message.sender-is-muted</source>
+        <target>&#x41D;&#x435; &#x443;&#x434;&#x430;&#x43B;&#x43E;&#x441;&#x44C; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x438;&#x442;&#x44C;. &#x422;&#x44B; &#x437;&#x430;&#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x435;&#x43C;.</target>
       </trans-unit>
     </body>
   </file>

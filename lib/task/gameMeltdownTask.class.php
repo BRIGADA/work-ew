@@ -41,16 +41,10 @@ EOF;
     while ($content = trim(fgets(STDIN)))
     {
         if(preg_match('/meltdown=([a-z0-9]{40})/', $content, $matches)) {
-            if($current != $matches[1]) {
-                $current = $matches[1];
-                $record = new Meltdown();
-                $record->value = $current;
-                $record->save();
+            if($matches != $current) {
+                $current = MeltdownTable::setCurrent($matches[1]);
                 $this->logSection('new', $current);
             }
-        }
-        else {
-            $this->logSection('unknown', $content);
         }
     }
   }

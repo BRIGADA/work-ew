@@ -5,92 +5,92 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>resource-panel.main-use</source>
-        <target>Main use:</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>resource-panel.main-use-gas</source>
-        <target>Construction of new buildings</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>force-achievement.force-challenge</source>
-        <target>Force Challenge</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>job.err.barracks</source>
-        <target>Requires Barracks</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>resource-panel.main-use-crystal</source>
-        <target>Construction of new buildings</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>resource-panel.main-use-energy</source>
-        <target>Troop research</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>build-queues-unavailable</source>
-        <target>Progress meters unavailable during combat.</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>job.err.techlab</source>
-        <target>Requires Tech Lab</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>job.start</source>
-        <target>Click to start </target>
-      </trans-unit>
-      <trans-unit id="10">
         <source>unithealthinfo.title</source>
         <target>Unit Health</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="2">
         <source>job.err.defenselab</source>
         <target>Requires Defense Lab</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="3">
         <source>tooltip.mainbase</source>
         <target>HQ</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="4">
         <source>force-achievement.goal</source>
         <target>Force to go:</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="5">
         <source>tooltip.caldera</source>
         <target>Caldera Two</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="6">
         <source>job.err.academy</source>
         <target>Requires Academy</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="7">
         <source>attack.available.troops</source>
         <target>Available Troops</target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="8">
         <source>force-achievement.goal-reached</source>
         <target>Goal Reached</target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="9">
         <source>resource-panel.main-use-uranium</source>
         <target>Troop training</target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="10">
         <source>job.err.factory</source>
         <target>Requires Factory</target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="11">
         <source>tooltip.aurora-one</source>
         <target>Aurora One</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="12">
         <source>force-achievement.time-left</source>
         <target>left</target>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="13">
+        <source>resource-panel.main-use-gas</source>
+        <target>Construction of new buildings</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>force-achievement.force-challenge</source>
+        <target>Force Challenge</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>resource-panel.main-use-energy</source>
+        <target>Troop research</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>build-queues-unavailable</source>
+        <target>Progress meters unavailable during combat.</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>job.err.techlab</source>
+        <target>Requires Tech Lab</target>
+      </trans-unit>
+      <trans-unit id="18">
         <source>force-achievement.items-added</source>
         <target>Items have been added to your inventory</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>resource-panel.main-use</source>
+        <target>Main use:</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>job.err.barracks</source>
+        <target>Requires Barracks</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>resource-panel.main-use-crystal</source>
+        <target>Construction of new buildings</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>job.start</source>
+        <target>Click to start </target>
       </trans-unit>
     </body>
   </file>

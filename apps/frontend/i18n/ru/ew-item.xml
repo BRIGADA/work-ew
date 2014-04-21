@@ -5,18 +5,18 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>sandyreliefcrate.description</source>
+        <source>sandyreliefcrate.name</source>
+        <target>Fleet Relief Crate</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>sandyreliefcrate.tooltip</source>
         <target>Includes: &lt;br&gt;
 3x Decimator Rack
 3x 30% Training Accelerator
 5x Zoot Token</target>
       </trans-unit>
-      <trans-unit id="2">
-        <source>sandyreliefcrate.name</source>
-        <target>Fleet Relief Crate</target>
-      </trans-unit>
       <trans-unit id="3">
-        <source>sandyreliefcrate.tooltip</source>
+        <source>sandyreliefcrate.description</source>
         <target>Includes: &lt;br&gt;
 3x Decimator Rack
 3x 30% Training Accelerator

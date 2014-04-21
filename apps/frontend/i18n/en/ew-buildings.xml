@@ -5,321 +5,321 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>academy.name</source>
-        <target>Fleet Academy</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>defenselab.description</source>
-        <target>The Defense Lab conducts research on countering enemy units when they attack your base. Research each unit to weaken its attack!</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>neutronmine.name</source>
-        <target>Neutron Mine</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>factory.description</source>
-        <target>Factories train mechanized units and allow you to build Neutron Mines at Level 9. More Factories allow you to queue additional training orders. Upgrade to increase building health and build Neutron Mines. </target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>silverbuilding.name</source>
-        <target>Silver Monument</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>crystalmine.description</source>
-        <target>Crystal Mines harvest native Cerulean minerals for use in building materials. Upgrade to increase Crystal storage capacity and harvesting rate.</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>commandcenter.description</source>
-        <target>The Command Center is the main hub for your base and manages all operations. Upgrade the Command Center to unlock more buildings.</target>
-      </trans-unit>
-      <trans-unit id="8">
-        <source>goldbuilding.description</source>
-        <target>A symbol of Galactic power, Commander's with this building are nearly the best. Building this monument draws enemy gunfire.</target>
-      </trans-unit>
-      <trans-unit id="9">
-        <source>mine.name</source>
-        <target>Neutron Mine</target>
-      </trans-unit>
-      <trans-unit id="10">
-        <source>turretcontrol.name</source>
-        <target>Turret Control</target>
-      </trans-unit>
-      <trans-unit id="11">
-        <source>techlab.description</source>
-        <target>The Tech Lab conducts research on combat units. Before a unit can be produced, it must be researched at the Tech Lab. Upgrade the Tech Lab to unlock new units and unit upgrades.</target>
-      </trans-unit>
-      <trans-unit id="12">
-        <source>neutronmine.description</source>
-        <target>The Neutron Mine explodes when an attacking unit comes within range, triggering a deadly explosion. These mines pack a fearsome punch!</target>
-      </trans-unit>
-      <trans-unit id="13">
-        <source>engineeringlab.name</source>
-        <target>Engineering Lab</target>
-      </trans-unit>
-      <trans-unit id="14">
-        <source>alchemylab.name</source>
-        <target>Resource Converter</target>
-      </trans-unit>
-      <trans-unit id="15">
-        <source>incendiaryturret.name</source>
-        <target>Incendiary Turret</target>
-      </trans-unit>
-      <trans-unit id="16">
-        <source>gasrefinery.name</source>
-        <target>Gas Refinery</target>
-      </trans-unit>
-      <trans-unit id="17">
-        <source>stagingarea.name</source>
-        <target>Staging Area</target>
-      </trans-unit>
-      <trans-unit id="18">
-        <source>calderacommandcenter.description</source>
-        <target>The Command Center is the main hub for your base and manages all operations. Upgrade the Command Center to unlock more buildings.</target>
-      </trans-unit>
-      <trans-unit id="19">
-        <source>solarplant.name</source>
-        <target>Solar Plant</target>
-      </trans-unit>
-      <trans-unit id="20">
-        <source>engineeringlab.description</source>
-        <target>The Engineering Lab increases turret system performance by enabling equippable Parts. Collect, upgrade and equip Parts to enhance defense tactics. Upgrade to unlock more turret slots.</target>
-      </trans-unit>
-      <trans-unit id="21">
-        <source>snipertower.description</source>
-        <target>Sniper Turrets can target units at long ranges making it a must-have for base defense.</target>
-      </trans-unit>
-      <trans-unit id="22">
-        <source>incendiaryturret.description</source>
-        <target>Incendiary Turrets fire superheated Cerulean minerals at their enemies, setting them ablaze . Upgrade to increase range, damage, and health.</target>
-      </trans-unit>
-      <trans-unit id="23">
-        <source>corrosiveturret.description</source>
-        <target>The Corrosive Turret features the powerful ability to deal sustained damage as well as freeze incoming units. Upgrade to increase the attack, range and health of this turret.</target>
-      </trans-unit>
-      <trans-unit id="24">
-        <source>teslatower.description</source>
-        <target>Tesla Towers emit deadly electrical waves that damage multiple units at once. Upgrade to increase health, damage and number of targets.</target>
-      </trans-unit>
-      <trans-unit id="25">
-        <source>bunker.description</source>
-        <target>Defensive Building where you can Garrison Troops in order to increase its power!</target>
-      </trans-unit>
-      <trans-unit id="26">
-        <source>flagbuilding.description</source>
-        <target>The Banner building will slow down units in its range. Equip banners to personalize the building!</target>
-      </trans-unit>
-      <trans-unit id="27">
-        <source>antiaircraftturret.description</source>
-        <target>This turret fires modified Electromagnetic Pulse rounds effective for frying the circuitry of mechanical units built in the Factory. It is not effective against units trained in the Barracks or Fleet Academy.</target>
-      </trans-unit>
-      <trans-unit id="28">
-        <source>x1cannon.name</source>
-        <target>X-1 Cannon</target>
-      </trans-unit>
-      <trans-unit id="29">
-        <source>barracks.description</source>
-        <target>Barracks train infantry units. More Barracks allow you to queue additional training orders. Upgrade to decrease troop training time.</target>
-      </trans-unit>
-      <trans-unit id="30">
-        <source>antiaircraftturret.name</source>
-        <target>Anti-Tank Turret</target>
-      </trans-unit>
-      <trans-unit id="31">
-        <source>concussionturret.description</source>
-        <target>Concussion turrets fire plasma blasts that damage and slow enemy units. Upgrade to increase damage and health.</target>
-      </trans-unit>
-      <trans-unit id="32">
-        <source>stagingarea.capacity</source>
-        <target>Staging Area Capacity</target>
-      </trans-unit>
-      <trans-unit id="33">
-        <source>constructorbuilding.name</source>
-        <target>Constructor</target>
-      </trans-unit>
-      <trans-unit id="34">
-        <source>tankturret.name</source>
-        <target>Heavyweight Turret</target>
-      </trans-unit>
-      <trans-unit id="35">
-        <source>generalsquarters.description</source>
-        <target>The Generals Quarters is where you can strengthen the skills and abilities of your generals by using SP</target>
-      </trans-unit>
-      <trans-unit id="36">
-        <source>commandcenter.name</source>
-        <target>Command Center</target>
-      </trans-unit>
-      <trans-unit id="37">
         <source>allianceshieldgenerator.name</source>
         <target>Alliance Shield Generator</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="2">
         <source>gunturret.name</source>
         <target>Gun Turret</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="3">
         <source>stagingarea.description</source>
         <target>Staging Areas house combat-ready units. Upgrade to increase how many units you can train.</target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="4">
         <source>bronzebuilding.description</source>
         <target>A badge of Galactic strength, Commander's with this building are beginning their ascent to power. Building this monument draws enemy gunfire.</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="5">
         <source>defenselab.name</source>
         <target>Defense Lab</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="6">
         <source>corrosiveturret.name</source>
         <target>Corrosive Turret</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="7">
         <source>concussionturret.name</source>
         <target>Concussion Turret</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="8">
         <source>turretcontrol.description</source>
         <target>The Turret Control enables defensive satellite uplink with your Headquarters so that the more powerful all colony Turrets grow, the more powerful your main base Turrets will become.</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="9">
         <source>techlab.name</source>
         <target>Tech Lab</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="10">
         <source>barracks.name</source>
         <target>Barracks</target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="11">
         <source>solarplant.description</source>
         <target>Solar Plants convert radiation from Cerulea IV's sun into energy for research and training. Upgrade to increase solar cell capacity and conversion rate.</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="12">
         <source>x1cannon.description</source>
         <target>X-1 Cannons fire short-range missiles that inflict both direct and splash damage - effective against groups of fragile units. Upgrade to increase damage, splash damage, and health.</target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="13">
         <source>shieldgenerator.description</source>
         <target>The Shield Generator boosts the defenses of all your bases by increasing the health of all buildings and damage output of defensive turrets when active.</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="14">
         <source>gasrefinery.description</source>
         <target>Gas Refineries process native Cerulean gasses for use in construction and as fuel. Upgrade to increase gas refining rate and fuel storage capacity.</target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="15">
         <source>silverbuilding.description</source>
         <target>A regalia of Galatic strength, Commander's with this building are top contenders. Building this monument draws enemy gunfire.</target>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="16">
         <source>bronzebuilding.name</source>
         <target>Bronze Monument</target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="17">
         <source>platinumbuilding.name</source>
         <target>Platinum Monument</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="18">
         <source>supplydepot.name</source>
         <target>Supply Depot</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="19">
         <source>shieldgenerator.name</source>
         <target>Shield Generator</target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="20">
         <source>alchemylab.description</source>
         <target>The Resource Converter allows you to convert resources from one type to another. Level it up to convert more resources at once!  Upon upgrading to Level 16, the Resource Converter&#x2019;s Orbital Strike Cannon begins converting your resources into high-powered energy blasts!</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="21">
         <source>fusionreactor.name</source>
         <target>Reactor</target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="22">
         <source>fusionreactor.description</source>
         <target>Reactors process nuclear material for weaponry. Upgrade to increase uranium processing and storage capacity.</target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="23">
         <source>generalsquarters.name</source>
         <target>Generals Quarters</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="24">
         <source>gunturret.description</source>
         <target>Gun Turrets fire a stream of projectiles at enemies. Upgrade to increase range, damage, and health.</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="25">
         <source>academy.description</source>
         <target>The Fleet Academy trains advanced units. Additional Fleet Academies allow you to queue additional training orders. Upgrade to increase building health. 
 </target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="26">
         <source>calderacommandcenter.name</source>
         <target>Command Center</target>
       </trans-unit>
-      <trans-unit id="63">
+      <trans-unit id="27">
         <source>mine.description</source>
         <target>The Neutron Mine explodes when an attacking unit comes within range, triggering a deadly explosion. These mines pack a fearsome punch!</target>
       </trans-unit>
-      <trans-unit id="64">
+      <trans-unit id="28">
         <source>constructorbuilding.description</source>
         <target>The Constructor manufactures advanced construction nanos which reduces the time it takes to build any structures.</target>
       </trans-unit>
-      <trans-unit id="65">
+      <trans-unit id="29">
         <source>tankturret.description</source>
         <target>The Heavyweight Turret boasts high health and fires upon multiple targets. Upgrade to increase health and number of targets.</target>
       </trans-unit>
-      <trans-unit id="66">
+      <trans-unit id="30">
         <source>defensesimulator.description</source>
         <target>Defense Simulator allows you to test your base&#x2019;s resilience against incoming enemy attacks. Damage incurred is only temporary. Upgrade your Simulator to unlock more levels!</target>
       </trans-unit>
-      <trans-unit id="67">
+      <trans-unit id="31">
         <source>factory.name</source>
         <target>Factory</target>
       </trans-unit>
-      <trans-unit id="68">
+      <trans-unit id="32">
         <source>goldbuilding.name</source>
         <target>Gold Monument</target>
       </trans-unit>
-      <trans-unit id="69">
+      <trans-unit id="33">
         <source>warpgate.name</source>
         <target>Warp Gate</target>
       </trans-unit>
-      <trans-unit id="70">
+      <trans-unit id="34">
         <source>warpgate.description</source>
         <target>The Warp Gate uses warp charges to transport units to the battlefield. Charges replenish over time. Upgrade to increase warp capacity - the number of units that can be deployed in an attack.</target>
       </trans-unit>
-      <trans-unit id="71">
+      <trans-unit id="35">
         <source>bunker.name</source>
         <target>Attack Bunker</target>
       </trans-unit>
-      <trans-unit id="72">
+      <trans-unit id="36">
         <source>teslatower.name</source>
         <target>Tesla Tower</target>
       </trans-unit>
-      <trans-unit id="73">
+      <trans-unit id="37">
+        <source>academy.name</source>
+        <target>Fleet Academy</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>factory.description</source>
+        <target>Factories train mechanized units and allow you to build Neutron Mines at Level 9. More Factories allow you to queue additional training orders. Upgrade to increase building health and build Neutron Mines. </target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>commandcenter.description</source>
+        <target>The Command Center is the main hub for your base and manages all operations. Upgrade the Command Center to unlock more buildings.</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>neutronmine.description</source>
+        <target>The Neutron Mine explodes when an attacking unit comes within range, triggering a deadly explosion. These mines pack a fearsome punch!</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>alchemylab.name</source>
+        <target>Resource Converter</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>incendiaryturret.name</source>
+        <target>Incendiary Turret</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>stagingarea.name</source>
+        <target>Staging Area</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>engineeringlab.description</source>
+        <target>The Engineering Lab increases turret system performance by enabling equippable Parts. Collect, upgrade and equip Parts to enhance defense tactics. Upgrade to unlock more turret slots.</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>snipertower.description</source>
+        <target>Sniper Turrets can target units at long ranges making it a must-have for base defense.</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>incendiaryturret.description</source>
+        <target>Incendiary Turrets fire superheated Cerulean minerals at their enemies, setting them ablaze . Upgrade to increase range, damage, and health.</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>teslatower.description</source>
+        <target>Tesla Towers emit deadly electrical waves that damage multiple units at once. Upgrade to increase health, damage and number of targets.</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>flagbuilding.description</source>
+        <target>The Banner building will slow down units in its range. Equip banners to personalize the building!</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>antiaircraftturret.description</source>
+        <target>This turret fires modified Electromagnetic Pulse rounds effective for frying the circuitry of mechanical units built in the Factory. It is not effective against units trained in the Barracks or Fleet Academy.</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>x1cannon.name</source>
+        <target>X-1 Cannon</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>concussionturret.description</source>
+        <target>Concussion turrets fire plasma blasts that damage and slow enemy units. Upgrade to increase damage and health.</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>stagingarea.capacity</source>
+        <target>Staging Area Capacity</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>tankturret.name</source>
+        <target>Heavyweight Turret</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>generalsquarters.description</source>
+        <target>The Generals Quarters is where you can strengthen the skills and abilities of your generals by using SP</target>
+      </trans-unit>
+      <trans-unit id="55">
         <source>defensesimulator.name</source>
         <target>Defense Simulator</target>
       </trans-unit>
-      <trans-unit id="74">
+      <trans-unit id="56">
         <source>snipertower.name</source>
         <target>Sniper Turret</target>
       </trans-unit>
-      <trans-unit id="75">
+      <trans-unit id="57">
         <source>allianceshieldgenerator.description</source>
         <target>The Alliance Shield Generator strengthens all nodes controlled by an Alliance. Upgrade to further fortify Alliance nodes.</target>
       </trans-unit>
-      <trans-unit id="76">
+      <trans-unit id="58">
         <source>flagbuilding.name</source>
         <target>Banner Monument</target>
       </trans-unit>
-      <trans-unit id="77">
+      <trans-unit id="59">
         <source>supplydepot.description</source>
         <target>Supply Depots store resources until they can be used. Upgrade to increase maximum storage capacity for all resources.  </target>
       </trans-unit>
-      <trans-unit id="78">
+      <trans-unit id="60">
         <source>platinumbuilding.description</source>
         <target>The ultimate emblem of a Galactic supremacy, Commander's with this building are THE GREATEST. Building this monument incites the ire of enemy troops drawing their fire to this building.</target>
       </trans-unit>
-      <trans-unit id="79">
+      <trans-unit id="61">
         <source>crystalmine.name</source>
         <target>Crystal Mine</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>defenselab.description</source>
+        <target>The Defense Lab conducts research on countering enemy units when they attack your base. Research each unit to weaken its attack!</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>neutronmine.name</source>
+        <target>Neutron Mine</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>silverbuilding.name</source>
+        <target>Silver Monument</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>crystalmine.description</source>
+        <target>Crystal Mines harvest native Cerulean minerals for use in building materials. Upgrade to increase Crystal storage capacity and harvesting rate.</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>goldbuilding.description</source>
+        <target>A symbol of Galactic power, Commander's with this building are nearly the best. Building this monument draws enemy gunfire.</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>mine.name</source>
+        <target>Neutron Mine</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>turretcontrol.name</source>
+        <target>Turret Control</target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>techlab.description</source>
+        <target>The Tech Lab conducts research on combat units. Before a unit can be produced, it must be researched at the Tech Lab. Upgrade the Tech Lab to unlock new units and unit upgrades.</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>engineeringlab.name</source>
+        <target>Engineering Lab</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>gasrefinery.name</source>
+        <target>Gas Refinery</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>calderacommandcenter.description</source>
+        <target>The Command Center is the main hub for your base and manages all operations. Upgrade the Command Center to unlock more buildings.</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>solarplant.name</source>
+        <target>Solar Plant</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>corrosiveturret.description</source>
+        <target>The Corrosive Turret features the powerful ability to deal sustained damage as well as freeze incoming units. Upgrade to increase the attack, range and health of this turret.</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>bunker.description</source>
+        <target>Defensive Building where you can Garrison Troops in order to increase its power!</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>barracks.description</source>
+        <target>Barracks train infantry units. More Barracks allow you to queue additional training orders. Upgrade to decrease troop training time.</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>antiaircraftturret.name</source>
+        <target>Anti-Tank Turret</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>constructorbuilding.name</source>
+        <target>Constructor</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>commandcenter.name</source>
+        <target>Command Center</target>
       </trans-unit>
     </body>
   </file>

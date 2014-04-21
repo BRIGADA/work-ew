@@ -5,44 +5,44 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>key.description</source>
-        <target>Key needed to open #ITEM_NAME#</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>combatboosts.title</source>
-        <target>Combat Boosts!</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>combatboosts.description</source>
-        <target>Hit back harder, earn more XP, command respect!</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>resourceboosts.title</source>
-        <target>Increase Production!</target>
-      </trans-unit>
-      <trans-unit id="5">
         <source>key.title</source>
         <target>Key Needed</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="2">
         <source>shields.title</source>
         <target>Defend Yourself!</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="3">
         <source>namechange.description</source>
         <target>Want to change your name?</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="4">
         <source>namechange.title</source>
         <target>Identity Theft</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="5">
         <source>shields.description</source>
         <target>Protect your resources, protect yourself.</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="6">
         <source>resourceboosts.description</source>
         <target>Saving up? Generate resources faster!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>combatboosts.title</source>
+        <target>Combat Boosts!</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>key.description</source>
+        <target>Key needed to open #ITEM_NAME#</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>combatboosts.description</source>
+        <target>Hit back harder, earn more XP, command respect!</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>resourceboosts.title</source>
+        <target>Increase Production!</target>
       </trans-unit>
     </body>
   </file>
