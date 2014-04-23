@@ -5,64 +5,64 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>tooltip.energy</source>
-        <target>Reset Energy Transfer</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>tooltip.meter-energy</source>
-        <target>#BASE_NAME# Energy Capacity</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>tooltip.gas</source>
-        <target>Reset Gas Transfer</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>tooltip.meter-gas</source>
-        <target>#BASE_NAME# Gas Capacity</target>
-      </trans-unit>
-      <trans-unit id="5">
         <source>tooltip.</source>
         <target/>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="2">
         <source>tooltip.crystal</source>
         <target>Reset Crystal Transfer</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="3">
         <source>tooltip.meter-crystal</source>
         <target>#BASE_NAME# Crystal Capacity</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="4">
         <source>upsell.button</source>
         <target>WHAT'S A COLONY?</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="5">
         <source>error.nodepot</source>
         <target>#BASE_NAME# DOES NOT HAVE A SUPPLY DEPOT.</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="6">
         <source>tooltip.uranium</source>
         <target>Reset Uranium Transfer</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="7">
         <source>tooltip.meter-uranium</source>
         <target>#BASE_NAME# Uranium Capacity</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="8">
         <source>resources-title</source>
         <target>SEND RESOURCES</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="9">
+        <source>tooltip.energy</source>
+        <target>Reset Energy Transfer</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>tooltip.meter-energy</source>
+        <target>#BASE_NAME# Energy Capacity</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>tooltip.gas</source>
+        <target>Reset Gas Transfer</target>
+      </trans-unit>
+      <trans-unit id="12">
         <source>base1</source>
         <target>BASE A:</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="13">
         <source>base2</source>
         <target>BASE B:</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="14">
         <source>upsell</source>
         <target>This feature allows you to transfer resources between bases.&lt;br /&gt;&lt;br /&gt;To use this feature, you need a Colony with a Supply Depot.</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>tooltip.meter-gas</source>
+        <target>#BASE_NAME# Gas Capacity</target>
       </trans-unit>
     </body>
   </file>

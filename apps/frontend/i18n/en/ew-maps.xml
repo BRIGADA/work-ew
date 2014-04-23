@@ -5,40 +5,40 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>tournamentdialog.time</source>
-        <target>Tournament Time Remaining:</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>alliancetournamentdialog.time</source>
         <target>Tournament time remaining:</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>tournamentdialog.subtitle</source>
         <target>PLAYER TOURNAMENT</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="3">
         <source>tournamentdialog.desc</source>
         <target>Show Cerulea IV who the real Commander is by competing in our player tournament.&lt;br /&gt;&lt;br /&gt;The Player with the highest map score at the end of the tournament will win great prizes!</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="4">
         <source>alliancetournamentdialog.ruleslink-text</source>
         <target>here&gt;&gt;</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="5">
         <source>tournamentdialog.title</source>
         <target>MAP TOURNAMENTS</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="6">
         <source>tournamentdialog.rules</source>
         <target>Full rules and prize list can be found  #HERE#</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="7">
         <source>tournamentdialog.ruleslink</source>
         <target>http://community.kabam.com/forums/showthread.php?90955-New-Feature-Tournament-Maps!</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="8">
         <source>alliancetournamentdialog.subtitle</source>
         <target>ALLIANCE TOURNAMENT</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>tournamentdialog.time</source>
+        <target>Tournament Time Remaining:</target>
       </trans-unit>
       <trans-unit id="10">
         <source>alliancetournamentdialog.desc</source>

@@ -5,32 +5,32 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>key.title</source>
-        <target>Key Needed</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>shields.title</source>
         <target>Defend Yourself!</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>namechange.description</source>
         <target>Want to change your name?</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="3">
         <source>namechange.title</source>
         <target>Identity Theft</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="4">
         <source>shields.description</source>
         <target>Protect your resources, protect yourself.</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="5">
         <source>resourceboosts.description</source>
         <target>Saving up? Generate resources faster!</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="6">
         <source>combatboosts.title</source>
         <target>Combat Boosts!</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>key.title</source>
+        <target>Key Needed</target>
       </trans-unit>
       <trans-unit id="8">
         <source>key.description</source>

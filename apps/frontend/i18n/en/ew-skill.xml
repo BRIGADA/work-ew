@@ -5,28 +5,28 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>empgrenade.unlock</source>
-        <target>At level 10, click and hold to unleash a wider blast!</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>aoedamage.unlock</source>
         <target>At level 10 click and hold to charge detonation and deal massive damage to a larger area</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>overdrive.unlock</source>
         <target>At level 10, you can target where you want to activate this buff!</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="3">
         <source>teleport.unlock</source>
         <target>At level 10 click and hold to teleport General and surrounding troops</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="4">
         <source>magneticshielding.unlock</source>
         <target>At level 10, you can target where you want to activate this buff!</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="5">
         <source>aoeheal.unlock</source>
         <target>At level 10 click and hold to provide massive heal to more troops</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>empgrenade.unlock</source>
+        <target>At level 10, click and hold to unleash a wider blast!</target>
       </trans-unit>
       <trans-unit id="7">
         <source>magneticshielding.powerlabel</source>

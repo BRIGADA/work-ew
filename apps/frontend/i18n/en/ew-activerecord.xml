@@ -5,88 +5,88 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>errors.models.battle-token.insufficient-level-for-online-attacking</source>
-        <target>Sorry, Commander. You need to be at least Level 10 to attack an online player.</target>
-      </trans-unit>
-      <trans-unit id="2">
         <source>errors.models.store-purchase.cannot-buy-multiple-aurora-one-schematics</source>
         <target>You already own the Aurora-1 Schematic.</target>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>errors.models.outpost-base-battle-token.player-not-of-sufficient-level</source>
         <target>Sorry Commander, your level is too low to attack this base.</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="3">
         <source>errors.models.alliance-membership.no-longer-exists</source>
         <target>Sorry, your invitation to this alliance has been revoked.  You will need to receive a new invitation.</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="4">
         <source>errors.models.simulation-token.player-already-simulating</source>
         <target>You are already running a Simulation.</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="5">
         <source>errors.models.store-purchase.cannot-buy-multiple-permanent-boosts</source>
         <target>You already have this &lt;b&gt;permanent&lt;/b&gt; boost!  Put it to work on your enemies!</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="6">
         <source>attributes.alliance.name-activerecord.errors.models.alliance.taken</source>
         <target>Name or description is invalid.</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="7">
         <source>errors.models.alliance-membership.already-requested-membership</source>
         <target>You have already been invited to or requested to join this alliance.</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="8">
         <source>errors.models.battle-token.defender-under-attack</source>
         <target>Sorry, Commander.  This base is already under attack</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="9">
         <source>errors.models.player-used-item.equipment-cap-reached</source>
         <target>Commander, your equipment cap has been reached.  Please delete some parts in the Engineering Lab to keep opening these boxes.</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="10">
         <source>errors.models.suspension</source>
         <target>Your account has been suspended for #DAYS# day(s). Please contact support via the Help or Support link above for more information.</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="11">
         <source>errors.models.player.insufficient-space</source>
         <target>Your Engineering Lab inventory is full.</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="12">
         <source>errors.models.alliance.cooling-down</source>
         <target>Alliance regulations require a 72-hour cooldown period before you can create another new Alliance. Please try again later. </target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="13">
         <source>attributes.alliance.name-activerecord.errors.models.alliance.too-short</source>
         <target>Name or description is invalid.</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="14">
         <source>errors.models.outpost-base-battle-token.attacker-already-attacking</source>
         <target>You can't attack this outpost yet.  Please wait 6 minutes and try again.</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="15">
         <source>errors.models.battle-token.player-not-of-sufficient-level</source>
         <target>Error: Your level is not high enough for this Simulation!</target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="16">
         <source>errors.models.battle-token.attacker-already-attacking</source>
         <target>You attacked another player but didn't end the battle. Please wait 6 minutes and try again.</target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="17">
         <source>errors.models.faction-battle.too-many-troops-deployed</source>
         <target>Commander, you deployed more troops than you should. Please contact EW customer service.</target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="18">
         <source>errors.models.faction-base-battle-token.attacker-already-attacking</source>
         <target>Sorry Commander.  You have already commenced an attack on a faction base. Faction warps will be available again in 5 minutes.</target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="19">
         <source>errors.models.faction-battle.more-damage-than-troops-could-inflict</source>
         <target>Commander, you caused much more damage than your troops could deal. Please contact EW customer service.</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="20">
         <source>errors.models.alliance-membership.membership-in-cooldown-period</source>
         <target>Alliance regulations require a 72-hour cooldown period before you can rejoin your previous Alliance. Please try again later.</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>errors.models.battle-token.insufficient-level-for-online-attacking</source>
+        <target>Sorry, Commander. You need to be at least Level 10 to attack an online player.</target>
       </trans-unit>
       <trans-unit id="22">
         <source>errors.models.store-purchase.sale-not-valid</source>

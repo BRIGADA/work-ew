@@ -17,10 +17,21 @@ class storeActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->result = Doctrine::getTable('Store')
-            ->createQuery('s')
-            ->leftJoin('s.item i')
-            ->execute();
+        $r = $this->getUser()->RGET('/api/player');
+        $this->forwardUnless($r, 'common', 'index');
+
+        $data = json_decode($r, true);
+        
+        $this->items = $data['response']['items'];
+        
+        $this->bases = array();
+        $this->bases[] = array('id' => $data['response']['base']['id'], 'name' => $data['response']['base']['name']);
+        foreach ($data['response']['colonies'] as $colony) {
+            $this->bases[] = array('id' => $colony['id'], 'name' => $colony['name']);
+        }
+        
+//        $this->manifest_items = ItemTable::getInstance()->createQuery('INDEXBY type')->fetchArray();
+//        $this->manifest_store = StoreTable::getInstance()->createQuery()->fetchArray();
   }
   
 }

@@ -5,57 +5,57 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>results.lose.description</source>
-        <target>You didn't win this time. Here's a consolation prize for your efforts! 
-Try again to win Zoot's Jackpot!!</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>results.title.win</source>
-        <target>WIN</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>tooltip.fail</source>
-        <target>Don't land on this or else the game is over!</target>
-      </trans-unit>
-      <trans-unit id="4">
         <source>results.title.bonuswon</source>
         <target>WINNER!</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="2">
         <source>tile.jackpot</source>
         <target>Jackpot</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="3">
         <source>results.description.claim</source>
         <target>Congratulations on this awesome prize!</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="4">
         <source>tooltip.jackpot</source>
         <target>Land on this for Zoot's Jackpot!</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="5">
+        <source>results.title.win</source>
+        <target>WIN</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>tooltip.fail</source>
+        <target>Don't land on this or else the game is over!</target>
+      </trans-unit>
+      <trans-unit id="7">
         <source>tooltip.bonusplay</source>
         <target>Land on this for the Platinum Round!</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="8">
         <source>tooltip.bonusround</source>
         <target>Platinum Round!</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="9">
         <source>gametitle</source>
         <target>Zoot's Jackpot</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="10">
         <source>results.lose.title</source>
         <target>TRY AGAIN</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="11">
         <source>dialog.help</source>
         <target>HELP</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="12">
         <source>results.title.claim</source>
         <target>CLAIMED</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>results.lose.description</source>
+        <target>You didn't win this time. Here's a consolation prize for your efforts! 
+Try again to win Zoot's Jackpot!!</target>
       </trans-unit>
     </body>
   </file>

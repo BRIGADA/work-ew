@@ -5,27 +5,27 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>tenmu-gift.name</source>
-        <target/>
-      </trans-unit>
-      <trans-unit id="2">
         <source>recover-the-cerulean-core.description</source>
         <target/>
       </trans-unit>
-      <trans-unit id="3">
+      <trans-unit id="2">
         <source>recover-the-cerulean-core.name</source>
         <target/>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="3">
         <source>tenmu-gift.objectives</source>
         <target/>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="4">
         <source>recover-the-scarbide-ingot.objectives</source>
         <target/>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="5">
         <source>recover-the-scarbide-ingot.description</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>tenmu-gift.name</source>
         <target/>
       </trans-unit>
     </body>

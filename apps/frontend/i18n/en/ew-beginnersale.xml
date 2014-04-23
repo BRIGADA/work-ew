@@ -5,68 +5,68 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>deal.speedups</source>
-        <target>Speed Ups</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>mobile.deal.sale.price</source>
-        <target>in bonus items!</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>deal.item1-viximo</source>
-        <target>1x Zoot Token</target>
-      </trans-unit>
-      <trans-unit id="4">
         <source>deal.endtitle</source>
         <target>One time only deal ends in:</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="2">
         <source>deal.zoottokens</source>
         <target>Zoot Tokens</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="3">
         <source>title</source>
         <target>BEGINNERS SALE!</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="4">
         <source>mobile.deal.credits</source>
         <target>Over 500 Platinum</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="5">
         <source>deal.sale.price-viximo</source>
         <target>32 CREDITS</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="6">
         <source>deal.bonus</source>
         <target>Get over 500 platinum in bonus items!</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="7">
         <source>deal.sale.price</source>
         <target>ON PLATINUM!</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="8">
         <source>platinumlabel</source>
         <target/>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="9">
         <source>deal.original.price</source>
         <target>$50.00</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="10">
+        <source>deal.item1-viximo</source>
+        <target>1x Zoot Token</target>
+      </trans-unit>
+      <trans-unit id="11">
         <source>deal.resources</source>
         <target>Powerful Tanks</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="12">
         <source>deal.credits</source>
         <target>GET 50% OFF</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="13">
         <source>deal.item2-viximo</source>
         <target>1x 15-min Speed Up</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="14">
         <source>deal.combatboosts</source>
         <target>Combat Boosts</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>deal.speedups</source>
+        <target>Speed Ups</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>mobile.deal.sale.price</source>
+        <target>in bonus items!</target>
       </trans-unit>
     </body>
   </file>

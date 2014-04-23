@@ -5,298 +5,298 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>slides.welcome.desc2</source>
-        <target>From here, we can really take the fight to the Maar.</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>slides.welcome.desc3</source>
-        <target>First, build out your base and gain access to:</target>
-      </trans-unit>
-      <trans-unit id="3">
         <source>slides.welcome.desc</source>
         <target>Excellent work on establishing your first Colony, Commander!</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="2">
         <source>slides.upsell.where</source>
         <target>Where can I get it?</target>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="3">
         <source>slide.title</source>
         <target>COLONIES</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="4">
         <source>slides.warp.bullet1</source>
         <target>&#x2022; Three extra warps</target>
       </trans-unit>
-      <trans-unit id="7">
+      <trans-unit id="5">
         <source>slides.warp.bullet2</source>
         <target>&#x2022; Troop Transfer</target>
       </trans-unit>
-      <trans-unit id="8">
+      <trans-unit id="6">
         <source>slides.upsell.title</source>
         <target>THE AURORA-1 COLONY</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="7">
         <source>slides.welcome.bullet1</source>
         <target>&#x2022; New Structures</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="8">
         <source>slides.welcome.bullet2</source>
         <target>&#x2022; New Units</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="9">
         <source>slides.welcome.bullet3</source>
         <target>&#x2022; Advanced Weaponry</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="10">
         <source>slides.upsell.summary</source>
         <target>REQUIREMENTS</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="11">
         <source>slides.upsell.subtitle</source>
         <target>AURORA-1 SCHEMATIC</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="12">
         <source>slides.rhino.desc</source>
         <target>The 'Bomba' is a heavily armoured unit, capable of absorbing high levels of damage and dealing it too.</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="13">
         <source>slides.upsell.bullet1</source>
         <target>- Included in Aurora-1 kits</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="14">
         <source>slides.upsell.bullet2</source>
         <target>- As a loot drop from defeating Maar bases</target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="15">
         <source>slides.upsell.reqs</source>
         <target>REQUIREMENTS</target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="16">
         <source>slides.schematic.dialog-title</source>
         <target>LOOT FOUND</target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="17">
         <source>slides.upsell.title-shield</source>
         <target>SHIELD GENERATOR</target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="18">
         <source>slides.caldera.upsell.store-desc</source>
         <target>Get you Caldera-2 schematic here!</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="19">
         <source>slides.warp.desc</source>
         <target>Build an extra warp gate to enable extra attacks and give the ability to transfer troops between your bases.</target>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="20">
         <source>slides.caldera.unit.title</source>
         <target>BATTLE CRUISER</target>
       </trans-unit>
-      <trans-unit id="23">
+      <trans-unit id="21">
         <source>slides.shield.desc2</source>
         <target>If destroyed, the energy field is dropped, and bonuses lost until you rebuild.</target>
       </trans-unit>
-      <trans-unit id="24">
+      <trans-unit id="22">
         <source>slides.shield.desc3</source>
         <target>Guard this building at all costs!</target>
       </trans-unit>
-      <trans-unit id="25">
+      <trans-unit id="23">
         <source>slides.caldera.unit.desc1</source>
         <target>An advanced Battle Ship capable of dealing massive damage to multiple targets.
 </target>
       </trans-unit>
-      <trans-unit id="26">
+      <trans-unit id="24">
         <source>slides.rhino.bullet1</source>
         <target>&#x2022; High hit points</target>
       </trans-unit>
-      <trans-unit id="27">
+      <trans-unit id="25">
         <source>slides.rhino.bullet2</source>
         <target>&#x2022; Powerful final attack</target>
       </trans-unit>
-      <trans-unit id="28">
+      <trans-unit id="26">
         <source>slides.schematic.button</source>
         <target>GO TO COLONY</target>
       </trans-unit>
-      <trans-unit id="29">
+      <trans-unit id="27">
         <source>slides.aurora-one.upsell.item-title</source>
         <target>AURORA-1 SCHEMATIC</target>
       </trans-unit>
-      <trans-unit id="30">
+      <trans-unit id="28">
         <source>slides.rhino.desc2</source>
         <target>The Bomba's weaponry is highly volatile and has been known to explode if the unit is killed...</target>
       </trans-unit>
-      <trans-unit id="31">
+      <trans-unit id="29">
         <source>slides.aurora-one.upsell.store-title</source>
         <target>Get Aurora-1</target>
       </trans-unit>
-      <trans-unit id="32">
+      <trans-unit id="30">
         <source>slides.caldera.schematic.desc1</source>
         <target>Excellent work, Commander! You have acquired the schematic for the Caldera-2 Colony Command Center!</target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="31">
         <source>slides.caldera.schematic.desc2</source>
         <target>Expand your empire with advanced new weaponry on Caldera-2 NOW!</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="32">
         <source>slides.upsell.title-welcome</source>
         <target>WELCOME TO AURORA-1</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="33">
         <source>slides.aurora-one.upsell.store-desc</source>
         <target>Get your Aurora-1 schematic here!</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="34">
         <source>slides.common.warp.bullet1</source>
         <target>&#x2022; Three extra warps</target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="35">
         <source>slides.common.warp.bullet2</source>
         <target>&#x2022; Troop Transfer</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="36">
         <source>slides.common.welcome.content-title</source>
         <target>PROGRESS</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="37">
         <source>slides.schematic.title</source>
         <target>AURORA-1 SCHEMATIC</target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="38">
         <source>slides.schematic.desc1</source>
         <target>Excellent work, Commander! You have acquired the schematic for the Aurora-1 Colony Command Center!</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="39">
         <source>slides.schematic.desc2</source>
         <target>Expand your empire with advanced new weaponry on Aurora-1 NOW!</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="40">
         <source>slides.aurora-one.upsell.bullet1</source>
         <target>- Included in Aurora-1 kits</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="41">
         <source>slides.aurora-one.upsell.bullet2</source>
         <target>- As a loot drop from defeating Maar bases</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="42">
         <source>slides.common.warp.title</source>
         <target>EXTRA WARP GATE</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="43">
         <source>slides.common.warp.desc1</source>
         <target>Build an extra warp gate to enable extra attacks and give the ability to transfer troops between your bases.</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="44">
         <source>slides.caldera.building.bullet1</source>
         <target>&#x2022; Increases turret health and damage</target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="45">
         <source>slides.caldera.upsell.store-title</source>
         <target>Get Caldera-2</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="46">
         <source>slides.caldera.building.title</source>
         <target>TURRET CONTROL</target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="47">
         <source>slides.caldera.upsell.title</source>
         <target>THE CALDERA-2 COLONY</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="48">
         <source>slides.caldera.building.desc1</source>
         <target>The Turret Control enables defensive satellite uplink with your Headquarters so that the more powerful all colony Turrets grow, the more powerful your main base Turrets will become.
 </target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="49">
         <source>slides.common.upsell.content-title</source>
         <target>REQUIREMENTS</target>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="50">
         <source>slides.caldera.unit.bullet1</source>
         <target>&#x2022; Very high hit points</target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="51">
         <source>slides.caldera.unit.bullet2</source>
         <target>&#x2022; Hit multiple targets</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="52">
         <source>slides.common.welcome.desc1</source>
         <target>Excellent work on establishing another colony, Commander!</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="53">
         <source>slides.common.welcome.desc2</source>
         <target>First, build out your base and gain access to:</target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="54">
         <source>slides.aurora-one.welcome.desc1</source>
         <target>Excellent work on establishing your first Colony, Commander!</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="55">
         <source>slides.aurora-one.welcome.desc2</source>
         <target>From here, we can really take the fight to the Maar.</target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="56">
         <source>slides.aurora-one.welcome.desc3</source>
         <target>First, build out your base and gain access to:</target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="57">
         <source>slides.upsell.title-rhino</source>
         <target>BOMBA</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="58">
         <source>slides.upsell.title-warp</source>
         <target>WARP GATE NO. 2</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="59">
         <source>slides.common.content-title</source>
         <target>BENEFITS</target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="60">
         <source>slides.upsell.button</source>
         <target>STORE</target>
       </trans-unit>
-      <trans-unit id="63">
+      <trans-unit id="61">
         <source>slides.aurora-one.schematic.desc1</source>
         <target>Excellent work, Commander! You have acquired the schematic for the Aurora-1 Colony Command Center!</target>
       </trans-unit>
-      <trans-unit id="64">
+      <trans-unit id="62">
         <source>slides.aurora-one.schematic.desc2</source>
         <target>Expand your empire with advanced new weaponry on Aurora-1 NOW!</target>
       </trans-unit>
-      <trans-unit id="65">
+      <trans-unit id="63">
         <source>slides.aurora-one.building.title</source>
         <target>SHIELD GENERATOR</target>
       </trans-unit>
-      <trans-unit id="66">
+      <trans-unit id="64">
         <source>slides.shield.desc</source>
         <target>The shield generator will give an impressive boost to your buildings and defensive turrets.</target>
       </trans-unit>
-      <trans-unit id="67">
+      <trans-unit id="65">
         <source>slides.aurora-one.building.desc1</source>
         <target>The shield generator will give an impressive boost to your buildings and defensive turrets.</target>
       </trans-unit>
-      <trans-unit id="68">
+      <trans-unit id="66">
         <source>slides.aurora-one.building.desc2</source>
         <target>If destroyed, the energy field is dropped, and bonuses lost until you rebuild.</target>
       </trans-unit>
-      <trans-unit id="69">
+      <trans-unit id="67">
         <source>slides.aurora-one.building.desc3</source>
         <target>Guard this building at all costs!</target>
       </trans-unit>
-      <trans-unit id="70">
+      <trans-unit id="68">
         <source>slides.shield.bullet1</source>
         <target>&#x2022; Increases building and troop health</target>
       </trans-unit>
-      <trans-unit id="71">
+      <trans-unit id="69">
         <source>slides.welcom.summary</source>
         <target>PROGRESS</target>
       </trans-unit>
-      <trans-unit id="72">
+      <trans-unit id="70">
         <source>slides.common.summary</source>
         <target>BENEFITS</target>
       </trans-unit>
-      <trans-unit id="73">
+      <trans-unit id="71">
         <source>slides.aurora-one.building.bullet1</source>
         <target>&#x2022; Increases building and troop health</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>slides.welcome.desc2</source>
+        <target>From here, we can really take the fight to the Maar.</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>slides.welcome.desc3</source>
+        <target>First, build out your base and gain access to:</target>
       </trans-unit>
       <trans-unit id="74">
         <source>slides.aurora-one.upsell.title</source>

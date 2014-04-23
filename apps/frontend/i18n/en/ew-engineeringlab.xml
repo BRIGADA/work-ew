@@ -5,288 +5,288 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>addpart</source>
-        <target>ADD A PART</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>multideleteprompt</source>
-        <target>Select the parts you'd like to delete.</target>
-      </trans-unit>
-      <trans-unit id="3">
-        <source>partsdescription</source>
-        <target>View all Parts in inventory, repair damaged or broken Parts, upgrade Parts or destroy unwanted Parts. Collect Parts from victorious Defense Simulations.</target>
-      </trans-unit>
-      <trans-unit id="4">
-        <source>partinactive</source>
-        <target>PART INACTIVE WHEN BROKEN</target>
-      </trans-unit>
-      <trans-unit id="5">
-        <source>repair</source>
-        <target>Repair</target>
-      </trans-unit>
-      <trans-unit id="6">
-        <source>upgrade.breakprotection</source>
-        <target>Break Protection</target>
-      </trans-unit>
-      <trans-unit id="7">
-        <source>health</source>
-        <target>Health</target>
-      </trans-unit>
-      <trans-unit id="8">
         <source>upgradefail</source>
         <target>Upgrade Failed!</target>
       </trans-unit>
-      <trans-unit id="9">
+      <trans-unit id="2">
         <source>enhancebutton</source>
         <target>Enhance</target>
       </trans-unit>
-      <trans-unit id="10">
+      <trans-unit id="3">
         <source>tags.armor</source>
         <target>Armor</target>
       </trans-unit>
-      <trans-unit id="11">
+      <trans-unit id="4">
         <source>repairall</source>
         <target>REPAIR ALL</target>
       </trans-unit>
-      <trans-unit id="12">
+      <trans-unit id="5">
         <source>enhance</source>
         <target>Enhancements</target>
       </trans-unit>
-      <trans-unit id="13">
+      <trans-unit id="6">
         <source>upgrade</source>
         <target>Upgrade</target>
       </trans-unit>
-      <trans-unit id="14">
+      <trans-unit id="7">
         <source>sortcommon</source>
         <target>Commons</target>
       </trans-unit>
-      <trans-unit id="15">
+      <trans-unit id="8">
         <source>destroywarning</source>
         <target>Commander, if you destroy this item, it will be obliterated into space dust forever.&lt;br /&gt;&lt;br /&gt;Are you sure you want to destroy it?</target>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="9">
         <source>equipinstructions</source>
         <target>Which turret class would you like to equip that to, Commander?</target>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="10">
         <source>destroy</source>
         <target>Destroy</target>
       </trans-unit>
-      <trans-unit id="18">
+      <trans-unit id="11">
         <source>itembroken</source>
         <target>ITEM BROKEN</target>
       </trans-unit>
-      <trans-unit id="19">
+      <trans-unit id="12">
         <source>tags.piercingammo</source>
         <target>Piercing Ammo</target>
       </trans-unit>
-      <trans-unit id="20">
+      <trans-unit id="13">
         <source>twoenhancementwarning</source>
         <target>Parts can only have two active Tokens.</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="14">
         <source>equipdescription</source>
         <target>Equip Turrets with Parts to increase their stats and unlock special abilities. Collect Parts from victorious Defense Simulations.</target>
       </trans-unit>
-      <trans-unit id="22">
+      <trans-unit id="15">
         <source>repairing</source>
         <target>PART REPAIRING</target>
       </trans-unit>
-      <trans-unit id="23">
+      <trans-unit id="16">
         <source>upgradesuccess</source>
         <target>Upgrade Successful!</target>
       </trans-unit>
-      <trans-unit id="24">
+      <trans-unit id="17">
         <source>sortrare</source>
         <target>Rares</target>
       </trans-unit>
-      <trans-unit id="25">
+      <trans-unit id="18">
         <source>tags.liquidcoolant</source>
         <target>Liquid Coolants</target>
       </trans-unit>
-      <trans-unit id="26">
+      <trans-unit id="19">
         <source>selectbuilding</source>
         <target>Select a Building</target>
       </trans-unit>
-      <trans-unit id="27">
+      <trans-unit id="20">
         <source>inventorysize</source>
         <target>Inventory Size</target>
       </trans-unit>
-      <trans-unit id="28">
+      <trans-unit id="21">
         <source>brokenpartwarning</source>
         <target>Warning! Failed upgrades will result in broken parts!</target>
       </trans-unit>
-      <trans-unit id="29">
+      <trans-unit id="22">
         <source>tags.scope</source>
         <target>Scopes</target>
       </trans-unit>
-      <trans-unit id="30">
+      <trans-unit id="23">
         <source>upgrade.lowchance</source>
         <target>20x Chance Increase</target>
       </trans-unit>
-      <trans-unit id="31">
+      <trans-unit id="24">
         <source>repairing2</source>
         <target>Repairing</target>
       </trans-unit>
-      <trans-unit id="32">
+      <trans-unit id="25">
         <source>unequipconfirmation.twoenhancements</source>
         <target>Resetting a Part will remove all of its active Tokens.  The following Tokens will be added back to your inventory:&lt;br&gt;&lt;br&gt;&lt;span class="yellow"&gt;#ENHANCEMENT_0#&lt;/span&gt;&lt;br&gt;&lt;span class="yellow"&gt;#ENHANCEMENT_1#&lt;/span&gt;&lt;br&gt;&lt;br&gt;Are you sure you want to reset this part?</target>
       </trans-unit>
-      <trans-unit id="33">
+      <trans-unit id="26">
         <source>turretlocked</source>
         <target>That turret class hasn't been unlocked yet!  Upgrade your Engineering Lab to unlock more equippable turrets!</target>
       </trans-unit>
-      <trans-unit id="34">
+      <trans-unit id="27">
         <source>dialogtitle</source>
         <target>Engineering Lab</target>
       </trans-unit>
-      <trans-unit id="35">
+      <trans-unit id="28">
         <source>upgrade.highchance</source>
         <target>60x Chance Increase</target>
       </trans-unit>
-      <trans-unit id="36">
+      <trans-unit id="29">
         <source>partenhanced</source>
         <target>Part Enhanced!</target>
       </trans-unit>
-      <trans-unit id="37">
+      <trans-unit id="30">
         <source>equippedtokens</source>
         <target>Equipped Tokens</target>
       </trans-unit>
-      <trans-unit id="38">
+      <trans-unit id="31">
         <source>speed.repairing</source>
         <target>Part Repairing.</target>
       </trans-unit>
-      <trans-unit id="39">
+      <trans-unit id="32">
         <source>unenhance</source>
         <target>Unenhance</target>
       </trans-unit>
-      <trans-unit id="40">
+      <trans-unit id="33">
         <source>upgrade.guaranteed.16</source>
         <target>Black Market Patch</target>
       </trans-unit>
-      <trans-unit id="41">
+      <trans-unit id="34">
         <source>upgrade.guaranteed.17</source>
         <target>Black Market Patch</target>
       </trans-unit>
-      <trans-unit id="42">
+      <trans-unit id="35">
         <source>tabs.crafting</source>
         <target>Craft</target>
       </trans-unit>
-      <trans-unit id="43">
+      <trans-unit id="36">
         <source>sortbroken</source>
         <target>Broken</target>
       </trans-unit>
-      <trans-unit id="44">
+      <trans-unit id="37">
         <source>autoupgrade</source>
         <target>SETUP AUTO UPGRADE</target>
       </trans-unit>
-      <trans-unit id="45">
+      <trans-unit id="38">
         <source>tags.dualbarrels</source>
         <target>Dual Barrels</target>
       </trans-unit>
-      <trans-unit id="46">
+      <trans-unit id="39">
         <source>speed</source>
         <target>Speed</target>
       </trans-unit>
-      <trans-unit id="47">
+      <trans-unit id="40">
         <source>speed.damaged</source>
         <target>Part is damaged.</target>
       </trans-unit>
-      <trans-unit id="48">
+      <trans-unit id="41">
         <source>otherpartrepairing</source>
         <target>Repair Queue Active. You may only repair one part at at time.</target>
       </trans-unit>
-      <trans-unit id="49">
+      <trans-unit id="42">
+        <source>addpart</source>
+        <target>ADD A PART</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>multideleteprompt</source>
+        <target>Select the parts you'd like to delete.</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>partsdescription</source>
+        <target>View all Parts in inventory, repair damaged or broken Parts, upgrade Parts or destroy unwanted Parts. Collect Parts from victorious Defense Simulations.</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>partinactive</source>
+        <target>PART INACTIVE WHEN BROKEN</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>repair</source>
+        <target>Repair</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>upgrade.breakprotection</source>
+        <target>Break Protection</target>
+      </trans-unit>
+      <trans-unit id="48">
         <source>unequipconfirmation.oneenhancement</source>
         <target>Resetting a Part will remove all of its active Tokens.  The following Token will be added back to your inventory:&lt;br&gt;&lt;br&gt;&lt;span class="yellow"&gt;#ENHANCEMENT_0#&lt;/span&gt;&lt;br&gt;&lt;br&gt;Are you sure you want to reset this part?</target>
       </trans-unit>
-      <trans-unit id="50">
+      <trans-unit id="49">
         <source>unequip</source>
         <target>Unequip</target>
       </trans-unit>
-      <trans-unit id="51">
+      <trans-unit id="50">
         <source>enhanceinstructions</source>
         <target>The effect of a Token is based on the level of the Part.  Higher level Parts receive a greater boost.</target>
       </trans-unit>
-      <trans-unit id="52">
+      <trans-unit id="51">
         <source>concussion</source>
         <target>Concussion Effect</target>
       </trans-unit>
-      <trans-unit id="53">
+      <trans-unit id="52">
         <source>tabs.parts</source>
         <target>PARTS</target>
       </trans-unit>
-      <trans-unit id="54">
+      <trans-unit id="53">
         <source>tags.explosiveammo</source>
         <target>Explosive Ammo</target>
       </trans-unit>
-      <trans-unit id="55">
+      <trans-unit id="54">
         <source>buildmenu</source>
         <target>View Equipment</target>
       </trans-unit>
-      <trans-unit id="56">
+      <trans-unit id="55">
         <source>unenhanceinstruction</source>
         <target>Unenhance Part to add different Tokens.</target>
       </trans-unit>
-      <trans-unit id="57">
+      <trans-unit id="56">
         <source>broken</source>
         <target>PART BROKEN!</target>
       </trans-unit>
-      <trans-unit id="58">
+      <trans-unit id="57">
         <source>tabs.equip</source>
         <target>Equip</target>
       </trans-unit>
-      <trans-unit id="59">
+      <trans-unit id="58">
         <source>nopart</source>
         <target>No part equipped</target>
       </trans-unit>
-      <trans-unit id="60">
+      <trans-unit id="59">
         <source>activepart</source>
         <target>ACTIVE PART</target>
       </trans-unit>
-      <trans-unit id="61">
+      <trans-unit id="60">
         <source>upgrade.guaranteed</source>
         <target>Guaranteed Upgrade</target>
       </trans-unit>
-      <trans-unit id="62">
+      <trans-unit id="61">
         <source>noinventory</source>
         <target>Commander, you do not own any upgrade parts.&lt;br /&gt;Parts are rewarded at the end of successful defense simulation battles.</target>
       </trans-unit>
-      <trans-unit id="63">
+      <trans-unit id="62">
         <source>requirements</source>
         <target>Requirements</target>
       </trans-unit>
-      <trans-unit id="64">
+      <trans-unit id="63">
         <source>repaircomplete</source>
         <target>Part Repaired</target>
       </trans-unit>
-      <trans-unit id="65">
+      <trans-unit id="64">
         <source>multideleteprompt.complete</source>
         <target>Parts have been removed from your inventory!</target>
       </trans-unit>
-      <trans-unit id="66">
+      <trans-unit id="65">
         <source>back</source>
         <target>Back</target>
       </trans-unit>
-      <trans-unit id="67">
+      <trans-unit id="66">
         <source>tags.allparts</source>
         <target>All Parts</target>
       </trans-unit>
-      <trans-unit id="68">
+      <trans-unit id="67">
         <source>unlocksat</source>
         <target>Requires Level #LEVEL# #BUILDING#</target>
       </trans-unit>
-      <trans-unit id="69">
+      <trans-unit id="68">
         <source>sortsmart</source>
         <target>Smart Parts</target>
       </trans-unit>
-      <trans-unit id="70">
+      <trans-unit id="69">
         <source>partmaxed</source>
         <target>Part Maxed</target>
       </trans-unit>
-      <trans-unit id="71">
+      <trans-unit id="70">
         <source>upgradechance</source>
         <target>Upgrade Chance</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>health</source>
+        <target>Health</target>
       </trans-unit>
     </body>
   </file>

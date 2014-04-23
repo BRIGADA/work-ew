@@ -5,28 +5,28 @@
     <header/>
     <body>
       <trans-unit id="1">
-        <source>attack-level-too-low</source>
-        <target>You must be level #LEVEL# to attack this player.</target>
-      </trans-unit>
-      <trans-unit id="2">
-        <source>same-player</source>
-        <target>Upgrade this outpost from the map.</target>
-      </trans-unit>
-      <trans-unit id="3">
         <source>same-alliance</source>
         <target>Upgrade this outpost from the map.</target>
       </trans-unit>
-      <trans-unit id="4">
+      <trans-unit id="2">
         <source>alliance-member</source>
         <target/>
       </trans-unit>
-      <trans-unit id="5">
+      <trans-unit id="3">
         <source>level-up</source>
         <target>Gain a few levels and try again</target>
       </trans-unit>
-      <trans-unit id="6">
+      <trans-unit id="4">
+        <source>same-player</source>
+        <target>Upgrade this outpost from the map.</target>
+      </trans-unit>
+      <trans-unit id="5">
         <source>train-troops</source>
         <target>Train some troops in your Factory and Barracks.</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>attack-level-too-low</source>
+        <target>You must be level #LEVEL# to attack this player.</target>
       </trans-unit>
     </body>
   </file>
